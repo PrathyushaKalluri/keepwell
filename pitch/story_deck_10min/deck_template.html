@@ -175,6 +175,9 @@ svg .draw.go{stroke-dashoffset:0}
 .still .pane img{animation:none!important}
 @keyframes pagescroll2{0%,7%{transform:translateY(0)}90%,100%{transform:translateY(calc(-100% + 586px))}}
 .bframe{border:1px solid var(--line);border-radius:16px;overflow:hidden;background:#fff;box-shadow:0 18px 40px -24px rgba(14,35,64,.4)}
+.bframe[role=link]{cursor:pointer;transition:transform .3s var(--ease),box-shadow .3s}
+.bframe[role=link]:hover{transform:translateY(-4px);box-shadow:0 26px 50px -24px rgba(14,35,64,.55)}
+.bframe .opn{font:700 12px var(--sans);font-style:normal;color:var(--teal);background:#fff;border:1px solid #BFE3DA;border-radius:6px;padding:4px 9px;margin-left:6px;white-space:nowrap}
 .bbar{height:40px;background:#F1ECE2;display:flex;align-items:center;gap:7px;padding:0 14px;border-bottom:1px solid var(--line)}
 .bbar i{width:11px;height:11px;border-radius:50%;background:#D9CFBC}
 .bbar span{flex:1;margin-left:8px;background:#fff;border-radius:8px;font:500 14px var(--sans);color:var(--grey2);padding:6px 12px}
@@ -351,9 +354,9 @@ h1.t{text-wrap:balance;line-height:1.1;margin-bottom:22px}
       <div class="card a cst last" style="--i:7"><div class="cn" style="background:var(--amber)">6</div><svg viewBox="0 0 48 48"><use href="#i-check"/></svg><b>The technician verifies the fix</b><span>the record updates · Circuit learns · we earn ₹40</span></div>
     </div>
     <div class="a" style="--i:4;flex:1">
-      <div class="bframe"><div class="bbar"><i></i><i></i><i></i><span>circuit-landing-page.netlify.app</span><em style="font:700 11px var(--sans);color:#fff;background:var(--teal);border-radius:6px;padding:3px 8px;font-style:normal">LIVE</em></div>
+      <div class="bframe" role="link" tabindex="0" title="Open the live site in a new tab" onclick="event.stopPropagation();window.open('https://circuit-landing-page.netlify.app/','_blank','noopener')"><div class="bbar"><i></i><i></i><i></i><span>circuit-landing-page.netlify.app</span><em class="opn">Open ↗</em><em style="font:700 11px var(--sans);color:#fff;background:var(--teal);border-radius:6px;padding:3px 8px;font-style:normal">LIVE</em></div>
       <div class="bwin" style="height:586px"><img src="media/landing_full.png" alt="" style="width:100%;display:block;animation:pagescroll2 32s ease-in-out infinite"></div></div>
-      <div style="font:500 15px var(--sans);color:var(--grey);margin-top:10px;text-align:center">The live Circuit site, scrolling end to end — what an agency owner sees</div>
+      <div style="font:500 15px var(--sans);color:var(--grey);margin-top:10px;text-align:center">The live Circuit site, scrolling end to end — click it to open the real site</div>
     </div>
   </div>
   <div class="a" style="--i:9;position:absolute;left:110px;right:110px;bottom:124px;display:flex;gap:10px;flex-wrap:wrap;align-items:center"><b style="font:700 14px var(--sans);letter-spacing:.12em;text-transform:uppercase;color:var(--grey)">Easy by design</b><span class="chip">📱 no new app</span><span class="chip">🗣 6 languages</span><span class="chip">🧾 set up in one visit</span><span class="chip">🎁 30 free days</span><span class="chip t">₹40 only per verified fix</span><span class="chip a">owner approves every quote</span></div>
