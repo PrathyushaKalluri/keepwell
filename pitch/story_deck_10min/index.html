@@ -1,0 +1,750 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Keepwell · 10-Minute Pitch</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Gelasio:ital,wght@0,500;0,600;0,700;1,500;1,600&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+:root{
+  --ink:#0E2340;--ink2:#26375A;--teal:#0F8C7A;--teal2:#16B39C;--tealbg:#E3F3EF;--amber:#E08A1E;--amberbg:#FCEFD9;
+  --red:#C2412D;--redbg:#F8E3DE;--cream:#FAF7F1;--paper:#FFFFFF;--grey:#8A93A6;--grey2:#5B667C;--line:#E6DFD2;
+  --serif:'Gelasio',Georgia,'Times New Roman',serif;--sans:'Inter',system-ui,-apple-system,'Segoe UI',sans-serif;
+  --ease:cubic-bezier(.22,1,.36,1)
+}
+*{box-sizing:border-box}
+html,body{margin:0;height:100%;background:#0A1322;overflow:hidden;font-family:var(--sans);-webkit-font-smoothing:antialiased}
+#stage{position:absolute;width:1920px;height:1080px;left:50%;top:50%;transform-origin:center center;overflow:hidden;background:var(--cream)}
+.slide{position:absolute;inset:0;padding:138px 110px 110px;opacity:0;visibility:hidden;transition:opacity .55s ease,visibility 0s .55s;color:var(--ink);background:var(--cream);overflow:hidden}
+.slide.on{opacity:1;visibility:visible;transition:opacity .55s ease}
+.slide.dark{background:radial-gradient(1200px 700px at 78% 18%,#1B3A66 0%,rgba(27,58,102,0) 60%),var(--ink);color:#fff}
+.slide.dark .eyebrow{color:var(--amber)} .slide.dark .lede{color:#C9D3E6}
+/* chrome */
+#hud{position:absolute;inset:0;pointer-events:none;z-index:40}
+.gnav{position:absolute;left:0;right:0;top:0;height:74px;display:flex;align-items:center;gap:26px;padding:0 56px;pointer-events:auto;transition:color .4s}
+.brand{display:flex;align-items:center;gap:12px;font:700 22px var(--serif);color:var(--ink);letter-spacing:.01em}
+.brand svg{width:30px;height:30px}
+.tabs{display:flex;gap:4px;margin-left:auto}
+.tabs span{font:600 13px var(--sans);letter-spacing:.06em;text-transform:uppercase;color:#9AA3B5;padding:8px 11px;border-radius:999px;cursor:pointer;transition:all .3s}
+.tabs span.cur{color:#fff;background:var(--ink)}
+#hud.ondark .brand{color:#fff} #hud.ondark .tabs span{color:#7F8DA8} #hud.ondark .tabs span.cur{background:var(--amber);color:#1b1206}
+.progress{position:absolute;left:0;right:0;top:0;height:4px;background:transparent}
+.progress i{display:block;height:100%;width:0;background:linear-gradient(90deg,var(--teal),var(--amber));transition:width .8s var(--ease)}
+.foot{position:absolute;left:110px;right:260px;bottom:30px;display:flex;justify-content:space-between;align-items:flex-end;font:500 14px var(--sans);color:var(--grey);pointer-events:none}
+.foot .src{max-width:1300px;line-height:1.4}
+.ctrl{position:absolute;right:40px;bottom:22px;display:flex;gap:8px;pointer-events:auto;opacity:.0;transition:opacity .3s}
+#stage:hover .ctrl{opacity:.9}
+.ctrl button{width:42px;height:42px;border-radius:50%;border:1px solid #C9C1B2;background:#fff;font:600 18px var(--sans);color:var(--ink);cursor:pointer}
+.pg{font:600 14px var(--sans);color:var(--grey);position:absolute;right:150px;bottom:33px}
+#hud.ondark .foot,#hud.ondark .pg{color:#7F8DA8}
+/* thread motif */
+.thread{position:absolute;left:0;bottom:70px;width:1920px;height:40px;pointer-events:none}
+.thread path{fill:none;stroke-width:3}
+.thread.broken path{stroke:var(--red);stroke-dasharray:18 14;opacity:.55}
+.thread.whole path{stroke:var(--teal);stroke-dasharray:2400;stroke-dashoffset:2400;transition:stroke-dashoffset 2.2s var(--ease) .3s;opacity:.7}
+.slide.on .thread.whole path{stroke-dashoffset:0}
+/* type */
+.eyebrow{font:700 16px var(--sans);letter-spacing:.2em;text-transform:uppercase;color:var(--amber)}
+h1.t{font:600 60px/1.08 var(--serif);margin:12px 0 16px;letter-spacing:-.012em;max-width:1500px}
+h1.t em{font-style:italic;color:var(--teal)} .slide.dark h1.t em{color:var(--teal2)}
+h1.t .r{color:var(--red)}
+.lede{font:400 25px/1.45 var(--sans);color:var(--grey2);max-width:1250px;margin:0}
+.serif{font-family:var(--serif)}
+.big{font:700 96px/1 var(--serif)}
+.tag{display:inline-block;font:700 12px var(--sans);letter-spacing:.12em;text-transform:uppercase;padding:6px 10px;border-radius:6px}
+.tag.real{background:var(--tealbg);color:var(--teal)} .tag.story{background:var(--amberbg);color:#9A5A08} .tag.red{background:var(--redbg);color:var(--red)}
+.card{background:var(--paper);border:1px solid var(--line);border-radius:18px;padding:26px 28px;box-shadow:0 10px 30px -18px rgba(14,35,64,.25)}
+.slide.dark .card{background:rgba(255,255,255,.06);border-color:rgba(255,255,255,.14);box-shadow:none}
+.chip{display:inline-flex;align-items:center;gap:8px;font:600 17px var(--sans);padding:10px 16px;border-radius:999px;background:#fff;border:1px solid var(--line);color:var(--ink)}
+.chip.t{background:var(--tealbg);border-color:#BFE3DA;color:#0B6B5D}
+.chip.a{background:var(--amberbg);border-color:#F2D3A2;color:#8A5208}
+.chip.r{background:var(--redbg);border-color:#EFC2B8;color:#9C321F}
+.row{display:flex;gap:28px} .col{display:flex;flex-direction:column;gap:18px}
+.grid{display:grid;gap:22px}
+.mt{margin-top:28px}
+/* animation */
+.a{opacity:0}
+.slide.on .a{animation:rise .8s var(--ease) both;animation-delay:calc(var(--i,0)*110ms + 120ms)}
+@keyframes rise{from{opacity:0;transform:translateY(26px)}to{opacity:1;transform:none}}
+@keyframes fadein{from{opacity:0}to{opacity:1}}
+@keyframes pop{0%{opacity:0;transform:scale(.5)}70%{transform:scale(1.08)}100%{opacity:1;transform:scale(1)}}
+@keyframes pulse{0%,100%{box-shadow:0 0 0 0 rgba(15,140,122,.5)}50%{box-shadow:0 0 0 22px rgba(15,140,122,0)}}
+@keyframes ring{0%,100%{transform:rotate(0)}20%{transform:rotate(-14deg)}40%{transform:rotate(12deg)}60%{transform:rotate(-8deg)}80%{transform:rotate(6deg)}}
+@keyframes spin{to{transform:rotate(360deg)}}
+@keyframes travel{from{offset-distance:0%}to{offset-distance:100%}}
+.st{opacity:0;transform:translateY(16px);transition:opacity .55s ease,transform .7s var(--ease);pointer-events:none}
+.st.show{opacity:1;transform:none;pointer-events:auto}
+.st.fade{transform:none}
+.hbar{height:100%;width:0;border-radius:0 8px 8px 0;transition:width 1.3s var(--ease)}
+.vbar{width:100%;height:0;transition:height 1.2s var(--ease)}
+svg .draw{stroke-dasharray:1;stroke-dashoffset:1;transition:stroke-dashoffset 2s cubic-bezier(.65,0,.35,1)}
+svg .draw.go{stroke-dashoffset:0}
+.still .a,.still .st{opacity:1!important;animation:none!important;transform:none!important}
+.still .hbar,.still .vbar,.still svg .draw,.still .wf,.still .xout::after{transition:none!important}.still .recl,.still .tl .m,.still .cdot,.still .tl .line i{animation:none!important;opacity:1!important;transition:none!important}.still .msg,.still .jc{transition:none!important}
+/* notes */
+#notes{position:fixed;left:0;right:0;bottom:0;max-height:46vh;overflow:auto;background:rgba(10,19,34,.96);color:#E7ECF5;padding:18px 28px 22px;font:400 17px/1.55 var(--sans);transform:translateY(100%);transition:transform .35s var(--ease);z-index:90;border-top:3px solid var(--amber)}
+#notes.open{transform:none}
+#notes .nh{display:flex;gap:18px;align-items:center;font:700 13px var(--sans);letter-spacing:.12em;text-transform:uppercase;color:var(--amber);margin-bottom:8px}
+#notes .nh b{color:#fff;letter-spacing:.02em;text-transform:none;font-size:16px}
+#notes .say{white-space:pre-wrap;font-size:19px;color:#fff}
+#notes .why{margin-top:10px;color:#9FB0CC;font-size:15px}
+#notes .timer{margin-left:auto;font:700 16px var(--sans);color:#fff}
+/* lightbox */
+#lb{position:fixed;inset:0;background:rgba(6,12,22,.92);display:none;align-items:center;justify-content:center;z-index:95;cursor:zoom-out;flex-direction:column;gap:16px}
+#lb.open{display:flex} #lb img{max-width:86vw;max-height:80vh;border-radius:12px;box-shadow:0 30px 80px rgba(0,0,0,.5)}
+#lb p{color:#E7ECF5;font:500 18px var(--sans);max-width:900px;text-align:center;margin:0}
+.help{position:fixed;left:16px;bottom:12px;color:#55637E;font:500 12px var(--sans);z-index:5;transition:opacity 1s;animation:fadeout 1s 8s forwards}@keyframes fadeout{to{opacity:0}}
+
+/* ---------- slide specific ---------- */
+/* hook */
+.home{position:absolute;left:110px;top:300px;width:1080px;height:640px}
+.home .roof{position:absolute;inset:0}
+.mach{position:absolute;width:150px;height:150px;border-radius:24px;background:#fff;border:2px solid var(--line);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:8px;cursor:pointer;transition:all .35s var(--ease);font:600 15px var(--sans);color:var(--grey2);user-select:none}
+.mach svg{width:66px;height:66px;stroke:var(--ink);stroke-width:2.2;fill:none;stroke-linecap:round;stroke-linejoin:round}
+.mach:hover{transform:translateY(-4px)}
+.mach.hit{border-color:var(--red);background:#FFF6F3;box-shadow:0 14px 30px -14px rgba(194,65,45,.55)}
+.mach.hit svg{stroke:var(--red)}
+.mach .q{position:absolute;top:-16px;right:-18px;background:var(--ink);color:#fff;font:700 13px var(--sans);padding:7px 10px;border-radius:10px;opacity:0;transform:scale(.6);transition:all .4s var(--ease);white-space:nowrap}
+.qs .mach .q{opacity:1;transform:none}
+.hookcount{position:absolute;right:110px;top:330px;width:520px}
+.hookcount .n{font:700 170px/1 var(--serif);color:var(--red)}
+.punch{font:600 64px/1.1 var(--serif)}
+/* phone */
+.phone{width:330px;height:640px;border-radius:52px;background:#111;padding:14px;box-shadow:0 40px 80px -30px rgba(0,0,0,.55)}
+.phone .scr{width:100%;height:100%;border-radius:40px;overflow:hidden;background:#0B141A;position:relative;display:flex;flex-direction:column}
+.wa-h{height:70px;background:#1F2C34;display:flex;align-items:center;gap:12px;padding:0 16px;color:#E9EDEF;font:600 17px var(--sans)}
+.wa-h i{width:38px;height:38px;border-radius:50%;background:var(--teal);display:grid;place-items:center;font-style:normal;color:#fff;font-weight:800}
+.wa-h small{display:block;font:400 12px var(--sans);color:#8696A0}
+.wa-b{flex:1;padding:14px 12px;display:flex;flex-direction:column;gap:9px;background:#0B141A;overflow:hidden}
+.msg{max-width:84%;padding:9px 12px 7px;border-radius:12px;font:400 15px/1.35 var(--sans);color:#E9EDEF;opacity:0;transform:translateY(10px);transition:all .45s var(--ease)}
+.msg.me{align-self:flex-end;background:#005C4B;border-top-right-radius:3px}
+.msg.them{align-self:flex-start;background:#202C33;border-top-left-radius:3px}
+.msg.show{opacity:1;transform:none}
+.msg small{display:block;text-align:right;font-size:11px;color:#8696A0;margin-top:3px}
+.msg .lang{display:inline-block;font:700 10px var(--sans);background:#0F8C7A;color:#fff;border-radius:4px;padding:1px 5px;margin-right:6px}
+.vn{display:flex;align-items:center;gap:8px}
+.vn b{width:30px;height:30px;border-radius:50%;background:#25D366;display:grid;place-items:center;color:#0b141a;font-size:12px}
+.vn span{flex:1;height:22px;background:repeating-linear-gradient(90deg,#8FD9C2 0 3px,transparent 3px 6px);mask:linear-gradient(90deg,#000,#000);opacity:.9;border-radius:3px}
+/* charts generic */
+.axis{stroke:#CFC7B8;stroke-width:1.5}
+.gl{stroke:#E8E1D4;stroke-width:1}
+.lbl{font:600 16px var(--sans);fill:var(--grey2)}
+.vlbl{font:700 22px var(--sans);fill:var(--ink)}
+/* funnel */
+.fn polygon{transition:opacity .6s,transform .8s var(--ease)}
+/* timeline */
+.tl{position:relative;height:520px;margin-top:40px}
+.tl .line{position:absolute;left:0;right:0;top:250px;height:4px;background:var(--line)}
+.tl .line i{display:block;height:100%;width:0;background:linear-gradient(90deg,var(--teal),var(--amber));transition:width 2.6s var(--ease) .2s}
+.slide.on .tl .line i{width:100%}
+.tl .m{position:absolute;width:200px;margin-left:-100px;text-align:center;opacity:0}
+.slide.on .tl .m{animation:pop .5s var(--ease) both;animation-delay:calc(var(--k)*230ms + 400ms)}
+.tl .m .d{width:20px;height:20px;border-radius:50%;background:#fff;border:4px solid var(--teal);margin:0 auto}
+.tl .m.up{bottom:258px} .tl .m.dn{top:242px}
+.tl .m.up .d{margin-top:14px} .tl .m.key.up{bottom:254px}
+.tl .m b{display:block;font:700 15px var(--sans);color:var(--amber);letter-spacing:.06em;text-transform:uppercase}
+.tl .m span{display:block;font:600 18px/1.3 var(--sans);color:var(--ink);margin:6px 0}
+.tl .m.key .d{background:var(--amber);border-color:var(--amber);width:28px;height:28px}
+/* flywheel */
+.fly{animation:spin 40s linear infinite;transform-origin:280px 280px}
+/* misc */
+.xout{position:relative;color:var(--grey)} .xout::after{content:"";position:absolute;left:-4px;right:-4px;top:52%;height:2px;background:var(--grey);transform:scaleX(0);transform-origin:left;transition:transform .6s var(--ease) .8s}
+.slide.on .xout::after{transform:scaleX(1)}
+.stamp{display:inline-block;white-space:nowrap;border:4px solid var(--teal);color:var(--teal);font:800 21px var(--sans);letter-spacing:.06em;text-transform:uppercase;padding:10px 20px;border-radius:12px;transform:rotate(-4deg)}
+.tabbar{display:flex;gap:10px;margin-bottom:18px}
+.tabbar button{font:600 16px var(--sans);padding:11px 18px;border-radius:999px;border:1px solid var(--line);background:#fff;color:var(--ink);cursor:pointer}
+.tabbar button.cur{background:var(--ink);color:#fff;border-color:var(--ink)}
+.pane{display:none} .pane.cur{display:flex}
+.proof{position:relative;border-radius:16px;overflow:hidden;background:#fff;border:1px solid var(--line);cursor:zoom-in;box-shadow:0 18px 40px -24px rgba(14,35,64,.45);transition:transform .35s var(--ease)}
+.proof:hover{transform:translateY(-6px) rotate(-.4deg)}
+.proof img{display:block;width:100%;height:100%;object-fit:cover}
+.proof figcaption{position:absolute;left:0;right:0;bottom:0;padding:14px 16px;background:linear-gradient(transparent,rgba(10,19,34,.88));color:#fff;font:600 16px/1.3 var(--sans)}
+.ok{color:var(--teal2)}
+.proofv{position:relative;border-radius:16px;overflow:hidden;background:#000;border:1px solid var(--line);box-shadow:0 18px 40px -24px rgba(14,35,64,.45)}
+.proofv video{display:block;width:100%;height:100%;object-fit:cover;object-position:top}
+.proofv figcaption{position:absolute;left:0;right:0;bottom:0;padding:12px 14px;background:linear-gradient(transparent,rgba(10,19,34,.9));color:#fff;font:600 15px/1.3 var(--sans)}
+@keyframes pagescroll{0%,4%{transform:translateY(0)}96%,100%{transform:translateY(calc(-100% + 620px))}}
+.still .pane img{animation:none!important}
+@keyframes pagescroll2{0%,4%{transform:translateY(0)}96%,100%{transform:translateY(calc(-100% + 586px))}}
+.bframe{border:1px solid var(--line);border-radius:16px;overflow:hidden;background:#fff;box-shadow:0 18px 40px -24px rgba(14,35,64,.4)}
+.bbar{height:40px;background:#F1ECE2;display:flex;align-items:center;gap:7px;padding:0 14px;border-bottom:1px solid var(--line)}
+.bbar i{width:11px;height:11px;border-radius:50%;background:#D9CFBC}
+.bbar span{flex:1;margin-left:8px;background:#fff;border-radius:8px;font:500 14px var(--sans);color:var(--grey2);padding:6px 12px}
+.bwin{overflow:hidden;position:relative}
+.still .bwin img{animation:none!important}
+#cstage .tl{height:310px;margin-top:8px}#cstage .tl .line{top:158px}#cstage .tl .m.up{bottom:160px}#cstage .tl .m.dn{top:150px}#cstage .tl .m{width:172px;margin-left:-86px}#cstage .tl .m span{font-size:15px}#cstage .tl .m b{font-size:12px}
+</style>
+</head>
+<body>
+<div id="stage">
+
+
+<section class="slide" data-id="hook" data-thread="broken" data-steps="2">
+  <div class="eyebrow a">Before we begin · a question for you</div>
+  <h1 class="t a" style="--i:1">What broke in <em>your</em> home this year?</h1>
+  <p class="lede a" style="--i:2">Tap each machine as you remember it.</p>
+  <div class="home" id="home">
+    <svg class="roof" viewBox="0 0 1080 640"><path d="M40 250 L540 40 L1040 250" fill="none" stroke="#D9D0BF" stroke-width="6" stroke-linejoin="round"/><rect x="80" y="250" width="920" height="370" rx="18" fill="#F3EEE4" stroke="#D9D0BF" stroke-width="4"/></svg>
+    <div class="mach a" style="--i:3;left:130px;top:290px" data-m><svg><use href="#i-ac"/></svg>AC<div class="q">Last service?</div></div>
+    <div class="mach a" style="--i:4;left:340px;top:290px" data-m><svg><use href="#i-fridge"/></svg>Fridge<div class="q">Which part?</div></div>
+    <div class="mach a" style="--i:5;left:550px;top:290px" data-m><svg><use href="#i-wm"/></svg>Washing machine<div class="q">Who fixed it?</div></div>
+    <div class="mach a" style="--i:6;left:760px;top:290px" data-m><svg><use href="#i-ro"/></svg>Water purifier<div class="q">Next service?</div></div>
+    <div class="mach a" style="--i:7;left:130px;top:460px" data-m><svg><use href="#i-geyser"/></svg>Geyser<div class="q">What did you pay?</div></div>
+    <div class="mach a" style="--i:8;left:340px;top:460px" data-m><svg><use href="#i-tv"/></svg>TV<div class="q">Warranty?</div></div>
+    <div class="mach a" style="--i:9;left:550px;top:460px" data-m><svg><use href="#i-fan"/></svg>Fan<div class="q">Original part?</div></div>
+    <div class="mach a" style="--i:10;left:760px;top:460px" data-m><svg><use href="#i-mixer"/></svg>Mixer<div class="q">Last service?</div></div>
+  </div>
+  <div class="hookcount">
+    <div class="a" style="--i:4;font:700 18px var(--sans);letter-spacing:.16em;text-transform:uppercase;color:var(--grey)">Repairs in your home</div>
+    <div class="n a" style="--i:5" id="hookn">0</div>
+    <div class="st" data-s="1" style="margin-top:20px"><div class="lede" style="font-size:24px">How many have a record of <b>what</b> was wrong, <b>what</b> was fitted and <b>what</b> you paid?</div><div class="n" style="font-size:120px;color:var(--ink)">0</div></div>
+  </div>
+  <div class="st" data-s="2" style="position:absolute;right:110px;width:640px;bottom:118px;background:var(--ink);color:#fff;border-radius:22px;padding:30px 40px"><div class="punch" style="font-size:54px">Every repair in your home starts from <em style="color:var(--amber)">zero.</em></div></div>
+</section>
+<section class="slide" data-id="ramagundam" data-thread="broken" data-steps="5">
+  <div class="eyebrow a">We took it lightly too</div>
+  <h1 class="t a" style="--i:1">Until one afternoon in <em>Ramagundam.</em></h1>
+  <div class="row mt" style="gap:44px;align-items:stretch">
+    <div class="card a" style="--i:2;width:500px;background:var(--ink);color:#fff;border:none;display:flex;flex-direction:column;justify-content:space-between;min-height:560px">
+      <div style="font:600 42px/1.25 var(--serif)">“Our machines cost my family <span style="color:var(--amber)">₹10,000 a month.</span> Never evenly.”</div>
+      <div style="font:500 24px/1.4 var(--serif);font-style:italic;color:#C9D3E6">We treated it as normal.<br>Everyone does.</div>
+      <div style="font:500 18px var(--sans);color:#AFC0DB">Sri Charan Peri · co-founder &amp; CTO<br><span class="tag real" style="margin-top:12px">Real</span></div>
+    </div>
+    <div style="flex:1;display:grid;grid-template-columns:1fr 1fr;gap:20px">
+      <div class="card st" data-s="1" style="display:flex;gap:20px;align-items:center"><svg width="66" height="66" viewBox="0 0 48 48" fill="none" stroke="#C2412D" stroke-width="2.4" stroke-linecap="round"><path d="M20 30V9a4 4 0 0 1 8 0v21a8 8 0 1 1-8 0z"/><circle cx="24" cy="36" r="4" fill="#C2412D"/><path d="M24 31V16"/></svg><div><div class="big" style="font-size:56px;color:var(--red)">46°C · a fever</div><div class="lede" style="font-size:19px">A retired miner, 74, home alone and running a fever. At noon, his AC stops cooling.</div></div></div>
+      <div class="card st" data-s="2" style="display:flex;gap:20px;align-items:center"><svg width="66" height="66" viewBox="0 0 48 48" fill="none" stroke="#0E2340" stroke-width="2.4" stroke-linecap="round" style="animation:ring 1s ease-in-out infinite"><rect x="14" y="4" width="20" height="40" rx="4"/><path d="M21 38h6"/></svg><div><div class="big" style="font-size:56px"><span class="count" data-to="14">0</span> <span style="font-size:24px;font-family:var(--sans);font-weight:600">missed calls</span></div><div class="lede" style="font-size:19px">Ramesh, the one man he trusts, is up a ladder across town. The Telugu voice note is never heard.</div></div></div>
+      <div class="card st" data-s="3" style="display:flex;gap:20px;align-items:center"><svg width="66" height="66" viewBox="0 0 48 48" fill="none" stroke="#0E2340" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><circle cx="24" cy="14" r="7"/><path d="M10 42c2-9 7-13 14-13s12 4 14 13"/></svg><div><div class="big" style="font-size:56px">700 km away</div><div class="lede" style="font-size:19px">His son in Bengaluru calls everyone he knows. Nobody can say what’s wrong, who will come, or when.</div></div></div>
+      <div class="card st" data-s="4" style="display:flex;gap:20px;align-items:center;border:2px solid var(--red)"><svg width="66" height="66" viewBox="0 0 48 48" fill="none" stroke="#C2412D" stroke-width="2.4" stroke-linecap="round"><circle cx="24" cy="24" r="18"/><path d="M24 12v12l8 6"/></svg><div><div class="big" style="font-size:56px;color:var(--red)">2 nights</div><div class="lede" style="font-size:19px">He sits through two nights of that heat under a table fan before anyone opens the machine.</div></div></div>
+      <div class="card st" data-s="5" style="grid-column:1/3;display:flex;gap:30px;align-items:center;border:2px solid var(--teal)">
+        <div style="font:600 38px/1.25 var(--serif);flex:1">Nobody is the villain.<br><em style="color:var(--teal)">The system has no memory.</em></div>
+        <div style="width:460px;border-left:1px dashed var(--line);padding-left:26px;font:500 17px/1.55 var(--sans);color:var(--grey2)">The fault, when someone finally looked: a <b style="color:var(--ink)">₹350 capacitor</b>. By then the family had already ordered a <b style="color:var(--ink)">₹38,000</b> new AC, three days away.</div>
+      </div>
+    </div>
+  </div>
+  <div class="foot"><div class="src">The people are a composite; the town, the heat and the reflex to replace are real. Founder quote: real.</div></div>
+</section>
+<section class="slide" data-id="team" data-thread="whole" data-steps="0">
+  <div class="eyebrow a">Why us</div>
+  <h1 class="t a" style="--i:1">Three founders, <em>one from each side</em> of the problem.</h1>
+  <div style="position:relative;height:640px;margin-top:10px">
+    <svg viewBox="0 0 1700 640" style="position:absolute;inset:0" fill="none"><path class="draw" pathLength="1" d="M850 60 L250 560 L1450 560 Z" stroke="#D6CDBB" stroke-width="3"/></svg>
+    <div class="a" style="--i:2;position:absolute;left:730px;top:250px;width:240px;height:150px;border-radius:20px;background:var(--ink);color:#fff;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:8px;animation-name:pop"><svg width="44" height="44" viewBox="0 0 48 48"><use href="#logo"/></svg><b style="font:700 20px var(--serif)">The machine record</b></div>
+    <div class="card a" style="--i:3;position:absolute;left:600px;top:-20px;width:500px">
+      <span class="tag story">Agency network</span><div style="font:700 30px var(--serif);margin:10px 0 4px">Prathyusha Kalluri · CEO</div><div style="font:500 19px/1.45 var(--sans);color:var(--grey2)">Co-founded <b>FixNear</b>: 1,200 technicians across 14 towns in AP and Telangana. <b style="color:var(--teal)">Sold it in 2022.</b></div>
+    </div>
+    <div class="card a" style="--i:4;position:absolute;left:0;top:420px;width:520px">
+      <span class="tag story">Household + AI</span><div style="font:700 30px var(--serif);margin:10px 0 4px">Sri Charan Peri · CTO</div><div style="font:500 19px/1.45 var(--sans);color:var(--grey2)">7 years of voice AI in Indian languages. <b style="color:var(--teal)">Built Circuit himself.</b> Lives the household side.</div>
+    </div>
+    <div class="card a" style="--i:5;position:absolute;right:0;top:420px;width:520px">
+      <span class="tag story">Brand + warranty</span><div style="font:700 30px var(--serif);margin:10px 0 4px">Kavyanth Munagala · COO</div><div style="font:500 19px/1.45 var(--sans);color:var(--grey2)">Ran a brand's <b>300+ service partners</b> and its warranty-claims desk. <b style="color:var(--teal)">Closed 8 of our last 10 agencies.</b></div>
+    </div>
+  </div>
+  <div class="a" style="--i:7;display:flex;gap:14px;justify-content:center;margin-top:-6px"><span class="chip t">Full-time since May 2025</span><span class="chip t">₹15 L of our own money in</span><span class="chip t">Incubated at CIE-IIITH</span><span class="chip t">DPIIT-recognised</span><span class="chip">Advisors: after-sales head · safety expert · data lawyer · IIIT-H speech lab</span></div>
+  <div class="foot"><div class="src">Step 2 · Founders and backstory</div></div>
+</section>
+<section class="slide" data-id="evidence" data-thread="broken" data-steps="1">
+  <div class="eyebrow a">What we saw · what we heard</div>
+  <h1 class="t a" style="--i:1">We didn’t read about it. <em>We watched it happen.</em></h1>
+  <div style="display:grid;grid-template-columns:330px 290px 1fr 1fr;grid-template-rows:232px 232px;gap:18px;margin-top:18px">
+    <figure class="proofv a" style="--i:2;margin:0;grid-row:1/3"><video src="media/brandbot.mp4" autoplay muted loop playsinline></video><figcaption>A real brand’s WhatsApp bot: “API issue…” → “My request was not done.”</figcaption></figure>
+    <figure class="proof a" style="--i:3;margin:0;grid-row:1/3" data-cap="A water purifier: a local agency taped its own “Contact for Service” sticker on it, and the family wrote the next service date over the brand’s label in marker. (Phone numbers blurred.)"><img src="media/ro_sticker.jpg" alt=""><figcaption>A local agency’s sticker, and the next date in marker</figcaption></figure>
+    <figure class="proof a" style="--i:4;margin:0" data-cap="A household’s handwritten repair diary: what was fixed, by whom, when and for how much. (Phone numbers blurred.)"><img src="media/diary_page.jpg" alt=""><figcaption>A family’s handwritten repair diary</figcaption></figure>
+    <figure class="proof a" style="--i:5;margin:0" data-cap="Our own whiteboard. Today: machine fails → technician travels → discovers the problem → needs a part → another visit. With a memory: symptoms + photo + model → probable issue + likely part → prepared technician → one repair visit."><img src="media/team_sketch_before_after.jpg" alt=""><figcaption>Our whiteboard: “another visit” vs “one repair visit”</figcaption></figure>
+    <figure class="proof a" style="--i:6;margin:0" data-cap="A second page of the same repair diary — dates, jobs, amounts, all by hand. (Phone numbers blurred.)"><img src="media/diary_page2.jpg" alt=""><figcaption>More of the diary: dates, jobs, amounts</figcaption></figure>
+    <figure class="proof a" style="--i:7;margin:0" data-cap="A gas cylinder with its refill date written straight onto the metal in marker — the household keeping its own service memory."><img src="media/gas_cylinder.jpg" alt="" style="object-position:center 30%"><figcaption>The refill date, in marker, on the cylinder itself</figcaption></figure>
+  </div>
+  <div class="a" style="--i:8;position:absolute;right:110px;top:92px;display:flex;gap:10px"><span class="chip t">19 survey responses</span><span class="chip t">7 household interviews</span><span class="chip a">18 agency owners</span></div>
+  <div class="a" style="--i:9;margin-top:16px;display:flex;gap:18px">
+    <div class="qq"><q>They are never going to say the price… three thousand to five thousand.</q><cite>Sai Kakki</cite></div>
+    <div class="qq"><q>We won’t know if the part is duplicate or original.</q><cite>Amma</cite></div>
+    <div class="qq"><q>Since then, I have been able to trust him and approve his small works.</q><cite>Sarala Aunty</cite></div>
+  </div>
+  <div class="st" data-s="1" style="position:absolute;left:110px;right:110px;bottom:92px;background:var(--teal);color:#fff;border-radius:18px;padding:20px 32px;display:flex;align-items:center;gap:36px">
+    <div style="font:600 30px/1.25 var(--serif);flex:1">Nothing in a repair can be checked, so people trust <em style="color:#FFE2B0">the person</em>. We make that agency the smartest in town.</div>
+    <div style="text-align:center"><div class="big" style="font-size:52px">44%</div><div style="font:600 14px var(--sans)">use a local agency</div></div>
+    <div style="text-align:center"><div class="big" style="font-size:52px">76%</div><div style="font:600 14px var(--sans)">avoid brand service</div></div>
+  </div>
+  <style>.qq{flex:1;background:#fff;border:1px solid var(--line);border-radius:14px;padding:12px 16px}.qq q{display:block;font:500 italic 18px/1.35 var(--serif)}.qq cite{display:block;margin-top:6px;font:600 14px var(--sans);font-style:normal;color:var(--teal)}</style>
+</section>
+<section class="slide" data-id="problem" data-thread="broken" data-steps="1">
+  <div class="eyebrow a">The problem · mapped and sized</div>
+  <h1 class="t a" style="--i:1;font-size:50px">Fourteen problems, five scenarios — <em>one missing record.</em></h1>
+  <div class="row a" style="--i:2;gap:16px;margin-top:10px">
+    <div class="card sz"><b><span class="count" data-to="15">0</span> Cr</b><span>repairs a year</span></div>
+    <div class="card sz"><b><span class="count" data-to="27">0</span> Cr</b><span>machines with no shared record</span></div>
+    <div class="card sz" style="border:2px solid var(--red)"><b style="color:var(--red)">₹<span class="count" data-to="550">0</span> Cr</b><span>wasted on repeat trips a year*</span></div>
+    <div class="card sz"><b><span class="count" data-to="37500" data-sep="1">0</span></b><span>agencies on a phone and a notebook</span></div>
+    <div class="card sz"><b>1 in 8</b><span>agency requests lost · 55% of families got a defective machine, 21% made whole</span></div>
+  </div>
+  <div class="row" style="gap:40px;margin-top:20px">
+    <div style="width:930px">
+      <div class="a" style="--i:3;display:flex;justify-content:space-between;font:700 13px var(--sans);letter-spacing:.1em;text-transform:uppercase;color:var(--grey);padding:0 4px 6px">Top of the scored problem map · who suffers<span>score / 30</span></div>
+      <div class="pmr a" style="--i:2"><span class="pid">P2</span><div class="pml">Intake chaos: missed calls, voice notes, no job record<small>agencies</small></div><div class="pmb"><div class="hbar" data-w="100%" style="background:#0F8C7A;border-radius:7px"></div></div><b>24</b></div><div class="pmr a" style="--i:3"><span class="pid">P1</span><div class="pml">Unprepared first visit: wrong diagnosis, wrong part, repeat trips<small>agencies + households</small></div><div class="pmb"><div class="hbar" data-w="96%" style="background:#0F8C7A;border-radius:7px"></div></div><b>23</b></div><div class="pmr a" style="--i:4"><span class="pid">P3</span><div class="pml">No machine history: lost invoices, unknown warranty<small>households</small></div><div class="pmb"><div class="hbar" data-w="92%" style="background:#26375A;border-radius:7px"></div></div><b>22</b></div><div class="pmr a" style="--i:5"><span class="pid">P7</span><div class="pml">Claims triage for administrators and OEMs<small>industry</small></div><div class="pmb"><div class="hbar" data-w="92%" style="background:#26375A;border-radius:7px"></div></div><b>22</b></div><div class="pmr a" style="--i:6"><span class="pid">P4</span><div class="pml">Warranty refusal, unresolved claims<small>households</small></div><div class="pmb"><div class="hbar" data-w="83%" style="background:#8A93A6;border-radius:7px"></div></div><b>20</b></div><div class="pmr a" style="--i:7"><span class="pid">P5</span><div class="pml">No fair-price benchmark<small>households</small></div><div class="pmb"><div class="hbar" data-w="83%" style="background:#8A93A6;border-radius:7px"></div></div><b>20</b></div>
+    </div>
+    <div class="col" style="flex:1;gap:9px">
+      <div class="a" style="--i:3;font:700 13px var(--sans);letter-spacing:.1em;text-transform:uppercase;color:var(--grey)">…grouped into five scenarios</div>
+      <div class="card a scn live" style="--i:4"><i>A</i><div><b>Prepared Visit</b><span>P1 + P2 · the entry wedge</span></div><em>→ Circuit · live</em></div><div class="card a scn" style="--i:5"><i>B</i><div><b>The two-sided record</b><span>P3, P5, P8</span></div><em>year 1–2</em></div><div class="card a scn" style="--i:6"><i>C</i><div><b>Claims triage</b><span>P7</span></div><em>year 2</em></div><div class="card a scn" style="--i:7"><i>D</i><div><b>Consumer advocate</b><span>P4 · folded into B</span></div><em></em></div><div class="card a scn" style="--i:8"><i>E</i><div><b>The circular loop</b><span>P9, P11, P6</span></div><em>the stated vision</em></div>
+    </div>
+  </div>
+  <div class="st" data-s="1" style="position:absolute;left:110px;right:110px;bottom:86px;background:var(--teal);color:#fff;border-radius:16px;padding:16px 30px;font:600 28px/1.3 var(--serif)">We enter where impact is highest and barriers are lowest: <em style="color:#FFE2B0">the prepared visit.</em></div>
+  <style>.pmr{display:grid;grid-template-columns:52px 1fr 300px 56px;gap:14px;align-items:center;margin-bottom:11px}.pid{font:800 16px var(--sans);color:var(--grey2);background:#F1ECE2;border-radius:8px;padding:8px 0;text-align:center}.pml{font:600 18px/1.2 var(--sans)}.pml small{display:block;font:500 13px var(--sans);color:var(--grey);margin-top:2px}.pmb{height:14px;background:#F1ECE2;border-radius:7px;overflow:hidden}.pmr b{font:700 20px var(--serif)}.scn{display:flex;gap:16px;align-items:center;padding:16px 20px}.scn i{width:44px;height:44px;border-radius:12px;background:#F1ECE2;color:var(--ink);font:800 20px var(--sans);font-style:normal;display:grid;place-items:center;flex:none}.scn b{display:block;font:700 21px var(--serif)}.scn span{font:500 15px var(--sans);color:var(--grey2)}.scn em{margin-left:auto;font:600 15px var(--sans);font-style:normal;color:var(--amber);white-space:nowrap}.scn.live{border:2px solid var(--teal)}.scn.live i{background:var(--teal);color:#fff}.scn.live em{color:var(--teal)}</style>
+  <style>.sz{flex:1;padding:14px 18px;display:flex;flex-direction:column;gap:2px}.sz b{font:700 40px var(--serif)}.sz>span{font:500 15px/1.3 var(--sans);color:var(--grey2)}#problem .pmr{margin-bottom:6px}.scn{padding:11px 16px!important}</style>
+  <div class="foot"><div class="src">*If India matches the global 77% first-visit fix rate. Team repo problem map (scored out of 30); Data for India, CLASP/BEE 2024, ICAP/CEEW, LocalCircles. Model: Market tab.</div></div>
+</section>
+<section class="slide dark" data-id="keepwell" data-thread="whole" data-steps="0">
+  <div style="display:flex;gap:70px;align-items:center;height:100%;margin-top:-30px">
+    <div style="flex:1">
+      <div class="eyebrow a">So we built</div>
+      <div class="a" style="--i:1;display:flex;align-items:center;gap:24px;margin:18px 0 8px"><svg width="100" height="100" viewBox="0 0 48 48"><use href="#logo"/></svg><span style="font:700 110px/1 var(--serif);letter-spacing:-.02em">Keepwell</span></div>
+      <div class="a" style="--i:2;font:500 italic 42px/1.25 var(--serif);color:var(--teal2)">The care layer for everything a home owns.</div>
+      <p class="lede a" style="--i:3;margin-top:24px;font-size:25px">One living record per machine, built with the owner’s consent — and a product at every stage of its life.</p>
+      <div class="a" style="--i:4;margin-top:26px;display:flex;gap:12px;flex-wrap:wrap"><span class="chip t">CIBIL → borrowers</span><span class="chip t">Carfax → used cars</span><span class="chip a">Keepwell → household machines</span></div>
+    </div>
+    <div style="width:820px">
+      <div class="a" style="--i:2;font:700 14px var(--sans);letter-spacing:.14em;text-transform:uppercase;color:var(--amber);margin-bottom:12px">The roadmap · one record, a product and a payer at every stage</div>
+      <div class="rr a live" style="--i:3"><em>R1 · live</em><div><b>Circuit</b><span>AI desk for repair agencies</span></div><i>💰 agencies, per verified fix</i></div><div class="rr a" style="--i:4"><em>R2 · ~12 mo</em><div><b>Home Memory + Service Plans</b><span>the free machine record; plans sold for insurers</span></div><i>💰 insurers, commission</i></div><div class="rr a" style="--i:5"><em>R3 · year 2</em><div><b>Claims triage</b><span>evidence-backed claims</span></div><i>💰 warranty administrators, OEMs</i></div><div class="rr a" style="--i:6"><em>R4</em><div><b>Parts marketplace</b><span>technician-confirmed catalogue</span></div><i>💰 parts sellers</i></div><div class="rr a" style="--i:7"><em>R5</em><div><b>Resale & recycling</b><span>verified history, EPR hand-off</span></div><i>💰 buyers, recyclers</i></div><div class="rr a" style="--i:8"><em>Phase 3</em><div><b>Data services</b><span>consent-first insight</span></div><i>💰 brands, insurers</i></div>
+    </div>
+  </div>
+  <style>.rr{display:grid;grid-template-columns:120px 1fr 250px;gap:16px;align-items:center;background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.14);border-radius:14px;padding:14px 18px;margin-bottom:10px}.rr em{font:700 13px var(--sans);font-style:normal;letter-spacing:.08em;text-transform:uppercase;color:#9FB0CC}.rr b{display:block;font:700 22px var(--serif);color:#fff}.rr span{font:500 15px var(--sans);color:#C9D3E6}.rr i{font:600 14px var(--sans);font-style:normal;color:#F2C88A}.rr.live{background:var(--teal);border-color:var(--teal)}.rr.live em{color:#FFE2B0}.rr.live i{color:#fff}</style>
+</section>
+<section class="slide" data-id="companystage" id="cstage" data-thread="whole" data-steps="0">
+  <div class="eyebrow a">The company stage</div>
+  <h1 class="t a" style="--i:1;font-size:50px">Where we are: <em>stage two</em> — finding the business model.</h1>
+  <div class="a" style="--i:2;display:flex;gap:0;align-items:center;margin-top:12px">
+    <div class="sp done">1 · Build the product ✓</div><div class="spc"></div>
+    <div class="sp here">2 · Find the business model — we are here</div><div class="spc"></div>
+    <div class="sp">3 · Scale</div>
+  </div>
+  <div class="tl" id="tl"><div class="line"><i></i></div></div>
+  <div class="row a" style="--i:4;gap:20px">
+    <div class="card mny" style="flex:1.15"><div class="mh">Raised · <b>₹55 L</b></div><div class="mc"><span>Founders ₹15 L</span><span>2 operator angels ₹30 L · iSAFE</span><span>Startup India Seed Fund ₹10 L of ₹20 L</span></div></div>
+    <div class="card mny" style="flex:1.3"><div class="mh" style="color:#9A5A08">Spent · <b>₹34 L</b></div><div class="mc"><span>Stipends ₹19.5 L</span><span>Contract engineer ₹6 L</span><span>Cloud + AI ₹3 L</span><span>Pilot field work ₹3 L</span><span>Legal ₹2.5 L</span></div></div>
+    <div class="card mny" style="flex:.7;border:2px solid var(--teal);align-items:flex-start"><div class="mh" style="color:var(--teal)">In the bank</div><div class="big" style="font-size:58px;color:var(--teal)">₹21 L</div></div>
+  </div>
+  <div class="a" style="--i:6;display:flex;gap:12px;margin-top:18px;align-items:center"><b style="font:700 15px var(--sans);letter-spacing:.12em;text-transform:uppercase;color:var(--grey)">That ₹34 L built</b><span class="chip t">the team</span><span class="chip t">the research</span><span class="chip t">the prototype</span><span class="chip t">production (Mumbai)</span><span class="chip t">14 paying agencies</span></div>
+  <style>.sp{font:600 18px var(--sans);padding:12px 22px;border-radius:999px;border:2px solid var(--line);color:var(--grey2);background:#fff}.sp.done{border-color:#BFE3DA;color:#0B6B5D;background:var(--tealbg)}.sp.here{border-color:var(--amber);background:var(--amberbg);color:#8A5208;font-weight:800}.spc{width:44px;height:2px;background:var(--line)}.mny{display:flex;flex-direction:column;gap:0;padding:20px 24px}.mh{font:700 14px var(--sans);letter-spacing:.1em;text-transform:uppercase;color:var(--grey)}.mh b{font:700 32px var(--serif);color:var(--ink);letter-spacing:0;text-transform:none;margin-left:8px}.mc{display:flex;flex-wrap:wrap;gap:8px;margin-top:12px}.mc span{font:600 15px var(--sans);background:#F6F3EC;border-radius:8px;padding:7px 11px}</style>
+  <div class="foot"><div class="src">Step 2 · the angels also introduced 3 of our first 5 agencies; ₹10 L more of the grant is due at 25 paying agencies. Spend itemised May 2025 – Nov 2026. Illustrative timeline for the course case.</div></div>
+</section>
+<section class="slide" data-id="circuit" data-thread="whole" data-steps="0">
+  <div class="eyebrow a">Circuit, simply</div>
+  <h1 class="t a" style="--i:1;font-size:52px">Every repair visit <em>arrives prepared.</em></h1>
+  <div class="row" style="gap:44px;margin-top:22px">
+    <div style="width:1040px;display:grid;grid-template-columns:1fr 1fr 1fr;gap:18px">
+      <div class="card a cst" style="--i:2"><div class="cn">1</div><svg viewBox="0 0 48 48"><use href="#i-mic"/></svg><b>Customer sends a voice note</b><span>in Telugu, Hindi, Tamil, Kannada, Marathi or English — on the agency’s own WhatsApp</span></div>
+      <div class="card a cst" style="--i:3"><div class="cn">2</div><svg viewBox="0 0 48 48"><use href="#i-brain"/></svg><b>Circuit understands</b><span>and reads it back to the customer to confirm</span></div>
+      <div class="card a cst" style="--i:4"><div class="cn">3</div><svg viewBox="0 0 48 48"><use href="#i-search"/></svg><b>Finds the likely fault + the part to carry</b><span>from this machine’s history and every past repair</span></div>
+      <div class="card a cst" style="--i:5"><div class="cn">4</div><svg viewBox="0 0 48 48"><use href="#i-doc"/></svg><b>Quotes from the agency’s own rate card</b><span>the owner approves every quote</span></div>
+      <div class="card a cst" style="--i:6"><div class="cn">5</div><svg viewBox="0 0 48 48"><use href="#i-card"/></svg><b>Technician gets a job card</b><span>readable in ten seconds</span></div>
+      <div class="card a cst last" style="--i:7"><div class="cn" style="background:var(--amber)">6</div><svg viewBox="0 0 48 48"><use href="#i-check"/></svg><b>The technician verifies the fix</b><span>the record updates · Circuit learns · we earn ₹40</span></div>
+    </div>
+    <div class="a" style="--i:4;flex:1">
+      <div class="bframe"><div class="bbar"><i></i><i></i><i></i><span>circuit-landing-page.netlify.app</span><em style="font:700 11px var(--sans);color:#fff;background:var(--teal);border-radius:6px;padding:3px 8px;font-style:normal">LIVE</em></div>
+      <div class="bwin" style="height:586px"><img src="media/landing_full.png" alt="" style="width:100%;display:block;animation:pagescroll2 32s ease-in-out infinite alternate"></div></div>
+      <div style="font:500 15px var(--sans);color:var(--grey);margin-top:10px;text-align:center">The live Circuit site, scrolling end to end — what an agency owner sees</div>
+    </div>
+  </div>
+  <div class="a" style="--i:9;position:absolute;left:110px;right:110px;bottom:96px;display:flex;gap:10px;flex-wrap:wrap;align-items:center"><b style="font:700 14px var(--sans);letter-spacing:.12em;text-transform:uppercase;color:var(--grey)">Easy by design</b><span class="chip">📱 no new app</span><span class="chip">🗣 6 languages</span><span class="chip">🧾 set up in one visit</span><span class="chip">🎁 30 free days</span><span class="chip t">₹40 only per verified fix</span><span class="chip a">owner approves every quote</span></div>
+  <style>.cst{position:relative;display:flex;flex-direction:column;gap:10px;padding:22px 22px 18px}.cst svg{width:54px;height:54px;stroke:var(--ink);stroke-width:2.2;fill:none;stroke-linecap:round;stroke-linejoin:round}.cst b{font:700 21px/1.25 var(--sans)}.cst span{font:500 16px/1.4 var(--sans);color:var(--grey2)}.cst .cn{position:absolute;top:16px;right:16px;width:34px;height:34px;border-radius:50%;background:var(--ink);color:#fff;font:700 16px var(--sans);display:grid;place-items:center}.cst.last{border:2px solid var(--teal)}.cst.last svg{stroke:var(--teal)}</style>
+</section>
+<section class="slide" data-id="proof" data-thread="whole" data-steps="0">
+  <div class="eyebrow a">The proof · Feb – Nov 2026</div>
+  <h1 class="t a" style="--i:1;font-size:50px">Price tested. Nine months of paid use. <em>And it gets smarter.</em></h1>
+  <div class="row" style="gap:28px;margin-top:16px;align-items:flex-start">
+    <div class="col" style="width:420px;gap:14px">
+      <div class="card a" style="--i:2;padding:18px 20px"><div style="font:700 13px var(--sans);letter-spacing:.1em;text-transform:uppercase;color:var(--grey)">The price test · 5 agencies</div>
+        <div style="display:grid;grid-template-columns:90px 1fr 60px;gap:10px;align-items:center;margin-top:12px;font:700 22px var(--serif)"><span>₹40</span><div style="height:16px;background:#EEE8DC;border-radius:8px;overflow:hidden"><div class="hbar" data-w="100%" style="background:var(--teal);border-radius:8px"></div></div><span style="color:var(--teal)">2.0×</span>
+        <span style="color:var(--grey2)">₹100</span><div style="height:16px;background:#EEE8DC;border-radius:8px;overflow:hidden"><div class="hbar" data-w="40.5%" style="background:var(--red);border-radius:8px"></div></div><span style="color:var(--red)">0.81×</span></div>
+        <div style="font:500 13px var(--sans);color:var(--grey);margin-top:6px">value to the agency vs the fee</div>
+        <div style="font:500 italic 20px/1.3 var(--serif);margin-top:12px;color:var(--red)">“It takes too much of a small job.”</div>
+        <div style="margin-top:12px"><span class="stamp" style="font-size:15px;padding:6px 12px">₹40 for everyone since May</span></div>
+      </div>
+      <div class="card a" style="--i:3;padding:16px 20px;display:flex;align-items:center;gap:18px"><div class="big" style="font-size:52px;color:var(--teal);white-space:nowrap">11<span style="font-size:26px"> of 14</span></div><div style="font:600 17px/1.3 var(--sans)">owners “very disappointed” without Circuit</div></div>
+    </div>
+    <div class="col" style="width:330px;gap:14px">
+      <div class="card a kq" style="--i:3"><b><span class="count" data-to="14">0</span></b><span>paying agencies · 1 of 15 churned</span></div>
+      <div class="card a kq" style="--i:4"><b>~<span class="count" data-to="8200" data-sep="1">0</span></b><span>jobs through Circuit</span></div>
+      <div class="card a kq" style="--i:5;border:2px solid var(--teal)"><b style="color:var(--teal)">71% → 83%</b><span>closed in one visit, held 6 months</span></div>
+      <div class="card a kq" style="--i:6"><b>₹<span class="count" data-to="59">0</span>k</b><span>monthly recurring revenue</span></div>
+    </div>
+    <div style="flex:1">
+      <div class="a" style="--i:4;font:700 13px var(--sans);letter-spacing:.1em;text-transform:uppercase;color:var(--grey);margin-bottom:4px">Root-cause accuracy · the chart that matters most</div>
+      <svg viewBox="0 0 1180 640" width="900" height="488" class="a" style="--i:4">
+      <rect x="110" y="40" width="386" height="480" fill="#EEE8DC" opacity=".55"/>
+      <rect x="496" y="40" width="514" height="480" fill="#E3F3EF"/>
+      <text x="125" y="72" class="lbl" style="font-size:17px">Mar–May: about half from adding manuals</text><text x="125" y="96" class="lbl" style="font-size:15px;fill:#8A93A6">anyone can do this</text>
+      <text x="512" y="72" class="lbl" style="font-size:17px;fill:#0B6B5D">Since June: mostly from verified repairs</text><text x="512" y="96" class="lbl" style="font-size:15px;fill:#0F8C7A">only we can do this</text>
+      <g class="gl"><line x1="110" y1="120" x2="1010" y2="120"/><line x1="110" y1="200" x2="1010" y2="200"/><line x1="110" y1="280" x2="1010" y2="280"/><line x1="110" y1="360" x2="1010" y2="360"/><line x1="110" y1="440" x2="1010" y2="440"/></g>
+      <g class="lbl" text-anchor="end"><text x="96" y="126">85%</text><text x="96" y="206">80%</text><text x="96" y="286">75%</text><text x="96" y="366">70%</text><text x="96" y="446">65%</text><text x="96" y="526">60%</text></g>
+      <line x1="110" y1="280" x2="1010" y2="280" stroke="#E08A1E" stroke-width="3" stroke-dasharray="10 8"/><text x="1020" y="286" class="lbl" style="fill:#B06A10;font-weight:700">75% gate</text>
+      <polyline class="draw" pathLength="1" points="110,488 367,392 624,312 753,264 1010,232" fill="none" stroke="#0F8C7A" stroke-width="6" stroke-linejoin="round" stroke-linecap="round"/>
+      <g class="pts"><circle cx="110" cy="488" r="9" fill="#0F8C7A"/><circle cx="367" cy="392" r="9" fill="#0F8C7A"/><circle cx="624" cy="312" r="9" fill="#0F8C7A"/><circle cx="753" cy="264" r="11" fill="#E08A1E"/><circle cx="1010" cy="232" r="11" fill="#0F8C7A"/></g>
+      <g class="vlbl" text-anchor="middle"><text x="110" y="470">62%</text><text x="367" y="374">68%</text><text x="624" y="294">73%</text><text x="753" y="246" style="fill:#B06A10">76%</text><text x="1010" y="214">78%</text></g>
+      <g class="lbl" text-anchor="middle"><text x="110" y="560">Mar</text><text x="367" y="560">May</text><text x="624" y="560">Jul</text><text x="753" y="560">Aug</text><text x="1010" y="560">Oct</text></g>
+      <text x="560" y="610" class="lbl" text-anchor="middle">Root-cause accuracy: the right fault in Circuit's top 3 (2026)</text>
+    </svg>
+      <div class="a" style="--i:7;font:600 22px/1.3 var(--serif);margin-top:4px">Since June the gains come from <em style="color:var(--teal)">verified repairs</em> — data no competitor has.</div>
+    </div>
+  </div>
+  <style>.kq{padding:14px 20px;display:flex;flex-direction:column}.kq b{font:700 44px var(--serif)}.kq>span{font:600 16px var(--sans);color:var(--grey2)}</style>
+  <div class="foot"><div class="src">Steps 6.3–6.5 · measured from system logs; “very disappointed” = Sean Ellis PMF survey (self-reported). Model Pilot tab.</div></div>
+</section>
+<section class="slide" data-id="engine" data-thread="whole" data-steps="0">
+  <div class="eyebrow a">The engine</div>
+  <h1 class="t a" style="--i:1;font-size:50px">The agency wins. <em>So do we.</em></h1>
+  <div class="col" style="margin-top:18px"><div class="vrow a" style="--i:2"><div class="vl">Value to one agency<br><small>per month</small></div><div class="vt"><div class="hbar seg" data-w="26%" style="background:#0F8C7A">Recovered jobs ₹2,400</div><div class="hbar seg" data-w="23.3%" style="background:#16B39C;transition-delay:.25s">Trips avoided ₹2,150</div><div class="hbar seg hatch" data-w="31.7%" style="transition-delay:.5s">Owner time ₹2,925 · self-reported</div></div><div class="vv">₹7,475</div></div>
+    <div class="vrow a" style="--i:4"><div class="vl">Our fee at ₹40</div><div class="vt"><div class="hbar seg" data-w="40%" style="background:var(--ink);transition-delay:.9s">₹3,690</div></div><div class="vv">₹3,690</div></div>
+    <div class="vrow a" style="--i:5;opacity:.55"><div class="vl">The fee at ₹100<br><small>rejected in the pilot</small></div><div class="vt"><div class="hbar seg" data-w="100%" style="background:#B9B2A4;transition-delay:1.2s">₹9,225</div></div><div class="vv xout">₹9,225</div></div>
+  </div>
+  <div class="row" style="gap:16px;margin-top:20px">
+    <div class="card a ue2" style="--i:6"><span>Revenue per agency</span><b>₹4,216<small>/mo</small></b></div>
+    <div class="card a ue2" style="--i:7"><span>Contribution margin</span><b style="color:var(--teal)">81%</b></div>
+    <div class="card a ue2" style="--i:8"><span>CAC payback</span><b>6.3<small> months</small></b></div>
+    <div class="card a ue2" style="--i:9"><span>Lifetime value : CAC</span><b style="color:var(--teal)">6.3×</b></div>
+  </div>
+  <div class="a" style="--i:10;margin-top:18px;display:flex;align-items:center;gap:16px;font:600 26px var(--serif)"><span class="eqb">Growth</span>=<span class="eqb t">field reps × ~80 agencies a year</span><span style="font:500 17px/1.4 var(--sans);color:var(--grey2)">our COO closed 8 in 6 months, part-time · 5 → 14 agencies with no sales team</span></div>
+  <style>.vrow{display:grid;grid-template-columns:260px 1fr 150px;align-items:center;gap:20px;margin-bottom:14px}.vl{font:700 22px/1.25 var(--sans)}.vl small{font:500 15px var(--sans);color:var(--grey)}.vt{height:74px;background:#F1ECE2;border-radius:12px;display:flex;overflow:hidden}.seg{border-radius:0;color:#fff;font:600 17px var(--sans);display:flex;align-items:center;padding:0 14px;white-space:nowrap;overflow:hidden}.hatch{background:repeating-linear-gradient(45deg,#7FCFC0 0 10px,#9ADBCD 10px 20px);color:#0B4F45}.vv{font:700 34px var(--serif)}</style>
+  <style>.ue2{flex:1;padding:16px 20px;display:flex;flex-direction:column;gap:4px}.ue2 span{font:700 13px var(--sans);letter-spacing:.1em;text-transform:uppercase;color:var(--grey)}.ue2 b{font:700 50px var(--serif)}.ue2 small{font:600 20px var(--sans)}.eqb{background:#fff;border:2px solid var(--line);border-radius:14px;padding:10px 18px}.eqb.t{border-color:var(--teal);color:var(--teal)}.vrow{margin-bottom:10px!important}.vt{height:60px!important}</style>
+  <div class="foot"><div class="src">Model Pilot, Unit Economics and Sensitivity tabs · observed inputs (125 jobs, 82% verified) · AI at 2027 prices · churn assumed 3%/month (observed ~1.4%) · LTV:CAC stays ≥ 4.8× if any input moves 20% against us.</div></div>
+</section>
+<section class="slide" data-id="whywin" data-thread="whole" data-steps="0">
+  <div class="eyebrow a">Why we win</div>
+  <h1 class="t a" style="--i:1;font-size:50px">Everyone holds a slice. <em>The corner we’re in is empty.</em></h1>
+  <div class="row" style="gap:40px;margin-top:14px">
+    <div style="width:646px;height:595px;position:relative" class="a"><div id="map" style="position:absolute;left:0;top:0;width:760px;height:700px;transform:scale(.85);transform-origin:top left"><svg viewBox="0 0 760 700" style="position:absolute;inset:0"><rect x="60" y="20" width="680" height="600" fill="#fff" stroke="#E6DFD2" stroke-width="2" rx="14"/><rect x="420" y="20" width="320" height="270" fill="#E3F3EF" rx="14"/><line x1="400" y1="20" x2="400" y2="620" stroke="#E6DFD2" stroke-dasharray="6 6"/><line x1="60" y1="320" x2="740" y2="320" stroke="#E6DFD2" stroke-dasharray="6 6"/>
+      <text x="400" y="660" text-anchor="middle" class="lbl">serves the brand / platform  ←→  serves the independent agency</text>
+      <text x="26" y="320" text-anchor="middle" class="lbl" transform="rotate(-90 26 320)">holds one job  ←→  holds the lifetime record + learning</text></svg>
+    </div></div>
+    <div class="col" style="flex:1;gap:12px">
+      <div class="crow a" style="--i:4"><b>Urban Company</b> takes the customer away and keeps 28% of earnings</div><div class="crow a" style="--i:5"><b>Servify</b> works for brands and administrators (~₹781 Cr revenue)</div><div class="crow a" style="--i:6"><b>Zoho FSM / Fieldproxy</b>: English-first, per seat, needs a dashboard</div><div class="crow a" style="--i:7"><b>Bernard (US)</b> ranks faults: no Indian languages, no record</div>
+      <div class="card a" style="--i:8;border:2px solid var(--teal);padding:18px 22px"><div style="font:700 14px var(--sans);letter-spacing:.12em;text-transform:uppercase;color:var(--teal)">Anyone can copy the AI. No one can copy:</div><div style="display:flex;flex-wrap:wrap;gap:8px;margin-top:12px"><span class="chip t">8,200+ verified repair outcomes</span><span class="chip t">a record that follows the machine</span><span class="chip t">outcome licence signed by all 14 agencies</span><span class="chip a">switching costs that grow every month</span></div></div>
+      <div class="a" style="--i:9;font:500 16px/1.45 var(--sans);color:var(--grey2)"><b style="color:var(--ink)">Five forces, one line:</b> the strongest force is the free substitute — phone + notebook — and we run inside WhatsApp, so the substitute is our channel.</div>
+    </div>
+  </div>
+  <style>.crow{font:500 21px/1.4 var(--sans);background:#fff;border:1px solid var(--line);border-radius:12px;padding:14px 18px}.cdot{position:absolute;display:flex;align-items:center;gap:8px;font:600 16px var(--sans);color:var(--grey2);opacity:0;transform:translate(-11px,-11px)}.cdot i{width:22px;height:22px;border-radius:50%;background:#26375A;flex:none}.slide.on .cdot{animation:pop .6s var(--ease) both;animation-delay:calc(var(--k)*160ms + 600ms)}.cdot.kw{color:var(--teal);font:800 22px var(--sans)}.cdot.kw i{width:34px;height:34px;background:var(--teal);animation:pulse 2.2s infinite}</style>
+  <div class="foot"><div class="src">Steps 5.6–5.8 · team repo competitive analysis. “Empty corner” = no rival found in public sources.</div></div>
+</section>
+<section class="slide" data-id="howbig" data-thread="whole" data-steps="0">
+  <div class="eyebrow a">How big · the plan</div>
+  <h1 class="t a" style="--i:1;font-size:50px">From 14 agencies to 3,800 — <em>and the record is the business.</em></h1>
+  <div class="row" style="gap:30px;margin-top:10px;align-items:flex-start">
+    <div style="width:700px">
+      <svg viewBox="0 0 1000 680" width="700" height="476" id="funnel"></svg>
+      <div class="card a" style="--i:6;background:var(--ink);color:#fff;border:none;padding:14px 20px;margin-top:8px"><div style="font:700 13px var(--sans);letter-spacing:.12em;text-transform:uppercase;color:var(--amber)">Keepwell earnable pool</div><div style="font:700 40px var(--serif)">₹1,005–2,370 Cr<span style="font:600 18px var(--sans)"> / yr</span></div><div style="font:500 14px var(--sans);color:#C9D3E6">Circuit fees ₹158–396 Cr + appliance plans + parts</div></div>
+    </div>
+    <div style="flex:1">
+      <svg viewBox="0 0 1150 680" width="960" height="568" id="stagechart" class="a" style="--i:3"></svg>
+    </div>
+  </div>
+  <div class="foot"><div class="src">Agency count built three ways (technicians, jobs, ₹ market). Model Revenue Build + P&amp;L tabs · Y5 EBITDA +₹2.6 Cr · 34 lakh records · 17% of our segment (ceiling 20%).</div></div>
+</section>
+<section class="slide" data-id="askneed" data-thread="whole" data-steps="0">
+  <div class="eyebrow a">Before the ask · what the next 24 months need</div>
+  <h1 class="t a" style="--i:1;font-size:50px">What we need: costed line by line, <em>a ₹4.67 Cr gap.</em></h1>
+  <div class="row" style="gap:44px;margin-top:6px">
+    <svg viewBox="0 0 860 620" width="700" height="505" class="a" style="--i:2" id="bridge"></svg>
+    <div class="col" style="flex:1;gap:9px">
+      <div style="font:700 15px var(--sans);letter-spacing:.12em;text-transform:uppercase;color:var(--grey);--i:3" class="a">Where every rupee goes, by purpose</div>
+      <div id="uof"></div>
+      <div class="a" style="--i:8;font:600 17px/1.4 var(--sans);color:#0B4F45;background:var(--tealbg);border:1px solid #BFE3DA;border-radius:12px;padding:12px 16px">At Stage 2, the heaviest need is <b>proving product–market fit</b> — every Series A gate is a PMF proof, so it gets the biggest share.</div>
+      <div class="a" style="--i:9;font:500 15px var(--sans);color:var(--grey2)">Not spending on: consumer ads · a consumer app · a big office · parts inventory</div>
+    </div>
+  </div>
+  <div class="a" style="--i:10;position:absolute;left:110px;right:110px;bottom:92px;display:flex;gap:10px;align-items:center;flex-wrap:wrap;background:#fff;border:1px solid var(--line);border-radius:14px;padding:12px 18px"><b style="font:700 13px var(--sans);letter-spacing:.12em;text-transform:uppercase;color:var(--teal)">Compliance, built in + budgeted (₹26 L)</b><span class="chip">DPDP: consent-first, data in India</span><span class="chip">IRDAI: plans only via licensed partners</span><span class="chip">CERT-In incident runbook</span><span class="chip">owner approves every quote</span><span class="chip t">0 safety incidents in 9 months</span></div>
+  <div class="foot"><div class="src">Step 8 · model Funding Need tab · costed 24-month requirement list; Google for Startups credits (~₹33 L) deliberately not counted. ₹ lakh.</div></div>
+</section>
+<section class="slide dark" data-id="ask" data-thread="whole" data-steps="0">
+  <div class="eyebrow a">The ask</div>
+  <div class="row" style="align-items:flex-end;gap:40px;margin-top:4px">
+    <div class="a" style="--i:1;font:700 170px/0.95 var(--serif);letter-spacing:-.02em">₹4.75 <span style="font-size:100px">Cr</span></div>
+    <div class="a" style="--i:2;font:500 italic 38px/1.25 var(--serif);color:var(--teal2);padding-bottom:16px">to take Circuit from 14 agencies to ~260,<br>and reach the Series A from strength.</div>
+  </div>
+  <div class="a" style="--i:3;margin-top:18px;font:500 17px var(--sans);color:#AFC0DB">Costed need ₹602.9 L − revenue ₹104.8 L − cash ₹21 L − grant due ₹10 L = <b style="color:#fff">gap ₹467 L</b> → rounded up to <b style="color:var(--amber)">₹475 L</b> (previous page)</div>
+  <div class="row a" style="--i:4;gap:16px;margin-top:22px">
+    <div class="term"><b>24 months</b>of runway</div>
+    <div class="term"><b>₹4.0 Cr</b>minimum close (21 months)</div>
+    <div class="term"><b>Seed CCPS</b>priced preference shares · one clean class</div>
+    <div class="term" style="border-color:var(--amber)"><b style="color:var(--amber)">20%</b>to one lead seed investor</div>
+  </div>
+  <div class="row" style="gap:24px;margin-top:30px">
+    <div class="card a" style="--i:5;flex:1"><div class="h">What we have today</div><ul><li>14 paying agencies · 1 churned of 15</li><li>83% one-visit closure, held 6 months</li><li>78% root-cause accuracy, rising</li><li>₹21 L in the bank · ₹10 L grant due</li></ul></div>
+    <div class="card a" style="--i:6;flex:1.35;border-color:var(--teal2)"><div class="h" style="color:var(--teal2)">What your money proves — the Series A gates</div><ul><li><b>120</b> paying agencies by month ~15 · <b>40,000</b> machine records by month ~13</li><li>One-visit closure +10 points at scale, held 3 months</li><li>≥ 97% monthly retention · payback ≤ 7 months</li><li>1 warranty-administrator letter of intent</li></ul></div>
+    <div class="card a" style="--i:7;flex:1"><div class="h">What comes next</div><ul><li>~260 agencies · 1.37 lakh records by month 24</li><li><b>Series A of ~₹8–10 Cr around month 20</b> — raised from strength, not need</li><li>Then Tier 1 cities, plans and claims</li></ul></div>
+  </div>
+  <style>.term{flex:1;border:1px solid rgba(255,255,255,.22);border-radius:16px;padding:16px 20px;font:500 17px var(--sans);color:#C9D3E6}.term b{display:block;font:700 38px var(--serif);color:#fff}.slide.dark .card .h{font:700 15px var(--sans);letter-spacing:.12em;text-transform:uppercase;color:var(--amber)}.slide.dark .card ul{margin:12px 0 0;padding-left:22px;font:500 20px/1.55 var(--sans);color:#E7ECF5}</style>
+  <div class="foot"><div class="src">Steps 8–9 · valuation, cap table and term positions are in the backup slides (press B), for Q&amp;A only.</div></div>
+</section>
+<section class="slide" data-id="future" data-thread="whole" data-steps="0">
+  <div class="eyebrow a">Why now · the future</div>
+  <h1 class="t a" style="--i:1;font-size:50px">The window is open — <em>and we know who buys in the end.</em></h1>
+  <div class="row a" style="--i:2;gap:16px;margin-top:12px">
+    <div class="card wn"><b>₹4.5 a job</b><span>Indian-language AI is finally cheap enough for a 5-technician shop — against our ₹40 fee</span></div>
+    <div class="card wn"><b>1 in 10 homes</b><span>has an AC today; India needs ~5× more technicians by 2037 — the repair wave is ahead</span></div>
+    <div class="card wn"><b>Repair opens up</b><span>Right to Repair portal · Repairability Index · Kigali refrigerant freeze, 2028</span></div>
+    <div class="card wn"><b>DPDP · May 2027</b><span>consent duties arrive; the consent-first record built now becomes the standard others retrofit</span></div>
+  </div>
+  <div class="row" style="gap:46px;margin-top:24px">
+    <div style="width:600px;--i:4" class="a">
+      <div style="font:700 15px var(--sans);letter-spacing:.12em;text-transform:uppercase;color:var(--grey)">Path to ₹100 Cr revenue</div>
+      <div id="path100" style="margin-top:14px"></div>
+      <div style="font:500 16px/1.5 var(--sans);color:var(--grey2);margin-top:12px">~₹66 Cr by year 8. Past ₹100 Cr needs price reviews and new categories (vehicles, homes) on the same record. We say so plainly.</div>
+    </div>
+    <div style="flex:1;display:grid;grid-template-columns:1fr 1fr;gap:14px">
+      <div class="card a acq" style="--i:4;border:2px solid var(--teal)"><span class="tag real">Most likely</span><b>Warranty &amp; protection platforms</b><span>Servify · OneAssist · Onsitego · Asurion</span><em>Asurion bought Domestic &amp; General (~£2.1 bn)</em></div>
+      <div class="card a acq" style="--i:5"><b>Home-services platforms</b><span>Urban Company</span><em>UC IPO: 103.6× subscribed</em></div>
+      <div class="card a acq" style="--i:6"><b>Recommerce &amp; recycling</b><span>Cashify · Attero · Recykal</span><em>Quikr bought Zefo (~₹200 Cr)</em></div>
+      <div class="card a acq" style="--i:7"><b>Global field-service software</b><span>entering India</span><em>ServiceTitan: $961M revenue</em></div>
+      <div class="a" style="--i:9;grid-column:1/3;font:600 26px/1.3 var(--serif)">A strategic sale in <em style="color:var(--teal)">years 6–8</em>, once the record and claims lines are proven.</div>
+    </div>
+  </div>
+  <style>.wn{flex:1;display:flex;flex-direction:column;gap:6px;padding:18px 20px}.wn b{font:700 26px var(--serif)}.wn span{font:500 15px/1.4 var(--sans);color:var(--grey2)}.acq{display:flex;flex-direction:column;gap:6px;padding:16px 20px}.acq b{font:700 22px/1.2 var(--serif)}.acq span{font:500 16px var(--sans);color:var(--grey2)}.acq em{font:600 15px var(--sans);font-style:normal;color:var(--amber);margin-top:auto}</style>
+  <div class="foot"><div class="src">Steps 1 and 9 · tailwinds from the team repo; path beyond Y5 illustrative; acquisition precedents from the repo.</div></div>
+</section>
+<section class="slide dark" data-id="close" data-thread="whole" data-steps="1">
+  <div class="eyebrow a">Back to Ramagundam</div>
+  <h1 class="t a" style="--i:1;color:#fff">The same afternoon, <em>with Keepwell.</em></h1>
+  <div class="col" style="gap:14px;margin-top:28px;width:1340px">
+    <div class="beat st" data-s="1" style="transition-delay:.1s"><i>✓</i>The son’s voice note is answered in minutes, in Telugu, in Ramesh’s name</div>
+    <div class="beat st" data-s="1" style="transition-delay:.6s"><i>✓</i>Circuit knows this model, this town, this heat: it’s almost always the capacitor</div>
+    <div class="beat st" data-s="1" style="transition-delay:1.1s"><i>✓</i>The technician arrives the same afternoon, with a ₹350 part in his pocket</div>
+    <div class="beat st" data-s="1" style="transition-delay:1.6s"><i>✓</i>Fixed in one visit · verified · the record grows by one, and every agency gets smarter</div>
+    <div class="beat st" data-s="1" style="transition-delay:2.1s"><i>✓</i>A 74-year-old man sleeps that night in a cool room</div>
+  </div>
+  <div class="st" data-s="1" style="transition-delay:2.9s;position:absolute;left:110px;right:110px;bottom:110px">
+    <div style="font:600 62px/1.15 var(--serif)">Keepwell becomes <em style="color:var(--teal2)">the record everyone checks</em> before touching a machine.</div>
+    <div style="display:flex;gap:30px;align-items:center;margin-top:26px;font:600 20px var(--sans);color:#AFC0DB"><svg width="40" height="40" viewBox="0 0 48 48"><use href="#logo"/></svg>Prathyusha Kalluri · Sri Charan Peri · Kavyanth Munagala<span style="margin-left:auto;color:var(--amber)">Raising ₹4.75 Cr · Thank you</span></div>
+  </div>
+  <style>.beat{font:500 27px/1.35 var(--sans);color:#E7ECF5;display:flex;gap:18px;align-items:center}.beat i{width:42px;height:42px;border-radius:50%;background:var(--teal);display:grid;place-items:center;font-style:normal;font-weight:800;flex:none}</style>
+  <div class="foot"><div class="src">Illustrative case for the IIIT Hyderabad ESFS course pitch. Founder histories, timeline, pilot results and financials are assumptions; research, quotes, evidence and the prototype are real.</div></div>
+</section>
+<section class="slide" data-id="b_divider" data-thread="" data-steps="0" data-backup="1">
+  <div style="display:flex;flex-direction:column;justify-content:center;height:100%"><div class="eyebrow">Backup · for Q&amp;A only</div><h1 class="t" style="font-size:90px">Valuation, cap table, terms</h1><p class="lede">Not part of the pitch. Used only if an investor asks.</p></div>
+</section>
+<section class="slide" data-id="b_valuation" data-thread="" data-steps="0" data-backup="1">
+  <div class="eyebrow">Backup · valuation</div><h1 class="t">Three course methods; <em>priced at the investor's own hurdle.</em></h1>
+  <table class="bt"><tr><th>Method</th><th>Basis</th><th>Post-money</th></tr>
+  <tr><td>Comparable</td><td>Hisabkitab ₹20 Cr · Unveilr ₹16.7 Cr · Indian seed midpoint ~₹37.6 Cr</td><td>₹24.8 Cr</td></tr>
+  <tr><td>Scorecard</td><td>Comparable × 78 ÷ 80 (our fundability score)</td><td>₹24.1 Cr</td></tr>
+  <tr><td>VC method</td><td>35% IRR, 6 years · Y6 revenue ₹30.8 Cr × 7× = ₹215.5 Cr exit</td><td>₹24.2 Cr</td></tr>
+  <tr><td><b>Pitched</b></td><td><b>₹19 Cr pre / ₹23.75 Cr post · 20% · ₹107.51 per share · never above the VC-method price</b></td><td>Floor ₹16 Cr pre</td></tr>
+  <tr><td>Investor return</td><td>Conservative ~21% IRR · base ~35% (6.2×) · aggressive ~47%</td><td></td></tr></table>
+  <style>.bt{width:100%;border-collapse:collapse;margin-top:30px;font:500 22px/1.4 var(--sans)}.bt th{text-align:left;font:700 15px var(--sans);letter-spacing:.1em;text-transform:uppercase;color:var(--grey);border-bottom:2px solid var(--line);padding:12px}.bt td{border-bottom:1px solid var(--line);padding:16px 12px}</style>
+</section>
+<section class="slide" data-id="b_captable" data-thread="" data-steps="0" data-backup="1">
+  <div class="eyebrow">Backup · cap table</div><h1 class="t">Founders keep a majority <em>through the Series A.</em></h1>
+  <table class="bt"><tr><th>Holder</th><th>After seed</th><th>After Series A</th><th>After Series B</th></tr>
+  <tr><td>Prathyusha (CEO)</td><td>27.2%</td><td>21.7%</td><td>18.5%</td></tr><tr><td>Sri Charan (CTO)</td><td>20.4%</td><td>16.3%</td><td>13.9%</td></tr><tr><td>Kavyanth (COO)</td><td>20.4%</td><td>16.3%</td><td>13.9%</td></tr><tr><td>Pre-seed angels (iSAFE, ₹10 Cr cap)</td><td>2.1%</td><td>1.7%</td><td>1.4%</td></tr><tr><td>ESOP pool (incl. strategic advisors)</td><td>10.0%</td><td>8.0%</td><td>6.8%</td></tr><tr><td><b>Lead seed VC</b></td><td><b>20.0%</b></td><td>16.0%</td><td>13.6%</td></tr><tr><td><b>Founders combined</b></td><td><b>67.9%</b></td><td><b>54.3%</b></td><td><b>46.2%</b></td></tr></table>
+</section>
+<section class="slide" data-id="b_terms" data-thread="" data-steps="0" data-backup="1">
+  <div class="eyebrow">Backup · terms</div><h1 class="t">Standard seed terms, <em>two asks.</em></h1>
+  <table class="bt"><tr><th>Term</th><th>We accept</th><th>We ask for</th></tr>
+  <tr><td>Liquidation preference</td><td>1× non-participating</td><td>—</td></tr><tr><td>Anti-dilution</td><td>Broad-based weighted average</td><td>Never full ratchet</td></tr><tr><td>Board</td><td>2 founders + 1 lead director + 1 independent</td><td>—</td></tr><tr><td>Vesting</td><td>4 years, 1-year cliff</td><td>Credit for time since May 2025</td></tr><tr><td>Vetoes</td><td>Standard list</td><td>Thresholds at ₹25 L, not ₹10 L</td></tr><tr><td>Deal costs</td><td>Capped at ₹8 L</td><td>—</td></tr><tr><td>Series A</td><td>—</td><td>The lead reserves for its pro-rata</td></tr></table>
+</section>
+
+<!-- HUD -->
+<div id="hud">
+  <div class="progress"><i id="prog"></i></div>
+  <div class="gnav"><div class="brand"><svg viewBox="0 0 48 48"><use href="#logo"/></svg>Keepwell</div><div class="tabs" id="tabs"></div></div>
+  <div class="pg" id="pg"></div>
+  <div class="ctrl"><button id="bprev" title="Back (←)">‹</button><button id="bnext" title="Next (→ / space)">›</button></div>
+</div>
+<svg class="thread" id="thread" viewBox="0 0 1920 40" preserveAspectRatio="none" style="position:absolute;z-index:30"><path d="M0 22 C 320 2, 640 38, 960 20 S 1600 4, 1920 22"/></svg>
+</div>
+
+<div id="notes"><div class="nh"><span id="nsp"></span><b id="ntitle"></b><span id="ntime"></span><span class="timer" id="timer">00:00</span></div><div class="say" id="nsay"></div><div class="why" id="nwhy"></div></div>
+<div id="lb"><img alt=""><p></p></div>
+<div class="help">→ / space next · ← back · N notes · F fullscreen · B backup slides</div>
+
+<!-- icon sprite -->
+<svg width="0" height="0" style="position:absolute">
+ <defs>
+  <symbol id="logo" viewBox="0 0 48 48"><rect width="48" height="48" rx="12" fill="#0F8C7A"/><path d="M14 30 C14 18, 34 18, 34 30" fill="none" stroke="#fff" stroke-width="3.4" stroke-linecap="round"/><circle cx="24" cy="31" r="4.5" fill="#E08A1E"/><path d="M10 34 H38" stroke="#fff" stroke-width="3" stroke-linecap="round" opacity=".8"/></symbol>
+  <symbol id="i-ac" viewBox="0 0 48 48"><rect x="5" y="12" width="38" height="16" rx="3"/><path d="M10 23h28M14 34l-2 5M24 34v6M34 34l2 5"/></symbol>
+  <symbol id="i-fridge" viewBox="0 0 48 48" fill="none" stroke-width="2.4" stroke-linecap="round"><rect x="13" y="4" width="22" height="40" rx="3"/><path d="M13 18h22M17 9v5M17 23v6"/></symbol>
+  <symbol id="i-wm" viewBox="0 0 48 48"><rect x="8" y="5" width="32" height="38" rx="3"/><circle cx="24" cy="27" r="9"/><path d="M8 13h32M13 9h4"/></symbol>
+  <symbol id="i-ro" viewBox="0 0 48 48"><rect x="11" y="4" width="26" height="36" rx="4"/><path d="M24 14c-4 5-5 7-5 9a5 5 0 0 0 10 0c0-2-1-4-5-9zM18 44h12"/></symbol>
+  <symbol id="i-geyser" viewBox="0 0 48 48"><rect x="12" y="4" width="24" height="34" rx="11"/><path d="M19 38v6M29 38v6M20 20h8"/></symbol>
+  <symbol id="i-tv" viewBox="0 0 48 48"><rect x="5" y="8" width="38" height="26" rx="3"/><path d="M16 42h16M24 34v8"/></symbol>
+  <symbol id="i-fan" viewBox="0 0 48 48"><circle cx="24" cy="22" r="3"/><path d="M24 19c0-8 8-12 10-7s-6 7-10 7zM26 24c6 5 4 13-1 12s-3-9 1-12zM21 23c-7 3-14-2-11-6s9 2 11 6zM24 25v19M16 44h16"/></symbol>
+  <symbol id="i-mixer" viewBox="0 0 48 48"><path d="M14 6h20l-3 22H17zM12 28h24v14H12zM24 35h.01"/></symbol>
+  <symbol id="i-wrench" viewBox="0 0 48 48" fill="none" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M30 6a10 10 0 0 0-9 14L6 35l7 7 15-15a10 10 0 0 0 14-9l-6 6-6-2-2-6z"/></symbol>
+  <symbol id="i-rupee" viewBox="0 0 48 48" fill="none" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 8h24M12 18h24M18 8c10 0 10 20 0 20h-6l16 14"/></symbol>
+  <symbol id="i-phone" viewBox="0 0 48 48" fill="none" stroke-width="2.4" stroke-linecap="round"><rect x="13" y="4" width="22" height="40" rx="4"/><path d="M21 38h6"/></symbol>
+  <symbol id="i-store" viewBox="0 0 48 48" fill="none" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M6 18l4-10h28l4 10M6 18h36v4a6 6 0 0 1-12 0 6 6 0 0 1-12 0 6 6 0 0 1-12 0zM9 26v16h30V26M20 42V32h8v10"/></symbol>
+  <symbol id="i-home" viewBox="0 0 48 48" fill="none" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M6 22L24 7l18 15M11 19v23h26V19M20 42V30h8v12"/></symbol>
+  <symbol id="i-mic" viewBox="0 0 48 48"><rect x="18" y="5" width="12" height="22" rx="6"/><path d="M11 22a13 13 0 0 0 26 0M24 35v8"/></symbol>
+  <symbol id="i-brain" viewBox="0 0 48 48"><path d="M8 24a16 16 0 1 0 32 0 16 16 0 1 0-32 0M18 24l4 4 8-9"/></symbol>
+  <symbol id="i-search" viewBox="0 0 48 48"><circle cx="21" cy="21" r="12"/><path d="M30 30l11 11M21 15v12M15 21h12"/></symbol>
+  <symbol id="i-doc" viewBox="0 0 48 48"><path d="M12 4h18l8 8v32H12zM30 4v8h8M18 22h12M18 30h12M18 38h7"/></symbol>
+  <symbol id="i-card" viewBox="0 0 48 48"><rect x="6" y="10" width="36" height="28" rx="4"/><path d="M12 18h14M12 25h20M12 32h9"/></symbol>
+  <symbol id="i-check" viewBox="0 0 48 48"><circle cx="24" cy="24" r="18"/><path d="M15 25l6 6 12-13"/></symbol>
+ </defs>
+</svg>
+
+<script>
+const NOTES = [{"id": "hook", "act": "hook", "title": "Every repair in your home starts from zero", "speaker": "Prathyusha (CEO)", "time": "0:40", "say": "Before we begin, think about your own home. This year, what broke? The AC? The fridge? The purifier, the geyser? [tap the machines as people answer]\nNow pick one. When was it last serviced? Which part was changed? What did you pay? [click]\nMost of us don't know. It's in a phone, a diary, or nowhere. [click]\nEvery repair in your home starts from zero.", "why": "The room answers before we say a word about ourselves, so the problem is theirs from the first 30 seconds."}, {"id": "ramagundam", "act": "hook", "title": "We took it lightly too — until Ramagundam", "speaker": "Prathyusha (CEO)", "time": "0:54", "say": "We took this lightly too. Sri Charan's family spends about ten thousand rupees a month on its machines, and we called that normal. Then, Ramagundam. [click]\nForty-six degrees. A seventy-four-year-old retired miner, home alone, with a fever. His AC stops. [click] Ramesh, the one technician he trusts, is up a ladder across town. Fourteen missed calls. [click] His son, seven hundred kilometres away, calls everyone. Nobody knows what's wrong, or who's coming. [click] The old man spends two nights in that heat. [click]\nThe fault was a three-hundred-and-fifty-rupee part. Nobody was the villain. The system has no memory, and when it has no memory, it's people who suffer first.", "why": "The hook is the human cost, not the money. One concrete story everyone can picture."}, {"id": "team", "act": "team", "title": "Three founders, one from each side", "speaker": "Prathyusha (CEO)", "time": "0:37", "say": "That afternoon is why the three of us are here, and each of us has lived one side of it. I'm Prathyusha. I co-founded FixNear, a network of twelve hundred technicians in these same towns, and sold it in 2022. Sri Charan spent seven years on Indian-language voice AI and built our product himself. Kavyanth ran a brand's network of three hundred service partners and its warranty desk. All three of us have been full-time since May 2025, with our own money in.", "why": "Team is 45 of 90 points on the course matrix. Placed right after the story, the founders land as witnesses, each with one line of proof."}, {"id": "evidence", "act": "problem", "title": "What we saw, and what we heard", "speaker": "Sri Charan (CTO)", "time": "0:50", "say": "I'm Sri Charan. We didn't read about this. We watched it. This is a real brand's WhatsApp bot, recorded in an interview: an \"API issue\", a job ID she doesn't have, and then, \"my request was not done.\" And look at what families do instead: an agency's sticker on the purifier, the next date in marker, a handwritten repair diary.\nWe listened for four months: a survey, seven households, eighteen agency owners. [click] It all said one thing. Nothing in a repair can be checked, so people trust the person. Forty-four percent stay with their local agency. So we don't replace that agency. We make it the smartest one in town.", "why": "Real evidence plus the insight, merged into one slide. The video playing does the work while the voice explains what it means."}, {"id": "problem", "act": "problem", "title": "The problem, mapped and sized", "speaker": "Sri Charan (CTO)", "time": "0:39", "say": "Then we mapped the whole problem. Fourteen distinct problems across a machine's life: lost calls, blind first visits, no history, warranties nobody can prove. We scored each one, and they group into five scenarios.\nAnd the scale is real. Fifteen crore repairs a year. Twenty-seven crore machines with no record. Five hundred and fifty crore rupees lost to repeat trips. Thirty-seven thousand five hundred agencies running on a phone and a notebook. [click]\nWe start where impact is highest and barriers lowest: the prepared visit.", "why": "Problem map, both sides and scale in one picture. The numbers sit on screen while the voice gives the logic of where to start."}, {"id": "keepwell", "act": "keepwell", "title": "Keepwell, and the roadmap", "speaker": "Sri Charan (CTO)", "time": "0:28", "say": "So we built Keepwell: one living record for every machine in an Indian home, built with the owner's consent. The CIBIL of household machines.\nEach scenario becomes a product on that record, and each has its own payer. Circuit for repair agencies, live today. Then home memory and service plans, sold for insurers. Then claims, parts, and resale and recycling.", "why": "The name, the vision and the roadmap land together, as the answer to the problem slide before it."}, {"id": "companystage", "act": "stage", "title": "Where we are", "speaker": "Prathyusha (CEO)", "time": "0:32", "say": "Where are we? Stage two. The product works, customers pay, and now we're proving the business model.\nIncorporated May 2025 at CIE-IIITH. Prototype by September. Thirty lakh from two operator angels, who also brought us our first agencies. A government seed grant, and fourteen paying agencies by October.\nIn total we've raised fifty-five lakh and spent thirty-four, mostly on modest stipends and pilots, and we have twenty-one lakh in the bank.", "why": "Stage, journey, angels and money on one slide: four diligence questions answered before anyone asks."}, {"id": "circuit", "act": "solution", "title": "Circuit, and how easy it is", "speaker": "Sri Charan (CTO)", "time": "0:44", "say": "Here's Circuit. A customer sends the agency a voice note on WhatsApp, in their own language. Circuit understands it and reads it back. It finds the likely fault and the part to carry, quotes from the agency's own price list for the owner to approve, and sends the technician a job card he can read in ten seconds.\nWhen he verifies the fix, the record updates, Circuit learns, and only then do we earn forty rupees.\nThat's our live site on the right. There's no new app. It's set up in one visit, and the first thirty days are free.", "why": "What it does, how simple it is, and the live site scrolling as the visual. No technical jargon."}, {"id": "proof", "act": "proof", "title": "The proof", "speaker": "Kavyanth (COO)", "time": "0:46", "say": "I'm Kavyanth. First, we tested price: five agencies, forty rupees against a hundred per fix. At a hundred, one owner halved his usage. In his words, \"it takes too much of a small job.\" At forty, agencies get twice the value they pay. So everyone pays forty.\nNine months in, fourteen agencies pay us and only one has left. That's eight thousand two hundred jobs, and one-visit fixes have gone from seventy-one to eighty-three percent.\nAnd this curve matters most. Accuracy went from sixty-two to seventy-eight percent, and since June the gains come from repairs our technicians verified. No competitor has that data.", "why": "Pilot, traction and the learning curve merged. The failed ₹100 arm builds trust, and the curve is the moat in production data."}, {"id": "engine", "act": "proof", "title": "The agency wins. So do we.", "speaker": "Kavyanth (COO)", "time": "0:43", "say": "Does the agency win? From system logs alone, recovered jobs and saved trips are worth four and a half thousand rupees a month. That's more than our fee of thirty-seven hundred. With the owner's time, it's twice the fee.\nAnd we win too. Each agency pays us about forty-two hundred rupees a month, at an eighty-one percent margin. It pays back in six months and is worth six times what it costs to win, on conservative assumptions.\nGrowth comes from capacity: I closed eight agencies part-time in six months. One full-time rep brings about eighty a year.", "why": "Value to the customer, unit economics and growth in one engine slide. The voice gives the logic; the screen shows the bars and tiles."}, {"id": "whywin", "act": "win", "title": "Why we win", "speaker": "Kavyanth (COO)", "time": "0:32", "say": "Why hasn't anyone solved this? Everyone holds a slice. Urban Company takes the customer. Servify serves brands. Field-service software is in English and priced per seat. Nobody serves the agency and holds the machine's history. That corner is ours.\nOur moat isn't the AI, which can be copied in a quarter. It's eight thousand verified repair outcomes, a data licence signed by every agency, and switching costs that grow every month.", "why": "Competition, moat and five forces compressed. The empty corner is the image investors remember."}, {"id": "howbig", "act": "win", "title": "How big, and the plan", "speaker": "Kavyanth (COO)", "time": "0:35", "say": "How big? We counted India's repair agencies three ways: thirty-seven thousand five hundred, with twenty-two thousand five hundred in our Tier 2 and 3 segment.\nThis seed takes us to about two hundred and sixty agencies, and a Series A takes us south and then national. By year five, that's thirty-eight hundred agencies, nineteen crore in revenue, and profitable. And the record opens a pool of over a thousand crore a year in plans, parts and claims.", "why": "Market and plan side by side, so every growth number can be checked against the market."}, {"id": "askneed", "act": "ask", "title": "What we need", "speaker": "Prathyusha (CEO)", "time": "0:30", "say": "Now, what we need. We costed every requirement for the next twenty-four months, added a buffer, and subtracted our revenue, our cash and the grant still due. The gap is four hundred and sixty-seven lakh. The biggest share, thirty-eight percent, goes to proving product–market fit.\nCompliance is built in and budgeted: consent-first data kept in India, insurance sold only through licensed partners, and zero safety incidents.", "why": "The requirement comes before the number, so the ask lands as a calculation. Compliance sits right before the ask as a reason to trust."}, {"id": "ask", "act": "ask", "title": "The ask", "speaker": "Prathyusha (CEO)", "time": "0:32", "say": "So here's our ask. Four point seven five crore rupees, for twenty percent, from one lead investor, as priced seed preference shares. That's twenty-four months of runway, and our minimum close is four crore.\nYour money proves the Series A gates: a hundred and twenty paying agencies, forty thousand machine records, retention above ninety-seven percent, and our first warranty partner. At month twenty, we raise from strength, not need.", "why": "The most important slide gets a full page: the amount, the instrument, the equity, the runway and what it proves."}, {"id": "future", "act": "future", "title": "Why now, and who buys", "speaker": "Prathyusha (CEO)", "time": "0:30", "say": "Why now? Indian-language AI just became cheap enough for a small shop. The repair wave is still ahead of us. And data law arrives in 2027, so the consent-first record built now becomes the standard.\nThe buyers already exist: warranty platforms, home services and recommerce. Asurion paid two billion pounds for a company like that. We'd expect a strategic sale in years six to eight.", "why": "Urgency and the exit together: why invest now, and how the money comes back."}, {"id": "close", "act": "future", "title": "Back to Ramagundam", "speaker": "Prathyusha (CEO)", "time": "0:26", "say": "[click, then let it play] Back to Ramagundam. With Keepwell, that voice note is answered in minutes. Circuit knows it's the capacitor. The technician arrives the same afternoon, with the part, and fixes it in one visit. And a seventy-four-year-old man sleeps in a cool room.\nKeepwell becomes the record everyone checks before touching a machine. Thank you.", "why": "It mirrors the opening and resolves the human story. One click, then stop talking."}, {"id": "b_valuation", "act": "", "title": "Backup · Valuation (Q&A only)", "speaker": "Prathyusha (CEO)", "time": "", "say": "Only if asked: 'Three course methods; we priced at the investor's own required-return price, so the base case clears 35%.'", "why": "Q&A only."}, {"id": "b_captable", "act": "", "title": "Backup · Cap table (Q&A only)", "speaker": "Prathyusha (CEO)", "time": "", "say": "Only if asked: 'Founders keep a majority through the Series A.'", "why": "Q&A only."}, {"id": "b_terms", "act": "", "title": "Backup · Terms (Q&A only)", "speaker": "Prathyusha (CEO)", "time": "", "say": "Only if asked: 'Standard seed terms, with two asks: vesting credit and a Series A reserve.'", "why": "Q&A only."}];
+const ACTS = [["hook", "The hook"], ["team", "The team"], ["problem", "The problem"], ["keepwell", "Keepwell"], ["stage", "Where we are"], ["solution", "Circuit"], ["proof", "The proof"], ["win", "Why we win"], ["ask", "The ask"], ["future", "The future"]];
+(function(){
+const stage=document.getElementById('stage');if(!stage)return;
+const slides=[...document.querySelectorAll('.slide')];
+const main=slides.filter(s=>!s.dataset.backup);
+let cur=0, step=0, t0=Date.now(), backup=false;const STILL=/still/.test(location.search);if(STILL)stage.classList.add('still');
+const N=()=> backup?slides.length:main.length;
+const list=()=> backup?slides:main;
+// fit
+function fit(){const s=Math.min(innerWidth/1920,innerHeight/1080);stage.style.transform=`translate(-50%,-50%) scale(${s})`}
+addEventListener('resize',fit);fit();
+// tabs
+const tabs=document.getElementById('tabs');if(!tabs)return;
+ACTS.forEach(([k,l])=>{const sp=document.createElement('span');sp.textContent=l;sp.dataset.act=k;sp.onclick=()=>{const i=main.findIndex(s=>noteOf(s).act===k);if(i>=0)go(i)};tabs.appendChild(sp)});
+function noteOf(s){return NOTES.find(n=>n.id===s.dataset.id)||{}}
+// helpers
+function fmt(n,sep){return sep?n.toLocaleString('en-IN'):String(n)}
+function count(el){if(el._done)return;el._done=1;const to=+el.dataset.to,sep=el.dataset.sep,D=STILL?1:1500,t1=performance.now();(function f(t){const k=Math.min((t-t1)/D,1),e=1-Math.pow(1-k,3);el.textContent=fmt(Math.round(to*e),sep);if(k<1)requestAnimationFrame(f)})(t1)}
+function live(el,s){let p=el.closest('.st');while(p&&s.contains(p)){if(!p.classList.contains('show'))return false;p=p.parentElement.closest('.st')}return true}
+function activate(s){
+  s.querySelectorAll('.count').forEach(el=>{if(live(el,s))setTimeout(()=>count(el),500)});
+  s.querySelectorAll('[data-w]').forEach(el=>{if(live(el,s))setTimeout(()=>el.style.width=el.dataset.w,350)});
+  s.querySelectorAll('[data-h]').forEach(el=>{if(live(el,s))setTimeout(()=>el.style.height=el.dataset.h,350)});
+  s.querySelectorAll('svg .draw').forEach(el=>{if(live(el,s)||el.classList.contains('st')&&el.classList.contains('show'))setTimeout(()=>el.classList.add('go'),300)});
+}
+function reset(s){
+  s.querySelectorAll('.count').forEach(el=>{el._done=0;el.textContent='0'});
+  s.querySelectorAll('[data-w]').forEach(el=>el.style.width='0');
+  s.querySelectorAll('[data-h]').forEach(el=>el.style.height='0');
+  s.querySelectorAll('svg .draw').forEach(el=>el.classList.remove('go'));
+  s.querySelectorAll('.st').forEach(el=>el.classList.remove('show'));
+  if(s.dataset.id==='hook'){s.querySelectorAll('.mach').forEach(m=>m.classList.remove('hit'));document.getElementById('hookn').textContent='0';document.getElementById('home').classList.remove('qs')}
+  if(s.dataset.id==='demo')chatStop();
+}
+function setStep(s,k){step=k;s.querySelectorAll('.st').forEach(el=>el.classList.toggle('show',+el.dataset.s<=k));
+  if(s.dataset.id==='hook')document.getElementById('home').classList.toggle('qs',k>=1);
+  activate(s)}
+function render(){
+  const L=list();L.forEach((s,i)=>{s.classList.toggle('on',i===cur)});
+  const s=L[cur];reset(s);setStep(s,STILL?+(s.dataset.steps||0):0);
+  const n=noteOf(s);
+  document.querySelectorAll('#tabs span').forEach(t=>t.classList.toggle('cur',t.dataset.act===n.act));
+  document.getElementById('hud').classList.toggle('ondark',s.classList.contains('dark'));
+  document.getElementById('prog').style.width=((cur+1)/L.length*100)+'%';
+  document.getElementById('pg').textContent=(cur+1)+' / '+L.length;
+  const th=document.getElementById('thread');if(!th)return;th.setAttribute('class','thread '+(s.dataset.thread||''));
+  th.style.display=s.dataset.thread?'block':'none';
+  // restart thread draw
+  if(s.dataset.thread==='whole'){const p=th.querySelector('path');p.style.transition='none';p.style.strokeDashoffset=2400;requestAnimationFrame(()=>{requestAnimationFrame(()=>{p.style.transition='';p.style.strokeDashoffset=0})})}
+  else{th.querySelector('path').style.strokeDashoffset=''}
+  document.getElementById('nsp').textContent=n.speaker||'';document.getElementById('ntitle').textContent=n.title||'';
+  document.getElementById('ntime').textContent=n.time?('~'+n.time):'';document.getElementById('nsay').textContent=n.say||'';document.getElementById('nwhy').textContent=n.why?('Why: '+n.why):'';
+  history.replaceState(null,'','#'+(cur+1));
+  if(s.dataset.id==='demo')chatPlay();
+  if(STILL&&s.dataset.id==='hook'){s.querySelectorAll('.mach').forEach((m,i)=>{if(i%3!==2)m.classList.add('hit')});document.getElementById('hookn').textContent=document.querySelectorAll('.mach.hit').length}
+}
+function go(i){const L=list();cur=Math.max(0,Math.min(L.length-1,i));render()}
+function next(){const s=list()[cur];const max=+(s.dataset.steps||0);if(step<max){setStep(s,step+1)}else go(cur+1)}
+function prev(){const s=list()[cur];if(step>0){setStep(s,step-1)}else go(cur-1)}
+addEventListener('keydown',e=>{
+  if(['ArrowRight','PageDown',' ','Enter'].includes(e.key)){e.preventDefault();next()}
+  else if(['ArrowLeft','PageUp','Backspace'].includes(e.key)){e.preventDefault();prev()}
+  else if(e.key==='n'||e.key==='N')document.getElementById('notes').classList.toggle('open');
+  else if(e.key==='f'||e.key==='F'){document.fullscreenElement?document.exitFullscreen():document.documentElement.requestFullscreen()}
+  else if(e.key==='b'||e.key==='B'){backup=!backup;go(backup?main.length:Math.min(cur,main.length-1))}
+  else if(e.key==='Home')go(0);else if(e.key==='End')go(list().length-1);
+  else if(e.key==='Escape'){document.getElementById('lb').classList.remove('open')}
+});
+document.getElementById('bnext').onclick=next;document.getElementById('bprev').onclick=prev;
+setInterval(()=>{const d=Math.floor((Date.now()-t0)/1000);document.getElementById('timer').textContent=String(Math.floor(d/60)).padStart(2,'0')+':'+String(d%60).padStart(2,'0')},1000);
+document.getElementById('timer').onclick=()=>t0=Date.now();
+
+// ---------- hook interactivity
+document.querySelectorAll('.mach').forEach(m=>m.addEventListener('click',e=>{e.stopPropagation();m.classList.toggle('hit');document.getElementById('hookn').textContent=document.querySelectorAll('.mach.hit').length}));
+
+// ---------- lightbox
+const lb=document.getElementById('lb');if(!lb)return;
+document.querySelectorAll('.proof').forEach(f=>f.addEventListener('click',()=>{lb.querySelector('img').src=f.querySelector('img').src;lb.querySelector('p').textContent=f.dataset.cap||'';lb.classList.add('open')}));
+lb.onclick=()=>lb.classList.remove('open');
+
+// ---------- demo tabs + chat
+document.querySelectorAll('.tabbar button').forEach(b=>b.onclick=()=>{document.querySelectorAll('.tabbar button').forEach(x=>x.classList.toggle('cur',x===b));document.querySelectorAll('.pane').forEach(p=>p.classList.toggle('cur',p.id===b.dataset.pane));const v=document.querySelector('#p3 video');if(b.dataset.pane==='p3'){v.play().catch(()=>{})}else v.pause();if(b.dataset.pane==='p1')chatPlay()});
+let timers=[];
+function chatStop(){timers.forEach(clearTimeout);timers=[];document.querySelectorAll('#chat .msg').forEach(m=>m.classList.remove('show'));document.querySelectorAll('.jc').forEach(c=>{c.style.opacity=0;c.style.transform='translateY(12px)'})}
+function chatPlay(){chatStop();document.querySelectorAll('#chat .msg').forEach(m=>timers.push(setTimeout(()=>m.classList.add('show'),+m.dataset.d+600)));document.querySelectorAll('.jc').forEach(c=>timers.push(setTimeout(()=>{c.style.opacity=1;c.style.transform='none'},+c.dataset.d+600)))}
+(document.getElementById('replay')||{}).onclick=chatPlay;
+
+// ---------- generated visuals
+const NS='http://www.w3.org/2000/svg';
+function el(tag,attrs,parent,text){const e=document.createElementNS(NS,tag);for(const k in attrs)e.setAttribute(k,attrs[k]);if(text!=null)e.textContent=text;parent&&parent.appendChild(e);return e}
+function h(html){const d=document.createElement('div');d.innerHTML=html.trim();return d.firstChild}
+
+// lifecycle nodes
+(function(){const box=document.getElementById('lcnodes');if(!box)return;const st=['Bought','Used','Fails','Repaired','Maintained','Resold','Recycled'];const pain=['no invoice kept','warranty can\'t be proven','technician arrives blind','wrong part, second trip','plan sold to the wrong home','buyer can\'t trust it','recycled too early'];
+st.forEach((s,i)=>{const a=-Math.PI/2+i*2*Math.PI/7,x=560+270*Math.cos(a),y=380+270*Math.sin(a);
+ box.appendChild(h(`<div class="a" style="--i:${i+2};position:absolute;left:${x-80}px;top:${y-44}px;width:160px;text-align:center"><div style="background:#fff;border:2px solid #E6DFD2;border-radius:14px;padding:10px 6px;font:700 20px var(--sans)">${s}</div><div style="margin-top:6px;font:600 14px/1.25 var(--sans);color:#C2412D;background:#F8E3DE;border-radius:8px;padding:5px 6px">${pain[i]}</div></div>`))})})();
+
+// roadmap stairs
+(function(){const box=document.getElementById('stairs');if(!box)return;const R=[['R1 · live','Circuit','AI desk for repair agencies','agencies, per verified fix'],['R2 · ~12 mo','Home Memory + Plans','free machine record; plans sold for insurers','insurers, commission'],['R3 · year 2','Claims triage','evidence-backed claims','warranty administrators, OEMs'],['R4','Parts marketplace','technician-confirmed catalogue','parts sellers'],['R5','Resale & recycling','verified history, EPR hand-off','buyers, producers, recyclers'],['Phase 3','Data services','repeat-failure + parts-demand insight','brands, insurers · consent-first']];
+R.forEach((r,i)=>{const x=i*283,y=440-i*80,live=i===0;box.appendChild(h(`<div class="a" style="--i:${i+2};position:absolute;left:${x}px;top:${y}px;width:265px;height:${200+i*80}px;background:${live?'#0E2340':'#fff'};color:${live?'#fff':'#0E2340'};border:2px solid ${live?'#0E2340':'#E6DFD2'};border-radius:18px 18px 0 0;padding:20px"><div style="font:700 14px var(--sans);letter-spacing:.1em;text-transform:uppercase;color:${live?'#E08A1E':'#0F8C7A'}">${r[0]}</div><div style="font:700 26px/1.15 var(--serif);margin:8px 0">${r[1]}</div><div style="font:500 16px/1.35 var(--sans);opacity:.8">${r[2]}</div><div style="font:600 15px/1.3 var(--sans);margin-top:10px;color:${live?'#9FE0D3':'#9A5A08'}">💰 ${r[3]}</div></div>`))});
+box.appendChild(h(`<div class="a" style="--i:9;position:absolute;left:0;right:0;top:640px;height:10px;background:linear-gradient(90deg,#0F8C7A,#16B39C);border-radius:5px"></div>`));
+box.appendChild(h(`<div class="a" style="--i:10;position:absolute;left:0;top:655px;font:700 16px var(--sans);color:#0F8C7A;letter-spacing:.1em;text-transform:uppercase">The machine record runs under every step</div>`))})();
+
+// growth mini chart (5 -> 14 by month)
+(function(){const g=document.getElementById('gbars');if(!g)return;const M=[['May',5],['Jun',6],['Jul',8],['Aug',10],['Sep',12],['Oct',14]];M.forEach(([m,v],i)=>{const x=80+i*112,hh=v*24;el('rect',{x,y:400-hh,width:70,height:hh,fill:i===5?'#0F8C7A':'#9ADBCD',rx:6,class:'wf',style:`--k:${i}`},g);el('text',{x:x+35,y:390-hh,'text-anchor':'middle',class:'vlbl'},g,v);el('text',{x:x+35,y:430,'text-anchor':'middle',class:'lbl'},g,m)});el('text',{x:400,y:455,'text-anchor':'middle',class:'lbl',style:'font-size:14px;fill:#8A93A6'},g,'Paying agencies, 2026 · founder-led, no sales team')})();
+
+// timeline
+(function(){const tl=document.getElementById('tl');if(!tl)return;const T=[['Jan–Apr 2025','Discovery: survey, 7 + 18 interviews'],['May 2025','Incorporated · full-time · CIE-IIITH'],['Jun–Sep 2025','Prototype · 2 design partners'],['Oct 2025','₹30 L from operator angels'],['Jan 2026','In production · Mumbai'],['Feb–Apr 2026','Paid price test · 5 agencies'],['Mar 2026','Seed fund ₹20 L sanctioned'],['May–Oct 2026','5 → 14 paying agencies'],['Aug 2026','Accuracy gate passed'],['Nov 2026','Raising the seed']];
+T.forEach(([d,t],i)=>{const x=110+i*(1480/9);const up=i%2===0;tl.appendChild(h(`<div class="m ${up?'up':'dn'} ${i===9?'key':''}" style="left:${x}px;--k:${i}">${up?`<b>${d}</b><span>${t}</span><div class="d"></div>`:`<div class="d" style="margin-bottom:22px"></div><b>${d}</b><span>${t}</span>`}</div>`))})})();
+
+// competitor map
+(function(){const m=document.getElementById('map');if(!m)return;const D=[['Urban Company',.18,.22],['ServiceOnDoors',.30,.12],['Servify',.22,.58],['Zoho FSM',.70,.16],['Fieldproxy',.64,.32],['Bernard (US)',.80,.42],['Voice-AI firms',.55,.06],['Keepwell',.85,.86]];
+D.forEach(([n,x,y],i)=>{const px=60+x*680,py=620-y*600;m.appendChild(h(`<div class="cdot ${n==='Keepwell'?'kw':''}" style="left:${px}px;top:${py}px;--k:${i}"><i></i>${n}</div>`))})})();
+
+// flywheel
+(function(){const g=document.getElementById('fly');if(!g)return;const W=['More agencies','More verified outcomes','Sharper diagnosis','More first-time fixes','Agencies stay + pay','More machine records','Plans · claims · parts'];
+W.forEach((w,i)=>{const a=-Math.PI/2+i*2*Math.PI/7,x=280+205*Math.cos(a),y=280+205*Math.sin(a);const gg=el('g',{},g);el('circle',{cx:x,cy:y,r:62,fill:i%2?'#E3F3EF':'#fff',stroke:'#0F8C7A','stroke-width':2},gg);const words=w.split(' ');const mid=Math.ceil(words.length/2);const t=el('text',{x,y:y-4,'text-anchor':'middle',style:'font:700 14px var(--sans);fill:#0E2340'},gg);el('tspan',{x,dy:0},t,words.slice(0,mid).join(' '));el('tspan',{x,dy:18},t,words.slice(mid).join(' '));
+ gg.setAttribute('transform',`rotate(0)`)});
+el('circle',{cx:280,cy:280,r:205,fill:'none',stroke:'#0F8C7A','stroke-width':2,'stroke-dasharray':'4 8'},g).parentNode.insertBefore(g.lastChild,g.firstChild);
+// counter-rotate labels so text stays upright
+const st=document.createElement('style');st.textContent='#fly > g{transform-box:fill-box;transform-origin:center;animation:spin 40s linear infinite reverse}';document.head.appendChild(st)})();
+
+// porter
+(function(){const box=document.getElementById('porter');if(!box)return;box.appendChild(h(`<div class="a" style="--i:2;position:absolute;left:640px;top:270px;width:420px;height:150px;border-radius:20px;background:#0E2340;color:#fff;display:flex;align-items:center;justify-content:center;text-align:center;font:700 26px/1.25 var(--serif);padding:16px">AI for repair agencies in India</div>`));
+const P=[['Substitutes','High','phone + notebook + WhatsApp are free','We run inside WhatsApp, so the substitute is our channel','r',[650,0]],['New entrants','Medium–high','an AI wrapper is cheap to build','The moat is verified outcomes, not the model','a',[1180,180]],['Supplier power','Medium–high','Meta (WhatsApp), Google (models)','Model router with fallback; budget at 2027 prices','a',[1040,500]],['Buyer power','Medium','agencies are fragmented but price-sensitive','Charge only on a verified fix; value visible every job','a',[260,500]],['Rivalry','Low, rising','no vernacular agency desk yet','Move first in Tier 2/3; build outcome data early','t',[120,180]]];
+P.forEach(([n,r,why,ans,c,[x,y]],i)=>{box.appendChild(h(`<div class="card a" style="--i:${i+3};position:absolute;left:${x}px;top:${y}px;width:420px;padding:18px 22px"><div style="display:flex;justify-content:space-between;align-items:center"><b style="font:700 24px var(--serif)">${n}</b><span class="chip ${c}" style="font-size:14px;padding:6px 12px">${r}</span></div><div style="font:500 16px var(--sans);color:#5B667C;margin:6px 0">${why}</div><div style="font:600 18px/1.35 var(--sans);color:#0F8C7A">→ ${ans}</div></div>`))})})();
+
+// funnel
+(function(){const svg=document.getElementById('funnel');if(!svg)return;const F=[['37,500','repair agencies in India (TAM)','#0E2340',960],['22,500','in Tier 2/3 towns · our segment (SAM)','#26375A',760],['1,400','Telangana + AP · our beachhead','#0F8C7A',540],['120','Series A gate','#E08A1E',330]];
+F.forEach(([v,l,c,w],i)=>{const y=20+i*160,nw=i<3?F[i+1][3]:w*0.85,cx=500;const p=`${cx-w/2},${y} ${cx+w/2},${y} ${cx+nw/2},${y+145} ${cx-nw/2},${y+145}`;el('polygon',{points:p,fill:c,class:'a',style:`--i:${i+2}`},svg);el('text',{x:cx,y:y+68,'text-anchor':'middle',class:'a',style:`--i:${i+2};font:700 52px var(--serif);fill:#fff`},svg,v);el('text',{x:cx,y:y+104,'text-anchor':'middle',class:'a',style:`--i:${i+2};font:600 19px var(--sans);fill:#E7ECF5`},svg,l)})})();
+
+// stage chart
+(function(){const svg=document.getElementById('stagechart');if(!svg)return;const A=[79,264,945,2196,3793],R=['₹0.2 Cr','₹0.85 Cr','₹3.6 Cr','₹9.6 Cr','₹19.2 Cr'],E=['−1.8','−2.2','−2.8','−1.5','+2.6'];
+const bands=[[0,2,'Seed · this raise · Telangana + AP','#E3F3EF','#0B6B5D'],[2,4,'Series A (~month 20) · the south','#FCEFD9','#9A5A08'],[4,5,'National Tier 2/3','#E8ECF4','#26375A']];
+bands.forEach(([a,b,l,f,tc])=>{el('rect',{x:90+a*200,y:16,width:(b-a)*200-10,height:48,rx:10,fill:f},svg);el('text',{x:90+a*200+((b-a)*200-10)/2,y:46,'text-anchor':'middle',style:`font:700 16px var(--sans);fill:${tc}`},svg,l)});
+el('line',{x1:70,y1:520,x2:1100,y2:520,class:'axis'},svg);
+A.forEach((v,i)=>{const hh=v/3793*380,x=120+i*200;el('rect',{x,y:520-hh,width:130,height:hh,rx:8,fill:i===4?'#0F8C7A':'#26375A',class:'wf',style:`--k:${i}`},svg);el('text',{x:x+65,y:510-hh,'text-anchor':'middle',class:'vlbl'},svg,v.toLocaleString('en-IN'));el('text',{x:x+65,y:510-hh-32,'text-anchor':'middle',style:'font:700 19px var(--sans);fill:#E08A1E'},svg,R[i]);el('text',{x:x+65,y:554,'text-anchor':'middle',class:'lbl',style:'font-weight:800'},svg,'Y'+(i+1));el('text',{x:x+65,y:600,'text-anchor':'middle',style:`font:700 19px var(--sans);fill:${E[i][0]==='+'?'#0F8C7A':'#C2412D'}`},svg,E[i])});
+el('text',{x:20,y:600,class:'lbl',style:'font-size:14px'},svg,'EBITDA ₹ Cr');
+el('text',{x:20,y:96,class:'lbl',style:'font-size:14px'},svg,'Paying agencies (bars) · revenue above (orange)')})();
+
+// bridge
+(function(){const svg=document.getElementById('bridge');if(!svg)return;const sc=0.62,base=540;const B=[['Costed needs, 24 mo',548.1,'up','#0E2340'],['+10% contingency',54.8,'up','#26375A'],['− revenue we earn',-104.8,'dn','#16B39C'],['− cash in bank',-21,'dn','#16B39C'],['− grant still due',-10,'dn','#16B39C'],['= Gap',467.1,'tot','#E08A1E'],['Ask',475,'tot','#C2412D']];
+let run=0;el('line',{x1:20,y1:base,x2:850,y2:base,class:'axis'},svg);
+B.forEach(([l,v,t,c],i)=>{const x=30+i*118;let y0,y1;if(t==='tot'){y0=0;y1=v}else{y0=run;y1=run+v;run=y1}const top=base-Math.max(y0,y1)*sc,hh=Math.abs(y1-y0)*sc;el('rect',{x,y:top,width:92,height:hh,fill:c,rx:5,class:'wf',style:`--k:${i}`},svg);el('text',{x:x+46,y:top-12,'text-anchor':'middle',class:'vlbl',style:'font-size:19px'},svg,(v>0&&t!=='tot'&&i>0?'+':'')+(Math.abs(v)%1?v.toFixed(1):v)+' L');const words=l.split(' ');const tx=el('text',{x:x+46,y:base+26,'text-anchor':'middle',class:'lbl',style:'font-size:14px'},svg);let line='',dy=0;words.forEach(w=>{if((line+' '+w).length>13){el('tspan',{x:x+46,dy:dy},tx,line);dy=17;line=w}else line=(line?line+' ':'')+w});el('tspan',{x:x+46,dy:dy},tx,line)});
+el('text',{x:20,y:600,class:'lbl',style:'font-size:14px;fill:#8A93A6'},svg,'₹ lakh · rounded up to the nearest ₹25 L · minimum close ₹4.0 Cr (21 months)')})();
+
+// use of funds bars
+(function(){const box=document.getElementById('uof');if(!box)return;const U=[['Discover product–market fit',38,'#0F8C7A','AI + speech engineers · agency-success team · price tests in new towns · test data + safety sign-off'],['Build the team and company',28,'#0E2340','founders (below market) · finance · legal · seed costs'],['Build the product',23,'#26375A','platform, WhatsApp and security engineers · consent + eval foundations'],['Marketing and sales',10,'#E08A1E','field reps 1 → 3 · ₹1,000 per new agency · Telugu dailies'],['Working capital',1,'#8A93A6','asset-light until parts']];
+U.forEach(([l,p,c,d],i)=>{box.appendChild(h(`<div class="a" style="--i:${i+3};margin-bottom:9px"><div style="display:flex;justify-content:space-between;font:700 18px var(--sans)"><span>${l}</span><span style="color:${c}">${p}%</span></div><div style="height:15px;background:#EEE8DC;border-radius:8px;margin:6px 0 4px;overflow:hidden"><div class="hbar" data-w="${p/38*100}%" style="background:${c};border-radius:8px"></div></div><div style="font:500 13px var(--sans);color:#5B667C">${d}</div></div>`))})})();
+
+// path to 100
+(function(){const box=document.getElementById('path100');if(!box)return;const P=[['Circuit · Tier 2/3',23,'#0F8C7A'],['Circuit · Tier 1',13.5,'#16B39C'],['Service plans',9,'#26375A'],['Claims triage',11,'#0E2340'],['Parts, resale, data',10,'#E08A1E']];
+let html='<div style="display:flex;height:84px;border-radius:12px;overflow:hidden;background:#EEE8DC">';P.forEach(([l,v,c],i)=>{html+=`<div class="hbar" data-w="${v/100*100}%" style="background:${c};border-radius:0;transition-delay:${i*.25}s;color:#fff;font:700 17px var(--sans);display:flex;align-items:center;justify-content:center;white-space:nowrap;overflow:hidden">₹${v}</div>`});html+='</div><div style="display:flex;justify-content:space-between;font:600 15px var(--sans);color:#5B667C;margin-top:8px"><span>₹0</span><span style="color:#0E2340">~₹66 Cr · year 8</span><span>₹100 Cr</span></div><div style="display:flex;flex-wrap:wrap;gap:10px;margin-top:14px">';
+P.forEach(([l,v,c])=>{html+=`<span style="display:inline-flex;align-items:center;gap:8px;font:600 16px var(--sans)"><i style="width:14px;height:14px;border-radius:4px;background:${c}"></i>${l} · ₹${v} Cr</span>`});box.innerHTML=html+'</div>'})();
+
+// gauge for traction (83% of semicircle)
+(function(){const g=document.getElementById('gauge');if(!g)return;g.style.setProperty('stroke-dasharray','1');const css=document.createElement('style');css.textContent='#gauge.go{stroke-dashoffset:.17!important}';document.head.appendChild(css)})();
+
+// start
+const h0=parseInt(location.hash.slice(1));go(isNaN(h0)?0:h0-1);
+})();
+</script>
+</body>
+</html>
