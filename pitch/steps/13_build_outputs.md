@@ -11,7 +11,8 @@
 | **Animated web deck**: one self-contained HTML file. Elements animate in; charts draw themselves; light/dark theme; speaker notes on **N**; arrows, space, swipe or the on-screen buttons to move; prints to PDF | `../deck/Keepwell_Seed_Deck.html` | Same builder, same content file |
 | **Financial model**: 12 tabs, 530+ formulas, all checks OK | `../keepwell_model.xlsx` | `../build_model.py` |
 | **Proof pack**: data-room index, investor Q&A bank, voice of the customer, demo walkthrough script | `../proof_pack/` | Step 12.5 |
-| **The full story, end to end** | `../KEEPWELL_PITCH_STORY.md` | Combines Steps 1–13 into one telling |
+| **Presenter's script** (what we say, slide by slide) | `../KEEPWELL_PITCH_STORY.md` | Combines Steps 1–13 into one telling |
+| **The whole story for an outsider**, with every proof linked | `../KEEPWELL_FULL_STORY.md` | One narrative across all steps, the model and the proof pack |
 
 **One source of truth.** All three deck formats are generated from **one content file** (`deck_content.py`), so they can't disagree. Every number in that file traces to the model or a locked step document.
 

@@ -99,7 +99,7 @@
 | **Eval release gates** | 100–200 golden cases per feature; LLM judge kappa ≥ 0.7 against humans; per-language gap ≤ 10 points |
 | **Paid-tier only** | Free-tier keys may let a provider use content, so real data never goes on free keys |
 
-**Pilot evidence (Step 6):** 0 false-accepts on the 200-case red-team set; 9 field hard-stops triggered; override 12%; abstain 18%. These are pilot-scale numbers, presented as such.
+**Pilot evidence (Step 6):** 0 false-accepts on the 200-case red-team set; 47 field hard-stops triggered and 0 safety incidents in 9 months; owner override 11%; abstain 16%. These are early-scale numbers (14 agencies), presented as such.
 
 ## 10.4 What compliance costs (already inside the Step 8 ask)
 | Item | Y1 | Y2 |
@@ -118,7 +118,7 @@
 |---|---|---|---|
 | 1 | **Corporate** | MoA/AoA, CIN, PAN, DPIIT certificate, board resolutions, ROC filings, statutory registers, founders' agreement, IP assignment, iSAFE documents | Startup–Quality ("clean diligence") |
 | 2 | **Cap table** | Fully diluted cap table, iSAFE conversion calculation, ESOP plan and grants (from `keepwell_model.xlsx`, Cap Table tab) | "No surprises" |
-| 3 | **Financials** | Monthly books, bank statements, SISFS application (₹20L, under evaluation), 5-year model (`keepwell_model.xlsx`), budget vs actuals | Business model |
+| 3 | **Financials** | Monthly books, bank statements, SISFS sanction (₹20L, Mar 2026) and utilisation reports, 5-year model (`keepwell_model.xlsx`), budget vs actuals | Business model |
 | 4 | **Market** | Bottom-up sizing workings (Step 4), sources: ICAP/CEEW, LocalCircles, BlueWeave, Servify estimate, CLASP/BEE survey | Market slide |
 | 5 | **Customer evidence** | 18 interview notes, the household survey (19 responses) **[Real]**, consent log **[Real]**, pilot agreements, pilot dashboard export, invoices and UPI receipts | Traction slide |
 | 6 | **Product** | Demo video, architecture (repo), feature spec (repo), eval reports and release gates, red-team results, hazard-lexicon sign-off | Solution, moat, trust |

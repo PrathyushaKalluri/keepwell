@@ -118,7 +118,8 @@ The work itself sits in one document per step in [`steps/`](steps/). The numbers
 | Output | File | Status |
 |---|---|---|
 | Plan | `pitch_bible.md` | this file |
-| **The full story, end to end** | [`KEEPWELL_PITCH_STORY.md`](KEEPWELL_PITCH_STORY.md) | **done** |
+| **Presenter's script** | [`KEEPWELL_PITCH_STORY.md`](KEEPWELL_PITCH_STORY.md) | **done** |
+| **The whole story for an outsider, with proofs** | [`KEEPWELL_FULL_STORY.md`](KEEPWELL_FULL_STORY.md) | **done** |
 | Step documents | `steps/00`–`13` | **all locked** |
 | Financial model | `keepwell_model.xlsx` (rebuild with `build_model.py`) | **final**: 528 formulas, all checks OK |
 | Deck (PowerPoint, PDF, animated web) | `deck/Keepwell_Seed_Deck.pptx` · `.pdf` · `.html` (rebuild with `deck/build_deck.py`) | **done**: 16 main + 16 appendix slides |
