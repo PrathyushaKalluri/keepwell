@@ -213,22 +213,23 @@ Start there, and the record fills itself as a by-product of work that's already 
  why="It answers 'why this wedge?' in 35 seconds and hands over to the product."),
 
 dict(id="circuit", act="solution", sp="S", t=55, title="Circuit, simply",
- show="""A six-step infographic. A dot travels along the path as each step lights up:
+ show="""Left: the six steps as cards, lighting up in order:
 1. 🎙 **Customer sends a voice note**, in Telugu, Hindi, Tamil, Kannada, Marathi or English
 2. **Circuit understands** and reads it back
 3. **Finds the likely fault and the part to carry**, using this machine's history and every past repair
 4. **Quotes from the agency's own rate card**; the owner approves
 5. **Sends the technician a job card** he can read in ten seconds
 6. **The technician confirms the fix.** The record updates, Circuit gets smarter, and we earn ₹40.
-Underneath: "AI reads and drafts. People decide anything with money or safety." A chip links the live site: circuit-landing-page.netlify.app. """,
+Beside the six steps, a browser frame with the **live Circuit site (circuit-landing-page.netlify.app) scrolling end to end like a video** — the same product, as an agency owner first meets it. Underneath: "AI reads and drafts. People decide anything with money or safety." """,
  say="""Here's what Circuit does, in plain words. A customer sends the agency a voice note on WhatsApp, in their own language. Circuit understands it and reads it back. It looks at the machine's history and everything learned from past repairs, and tells the technician the likely fault and the part to carry. It builds the quote from the agency's own price list, and the owner approves it. The technician gets a job card he can read in ten seconds.
-And when he confirms what was actually wrong, three things happen at once. The machine's record updates, Circuit gets smarter for the next job, and only then do we earn forty rupees.""",
+And when he confirms what was actually wrong, three things happen at once. The machine's record updates, Circuit gets smarter for the next job, and only then do we earn forty rupees.
+What's playing on the right is our live website, scrolling — the same six steps, exactly as an agency owner first sees them.""",
  why="No architecture or technical terms. The last step carries the whole business: one event that is the fix, the learning and the revenue."),
 
 dict(id="demo", act="solution", sp="S", t=60, title="See how easy it is",
  show="""Three tabs on the demo stage:
 - **The agency's WhatsApp** (opens first): an animated chat. A Telugu voice note arrives, Circuit reads it back, a photo of the AC label, an owner-approved quote, then the technician's job card and the green tick: "Fixed in one visit · record updated".
-- **The website, scrolling**: the full Circuit landing page (circuit-landing-page.netlify.app) auto-scrolling top to bottom like a video — the repair-ready checklist, "the first visit is almost never the repair visit", how it works, pricing.
+- **The website, scrolling**: the live landing page (circuit-landing-page.netlify.app) auto-scrolling top to bottom like a video, beside three snippets cut straight from it — "the first visit is almost never the repair visit", the four-step "how it works", and "you keep the customer, you keep the margin". Each snippet opens full-screen on click.
 - **A real run, 30× speed**: the recorded run of the prototype (real).
 Ease chips along the bottom: no new app · set up in one visit · 6 languages · 30 free days · pay only when a fix is verified · the owner approves every quote. """,
  say="""And it's genuinely easy — let me show you rather than tell you. [chat plays] For the customer, nothing changes. Same agency, same WhatsApp number, their own language. For the owner, the job arrives ready, with a quote he only has to approve. For the technician, a ten-second card with the part to carry. [switch tab] This is our live website — watch it scroll: the repair-ready checklist, how it works, the pricing. Everything a shop owner needs to understand us in one page. [switch tab] And this is a real run of the system, sped up thirty times.
@@ -377,20 +378,34 @@ The data protection law's main duties start in May 2027. We built consent-first 
 And about twenty-six lakh of what we're about to ask for is legal and compliance work, so we're ready before the law requires it.""",
  why="Placed deliberately just before the ask: the last thing an investor hears before the number is that the company is clean, safe and ready for regulation — a reason to invest, not a disclaimer."),
 
-dict(id="ask", act="ask", sp="P", t=80, title="The requirement first. Then the ask.",
- show="""Step 1 — the requirement. A bridge chart builds bar by bar:
+dict(id="askneed", act="ask", sp="P", t=45, title="Before the ask: what the next 24 months need",
+ show="""A bridge chart builds bar by bar:
 - costed requirements for the next 24 months: ₹548 L
 - + 10% contingency: ₹55 L
 - − revenue we'll earn: ₹105 L
 - − cash in the bank: ₹21 L
 - − government grant still due: ₹10 L
 - = **the gap: ₹467 L**
-Beside it, where every rupee goes, by purpose: **finding product–market fit 38%** · team and company 28% · product 23% · sales 10% · working capital 1% — with the note "at Stage 2, the heaviest need is proving product–market fit; every Series A gate is a PMF proof", and what we deliberately don't spend on: consumer ads, a consumer app, a big office.
-[click] The ask band drops in, dark: **₹4.75 Cr seed** · 24 months · minimum close ₹4.0 Cr · priced Seed CCPS · **20% to one lead investor** — and what it proves: 120 paying agencies by month ~15 · 40,000 machine records by month ~13 · ≥ 97% retention · payback ≤ 7 months · 1 warranty-partner LOI → **a Series A (~₹8–10 Cr) raised from strength around month 20**. """,
- say="""Now, the money. We didn't start from a round number — we started from the requirement. We listed everything the next twenty-four months need and costed every line: five hundred and forty-eight lakh. We added ten percent for surprises, then subtracted the revenue we'll earn, the cash we have, and the grant that's still due. The gap is four hundred and sixty-seven lakh.
+Beside it, where every rupee goes, by purpose: **finding product–market fit 38%** · team and company 28% · product 23% · sales 10% · working capital 1% — with the note "at Stage 2, the heaviest need is proving product–market fit; every Series A gate is a PMF proof", and what we deliberately don't spend on: consumer ads, a consumer app, a big office. """,
+ say="""Now, the money — and we didn't start from a round number. We started from the requirement. We listed everything the next twenty-four months need and costed every line: five hundred and forty-eight lakh. We added ten percent for surprises, then subtracted the revenue we'll earn, the cash we have, and the grant that's still due. The gap is four hundred and sixty-seven lakh.
 And look at where it goes. The biggest share, thirty-eight percent, goes to proving product–market fit: our AI and speech engineers, the agency-success team, price tests in new towns. That is exactly what a company at our stage should spend on. We don't spend on consumer ads, a consumer app, or a big office.
-[click] So the ask is four point seven five crore rupees, from one lead investor, as priced seed preference shares, for twenty percent. Twenty-four months of runway; minimum close four crore. And here's what your money proves: a hundred and twenty paying agencies, forty thousand machine records, retention above ninety-seven percent, and our first warranty partner. Those are the Series A gates — so at month twenty we raise the next round from strength, not from need.""",
- why="Exactly the order asked for: the investor first understands the requirement ('a startup at this stage needs this much'), then hears the number — one slide, one reveal, no separate use-of-funds page. Valuation, cap table and terms stay in backup for Q&A."),
+So that's the requirement. Here is the ask.""",
+ why="Exactly the order asked for: the investor first understands what a startup at this stage needs and why, so the number on the next page lands as a calculation, not a wish."),
+
+dict(id="ask", act="ask", sp="P", t=70, title="The ask, on its own page",
+ show="""A full dark page for the ask alone.
+- **₹4.75 Cr seed**, huge — "to take Circuit from 14 agencies to ~260, and reach the Series A from strength."
+- The one-line bridge from the previous page: costed need ₹602.9 L − revenue − cash − grant = gap ₹467 L → rounded to ₹475 L.
+- Four term tiles: **24 months** of runway · **₹4.0 Cr** minimum close (21 months) · **priced Seed CCPS**, one clean class · **20% to one lead seed investor**.
+- Three columns:
+  - **What we have today:** 14 paying agencies · 83% one-visit · 78% accuracy · ₹21 L in the bank
+  - **What your money proves — the Series A gates:** 120 paying agencies by month ~15 · 40,000 machine records by month ~13 · +10 points one-visit at scale · ≥ 97% retention · payback ≤ 7 months · 1 warranty-administrator LOI
+  - **What comes next:** ~260 agencies and 1.37 lakh records by month 24 → a Series A of ~₹8–10 Cr around month 20, raised from strength → Tier 1, plans and claims. """,
+ say="""The ask is four point seven five crore rupees — the four-sixty-seven-lakh gap you just saw, rounded up to the nearest twenty-five.
+The shape of the round, plainly. Twenty-four months of runway, so we never negotiate the next round out of desperation; our minimum close is four crore, which is twenty-one months. Priced seed preference shares — one clean class of stock, the instrument every later investor expects. And twenty percent to a single lead investor, because a clean cap table today is what keeps the Series A simple tomorrow.
+What does your money buy? Three things. Today you're buying what exists: fourteen paying agencies and a product that gets smarter every week. Over the next fifteen months it proves the Series A gates — a hundred and twenty paying agencies, forty thousand machine records, retention above ninety-seven percent, payback under seven months, and our first warranty partner. And then it buys position: at month twenty we raise a Series A of eight to ten crore from strength, not from need.
+One number, one instrument, one lead, and a defined set of proofs. That's the ask.""",
+ why="The ask gets its own full page, as the most important slide: the number, the one-line bridge back to the requirement, every term stated and justified in words, and the have / prove / next structure answering 'what do I get'. Valuation, cap table and terms stay in backup."),
 
 # ---------------------------------------------------------------- FUTURE
 dict(id="future", act="future", sp="P", t=60, title="Why now — and who buys Keepwell in the end",

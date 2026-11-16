@@ -11,10 +11,10 @@
 - `[click]` in SAY means press → once to reveal the next part of the slide.
 
 ## Timing and speakers
-- **Full story: 30 slides, about 26:11** at a calm 145 words a minute, including clicks and the demo.
-- **Shorter version: about 23:27.** Drop or fold the slides marked ✂ into their neighbours (bothsides, growth, porter, whycircuit). For a hard 10–12 minute slot, also say only the first paragraph of each SAY block.
-- **Prathyusha (CEO):** about 7:41
-- **Sri Charan (CTO):** about 10:20
+- **Full story: 31 slides, about 27:11** at a calm 145 words a minute, including clicks and the demo.
+- **Shorter version: about 24:27.** Drop or fold the slides marked ✂ into their neighbours (bothsides, growth, porter, whycircuit). For a hard 10–12 minute slot, also say only the first paragraph of each SAY block.
+- **Prathyusha (CEO):** about 8:32
+- **Sri Charan (CTO):** about 10:29
 - **Kavyanth (COO):** about 8:10
 
 **Hand-overs** are built into the words. Sri Charan starts with "I'm Sri Charan." Kavyanth starts with "I'm Kavyanth." Prathyusha takes the ask with "So here's our ask."
@@ -49,7 +49,7 @@
 | 11 | Where we are | **Where we are: the stage, the journey, the money** | Prathyusha | 1:01 | One picture in three layers, read top to bottom… | “So where is Keepwell today? We're at stage two…” |
 | 12 | The solution | **The roadmap: one record, a product at each stage** | Sri | 0:39 | A rising staircase of six steps, each with its product, its stage of life and who pays: - **R1 · live:** Circuit, the AI desk for repair agencies (age… | “From that scored problem map came the roadmap — the five scenarios, in order, as products…” |
 | 13 | The solution | **Why we start with repair** ✂ | Sri | 0:31 | Three overlapping circles: - **The pain:** the moment a household needs help - **The payer:** the agency earns on every job - **The truth:** the only … | “Why start with repair? Because it's the only moment where three things meet.…” |
-| 14 | The solution | **Circuit, simply** | Sri | 0:49 | A six-step infographic… | “Here's what Circuit does, in plain words…” |
+| 14 | The solution | **Circuit, simply** | Sri | 0:58 | Left: the six steps as cards, lighting up in order: 1… | “Here's what Circuit does, in plain words…” |
 | 15 | The solution | **See how easy it is** | Sri | 1:18 | Three tabs on the demo stage: - **The agency's WhatsApp** (opens first): an animated chat… | “And it's genuinely easy — let me show you rather than tell you…” |
 | 16 | The proof | **The pilot: we tested the price, and one test failed** | Kavyanth | 0:48 | The pilot design card: 5 agencies, 22 technicians, Feb–Apr 2026, paid from day one, each measured against its own baseline… | “I'm Kavyanth…” |
 | 17 | The proof | **Nine months of paid use** | Kavyanth | 0:41 | Five counters count up: - **14** paying agencies (1 of 15 churned) - **~8,200** jobs through Circuit - **96%** of requests became jobs - **~₹59k** mon… | “Then we expanded, and here's nine months of paid use…” |
@@ -63,9 +63,10 @@
 | 25 | How big | **How big: the market, narrowed honestly** | Kavyanth | 0:54 | An animated funnel narrowing level by level: - **37,500** repair agencies in India - **22,500** in Tier 2/3 towns, our segment - **1,400** in Telangan… | “How big can this get? No one has ever counted India's repair agencies, so we built the number three ways…” |
 | 26 | How big | **The plan, stage by stage: seed → Series A → year five** | Kavyanth | 0:51 | Left: one clean chart… | “Here's the plan, stage by stage…” |
 | 27 | The ask | **Before we ask: trust and compliance, built in and budgeted** | Sri | 0:56 | A grid of the laws that matter… | “Before we talk about money, one thing matters…” |
-| 28 | The ask | **The requirement first. Then the ask.** | Prathyusha | 1:24 | Step 1 — the requirement… | “Now, the money…” |
-| 29 | The future | **Why now — and who buys Keepwell in the end** | Prathyusha | 1:14 | Top band — why this is the moment, four tiles: - **₹4.5 a job:** Indian-language AI finally cheap enough for a 5-technician shop (against a ₹40 fee) -… | “Why is this the moment to invest? Four reasons…” |
-| 30 | The future | **Back to Ramagundam** | Prathyusha | 0:48 | Dark slide… | “Let's go back to Ramagundam one last time…” |
+| 28 | The ask | **Before the ask: what the next 24 months need** | Prathyusha | 0:55 | A bridge chart builds bar by bar: - costed requirements for the next 24 months: ₹548 L - + 10% contingency: ₹55 L - − revenue we'll earn: ₹105 L - − c… | “Now, the money — and we didn't start from a round number…” |
+| 29 | The ask | **The ask, on its own page** | Prathyusha | 1:20 | A full dark page for the ask alone… | “The ask is four point seven five crore rupees — the four-sixty-seven-lakh gap you just saw, rounded up to the nearest tw…” |
+| 30 | The future | **Why now — and who buys Keepwell in the end** | Prathyusha | 1:14 | Top band — why this is the moment, four tiles: - **₹4.5 a job:** Indian-language AI finally cheap enough for a 5-technician shop (against a ₹40 fee) -… | “Why is this the moment to invest? Four reasons…” |
+| 31 | The future | **Back to Ramagundam** | Prathyusha | 0:48 | Dark slide… | “Let's go back to Ramagundam one last time…” |
 
 ## Slide by slide
 
@@ -208,11 +209,11 @@
 **Why this works:** It answers 'why this wedge?' in 35 seconds and hands over to the product.
 
 #### 14. Circuit, simply
-**Speaker:** Sri Charan (CTO) · **Time:** ~0:49
+**Speaker:** Sri Charan (CTO) · **Time:** ~0:58
 
 | 🖥 SHOW (on screen, the proof) | 🎙 SAY (word for word, the explanation) |
 |---|---|
-| A six-step infographic. A dot travels along the path as each step lights up:<br>1. 🎙 **Customer sends a voice note**, in Telugu, Hindi, Tamil, Kannada, Marathi or English<br>2. **Circuit understands** and reads it back<br>3. **Finds the likely fault and the part to carry**, using this machine's history and every past repair<br>4. **Quotes from the agency's own rate card**; the owner approves<br>5. **Sends the technician a job card** he can read in ten seconds<br>6. **The technician confirms the fix.** The record updates, Circuit gets smarter, and we earn ₹40.<br>Underneath: "AI reads and drafts. People decide anything with money or safety." A chip links the live site: circuit-landing-page.netlify.app. | Here's what Circuit does, in plain words. A customer sends the agency a voice note on WhatsApp, in their own language. Circuit understands it and reads it back. It looks at the machine's history and everything learned from past repairs, and tells the technician the likely fault and the part to carry. It builds the quote from the agency's own price list, and the owner approves it. The technician gets a job card he can read in ten seconds.<br><br>And when he confirms what was actually wrong, three things happen at once. The machine's record updates, Circuit gets smarter for the next job, and only then do we earn forty rupees. |
+| Left: the six steps as cards, lighting up in order:<br>1. 🎙 **Customer sends a voice note**, in Telugu, Hindi, Tamil, Kannada, Marathi or English<br>2. **Circuit understands** and reads it back<br>3. **Finds the likely fault and the part to carry**, using this machine's history and every past repair<br>4. **Quotes from the agency's own rate card**; the owner approves<br>5. **Sends the technician a job card** he can read in ten seconds<br>6. **The technician confirms the fix.** The record updates, Circuit gets smarter, and we earn ₹40.<br>Beside the six steps, a browser frame with the **live Circuit site (circuit-landing-page.netlify.app) scrolling end to end like a video** — the same product, as an agency owner first meets it. Underneath: "AI reads and drafts. People decide anything with money or safety." | Here's what Circuit does, in plain words. A customer sends the agency a voice note on WhatsApp, in their own language. Circuit understands it and reads it back. It looks at the machine's history and everything learned from past repairs, and tells the technician the likely fault and the part to carry. It builds the quote from the agency's own price list, and the owner approves it. The technician gets a job card he can read in ten seconds.<br><br>And when he confirms what was actually wrong, three things happen at once. The machine's record updates, Circuit gets smarter for the next job, and only then do we earn forty rupees.<br><br>What's playing on the right is our live website, scrolling — the same six steps, exactly as an agency owner first sees them. |
 
 **Why this works:** No architecture or technical terms. The last step carries the whole business: one event that is the fix, the learning and the revenue.
 
@@ -221,7 +222,7 @@
 
 | 🖥 SHOW (on screen, the proof) | 🎙 SAY (word for word, the explanation) |
 |---|---|
-| Three tabs on the demo stage:<br>- **The agency's WhatsApp** (opens first): an animated chat. A Telugu voice note arrives, Circuit reads it back, a photo of the AC label, an owner-approved quote, then the technician's job card and the green tick: "Fixed in one visit · record updated".<br>- **The website, scrolling**: the full Circuit landing page (circuit-landing-page.netlify.app) auto-scrolling top to bottom like a video — the repair-ready checklist, "the first visit is almost never the repair visit", how it works, pricing.<br>- **A real run, 30× speed**: the recorded run of the prototype (real).<br>Ease chips along the bottom: no new app · set up in one visit · 6 languages · 30 free days · pay only when a fix is verified · the owner approves every quote. | And it's genuinely easy — let me show you rather than tell you. [chat plays] For the customer, nothing changes. Same agency, same WhatsApp number, their own language. For the owner, the job arrives ready, with a quote he only has to approve. For the technician, a ten-second card with the part to carry. [switch tab] This is our live website — watch it scroll: the repair-ready checklist, how it works, the pricing. Everything a shop owner needs to understand us in one page. [switch tab] And this is a real run of the system, sped up thirty times.<br><br>Setting up takes one visit: the owner's price list and his WhatsApp number. Thirty free days, and after that the agency pays only when a fix is verified. |
+| Three tabs on the demo stage:<br>- **The agency's WhatsApp** (opens first): an animated chat. A Telugu voice note arrives, Circuit reads it back, a photo of the AC label, an owner-approved quote, then the technician's job card and the green tick: "Fixed in one visit · record updated".<br>- **The website, scrolling**: the live landing page (circuit-landing-page.netlify.app) auto-scrolling top to bottom like a video, beside three snippets cut straight from it — "the first visit is almost never the repair visit", the four-step "how it works", and "you keep the customer, you keep the margin". Each snippet opens full-screen on click.<br>- **A real run, 30× speed**: the recorded run of the prototype (real).<br>Ease chips along the bottom: no new app · set up in one visit · 6 languages · 30 free days · pay only when a fix is verified · the owner approves every quote. | And it's genuinely easy — let me show you rather than tell you. [chat plays] For the customer, nothing changes. Same agency, same WhatsApp number, their own language. For the owner, the job arrives ready, with a quote he only has to approve. For the technician, a ten-second card with the part to carry. [switch tab] This is our live website — watch it scroll: the repair-ready checklist, how it works, the pricing. Everything a shop owner needs to understand us in one page. [switch tab] And this is a real run of the system, sped up thirty times.<br><br>Setting up takes one visit: the owner's price list and his WhatsApp number. Thirty free days, and after that the agency pays only when a fix is verified. |
 
 **Why this works:** Investors judge ease of adoption by watching it. The scrolling landing page plays like a product video without needing one, and the real run proves the demo isn't a mock-up.
 
@@ -345,19 +346,28 @@
 
 **Why this works:** Placed deliberately just before the ask: the last thing an investor hears before the number is that the company is clean, safe and ready for regulation — a reason to invest, not a disclaimer.
 
-#### 28. The requirement first. Then the ask.
-**Speaker:** Prathyusha (CEO) · **Time:** ~1:24
+#### 28. Before the ask: what the next 24 months need
+**Speaker:** Prathyusha (CEO) · **Time:** ~0:55
 
 | 🖥 SHOW (on screen, the proof) | 🎙 SAY (word for word, the explanation) |
 |---|---|
-| Step 1 — the requirement. A bridge chart builds bar by bar:<br>- costed requirements for the next 24 months: ₹548 L<br>- + 10% contingency: ₹55 L<br>- − revenue we'll earn: ₹105 L<br>- − cash in the bank: ₹21 L<br>- − government grant still due: ₹10 L<br>- = **the gap: ₹467 L**<br>Beside it, where every rupee goes, by purpose: **finding product–market fit 38%** · team and company 28% · product 23% · sales 10% · working capital 1% — with the note "at Stage 2, the heaviest need is proving product–market fit; every Series A gate is a PMF proof", and what we deliberately don't spend on: consumer ads, a consumer app, a big office.<br>[click] The ask band drops in, dark: **₹4.75 Cr seed** · 24 months · minimum close ₹4.0 Cr · priced Seed CCPS · **20% to one lead investor** — and what it proves: 120 paying agencies by month ~15 · 40,000 machine records by month ~13 · ≥ 97% retention · payback ≤ 7 months · 1 warranty-partner LOI → **a Series A (~₹8–10 Cr) raised from strength around month 20**. | Now, the money. We didn't start from a round number — we started from the requirement. We listed everything the next twenty-four months need and costed every line: five hundred and forty-eight lakh. We added ten percent for surprises, then subtracted the revenue we'll earn, the cash we have, and the grant that's still due. The gap is four hundred and sixty-seven lakh.<br><br>And look at where it goes. The biggest share, thirty-eight percent, goes to proving product–market fit: our AI and speech engineers, the agency-success team, price tests in new towns. That is exactly what a company at our stage should spend on. We don't spend on consumer ads, a consumer app, or a big office.<br><br>[click] So the ask is four point seven five crore rupees, from one lead investor, as priced seed preference shares, for twenty percent. Twenty-four months of runway; minimum close four crore. And here's what your money proves: a hundred and twenty paying agencies, forty thousand machine records, retention above ninety-seven percent, and our first warranty partner. Those are the Series A gates — so at month twenty we raise the next round from strength, not from need. |
+| A bridge chart builds bar by bar:<br>- costed requirements for the next 24 months: ₹548 L<br>- + 10% contingency: ₹55 L<br>- − revenue we'll earn: ₹105 L<br>- − cash in the bank: ₹21 L<br>- − government grant still due: ₹10 L<br>- = **the gap: ₹467 L**<br>Beside it, where every rupee goes, by purpose: **finding product–market fit 38%** · team and company 28% · product 23% · sales 10% · working capital 1% — with the note "at Stage 2, the heaviest need is proving product–market fit; every Series A gate is a PMF proof", and what we deliberately don't spend on: consumer ads, a consumer app, a big office. | Now, the money — and we didn't start from a round number. We started from the requirement. We listed everything the next twenty-four months need and costed every line: five hundred and forty-eight lakh. We added ten percent for surprises, then subtracted the revenue we'll earn, the cash we have, and the grant that's still due. The gap is four hundred and sixty-seven lakh.<br><br>And look at where it goes. The biggest share, thirty-eight percent, goes to proving product–market fit: our AI and speech engineers, the agency-success team, price tests in new towns. That is exactly what a company at our stage should spend on. We don't spend on consumer ads, a consumer app, or a big office.<br><br>So that's the requirement. Here is the ask. |
 
-**Why this works:** Exactly the order asked for: the investor first understands the requirement ('a startup at this stage needs this much'), then hears the number — one slide, one reveal, no separate use-of-funds page. Valuation, cap table and terms stay in backup for Q&A.
+**Why this works:** Exactly the order asked for: the investor first understands what a startup at this stage needs and why, so the number on the next page lands as a calculation, not a wish.
+
+#### 29. The ask, on its own page
+**Speaker:** Prathyusha (CEO) · **Time:** ~1:20
+
+| 🖥 SHOW (on screen, the proof) | 🎙 SAY (word for word, the explanation) |
+|---|---|
+| A full dark page for the ask alone.<br>- **₹4.75 Cr seed**, huge — "to take Circuit from 14 agencies to ~260, and reach the Series A from strength."<br>- The one-line bridge from the previous page: costed need ₹602.9 L − revenue − cash − grant = gap ₹467 L → rounded to ₹475 L.<br>- Four term tiles: **24 months** of runway · **₹4.0 Cr** minimum close (21 months) · **priced Seed CCPS**, one clean class · **20% to one lead seed investor**.<br>- Three columns:<br>  - **What we have today:** 14 paying agencies · 83% one-visit · 78% accuracy · ₹21 L in the bank<br>  - **What your money proves — the Series A gates:** 120 paying agencies by month ~15 · 40,000 machine records by month ~13 · +10 points one-visit at scale · ≥ 97% retention · payback ≤ 7 months · 1 warranty-administrator LOI<br>  - **What comes next:** ~260 agencies and 1.37 lakh records by month 24 → a Series A of ~₹8–10 Cr around month 20, raised from strength → Tier 1, plans and claims. | The ask is four point seven five crore rupees — the four-sixty-seven-lakh gap you just saw, rounded up to the nearest twenty-five.<br><br>The shape of the round, plainly. Twenty-four months of runway, so we never negotiate the next round out of desperation; our minimum close is four crore, which is twenty-one months. Priced seed preference shares — one clean class of stock, the instrument every later investor expects. And twenty percent to a single lead investor, because a clean cap table today is what keeps the Series A simple tomorrow.<br><br>What does your money buy? Three things. Today you're buying what exists: fourteen paying agencies and a product that gets smarter every week. Over the next fifteen months it proves the Series A gates — a hundred and twenty paying agencies, forty thousand machine records, retention above ninety-seven percent, payback under seven months, and our first warranty partner. And then it buys position: at month twenty we raise a Series A of eight to ten crore from strength, not from need.<br><br>One number, one instrument, one lead, and a defined set of proofs. That's the ask. |
+
+**Why this works:** The ask gets its own full page, as the most important slide: the number, the one-line bridge back to the requirement, every term stated and justified in words, and the have / prove / next structure answering 'what do I get'. Valuation, cap table and terms stay in backup.
 
 ---
 ### Act: The future
 
-#### 29. Why now — and who buys Keepwell in the end
+#### 30. Why now — and who buys Keepwell in the end
 **Speaker:** Prathyusha (CEO) · **Time:** ~1:14
 
 | 🖥 SHOW (on screen, the proof) | 🎙 SAY (word for word, the explanation) |
@@ -366,7 +376,7 @@
 
 **Why this works:** 'Why now' gives the urgency the deck was missing, and the exit answers 'how do I get my money back' with named buyer types and real precedents — both on one slide, right after the ask, as the forward look before the closing story.
 
-#### 30. Back to Ramagundam
+#### 31. Back to Ramagundam
 **Speaker:** Prathyusha (CEO) · **Time:** ~0:48
 
 | 🖥 SHOW (on screen, the proof) | 🎙 SAY (word for word, the explanation) |
