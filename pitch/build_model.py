@@ -204,6 +204,7 @@ sec("10. Cash and the raise (Steps 2 and 8)")
 scalar("cash_open", "Cash in bank at start of Y1", "₹ L", 37, NUM_L, "Story", "Step 2: raised ₹45L (founders ₹15L + iSAFE ₹30L), spent ~₹8L since Oct 2026")
 scalar("grants", "Grants counted in the funding gap", "₹ L", 0, NUM_L, "Model", "SISFS ₹20L applied via CIE-IIITH, not yet sanctioned: NOT counted (don't base survival on an unapproved grant). Upside buffer")
 scalar("runway", "Runway the raise must fund", "months", 24, NUM_0, "Model", "Step 8: Series A gates reached ~month 15–18 + a 4–6 month Series A process")
+scalar("eng_pmf", "Share of engineering cost that runs PMF experiments", "%", 0.50, PCT, "Model", "Use of funds by PURPOSE: AI lead (root-cause accuracy, E2), eval/data engineer (gates, measurement), speech/ML engineer (Telugu/Tamil, E4) = 3 of 6 roles. Backend, WhatsApp and SRE build the product")
 scalar("contingency", "Contingency buffer", "%", 0.10, PCT, "Model", "Activity 1 used ~10%", False)
 scalar("wc_pct", "Working capital (parts float, payment cycles) as % of revenue", "%", 0.05, PCT, "DRAFT", "")
 scalar("round_to", "Round the ask up to the nearest", "₹ L", 25, NUM_L, "Model", "", False)
@@ -646,13 +647,13 @@ def win(key):
 
 
 lanes = [
-    ("Build the product", "Product/AI/engineering team, cloud and model hosting, devices",
-     f"={win('t_tech')}+{win('infra')}+{win('capex')}"),
-    ("Build the team", "Founders, finance/HR/admin, office, compliance and legal",
+    ("Discover product–market fit", "Experiments E1–E8: AI lead, eval/data and speech engineers; agency success team; pilots, golden sets, lexicons, research; AI cost per job",
+     f"={win('t_tech')}*{s('eng_pmf')}+{win('pmf')}+{win('t_ops')}+{win('cogs')}"),
+    ("Build the product", "Platform: backend, WhatsApp and SRE engineers; repo Foundations; cloud and hosting; devices",
+     f"={win('t_tech')}*(1-{s('eng_pmf')})+{win('infra')}+{win('capex')}"),
+    ("Build the team and company", "Founders, finance/HR/admin, office, compliance, legal, seed transaction costs",
      f"={win('t_founders')}+{win('t_ga')}+{win('ga_o')}+{win('compl')}"),
-    ("Discover product–market fit", "Pilots, focus groups, analytics, agency success team, AI and support cost per job",
-     f"={win('pmf')}+{win('t_ops')}+{win('cogs')}"),
-    ("Marketing and sales", "Sales and partnerships team, agency acquisition, brand",
+    ("Marketing and sales", "Field sales, agency acquisition, brand",
      f"={win('t_sales')}+{win('mkt_cac')}+{win('mkt_brand')}"),
     ("Working capital", "Parts float and payment cycles", f"={win('dwc')}"),
 ]

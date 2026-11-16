@@ -32,7 +32,7 @@ Every slide serves this idea:
 | **Raising** | ₹4.75 Cr seed · priced CCPS · 24-month runway |
 | **Valuation** | ₹20 Cr pre-money / ₹24.75 Cr post · 19.2% to seed investors · ₹113.33 per share |
 | **Syndicate** | Lead seed VC ₹2.75–3 Cr + second fund ~₹1 Cr + 2–3 strategic angels ₹0.75–1 Cr |
-| **Use of funds** | Product 40% · team and company 28% · PMF 21% · marketing and sales 10% · working capital 1% (+10% contingency) |
+| **Use of funds** | **Discover PMF 38%** · team and company 28% · build the product 23% · marketing and sales 10% · working capital 1% (+10% contingency). Grouped by what the money achieves; by cost type the same money is 40 / 28 / 21 / 10 / 1 |
 | **Milestones (Series A gates)** | 40,000 machine records by month ~13 · ~120 paying agencies by month ~15 · one-visit +10 points held 3 months · ≥ 97% monthly retention · agency nets ≥ ₹3,000 a month · CAC payback ≤ 6 months · 1 warranty-administrator LOI |
 | **Investor's return (base case)** | ~37% IRR, 6.7x, at a ₹243.5 Cr exit in year 6 |
 | **Also unlocks** | Google for Startups AI credits (~₹34L of planned AI and cloud spend), not counted in the ask |
@@ -141,7 +141,7 @@ Each beat gives: *what's on screen → what we say → the line that must land �
 
 **Slide 16 · The ask (CEO, 1:00)**
 - **On screen:** *"₹4.75 Cr to take Circuit from 5 agencies to 260, and reach Series A from strength."* ₹4.75 Cr · ₹20 Cr pre · CCPS · 24 months.
-- **Say:** "Here's what it buys: 40,000 records by month 13, 120 paying agencies by month 15, one-visit closure up 10 points, 97% retention. Then a Series A from strength."
+- **Say:** "The biggest share, 38%, goes to proving product–market fit: the price test at 30-plus agencies, accuracy in three languages, and the agency success team. Here's what it buys: 40,000 records by month 13, 120 paying agencies by month 15, one-visit closure up 10 points, 97% retention. Then a Series A from strength."
 - **Close, and stop talking:** *"Keepwell becomes the record everyone checks before touching a machine."*
 
 ## 5. Why the story is ordered this way

@@ -40,33 +40,23 @@ For **Stage 2, Finding a Business Model**, M1 marks *PMF discovery* as the heavi
 
 Six extra months of safety cost the founders ~6 points of ownership. That's worth it.
 
-## 8.3 What the money pays for: the costed requirement list
-### Lane 1: Build the product (₹2.20 Cr, 40%)
-| Requirement | Why (source) | Y1 | Y2 | Basis |
-|---|---|---|---|---|
-| **AI lead** | Owns root-cause ranking and the learning loop: the moat (Step 5) | ✓ | ✓ | |
-| **Backend / platform engineer** | Repo "Foundations": consent store, cost ledger, admin console must precede customer data | ✓ | ✓ | Tech team: **4 in Y1 → 6 in Y2**, avg ₹18L/yr (Hyderabad) → **₹72L + ₹1.17 Cr** |
-| **WhatsApp / full-stack engineer** | The only channel (repo); the agency and technician flows | ✓ | ✓ | |
-| **Eval and data engineer** | Release gates, golden sets, LLM judge (repo §10.5) | ✓ | ✓ | |
-| **SRE / security engineer** | Tenant isolation, secrets, audit log; DPDP breach duties from May 2027 | | ✓ | |
-| **Speech / ML engineer** | Telugu → Hindi → Tamil accuracy (repo risk #2) | | ✓ | |
-| Cloud, tools, model hosting | Cloud Run, Cloud SQL, storage, eval runs (~₹2,300/night) **[repo]** | ₹6L | ₹12L | Repo pilot stack ₹12–35k/month, scaled |
-| Devices and field kits | Test phones (low-end Android, repo persona), laptops | ₹5L | ₹8L | Depreciated over 3 years |
+## 8.3 What the money pays for: the costed requirement list, grouped by purpose
+**How the lanes are grouped (changed on 16 Nov after the team's challenge).** Each line sits in the lane of **what it achieves**, not of who is paid.
 
-### Lane 2: Build the team and the company (₹1.54 Cr, 28%)
-| Requirement | Why | Y1 | Y2 | Basis |
-|---|---|---|---|---|
-| 3 founders | CEO, CTO and acting DPO, COO (Step 2) | ₹36L | ₹39L | ₹12L each, below market: skin in the game |
-| Finance, HR and admin | Monthly books, payroll, ESOP administration, investor reporting (term sheet: quarterly financials, monthly KPIs) | 1 | 2 | ₹10L each |
-| **Seed transaction costs** | Legal due diligence, shareholders' agreement, stamp duty, valuer (the course term sheet has the company bear up to ₹12.5L) | **₹8L** | — | One-off |
-| Lawyer engagement | Agency–Keepwell processing agreement, consent notices, terms, IRDAI plan opinion, "evidence pack, not legal advice" line **[repo]** | ₹4L | ₹3L | Repo: "lawyer review, 2 weeks" |
-| CA/CS retainer, registered valuer, trademarks, security review | Clean company (Step 2.5); Keepwell, Circuit and Mistri Gyan marks | ₹4L | ₹4L | ₹20k/month retainer + one-offs |
-| DPDP readiness and audit | Main duties from ~13 May 2027 **[repo]**: breach reporting within 72h, one-year logs | — | ₹3L | ISO 27001 readiness prep |
-| Office and travel | CIE-IIITH incubation space; field travel across TS/AP | ₹8L | ₹14L | |
+At Stage 2 the course marks product–market fit as the heaviest need (M1 stage matrix, ✓✓). Every Series A gate is a PMF proof. So the three engineers who run the PMF experiments sit in the PMF lane:
+- the **AI lead** (root-cause accuracy, E2)
+- the **eval/data engineer** (release gates and measurement)
+- the **speech/ML engineer** (Telugu/Tamil accuracy, E4)
 
-### Lane 3: Discover product–market fit (₹1.15 Cr, 21%)
+That is 3 of 6 engineering roles, so the model input `eng_pmf` = 50%. The platform engineers stay in "build the product". Nothing in the spending changes; 8.5 shows both views.
+
+### Lane 1: Discover product–market fit (₹2.09 Cr, 38%)
 | Requirement | Why (Step 6 experiment) | Y1 | Y2 |
 |---|---|---|---|
+| **AI lead** | Root-cause ranking and the learning loop: E2 one-visit gain, the 75% top-3 gate | ✓ | ✓ |
+| **Eval and data engineer** | Golden sets, release gates, LLM judge, experiment measurement (repo §10.5) | ✓ | ✓ |
+| **Speech / ML engineer** | Telugu → Hindi → Tamil accuracy, ≤ 10-point gap (E4, repo risk #2) | | ✓ |
+| ↳ *these three roles* | Half of the engineering cost (4 → 6 engineers, avg ₹18L/yr) | ₹36L | ₹58L |
 | **Agency success team** (3 → 5 people, 1 per ~50–80 agencies) | Onboarding, rate cards, weekly reviews with owners; E1, E2 | ₹15L | ₹27L |
 | E1 price test at scale (30+ agencies, 3 towns): onboarding kits, field travel | Risk #1, "will agencies pay per fix" | ₹6L | ₹8L |
 | Golden datasets: 150–300 min of audio per language, 450 photos, 420 retrieval cases **[repo]** | E4 language gates, with the IIIT-H speech lab | ₹5L | ₹6L (Tamil, Kannada) |
@@ -76,6 +66,27 @@ Six extra months of safety cost the founders ~6 points of ownership. That's wort
 | Household research and Home Memory consent (E6); administrator discovery and LOI (E7) | R2/R3 preconditions | ₹3L | ₹5L |
 | Agency census in TS/AP + analytics tooling | Validates the Step 4 count (37,500); E2/E5 measurement | ₹4L | ₹3L |
 | AI, messaging and support tooling per job (cost of revenue) | Runs on every job, **before** credits | ₹4.3L | ₹18.4L |
+
+
+### Lane 2: Build the product (₹1.25 Cr, 23%)
+| Requirement | Why (source) | Y1 | Y2 | Basis |
+|---|---|---|---|---|
+| **Backend / platform engineer** | Repo "Foundations": consent store, cost ledger, admin console must precede customer data | ✓ | ✓ | The other half of the engineering cost: **₹36L + ₹58L** |
+| **WhatsApp / full-stack engineer** | The only channel (repo); the agency and technician flows; rest of R1 (A7, A8, A10, A11) | ✓ | ✓ | |
+| **SRE / security engineer** | Tenant isolation, secrets, audit log; DPDP breach duties from May 2027 | | ✓ | |
+| Cloud, tools, model hosting | Cloud Run, Cloud SQL, storage, eval runs (~₹2,300/night) **[repo]** | ₹6L | ₹12L | Repo pilot stack ₹12–35k/month, scaled |
+| Devices and field kits | Test phones (low-end Android, repo persona), laptops | ₹5L | ₹8L | Depreciated over 3 years |
+
+### Lane 3: Build the team and the company (₹1.54 Cr, 28%)
+| Requirement | Why | Y1 | Y2 | Basis |
+|---|---|---|---|---|
+| 3 founders | CEO, CTO and acting DPO, COO (Step 2) | ₹36L | ₹39L | ₹12L each, below market: skin in the game |
+| Finance, HR and admin | Monthly books, payroll, ESOP administration, investor reporting (term sheet: quarterly financials, monthly KPIs) | 1 | 2 | ₹10L each |
+| **Seed transaction costs** | Legal due diligence, shareholders' agreement, stamp duty, valuer (the course term sheet has the company bear up to ₹12.5L) | **₹8L** | — | One-off |
+| Lawyer engagement | Agency–Keepwell processing agreement, consent notices, terms, IRDAI plan opinion, "evidence pack, not legal advice" line **[repo]** | ₹4L | ₹3L | Repo: "lawyer review, 2 weeks" |
+| CA/CS retainer, registered valuer, trademarks, security review | Clean company (Step 2.5); Keepwell, Circuit and Mistri Gyan marks | ₹4L | ₹4L | ₹20k/month retainer + one-offs |
+| DPDP readiness and audit | Main duties from ~13 May 2027 **[repo]**: breach reporting within 72h, one-year logs | — | ₹3L | ISO 27001 readiness prep |
+| Office and travel | CIE-IIITH incubation space; field travel across TS/AP | ₹8L | ₹14L | |
 
 ### Lane 4: Marketing and sales (₹0.56 Cr, 10%)
 | Requirement | Why | Y1 | Y2 |
@@ -107,13 +118,27 @@ Fortnightly per-fix invoices paid by UPI (5 of 5 first pilot invoices paid on ti
 - **Together they extend runway by ~3 months** (~₹54L ÷ ~₹18L monthly burn in Y2). We pitch them as a buffer, not a budget line.
 
 ## 8.5 Use of funds
-| Lane (M1) | ₹ Cr | Share | Course benchmark (M1) |
+**By purpose (what we pitch):**
+
+| Lane (M1) | ₹ Cr | Share | Why this weight at Stage 2 |
 |---|---|---|---|
-| Build the product | 2.20 | **40%** | "Typically 40% of funding needs is towards building the product" ✓ |
-| Build the team and the company | 1.54 | **28%** | "Typically 25% … goes toward team building" ✓ (+ one-off seed costs) |
-| Discover product–market fit | 1.15 | **21%** | Heaviest *need* at Stage 2. Much of the product and team spend also serves PMF |
+| **Discover product–market fit** | **2.09** | **38%** | The heaviest need at "Finding a Business Model" (M1 ✓✓). Every Series A gate (8.6) is a PMF proof |
+| Build the team and the company | 1.54 | **28%** | M1: "typically 25% toward team building", plus one-off seed costs and below-market founder pay |
+| Build the product | 1.25 | **23%** | The repo's Foundations and the rest of R1. The MVP already exists, so the seed is not mainly a build round |
 | Marketing and sales | 0.56 | **10%** | Stage 2 = "build early sales frameworks", not scale marketing |
 | Working capital | 0.05 | **1%** | Asset-light until parts (R4) |
+
+**By cost type (the same money, for transparency):**
+
+| Who is paid | Share |
+|---|---|
+| All engineering + cloud + devices | 40% |
+| Founders, finance, office, compliance | 28% |
+| Agency success, pilots, research, per-job AI | 21% |
+| Field sales, acquisition, brand | 10% |
+| Working capital | 1% |
+
+**Why we pitch the purpose view:** investors read use of funds against milestones. At Stage 2 the honest question is *"how much of this buys proof?"* The answer is 38% directly, rising to ~48% if the field-sales price and channel tests (E1, E5) are counted. We don't count those, to avoid stretching.
 
 The contingency (₹0.55 Cr) sits on top, as in Class Activity 1.
 
@@ -152,7 +177,8 @@ Venture debt becomes possible only after Series A, with revenue (course M2).
 ## 8.9 Weak points, said before an investor says them
 | Weak point | Answer |
 |---|---|
-| "40% on product, but you already have an MVP" | The MVP proves the loop; the seed builds the repo's Foundations (consent, eval, audit) that must come before customer data at scale, plus speech accuracy in two more languages |
+| "Isn't moving engineers into PMF just relabelling?" | Same money, shown both ways (8.5). Three of the six engineers exist to run E2/E4/E8 (accuracy, gates, measurement); the other three build the platform. We pitch by purpose because the milestones are PMF proofs |
+| "Why is product still 23% if you have an MVP?" | The MVP proves the loop. The seed builds the repo's Foundations (consent, eval, audit) that must come before customer data at scale, plus the rest of R1 |
 | "Team and company is 28%" | It includes a one-off ₹8L of seed transaction costs and founder salaries below market. Without the one-off it's ~26%, in line with M1's 25% |
 | "Why not raise less, at 18 months?" | It would have to raise a Series A under pressure (8.2). Six points of dilution buy six months of safety |
 | "What if credits or SISFS are rejected?" | Neither is in the ask (8.4) |
@@ -160,7 +186,7 @@ Venture debt becomes possible only after Series A, with revenue (course M2).
 
 ## 8.10 How it shows up in the pitch (final choices in Step 12)
 - **The ask slide:** *"₹4.75 Cr seed for 24 months, to take Circuit from 5 to ~260 paying agencies and 1.5 lakh machine records, and reach Series A from strength."*
-- A use-of-funds bar (40 / 28 / 21 / 10 / 1), the milestone list (8.6), and one line: *"The round also unlocks Google for Startups AI credits (~₹34L of our planned AI and cloud spend)."*
+- A use-of-funds bar by purpose (PMF 38 / team 28 / product 23 / sales 10 / WC 1), the milestone list (8.6), and one line: *"The round also unlocks Google for Startups AI credits (~₹34L of our planned AI and cloud spend)."*
 - Appendix: the requirement list (8.3) and the budget-to-ask bridge (8.4).
 
 Covers: course M3 "Ask: amount, milestones, rationale", and the deck mistake it avoids: "unclear or unjustified fundraising ask".
@@ -170,5 +196,5 @@ Covers: course M3 "Ask: amount, milestones, rationale", and the deck mistake it 
 ## Decisions log (LOCKED 16 Nov 2026; updated after the Step 12 review)
 - **Runway:** 24 months. The Series A gates are reached ~months 13–18, and a Series A takes 4–6 months.
 - **The ask: ₹4.75 Cr** (gap ₹4.56 Cr). It was ₹4.5 Cr before the review; it rose because the SISFS grant is now counted only once sanctioned. Google credits and SISFS are kept outside the ask (~3 months of buffer).
-- **Use of funds:** product 40% · team and company 28% · PMF 21% · marketing and sales 10% · working capital 1%, plus 10% contingency.
+- **Use of funds (by purpose, changed 16 Nov after the team's challenge):** **PMF 38%** · team and company 28% · product 23% · marketing and sales 10% · working capital 1%, plus 10% contingency. By cost type, the same money is 40 / 28 / 21 / 10 / 1.
 - **After the seed:** a Series A of ~₹8–10 Cr around month 20, targeting a 2–3x step-up.

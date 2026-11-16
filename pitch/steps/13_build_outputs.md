@@ -39,7 +39,7 @@ Requires `openpyxl`, `python-pptx` and LibreOffice.
 | Ask | **₹4.75 Cr seed**, priced CCPS, 24-month runway |
 | Valuation | **₹20 Cr pre-money / ₹24.75 Cr post-money**, 19.2% to seed investors at ₹113.33 per share; walk-away floor ₹16 Cr pre |
 | Investor return (base case) | ~37% IRR, 6.7x (₹243.5 Cr exit in year 6 at 7x revenue) |
-| Use of funds | Product 40% · team and company 28% · PMF 21% · marketing and sales 10% · working capital 1% (+10% contingency) |
+| Use of funds (by purpose) | PMF 38% · team and company 28% · product 23% · marketing and sales 10% · working capital 1% (+10% contingency) |
 | Pilot | 5 agencies, 4 weeks, ~410 jobs, one-visit closure 71% → 84%, 96% of requests captured, 5 of 5 first invoices paid (~₹20,000 billed) |
 | Unit economics | ARPA ₹4,856/month · 81% contribution · CAC ~₹17,900 · payback 5.6 months · LTV:CAC 7.3x |
 | Plan | 72 → 3,789 paying agencies; revenue ₹0.18 Cr → ₹21.7 Cr; EBITDA +₹4.7 Cr in Y5; 39 lakh machine records |
