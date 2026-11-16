@@ -171,15 +171,16 @@ svg .draw.go{stroke-dashoffset:0}
 .proofv{position:relative;border-radius:16px;overflow:hidden;background:#000;border:1px solid var(--line);box-shadow:0 18px 40px -24px rgba(14,35,64,.45)}
 .proofv video{display:block;width:100%;height:100%;object-fit:cover;object-position:top}
 .proofv figcaption{position:absolute;left:0;right:0;bottom:0;padding:12px 14px;background:linear-gradient(transparent,rgba(10,19,34,.9));color:#fff;font:600 15px/1.3 var(--sans)}
-@keyframes pagescroll{0%,4%{transform:translateY(0)}96%,100%{transform:translateY(calc(-100% + 620px))}}
+@keyframes pagescroll{0%,7%{transform:translateY(0)}90%,100%{transform:translateY(calc(-100% + 620px))}}
 .still .pane img{animation:none!important}
-@keyframes pagescroll2{0%,4%{transform:translateY(0)}96%,100%{transform:translateY(calc(-100% + 586px))}}
+@keyframes pagescroll2{0%,7%{transform:translateY(0)}90%,100%{transform:translateY(calc(-100% + 586px))}}
 .bframe{border:1px solid var(--line);border-radius:16px;overflow:hidden;background:#fff;box-shadow:0 18px 40px -24px rgba(14,35,64,.4)}
 .bbar{height:40px;background:#F1ECE2;display:flex;align-items:center;gap:7px;padding:0 14px;border-bottom:1px solid var(--line)}
 .bbar i{width:11px;height:11px;border-radius:50%;background:#D9CFBC}
 .bbar span{flex:1;margin-left:8px;background:#fff;border-radius:8px;font:500 14px var(--sans);color:var(--grey2);padding:6px 12px}
 .bwin{overflow:hidden;position:relative}
 .still .bwin img{animation:none!important}
+.slide:not(.on) .bwin img{animation:none!important}
 #cstage .tl{height:310px;margin-top:8px}#cstage .tl .line{top:158px}#cstage .tl .m.up{bottom:160px}#cstage .tl .m.dn{top:150px}#cstage .tl .m{width:172px;margin-left:-86px}#cstage .tl .m span{font-size:15px}#cstage .tl .m b{font-size:12px}
 
 /* ---- polish pass: calmer type, balanced wraps, more air ---- */
@@ -351,7 +352,7 @@ h1.t{text-wrap:balance;line-height:1.1;margin-bottom:22px}
     </div>
     <div class="a" style="--i:4;flex:1">
       <div class="bframe"><div class="bbar"><i></i><i></i><i></i><span>circuit-landing-page.netlify.app</span><em style="font:700 11px var(--sans);color:#fff;background:var(--teal);border-radius:6px;padding:3px 8px;font-style:normal">LIVE</em></div>
-      <div class="bwin" style="height:586px"><img src="media/landing_full.png" alt="" style="width:100%;display:block;animation:pagescroll2 32s ease-in-out infinite alternate"></div></div>
+      <div class="bwin" style="height:586px"><img src="media/landing_full.png" alt="" style="width:100%;display:block;animation:pagescroll2 32s ease-in-out infinite"></div></div>
       <div style="font:500 15px var(--sans);color:var(--grey);margin-top:10px;text-align:center">The live Circuit site, scrolling end to end — what an agency owner sees</div>
     </div>
   </div>
@@ -653,9 +654,10 @@ function render(){
   document.getElementById('nsp').textContent=n.speaker||'';document.getElementById('ntitle').textContent=n.title||'';
   document.getElementById('ntime').textContent=n.time?('~'+n.time):'';document.getElementById('nsay').textContent=n.say||'';document.getElementById('nwhy').textContent=n.why?('Why: '+n.why):'';
   history.replaceState(null,'','#'+(cur+1));
-  if(s.dataset.id==='demo')chatPlay();
+  restartScroll(s);if(s.dataset.id==='demo')chatPlay();
   if(STILL&&s.dataset.id==='hook'){s.querySelectorAll('.mach').forEach((m,i)=>{if(i%3!==2)m.classList.add('hit')});document.getElementById('hookn').textContent=document.querySelectorAll('.mach.hit').length}
 }
+function restartScroll(root){root.querySelectorAll('.bwin img').forEach(el=>{const a=el.dataset.anim||(el.dataset.anim=el.style.animation);el.style.animation='none';void el.offsetWidth;el.style.animation=a})}
 function go(i){const L=list();cur=Math.max(0,Math.min(L.length-1,i));render()}
 function next(){const s=list()[cur];const max=+(s.dataset.steps||0);if(step<max){setStep(s,step+1)}else go(cur+1)}
 function prev(){const s=list()[cur];if(step>0){setStep(s,step-1)}else go(cur-1)}
@@ -696,7 +698,7 @@ lbImg.onclick=e=>{e.stopPropagation();lbStep(1)};lbVid.onclick=e=>e.stopPropagat
 lb.onclick=()=>lbClose();
 
 // ---------- demo tabs + chat
-document.querySelectorAll('.tabbar button').forEach(b=>b.onclick=()=>{document.querySelectorAll('.tabbar button').forEach(x=>x.classList.toggle('cur',x===b));document.querySelectorAll('.pane').forEach(p=>p.classList.toggle('cur',p.id===b.dataset.pane));const v=document.querySelector('#p3 video');if(b.dataset.pane==='p3'){v.play().catch(()=>{})}else v.pause();if(b.dataset.pane==='p1')chatPlay()});
+document.querySelectorAll('.tabbar button').forEach(b=>b.onclick=()=>{document.querySelectorAll('.tabbar button').forEach(x=>x.classList.toggle('cur',x===b));document.querySelectorAll('.pane').forEach(p=>p.classList.toggle('cur',p.id===b.dataset.pane));const v=document.querySelector('#p3 video');if(b.dataset.pane==='p3'){v.play().catch(()=>{})}else v.pause();if(b.dataset.pane==='p1')chatPlay();restartScroll(document.getElementById(b.dataset.pane)||document)});
 let timers=[];
 function chatStop(){timers.forEach(clearTimeout);timers=[];document.querySelectorAll('#chat .msg').forEach(m=>m.classList.remove('show'));document.querySelectorAll('.jc').forEach(c=>{c.style.opacity=0;c.style.transform='translateY(12px)'})}
 function chatPlay(){chatStop();document.querySelectorAll('#chat .msg').forEach(m=>timers.push(setTimeout(()=>m.classList.add('show'),+m.dataset.d+150)));document.querySelectorAll('.jc').forEach(c=>timers.push(setTimeout(()=>{c.style.opacity=1;c.style.transform='none'},+c.dataset.d+150)))}
