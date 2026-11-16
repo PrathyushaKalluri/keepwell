@@ -1,5 +1,6 @@
 # Repo reconciliation — what the team repo changes
 **Reference document used by every step.**
+> **Illustrative case.** Founder histories, the company timeline, the pilot results and the financials are assumptions made for the IIIT Hyderabad ESFS course pitch. They are kept consistent with the team repo and with each other.
 **Tags:** **[Real]** = case-competition build, research or survey · **[repo]** = team repo `ESFS/keepwell/` · **[Story]** = assumed backstory or pilot fact · **[Model]** = modelled number.
 **Plan:** [`../pitch_bible.md`](../pitch_bible.md) · **Model:** [`../keepwell_model.xlsx`](../keepwell_model.xlsx)
 

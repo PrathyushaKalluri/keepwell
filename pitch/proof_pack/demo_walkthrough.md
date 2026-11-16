@@ -1,5 +1,6 @@
 # Keepwell — Circuit demo walkthrough (20-second clip for slide 6)
-**Built from the real prototype run CASE-A44351** **[Real]**: FastAPI agent, 20 allowlisted tools, a 12-state job machine, a 14-condition readiness gate, Telugu voice intake. The run took 10.9 minutes and made 47 decisions, reaching a repair-ready visit. Payment and logistics responses were simulated from partner documentation, and the clip says so in small text.
+> **Illustrative case.** Founder histories, the company timeline, the pilot results and the financials are assumptions made for the IIIT Hyderabad ESFS course pitch. They are kept consistent with the team repo and with each other.
+**Built from the real prototype run CASE-A44351** **[Real]**: FastAPI agent, 20 allowlisted tools, a 12-state job machine, a 14-condition readiness gate, Telugu voice intake. The run took 10.9 minutes and made 47 decisions, reaching a repair-ready visit. Payment and logistics responses were simulated from partner documentation. The final **verify** step is shown as designed (the 2025 prototype run ended at "repair-ready"; verification is live in production since 2026). The clip says both in small text.
 
 | Second | On screen | Caption |
 |---|---|---|

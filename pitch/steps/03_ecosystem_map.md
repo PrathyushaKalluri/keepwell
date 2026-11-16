@@ -1,6 +1,7 @@
 # Step 3 — Ecosystem map
 **Phase A: Who we are · Status: LOCKED 16 Nov 2026**
-**Tags:** **[Real]** = case-competition build, research or survey · **[repo]** = team repo `ESFS/keepwell/` · **[web]** = checked online on 16 Nov 2026 · **[Story]** = assumed backstory.
+> **Illustrative case.** Founder histories, the company timeline, the pilot results and the financials are assumptions made for the IIIT Hyderabad ESFS course pitch. They are kept consistent with the team repo and with each other.
+**Tags:** **[Real]** = real research or build · **[repo]** = team repo `ESFS/keepwell/` · **[web]** = checked online on 16 Nov 2026 · **[Story]** = assumed backstory.
 **Plan:** [`../pitch_bible.md`](../pitch_bible.md) · **Builds on:** Steps 1–2 (locked) · **Feeds:** Step 8 (what the seed must pay for), Step 12 (the "who's backing us" slide)
 
 ## 3.1 What this map is for
@@ -24,9 +25,9 @@ Five of the six sit in one place, **IIIT Hyderabad and our two Telangana pilot t
 | # | Category (M1) | Partner | What they have done for us **[Story unless marked]** | What they do in the next 18 months | What it means for the ask |
 |---|---|---|---|---|---|
 | 1 | **Investors** | **2 operator angels** (an ex-founder from home services; an ex-head of service at a durables brand) | Put in ₹30L via iSAFE before the pilot. Introduced 3 of the 5 pilot agencies | Introductions to the seed lead and to warranty administrators (the R2/R3 buyers) | Proof that industry insiders backed us first. **The seed VC is the next partner in this row**: the cheque the ecosystem can't write |
-| 2 | **Government** | **Startup India Seed Fund (SISFS)**, via our incubator | ₹20L grant **applied for** via CIE-IIITH (Nov 2026), for proof of concept and product trials **[web: up to ₹20L, milestone-based, via incubators]** | Evaluation and, if sanctioned, milestone-based release | **Not counted in the ask.** If sanctioned, ~₹20L of non-dilutive runway |
-| 3 | **Incubator** | **CIE-IIITH** (IIIT Hyderabad's incubation centre) **[Real institution]** | Incubated since Oct 2026. Routes our SISFS application. Set up governance, books and a data room from day one | Investor introductions, diligence readiness, mentoring through the seed close | The "CIE-mentored, clean diligence" signal the course rewards (M3, Startup–Quality) |
-| 3b | **Accelerator / corporate programme** (not incubation) | **Google for Startups Cloud Program, AI tier** | Relationship began with our **Google Startup Buildathon** submission **[Real]** | **Unlocked by the seed round.** The AI tier is for Seed-to-Series-A-funded startups: up to **$350k** of credits, $250k in year 1 and up to $100k in year 2, valid 24 months **[web]**. Covers Google Cloud usage: hosting, database, storage and Gemini/Vertex models | **Cloud and AI cost is paid by credits for two years** while agencies are on free days and low fees, so the seed money goes to people and field work. This is also a reason to raise from a VC rather than only angels: VC backing unlocks the credits |
+| 2 | **Government** | **Startup India Seed Fund (SISFS)**, via our incubator | **₹20L sanctioned (Mar 2026)** via CIE-IIITH for proof of concept and product trials; ₹10L received **[web: up to ₹20L, milestone-based, via incubators]** | Second ₹10L released at 25 paying agencies (~Q1 2027) | Non-dilutive money that part-funded the pilot; the sanctioned second tranche is counted in the gap (Step 8) |
+| 3 | **Incubator** | **CIE-IIITH** (IIIT Hyderabad's incubation centre) **[Real institution]** | Incubated since May 2025. Routed our SISFS grant (sanctioned Mar 2026). Set up governance, books and a data room from day one | Investor introductions, diligence readiness, mentoring through the seed close | The "CIE-mentored, clean diligence" signal the course rewards (M3, Startup–Quality) |
+| 3b | **Accelerator / corporate programme** (not incubation) | **Google for Startups Cloud Program, AI tier** | On Google Cloud (Gemini, Mumbai) since Jan 2026; **Google Startup Buildathon** idea submitted Nov 2026 | **Unlocked by the seed round.** The AI tier is for Seed-to-Series-A-funded startups: up to **$350k** of credits, $250k in year 1 and up to $100k in year 2, valid 24 months **[web]**. Covers Google Cloud usage: hosting, database, storage and Gemini/Vertex models | **Cloud and AI cost is paid by credits for two years** while agencies are on free days and low fees, so the seed money goes to people and field work. This is also a reason to raise from a VC rather than only angels: VC backing unlocks the credits |
 | 4 | **Research institution** | **IIIT-H speech and language lab** (our faculty mentor) | Benchmarked Circuit's Telugu speech recognition on real agency voice notes | Builds the golden test audio and vernacular lexicon the repo requires before scaling; a joint student project | Closes the repo's #2 risk (Telugu/Tamil accuracy) at research cost, not hiring cost |
 | 5 | **Networks and associations** | **Our trade network + parts wholesalers in the pilot towns**: a ten-man family carpenter crew **[Real]**, FixNear's 1,200 former partner technicians, the COO's ex-brand service partners | Brought the 18 interviewed agencies and the 5 pilot agencies | The route to the first ~120 paying agencies. Every agency visits a parts counter, which is why the case-competition GTM plan had ~30% of agencies coming via wholesalers **[Real]** | Low-cost acquisition, so the CAC in Step 7 is credible |
 
@@ -35,7 +36,7 @@ Five of the six sit in one place, **IIIT Hyderabad and our two Telangana pilot t
 ## 3.3 What the ecosystem cannot give us, which is why we raise
 | Need for Stage 2 (from the repo) | Can the ecosystem cover it? |
 |---|---|
-| Field team to take 5 agencies to ~120 across more towns | No. Grants are capped at ₹20L and can't fund scale (course M2: grants "don't scale") |
+| Field team to take 14 agencies to ~120 and beyond, across more towns | No. Grants are capped at ₹20L and can't fund scale (course M2: grants "don't scale") |
 | Engineers to harden Circuit: safety hard-stops, consent, eval harness (repo "Foundations, must precede any customer data") | No. The lab supports research, not product engineering |
 | AI cost on every job before a fee is earned, during free days | **Largely, once the seed unlocks Google for Startups credits.** The size of the offset is computed in Step 8 from the real cost lines. The $350k is a ceiling, not what we will consume |
 | Lawyer and safety sign-off before launch | No. Paid work (Step 8) |
@@ -70,7 +71,7 @@ This table is the bridge to Step 8: **it lists what the seed money pays for.**
 **One slide, "Who's already backing us":**
 - the partner logos, with Google shown as "unlocked by this round"
 - one line each on what they did
-- the closing line: *"They took us from idea to a paid pilot. The seed takes us from 5 agencies to 120."*
+- the closing line: *"They took us from idea to 14 paying agencies. The seed takes us to 120 and beyond."*
 
 It feeds the course's Startup–Quality score ("CIE-mentored, clean diligence"), Startup–Uniqueness ("network access") and the X-factor ("local alumni mentor effect", M3).
 

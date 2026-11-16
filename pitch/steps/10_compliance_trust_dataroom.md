@@ -1,6 +1,7 @@
 # Step 10 — Compliance, trust and data room
 **Phase D: The deal · Status: LOCKED 16 Nov 2026** (recommendations adopted; the team asked for Steps 10–13 to be completed end to end)
-**Tags:** **[Real]** = course material or case-competition record · **[repo]** = team repo `ESFS/keepwell/` · **[Story]** = assumed company state · **[KB]** = established regulation, not in the repo (verify with our CA/lawyer before filing)
+> **Illustrative case.** Founder histories, the company timeline, the pilot results and the financials are assumptions made for the IIIT Hyderabad ESFS course pitch. They are kept consistent with the team repo and with each other.
+**Tags:** **[Real]** = course material or real record · **[repo]** = team repo `ESFS/keepwell/` · **[Story]** = assumed company state · **[KB]** = established regulation, not in the repo (verify with our CA/lawyer before filing)
 **Plan:** [`../pitch_bible.md`](../pitch_bible.md) · **Builds on:** Step 2 (clean company), Step 3 (enablers), Step 5 (trust design), Step 8 (compliance budget) · **Feeds:** Step 11 (Startup–Quality), Step 12 (trust slide, data room)
 
 ## 10.1 How this step is built
@@ -20,7 +21,7 @@
 ### A. Corporate and legal
 | Item | Status | Owner | Cost (Step 8) |
 |---|---|---|---|
-| Incorporation papers: MoA, AoA, CIN, PAN, TAN | Done (Oct 2026) **[Story]** | CEO | in place |
+| Incorporation papers: MoA, AoA, CIN, PAN, TAN | Done (May 2025) **[Story]** | CEO | in place |
 | DPIIT recognition (Startup India) | Done **[Story]** | CEO | — |
 | Statutory registers, board minutes, ROC filings | Done / ongoing | CA/CS | retainer |
 | Founders' agreement: vesting, **IP assignment of Circuit code and Mistri Gyan to the company** (closes the student-IP risk, checked with CIE) | Done **[Story]** | CEO | in place |
@@ -75,7 +76,7 @@
 | **Home Memory** (the household's own machine record) | Household | **Fiduciary** in Keepwell's own right, from R2 | **Separate, purpose-bound consent** from the household, directly to Keepwell, in 6 languages (pilot consent rate 74%) | **The household keeps its record** and can share it with any agency. We never lock households in |
 | Plans, claims, data services (R2, R3, R8) | Household | Fiduciary | A separate consent per purpose, checked on every read; audit row per third-party read **[repo]** | Consent withdrawal stops that purpose |
 
-**Interim pilot controls** (before the repo's full Foundations, funded by the seed):
+**Controls in place today** (before the repo's full Foundations, which the seed funds). **All 14 paying agencies have signed the agency agreement, including the de-identified-outcomes licence.**
 - consent log
 - append-only job log
 - paid-tier API keys only

@@ -1,6 +1,7 @@
 # Step 5 — Product, fit and competition
 **Phase B: Why it's big and why we win · Status: LOCKED 16 Nov 2026 (content); slide choices deferred to Step 12**
-**Tags:** **[Real]** = case-competition build or research · **[repo]** = team repo `ESFS/keepwell/` · **[Story]** = assumed pilot or backstory · **[Model]** = calculated.
+> **Illustrative case.** Founder histories, the company timeline, the pilot results and the financials are assumptions made for the IIIT Hyderabad ESFS course pitch. They are kept consistent with the team repo and with each other.
+**Tags:** **[Real]** = real research or build · **[repo]** = team repo `ESFS/keepwell/` · **[Story]** = assumed pilot or backstory · **[Model]** = calculated.
 **Plan:** [`../pitch_bible.md`](../pitch_bible.md) · **Builds on:** Steps 1–4 (locked) · **Feeds:** Step 6 (what the pilot measures), Step 10 (trust and compliance), Step 12 (solution, moat, competition and trust slides)
 
 ## 5.1 How this step is built
@@ -19,7 +20,7 @@ This step also answers the fit questions you set:
 - how hard we are to copy
 - how easy we are to adopt
 
-**Source rule.** The product is described as the repo specifies it (scenario A "Prepared Visit", features A1–A11, the R1 build order). What exists today is described from the case-competition build **[Real]** plus the pilot hardening since October **[Story]**.
+**Source rule.** The product is described as the repo specifies it (scenario A "Prepared Visit", features A1–A11, the R1 build order). What exists today is the prototype build **[Real]** plus production since January 2026 **[Story]**.
 
 ## 5.2 The three fits
 | Fit | Question | Our answer | Evidence |
@@ -46,12 +47,12 @@ The flow follows the repo's six-step loop, *Understand → Check → Triage → 
 ## 5.4 What is built and what comes next
 | | What exists | Tag |
 |---|---|---|
-| **Built for the case competition (Sep–Oct 2026)** | A working agent: FastAPI, an event store, 20 allowlisted tools, a 12-state job machine, a 14-condition readiness gate, a learning step that won't run until the technician's finding is recorded, Telugu voice intake, 25 tests. Demo run CASE-A44351: 47 decisions in 10.9 minutes, reaching a repair-ready visit | **[Real]** |
-| **Hardened for the pilot (Oct–Nov 2026)** | Core loop ported to Gemini on Vertex AI (Mumbai) behind a model router. WhatsApp Business channel live for 5 agencies. Agency rate cards loaded. A consent log. **Also live in beta:** root-cause ranking (A5) as a *technician-only* hint, with verified outcomes reviewed weekly by our team before they enter Mistri Gyan; quote drafts (A7) that the owner must approve | **[Story]**, consistent with the repo's R1 core loop: *A1, A2, A3, A6, A4, A9 first* |
-| **Seed-funded next 18 months (R1 complete)** | The rest of R1: quote (A7), root-cause ranking at scale (A5), messaging (A10), dispatch (A8), parts status (A11). The repo's "Foundations, must precede any customer data": consent store, cost ledger, eval harness, admin console | **[repo]** build order §9.1 |
+| **Prototype (Jun–Sep 2025)** | A working agent: FastAPI, an event store, 20 allowlisted tools, a 12-state job machine, a 14-condition readiness gate, a learning step that won't run until the technician's finding is recorded, Telugu voice intake, 25 tests. Demo run CASE-A44351: 47 decisions in 10.9 minutes, reaching a repair-ready visit | **[Real]** |
+| **In production since Jan 2026** | Core loop on Gemini on Vertex AI (Mumbai) behind a model router; WhatsApp Business live; **14 paying agencies**; agency rate cards; consent log. **Root-cause ranking (A5) live since Mar 2026** as a technician-only hint, verified outcomes reviewed weekly before entering Mistri Gyan, **75% gate passed in Aug 2026**; owner-approved quote drafts (A7) | **[Story]**, consistent with the repo's R1 core loop: *A1, A2, A3, A6, A4, A9 first* |
+| **Seed-funded next 24 months (R1 complete)** | The rest of R1 at scale: quotes (A7), root-cause ranking in Hindi/Tamil (A5), messaging (A10), dispatch (A8), parts status (A11). The repo's "Foundations, must precede any customer data": consent store, cost ledger, eval harness, admin console | **[repo]** build order §9.1 |
 | **Then** | R2 Home Memory and plans → R3 Claims triage → R4 Parts catalogue → R5 Resale & Recycling | Step 1 roadmap |
 
-**Honest note for Q&A.** In the case-competition demo the payment and logistics partners were simulated from their documentation. R1 keeps payments out of the product (the repo: *"Payment is stubbed in R1"*; customers pay the agency by UPI as today). This is a simplification, not a gap.
+**Honest note for Q&A.** In the 2025 prototype demo run, payment and logistics partners were simulated from their documentation. R1 keeps payments out of the product (the repo: *"Payment is stubbed in R1"*; customers pay the agency by UPI as today). This is a simplification, not a gap.
 
 ## 5.5 North Star and guardrails (from the repo, §3)
 - **North Star:** **verified first-time-right jobs per active agency per month.** It counts only jobs the technician verified, so it measures real value to the agency and is the same event that triggers our fee.
@@ -175,7 +176,7 @@ How the gates are run:
 
 ## 5.12 How it shows up in the pitch
 1. **Solution slide:** the 7-step flow as one visual (voice note → job card → verified fix), plus a 20-second demo clip from the real prototype.
-2. **"Why it compounds" slide:** the flywheel (5.6) and the line *"Anyone can copy the AI. No one can copy 10,000 verified repairs."* (The number on the slide comes from the Step 6/7 plan at the Series A gate.)
+2. **"Why it compounds" slide:** the flywheel (5.6) and the line *"Anyone can copy the AI. No one can copy verified repairs."*
 3. **Competition slide:** the two-axis map with Keepwell alone in the corner, plus a 5-row feature table.
 4. **Trust slide** (shared with Step 10): the principle line, the three decision tiers, the hard-stops and zero-tolerance guardrails.
 5. **Appendix:** Porter's Five Forces, the release gates, the risk table.

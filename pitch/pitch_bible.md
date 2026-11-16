@@ -1,9 +1,10 @@
 # Keepwell — Pitch Bible (the plan)
 
 This document is **the plan for building the seed pitch deck**: the phases, the steps, what each step produces, and where it lives.
+> **Illustrative case.** Founder histories, the company timeline, the pilot results and the financials are assumptions made for the IIIT Hyderabad ESFS course pitch. They are kept consistent with the team repo and with each other.
 The work itself sits in one document per step in [`steps/`](steps/). The numbers sit in [`keepwell_model.xlsx`](keepwell_model.xlsx).
 
-**Goal.** Pitch **Keepwell** to a seed VC or strategic angels and get funded.
+**Goal.** Pitch **Keepwell** to a lead seed VC and get funded.
 - Circuit, the AI desk for repair agencies, is product 1 and the MVP.
 - We are at **Stage 2, Finding a Business Model** (course M1).
 - The pitch tells one personal, compelling story. Every claim is backed by data from our research or the repo, or by assumptions that are tagged and internally consistent.
@@ -36,7 +37,7 @@ The work itself sits in one document per step in [`steps/`](steps/). The numbers
 1. **Use the whole team repo, with no conflicting decisions.** Every decision cites `ESFS/keepwell/` where it speaks, and is researched and reasoned where it doesn't. See `steps/00_repo_reconciliation.md`.
 2. **One source of truth.** Every deck number comes from `keepwell_model.xlsx`. Every claim comes from a step document.
 3. **Tag every fact.**
-   - **[Real]**: case-competition build, research or survey
+   - **[Real]**: real research or build
    - **[repo]**: team repo
    - **[Story]**: assumed backstory or pilot fact
    - **[Model]**: modelled number
@@ -89,7 +90,7 @@ The work itself sits in one document per step in [`steps/`](steps/). The numbers
 
 ### Phase D: The deal
 - **Step 9, Investor, instrument, valuation, cap table, exit.**
-  - Why a seed VC, with strategic angels alongside.
+  - Why one lead seed VC (strategic people join as ESOP advisors).
   - The instrument: priced CCPS vs another iSAFE.
   - Valuation by the course's three methods (Comparable, Scorecard, VC method), with exit scenarios.
   - Cap table and dilution path, and the key terms we would accept.

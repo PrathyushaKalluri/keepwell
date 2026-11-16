@@ -61,7 +61,7 @@ A = wb.active
 A.title = "Assumptions"
 A["A1"] = "Keepwell — Assumptions (every input lives here)"
 A["A1"].font = TITLE
-A["A2"] = "Blue = input you can change · Yellow fill = still to be decided in a pitch step · Money in ₹ lakh (L) unless the unit says ₹. 1 Cr = 100 L."
+A["A2"] = "Blue = input you can change · Yellow fill = key assumption (locked in its pitch step) · Money in ₹ lakh (L) unless the unit says ₹. 1 Cr = 100 L."
 A["A2"].font = Font(name=F, size=9, italic=True)
 header(A, 4, ["Input", "Unit", "Value / Y1", "Y2", "Y3", "Y4", "Y5", "Tag", "Source / note (decided in step)"])
 r = 5
@@ -108,7 +108,7 @@ def sec(text):
 sec("1. General")
 scalar("tax", "Corporate tax rate (on positive EBIT)", "%", 0.25, PCT, "Model", "Indian new-regime rate ~25%; loss carry-forward ignored for simplicity", False)
 scalar("ctc_growth", "Annual salary increase", "%", 0.08, PCT, "Model", "Step 7")
-scalar("agencies_now", "Paying/pilot agencies at start of Y1", "agencies", 5, NUM_0, "Story", "Step 2: 5-agency paid pilot (repo design: 3–5 agencies at ₹40 vs ₹100); Step 6 confirms")
+scalar("agencies_now", "Paying agencies at start of Y1 (seed close)", "agencies", 14, NUM_0, "Story", "Step 6: 5-agency paid pilot Feb–Apr 2026, founder-led expansion to 14 by Oct 2026")
 
 sec("2. Market sizing (Step 4)")
 scalar("techs", "Appliance/AC repair technicians in India (base)", "people", 250000, NUM_0, "Real+Model", "ICAP (govt): ~2,00,000 RAC service technicians, mostly informal; CEEW: skilled AC technician demand ~0.37M. Base 2.5L covers AC + fridge + washing machine")
@@ -139,11 +139,11 @@ scalar("travel_cost", "Travel cost per wasted trip", "₹", 50, NUM_RS, "DRAFT",
 scalar("machines", "Fridges, washing machines and ACs in Indian homes", "machines", 270000000, NUM_0, "Real", "~335M households (Data for India 2024) × fridge ~50% + washing machine ~20% + AC ~10–13% (CLASP/BEE 2024; Ken Research 52/23/10) ≈ 268–285M")
 
 sec("3. Circuit pricing and usage (Step 7)")
-scalar("jobs_month", "Jobs per agency per month", "jobs", 145, NUM_0, "Model", "Step 4 triangulation: 150M jobs × 44% local ÷ ~37,500 agencies ≈ 147/month; repo problem map: 100 (small) / 250 (mid). Pilot (Step 6) confirms")
+scalar("jobs_month", "Jobs per agency per month", "jobs", 125, NUM_0, "Story", "OBSERVED: pilot-agency median 125 (Step 6). Market average ~147 (Step 4) is upside, not modelled")
 scalar("paid_share", "Share of jobs that become a verified (billable) fix", "%", 0.82, PCT, "Story", "Pilot: 82% of routed jobs verified by the technician (Step 6)")
 scalar("fee_fix", "Fee per verified fix", "₹", 40, NUM_RS, "DRAFT", "RECOMMENDED, not decided (Step 7). Pilot: value = 2x fee at ~₹43; ₹100 arm failed; interviews ₹30–50; repo R1 ₹40")
 scalar("sub_month", "Optional Desk Pro add-on (owner reports, reminders, quote templates)", "₹/month", 399, NUM_RS, "DRAFT", "RECOMMENDED. Repo R2: optional ₹300–500/month; 3 of 18 interviewed owners prefer a flat fee")
-scalar("desk_adopt", "Share of paying agencies taking Desk Pro", "%", 0.25, PCT, "DRAFT", "Assumption; E1 tests it")
+scalar("desk_adopt", "Share of paying agencies taking Desk Pro", "%", 0.29, PCT, "Story", "OBSERVED: 4 of 14 paying agencies (Step 6)")
 scalar("free_days", "Free trial for new agencies", "days", 30, NUM_0, "DRAFT", "RECOMMENDED 30 (one-pager said 60): per-fix pricing already removes the risk, and the pilot reached 85% routing in 4 weeks")
 
 sec("4. Cost to serve (Step 7)")
@@ -153,7 +153,7 @@ scalar("support_month", "Support tooling per agency", "₹/agency/month", 100, N
 
 sec("5. Acquisition and retention (Step 7)")
 scalar("cac", "Acquisition cash cost per new agency (excluding people)", "₹/agency", 1000, NUM_RS, "DRAFT", "Parts-wholesaler referral ₹500 + onboarding kit and travel ₹500. Field-sales salaries are in team cost; fully loaded CAC is calculated on the P&L")
-scalar("rep_prod", "Paying agencies added per field-sales person per year", "agencies", 80, NUM_0, "DRAFT", "10 trials a month × 12 × ~67% converting (E1 target ≥ 70%)")
+scalar("rep_prod", "Paying agencies added per field-sales person per year", "agencies", 80, NUM_0, "Story", "Evidence: COO closed 9 agencies in 6 months at ~25% of his time (~6/month full-time equivalent). Dedicated rep: 10 trials/month × ~67% conversion. E5 tests it")
 scalar("referral", "Referred agencies per year, as a share of agencies at start of year", "%", 0.10, PCT, "DRAFT", "Owners refer owners (technician and wholesaler networks)")
 scalar("churn_m", "Monthly churn used for LTV (conservative, new-agency rate)", "%", 0.03, PCT, "DRAFT", "Unit economics use the year-1 rate, not the mature rate")
 
@@ -201,8 +201,8 @@ scalar("ctc_sales", "Avg cost per head — sales/partnerships", "₹ L/yr", 9, N
 scalar("ctc_ga", "Avg cost per head — finance/HR/admin", "₹ L/yr", 10, NUM_L, "DRAFT", "")
 
 sec("10. Cash and the raise (Steps 2 and 8)")
-scalar("cash_open", "Cash in bank at start of Y1", "₹ L", 37, NUM_L, "Story", "Step 2: raised ₹45L (founders ₹15L + iSAFE ₹30L), spent ~₹8L since Oct 2026")
-scalar("grants", "Grants counted in the funding gap", "₹ L", 0, NUM_L, "Model", "SISFS ₹20L applied via CIE-IIITH, not yet sanctioned: NOT counted (don't base survival on an unapproved grant). Upside buffer")
+scalar("cash_open", "Cash in bank at start of Y1", "₹ L", 21, NUM_L, "Story", "Step 2: raised ₹55L (founders ₹15L + iSAFE ₹30L + SISFS ₹10L), spent ~₹34L May 2025–Nov 2026 (itemised in Step 2)")
+scalar("grants", "Grants counted in the funding gap", "₹ L", 10, NUM_L, "Story", "SISFS ₹20L sanctioned Mar 2026; ₹10L received (in cash); 2nd ₹10L tranche on the 25-paying-agency milestone (~Q1 2027)")
 scalar("runway", "Runway the raise must fund", "months", 24, NUM_0, "Model", "Step 8: Series A gates reached ~month 15–18 + a 4–6 month Series A process")
 scalar("eng_pmf", "Share of engineering cost that runs PMF experiments", "%", 0.50, PCT, "Model", "Use of funds by PURPOSE: AI lead (root-cause accuracy, E2), eval/data engineer (gates, measurement), speech/ML engineer (Telugu/Tamil, E4) = 3 of 6 roles. Backend, WhatsApp and SRE build the product")
 scalar("contingency", "Contingency buffer", "%", 0.10, PCT, "Model", "Activity 1 used ~10%", False)
@@ -220,7 +220,7 @@ scalar("comp1", "Comparable 1: Hisabkitab (AI accounting for small firms), seed,
 scalar("comp2", "Comparable 2: Unveilr AI (AI search agents), pre-seed, Oct 2026", "₹ Cr post-money", 16.7, NUM_CR, "Real", "Ascendants / SaaSRise; earlier stage than us")
 scalar("comp3", "Comparable 3: Indian seed market midpoint", "₹ Cr post-money", 37.6, NUM_CR, "Real", "Kae Capital guide: seed post-money $2–8M; midpoint $4M at ₹94/$")
 scalar("bench_score", "Scorecard benchmark score", "/100", 80, NUM_0, "Real", "Course M4 example", False)
-scalar("our_score", "Keepwell fundability score", "/100", 76, NUM_0, "Model", "Step 11 self-score: Market 12/15, Product 22/30, Startup 35/45, X-factor 7/10")
+scalar("our_score", "Keepwell fundability score", "/100", 78, NUM_0, "Model", "Step 11 self-score: Market 12/15, Product 23/30, Startup 35/45, X-factor 8/10")
 
 sec("12. Cap table (Step 9)")
 scalar("sh_f1", "Shares — Sri Charan Peri (CTO)", "shares", 450000, NUM_0, "Story", "Step 2: 30% of founder equity; ₹4.5L at ₹1 face value")
@@ -233,15 +233,15 @@ scalar("esop", "ESOP pool, % of post-seed fully diluted", "%", 0.10, PCT, "DRAFT
 scalar("dil_a", "Series A dilution", "%", 0.20, PCT, "DRAFT", "")
 scalar("dil_b", "Series B dilution", "%", 0.15, PCT, "DRAFT", "")
 
-sec("13. Pilot (Step 6) — 5 agencies, 4 weeks, Ramagundam–Peddapalli + Karimnagar")
-scalar("p_jobs", "Pilot agency jobs per month (median)", "jobs", 125, NUM_0, "Story", "18 interviews: median 125 (range 60–260); Step 4 model 145")
-scalar("p_routed", "Share of jobs routed through Circuit by week 4", "%", 0.85, PCT, "Story", "Ramp 45% → 85% over 4 weeks")
+sec("13. Pilot and paid agencies (Step 6) — Feb–Oct 2026, 14 paying agencies")
+scalar("p_jobs", "Pilot agency jobs per month (median)", "jobs", 125, NUM_0, "Story", "Median of the 14 paying agencies (Step 6)")
+scalar("p_routed", "Share of jobs routed through Circuit (mature agencies)", "%", 0.90, PCT, "Story", "Agencies live 3+ months route ~90% of jobs (Step 6)")
 scalar("p_lost", "Requests agencies say they lose today (missed calls, unanswered voice notes)", "%", 0.125, PCT, "Story", "Interviews: about 1 in 8")
-scalar("p_recovered", "Extra jobs captured by Circuit (share of monthly jobs)", "%", 0.08, PCT, "Story", "About two-thirds of the lost 12.5%")
+scalar("p_recovered", "Extra jobs captured by Circuit (share of monthly jobs)", "%", 0.08, PCT, "Story", "MEASURED from logs: requests captured that previously had no job record")
 scalar("p_margin", "Agency margin per job", "₹", 240, NUM_RS, "DRAFT", "₹600 average bill × ~40% margin")
-scalar("p_ftf_before", "One-visit closure — agency's own baseline", "%", 0.71, PCT, "Story", "2 weeks of agency logs before go-live (repo primary metric)")
-scalar("p_ftf_after", "One-visit closure — weeks 3–4 with Circuit", "%", 0.84, PCT, "Story", "Early; ~400 Circuit jobs")
-scalar("p_admin_hrs", "Owner time saved per day (quoting, coordination)", "hours", 0.75, '0.00', "Story", "Owner self-report")
+scalar("p_ftf_before", "One-visit closure — agency's own baseline", "%", 0.71, PCT, "Story", "MEASURED: 2 weeks of agency logs before go-live (repo primary metric)")
+scalar("p_ftf_after", "One-visit closure — with Circuit (6-month average)", "%", 0.83, PCT, "Story", "MEASURED: ~7,000 jobs, May–Oct 2026")
+scalar("p_admin_hrs", "Owner time saved per day (quoting, coordination)", "hours", 0.75, '0.00', "Story", "SELF-REPORTED by owners (not measured)")
 scalar("p_owner_rate", "Value of owner time", "₹/hour", 150, NUM_RS, "DRAFT", "Assumption")
 scalar("p_verified", "Share of routed jobs the technician verified", "%", 0.82, PCT, "Story", "Close to the model's 80% billable share")
 scalar("p_fee_a", "Fee arm A (3 agencies)", "₹/verified fix", 40, NUM_RS, "Real", "Repo pilot design", False)
@@ -487,7 +487,7 @@ uline("contrib", "Contribution per agency", f"={ub('arpa')}-{ub('var')}-{ub('sup
 uline("cm", "Contribution margin", f"=IF({ub('arpa')}=0,0,{ub('contrib')}/{ub('arpa')})", PCT, "Contribution ÷ ARPA")
 uline("cac", "Fully loaded CAC (Y3, at scale)", f"='P&L and Cash'!E{PL['cac_full']}", NUM_RS, "Field sales + acquisition cash + brand ÷ new agencies (P&L)")
 uline("payback", "CAC payback (months, including free trial)",
-      f"=IF({ub('contrib')}<=0,\"Never\",{ub('cac')}/{ub('contrib')}+{s('free_days')}/30)", '0.0', "CAC ÷ monthly contribution + free months. Gate ≤ 6 (Step 6)")
+      f"=IF({ub('contrib')}<=0,\"Never\",{ub('cac')}/{ub('contrib')}+{s('free_days')}/30)", '0.0', "CAC ÷ monthly contribution + free months. Gate ≤ 7 (SMB SaaS norm ≤ 12)")
 uline("life", "Expected agency lifetime (months)", f"=IF({s('churn_m')}=0,0,1/{s('churn_m')})", '0.0', "1 ÷ monthly churn")
 uline("ltv", "Lifetime value (LTV), Circuit only", f"={ub('contrib')}*{ub('life')}", NUM_RS, "Contribution × lifetime (excludes plans, parts, claims)", True)
 uline("ltv_cac", "LTV : CAC", f"=IF({ub('cac')}=0,0,{ub('ltv')}/{ub('cac')})", MULT, "Healthy if > 3x", True)
@@ -569,7 +569,7 @@ M.column_dimensions["D"].width = 50
 
 # ---------------------------------------------------------------- Pilot
 PT = wb.create_sheet("Pilot")
-PT["A1"] = "Pilot economics — value to one agency vs our fee (₹ per agency per month, Step 6)"
+PT["A1"] = "Agency economics — value to one agency vs our fee (₹ per agency per month, Step 6)"
 PT["A1"].font = TITLE
 PT["A2"] = "Pilot figures are Story (assumed for the pitch), built on the repo's pilot design. This tab tests the repo's #1 risk: does the agency get more value than it pays?"
 PT["A2"].font = Font(name=F, size=9, italic=True)
@@ -582,17 +582,19 @@ prows = [
     (9, "2. Repeat trips avoided", f"=B6*({s('p_ftf_after')}-{s('p_ftf_before')})", '0.0', "Routed jobs × one-visit improvement"),
     (10, "   value: trips × cost per wasted trip", f"=B9*Market!B34", NUM_RS, "Cost per trip from Market tab"),
     (11, "3. Owner time saved", f"={s('p_admin_hrs')}*26*{s('p_owner_rate')}", NUM_RS, "Hours/day × 26 days × ₹/hour"),
-    (12, "Total value to the agency", "=B8+B10+B11", NUM_RS, ""),
+    (12, "Total value to the agency (measured + self-reported)", "=B8+B10+B11", NUM_RS, "Measured part = rows 8 + 10"),
     (13, "Verified fixes (billable)", f"=B6*{s('p_verified')}", '0.0', ""),
     (14, "Fee at arm A", f"=B13*{s('p_fee_a')}", NUM_RS, "₹40 per verified fix"),
     (15, "Fee at arm B", f"=B13*{s('p_fee_b')}", NUM_RS, "₹100 per verified fix"),
     (16, "Value ÷ fee, arm A", "=IF(B14=0,0,B12/B14)", MULT, "Want ≥ 2x for an easy yes"),
     (17, "Value ÷ fee, arm B", "=IF(B15=0,0,B12/B15)", MULT, "Below 1x means the agency loses money"),
-    (18, "Fee per verified fix where value = 2x fee", "=IF(B13=0,0,B12/2/B13)", NUM_RS, "Input for the Step 7 pricing decision (not a decision)"),
+    (18, "Fee per verified fix where value = 2x fee", "=IF(B13=0,0,B12/2/B13)", NUM_RS, "Reference"),
+    (19, "Measured value only (recovered jobs + trips)", "=B8+B10", NUM_RS, "From system logs"),
+    (20, "Measured value ÷ fee, arm A (₹40)", "=IF(B14=0,0,B19/B14)", MULT, "Still above 1x without any self-reported value"),
 ]
 for r, lab, f, fmt, how in prows:
-    PT.cell(row=r, column=1, value=lab).font = BOLD if r in (12, 16, 17, 18) else BLACK
-    c = PT.cell(row=r, column=2, value=f); c.number_format = fmt; c.font = BOLD if r in (12, 16, 17, 18) else BLACK
+    PT.cell(row=r, column=1, value=lab).font = BOLD if r in (12, 16, 17, 18, 20) else BLACK
+    c = PT.cell(row=r, column=2, value=f); c.number_format = fmt; c.font = BOLD if r in (12, 16, 17, 18, 20) else BLACK
     PT.cell(row=r, column=3, value=how).font = BLACK
 PT.column_dimensions["A"].width = 50
 PT.column_dimensions["B"].width = 16
@@ -749,8 +751,8 @@ V["A38"] = "Post-money"; V["B38"] = "=IF(B37=0,0,B4/B37)"; V["B38"].number_forma
 V["C38"] = "Investment ÷ ownership. Course slides call this 'pre-money'; strictly it is post-money"
 V["A39"] = "Implied pre-money"; V["B39"] = "=B38-B4"; V["B39"].number_format = NUM_CR
 V["A40"] = "Pre-money we pitch (₹ Cr)"; V["A40"].font = BOLD
-V["B40"] = "=ROUND(B49-B4,0)"; V["B40"].number_format = NUM_CR; V["B40"].font = BOLD; V["B40"].fill = YELLOW
-V["C40"] = "Average post-money of the three methods − investment, rounded. Negotiation anchor (Step 9)"
+V["B40"] = "=MIN(ROUND(B49-B4,0),ROUNDDOWN(B38-B4,0))"; V["B40"].number_format = NUM_CR; V["B40"].font = BOLD; V["B40"].fill = YELLOW
+V["C40"] = "Average of the three methods, but never above the VC-method price (so the investor's base case clears the 35% hurdle)"
 V["A41"] = "Post-money (₹ Cr)"; V["B41"] = "=B40+B4"; V["B41"].number_format = NUM_CR
 V["A42"] = "Seed investor stake"; V["A42"].font = BOLD
 V["B42"] = "=IF(B41=0,0,B4/B41)"; V["B42"].number_format = PCT; V["B42"].font = BOLD
@@ -873,11 +875,11 @@ RM = wb.create_sheet("README", 0)
 RM["A1"] = "Keepwell — financial model (seed pitch)"
 RM["A1"].font = TITLE
 lines = [
-    "Status: STRUCTURE BUILT, NUMBERS ARE DRAFT PLACEHOLDERS. Each input gets locked in its pitch step (see Pitch Bible).",
-    "Ask, valuation and seed price: Step 8–9 recommendations (24-month runway, ₹4.5 Cr at ₹18 Cr pre-money), pending team lock.",
+    "Status: LOCKED 16 Nov 2026. Every input is locked in its pitch step (see Pitch Bible). Illustrative case for the IIIT Hyderabad ESFS course pitch.",
+    "Ask, valuation and seed price (Steps 8–9): ₹4.75 Cr for 24 months (minimum close ₹4.0 Cr) at ₹19 Cr pre-money, one lead seed VC.",
     "",
     "How to use",
-    "1. Change only blue cells on the Assumptions tab. Yellow-filled cells are still to be decided.",
+    "1. Change only blue cells on the Assumptions tab. Yellow-filled cells are the key assumptions.",
     "2. Every other tab is formulas. Black = calculation, green = link to another tab.",
     "3. Money is in ₹ lakh (L) unless a unit says ₹ or ₹ Cr. 1 Cr = 100 L.",
     "4. Tags: Real = case comp / research; Story = assumed backstory or pilot; Model = modelling choice; DRAFT = placeholder.",

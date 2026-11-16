@@ -1,137 +1,144 @@
 # Step 6 — Traction and validation plan
-**Phase B: Why it's big and why we win · Status: LOCKED 16 Nov 2026**
-**Tags:** **[Real]** = case-competition research · **[repo]** = team repo `ESFS/keepwell/` · **[Story]** = assumed for the pitch, kept consistent with the repo and Steps 1–5 · **[Model]** = calculated in `keepwell_model.xlsx` (Pilot tab, Assumptions §13).
-**Plan:** [`../pitch_bible.md`](../pitch_bible.md) · **Builds on:** Steps 1–5 (locked) · **Feeds:** Step 7 (pricing and unit-economics inputs), Step 8 (experiments and milestones the seed pays for), Step 11 (score)
+**Phase B: Why it's big and why we win · Status: LOCKED 16 Nov 2026 (rewritten for the backdated timeline)**
+> **Illustrative case.** Founder histories, the company timeline, the pilot results and the financials are assumptions made for the IIIT Hyderabad ESFS course pitch. They are kept consistent with the team repo and with each other.
+
+**Tags:** **[Real]** = real research · **[repo]** = team repo `ESFS/keepwell/` · **[Story]** = assumed pilot fact · **[Model]** = `keepwell_model.xlsx` (Pilot tab, Assumptions §13). **Measured** = from system logs · **Self-reported** = from owners.
+**Plan:** [`../pitch_bible.md`](../pitch_bible.md) · **Builds on:** Steps 1–5, Step 2 timeline · **Feeds:** Step 7 (inputs), Step 8 (milestones), Step 11 (score)
 
 ## 6.1 How this step is built
 **What Stage 2 investors look for.**
-- **Course M1:** in "Finding a Business Model" the startup should *"pilot the MVP with target customers; refine pricing, unit economics, revenue model; collect customer feedback and validate segments; build early sales frameworks"*.
-- **Course M3, Market–Quality:** paid demand, repeat behaviour, willingness to pay.
-- **Our Class Activity 4 lesson:** *"a full score is earned by verifiable achievements, not by describing intentions"*, and evidence must be split into case facts, modelled numbers and hypotheses.
+- **Course M1:** "pilot MVP with target customers; refine pricing, unit economics, revenue model; collect customer feedback and validate segments; build early sales frameworks".
+- **M3, Market–Quality:** paid demand, repeat behaviour, willingness to pay.
+- **Our Class Activity 4 lesson:** *"a full score is earned by verifiable achievements, not by describing intentions."*
 
-**What the repo prescribes.** This pilot is the repo's own validate-first list, run as written:
-- **15–20 agency interviews.** We did 18.
-- **A paid pilot with 3–5 agencies at ₹40 and ₹100 per fix.** We run 5 agencies.
-- **Primary metric:** *"share of jobs closed with one visit, compared against each pilot agency's own prior record."*
-- **Kill condition:** *"Agencies see no cost from repeat visits or prefer them."*
+**What the repo prescribes.** This follows the repo's validate-first plan, run in order:
+- 15–20 agency interviews (we did 18)
+- a paid pilot with 3–5 agencies at ₹40 vs ₹100 per fix (we ran 5)
+- the primary metric: *"share of jobs closed with one visit, against each agency's own prior record"*
+- the kill condition: *"agencies see no cost from repeat visits or prefer them"*
 
-**Rule for this step.** The traction is **early, small and honest**: 4 weeks, 5 agencies. It includes one result that didn't go our way. Stage 2 investors trust a pilot that shows its weak spot more than a perfect one. Every number below is **[Story]** unless tagged otherwise. All of them stay inside the repo's ranges and the locked Steps 2–5.
+**Rule for this step.**
+- Lead with **measured** numbers, and label self-reported ones.
+- Show the result that went against us.
+- Keep every number inside the repo's ranges and the Step 2 timeline.
 
-## 6.2 What we learned before building the pilot: 18 agency-owner interviews (Oct 2026)
-**Where:** Ramagundam–Peddapalli and Karimnagar. **How we reached them:** introduced by our trade network and the operator angels (Step 3).
+## 6.2 Discovery before building (Jan–Apr 2025)
+**Households [Real data; dated to 2025 in the story]**
+
+The research:
+- a household survey: 19 responses, 12 qualified
+- 7 consented household interviews
+
+What it found:
+- In **7 of 12** repairs, the person deciding, approving, paying and opening the door were not the same.
+- **7 of 12** households keep no service record.
+- **47%** of 110 coded public complaints are no-shows and chasing.
+- **The insight:** *nothing in a repair can be checked, so people trust the person* (Step 1).
+
+**18 agency owners, Ramagundam–Peddapalli and Karimnagar [Story]:**
 
 | Finding | Result | Why it matters |
 |---|---|---|
-| How agencies take bookings | 16 of 18 use phone + WhatsApp only; **0 of 18 use any field-service software**; 11 of 18 keep a paper notebook | Confirms the repo persona: "WhatsApp and phone only; no dashboard on day one" |
-| Requests lost today | Owners estimate **about 1 in 8 requests is lost**: calls missed while on a job, voice notes never followed up | Confirms the repo's top problem (P2 intake chaos, 24/30) |
-| Size | Median **4 technicians** (range 2–9); median **125 jobs a month** (range 60–260) | **Validates the Step 4 assumptions**: 4 technicians per agency; ~147 jobs a month modelled |
-| Repeat visits | **13 of 18 say a repeat visit for the same complaint is mostly unpaid**, so it is a cost. 5 of 18 charge for it | **Answers the repo's kill condition for most agencies.** The 5 who charge are not our first customers |
-| Parts | 15 of 18 buy from 1–2 local wholesalers; **12 of 18 had a job delayed by a wrong or missing part in the last month** | Supports the "part to carry" step and the later R4 parts line |
-| How they'd pay | **14 of 18 prefer paying per completed job**; 3 prefer a flat monthly fee; 1 won't pay for software | Matches the repo: "pay per job, not per seat" |
-| What they'd pay | Median acceptable fee **₹30–50 per job**; only 4 of 18 accepted ₹100 | An early signal for Step 7. The pilot then tests it with real money |
-| Data worries | 2 of 18 worried about sharing customer data | The consent-first design and DPA (Step 10) are needed |
+| How agencies take bookings | 16 of 18 phone + WhatsApp only; **0 of 18 use field-service software**; 11 of 18 keep a notebook | Confirms the repo persona |
+| Requests lost today | Owners estimate **~1 in 8** (missed calls, unanswered voice notes) | Confirms the repo's top problem (P2, 24/30) |
+| Size | Median **4 technicians**, **125 jobs a month** (range 60–260) | Validates Step 4; becomes the model's jobs input |
+| Repeat visits | **13 of 18: mostly unpaid**, so a cost; 5 of 18 charge for them | Answers the repo's kill condition for most agencies |
+| Parts | 12 of 18 had a job delayed by a wrong or missing part last month | Supports "part to carry" and later R4 |
+| How they'd pay | **14 of 18 per completed job**; median acceptable ₹30–50; 4 of 18 accept ₹100 | Matches the repo: "pay per job, not per seat" |
+| Data worries | 2 of 18 | Consent-first design (Step 10) |
 
-## 6.3 Pilot design
-| Item | Design | Source |
+## 6.3 What we ran, and when
+| Phase | When | What |
 |---|---|---|
-| Agencies | **5**: 3 in Ramagundam–Peddapalli, 2 in Karimnagar. Sizes: 2 small (2–3 technicians), 2 mid (4–6), 1 larger (8). **22 technicians** in total | Step 2 |
-| Dates | Baseline logs from 6 to 19 Oct (agency's own record). Live from **20 Oct 2026**. **4 weeks of data** at the raise | Step 2 timeline |
-| Price arms | **Arm A, ₹40 per verified fix: 3 agencies. Arm B, ₹100: 2 agencies**, matched by size | Repo pilot design |
-| Paid from day 1 | **Yes.** This is a paid pilot (repo). The 30 free days (Step 7) apply only to the post-seed rollout | Repo + Step 7 |
-| What's live | R1 core loop (A1, A2, A3, A6, A4, A9) on WhatsApp, on Gemini (Mumbai), **plus root-cause ranking (A5) in beta as a technician-only hint and owner-approved quote drafts (A7)**. Interim safety: the hazard list was reviewed with a certified technician before go-live, with full expert sign-off funded by the seed | Step 5 |
-| Measured against | Each agency's own two-week baseline, not a global benchmark | Repo primary metric |
+| Design partners | Jun–Sep 2025 | 2 agencies use the prototype free and shape it |
+| **Paid price-test pilot** | **Feb–Apr 2026** | **5 agencies** (3 Ramagundam–Peddapalli, 2 Karimnagar; 22 technicians), **arm A ₹40 per verified fix (3 agencies) vs arm B ₹100 (2)**, paid from day 1 (repo design). Measured against each agency's own 2-week baseline |
+| **Founder-led expansion** | **May–Oct 2026** | All on ₹40. **5 → 14 paying agencies** (+Warangal). 15 onboarded in total, 1 churned. The COO closed 8 of the 10 new agencies part-time; 2 came by agency referral |
+| What's live | since Jan 2026 | R1 core loop on WhatsApp and Gemini (Mumbai). **Root-cause ranking (A5) live from Mar 2026 as a technician-only hint**; verified outcomes reviewed weekly before entering Mistri Gyan. Quote drafts (A7) that owners approve. Hazard list reviewed with a certified technician before go-live |
 
-**Limit, said plainly.** Five agencies and 4 weeks give a **signal, not proof**. Splitting 3 vs 2 agencies by price can't separate price from agency differences. That is why the seed's first experiment (E1, 6.6) scales this to 30+ agencies.
-
-## 6.4 Pilot results after 4 weeks [Story]
-| Metric | Result | Gate / reference | Read |
+## 6.4 Results as of Nov 2026 [Story]
+| Metric | Result | Type | Read |
 |---|---|---|---|
-| **Jobs handled by Circuit** | **~410** (share of each agency's jobs routed through Circuit: 45% in week 1 → **85% in week 4**) | — | Owners moved their work onto it without being pushed |
-| **Requests captured as jobs** | **96%** of inbound WhatsApp requests became a job record; median **6 minutes** from voice note to job card | Repo P2 | The lost-requests problem (1 in 8) is largely closed |
-| **One-visit closure** (primary metric) | **71% → 84%**, +13 points vs the agencies' own baseline (weeks 3–4) | Global benchmark 77% **[Real]** | Early: ~400 jobs. Must hold at scale (E2) |
-| **Root-cause top-3 hit rate** (A5 beta) | **62% in week 1 (n≈40 verified jobs, ±15 pts) → 74% in week 4 (n≈125, ±8 pts)** | Gate 75% **[repo]** | **Just below the gate, and rising.** Honest split: about half the gain came from adding manuals for the most common AC and fridge models, about half from reviewed verified outcomes. E2/E4 test it at scale |
-| **Verified fixes** | **82%** of routed jobs verified by the technician | Model: 80% billable | Verification is the moat event, and technicians do it |
-| **Telugu speech** | Word error rate **21%** raw on agency voice notes, **15%** after vernacular-lexicon corrections; abstain rate **18%** | Abstain band 10–25% **[repo]**; IndicWhisper Telugu ~28.8% **[repo]** | Good enough with read-back and abstain; the lexicon is improving it |
-| **Owner override rate** | **12%** of drafts edited | Band 5–20% **[repo]** | Owners review, not rubber-stamp |
-| **Safety** | 9 hard-stops triggered in the field (gas, refrigerant); **0 false-accepts** on the 200-case red-team set | Zero tolerance **[repo]** | The hard-stop layer works |
-| **AI cost per job** | **~₹3.1** measured | Repo modelled ₹1.5–5.5 (2026 prices) | Inside the modelled range; Step 7 budgets at 2027 prices |
-| **Machine records created** | **~180**, household consent rate **74%** | Model: 70% consent | Home Memory is filling itself from repairs |
-| **Paid invoices** | **5 of 5 first fortnightly invoices paid on time by UPI; ~₹20,000 billed in 4 weeks** | — | Agencies pay real money, small but real |
-| **Agencies still active at week 4** | **5 of 5** | — | — |
-| **Owner sentiment** | 4 of 5 owners would be "very disappointed" if Circuit went away | Sean Ellis PMF test: ≥ 40% | n = 5, a signal only |
+| **Paying agencies** | **14** (15 onboarded, 1 churned) | Measured | **~1.4% monthly churn** over ~70 agency-months: an early signal. The model keeps a conservative 3% |
+| **Jobs handled by Circuit** | **~8,200** since Feb 2026 | Measured | Agencies live 3+ months route **~90%** of their jobs through Circuit |
+| **Requests captured as jobs** | **96%** of inbound WhatsApp requests; median **6 minutes** from voice note to job card | Measured | The "1 in 8 lost" problem is largely closed |
+| **One-visit closure** (primary metric) | **71% → 83%**, held over 6 months (~7,000 jobs) | Measured | +12 points vs the agencies' own baseline; global benchmark 77% **[Real]** |
+| **Root-cause top-3 accuracy** (A5) | **62% (Mar) → 78% (Oct)**; **passed the 75% gate in August** | Measured | Mar–May gains came about half from added manuals; **since June, mostly from verified outcomes**. This is the learning loop in production |
+| **Verified fixes** | **82%** of routed jobs | Measured | The moat event and the billing event |
+| **Telugu speech** | Word error rate **21% → 14%** with the vernacular lexicon; abstain rate **16%** | Measured | Inside the repo's 10–25% band |
+| **Owner override rate** | **11%** of drafts edited | Measured | Owners review, not rubber-stamp |
+| **Safety** | **47 hard-stops** triggered in the field; **0 safety incidents in 9 months**; 0 false-accepts on the 200-case red-team set | Measured | Zero tolerance held |
+| **AI cost per job** | **~₹3.0** (2026 prices) | Measured | Budgeted at ₹4.5 for 2027 prices (Step 7) |
+| **Machine records** | **~3,600**; household consent **74%** | Measured | Home Memory fills itself from repairs |
+| **Revenue** | **~₹59,000 a month** (~₹7L annualised); **~₹2.8L billed** since Feb 2026 | Measured | Small but real. **97%** of fortnightly invoices paid on time by UPI |
+| **Desk Pro** | **4 of 14** agencies (~29%) | Measured | Becomes the model's input |
+| **Owner sentiment** | **11 of 14** would be "very disappointed" without Circuit (79%) | Self-reported | Sean Ellis PMF test: ≥ 40% |
 
-**The result that didn't go our way: the ₹100 arm.**
-- In arm B (₹100), **one of the two agencies cut its routed jobs to about half** in week 3. The owner said the fee "takes too much of a small job".
-- Arm A (₹40) kept rising in all three agencies.
-- **We show this openly.** It's what the pilot was for, and it feeds the Step 7 pricing decision.
+**The result that went against us (and changed our price).** In the ₹100 arm, **one of two agencies halved its usage** in week 3: *"it takes too much of a small job."* Arm A at ₹40 kept growing. **Since May 2026 everyone pays ₹40.**
 
-## 6.5 Does the agency get more than it pays? (Pilot tab in the model)
-Per median pilot agency per month **[Model on Story inputs]**:
+**Why only 14 agencies in 9 months, and why that's deliberate:**
+- We chose to **prove price, accuracy and retention before paying for a field team**. That's Stage 2 discipline (M1: "build early sales frameworks").
+- Paying agencies grew **5 → 14 in 6 months (~19% a month) with no salespeople**: one founder selling part-time, plus referrals.
+- The seed pays for the sales team.
 
-| Value lever | Calculation | ₹ a month |
-|---|---|---|
-| 1. Recovered jobs | 125 jobs × 8% recovered = 10 jobs × ₹240 agency margin | **₹2,400** |
-| 2. Repeat trips avoided | 106 routed jobs × 13-point gain = ~14 trips × ₹159 per wasted trip (Step 4) | **₹2,200** |
-| 3. Owner time saved | 0.75 hours/day × 26 days × ₹150/hour | **₹2,925** |
-| **Total value to the agency** | | **~₹7,500** |
-| Our fee at ₹40 per verified fix (~87 verified fixes) | | ₹3,485 → **value ≈ 2.2x the fee** |
-| Our fee at ₹100 per verified fix | | ₹8,713 → **value ≈ 0.86x the fee (the agency loses money)** |
-| Fee at which value is exactly 2x the fee | | **~₹43 per verified fix** |
+## 6.5 Does the agency get more than it pays? (Pilot tab)
+Per mature agency per month: 125 jobs, 90% routed through Circuit.
 
-**What this says (input to Step 7; pricing is not decided here):**
-- **Per-fix pricing works near ₹40, not at ₹100**, for a median agency. **At full routing** (all 145 jobs of a modelled agency through Circuit), value is ~₹8,700 against a ₹4,856 fee: **~1.8x, a net gain of ~₹3,850 a month**. The pilot's 2.2x is at 85% routing.
-- The biggest value levers are **recovered jobs and owner time**, not only fewer trips. So the sales pitch to agencies leads with *"never lose a request again"*, which is also the repo's top problem (P2).
-- This answers the repo's risk #1 ("fewer revisits cut their own fee"): even with no saved trips, recovered jobs plus owner time (~₹5,300) exceed the ₹40-arm fee.
+| Value lever | Basis | ₹ a month | Type |
+|---|---|---|---|
+| 1. Recovered jobs | 125 × 8% recovered = 10 jobs × ₹240 agency margin | **₹2,400** | **Measured** (requests that previously had no job record) |
+| 2. Repeat trips avoided | 112 routed jobs × 12-point gain = ~13.5 trips × ₹159 (Step 4) | **₹2,150** | **Measured** (one-visit closure vs baseline) |
+| **Measured value** | | **₹4,550** | |
+| 3. Owner time saved | 0.75 hours/day × 26 × ₹150 | ₹2,925 | **Self-reported** |
+| **Total value** | | **~₹7,475** | |
+| **Our fee** (~92 verified fixes × ₹40) | | **₹3,690** | |
 
-## 6.6 What the seed pays to prove: the validation plan (next 18 months)
-| # | Experiment | Hypothesis | Measure | Success | Kill / pivot condition | Repo link |
-|---|---|---|---|---|---|---|
-| E1 | **Price and willingness to pay at scale** | Agencies pay per verified fix when value ≥ 2x the fee | 30+ agencies, 3 towns, randomised price arms (the pricing options set in Step 7) | ≥ 70% still paying after month 2; value/fee ≥ 2x | < 40% convert → move to the hybrid or desk-fee option | Risk #1 |
-| E2 | **First-visit improvement holds at scale** | One-visit closure rises ≥ 10 points vs each agency's own baseline | ≥ 3,000 jobs | +10 points sustained over 3 months | < +3 points → reposition around intake and owner time | Primary metric |
-| E3 | **Repeat-visit economics** | Most agencies see repeat visits as a cost | Share of agencies charging repeat visits | ≥ 70% see a cost | Most prefer revisits → lead only with recovered jobs | Kill condition |
-| E4 | **Language and safety** | Accuracy holds across Telugu, Hindi and Tamil | Word error rate per language; red-team safety | ≤ 10-point gap between languages; 0 safety false-accepts | Any safety false-accept → pause rollout | Risk #2, #4; guardrails |
-| E5 | **Acquisition channel** | Our network and parts wholesalers bring agencies cheaply | CAC by channel (network, wholesalers, technician referral) | CAC payback ≤ 6 months (Step 7) | A channel above the CAC cap → stop it | — |
-| E6 | **Household consent and Home Memory** | Households consent and engage with their record | Consent rate; reminder open rate | Consent ≥ 65%; reminders opened ≥ 40% | Consent < 50% → redesign consent before R2 | R2 precondition |
-| E7 | **R2/R3 buyer discovery** | Warranty administrators want our claim evidence and plan channel | 2 administrator/OEM interviews (repo) → 1 letter of intent | 1 LOI signed | No interest → R2 plans first, delay R3 | "Two interviews before building C" |
-| E8 | **Cost per job at 2027 prices** | Unit cost stays far below the fee | AI + messaging cost per job after the 1 Jan 2027 price change | ≤ ₹10 per job | > ₹10 → route more to Flash-Lite | Risk #8 |
+**The reading:**
+- **Measured value alone is 1.23x the fee.** The agency gains even if we ignore everything owners tell us.
+- **With owner time, it's ~2.0x**, a net gain of **~₹3,800 a month** after paying us.
+- At ₹100, value was 0.81x the fee, which is why that arm failed.
+- **Price headroom for later:** value per agency (~₹7,500) is about **1.8x what an agency pays us in total** (~₹4,200 including Desk Pro).
+
+This answers the repo's risk #1 ("fewer revisits cut the agency's fee"). Recovered jobs alone (₹2,400, measured) are about two-thirds of the fee.
+
+## 6.6 What the seed pays to prove: the validation plan (next 24 months)
+| # | Experiment | Hypothesis | Measure | Success | Kill / pivot |
+|---|---|---|---|---|---|
+| E1 | **Price and willingness to pay at scale** | Agencies keep paying ₹40 as we leave the founders' network | Conversion and retention across 3 new towns | ≥ 70% still paying after month 2 | < 40% → hybrid or desk-fee option |
+| E2 | **One-visit gain holds at scale** | +10 points vs each agency's own baseline | 25,000+ jobs | Sustained 3 months | < +3 → lead with intake |
+| E3 | **Repeat-visit economics** | Most agencies see repeat visits as a cost | Share charging repeat visits | ≥ 70% see a cost | Lead with recovered jobs |
+| E4 | **Language and safety** | Accuracy holds in Hindi and Tamil | Word error rate per language; red-team | ≤ 10-point language gap; 0 false-accepts | Pause rollout |
+| E5 | **Field-sales productivity** | A dedicated rep adds ~6–7 paying agencies a month | Agencies per rep per month; CAC | ≥ 6/month; payback ≤ 7 months | Reprice the plan or switch channel |
+| E6 | **Household consent and Home Memory** | Households consent and engage | Consent; reminder opens | ≥ 65%; ≥ 40% | Redesign before R2 |
+| E7 | **R2/R3 buyer** | Administrators want our claim evidence and plan channel | 2 interviews → 1 LOI | 1 LOI | Plans first, delay R3 |
+| E8 | **Cost per job at 2027 prices** | Unit cost stays far below the fee | AI + messaging per job after 1 Jan 2027 | ≤ ₹10 | More Flash-Lite routing |
 
 ## 6.7 Series A gates (what "done with Stage 2" means)
-| Gate | Target | Source |
+| Gate | Target | Where we are now |
 |---|---|---|
-| Paying agencies | **~120** | One-pager |
-| Household machine records | **~40,000** | One-pager. In the plan, records accumulate from all agencies: 28,000 by month 12, **40,000 by month ~13** **[Model]** |
-| One-visit closure | **≥ +10 points** vs own baseline, sustained 3 months | Repo primary metric |
-| Agency retention | **≥ 97% monthly** after month 3 | Matches the model's 3%/month churn |
-| Value to the agency | **≥ 1.5x the fee and a net gain ≥ ₹3,000 a month** | 6.5 (at full routing: ~1.8x, ~₹3,850) |
-| CAC payback | **≤ 6 months** | Step 7 |
-| R2/R3 buyer signal | **1 administrator LOI** | E7 |
-| North Star | Verified first-time-right jobs per active agency per month, trending up | Repo §3 |
+| Paying agencies | **~120** (one-pager) by month ~15 | 14 |
+| Machine records | **~40,000** by month ~13 | ~3,600 |
+| One-visit closure | ≥ +10 points, held 3 months, at scale | +12 at 14 agencies |
+| Agency retention | **≥ 97% monthly** | ~98.6% (early) |
+| Value to the agency | **≥ 1.5x the fee and a net gain ≥ ₹3,000 a month** | ~2.0x, ~₹3,800 (measured alone 1.23x) |
+| CAC payback (fully loaded) | **≤ 7 months** (SMB SaaS norm ≤ 12) | Modelled 6.3 (Step 7) |
+| R2/R3 buyer signal | 1 administrator LOI | Discovery under way |
+| North Star | Verified first-time-right jobs per active agency per month, rising | Rising |
 
-These gates become **the milestones the seed buys** in Step 8.
+These are **the milestones the seed buys** (Step 8).
 
 ## 6.8 What we track
-- **Leading, daily** (repo): abstain rate, validator fail rate, speech disagreement rate, quote edit rate, time to close-out, cost per job, WhatsApp delivery.
+- **Leading, daily** (repo): abstain rate, validator fail rate, speech disagreement, quote edit rate, time to close-out, cost per job, WhatsApp delivery.
 - **Lagging, monthly** (repo): revisit rate, North Star, agency retention and jobs per agency, dispute rate, gross margin per job, agency NPS.
 
 ## 6.9 Weak points, said before an investor says them
-1. **Small and short:** 5 agencies, 4 weeks, ~410 jobs. *Answer:* it's a design-partner pilot. E1/E2 scale it to 30+ agencies and 3,000+ jobs.
-2. **Price arms confounded with agency:** 3 vs 2 agencies. *Answer:* E1 randomises at scale.
-3. **Root-cause hit rate is below the 75% gate (74%).** *Answer:* it's rising weekly from verified outcomes. That *is* the moat, visible.
-4. **The ₹100 arm underperformed.** *Answer:* that's the pilot doing its job. Pricing is set from it in Step 7.
-5. **Owner-time value is self-reported.** *Answer:* E1 measures time to close-out directly from system logs.
+1. **"Only 14 agencies."** Deliberate. We proved price, accuracy and retention first, growing ~19% a month with no salespeople. The seed buys the sales team.
+2. **"Founder-led sales won't scale."** The COO closed 8 agencies at ~25% of his time. A dedicated rep at ~6–7 a month is the same pace full-time. E5 measures it.
+3. **"Churn of 1 in 15 is too small to trust."** Agreed, so the model uses 3%.
+4. **"Owner time is self-reported."** Measured value alone (1.23x) still beats the fee. E1 adds time-to-close-out from logs.
+5. **"The ₹100 arm failed."** That's the pilot doing its job. It set our price.
 
-## 6.10 How it shows up in the pitch (final choices in Step 12)
-Available material:
-- a traction strip (410 jobs · 96% requests captured · 71% → 84% one-visit · 5 of 5 active · 5 of 5 first invoices paid)
-- the learning-curve chart (root-cause hit rate 62% → 74% by week)
-- the value-vs-fee bar (₹7,500 value vs ₹3,485 fee)
-- the 18-interview findings
-- the validation-plan table
-- the Series A gates
-
-Cells covered: Market–Quality (paid demand, willingness to pay), Product–Quality (one-visit closure, safety, accuracy), Startup–Potential (the learning loop proven early).
-
----
-
-## Decisions log (LOCKED 16 Nov 2026)
-- **Accepted:** the 18-interview findings, the pilot design and 4-week results (including the ₹100-arm result), the value-to-agency model (~₹7,500/month; 2.2x at ₹40, 0.86x at ₹100), experiments E1–E8, and the Series A gates.
+## 6.10 How it shows up in the pitch
+- **Traction strip:** 14 paying agencies · ~8,200 jobs · 71% → 83% one-visit · 96% of requests captured · ~₹59k MRR · 1 churn in 15.
+- **The learning curve:** 62% → 78%, passing the 75% gate.
+- **Value vs fee:** measured ₹4,550 + self-reported ₹2,925 vs fee ₹3,690.
+- **Appendix:** the 18 interviews, the price test, E1–E8 and the gates.

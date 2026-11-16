@@ -1,6 +1,7 @@
 # Step 4 — Market and problem scale
 **Phase B: Why it's big and why we win · Status: LOCKED 16 Nov 2026**
-**Tags:** **[Real]** = case-competition research · **[repo]** = team repo `ESFS/keepwell/` · **[web]** = checked online on 16 Nov 2026 · **[Model]** = calculated in `keepwell_model.xlsx` (Market tab) · **[DRAFT]** = assumption to validate.
+> **Illustrative case.** Founder histories, the company timeline, the pilot results and the financials are assumptions made for the IIIT Hyderabad ESFS course pitch. They are kept consistent with the team repo and with each other.
+**Tags:** **[Real]** = real research · **[repo]** = team repo `ESFS/keepwell/` · **[web]** = checked online on 16 Nov 2026 · **[Model]** = calculated in `keepwell_model.xlsx` (Market tab) · **[DRAFT]** = assumption to validate.
 **Plan:** [`../pitch_bible.md`](../pitch_bible.md) · **Builds on:** Steps 1–3 (locked) · **Model:** Market tab, Assumptions §2 · **Feeds:** Step 7 (volumes), Step 8 (milestones), Step 9 (valuation narrative)
 
 ## 4.1 How this step is built
@@ -42,7 +43,7 @@ Our own Class Activity 4 set the rules we follow here:
 - the jobs count (repo)
 - the ₹ market (ICICI/BlueWeave/Servify)
 
-That makes the agency count defensible in Q&A even though no official count exists. The model now uses **145 jobs per agency per month** (it was 75).
+That makes the agency count defensible in Q&A even though no official count exists. The model uses the **observed median of our paying agencies, 125 jobs a month** (Step 6). The market average (~147) is upside, not modelled.
 
 ## 4.4 Revenue pools: what Keepwell can earn (not GMV)
 The fee pool is shown at the repo's two R1 **test points, ₹40 and ₹100 per verified fix**. This sizes the market and is **not a pricing decision** (pricing is deferred to Step 7).
@@ -73,7 +74,7 @@ The fee pool is shown at the repo's two R1 **test points, ₹40 and ₹100 per v
 
 At 20% of 22,500, the ceiling is **4,500 agencies**. The plan must sit below it.
 
-> **Superseded by Step 7.** The capacity-derived plan is **72 / 259 / 940 / 2,191 / 3,789** paying agencies (Y5 = 16.8% of SAM, under the 20% ceiling). The table below is kept only to show why the ceiling rule was needed.
+> **Superseded by Step 7.** The capacity-derived plan is **79 / 264 / 945 / 2,196 / 3,793** paying agencies (Y5 = 16.9% of SAM, under the 20% ceiling). The table below is kept only to show why the ceiling rule was needed.
 
 **The placeholder ramp, year by year.** These are *round placeholders I set*. They follow the repo's phasing (TS/AP → four southern states → national Tier 2/3) and stay under the ceiling. They are **not yet derived**; Steps 6–8 derive the real ramp.
 

@@ -1,6 +1,7 @@
 # Step 1 — Vision and narrative spine
 **Phase A: Who we are · Status: LOCKED 16 Nov 2026**
-**Tags:** **[Real]** = case-competition build, research or survey · **[repo]** = team repo `ESFS/keepwell/` · **[Story]** = assumed backstory or pilot fact · **[Model]** = modelled number.
+> **Illustrative case.** Founder histories, the company timeline, the pilot results and the financials are assumptions made for the IIIT Hyderabad ESFS course pitch. They are kept consistent with the team repo and with each other.
+**Tags:** **[Real]** = real research or build · **[repo]** = team repo `ESFS/keepwell/` · **[Story]** = assumed backstory or pilot fact · **[Model]** = modelled number.
 **Plan:** [`../pitch_bible.md`](../pitch_bible.md) · **Model:** [`../keepwell_model.xlsx`](../keepwell_model.xlsx)
 
 
