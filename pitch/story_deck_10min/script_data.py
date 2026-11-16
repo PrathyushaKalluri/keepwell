@@ -24,14 +24,14 @@ dict(id="hook", act="hook", sp="P", t=40, title="Every repair in your home start
  show="""An illustrated home with eight machines. The presenter taps each machine as the audience calls it out; a red counter adds up "repairs in your home this year". [click] Question tags drop onto every machine: "Last service? Which part? What did you pay?" [click] The line: "Every repair in your home starts from zero." """,
  say="""Before we begin, think about your own home. This year, what broke? The AC? The fridge? The purifier, the geyser? [tap the machines as people answer]
 Now pick one. When was it last serviced? Which part was changed? What did you pay? [click]
-Most of us don't know. It's in a phone, a diary, or nowhere. [click]
+Most of us don't know. It's in a phone, a diary, or nowhere.
 Every repair in your home starts from zero.""",
  why="The room answers before we say a word about ourselves, so the problem is theirs from the first 30 seconds."),
 
 dict(id="ramagundam", act="hook", sp="P", t=55, title="We took it lightly too — until Ramagundam",
  show="""Left: Sri Charan's quote card, "Our machines cost my family ₹10,000 a month. Never evenly." Right, one beat per click: 46 °C and a fever → 14 missed calls → the son 700 km away → 2 nights in the heat → "Nobody is the villain. The system has no memory." The ₹350 / ₹38,000 detail is a small footnote in the last card.""",
  say="""We took this lightly too. Sri Charan's family spends about ten thousand rupees a month on its machines, and we called that normal. Then, Ramagundam. [click]
-Forty-six degrees. A seventy-four-year-old retired miner, home alone, with a fever. His AC stops. [click] Ramesh, the one technician he trusts, is up a ladder across town. Fourteen missed calls. [click] His son, seven hundred kilometres away, calls everyone. Nobody knows what's wrong, or who's coming. [click] The old man spends two nights in that heat. [click]
+Forty-six degrees. A seventy-four-year-old retired miner, home alone, with a fever. His AC stops. Ramesh, the one technician he trusts, is up a ladder across town. Fourteen missed calls. His son, seven hundred kilometres away, calls everyone. Nobody knows what's wrong, or who's coming. The old man spends two nights in that heat.
 The fault was a three-hundred-and-fifty-rupee part. Nobody was the villain. The system has no memory, and when it has no memory, it's people who suffer first.""",
  why="The hook is the human cost, not the money. One concrete story everyone can picture."),
 
@@ -47,11 +47,11 @@ We listened for four months: a survey, seven households, eighteen agency owners.
  why="Real evidence plus the insight, merged into one slide. The video playing does the work while the voice explains what it means."),
 
 dict(id="problem", act="problem", sp="S", t=50, title="The problem, mapped and sized",
- show="""A row of five counters: 15 Cr repairs a year · 27 Cr machines with no record · ₹550 Cr wasted on repeat trips · 37,500 agencies on a notebook · 1 in 8 requests lost (55% got a defective machine, 21% made whole). Below: the top six problems as scored bars (intake chaos 24, unprepared visit 23, no history 22, claims 22, warranty refusal 20, no fair price 20) beside the five scenarios A–E, with A "Prepared Visit → Circuit · live" highlighted. [click] Band: "We enter where impact is highest and barriers lowest: the prepared visit." """,
- say="""Then we mapped the whole problem. Fourteen distinct problems across a machine's life: lost calls, blind first visits, no history, warranties nobody can prove. We scored each one, and they group into five scenarios.
-And the scale is real. Fifteen crore repairs a year. Twenty-seven crore machines with no record. Five hundred and fifty crore rupees lost to repeat trips. Thirty-seven thousand five hundred agencies running on a phone and a notebook. [click]
-We start where impact is highest and barriers lowest: the prepared visit.""",
- why="Problem map, both sides and scale in one picture. The numbers sit on screen while the voice gives the logic of where to start."),
+ show="""Five counters across the top: 15 Cr repairs a year / 27 Cr machines with no record / Rs 550 Cr wasted on repeat trips / 37,500 agencies on a notebook / 1 in 8 requests lost. Below: all 13 problems in plain words, in three columns (the repair shop, the family, brands-insurers-recyclers), each tagged with the letter of the scenario that solves it; A (the prepared visit) glows. [click] Band: We start with A, the prepared visit.""",
+ say="""Then we mapped the whole problem, and it isn't one problem: it's thirteen. For the repair shop, calls get lost and the first visit goes in blind. For the family, nobody keeps the machine's history or knows a fair price. For insurers, claims can't be verified.
+And the scale is real: fifteen crore repairs a year, twenty-seven crore machines with no record, five hundred and fifty crore rupees lost to repeat trips. [click]
+We start with A, the prepared visit, because it hurts most and is easiest to fix.""",
+ why="All 13 problems in plain words, tagged with the solution letter, under the scale numbers: the whole problem set in one picture, readable in seconds."),
 
 dict(id="keepwell", act="keepwell", sp="S", t=40, title="Keepwell, and the roadmap",
  show="""Dark slide. Left: the Keepwell mark, "The care layer for everything a home owns", one living record per machine, and the chips CIBIL → borrowers · Carfax → used cars · Keepwell → household machines. Right: the roadmap as six rows, each with a payer: R1 Circuit (live) · R2 Home Memory + Plans · R3 Claims triage · R4 Parts · R5 Resale & recycling · Phase 3 Data services.""",
@@ -112,10 +112,10 @@ Your money proves the Series A gates: a hundred and twenty paying agencies, fort
  why="The most important slide gets a full page: the amount, the instrument, the equity, the runway and what it proves."),
 
 dict(id="future", act="future", sp="P", t=40, title="Why now, and who buys",
- show="""Four why-now tiles: ₹4.5 a job AI cost · only 1 in 10 homes has an AC · repair regulation · DPDP in May 2027. Path to ₹100 Cr (~₹66 Cr by year 8). Four acquirer cards: warranty & protection platforms (Asurion bought Domestic & General, ~£2.1 bn) · Urban Company · Cashify / Attero · global field-service software.""",
- say="""Why now? Indian-language AI just became cheap enough for a small shop. The repair wave is still ahead of us. And data law arrives in 2027, so the consent-first record built now becomes the standard.
-The buyers already exist: warranty platforms, home services and recommerce. Asurion paid two billion pounds for a company like that. We'd expect a strategic sale in years six to eight.""",
- why="Urgency and the exit together: why invest now, and how the money comes back."),
+ show="""Left, Why now: Rs 4.5 (AI is finally cheap) / 1 in 10 (the repair wave is ahead) / 2027 (data law arrives) / R2R (repair is opening up). Right, Who buys Keepwell: Keepwell at the centre, four buyers around it with one precedent each, warranty platforms marked most likely (Asurion bought Domestic & General, about GBP 2.1 bn). Under both: about Rs 66 Cr revenue by year 8, and a strategic sale in years 6-8.""",
+ say="""Why now? Indian-language AI just got cheap: a job costs us four and a half rupees, and we charge forty. The repair wave is still ahead of us. And data law arrives in 2027, so the consent-first record built now becomes the standard.
+And the buyers exist. Warranty platforms are the most likely: Asurion paid two billion pounds for a company like this. We'd expect a strategic sale in years six to eight.""",
+ why="Urgency and the exit together: why invest now, and how the money comes back. Shown as one number per reason and a simple hub of buyers."),
 
 dict(id="close", act="future", sp="P", t=35, title="Back to Ramagundam",
  show="""Dark slide. One click, and five green beats cascade on their own (answered in minutes · Circuit knows it's the capacitor · the part arrives the same afternoon · one visit, verified · a 74-year-old man sleeps in a cool room), then the line "Keepwell becomes the record everyone checks before touching a machine." Names and "Raising ₹4.75 Cr · Thank you". """,

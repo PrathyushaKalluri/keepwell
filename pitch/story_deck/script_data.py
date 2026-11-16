@@ -26,14 +26,14 @@ SLIDES = [
 dict(id="hook", act="hook", sp="P", t=50, title="Every repair in your home starts from zero",
  show="""An illustrated home with eight machines (AC, fridge, washing machine, water purifier, geyser, TV, fan, mixer). The presenter clicks each machine as the audience calls it out, and a counter adds up "repairs in your home this year". [click] A question tag drops onto every machine: "Last serviced? Which part? What did you pay? Who fixed it?" [click] The line lands: "Every repair in your home starts from zero." """,
  say="""Before we begin, think about your own home. In the last year, what broke? The AC? The fridge? The water purifier, the geyser, the washing machine? [click the machines as people answer] Keep counting.
-Now a harder question. Pick any one of them. When was it last serviced? Which part was changed? What did you pay, and who fixed it? [click]
-Most of us don't know. It's in someone's phone, in a diary, or nowhere. [click]
+Now a harder question. Pick any one of them. When was it last serviced? Which part was changed? What did you pay, and who fixed it?
+Most of us don't know. It's in someone's phone, in a diary, or nowhere.
 So every repair in your home starts from zero.""",
  why="The audience answers before we say anything about us. Once they've counted their own repairs, the problem is theirs too. The interaction also wakes the room up in the first 30 seconds."),
 
 dict(id="ramagundam", act="hook", sp="P", t=70, title="We took it lightly too — until one afternoon in Ramagundam",
  show="""Left: Sri Charan's dark quote card, "Our machines cost my family ₹10,000 a month. Never evenly." — with the line "We treated it as normal. Everyone does."
-Right, the story builds click by click, one human beat at a time:
+Right, on one click the whole story builds itself in quick succession, one human beat after another:
 1. 46 °C in Ramagundam. A retired miner, 74, is home alone — and running a fever. At noon, his AC stops cooling.
 2. The one person he trusts, Ramesh of the local agency, is up a ladder across town. His phone rings 14 times. The old man's Telugu voice note is never heard.
 3. His son, 700 km away in Bengaluru, calls everyone he knows. Nobody can say what's wrong, who will come, or when.
@@ -41,7 +41,7 @@ Right, the story builds click by click, one human beat at a time:
 5. A small, quiet footnote card at the end: the fault was a ₹350 capacitor; by then the family had ordered a ₹38,000 new AC, three days away.
 The line lands: "Nobody is the villain. The system has no memory." """,
  say="""We took this problem lightly too. In Sri Charan's family the machines cost about ten thousand rupees a month, never evenly, and we treated that as normal. Everyone does.
-Then one afternoon changed that. [click] Ramagundam, forty-six degrees. A retired miner, seventy-four years old, home alone, running a fever. At noon, his AC stops cooling. [click] The one man he trusts, Ramesh of the local agency, is up a ladder across town. The phone rings fourteen times. The voice note, in Telugu, is never heard. [click] His son, seven hundred kilometres away in Bengaluru, calls everyone he knows. Nobody can tell him what's wrong, who will come, or when. He is helpless, and so is everyone around that old man. [click] He sat through two nights of that heat under a table fan before anyone even opened the machine. [click] And when someone finally did? A three-hundred-and-fifty-rupee part. The family had already ordered a new AC.
+Then one afternoon changed that. [click] Ramagundam, forty-six degrees. A retired miner, seventy-four years old, home alone, running a fever. At noon, his AC stops cooling. The one man he trusts, Ramesh of the local agency, is up a ladder across town. The phone rings fourteen times. The voice note, in Telugu, is never heard. His son, seven hundred kilometres away in Bengaluru, calls everyone he knows. Nobody can tell him what's wrong, who will come, or when. He is helpless, and so is everyone around that old man. He sat through two nights of that heat under a table fan before anyone even opened the machine. And when someone finally did? A three-hundred-and-fifty-rupee part. The family had already ordered a new AC.
 Nobody in this story is the villain. Ramesh is good at his job. The son did everything a son can do. The system just has no memory — and when a system has no memory, it isn't money that gets lost first. It's people left suffering, with nobody able to help.""",
  why="The hook is the human intensity of Ramagundam — a sick old man in 46° heat whom nobody could help in time — not the money. The ₹350 / ₹38,000 detail stays only as a quiet footnote. The people are a composite (disclosed in the data room); the heat, the town and the reflex to replace are real."),
 
@@ -91,29 +91,18 @@ So our strategy is simple. We don't replace the trusted agency. We make it the s
  why="The quotes are real and named with consent. The insight explains why an agency-first strategy wins against better-funded platforms, which is the strategic choice investors will question."),
 
 # ---------------------------------------------------------------- PROBLEM
-dict(id="problemmap", act="problem", sp="S", t=55, title="The full problem map: 14 problems, scored, grouped into 5 scenarios",
- show="""Left: the problem map as ranked score bars (out of 30), each tagged with who suffers:
-- P2 · Intake chaos: missed calls, voice notes, no job record — agencies — **24**
-- P1 · Unprepared first visit: wrong diagnosis, wrong part, repeat trips — agencies + households — **23**
-- P3 · No machine history: lost invoices, unknown warranty — households — **22**
-- P7 · Claims triage for administrators and OEMs — industry — **22**
-- P4 · Warranty refusal, unresolved claims — households — **20**
-- P5 · No fair-price benchmark — households — **20**
-- P8 · Low plan uptake and renewals — households + insurers — **20**
-- P6 · Wrong or unavailable spare parts — agencies — **18**
-- P9 · Old-appliance exit: buyback, refurb, scrap — everyone — **18**
-Right: the five scenarios they group into, as cards:
-- **A · Prepared Visit** (P1 + P2) — the entry wedge → becomes **Circuit · live**
-- **B · The two-sided record** (P3, P5, P8) — year 1–2
-- **C · Claims triage** (P7) — year 2
-- **D · Consumer advocate** (P4) — folded into B
-- **E · The circular loop** (P9, P11, P6) — the stated vision
-[click] A teal band lands: "We enter where impact is highest and barriers are lowest: the prepared visit." """,
- say="""When we put everything we'd seen and heard together, it wasn't one problem. We mapped fourteen distinct problems across a machine's life, and we scored every one of them: impact, effort, how hard it is to build, how hard it is to sell.
-Look at the top of the list. Intake chaos. The unprepared first visit. The missing machine history. Claims that nobody can verify. The same missing record sits underneath all of them.
-And the fourteen group naturally into five solvable scenarios: the prepared visit, the two-sided record, claims triage, the consumer advocate, and the circular loop at end of life. [click]
-So we're not chasing one complaint. We're working down a scored map, and we enter where the impact is highest and the barriers are lowest: the prepared visit.""",
- why="It shows the broad problem set and that the entry point was chosen by scoring, not instinct — Stage 2 discipline. It also plants the five scenarios that later become the roadmap. Source: the team repo's problem map and impact-effort matrix."),
+dict(id="problemmap", act="problem", sp="S", t=55, title="Thirteen problems, one missing record",
+ show="""All 13 problems from the team repo's problem map, in plain words, in three columns by who feels them. Each carries a coloured letter for the scenario that solves it.
+- For the repair shop: calls and voice notes get lost (A) / the first visit goes in blind, wrong part, second trip (A) / technicians struggle with new electronics (A) / spare parts are wrong or hard to find (E) / technicians' income swings month to month (not our focus)
+- For the family: nobody keeps the machine's history (B) / no way to know a fair price (B) / service plans are rarely bought or renewed (B) / warranty claims get refused (D) / safety risks such as gas leaks and refrigerant (not our focus)
+- For brands, insurers, recyclers: claims that nobody can verify (C) / old machines get scrapped, not refurbished (E) / brands can't trace their e-waste (E)
+A legend: A prepared visit, now (Circuit) / B machine record and plans, year 1-2 / C claims checking, year 2 / D fair price and warranty help, inside B / E parts, resale, recycling, later.
+[click] Band: We start with A, the prepared visit, where it hurts most and is easiest to fix.""",
+ say="""When we put everything together, it wasn't one problem. It was thirteen, and you can see them here in plain words.
+For the repair shop: calls get lost, the first visit goes in blind, and the parts are wrong. For the family: nobody keeps the machine's history, nobody knows a fair price, and warranty claims get refused. For brands and insurers: claims can't be verified, and old machines get scrapped instead of reused.
+Each letter is the solution that fixes it, and together they're the five steps of our roadmap. [click]
+We start with A, the prepared visit. It's where it hurts most, and it's the easiest to fix.""",
+ why="All 13 problems in layman's terms, grouped by who feels them rather than by score, with one letter per problem tying it to the scenario that solves it. Readable in seconds. Source: the team repo's problem map (P1-P12 and P14; the repo has no P13)."),
 
 dict(id="bothsides", act="problem", sp="S", t=60, title="What goes wrong, on both sides",
  show="""A split screen joined by a broken thread labelled "no shared memory".
@@ -143,7 +132,7 @@ dict(id="lifecycle", act="problem", sp="S", t=50, title="From one repair to a ma
 - recycled too early
 [click] A teal ring draws through all seven stages: "One record, every stage". [click] The vision line appears: "Every machine an Indian home owns is cared for across its whole life: repaired right, remembered always, and never wasted." Analogy chips: CIBIL → borrowers · Carfax → used cars · nothing, yet → household machines. """,
  say="""And when we zoomed out, the small problem became a big one. Every machine lives one life: bought, used, fails, repaired, maintained, resold, recycled. At every single stage it starts from zero. The technician arrives blind, the warranty can't be proven, the plan is sold to the wrong home, the resale buyer can't trust it. [click]
-The same missing piece sits under all of them: the machine's history. [click] So the vision we committed to is bigger than repair: every machine an Indian home owns, cared for across its whole life. India has CIBIL for borrowers. The world has Carfax for used cars. For household machines, there is nothing. Yet.""",
+The same missing piece sits under all of them: the machine's history. So the vision we committed to is bigger than repair: every machine an Indian home owns, cared for across its whole life. India has CIBIL for borrowers. The world has Carfax for used cars. For household machines, there is nothing. Yet.""",
  why="Here the problem widens into a venture-scale category and the vision is stated — before the company is even named, so the name lands as the answer two slides later."),
 
 dict(id="bigproblem", act="problem", sp="S", t=55, title="It isn't one family. It's 15 crore repairs a year.",
@@ -408,18 +397,15 @@ One number, one instrument, one lead, and a defined set of proofs. That's the as
  why="The ask gets its own full page, as the most important slide: the number, the one-line bridge back to the requirement, every term stated and justified in words, and the have / prove / next structure answering 'what do I get'. Valuation, cap table and terms stay in backup."),
 
 # ---------------------------------------------------------------- FUTURE
-dict(id="future", act="future", sp="P", t=60, title="Why now — and who buys Keepwell in the end",
- show="""Top band — why this is the moment, four tiles:
-- **₹4.5 a job:** Indian-language AI finally cheap enough for a 5-technician shop (against a ₹40 fee)
-- **The repair wave is ahead:** only 1 in 10 homes has an AC; India needs ~5× more technicians by 2037
-- **Regulation favours repair:** Right to Repair portal, Repairability Index, Kigali 2028
-- **DPDP, May 2027:** consent duties arrive; the consent-first record built now becomes the standard others must retrofit
-Below, left: the path to ₹100 Cr revenue as a stacked bar (Circuit Tier 2/3 ₹23 · Tier 1 ₹13.5 · plans ₹9 · claims ₹11 · parts/resale/data ~₹10 = ~₹66 Cr by year 8; ₹100 Cr+ with price reviews and new categories).
-Right: who buys, four acquirer cards with precedents — **warranty and protection platforms** (Servify, OneAssist, Onsitego, Asurion; Asurion bought Domestic & General, ~£2.1 bn) · home-services platforms (Urban Company; IPO 103.6× subscribed) · recommerce and recycling (Cashify, Attero; Quikr bought Zefo, ~₹200 Cr) · global field-service software (ServiceTitan, $961M revenue).
-Land: "A strategic sale in years 6–8, once the record and claims lines are proven." """,
- say="""Why is this the moment to invest? Four reasons. Indian-language AI just became cheap enough for a five-technician shop — that wasn't true two years ago. The repair wave is still ahead of us: only one in ten homes has an AC today. Regulation is opening repair up. And the data protection law lands in May twenty twenty-seven — whoever has built the consent-first record by then becomes the standard everyone else has to retrofit. The window is open, and it won't stay open.
-And where does it end? The plan reaches about sixty-six crore of revenue by year eight; past a hundred crore needs new categories on the same record, and we say that plainly. The buyers already exist. Warranty and protection platforms are the most likely — our record prices their plans and proves their claims, and Asurion paid about two billion pounds for exactly such a company. Home-services platforms, recommerce players and global field-service software are the others. We'd expect a strategic sale in years six to eight.""",
- why="'Why now' gives the urgency the deck was missing, and the exit answers 'how do I get my money back' with named buyer types and real precedents — both on one slide, right after the ask, as the forward look before the closing story."),
+dict(id="future", act="future", sp="P", t=55, title="Why now, and who buys Keepwell",
+ show="""Two calm halves.
+Left, Why now: four rows, each a big number and one line. Rs 4.5: AI is finally cheap (a job costs Rs 4.5 to run; we charge Rs 40). 1 in 10: the repair wave is ahead (homes with an AC today). 2027: data law arrives (consent-first records become the standard). R2R: repair is opening up (Right to Repair portal, Repairability Index).
+Right, Who buys Keepwell: Keepwell in the centre with four buyers around it, one precedent each. Warranty platforms, most likely (Asurion bought Domestic & General, about GBP 2.1 bn). Home services (Urban Company, IPO 103x subscribed). Resale and recycling (Quikr bought Zefo, about Rs 200 Cr). Global service software (ServiceTitan, USD 961M revenue).
+One line under both: about Rs 66 Cr revenue by year 8, and a strategic sale in years 6-8.""",
+ say="""Why invest now? Four reasons. Indian-language AI just became cheap: a job costs us four and a half rupees, and we charge forty. The repair wave is still ahead, because only one home in ten has an AC today. Data law arrives in 2027, so the consent-first record built now becomes the standard. And repair is opening up.
+And who buys Keepwell in the end? Most likely a warranty platform, because our record prices their plans and proves their claims. Asurion paid about two billion pounds for exactly that kind of company. Home services, resale and global service software are the others.
+The plan reaches about sixty-six crore of revenue by year eight, with a strategic sale in years six to eight.""",
+ why="Rebuilt for clarity: one number and one line per reason on the left, and a simple hub of four buyers on the right, one precedent each. Far less text, readable at a glance."),
 
 dict(id="close", act="future", sp="P", t=40, title="Back to Ramagundam",
  show="""Dark slide. One click, and the whole ending plays out on its own — the Ramagundam story replays with Keepwell, each beat ticking green in sequence:

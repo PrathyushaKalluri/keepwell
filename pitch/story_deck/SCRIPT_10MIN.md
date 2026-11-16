@@ -3,7 +3,7 @@
 
 **Deck:** [`index.html`](index.html), unchanged. Its built-in speaker notes (press **N**) are the long version. **This file is the 10-minute version.** Read it exactly as written.
 
-**Total:** 31 slides · 1004 spoken words · about **8:33** at 145 words a minute, including clicks and the demo tab switch.
+**Total:** 31 slides · 1023 spoken words · about **8:34** at 145 words a minute, including clicks and the demo tab switch.
 
 ## How to deliver it in 10 minutes
 - **The screen shows; you explain.** Don't read numbers off the slide. Say the one line here and move on. The slide carries the detail.
@@ -15,14 +15,14 @@
 ## Running order
 | # | Slide | Speaker | Starts | Length |
 |---|---|---|---|---|
-| 1 | What broke in your home this year? | Prathyusha | 0:00 | 0:31 |
-| 2 | Until one afternoon in Ramagundam | Prathyusha | 0:31 | 0:37 |
-| 3 | Three founders, one from each side | Prathyusha | 1:08 | 0:23 |
-| 4 | We watched it happen | Sri | 1:31 | 0:20 |
-| 5 | We listened before we built | Sri | 1:51 | 0:22 |
-| 6 | The problem map | Sri | 2:13 | 0:16 |
-| 7 | Both sides | Sri | 2:29 | 0:15 |
-| 8 | A machine's whole life | Sri | 2:44 | 0:18 |
+| 1 | What broke in your home this year? | Prathyusha | 0:00 | 0:30 |
+| 2 | Until one afternoon in Ramagundam | Prathyusha | 0:30 | 0:32 |
+| 3 | Three founders, one from each side | Prathyusha | 1:02 | 0:23 |
+| 4 | We watched it happen | Sri | 1:25 | 0:20 |
+| 5 | We listened before we built | Sri | 1:45 | 0:22 |
+| 6 | The problem map | Sri | 2:07 | 0:23 |
+| 7 | Both sides | Sri | 2:30 | 0:15 |
+| 8 | A machine's whole life | Sri | 2:45 | 0:17 |
 | 9 | 15 crore repairs a year | Sri | 3:02 | 0:16 |
 | 10 | Keepwell | Sri | 3:18 | 0:08 |
 | 11 | Where we are | Prathyusha | 3:26 | 0:19 |
@@ -44,34 +44,34 @@
 | 27 | Trust and compliance | Sri | 7:10 | 0:12 |
 | 28 | The requirement | Prathyusha | 7:22 | 0:16 |
 | 29 | The ask | Prathyusha | 7:38 | 0:21 |
-| 30 | Why now, and who buys | Prathyusha | 7:59 | 0:17 |
-| 31 | Back to Ramagundam | Prathyusha | 8:16 | 0:17 |
+| 30 | Why now, and who buys | Prathyusha | 7:59 | 0:18 |
+| 31 | Back to Ramagundam | Prathyusha | 8:17 | 0:17 |
 
 ## The script, word for word
 
-### 1. What broke in your home this year?  ·  Prathyusha (CEO)  ·  0:00 → 0:31
-> Before we begin, think about your home. This year, what broke? The AC? The fridge? The purifier? [tap the machines as people answer] Now: when was it last serviced? Which part was changed? What did you pay? [click] Nobody knows. [click] Every repair in your home starts from zero.
+### 1. What broke in your home this year?  ·  Prathyusha (CEO)  ·  0:00 → 0:30
+> Before we begin, think about your home. This year, what broke? The AC? The fridge? The purifier? [tap the machines as people answer] Now: when was it last serviced? Which part was changed? What did you pay? [click] Nobody knows. Every repair in your home starts from zero.
 
-### 2. Until one afternoon in Ramagundam  ·  Prathyusha (CEO)  ·  0:31 → 1:08
-> We took this lightly too, until Ramagundam. [click] Forty-six degrees. A seventy-four-year-old man, home alone, with a fever. His AC stops. [click] Ramesh, the one technician he trusts, is up a ladder. Fourteen missed calls. [click] His son, seven hundred kilometres away, can't find anyone who knows anything. [click] The old man spends two nights in that heat. [click] The fault was a three-hundred-and-fifty-rupee part. Nobody was the villain. The system has no memory.
+### 2. Until one afternoon in Ramagundam  ·  Prathyusha (CEO)  ·  0:30 → 1:02
+> We took this lightly too, until Ramagundam. [click] Forty-six degrees. A seventy-four-year-old man, home alone, with a fever. His AC stops. Ramesh, the one technician he trusts, is up a ladder. Fourteen missed calls. His son, seven hundred kilometres away, can't find anyone who knows anything. The old man spends two nights in that heat. The fault was a three-hundred-and-fifty-rupee part. Nobody was the villain. The system has no memory.
 
-### 3. Three founders, one from each side  ·  Prathyusha (CEO)  ·  1:08 → 1:31
+### 3. Three founders, one from each side  ·  Prathyusha (CEO)  ·  1:02 → 1:25
 > That's why we're here, and each of us has lived one side of it. I'm Prathyusha. I built and sold FixNear, a twelve-hundred-technician network in these towns. Sri Charan built Indian-language voice AI, and built our product. Kavyanth ran a brand's three-hundred-partner service network. We've all been full-time since May 2025.
 
-### 4. We watched it happen  ·  Sri Charan (CTO)  ·  1:31 → 1:51
+### 4. We watched it happen  ·  Sri Charan (CTO)  ·  1:25 → 1:45
 > I'm Sri Charan. We watched this happen. This is a real brand's WhatsApp bot: an API issue, and then, "my request was not done." So families fix it themselves, with agency stickers, repair diaries and dates in marker. The demand exists. The tool doesn't.
 
-### 5. We listened before we built  ·  Sri Charan (CTO)  ·  1:51 → 2:13
+### 5. We listened before we built  ·  Sri Charan (CTO)  ·  1:45 → 2:07
 > We listened for four months: a survey, seven households and eighteen agency owners. Everyone said the same thing: you can't check the price or the part. [click] So people trust the person, not the work. We don't replace that agency. We make it the smartest in town.
 
-### 6. The problem map  ·  Sri Charan (CTO)  ·  2:13 → 2:29
-> We mapped fourteen problems across a machine's life and scored each one. They group into five scenarios. [click] We start where impact is highest and barriers are lowest: the prepared visit.
+### 6. The problem map  ·  Sri Charan (CTO)  ·  2:07 → 2:30
+> Here are all thirteen problems, in plain words: lost calls, blind first visits, wrong parts, no history, refused warranties, claims nobody can verify. Each letter is the solution that fixes it. [click] We start with A, the prepared visit, because it hurts most and is easiest to fix.
 
-### 7. Both sides  ·  Sri Charan (CTO)  ·  2:29 → 2:44
+### 7. Both sides  ·  Sri Charan (CTO)  ·  2:30 → 2:45
 > For agencies, one request in eight is lost, and technicians go in blind. For households, nothing can be checked. Fifty-five percent got a defective machine, and only twenty-one percent were made whole.
 
-### 8. A machine's whole life  ·  Sri Charan (CTO)  ·  2:44 → 3:02
-> And it happens at every stage: bought, repaired, resold, recycled. Each one starts from zero. [click] One missing record sits under all of it. [click] Our vision: every machine cared for across its whole life.
+### 8. A machine's whole life  ·  Sri Charan (CTO)  ·  2:45 → 3:02
+> And it happens at every stage: bought, repaired, resold, recycled. Each one starts from zero. [click] One missing record sits under all of it. Our vision: every machine cared for across its whole life.
 
 ### 9. 15 crore repairs a year  ·  Sri Charan (CTO)  ·  3:02 → 3:18
 > At scale, that's fifteen crore repairs a year, twenty-seven crore machines with no record, five hundred and fifty crore rupees wasted on repeat trips, and thirty-seven thousand five hundred agencies running on a notebook.
@@ -136,9 +136,9 @@
 ### 29. The ask  ·  Prathyusha (CEO)  ·  7:38 → 7:59
 > So we're raising four point seven five crore: twenty percent, for one lead investor, as priced seed preference shares, with twenty-four months of runway. It proves a hundred and twenty agencies, forty thousand records and our first warranty partner. Then we raise the Series A from strength.
 
-### 30. Why now, and who buys  ·  Prathyusha (CEO)  ·  7:59 → 8:16
-> Why now? AI just got cheap, the repair wave is still ahead, and data law arrives in 2027. And buyers already exist: warranty platforms like Asurion, which paid two billion pounds for a company like this.
+### 30. Why now, and who buys  ·  Prathyusha (CEO)  ·  7:59 → 8:17
+> Why now? AI just got cheap, the repair wave is still ahead, and data law arrives in 2027. And the buyers already exist, most likely a warranty platform: Asurion paid two billion pounds for a company like this.
 
-### 31. Back to Ramagundam  ·  Prathyusha (CEO)  ·  8:16 → 8:33
+### 31. Back to Ramagundam  ·  Prathyusha (CEO)  ·  8:17 → 8:34
 > [click] With Keepwell, that voice note is answered in minutes, the right part arrives, and a seventy-four-year-old man sleeps in a cool room. Keepwell becomes the record everyone checks before touching a machine. Thank you.
 

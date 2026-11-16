@@ -11,10 +11,10 @@
 - `[click]` in SAY means press → once to reveal the next part of the slide.
 
 ## Timing and speakers
-- **16 slides, about 9:58** at a calm 145 words a minute, including clicks. Built to fit a 10-minute slot.
+- **16 slides, about 9:55** at a calm 145 words a minute, including clicks. Built to fit a 10-minute slot.
 - **If you're running long:** say only the first paragraph of each SAY block on slides 6, 11 and 12; never cut slides 2, 9 and 14.
-- **Prathyusha (CEO):** about 4:41
-- **Sri Charan (CTO):** about 2:41
+- **Prathyusha (CEO):** about 4:36
+- **Sri Charan (CTO):** about 2:43
 - **Kavyanth (COO):** about 2:36
 
 **Hand-overs** are built into the words. Sri Charan starts with "I'm Sri Charan." Kavyanth starts with "I'm Kavyanth." Prathyusha takes the ask with "So here's our ask."
@@ -44,11 +44,11 @@
 ## Overview: show vs say
 | # | Act | Slide | Speaker | Time | What we SHOW (the proof) | What we SAY (the point) |
 |---|---|---|---|---|---|---|
-| 1 | The hook | **Every repair in your home starts from zero** | Prathyusha | 0:40 | An illustrated home with eight machines… | “Before we begin, think about your own home…” |
-| 2 | The hook | **We took it lightly too — until Ramagundam** | Prathyusha | 0:54 | Left: Sri Charan's quote card, "Our machines cost my family ₹10,000 a month… | “We took this lightly too…” |
+| 1 | The hook | **Every repair in your home starts from zero** | Prathyusha | 0:38 | An illustrated home with eight machines… | “Before we begin, think about your own home…” |
+| 2 | The hook | **We took it lightly too — until Ramagundam** | Prathyusha | 0:48 | Left: Sri Charan's quote card, "Our machines cost my family ₹10,000 a month… | “We took this lightly too…” |
 | 3 | The team | **Three founders, one from each side** | Prathyusha | 0:37 | A triangle around "the machine record": Prathyusha (agency network: FixNear, 1,200 technicians, sold 2022), Sri Charan (household + AI: 7 years of voi… | “That afternoon is why the three of us are here, and each of us has lived one side of it…” |
 | 4 | The problem | **What we saw, and what we heard** | Sri | 0:50 | The proof wall: the real brand WhatsApp-bot recording playing ("API issue" → "My request was not done"), the agency sticker on a purifier with the dat… | “I'm Sri Charan…” |
-| 5 | The problem | **The problem, mapped and sized** | Sri | 0:39 | A row of five counters: 15 Cr repairs a year · 27 Cr machines with no record · ₹550 Cr wasted on repeat trips · 37,500 agencies on a notebook · 1 in 8… | “Then we mapped the whole problem…” |
+| 5 | The problem | **The problem, mapped and sized** | Sri | 0:41 | Five counters across the top: 15 Cr repairs a year / 27 Cr machines with no record / Rs 550 Cr wasted on repeat trips / 37,500 agencies on a notebook … | “Then we mapped the whole problem, and it isn't one problem: it's thirteen…” |
 | 6 | Keepwell | **Keepwell, and the roadmap** | Sri | 0:28 | Dark slide… | “So we built Keepwell: one living record for every machine in an Indian home, built with the owner's consent…” |
 | 7 | Where we are | **Where we are** | Prathyusha | 0:32 | A three-step stage path, with "2 · Find the business model — we are here" highlighted… | “Where are we? Stage two…” |
 | 8 | Circuit | **Circuit, and how easy it is** | Sri | 0:44 | Left: six step cards (voice note → understands → fault + part → quote from the rate card → job card → technician verifies, we earn ₹40)… | “Here's Circuit…” |
@@ -58,7 +58,7 @@
 | 12 | Why we win | **How big, and the plan** | Kavyanth | 0:35 | Left: the funnel 37,500 → 22,500 → 1,400 → 120 (Series A gate), with the Keepwell earnable pool ₹1,005–2,370 Cr a year beneath… | “How big? We counted India's repair agencies three ways: thirty-seven thousand five hundred, with twenty-two thousand fiv…” |
 | 13 | The ask | **What we need** | Prathyusha | 0:30 | The bridge chart: costed needs ₹548 L + 10% contingency − revenue − cash − grant due = gap ₹467 L → ask ₹475 L… | “Now, what we need…” |
 | 14 | The ask | **The ask** | Prathyusha | 0:32 | A full dark page: ₹4.75 Cr, "to take Circuit from 14 agencies to ~260, and reach the Series A from strength." The bridge line, then four terms: 24 mon… | “So here's our ask…” |
-| 15 | The future | **Why now, and who buys** | Prathyusha | 0:30 | Four why-now tiles: ₹4.5 a job AI cost · only 1 in 10 homes has an AC · repair regulation · DPDP in May 2027… | “Why now? Indian-language AI just became cheap enough for a small shop…” |
+| 15 | The future | **Why now, and who buys** | Prathyusha | 0:33 | Left, Why now: Rs 4.5 (AI is finally cheap) / 1 in 10 (the repair wave is ahead) / 2027 (data law arrives) / R2R (repair is opening up)… | “Why now? Indian-language AI just got cheap: a job costs us four and a half rupees, and we charge forty…” |
 | 16 | The future | **Back to Ramagundam** | Prathyusha | 0:26 | Dark slide… | “Back to Ramagundam…” |
 
 ## Slide by slide
@@ -67,20 +67,20 @@
 ### Act: The hook
 
 #### 1. Every repair in your home starts from zero
-**Speaker:** Prathyusha (CEO) · **Time:** ~0:40
+**Speaker:** Prathyusha (CEO) · **Time:** ~0:38
 
 | 🖥 SHOW (on screen, the proof) | 🎙 SAY (word for word, the explanation) |
 |---|---|
-| An illustrated home with eight machines. The presenter taps each machine as the audience calls it out; a red counter adds up "repairs in your home this year". [click] Question tags drop onto every machine: "Last service? Which part? What did you pay?" [click] The line: "Every repair in your home starts from zero." | Before we begin, think about your own home. This year, what broke? The AC? The fridge? The purifier, the geyser? [tap the machines as people answer]<br><br>Now pick one. When was it last serviced? Which part was changed? What did you pay? [click]<br><br>Most of us don't know. It's in a phone, a diary, or nowhere. [click]<br><br>Every repair in your home starts from zero. |
+| An illustrated home with eight machines. The presenter taps each machine as the audience calls it out; a red counter adds up "repairs in your home this year". [click] Question tags drop onto every machine: "Last service? Which part? What did you pay?" [click] The line: "Every repair in your home starts from zero." | Before we begin, think about your own home. This year, what broke? The AC? The fridge? The purifier, the geyser? [tap the machines as people answer]<br><br>Now pick one. When was it last serviced? Which part was changed? What did you pay? [click]<br><br>Most of us don't know. It's in a phone, a diary, or nowhere.<br><br>Every repair in your home starts from zero. |
 
 **Why this works:** The room answers before we say a word about ourselves, so the problem is theirs from the first 30 seconds.
 
 #### 2. We took it lightly too — until Ramagundam
-**Speaker:** Prathyusha (CEO) · **Time:** ~0:54
+**Speaker:** Prathyusha (CEO) · **Time:** ~0:48
 
 | 🖥 SHOW (on screen, the proof) | 🎙 SAY (word for word, the explanation) |
 |---|---|
-| Left: Sri Charan's quote card, "Our machines cost my family ₹10,000 a month. Never evenly." Right, one beat per click: 46 °C and a fever → 14 missed calls → the son 700 km away → 2 nights in the heat → "Nobody is the villain. The system has no memory." The ₹350 / ₹38,000 detail is a small footnote in the last card. | We took this lightly too. Sri Charan's family spends about ten thousand rupees a month on its machines, and we called that normal. Then, Ramagundam. [click]<br><br>Forty-six degrees. A seventy-four-year-old retired miner, home alone, with a fever. His AC stops. [click] Ramesh, the one technician he trusts, is up a ladder across town. Fourteen missed calls. [click] His son, seven hundred kilometres away, calls everyone. Nobody knows what's wrong, or who's coming. [click] The old man spends two nights in that heat. [click]<br><br>The fault was a three-hundred-and-fifty-rupee part. Nobody was the villain. The system has no memory, and when it has no memory, it's people who suffer first. |
+| Left: Sri Charan's quote card, "Our machines cost my family ₹10,000 a month. Never evenly." Right, one beat per click: 46 °C and a fever → 14 missed calls → the son 700 km away → 2 nights in the heat → "Nobody is the villain. The system has no memory." The ₹350 / ₹38,000 detail is a small footnote in the last card. | We took this lightly too. Sri Charan's family spends about ten thousand rupees a month on its machines, and we called that normal. Then, Ramagundam. [click]<br><br>Forty-six degrees. A seventy-four-year-old retired miner, home alone, with a fever. His AC stops. Ramesh, the one technician he trusts, is up a ladder across town. Fourteen missed calls. His son, seven hundred kilometres away, calls everyone. Nobody knows what's wrong, or who's coming. The old man spends two nights in that heat.<br><br>The fault was a three-hundred-and-fifty-rupee part. Nobody was the villain. The system has no memory, and when it has no memory, it's people who suffer first. |
 
 **Why this works:** The hook is the human cost, not the money. One concrete story everyone can picture.
 
@@ -109,13 +109,13 @@
 **Why this works:** Real evidence plus the insight, merged into one slide. The video playing does the work while the voice explains what it means.
 
 #### 5. The problem, mapped and sized
-**Speaker:** Sri Charan (CTO) · **Time:** ~0:39
+**Speaker:** Sri Charan (CTO) · **Time:** ~0:41
 
 | 🖥 SHOW (on screen, the proof) | 🎙 SAY (word for word, the explanation) |
 |---|---|
-| A row of five counters: 15 Cr repairs a year · 27 Cr machines with no record · ₹550 Cr wasted on repeat trips · 37,500 agencies on a notebook · 1 in 8 requests lost (55% got a defective machine, 21% made whole). Below: the top six problems as scored bars (intake chaos 24, unprepared visit 23, no history 22, claims 22, warranty refusal 20, no fair price 20) beside the five scenarios A–E, with A "Prepared Visit → Circuit · live" highlighted. [click] Band: "We enter where impact is highest and barriers lowest: the prepared visit." | Then we mapped the whole problem. Fourteen distinct problems across a machine's life: lost calls, blind first visits, no history, warranties nobody can prove. We scored each one, and they group into five scenarios.<br><br>And the scale is real. Fifteen crore repairs a year. Twenty-seven crore machines with no record. Five hundred and fifty crore rupees lost to repeat trips. Thirty-seven thousand five hundred agencies running on a phone and a notebook. [click]<br><br>We start where impact is highest and barriers lowest: the prepared visit. |
+| Five counters across the top: 15 Cr repairs a year / 27 Cr machines with no record / Rs 550 Cr wasted on repeat trips / 37,500 agencies on a notebook / 1 in 8 requests lost. Below: all 13 problems in plain words, in three columns (the repair shop, the family, brands-insurers-recyclers), each tagged with the letter of the scenario that solves it; A (the prepared visit) glows. [click] Band: We start with A, the prepared visit. | Then we mapped the whole problem, and it isn't one problem: it's thirteen. For the repair shop, calls get lost and the first visit goes in blind. For the family, nobody keeps the machine's history or knows a fair price. For insurers, claims can't be verified.<br><br>And the scale is real: fifteen crore repairs a year, twenty-seven crore machines with no record, five hundred and fifty crore rupees lost to repeat trips. [click]<br><br>We start with A, the prepared visit, because it hurts most and is easiest to fix. |
 
-**Why this works:** Problem map, both sides and scale in one picture. The numbers sit on screen while the voice gives the logic of where to start.
+**Why this works:** All 13 problems in plain words, tagged with the solution letter, under the scale numbers: the whole problem set in one picture, readable in seconds.
 
 ---
 ### Act: Keepwell
@@ -220,13 +220,13 @@
 ### Act: The future
 
 #### 15. Why now, and who buys
-**Speaker:** Prathyusha (CEO) · **Time:** ~0:30
+**Speaker:** Prathyusha (CEO) · **Time:** ~0:33
 
 | 🖥 SHOW (on screen, the proof) | 🎙 SAY (word for word, the explanation) |
 |---|---|
-| Four why-now tiles: ₹4.5 a job AI cost · only 1 in 10 homes has an AC · repair regulation · DPDP in May 2027. Path to ₹100 Cr (~₹66 Cr by year 8). Four acquirer cards: warranty & protection platforms (Asurion bought Domestic & General, ~£2.1 bn) · Urban Company · Cashify / Attero · global field-service software. | Why now? Indian-language AI just became cheap enough for a small shop. The repair wave is still ahead of us. And data law arrives in 2027, so the consent-first record built now becomes the standard.<br><br>The buyers already exist: warranty platforms, home services and recommerce. Asurion paid two billion pounds for a company like that. We'd expect a strategic sale in years six to eight. |
+| Left, Why now: Rs 4.5 (AI is finally cheap) / 1 in 10 (the repair wave is ahead) / 2027 (data law arrives) / R2R (repair is opening up). Right, Who buys Keepwell: Keepwell at the centre, four buyers around it with one precedent each, warranty platforms marked most likely (Asurion bought Domestic & General, about GBP 2.1 bn). Under both: about Rs 66 Cr revenue by year 8, and a strategic sale in years 6-8. | Why now? Indian-language AI just got cheap: a job costs us four and a half rupees, and we charge forty. The repair wave is still ahead of us. And data law arrives in 2027, so the consent-first record built now becomes the standard.<br><br>And the buyers exist. Warranty platforms are the most likely: Asurion paid two billion pounds for a company like this. We'd expect a strategic sale in years six to eight. |
 
-**Why this works:** Urgency and the exit together: why invest now, and how the money comes back.
+**Why this works:** Urgency and the exit together: why invest now, and how the money comes back. Shown as one number per reason and a simple hub of buyers.
 
 #### 16. Back to Ramagundam
 **Speaker:** Prathyusha (CEO) · **Time:** ~0:26
