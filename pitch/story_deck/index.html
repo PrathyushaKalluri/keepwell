@@ -92,9 +92,15 @@ svg .draw.go{stroke-dashoffset:0}
 #notes .why{margin-top:10px;color:#9FB0CC;font-size:15px}
 #notes .timer{margin-left:auto;font:700 16px var(--sans);color:#fff}
 /* lightbox */
-#lb{position:fixed;inset:0;background:rgba(6,12,22,.92);display:none;align-items:center;justify-content:center;z-index:95;cursor:zoom-out;flex-direction:column;gap:16px}
-#lb.open{display:flex} #lb img{max-width:86vw;max-height:80vh;border-radius:12px;box-shadow:0 30px 80px rgba(0,0,0,.5)}
-#lb p{color:#E7ECF5;font:500 18px var(--sans);max-width:900px;text-align:center;margin:0}
+#lb{position:fixed;inset:0;background:rgba(6,12,22,.94);display:none;align-items:center;justify-content:center;z-index:95;flex-direction:column;gap:14px}
+#lb.open{display:flex}
+#lb .lbrow{display:flex;align-items:center;gap:28px}
+#lb img,#lb video{max-width:78vw;max-height:78vh;border-radius:12px;box-shadow:0 30px 80px rgba(0,0,0,.5);background:#000}
+#lb .lbn{width:64px;height:64px;border-radius:50%;border:1px solid rgba(255,255,255,.25);background:rgba(255,255,255,.08);color:#fff;font:400 34px/1 var(--sans);cursor:pointer;flex:none;transition:background .2s}
+#lb .lbn:hover{background:rgba(255,255,255,.2)}
+#lb .lbx{position:absolute;top:22px;right:28px;width:48px;height:48px;font-size:26px}
+#lb p{color:#E7ECF5;font:500 18px/1.45 var(--sans);max-width:900px;text-align:center;margin:0}
+#lb .lbc{color:#7F8DA8;font:600 14px var(--sans);letter-spacing:.1em}
 .help{position:fixed;left:16px;bottom:12px;color:#55637E;font:500 12px var(--sans);z-index:5;transition:opacity 1s;animation:fadeout 1s 8s forwards}@keyframes fadeout{to{opacity:0}}
 
 /* ---------- slide specific ---------- */
@@ -252,17 +258,17 @@ h1.t{text-wrap:balance;line-height:1.1;margin-bottom:22px}
   <div class="foot"><div class="src">Step 2 · Founders and backstory</div></div>
 </section>
 <section class="slide" data-id="watched" data-thread="broken" data-steps="0">
-  <div class="eyebrow a">Evidence · the recording plays · click any image</div>
+  <div class="eyebrow a">Evidence · click any photo, then ← → to browse</div>
   <h1 class="t a" style="--i:1">We didn’t read about it. <em>We watched it happen.</em></h1>
   <div style="display:grid;grid-template-columns:330px 290px 1fr 1fr;grid-template-rows:280px 280px;gap:22px;margin-top:26px">
     <figure class="proofv a" style="--i:2;margin:0;grid-row:1/3"><video src="media/brandbot.mp4" autoplay muted loop playsinline></video><figcaption>A real brand’s WhatsApp bot, on camera: “There is some API related issue…” Her last message: “My request was not done.”</figcaption></figure>
-    <figure class="proof a" style="--i:3;margin:0;grid-row:1/3" data-cap="A water purifier: a local agency taped its own “Contact for Service” sticker on it, and the family wrote the next service date over the brand’s label in marker. (Phone numbers blurred.)"><img src="media/ro_sticker.jpg" alt=""><figcaption>A local agency’s sticker, and the next date in marker</figcaption></figure>
-    <figure class="proof a" style="--i:4;margin:0" data-cap="A household’s handwritten repair diary: what was fixed, by whom, when and for how much. (Phone numbers blurred.)"><img src="media/diary_page.jpg" alt=""><figcaption>A family’s handwritten repair diary</figcaption></figure>
+    <figure class="proof a" style="--i:3;margin:0;grid-row:1/3" data-cap="A water purifier: a local agency taped its own “Contact for Service” sticker on it, and the family wrote the next service date over the brand’s label in marker."><img src="media/ro_sticker.jpg" alt=""><figcaption>A local agency’s sticker, and the next date in marker</figcaption></figure>
+    <figure class="proof a" style="--i:4;margin:0" data-cap="A household’s handwritten repair diary: what was fixed, by whom, when and for how much."><img src="media/diary_page.jpg" alt=""><figcaption>A family’s handwritten repair diary</figcaption></figure>
     <figure class="proof a" style="--i:5;margin:0" data-cap="Our own whiteboard. Today: machine fails → technician travels → discovers the problem → needs a part → another visit. With a memory: symptoms + photo + model → probable issue + likely part → prepared technician → one repair visit."><img src="media/team_sketch_before_after.jpg" alt=""><figcaption>Our whiteboard: “another visit” vs “one repair visit”</figcaption></figure>
-    <figure class="proof a" style="--i:6;margin:0" data-cap="A second page of the same repair diary — dates, jobs, amounts, all by hand. (Phone numbers blurred.)"><img src="media/diary_page2.jpg" alt=""><figcaption>More of the diary: dates, jobs, amounts</figcaption></figure>
+    <figure class="proof a" style="--i:6;margin:0" data-cap="A second page of the same repair diary — dates, jobs, amounts, all by hand."><img src="media/diary_page2.jpg" alt=""><figcaption>More of the diary: dates, jobs, amounts</figcaption></figure>
     <figure class="proof a" style="--i:7;margin:0" data-cap="A gas cylinder with its refill date written straight onto the metal in marker — the household keeping its own service memory."><img src="media/gas_cylinder.jpg" alt="" style="object-position:center 30%"><figcaption>The refill date, in marker, on the cylinder itself</figcaption></figure>
   </div>
-  <div class="a" style="--i:8;position:absolute;right:110px;top:150px;display:flex;gap:10px"><span class="tag real">Real · discovery interviews</span><span class="tag" style="background:#EEE;color:#666">Personal details blurred</span></div>
+  <div class="a" style="--i:8;position:absolute;right:110px;top:150px;display:flex;gap:10px"><span class="tag real">Real · discovery interviews</span></div>
   <div class="a" style="--i:9;margin-top:18px;font:600 30px var(--serif)">People already keep the machine’s memory, on paper. <em style="color:var(--teal)">The demand is there. The tool isn’t.</em></div>
 </section>
 <section class="slide" data-id="listened" data-thread="broken" data-steps="1">
@@ -817,7 +823,7 @@ h1.t{text-wrap:balance;line-height:1.1;margin-bottom:22px}
 </div>
 
 <div id="notes"><div class="nh"><span id="nsp"></span><b id="ntitle"></b><span id="ntime"></span><span class="timer" id="timer">00:00</span></div><div class="say" id="nsay"></div><div class="why" id="nwhy"></div></div>
-<div id="lb"><img alt=""><p></p></div>
+<div id="lb"><button class="lbn lbx" title="Close (Esc)">×</button><div class="lbrow"><button class="lbn lbp" title="Previous (←)">‹</button><img alt=""><video controls playsinline loop></video><button class="lbn lbnx" title="Next (→)">›</button></div><p></p><span class="lbc"></span></div>
 <div class="help">→ / space next · ← back · N notes · F fullscreen · B backup slides</div>
 
 <!-- icon sprite -->
@@ -908,6 +914,7 @@ function go(i){const L=list();cur=Math.max(0,Math.min(L.length-1,i));render()}
 function next(){const s=list()[cur];const max=+(s.dataset.steps||0);if(step<max){setStep(s,step+1)}else go(cur+1)}
 function prev(){const s=list()[cur];if(step>0){setStep(s,step-1)}else go(cur-1)}
 addEventListener('keydown',e=>{
+  if(window.__lb&&window.__lb.isOpen()){if(['ArrowRight','PageDown',' ','Enter','ArrowDown'].includes(e.key)){e.preventDefault();window.__lb.step(1)}else if(['ArrowLeft','PageUp','Backspace','ArrowUp'].includes(e.key)){e.preventDefault();window.__lb.step(-1)}else if(e.key==='Escape'){window.__lb.close()}return}
   if(['ArrowRight','PageDown',' ','Enter'].includes(e.key)){e.preventDefault();next()}
   else if(['ArrowLeft','PageUp','Backspace'].includes(e.key)){e.preventDefault();prev()}
   else if(e.key==='n'||e.key==='N')document.getElementById('notes').classList.toggle('open');
@@ -925,8 +932,22 @@ document.querySelectorAll('.mach').forEach(m=>m.addEventListener('click',e=>{e.s
 
 // ---------- lightbox
 const lb=document.getElementById('lb');if(!lb)return;
-document.querySelectorAll('.proof').forEach(f=>f.addEventListener('click',()=>{lb.querySelector('img').src=f.querySelector('img').src;lb.querySelector('p').textContent=f.dataset.cap||'';lb.classList.add('open')}));
-lb.onclick=()=>lb.classList.remove('open');
+// gallery: while open, arrows move between this slide's photos/video instead of changing slides
+let lbItems=[],lbI=0;const lbImg=lb.querySelector('img'),lbVid=lb.querySelector('video');
+function lbShow(){const it=lbItems[lbI];if(it.vid){lbImg.style.display='none';lbVid.style.display='block';if(lbVid.getAttribute('src')!==it.src)lbVid.src=it.src;lbVid.play().catch(()=>{})}else{lbVid.pause();lbVid.style.display='none';lbImg.style.display='block';lbImg.src=it.src}
+  lb.querySelector('p').textContent=it.cap;lb.querySelector('.lbc').textContent=(lbI+1)+' / '+lbItems.length+'   ·   ← → to browse · Esc to close'}
+function lbOpen(fig){const figs=[...fig.closest('.slide').querySelectorAll('.proof,.proofv')];
+  lbItems=figs.map(f=>{const v=f.querySelector('video');const cap=f.dataset.cap||(f.querySelector('figcaption')||{}).textContent||'';return v?{vid:1,src:v.getAttribute('src'),cap}:{src:f.querySelector('img').getAttribute('src'),cap}});
+  lbI=Math.max(0,figs.indexOf(fig));lbShow();lb.classList.add('open')}
+function lbClose(){lb.classList.remove('open');lbVid.pause()}
+function lbStep(d){if(!lbItems.length)return;lbI=(lbI+d+lbItems.length)%lbItems.length;lbShow()}
+window.__lb={isOpen:()=>lb.classList.contains('open'),step:lbStep,close:lbClose};
+document.querySelectorAll('.proof,.proofv').forEach(f=>{f.style.cursor='zoom-in';f.addEventListener('click',e=>{e.stopPropagation();lbOpen(f)})});
+lb.querySelector('.lbp').onclick=e=>{e.stopPropagation();lbStep(-1)};
+lb.querySelector('.lbnx').onclick=e=>{e.stopPropagation();lbStep(1)};
+lb.querySelector('.lbx').onclick=e=>{e.stopPropagation();lbClose()};
+lbImg.onclick=e=>{e.stopPropagation();lbStep(1)};lbVid.onclick=e=>e.stopPropagation();
+lb.onclick=()=>lbClose();
 
 // ---------- demo tabs + chat
 document.querySelectorAll('.tabbar button').forEach(b=>b.onclick=()=>{document.querySelectorAll('.tabbar button').forEach(x=>x.classList.toggle('cur',x===b));document.querySelectorAll('.pane').forEach(p=>p.classList.toggle('cur',p.id===b.dataset.pane));const v=document.querySelector('#p3 video');if(b.dataset.pane==='p3'){v.play().catch(()=>{})}else v.pause();if(b.dataset.pane==='p1')chatPlay()});

@@ -66,7 +66,7 @@ dict(id="watched", act="saw", sp="S", t=60, title="We didn't read about it. We w
 3. **A household's repair diary**: handwritten pages of what was fixed, when, by whom, for how much — two pages shown
 4. **A gas cylinder** with its refill date written on it in marker
 5. **Our own whiteboard**: "machine fails → technician travels → discovers the problem → another visit" vs "symptoms + photo + model → prepared technician → one visit"
-Personal details are blurred in the images. Tag: "Real · from our discovery interviews". Click any image for full screen. """,
+Tag: "Real · from our discovery interviews". Click any photo or the video to open it full screen; while it is open, → / ← (or the on-screen arrows) browse the evidence, and Esc closes it. """,
  say="""I'm Sri Charan. We didn't just read about this problem. We went into homes and watched it happen. [point at the playing video]
 This is a real brand's WhatsApp bot, recorded in one of our interviews. A woman asks for her water purifier to be serviced. The bot says there's an API issue. She asks — what is API? Then it demands a job ID she doesn't have. Watch her last message: "My request was not done."
 And look at what people do instead. A local agency has taped its own sticker onto the machine, and the family wrote the next service date in marker over the brand's label. This family keeps a handwritten diary of every repair. This one writes the refill date on the gas cylinder itself.
