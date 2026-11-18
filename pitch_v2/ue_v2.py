@@ -344,3 +344,66 @@ if __name__ == "__main__" and "--G" in sys.argv:
         for un in (60, 80, 100):
             r = variant_G(cats, un); r.pop("detail") if un != 80 else None
             print(r)
+
+
+# ------------------------------------------------------------------ Gate-1 follow-up 2: the opportunity stack (8-year layered plan)
+# Every per-cluster figure is DERIVED from research/opportunities_*/ (see steps/00b_margin_and_vision.md for tags).
+CLUSTERS = [1, 3, 8, 16, 28, 45, 65, 90]          # ASSUMPTION: clusters open at year end
+G4 = ["AC", "Washing machine", "Refrigerator", "Water purifier"]
+
+
+def stack(scen="base"):
+    k = {"low": 0.6, "base": 1.0, "high": 1.3}[scen]           # scales layer adoption, not core
+    core = variant_G(G4, 80)                                   # 4-appliance core at 80 units/retailer
+    core_rev_cl = core["per_retailer_revenue"] * 30 * 12       # ₹/yr per mature cluster
+    core_con_cl = core["per_retailer_all_in"] * 30 * 12        # after technician floor + plan-seller jobs
+    LAY = {  # name: (start_year, rev per mature cluster/yr, contribution share, gross share, kind)
+        "Parts to cluster agencies":         (2, 3_500_000, 0.10, 0.20, "ops"),
+        "Trade-in field arm":                (2, 1_080_000, 0.57, 0.57, "ops"),
+        "Install & claims verification":     (3,   540_000, 0.80, 0.85, "data"),
+        "Replacement leads & AMC renewals":  (4,   400_000, 0.70, 0.75, "data"),
+        "Refurbished appliances (50% of clusters)": (5, 4_000_000, 0.12, 0.25, "ops"),
+        "E-waste feeder to recyclers":       (3,   150_000, 0.50, 0.60, "ops"),
+    }
+    ENT = {5: 1.5e7, 6: 3.0e7, 7: 5.0e7, 8: 8.0e7}             # verification/failure-intelligence enterprise deals (₹/yr)
+    HQ = {1: 6e6, 2: 9e6, 3: 1.5e7, 4: 2.5e7, 5: 4e7, 6: 6e7, 7: 8e7, 8: 1.0e8}   # ASSUMPTION
+    rows = []
+    for y in range(1, 9):
+        prev = CLUSTERS[y - 2] if y > 1 else 0
+        mature, new = prev, CLUSTERS[y - 1] - prev
+        eq = mature + 0.4 * new                                 # new clusters run ~40% of a mature year
+        r = {"year": y, "clusters_end": CLUSTERS[y - 1], "retailers_end": CLUSTERS[y - 1] * 30}
+        r["Core service"] = core_rev_cl * eq; con = core_con_cl * eq; gross = 0.33 * core_rev_cl * eq
+        data_rev = 0.0
+        for name, (st, rv, cs, gs, kind) in LAY.items():
+            if y >= st:
+                age_f = min(1.0, 0.4 + 0.3 * (y - st))
+                v = rv * eq * age_f * (k if kind == "data" else min(k, 1.0) if scen == "low" else 1.0)
+                r[name] = v; con += v * cs; gross += v * gs
+                if kind == "data": data_rev += v
+            else:
+                r[name] = 0.0
+        ent = ENT.get(y, 0) * k; r["Brand failure-intelligence & verification API"] = ent
+        con += ent * 0.75; gross += ent * 0.8; data_rev += ent
+        rev = sum(v for kk, v in r.items() if kk not in ("year", "clusters_end", "retailers_end"))
+        fixed = 165000 * 12 * eq + HQ[y]
+        r.update(revenue=rev, contribution=con, contribution_pct=con / rev, gross_pct=gross / rev, ebitda=con - fixed,
+                 ebitda_pct=(con - fixed) / rev, data_revenue=data_rev, ops_revenue=rev - data_rev)
+        rows.append(r)
+    return rows
+
+
+if __name__ == "__main__" and "--stack" in sys.argv:
+    for scen in S:
+        print("\n==", scen)
+        cum = 0
+        for r in stack(scen):
+            cum += min(0, r["ebitda"])
+            print(f"Y{r['year']} clusters {r['clusters_end']:>3} rev ₹{r['revenue']/1e7:6.1f} Cr | core {r['Core service']/1e7:5.1f} | data {r['data_revenue']/1e7:4.1f} | "
+                  f"GM {r['gross_pct']:.0%} contrib {r['contribution_pct']:.0%} EBITDA ₹{r['ebitda']/1e7:5.1f} Cr ({r['ebitda_pct']:.0%}) cum burn {cum/1e7:5.1f}")
+        y7, y8 = stack(scen)[6], stack(scen)[7]
+        for y in (y7, y8):
+            ev = y["ops_revenue"] * 2.5 + y["data_revenue"] * 7
+            print(f"  exit Y{y['year']}: ops ₹{y['ops_revenue']/1e7:.0f} Cr x2.5 + data ₹{y['data_revenue']/1e7:.0f} Cr x7 = EV ₹{ev/1e7:.0f} Cr; at 10x EBITDA ₹{10*y['ebitda']/1e7:.0f} Cr")
+    b = stack("base")[6]
+    print({k: round(v / 1e7, 1) for k, v in b.items() if isinstance(v, float) and v > 1e5})
