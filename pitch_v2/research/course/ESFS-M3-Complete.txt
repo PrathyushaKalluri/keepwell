@@ -1,0 +1,583 @@
+₹Making a Startup Fundable
+Module 3
+What Makes a Startup Fundable
+Share Your Views
+What Makes a Startup Fundable
+
+
+      Great Product                   Excellent Team          High Potential Market
+
+
+
+
+  In Demand Technology             Experienced Founders         High Impact Story
+
+
+
+
+         Scalable Business Model                          High Traction
+A Framework On Fundability of Startup
+Category            Potential               Uniqueness                 Quality
+
+
+Market              Size, Growth,           Segment, Niche, Barriers   Sunrise/Sunset,
+                    Addressability                                     Global/Local, Market
+                                                                       Dynamics
+
+Product / Service   Scalable, Repeatable,   IP, Moat, Process Edge,    Consistency, Stickiness,
+                    Vision                  Delivery Model             Satisfaction, NPS
+
+Startup             Team, Talent, Fire,     Brand, Partnerships,       Governance, Compliance,
+                    Commitment, Business    Network Access             Reporting Readiness
+                    Plan
+Market
+
+
+Potential                                  Uniqueness                           Quality
+  Addressable market (TAM/SAM)               Underserved niches, new segments     Sunrise vs. sunset status
+  Growth trends and future vision            Policy tailwinds/headwinds           Global vs. local market
+  Barriers to entry (new vs. old sector)     Unique distribution, local edge      Will new supply/demand shift future?
+Product/Service
+
+
+Potential                         Uniqueness                               Quality
+  Scalable, repeatable              Is there a real IP here?                 User retention, engagement, NPS
+  Clear business model              How easy / difficult it is to copy?      Consistent uptime/performance (service)
+  Long term vision, opportunity     Sticky user experience, integrations     Willingness to pay a premium
+  Short term view                   High switching costs, "lock-in"          Business upsides
+Startup
+
+
+Potential                              Uniqueness                 Quality
+  Founders and Team                      Why this team/company?     Governance, compliance, board
+  Business / Entrepreneur experience     Any unfair advantage       Cap table (no surprises)
+  Ability to “sell” vision to others     Any effective leverage     Legal, HR, accounts all in order
+  Capability to pivot when needed                                   Investor/exit/data room “ready”
+                                                                    Ex: CIE-mentored, clean diligence
+X-Factor (Beyond the Framework)
+
+
+
+         Founder story, investor chemistry   Timing, serendipity, resilience
+
+
+
+
+              Local alumni mentor effect      Why some startups "click"
+
+Everyone explains their bonus score
+A Sample Scoring Chart
+Category                               Potential   Uniqueness   Quality   Total
+
+Market                                    5            5          5        15
+
+Product / Service                         10          10          10       30
+
+Startup                                   15          15          15       45
+
+Total                                     30          30          30       90
+
+
+   Additional 10 points for X-Factor
+TalentSprint (Scaling Stage in 2015)
+Category                   Potential                      Uniqueness                          Quality
+
+Market                 Large graduations,               Low selection rate            Global challenge
+                      Low placement rates              High cost of training
+
+Product            3 Month full time bootcamp       First BootCamp in India,       High Placement (80%)
+                      Experiential Learning       Unique Pedagogy, Premium            Good NPS (70%)
+                   Favorable Unit Economics                 Pricing                High Completion (95%)
+
+Startup                Global, Multi Domain,           Industry Leaders                 Professional
+                         Leadership Team              Respected Angels             Committed to Institution
+                                                                                           Building
+
+
+
+    X Factor: Past Startup Experience | Huge Industry Connect | Multiple Management Members
+PowerMF (Product Development Stage in 2007)
+Category                     Potential                      Uniqueness                       Quality
+
+Market                 MF Penetration Low,               Growing Economy,          Demographic Dividend, High
+                   Huge Headroom for growth               Growing Access               Investible Surplus
+
+Product                 Futuristic Market,            First of its kind platform    Strong features, yet to be
+                       directionally aligned          Unique business model                  tested
+
+Startup                   Single Founder              Top MFs have signed up           Frugal Positioning,
+                      No Startup Experience                                        No Major Team Investments
+
+
+
+    X Factor: Great Opportunity Identified | Strong Fund House Relationships
+TalentSprint Indicative Rating
+Category            Potential   Uniqueness   Quality   Total
+
+Market
+
+Product / Service
+
+Startup
+
+X-Factor
+
+Total
+PowerMF
+Category            Potential   Uniqueness   Quality   Total
+
+Market
+
+Product / Service
+
+Startup
+
+X-Factor
+
+Total
+LearnEasy
+
+                  Potential                          Uniqueness                     Quality
+
+Market            Fast-growing EdTech, huge TAM,     Niche focus: K12, vernacular   Highly favorable, sunrise, global-
+                  Leader vacated space               content                        local scope
+
+Product/Service   Effective learning app, scalable   Custom algorithms, adaptive    Anecdotal positive feedback, No
+                  platform                           learning                       quality metric, limited product
+                                                                                    features
+
+Startup           Passionate team, No                Faculty mentors, student       Early governance, Nothing broken,
+                  business/startup experience        ambassadors                    basic compliance;
+CropCare
+
+                  Potential                              Uniqueness                         Quality
+
+Market            Agriculture: massive size, essential   Few full-stack agri solutions in   Huge future; mix of sunrise/sunset
+                  segment                                landscape                          crops
+
+Product/Service   Offers full-stack but average user     Unique IoT plus advisory bundle    Service quality fluctuates,
+                  ratings                                                                   inconsistent engagement
+
+Startup           Founder has deep domain, team          Rural/grassroot partner network,   Basic compliance, good local board,
+                  can scale                              pilots                             improving hygiene
+MediQuick
+
+                  Potential                             Uniqueness                            Quality
+
+Market            Mature, highly competitive            Not first-mover, well-funded rivals   Crowded, increasingly regulated
+                  healthtech space
+
+Product/Service   Reliable telemedicine stack, strong   UX is good, but easily replicable     High customer satisfaction, but
+                  core feature                                                                support issues
+
+Startup           Tech solid, compliance/               Limited network, no major             Delays in GST, filings, data room
+                  documentation weak                    partnerships                          incomplete
+4 Pillars for a Startup to Raise Funds
+
+                                  1                                       2
+
+ Pitch (Narrative)                          Business Model (Engine)
+ The story investors buy into               How the money is made
+
+
+
+                                  3                                       4
+
+ Compliance (Hygiene)                       Data Room (Proof)
+ Right to operate and due diligence ready   Evidence behind every claim
+Pillar 1: Pitch (Narrative)
+Pitch Deck is Founder's Power Tool
+
+             Builds the perception                              Controls the narrative
+       Strategic self-assessment during creation           Opportunity to build investor preference
+
+
+
+          Highlights the opportunity                         Advances the conversation
+     Market and company potential, USPs and MOAT   Understand investors sentiments and fit for the business
+Pitch Deck Structure for Startups
+
+  Why this startup? (impact)                    Market pain,                    Team, traction, X-
+                                            solution, opportunity               factor spotlighted
+
+
+
+       Ask: amount, milestones, rationale                           Consistent evidence links
+Know your audience
+
+                   Angels                     VCs              Strategic/Corporate
+           Passion, potential, story   Scale, traction, team   Synergy, market positioning
+
+
+Customize for audience priorities
+
+Use relevant data and analogies
+Bring Data Into the Narrative
+Market & Product Data
+                                             Segment
+                                          TAM/SAM/SOM
+                                            with figures
+                     User testimonials,                       Demonstrate
+                     customer pipelines                    impact and demand
+
+
+
+NPS scores, repeat                                                                  Use data
+ purchase rates
+                                                3                              for persuasiveness
+
+                                   2                         4
+
+
+
+
+                         1                                            5
+Communicating Company Edge
+
+
+The Big Why?                                          Who is in the Cockpit?
+Why we started, why this problem, why this solution   The team which will drive
+
+
+
+
+What is the Opportunity?                              What is Unique about Us?
+What is the potential that we can exploit             Product, IP, Market Knowledge, Team
+
+
+
+
+How we will Achieve?                                  Why we will Succeed?
+Our strategies and plans to exploit opportunity       Commitment, product, team, market knowledge
+Avoiding Common Deck Mistakes
+
+                    1                                                     2
+
+     Hiding weak matrix dimensions                         Overloading with jargon or tech
+
+
+                    3                                                     4
+
+    Disconnect between claim and proof                  Unclear or unjustified fundraising ask
+
+
+                                              5
+
+                                  Lack of narrative coherence
+Pillar 2: Business Model (Engine)
+Putting numbers to the narrative
+
+
+   Shows the growth plan   Brings out unit economics       Ties to fundability
+
+
+
+
+    Demonstrates path         Enhances founder–        Directs towards future value
+      to profitability          investor trust
+Explaining Your Economics
+
+
+
+
+   How do we make money    What does it take to get a customer           What does it cost
+                                                                        to serve a customer
+
+
+
+
+     What is the pricing      When will the cash come in         What are the sensitive parameters
+     strategy and why
+Building Defensible Assumptions
+
+
+
+
+               Revenue                            Expenses                                 Key Ratios
+ # Customers                         Cost of delivering the product            Gross Margin and its movement
+ Average Revenue / Customer          Cost of acquiring a Customer              CAC and LTV
+ Retention Percentages               Team expenses across various activities   SG &A and movement with scale
+ Key growth triggers                 Financial Expenses                        EBITDA, EBIT
+ Life Time Value and Repeat Orders   Depreciation and Amortisations            Cash burn
+Model Red Flags & Investor Questions
+
+ Missing/negative                   Flimsy growth or margin claims     Market too narrow / fragmented
+ unit economics
+
+
+
+ No proof of stickiness or demand                    Inability to explain numbers simply
+Pillar 3: Compliance (Hygiene)
+Areas of Focus
+
+
+
+
+                         Corporate, Legal                                                          HR, Finance and Tax
+Ensuring requisite registrations and adherence to company bylaws, legal    Managing payroll, financial reporting, employee policies, and tax compliance.
+                 statutes, and regulatory frameworks.
+
+
+
+
+                     Customer and Vendor                                                       IP, Data Privacy and Others
+ Maintaining ethical relationships with clients and suppliers, including    Protecting intellectual property, ensuring data security, and complying with
+                       contract terms and SLAs                                                              regulations
+Corporate, Legal
+Why it matters: Ensures your right to operate, builds confidence for investors, and is foundational for due diligence.
+
+
+
+
+               Incorporation                                     Board Structure                                   Statutory Registers
+              MoA, AoA, CIN, PAN                                 Meetings, ROC filings                              Shareholders, directors
+
+
+
+
+                                   Key Licenses/Permits                              Shareholder Agreements
+                                       Industry, trade, sector                                Cap table clarity
+HR, Finance, Tax
+
+
+
+
+           HR & Employment                                    Payroll Compliance                                 Financial Statements
+Employment contracts, ESOP policy, and labor         Ensuring compliance with PF, ESI, maternity            Preparation and timely filing of audited
+                law compliance.                       benefits, and sexual harassment policies.                       financial statements.
+
+
+
+
+                                       Tax Compliance                                    Financial Controls
+                           Up-to-date tax registrations (GST, PAN, TDS)         Robust expense accounting practices and
+                                        and timely returns.                              strong financial controls.
+
+Why it matters: Shows operational discipline and financial hygiene, reduces risk and surprises for investors, and clears the path for scale.
+Customer and Vendor Compliance
+
+
+
+
+             Customer Contracts:                                Vendor Agreements:                                    Service Records:
+ Signed contracts, major SLAs, and purchase         Clear supplier/vendor agreements, NDAs, and        Detailed records and logs of service delivery for
+      orders ensuring clear agreements.                        defined payment terms.                            accountability and tracking.
+
+
+
+
+                                     Contract Management:                                   Ethical Practices:
+                          Ensuring contract renewal and exit clauses are      Compliance with anti-bribery and anti-money
+                                      clear and enforceable.                             laundering regulations.
+
+Why it matters: Minimizes default/dispute risk, secures revenue proof, demonstrates reliability and ethical practice—key for investor trust.
+IP, Data Privacy & Other
+
+
+
+
+                             IP Filings:                                                        Confidentiality:                                                Data Privacy:
+     Intellectual property filings, assignments, and proof of           Strict confidentiality clauses covering all staff and vendors.      Robust data privacy and security policies (GDPR, IT Act
+                  patent/trademark registration.                                                                                                                 adherence).
+
+
+
+
+                                                           Certifications:                                                    ESG & Litigation:
+                                    Essential regulatory certifications (e.g., FSSAI, ISO, sectoral).      Environmental/social governance frameworks and a log of
+                                                                                                                             litigation/disputes.
+
+Why it matters: Protects competitive edge, builds digital trust, ensures compliance with key laws, and is required by global investors and scale partners.
+Pillar 4: Data Room (Proof)
+Evidence for Pitch Deck Claims
+
+
+ Market size: research reports, customer            Traction: user growth charts, NPS,               Product: prototype videos, feature
+                surveys                                   retention, testimonials                             documentation
+
+
+
+
+          Team: bios, track records, founder agreements                             Ask: milestone plans, funding use scenarios
+Proof for Business Model Assumptions
+
+
+
+
+                 Revenue                                                Cost structure                                             CAC/LTV
+  customer contracts, invoices, pipeline docs                      salary, SG&A data, vendor bills                    marketing spend history, cohort analysis
+
+
+
+
+                                                Scalability                                          Unit economics
+                              operational processes, tech scalability plans                    sample P&Ls, model walkthroughs
+Documents for Compliance & Operational Hygiene
+
+
+
+
+Corporate: ROC filings, board resolutions, licenses    HR: contracts, ESOP records, labor law proof          Tax & audit: GST/TDS returns, financial statements
+
+
+
+
+                            Customer/vendor: major agreements, SLAs, NDAs        Data privacy: cyber law, IT policy, certifications,
+                                                                                                   disputes log
+Summary
+Employees Stock Options
+4 Pillars of Startup Fundability
+
+
+
+
+Pitch Deck                             Business Model                    Compliance                           Data Room
+Shapes founder narrative,              Quantifies growth, margins, and   Demonstrates operational             Backs claims with data,
+communicates opportunity and           economics, proves future value    discipline, minimizes risk, builds   documents streamlines diligence
+strengths, drives investor interest.   and scalability.                  trust, enables due diligence.        and accelerates closure.
+What is ESOP?
+
+
+To Attract and                  Right to buy shares,        Retain and Align
+Retain Talent                   not obligation              Talent to the Mission
+Upside over the Salary earned   No early cash burn needed   1 to 5 year vesting
+Why Investors Care
+
+
+Team has "skin in the game"             ESOP Design Basics (India)
+  Shows readiness for scaling up          5–15% common ESOP pool
+  Keeps key tech, sales, ops              Vesting: 1-year, 3-5 year duration
+  Founders can't hoard all ownership      Early leavers don't vest options
+  Needed for diligence, legal closure     Trigger: liquidity or exit event
+                                          Pool size revisited in every round
+Common ESOP Mistakes by Startups
+            1                              2                            3
+
+ Lack of Documented Plan          Pool and Individual       No Clear Process Defined
+                                    stock too little
+
+                    4                                            5
+
+      Leavers left with loose shares                 Lack of clarity on the key
+                                                    management team members
+ESOP as a Fundability Tool
+
+
+        Attract Talent       Retain Talent
+
+
+
+
+         Enable Scale        Develop Focus on Goal
+ESOP – Employee's Perspective
+Understanding Employee Stock Option Plans from the employee's viewpoint - your
+rights, opportunities, and what it means for your financial future.
+ESOP – Employee's Perspective
+  Right to buy shares later | Quantum based on Performance
+  You receive the option to buy shares at a predetermined price in the future
+
+
+
+  Vesting: 1–5 years
+  Your options become available gradually over time
+
+
+
+  Pay "exercise price," get equity
+  When you're ready, you pay the agreed price to convert options into actual shares
+
+
+
+  Sell at IPO, acquisition, buyback
+  Your payday comes when the company goes public, gets acquired, or buys back shares
+
+
+
+  Not salary, but ownership
+  ESOPs represent a stake in the company's future success, not immediate compensation
+Tax and Payouts (2025 Rules)
+
+No tax at grant                                     Tax on "exercise"                                TDS by employer; pay
+You don't pay taxes when you first receive          (FMV-exercise price)                             balance in returns
+the ESOP grant                                      Taxes apply when you convert options to          Your employer deducts tax at source, you
+                                                    shares, based on fair market value minus         pay any remaining amount during tax filing
+                                                    exercise price
+
+
+
+
+Extra: Sale = capital gains tax                                             7-year tax deferral for eligible startups
+When you sell the shares, you'll also pay capital gains tax on the          Qualified startups offer the benefit of deferring tax payments for up
+profit                                                                      to 7 years
+Key Questions Before Accepting ESOPs
+
+Vesting: Years, cliff,                         How/when can I sell?                            Exercise price
+acceleration terms?                            Know the exit opportunities and liquidity       vs market value?
+Understand the timeline and conditions for     events that will allow you to cash out          Compare what you'll pay versus the
+when your options become available                                                             current estimated value of the shares
+
+
+
+
+ESOP pool vs company shares?                                            Digital portal, grant letter received?
+Understand what percentage of the total company your options            Ensure you have proper documentation and access to track your
+represent                                                               ESOPs
+ESOP Calculations: A Step-by-Step Example
+
+Initial Grant Details                                                At Vesting & Exercise
+Your company grants you Employee Stock Option Plans (ESOPs) with a   After the 5-year vesting period, your options become available to
+specific exercise price and vesting period.                          exercise (convert into shares) at the original exercise price, regardless of
+                                                                     the current market value.
+   ESOPs Granted: 10,000
+   Exercise Price: Rs. 15                                               Fair Market Value (FMV) on Exercise: Rs. 30
+
+   Vesting Period: 5 Years                                              Cost to Exercise: 10,000 ESOPs * Rs. 15 = Rs. 150,000
+
+
+
+
+At Sale Transaction                                                  Calculate Net Profit
+You hold onto your shares, and the company's value grows. When you   The financial outcome is the difference between your total sale value and
+decide to sell your shares, they are worth significantly more.       the cost incurred to exercise your options.
+
+   Share Price on Transaction: Rs. 300                                  Total Sale Value: Rs. 3,000,000
+   Total Sale Value: 10,000 ESOPs * Rs. 300 = Rs. 3,000,000             Less Exercise Cost: Rs. 150,000
+                                                                        Net Profit: Rs. 2,850,000
+ESOPs – Employee Watchlist & Pitfalls
+  Leaving startup? Window to exercise
+  You typically have a limited time period to exercise your vested options after leaving the company
+
+
+  No liquidity = no payout
+  Without an IPO, acquisition, or buyback program, your options may remain worthless on paper
+
+
+
+  Dilution risk if startup raises rounds
+  New funding rounds can reduce your percentage ownership of the compan
+
+
+  Red flag: "Promise only," unclear docs
+  Beware of verbal promises without proper legal documentation and clear terms
+Recent India Trends
+Buybacks: Zomato,                                                  New eligibility: gig, part-time, consultants
+Meesho, Razorpay, Flipkart                                         ESOP programs are expanding beyond full-time employees to include
+Major Indian startups are implementing employee buyback programs   various worker categories
+to provide liquidity
+                                                                   Must digitally track/report grants
+Fast vesting, long exercise                                        Regulatory requirements now mandate digital tracking and reporting of
+(Meesho: 10 years)                                                 all ESOP grants
+
+Companies are offering quicker vesting schedules with extended
+exercise windows
+                                                                   Early employees can gain most
+                                                                   Those joining startups in early stages typically see the highest returns
+                                                                   from ESOPs
+Employee Checklist
+Peer Activity
+  % of pool and grants
+  Vesting speed, cliff, acceleration
+  Exercise price, buyback/exit, taxes
+  Is startup ESOP-compliant (2025 rules)?
+  Clear communication, regular statements
+

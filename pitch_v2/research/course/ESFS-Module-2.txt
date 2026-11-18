@@ -1,0 +1,614 @@
+Early Stage Funding for a Startup
+M2: Modes of Startup Funding
+
+Investment Instruments
+
+                                    1
+Instruments: Session Objectives
+
+  Learn about Various types of instruments
+  Understand the key features and uses of each instruments
+  Analyse why certain instruments are popular with investors
+
+                                                               2
+Company is a Legal Entity
+
+  A Company can raise money in different ways
+  Raise Capital by Issuing Shares
+  Borrow Money (Loan, Debt, Bond)
+  Avail Grants and Awards
+  This allows the company to issue different instruments
+
+                                                           3
+Key Corporate Instruments
+
+
+  Shares                                                   Debt Convertible to Shares
+  (Ownership, No Repayment)                                (Interest Payment, Repayment / Dilution)
+
+
+
+  Debt                                                     Grants and Awards#
+  (Interest and Principal Repayment)                       (No Ownership Dilution, No Repayment)
+
+
+#Not necessarily an instrument, but a way to raise funds
+
+                                                                                                      4
+Concept of Dilution
+
+  When Company Issues New Shares, Total Share Capital Goes Up
+  Hence, Percentage of Ownership of Existing Shareholders reduces (diluted)
+  Example:
+     Company has 800,000 shares fully owned by founders
+     Issues 200,000 shares to Angel Investor
+     Your Holding of the Company comes down from 100% to ?%
+
+
+     Dilution —> Effect of Issue of New Shares on Existing Shareholders Holding Percentage
+
+
+                                                                                             5
+Concept of Debt Servicing
+
+  When Company takes Loans / Debt, there is a need to service them
+     Servicing is through repayment of interest and repayment of loan amount
+  In this, ownership of the shareholders does not get diluted (non dilutive)
+
+
+
+
+     Debt Servicing —> Need for repayment of loan and payment of interest
+
+
+                                                                               6
+Dilution impact of various Instruments
+
+ Instrument Issued                Dilution Effect   Debt Servicing
+
+ Shares                                  Yes             No
+
+ Convertible Debt                        Yes          Partly Yes
+
+ Debt                                    No              Yes
+
+ Grants and Awards                       No              No
+
+
+                                                                     7
+Understanding Shares
+
+                       8
+Concept of Shares
+
+  A Share is an unit of ownership of the Company
+  Shareholders have various powers in the running of the Company
+     Appoints the board,
+     Approves the total loan that can be raised
+     Approves the Financials, Auditors and other key affairs of the Company
+  There are various types of Shares
+
+                                                                              9
+Types of Shares
+
+
+
+
+ Equity Shares                   Preference Shares
+
+
+
+
+ Convertible Preference Shares   Options (ESOP, Warrants etc.)
+
+                                                                 10
+Equity Shares
+
+  Simplest form of Ownership, also called Ordinary shares
+  Has Voting Rights in proportion to the shares held on total shares of the Company
+  On Liquidation, eligible for residual claim only after debts and any preferences
+  Typically founders, management and angel rounds happens in Equity
+
+                                                                                      11
+Preference Shares
+
+  Will have Preferential Rights over Equity
+     Eg. Priority payout in liquidation after debt, before Equity
+     First right for dividends before Equity holders
+  Usually no voting rights
+     Cannot influence key decisions
+  Can have clauses pertaining to downside protection
+     Risk mitigation for investors
+
+                                                                    12
+Convertible Preference Shares
+
+  Kind of Preference Shares which can be converted to equity shares
+  Automatic conversion on events or time or both
+  Most preferred by VC / PE investors in a startup
+     Separate for Each Series (Series A Preference Shares, Series B Preference Shares etc.)
+     Increasing complexity on dilution, anti-dilution, preferences with each series
+  Generally seek voting rights similar to Equity
+
+                                                                                              13
+Options
+
+  Employees Stock Option Plans (ESOP)
+     Reserved for Employees (and sometimes Advisors)
+     Options convertible to Equity after vesting
+     Vesting, typically happens over a period of 3 to 5 years based on the scheme
+     Used to attract good talent, with low cash outflow (salaries) buyt high upside (equity)
+  Warrants / Right to Subscribe
+     Issued to Founders typically to incentivise retention and performance
+
+                                                                                               14
+Debt Instruments
+
+                   15
+Debt: When and Why for Startups
+
+  It is a loan and has repayment and interest payment obligations
+  Cash flow pressure increases with servicing of debt and interest
+     Viable when there is a predictable revenue stream
+  No dilution, control retained
+     Reduces equity raising needs and thus dilution
+
+                                                                     16
+Bank/NBFC Loans
+
+ Bank/NBFCs offer Loans
+    Have fixed interest and repayment schedules
+ Collateral/security requirements common
+    Assets of the company, founders shares
+ Personal Guarantee of founder insisted
+ Suitable only when there is a predictable revenue and cashflow
+
+                                                                  17
+Non-Convertible Debentures
+
+  Tradable debt security instrument
+     Fixed interest, maturity term
+  Debt market exists, like for equity
+     Debentures can be listed and traded
+  Cannot convert to equity
+  Ideal for later-stage, revenue generating capex driven startups
+  Credit rating needs / restriction on individuals to invest
+
+                                                                    18
+Venture Debt
+
+  Non-dilutive, typically post-Series A
+  Warrants/options combined with debt for equity upside
+  Ideal for lower cost stable businesses or capex heavy businesses
+  VC funds specialised offering
+     InnoVen, Trifecta, Alteria
+
+                                                                     19
+Convertible Instruments
+
+                          20
+Convertibles: Debt-to-Equity
+
+  Start as debt, converts to equity later
+  Typically used during Bridge rounds, uncertain valuations
+     Defers valuation/pricing until milestone
+  Flexible for both founders and investors during uncertain times
+  Popular in the early-stage Indian market
+
+                                                                    21
+Type of Convertible Debentures
+
+  Convertible Debentures, Becomes Equity on Conversion
+     Compulsory or Optional
+  Indian VC standard practice
+     Trigger events: funding, time
+
+                                                         22
+SAFE: Simple Agreement for Future Equity
+
+  Unique convertible
+     there is no interest dues or a maturity date
+  Converts to equity on next equity financing event
+  Conversion price set by valuation cap or at a discount
+     to valuation arrived at during financing event
+  Investor only gets equity when company raises priced round
+  Founder-friendly: minimal legal complexity, popular in the US, iSAFE getting started in India
+
+                                                                                                  23
+Convertibles vs Equity for Founders
+
+  Positives
+     Flexibility postpone valuation decision to later date
+     Founder-friendly transition rounds
+  Risk
+     Cap table complexity
+     Requires very clear terms and understading
+
+                                                             24
+Summary of Instruments Discussed So Far
+
+ Shares                           Debt & Debentures              Convertibles
+  Equity Shares                     Bank/NBFC Loans                Convertible Debentures
+  Preference Shares                 Non-Convertible Debentures     SAFE
+  Convertible Preference Shares     Venture Debt
+  Options (ESOP, Warrants)
+
+
+                                                                                            25
+Team Discussion
+
+
+
+
+Learn Easy                                  CropCare                                    MediQuick
+Company needs 75 Lacs                       Company needs 150 Lacs                      Company needs 400 Lacs
+
+Angel investor happy to invest              Angel Group happy to invest                 Early Stage VC happy to invest
+
+                                 Each Team makes 2 groups, Group 1 Company, Group 2 Investor.
+                                      Discuss and Arrive at Instrument, Present to the class
+
+                                                                                                                         28
+Key Takeaways & Decision Principles
+
+  There are 4 key instrument types, each having its own features
+  Need to align startup need with Investor motivation
+  Right mix of Instruments will help startup balance growth, control, and risk
+  Have a clear view on cap table evolution
+  Get independent legal advice
+
+                                                                                 16
+Comparing Instruments
+
+                        29
+Market Data Snapshot – 2024
+
+  Instrument                                   % Deals                       Ticket (INR)C*          Common Use Case
+
+
+  Shares (Common/Pref)                                70–75                  0.5 to 100              Seed/Series A, team, expansion
+
+  Convertible Debt                                    10–15                  0.1 to 4                Bridge/pre-Series A, extension
+
+  Venture Debt                                         6–10                  1 to 20                 Post-VC, runway extension, asset
+
+  SAFEs, Others                                          <2                  0.1 to 0.5              Early seed, friends/family
+
+[*Estimates for 2024 sourced from Inc42, Startup India, KPMG reports, Eximius VC blogs, and investor interviews].
+
+                                                                                                                                        30
+Where do these Instruments Stand
+
+
+                                            Dilution: Yes
+
+
+
+
+                              Convertible                     Shares
+
+
+       Repayment: Yes                                                     No
+
+
+
+
+                                   Debt                     Grant/Award
+
+
+
+
+                                                 No
+
+                                                                               31
+How do these Instruments Compare with each other?
+
+ Parameter                 Shares     Convertible       Debt        Grants
+
+
+ Dilution                    ✅            ✅              ❌           ❌
+ Repayment Obligation        ❌            ✅              ✅           ❌
+ Board Rights                ✅            ❌              ❌           ❌
+ Typical Ticket Size      All Sizes    Medium       Small, Medium   Small
+
+
+                                                                             32
+Choosing Right Instrument—Stage, Investor, Trends Matrix
+
+ Startup Stage                    Shares    Convertible    Debt   Grants
+
+
+ Product Development Stage          ✓           ✓           ✕       ✓
+ Finding a Business Model Stage     ✓           ✓           ✕       ✓
+ Go to Market Stage                 ✓           ✓           ✓       ✕
+
+
+ Scaling Stage                      ✓           ✓           ✓       ✕
+
+
+ Maturity Stage                     ✓           ✕           ✓       ✕
+
+
+                                                                           33
+Investors for Early-Stage Startups
+                                     34
+Various Investor Categories
+
+
+
+
+ Friends and Family       Angel Investor         Angel Group           Early Stage VC
+         .
+
+
+
+
+               Late Stage VC          Venture Debt       Strategic Investors
+Friends and Family Funding
+
+                              1                                  2
+
+ Profile                           Engagement
+   Trusted personal network          Simple deal terms
+   Invest out of goodwill            Investment from savings
+   Very early stage support          Short-term, quick returns
+   Minimal legal paperwork           Risks to relationships
+   High emotional involvement
+   Typical cheque size: ₹1L–₹10L
+
+
+                                                                     36
+Angel Investors
+
+                            1                                                          2
+
+ Profile                                                   Engagement
+   Experienced entrepreneur or High Net-Worth Individual     Characterized by rapid decision-making
+   (HNI)                                                     Actively looks for early traction
+   Invests own wealth directly                               Represents a high-risk early bet
+   Seeks high-potential teams                                Offers strategic networking support
+   Often provides active mentorship                          Example: Indian Angel Network
+   Typical investment amount: ₹10L–₹1Cr
+
+
+                                                                                                      37
+Angel Group
+
+                            1                                    2
+
+ Profile                            Engagement
+   Syndicate of angel investors       Collective due diligence
+   Formal pitch process               Shares investment risk
+   Pooled resources                   Structured lead investor
+   Diverse mentoring access           Sector-focused investments
+   Typical cheque size: ₹25L–₹5Cr     Example: Mumbai Angels
+
+
+                                                                     38
+Early Stage VC
+
+                              1                                  2
+
+ Profile                             Engagement
+   Institutional investor fund         Data-driven assessment approach
+   Invests in scaling startups         Seeks market validation
+   Ticket size: ₹1Cr–₹100Cr            Structured investment process
+   Specializes by sector               Typically 5–8 year horizon
+   Offers board/mentor involvement     Example: Blume Ventures
+
+
+                                                                         39
+Late Stage VC
+
+                            1                                        2
+
+ Profile                                  Engagement
+   Large VC fund, typically Series A+       Conducts robust due diligence
+   Invests in proven business models        Prioritizes sustained revenue growth
+   Ticket size: ₹100Cr+                     Typically involves a longer holding period
+   Focus on strong portfolio oversight      Often includes international expansion focus
+   Aims for scaling towards exit events     Example: Matrix Partners
+
+
+                                                                                           40
+Venture Debt
+
+                                1                                 2
+
+ Profile                            Engagement
+   NBFC/bank, specialist fund         Revenue performance required
+   Asset-backed lending               VC equity as prerequisite
+   Non-dilutive capital offer         Focused on capital efficiency
+   Targets VC-backed startups         Tenure: 1–4 years
+   Structured repayment terms         Example: Trifecta Capital
+   Typical cheque size: ₹25L–₹5Cr
+
+
+                                                                      41
+Strategic Investor
+
+
+
+ Profile                                   Engagement
+   Corporate, tech company, or MNC           Seeks strong strategic fit
+   Invests for synergy and market access     Focus on IP and technology alignment
+   May acquire or partner with startups      Involves longer-term collaboration
+   Strong sector and market focus            Provides integration support
+   Aims for long-term integration            Example: Reliance, Accenture, Tata
+   Typical cheque size: ₹50L–₹1000Cr+
+
+
+                                                                                    42
+Summary
+
+ Type                  Cheque Size          Value-add           Exit Horizon
+
+
+ Friends/Family         ₹1L–₹10L        Relationship trust       1–3 years
+
+
+ Angel                  ₹10L–₹1Cr      Mentorship/network        3–7 years
+
+
+ Angel Group            ₹25L–₹5Cr       Shared expertise         3–7 years
+
+
+ Early VC              ₹1Cr–₹100Cr    Board, scaling support     5–8 years
+
+
+ Late VC                 ₹100Cr+        Growth/exit focus        7+ years
+
+
+ Venture Debt           ₹25L–₹5Cr      Non-dilutive, flexible    1–4 years
+
+
+ Strategic Investor   ₹50L–₹1000Cr+   Tech/market synergy        5+ years
+
+
+                                                                               43
+Investment Criteria
+
+
+ Friends and Family           Angels             Angel Groups
+   Relationship                 Founders           Strong founder, Team
+   Moral commitment             Ambition           Defensible technology
+   Emotional support            Early traction     Group-excited sectors
+
+
+
+ Early VC                     Late VC            Venture Debt
+   Large markets                Revenue growth     Revenue
+   Scalable models              Robust team        VC backing
+   Product-Market Fit (PMF)     Proven metrics     Capital efficiency
+
+
+                                                                           44
+Typical Investor Rights in Funding Rounds
+
+  Valuation is done on a Fully Diluted Basis
+     Assuming all convertibles are fully converted.
+  Founder and Employee Equity Vesting process defined
+     For enhanced investor confidence.
+     Typically includes a one-year cliff, with gradual release (for both Options and Equities sometimes).
+     ESOP: Grant   → Vesting → Exercise
+  Board Seats and Voting Rights are defined.
+  Other Key Terms:
+     Exit/buyback terms are crucial, especially in terms of an early exit.
+     Anti-dilution rights affect future prices, specifically in case of down-valued rounds.
+     Tag Along / Drag Along Rights.
+
+                                                                                                            45
+Funding Myths & Practicalities
+                                 46
+Myth 1 – Every Startup Must Raise Capital
+
+      External funding is not always required.
+
+
+      Bootstrapping and organic revenue growth are often overlooked.
+
+
+      Raising capital prematurely can lead to unnecessary equity dilution.
+
+
+      Many businesses thrive with self-sustainable models.
+
+
+      Align funding strategies with actual business needs.
+                                                                             47
+Myth 2 – Failure to Raise Means Failure for the Business
+
+      Fundraising issues not always fatal
+
+
+      Many survive on revenues alone
+
+
+      Pivot or cost-management can rescue
+
+
+      Alternative funding sources exist
+
+
+      Resilience trumps constant capital chase
+                                                           48
+Myth 3 – Debt Is Always Risky
+
+      Debt preserves equity ownership
+
+
+      Suitable when cash flows are predictable
+                                                     49
+
+      Interest cost vs dilution trade-off
+
+
+      Structured properly, debt enables growth
+
+
+      Avoid over-leverage through careful planning
+Myth 4 – Grants Are Free Money
+
+      Grants demand strict compliance
+
+
+      Milestones and reporting can be burdensome
+
+
+      Limited amounts, not long-term funding
+
+
+      Builds credibility, but doesn't scale
+
+
+      Best for R&D and proof-of-concept phases
+Myth 5 – Convertible Notes Always Founder-Friendly
+
+      Conversion terms may dilute heavily
+
+
+      Valuation caps and discounts matter
+
+
+      Complex triggers can disadvantage founders
+
+
+      Read term sheets for hidden clauses
+
+
+      Not a default "easy" option
+                                                     51
+Myth 6 – Every Investment Is Good
+
+      More capital isn't always beneficial
+
+
+      Wrong investor can derail strategy
+
+
+      Beware over-valuation and harsh terms
+
+
+      Fit investor to stage and vision
+
+
+      Quality of capital matters most
+
+                                              52
+Term Sheet Essentials for Founders
+
+      Liquidation preference dictates payout order
+
+
+      Anti-dilution clauses protect investor shares
+
+
+      Board composition affects governance control
+
+
+      Vesting schedules align long-term incentives
+
+
+      Read and negotiate every term
+                                                      53
+

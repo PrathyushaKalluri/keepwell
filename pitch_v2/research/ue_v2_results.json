@@ -1,0 +1,2430 @@
+{
+ "params": {
+  "units_month": {
+   "low": 30,
+   "base": 60,
+   "high": 120,
+   "tag": "ASSUMPTION",
+   "source": "RA units_per_month_independent_target_shop"
+  },
+  "ac_share_units": {
+   "low": 0.25,
+   "base": 0.3,
+   "high": 0.35,
+   "tag": "ASSUMPTION",
+   "source": "RA (AC 25-35% of dealer units)"
+  },
+  "other_install_share_units": {
+   "low": 0.2,
+   "base": 0.25,
+   "high": 0.3,
+   "tag": "DERIVED",
+   "source": "RA install shares WM 90%, geyser 100%, TV 55% x mix"
+  },
+  "installed_base": {
+   "low": 2000,
+   "base": 3000,
+   "high": 5500,
+   "tag": "DERIVED",
+   "source": "~4.5 yrs of sales x survival"
+  },
+  "oow_share": {
+   "low": 0.75,
+   "base": 0.8,
+   "high": 0.85,
+   "tag": "DERIVED",
+   "source": "AR share_out_of_comprehensive_warranty"
+  },
+  "paid_events_per_unit_yr": {
+   "low": 0.3,
+   "base": 0.45,
+   "high": 0.63,
+   "tag": "DERIVED",
+   "source": "AR incidence weighted by unit mix (AC 1.55, fridge .11, WM .17, RO 1.65)"
+  },
+  "repair_capture": {
+   "low": 0.06,
+   "base": 0.12,
+   "high": 0.2,
+   "tag": "SOURCE-BACKED PROXY",
+   "source": "AR channel_share_dealer_arranged 10-15% of AC service"
+  },
+  "retailer_cac": {
+   "low": 30000,
+   "base": 18000,
+   "high": 12000,
+   "tag": "ASSUMPTION",
+   "source": "RA cac_per_retailer UNKNOWN; DOC 18k"
+  },
+  "retailer_churn_yr": {
+   "low": 0.35,
+   "base": 0.2,
+   "high": 0.1,
+   "tag": "ASSUMPTION",
+   "source": "DOC"
+  },
+  "oow_ticket_incl_gst": {
+   "low": 800,
+   "base": 1000,
+   "high": 1300,
+   "tag": "DERIVED",
+   "source": "AR bills: AC service 550, gas 2300, repair 1200-1500; mix"
+  },
+  "parts_share": {
+   "low": 0.3,
+   "base": 0.35,
+   "high": 0.45,
+   "tag": "DERIVED",
+   "source": "RB parts_share_of_repair_bill (applied to blended ticket)"
+  },
+  "parts_margin": {
+   "low": 0.1,
+   "base": 0.2,
+   "high": 0.3,
+   "tag": "ASSUMPTION",
+   "source": "RB parts_margin UNKNOWN; dealer margin 15-40% proxy"
+  },
+  "labour_payout_share": {
+   "low": 0.7,
+   "base": 0.6,
+   "high": 0.55,
+   "tag": "SOURCE-BACKED PROXY",
+   "source": "RB UC partner ~71% of gross; agency 45-60%"
+  },
+  "comm_repair": {
+   "low": 0.1,
+   "base": 0.08,
+   "high": 0.06,
+   "tag": "ASSUMPTION",
+   "source": "retailer referral commission"
+  },
+  "rework_share": {
+   "low": 0.06,
+   "base": 0.04,
+   "high": 0.03,
+   "tag": "ASSUMPTION",
+   "source": "AR rework 5-15% of jobs x partial cost"
+  },
+  "tech_cost_job": {
+   "low": 5,
+   "base": 2.5,
+   "high": 1.5,
+   "tag": "DERIVED",
+   "source": "RB tech_cost_per_job"
+  },
+  "insurance_job": {
+   "low": 4,
+   "base": 2.5,
+   "high": 2,
+   "tag": "DERIVED",
+   "source": "RB insurance_cost_per_job"
+  },
+  "levy_share": {
+   "low": 0.02,
+   "base": 0.01,
+   "high": 0.0,
+   "tag": "FACT",
+   "source": "RB gig levy TS 1-2%, AP none"
+  },
+  "auth_brand_coverage": {
+   "low": 0.3,
+   "base": 0.5,
+   "high": 0.65,
+   "tag": "ASSUMPTION",
+   "source": "share of retailer's AC units from brands that authorise us"
+  },
+  "install_routing": {
+   "low": 0.5,
+   "base": 0.7,
+   "high": 0.85,
+   "tag": "ASSUMPTION",
+   "source": "share of those installs the retailer routes to us"
+  },
+  "ac_install_net": {
+   "low": 700,
+   "base": 900,
+   "high": 1199,
+   "tag": "SOURCE-BACKED PROXY",
+   "source": "RA LG/Lloyd 1199+GST; RC SERVIZ brand pays 1000 / centre gets 700"
+  },
+  "materials_sale": {
+   "low": 800,
+   "base": 1500,
+   "high": 2500,
+   "tag": "SOURCE-BACKED PROXY",
+   "source": "RA copper 950-1100/m, bracket 750"
+  },
+  "materials_margin": {
+   "low": 0.15,
+   "base": 0.25,
+   "high": 0.35,
+   "tag": "ASSUMPTION",
+   "source": "UNKNOWN; dealer-supplied materials hint"
+  },
+  "ac_install_payout": {
+   "low": 550,
+   "base": 450,
+   "high": 400,
+   "tag": "ASSUMPTION",
+   "source": "technician pay per AC install"
+  },
+  "other_install_net": {
+   "low": 200,
+   "base": 300,
+   "high": 400,
+   "tag": "SOURCE-BACKED PROXY",
+   "source": "RA geyser 250-350; WM/TV UNKNOWN"
+  },
+  "other_install_capture": {
+   "low": 0.2,
+   "base": 0.35,
+   "high": 0.5,
+   "tag": "ASSUMPTION",
+   "source": ""
+  },
+  "other_install_payout": {
+   "low": 180,
+   "base": 200,
+   "high": 220,
+   "tag": "ASSUMPTION",
+   "source": ""
+  },
+  "comm_install": {
+   "low": 0.08,
+   "base": 0.05,
+   "high": 0.03,
+   "tag": "ASSUMPTION",
+   "source": "DOC 5%"
+  },
+  "amc_price_incl_gst": {
+   "low": 1099,
+   "base": 1299,
+   "high": 1599,
+   "tag": "SOURCE-BACKED PROXY",
+   "source": "RB UC AC plan 1098-1298; brand AMCs 1500-6000"
+  },
+  "amc_month": {
+   "low": 2,
+   "base": 4,
+   "high": 7,
+   "tag": "DERIVED",
+   "source": "RB attach 2-10% of OOW units/yr x retailer-referred share"
+  },
+  "amc_visit_cost": {
+   "low": 450,
+   "base": 350,
+   "high": 300,
+   "tag": "DERIVED",
+   "source": "RB amc_cost_per_visit 300-480"
+  },
+  "amc_visits": {
+   "low": 2,
+   "base": 2,
+   "high": 2,
+   "tag": "FACT",
+   "source": "RB"
+  },
+  "comm_amc": {
+   "low": 0.15,
+   "base": 0.12,
+   "high": 0.1,
+   "tag": "ASSUMPTION",
+   "source": "EW-like counter commission"
+  },
+  "jobs_day": {
+   "low": 2.2,
+   "base": 2.8,
+   "high": 3.5,
+   "tag": "SOURCE-BACKED PROXY",
+   "source": "RB UC 1.7/day avg; partners claim 70-80/mo; DOC 3.8"
+  },
+  "days": {
+   "low": 25,
+   "base": 25,
+   "high": 26,
+   "tag": "ASSUMPTION",
+   "source": ""
+  },
+  "util": {
+   "low": 0.6,
+   "base": 0.7,
+   "high": 0.8,
+   "tag": "ASSUMPTION",
+   "source": "RB seasonality-driven"
+  },
+  "income_floor": {
+   "low": 24000,
+   "base": 22000,
+   "high": 20000,
+   "tag": "DERIVED",
+   "source": "RB Tier2/3 mechanic earns 10-25k (base 20k); floor to recruit"
+  },
+  "season_peak": {
+   "low": 2.0,
+   "base": 1.8,
+   "high": 1.4,
+   "tag": "DERIVED",
+   "source": "RB AC Mar-Jun index; techs sized for blended peak"
+  },
+  "cluster_fixed": {
+   "low": 200000,
+   "base": 165000,
+   "high": 140000,
+   "tag": "ASSUMPTION",
+   "source": "DOC 1.65L (manager, dispatch, training, office, onboarding)"
+  },
+  "retailers_target": {
+   "low": 25,
+   "base": 30,
+   "high": 40,
+   "tag": "ASSUMPTION",
+   "source": ""
+  },
+  "retailer_fee_month": {
+   "low": 1500,
+   "base": 2500,
+   "high": 4000,
+   "tag": "ASSUMPTION",
+   "source": "variant C only: after-sales desk subscription"
+  },
+  "retailer_fee_adoption": {
+   "low": 0.3,
+   "base": 0.6,
+   "high": 0.8,
+   "tag": "ASSUMPTION",
+   "source": "variant C only"
+  },
+  "agency_fee_share": {
+   "low": 0.15,
+   "base": 0.2,
+   "high": 0.25,
+   "tag": "SOURCE-BACKED PROXY",
+   "source": "RC SERVIZ 30% of brand fee; UC keeps ~25-36%"
+  },
+  "agency_cluster_fixed": {
+   "low": 120000,
+   "base": 95000,
+   "high": 80000,
+   "tag": "ASSUMPTION",
+   "source": "variant D: manager + care, no training/tools"
+  },
+  "partner_payout_uplift": {
+   "low": 0.08,
+   "base": 0.05,
+   "high": 0.03,
+   "tag": "ASSUMPTION",
+   "source": "variant E: extra payout share to keep per-job partners loyal (no income floor)"
+  },
+  "filler_jobs_cluster": {
+   "low": 0,
+   "base": 150,
+   "high": 300,
+   "tag": "SOURCE-BACKED PROXY",
+   "source": "variant E: brand/e-com paid jobs in the trough via 247around/SERVIZ-type networks"
+  },
+  "filler_contrib": {
+   "low": 100,
+   "base": 150,
+   "high": 200,
+   "tag": "SOURCE-BACKED PROXY",
+   "source": "RC SERVIZ keeps 300 of 1000; we keep ~150 after cost"
+  }
+ },
+ "results": {
+  "DOC_ON_EVIDENCE": {
+   "low": {
+    "retailer": {
+     "lines": [
+      [
+       "other installs",
+       1.2,
+       200,
+       -9
+      ],
+      [
+       "OOW repair/service",
+       2.25,
+       678,
+       32
+      ],
+      [
+       "AMC sold",
+       2,
+       931,
+       -187
+      ]
+     ],
+     "revenue": 3628,
+     "contribution": -313,
+     "visits": 3.78,
+     "payouts": 2763
+    },
+    "cluster": {
+     "retailers": 25,
+     "revenue": 90700,
+     "contribution": -34750,
+     "fixed": 200000,
+     "ebitda": -234750,
+     "technicians": 4,
+     "tech_income_avg": 17269,
+     "income_topup": 26925,
+     "visits_month": 94,
+     "breakeven_retailers": null,
+     "contribution_per_retailer_net": -1390,
+     "margin": -0.383
+    },
+    "returns": {
+     "payback_months": null,
+     "ltv_3yr": 0,
+     "ltv_cac": 0
+    },
+    "cluster_table": [
+     {
+      "retailers": 15,
+      "revenue": 54420,
+      "contribution": -35250,
+      "fixed": 200000,
+      "ebitda": -235250,
+      "technicians": 3,
+      "tech_income_avg": 13815,
+      "income_topup": 30555,
+      "visits_month": 57,
+      "breakeven_retailers": null,
+      "contribution_per_retailer_net": -2350,
+      "margin": -0.648
+     },
+     {
+      "retailers": 20,
+      "revenue": 72560,
+      "contribution": -23000,
+      "fixed": 200000,
+      "ebitda": -223000,
+      "technicians": 3,
+      "tech_income_avg": 18420,
+      "income_topup": 16740,
+      "visits_month": 76,
+      "breakeven_retailers": null,
+      "contribution_per_retailer_net": -1150,
+      "margin": -0.317
+     },
+     {
+      "retailers": 25,
+      "revenue": 90700,
+      "contribution": -34750,
+      "fixed": 200000,
+      "ebitda": -234750,
+      "technicians": 4,
+      "tech_income_avg": 17269,
+      "income_topup": 26925,
+      "visits_month": 94,
+      "breakeven_retailers": null,
+      "contribution_per_retailer_net": -1390,
+      "margin": -0.383
+     },
+     {
+      "retailers": 30,
+      "revenue": 108840,
+      "contribution": -46500,
+      "fixed": 200000,
+      "ebitda": -246500,
+      "technicians": 5,
+      "tech_income_avg": 16578,
+      "income_topup": 37110,
+      "visits_month": 113,
+      "breakeven_retailers": null,
+      "contribution_per_retailer_net": -1550,
+      "margin": -0.427
+     },
+     {
+      "retailers": 40,
+      "revenue": 145120,
+      "contribution": -46000,
+      "fixed": 200000,
+      "ebitda": -246000,
+      "technicians": 6,
+      "tech_income_avg": 18420,
+      "income_topup": 33480,
+      "visits_month": 151,
+      "breakeven_retailers": null,
+      "contribution_per_retailer_net": -1150,
+      "margin": -0.317
+     },
+     {
+      "retailers": 50,
+      "revenue": 181400,
+      "contribution": -45500,
+      "fixed": 200000,
+      "ebitda": -245500,
+      "technicians": 7,
+      "tech_income_avg": 19736,
+      "income_topup": 29850,
+      "visits_month": 189,
+      "breakeven_retailers": null,
+      "contribution_per_retailer_net": -910,
+      "margin": -0.251
+     }
+    ]
+   },
+   "base": {
+    "retailer": {
+     "lines": [
+      [
+       "other installs",
+       5.25,
+       300,
+       77
+      ],
+      [
+       "OOW repair/service",
+       10.8,
+       847,
+       164
+      ],
+      [
+       "AMC sold",
+       4,
+       1101,
+       203
+      ]
+     ],
+     "revenue": 15127,
+     "contribution": 2987,
+     "visits": 16.72,
+     "payouts": 7425
+    },
+    "cluster": {
+     "retailers": 30,
+     "revenue": 453810,
+     "contribution": 26360,
+     "fixed": 165000,
+     "ebitda": -138640,
+     "technicians": 13,
+     "tech_income_avg": 17135,
+     "income_topup": 63250,
+     "visits_month": 502,
+     "breakeven_retailers": 188,
+     "contribution_per_retailer_net": 879,
+     "margin": 0.058
+    },
+    "returns": {
+     "payback_months": 32,
+     "ltv_3yr": 20352,
+     "ltv_cac": 1.1
+    },
+    "cluster_table": [
+     {
+      "retailers": 15,
+      "revenue": 226905,
+      "contribution": 2180,
+      "fixed": 165000,
+      "ebitda": -162820,
+      "technicians": 7,
+      "tech_income_avg": 15911,
+      "income_topup": 42625,
+      "visits_month": 251,
+      "breakeven_retailers": 1136,
+      "contribution_per_retailer_net": 145,
+      "margin": 0.01
+     },
+     {
+      "retailers": 20,
+      "revenue": 302540,
+      "contribution": 10240,
+      "fixed": 165000,
+      "ebitda": -154760,
+      "technicians": 9,
+      "tech_income_avg": 16500,
+      "income_topup": 49500,
+      "visits_month": 334,
+      "breakeven_retailers": 323,
+      "contribution_per_retailer_net": 512,
+      "margin": 0.034
+     },
+     {
+      "retailers": 25,
+      "revenue": 378175,
+      "contribution": 18300,
+      "fixed": 165000,
+      "ebitda": -146700,
+      "technicians": 11,
+      "tech_income_avg": 16875,
+      "income_topup": 56375,
+      "visits_month": 418,
+      "breakeven_retailers": 226,
+      "contribution_per_retailer_net": 732,
+      "margin": 0.048
+     },
+     {
+      "retailers": 30,
+      "revenue": 453810,
+      "contribution": 26360,
+      "fixed": 165000,
+      "ebitda": -138640,
+      "technicians": 13,
+      "tech_income_avg": 17135,
+      "income_topup": 63250,
+      "visits_month": 502,
+      "breakeven_retailers": 188,
+      "contribution_per_retailer_net": 879,
+      "margin": 0.058
+     },
+     {
+      "retailers": 40,
+      "revenue": 605080,
+      "contribution": 20480,
+      "fixed": 165000,
+      "ebitda": -144520,
+      "technicians": 18,
+      "tech_income_avg": 16500,
+      "income_topup": 99000,
+      "visits_month": 669,
+      "breakeven_retailers": 323,
+      "contribution_per_retailer_net": 512,
+      "margin": 0.034
+     },
+     {
+      "retailers": 50,
+      "revenue": 756350,
+      "contribution": 36600,
+      "fixed": 165000,
+      "ebitda": -128400,
+      "technicians": 22,
+      "tech_income_avg": 16875,
+      "income_topup": 112750,
+      "visits_month": 836,
+      "breakeven_retailers": 226,
+      "contribution_per_retailer_net": 732,
+      "margin": 0.048
+     }
+    ]
+   },
+   "high": {
+    "retailer": {
+     "lines": [
+      [
+       "other installs",
+       18.0,
+       400,
+       164
+      ],
+      [
+       "OOW repair/service",
+       49.09,
+       1102,
+       319
+      ],
+      [
+       "AMC sold",
+       7,
+       1355,
+       567
+      ]
+     ],
+     "revenue": 70779,
+     "contribution": 22580,
+     "visits": 68.25,
+     "payouts": 24506
+    },
+    "cluster": {
+     "retailers": 40,
+     "revenue": 2831160,
+     "contribution": 903200,
+     "fixed": 140000,
+     "ebitda": 763200,
+     "technicians": 42,
+     "tech_income_avg": 23339,
+     "income_topup": 0,
+     "visits_month": 2730,
+     "breakeven_retailers": 7,
+     "contribution_per_retailer_net": 22580,
+     "margin": 0.319
+    },
+    "returns": {
+     "payback_months": 2,
+     "ltv_3yr": 613980,
+     "ltv_cac": 51.2
+    },
+    "cluster_table": [
+     {
+      "retailers": 15,
+      "revenue": 1061685,
+      "contribution": 338700,
+      "fixed": 140000,
+      "ebitda": 198700,
+      "technicians": 16,
+      "tech_income_avg": 22974,
+      "income_topup": 0,
+      "visits_month": 1024,
+      "breakeven_retailers": 7,
+      "contribution_per_retailer_net": 22580,
+      "margin": 0.319
+     },
+     {
+      "retailers": 20,
+      "revenue": 1415580,
+      "contribution": 451600,
+      "fixed": 140000,
+      "ebitda": 311600,
+      "technicians": 21,
+      "tech_income_avg": 23339,
+      "income_topup": 0,
+      "visits_month": 1365,
+      "breakeven_retailers": 7,
+      "contribution_per_retailer_net": 22580,
+      "margin": 0.319
+     },
+     {
+      "retailers": 25,
+      "revenue": 1769475,
+      "contribution": 564500,
+      "fixed": 140000,
+      "ebitda": 424500,
+      "technicians": 27,
+      "tech_income_avg": 22691,
+      "income_topup": 0,
+      "visits_month": 1706,
+      "breakeven_retailers": 7,
+      "contribution_per_retailer_net": 22580,
+      "margin": 0.319
+     },
+     {
+      "retailers": 30,
+      "revenue": 2123370,
+      "contribution": 677400,
+      "fixed": 140000,
+      "ebitda": 537400,
+      "technicians": 32,
+      "tech_income_avg": 22974,
+      "income_topup": 0,
+      "visits_month": 2048,
+      "breakeven_retailers": 7,
+      "contribution_per_retailer_net": 22580,
+      "margin": 0.319
+     },
+     {
+      "retailers": 40,
+      "revenue": 2831160,
+      "contribution": 903200,
+      "fixed": 140000,
+      "ebitda": 763200,
+      "technicians": 42,
+      "tech_income_avg": 23339,
+      "income_topup": 0,
+      "visits_month": 2730,
+      "breakeven_retailers": 7,
+      "contribution_per_retailer_net": 22580,
+      "margin": 0.319
+     },
+     {
+      "retailers": 50,
+      "revenue": 3538950,
+      "contribution": 1129000,
+      "fixed": 140000,
+      "ebitda": 989000,
+      "technicians": 53,
+      "tech_income_avg": 23119,
+      "income_topup": 0,
+      "visits_month": 3412,
+      "breakeven_retailers": 7,
+      "contribution_per_retailer_net": 22580,
+      "margin": 0.319
+     }
+    ]
+   }
+  },
+  "A_AUTHORISED": {
+   "low": {
+    "retailer": {
+     "lines": [
+      [
+       "AC installs (brand-authorised)",
+       1.12,
+       1500,
+       149
+      ],
+      [
+       "other installs",
+       1.2,
+       200,
+       -9
+      ],
+      [
+       "OOW repair/service",
+       2.25,
+       678,
+       32
+      ],
+      [
+       "AMC sold",
+       2,
+       931,
+       -187
+      ]
+     ],
+     "revenue": 5315,
+     "contribution": -145,
+     "visits": 4.91,
+     "payouts": 3382
+    },
+    "cluster": {
+     "retailers": 25,
+     "revenue": 132875,
+     "contribution": -39075,
+     "fixed": 200000,
+     "ebitda": -239075,
+     "technicians": 5,
+     "tech_income_avg": 16910,
+     "income_topup": 35450,
+     "visits_month": 123,
+     "breakeven_retailers": null,
+     "contribution_per_retailer_net": -1563,
+     "margin": -0.294
+    },
+    "returns": {
+     "payback_months": null,
+     "ltv_3yr": 0,
+     "ltv_cac": 0
+    },
+    "cluster_table": [
+     {
+      "retailers": 15,
+      "revenue": 79725,
+      "contribution": -23445,
+      "fixed": 200000,
+      "ebitda": -223445,
+      "technicians": 3,
+      "tech_income_avg": 16910,
+      "income_topup": 21270,
+      "visits_month": 74,
+      "breakeven_retailers": null,
+      "contribution_per_retailer_net": -1563,
+      "margin": -0.294
+     },
+     {
+      "retailers": 20,
+      "revenue": 106300,
+      "contribution": -31260,
+      "fixed": 200000,
+      "ebitda": -231260,
+      "technicians": 4,
+      "tech_income_avg": 16910,
+      "income_topup": 28360,
+      "visits_month": 98,
+      "breakeven_retailers": null,
+      "contribution_per_retailer_net": -1563,
+      "margin": -0.294
+     },
+     {
+      "retailers": 25,
+      "revenue": 132875,
+      "contribution": -39075,
+      "fixed": 200000,
+      "ebitda": -239075,
+      "technicians": 5,
+      "tech_income_avg": 16910,
+      "income_topup": 35450,
+      "visits_month": 123,
+      "breakeven_retailers": null,
+      "contribution_per_retailer_net": -1563,
+      "margin": -0.294
+     },
+     {
+      "retailers": 30,
+      "revenue": 159450,
+      "contribution": -46890,
+      "fixed": 200000,
+      "ebitda": -246890,
+      "technicians": 6,
+      "tech_income_avg": 16910,
+      "income_topup": 42540,
+      "visits_month": 147,
+      "breakeven_retailers": null,
+      "contribution_per_retailer_net": -1563,
+      "margin": -0.294
+     },
+     {
+      "retailers": 40,
+      "revenue": 212600,
+      "contribution": -62520,
+      "fixed": 200000,
+      "ebitda": -262520,
+      "technicians": 8,
+      "tech_income_avg": 16910,
+      "income_topup": 56720,
+      "visits_month": 196,
+      "breakeven_retailers": null,
+      "contribution_per_retailer_net": -1563,
+      "margin": -0.294
+     },
+     {
+      "retailers": 50,
+      "revenue": 265750,
+      "contribution": -54150,
+      "fixed": 200000,
+      "ebitda": -254150,
+      "technicians": 9,
+      "tech_income_avg": 18789,
+      "income_topup": 46900,
+      "visits_month": 246,
+      "breakeven_retailers": null,
+      "contribution_per_retailer_net": -1083,
+      "margin": -0.204
+     }
+    ]
+   },
+   "base": {
+    "retailer": {
+     "lines": [
+      [
+       "AC installs (brand-authorised)",
+       6.3,
+       2400,
+       730
+      ],
+      [
+       "other installs",
+       5.25,
+       300,
+       77
+      ],
+      [
+       "OOW repair/service",
+       10.8,
+       847,
+       164
+      ],
+      [
+       "AMC sold",
+       4,
+       1101,
+       203
+      ]
+     ],
+     "revenue": 30247,
+     "contribution": 7586,
+     "visits": 23.02,
+     "payouts": 10260
+    },
+    "cluster": {
+     "retailers": 30,
+     "revenue": 907410,
+     "contribution": 139380,
+     "fixed": 165000,
+     "ebitda": -25620,
+     "technicians": 18,
+     "tech_income_avg": 17100,
+     "income_topup": 88200,
+     "visits_month": 691,
+     "breakeven_retailers": 36,
+     "contribution_per_retailer_net": 4646,
+     "margin": 0.154
+    },
+    "returns": {
+     "payback_months": 8,
+     "ltv_3yr": 107572,
+     "ltv_cac": 6.0
+    },
+    "cluster_table": [
+     {
+      "retailers": 15,
+      "revenue": 453705,
+      "contribution": 69690,
+      "fixed": 165000,
+      "ebitda": -95310,
+      "technicians": 9,
+      "tech_income_avg": 17100,
+      "income_topup": 44100,
+      "visits_month": 345,
+      "breakeven_retailers": 36,
+      "contribution_per_retailer_net": 4646,
+      "margin": 0.154
+     },
+     {
+      "retailers": 20,
+      "revenue": 604940,
+      "contribution": 92920,
+      "fixed": 165000,
+      "ebitda": -72080,
+      "technicians": 12,
+      "tech_income_avg": 17100,
+      "income_topup": 58800,
+      "visits_month": 460,
+      "breakeven_retailers": 36,
+      "contribution_per_retailer_net": 4646,
+      "margin": 0.154
+     },
+     {
+      "retailers": 25,
+      "revenue": 756175,
+      "contribution": 116150,
+      "fixed": 165000,
+      "ebitda": -48850,
+      "technicians": 15,
+      "tech_income_avg": 17100,
+      "income_topup": 73500,
+      "visits_month": 576,
+      "breakeven_retailers": 36,
+      "contribution_per_retailer_net": 4646,
+      "margin": 0.154
+     },
+     {
+      "retailers": 30,
+      "revenue": 907410,
+      "contribution": 139380,
+      "fixed": 165000,
+      "ebitda": -25620,
+      "technicians": 18,
+      "tech_income_avg": 17100,
+      "income_topup": 88200,
+      "visits_month": 691,
+      "breakeven_retailers": 36,
+      "contribution_per_retailer_net": 4646,
+      "margin": 0.154
+     },
+     {
+      "retailers": 40,
+      "revenue": 1209880,
+      "contribution": 185840,
+      "fixed": 165000,
+      "ebitda": 20840,
+      "technicians": 24,
+      "tech_income_avg": 17100,
+      "income_topup": 117600,
+      "visits_month": 921,
+      "breakeven_retailers": 36,
+      "contribution_per_retailer_net": 4646,
+      "margin": 0.154
+     },
+     {
+      "retailers": 50,
+      "revenue": 1512350,
+      "contribution": 232300,
+      "fixed": 165000,
+      "ebitda": 67300,
+      "technicians": 30,
+      "tech_income_avg": 17100,
+      "income_topup": 147000,
+      "visits_month": 1151,
+      "breakeven_retailers": 36,
+      "contribution_per_retailer_net": 4646,
+      "margin": 0.154
+     }
+    ]
+   },
+   "high": {
+    "retailer": {
+     "lines": [
+      [
+       "AC installs (brand-authorised)",
+       23.2,
+       3699,
+       1599
+      ],
+      [
+       "other installs",
+       18.0,
+       400,
+       164
+      ],
+      [
+       "OOW repair/service",
+       49.09,
+       1102,
+       319
+      ],
+      [
+       "AMC sold",
+       7,
+       1355,
+       567
+      ]
+     ],
+     "revenue": 156615,
+     "contribution": 59685,
+     "visits": 91.46,
+     "payouts": 33788
+    },
+    "cluster": {
+     "retailers": 40,
+     "revenue": 6264600,
+     "contribution": 2387400,
+     "fixed": 140000,
+     "ebitda": 2247400,
+     "technicians": 57,
+     "tech_income_avg": 23711,
+     "income_topup": 0,
+     "visits_month": 3658,
+     "breakeven_retailers": 3,
+     "contribution_per_retailer_net": 59685,
+     "margin": 0.381
+    },
+    "returns": {
+     "payback_months": 1,
+     "ltv_3yr": 1622914,
+     "ltv_cac": 135.2
+    },
+    "cluster_table": [
+     {
+      "retailers": 15,
+      "revenue": 2349225,
+      "contribution": 895275,
+      "fixed": 140000,
+      "ebitda": 755275,
+      "technicians": 22,
+      "tech_income_avg": 23037,
+      "income_topup": 0,
+      "visits_month": 1372,
+      "breakeven_retailers": 3,
+      "contribution_per_retailer_net": 59685,
+      "margin": 0.381
+     },
+     {
+      "retailers": 20,
+      "revenue": 3132300,
+      "contribution": 1193700,
+      "fixed": 140000,
+      "ebitda": 1053700,
+      "technicians": 29,
+      "tech_income_avg": 23302,
+      "income_topup": 0,
+      "visits_month": 1829,
+      "breakeven_retailers": 3,
+      "contribution_per_retailer_net": 59685,
+      "margin": 0.381
+     },
+     {
+      "retailers": 25,
+      "revenue": 3915375,
+      "contribution": 1492125,
+      "fixed": 140000,
+      "ebitda": 1352125,
+      "technicians": 36,
+      "tech_income_avg": 23464,
+      "income_topup": 0,
+      "visits_month": 2286,
+      "breakeven_retailers": 3,
+      "contribution_per_retailer_net": 59685,
+      "margin": 0.381
+     },
+     {
+      "retailers": 30,
+      "revenue": 4698450,
+      "contribution": 1790550,
+      "fixed": 140000,
+      "ebitda": 1650550,
+      "technicians": 43,
+      "tech_income_avg": 23573,
+      "income_topup": 0,
+      "visits_month": 2744,
+      "breakeven_retailers": 3,
+      "contribution_per_retailer_net": 59685,
+      "margin": 0.381
+     },
+     {
+      "retailers": 40,
+      "revenue": 6264600,
+      "contribution": 2387400,
+      "fixed": 140000,
+      "ebitda": 2247400,
+      "technicians": 57,
+      "tech_income_avg": 23711,
+      "income_topup": 0,
+      "visits_month": 3658,
+      "breakeven_retailers": 3,
+      "contribution_per_retailer_net": 59685,
+      "margin": 0.381
+     },
+     {
+      "retailers": 50,
+      "revenue": 7830750,
+      "contribution": 2984250,
+      "fixed": 140000,
+      "ebitda": 2844250,
+      "technicians": 71,
+      "tech_income_avg": 23794,
+      "income_topup": 0,
+      "visits_month": 4573,
+      "breakeven_retailers": 3,
+      "contribution_per_retailer_net": 59685,
+      "margin": 0.381
+     }
+    ]
+   }
+  },
+  "C_DESK": {
+   "low": {
+    "retailer": {
+     "lines": [
+      [
+       "AC installs (brand-authorised)",
+       1.12,
+       1500,
+       149
+      ],
+      [
+       "other installs",
+       1.2,
+       200,
+       -9
+      ],
+      [
+       "OOW repair/service",
+       2.25,
+       678,
+       32
+      ],
+      [
+       "AMC sold",
+       2,
+       931,
+       -187
+      ],
+      [
+       "retailer after-sales desk fee",
+       1,
+       450,
+       405
+      ]
+     ],
+     "revenue": 5765,
+     "contribution": 260,
+     "visits": 4.91,
+     "payouts": 3382
+    },
+    "cluster": {
+     "retailers": 25,
+     "revenue": 144125,
+     "contribution": -28950,
+     "fixed": 200000,
+     "ebitda": -228950,
+     "technicians": 5,
+     "tech_income_avg": 16910,
+     "income_topup": 35450,
+     "visits_month": 123,
+     "breakeven_retailers": null,
+     "contribution_per_retailer_net": -1158,
+     "margin": -0.201
+    },
+    "returns": {
+     "payback_months": null,
+     "ltv_3yr": 0,
+     "ltv_cac": 0
+    },
+    "cluster_table": [
+     {
+      "retailers": 15,
+      "revenue": 86475,
+      "contribution": -17370,
+      "fixed": 200000,
+      "ebitda": -217370,
+      "technicians": 3,
+      "tech_income_avg": 16910,
+      "income_topup": 21270,
+      "visits_month": 74,
+      "breakeven_retailers": null,
+      "contribution_per_retailer_net": -1158,
+      "margin": -0.201
+     },
+     {
+      "retailers": 20,
+      "revenue": 115300,
+      "contribution": -23160,
+      "fixed": 200000,
+      "ebitda": -223160,
+      "technicians": 4,
+      "tech_income_avg": 16910,
+      "income_topup": 28360,
+      "visits_month": 98,
+      "breakeven_retailers": null,
+      "contribution_per_retailer_net": -1158,
+      "margin": -0.201
+     },
+     {
+      "retailers": 25,
+      "revenue": 144125,
+      "contribution": -28950,
+      "fixed": 200000,
+      "ebitda": -228950,
+      "technicians": 5,
+      "tech_income_avg": 16910,
+      "income_topup": 35450,
+      "visits_month": 123,
+      "breakeven_retailers": null,
+      "contribution_per_retailer_net": -1158,
+      "margin": -0.201
+     },
+     {
+      "retailers": 30,
+      "revenue": 172950,
+      "contribution": -34740,
+      "fixed": 200000,
+      "ebitda": -234740,
+      "technicians": 6,
+      "tech_income_avg": 16910,
+      "income_topup": 42540,
+      "visits_month": 147,
+      "breakeven_retailers": null,
+      "contribution_per_retailer_net": -1158,
+      "margin": -0.201
+     },
+     {
+      "retailers": 40,
+      "revenue": 230600,
+      "contribution": -46320,
+      "fixed": 200000,
+      "ebitda": -246320,
+      "technicians": 8,
+      "tech_income_avg": 16910,
+      "income_topup": 56720,
+      "visits_month": 196,
+      "breakeven_retailers": null,
+      "contribution_per_retailer_net": -1158,
+      "margin": -0.201
+     },
+     {
+      "retailers": 50,
+      "revenue": 288250,
+      "contribution": -33900,
+      "fixed": 200000,
+      "ebitda": -233900,
+      "technicians": 9,
+      "tech_income_avg": 18789,
+      "income_topup": 46900,
+      "visits_month": 246,
+      "breakeven_retailers": null,
+      "contribution_per_retailer_net": -678,
+      "margin": -0.118
+     }
+    ]
+   },
+   "base": {
+    "retailer": {
+     "lines": [
+      [
+       "AC installs (brand-authorised)",
+       6.3,
+       2400,
+       730
+      ],
+      [
+       "other installs",
+       5.25,
+       300,
+       77
+      ],
+      [
+       "OOW repair/service",
+       10.8,
+       847,
+       164
+      ],
+      [
+       "AMC sold",
+       4,
+       1101,
+       203
+      ],
+      [
+       "retailer after-sales desk fee",
+       1,
+       1500,
+       1350
+      ]
+     ],
+     "revenue": 31747,
+     "contribution": 8936,
+     "visits": 23.02,
+     "payouts": 10260
+    },
+    "cluster": {
+     "retailers": 30,
+     "revenue": 952410,
+     "contribution": 179880,
+     "fixed": 165000,
+     "ebitda": 14880,
+     "technicians": 18,
+     "tech_income_avg": 17100,
+     "income_topup": 88200,
+     "visits_month": 691,
+     "breakeven_retailers": 28,
+     "contribution_per_retailer_net": 5996,
+     "margin": 0.189
+    },
+    "returns": {
+     "payback_months": 7,
+     "ltv_3yr": 138830,
+     "ltv_cac": 7.7
+    },
+    "cluster_table": [
+     {
+      "retailers": 15,
+      "revenue": 476205,
+      "contribution": 89940,
+      "fixed": 165000,
+      "ebitda": -75060,
+      "technicians": 9,
+      "tech_income_avg": 17100,
+      "income_topup": 44100,
+      "visits_month": 345,
+      "breakeven_retailers": 28,
+      "contribution_per_retailer_net": 5996,
+      "margin": 0.189
+     },
+     {
+      "retailers": 20,
+      "revenue": 634940,
+      "contribution": 119920,
+      "fixed": 165000,
+      "ebitda": -45080,
+      "technicians": 12,
+      "tech_income_avg": 17100,
+      "income_topup": 58800,
+      "visits_month": 460,
+      "breakeven_retailers": 28,
+      "contribution_per_retailer_net": 5996,
+      "margin": 0.189
+     },
+     {
+      "retailers": 25,
+      "revenue": 793675,
+      "contribution": 149900,
+      "fixed": 165000,
+      "ebitda": -15100,
+      "technicians": 15,
+      "tech_income_avg": 17100,
+      "income_topup": 73500,
+      "visits_month": 576,
+      "breakeven_retailers": 28,
+      "contribution_per_retailer_net": 5996,
+      "margin": 0.189
+     },
+     {
+      "retailers": 30,
+      "revenue": 952410,
+      "contribution": 179880,
+      "fixed": 165000,
+      "ebitda": 14880,
+      "technicians": 18,
+      "tech_income_avg": 17100,
+      "income_topup": 88200,
+      "visits_month": 691,
+      "breakeven_retailers": 28,
+      "contribution_per_retailer_net": 5996,
+      "margin": 0.189
+     },
+     {
+      "retailers": 40,
+      "revenue": 1269880,
+      "contribution": 239840,
+      "fixed": 165000,
+      "ebitda": 74840,
+      "technicians": 24,
+      "tech_income_avg": 17100,
+      "income_topup": 117600,
+      "visits_month": 921,
+      "breakeven_retailers": 28,
+      "contribution_per_retailer_net": 5996,
+      "margin": 0.189
+     },
+     {
+      "retailers": 50,
+      "revenue": 1587350,
+      "contribution": 299800,
+      "fixed": 165000,
+      "ebitda": 134800,
+      "technicians": 30,
+      "tech_income_avg": 17100,
+      "income_topup": 147000,
+      "visits_month": 1151,
+      "breakeven_retailers": 28,
+      "contribution_per_retailer_net": 5996,
+      "margin": 0.189
+     }
+    ]
+   },
+   "high": {
+    "retailer": {
+     "lines": [
+      [
+       "AC installs (brand-authorised)",
+       23.2,
+       3699,
+       1599
+      ],
+      [
+       "other installs",
+       18.0,
+       400,
+       164
+      ],
+      [
+       "OOW repair/service",
+       49.09,
+       1102,
+       319
+      ],
+      [
+       "AMC sold",
+       7,
+       1355,
+       567
+      ],
+      [
+       "retailer after-sales desk fee",
+       1,
+       3200,
+       2880
+      ]
+     ],
+     "revenue": 159815,
+     "contribution": 62565,
+     "visits": 91.46,
+     "payouts": 33788
+    },
+    "cluster": {
+     "retailers": 40,
+     "revenue": 6392600,
+     "contribution": 2502600,
+     "fixed": 140000,
+     "ebitda": 2362600,
+     "technicians": 57,
+     "tech_income_avg": 23711,
+     "income_topup": 0,
+     "visits_month": 3658,
+     "breakeven_retailers": 3,
+     "contribution_per_retailer_net": 62565,
+     "margin": 0.391
+    },
+    "returns": {
+     "payback_months": 1,
+     "ltv_3yr": 1701225,
+     "ltv_cac": 141.8
+    },
+    "cluster_table": [
+     {
+      "retailers": 15,
+      "revenue": 2397225,
+      "contribution": 938475,
+      "fixed": 140000,
+      "ebitda": 798475,
+      "technicians": 22,
+      "tech_income_avg": 23037,
+      "income_topup": 0,
+      "visits_month": 1372,
+      "breakeven_retailers": 3,
+      "contribution_per_retailer_net": 62565,
+      "margin": 0.391
+     },
+     {
+      "retailers": 20,
+      "revenue": 3196300,
+      "contribution": 1251300,
+      "fixed": 140000,
+      "ebitda": 1111300,
+      "technicians": 29,
+      "tech_income_avg": 23302,
+      "income_topup": 0,
+      "visits_month": 1829,
+      "breakeven_retailers": 3,
+      "contribution_per_retailer_net": 62565,
+      "margin": 0.391
+     },
+     {
+      "retailers": 25,
+      "revenue": 3995375,
+      "contribution": 1564125,
+      "fixed": 140000,
+      "ebitda": 1424125,
+      "technicians": 36,
+      "tech_income_avg": 23464,
+      "income_topup": 0,
+      "visits_month": 2286,
+      "breakeven_retailers": 3,
+      "contribution_per_retailer_net": 62565,
+      "margin": 0.391
+     },
+     {
+      "retailers": 30,
+      "revenue": 4794450,
+      "contribution": 1876950,
+      "fixed": 140000,
+      "ebitda": 1736950,
+      "technicians": 43,
+      "tech_income_avg": 23573,
+      "income_topup": 0,
+      "visits_month": 2744,
+      "breakeven_retailers": 3,
+      "contribution_per_retailer_net": 62565,
+      "margin": 0.391
+     },
+     {
+      "retailers": 40,
+      "revenue": 6392600,
+      "contribution": 2502600,
+      "fixed": 140000,
+      "ebitda": 2362600,
+      "technicians": 57,
+      "tech_income_avg": 23711,
+      "income_topup": 0,
+      "visits_month": 3658,
+      "breakeven_retailers": 3,
+      "contribution_per_retailer_net": 62565,
+      "margin": 0.391
+     },
+     {
+      "retailers": 50,
+      "revenue": 7990750,
+      "contribution": 3128250,
+      "fixed": 140000,
+      "ebitda": 2988250,
+      "technicians": 71,
+      "tech_income_avg": 23794,
+      "income_topup": 0,
+      "visits_month": 4573,
+      "breakeven_retailers": 3,
+      "contribution_per_retailer_net": 62565,
+      "margin": 0.391
+     }
+    ]
+   }
+  },
+  "D_AGENCY": {
+   "low": {
+    "retailer": {
+     "lines": [
+      [
+       "AC installs routed to ASC",
+       1.12,
+       52,
+       -8
+      ],
+      [
+       "OOW jobs routed",
+       2.25,
+       102,
+       15
+      ],
+      [
+       "AMC sold (fulfilled by partner)",
+       2,
+       931,
+       -243
+      ]
+     ],
+     "revenue": 2150,
+     "contribution": -461,
+     "visits": 0.0,
+     "payouts": 0
+    },
+    "cluster": {
+     "retailers": 25,
+     "revenue": 53750,
+     "contribution": -11525,
+     "fixed": 120000,
+     "ebitda": -131525,
+     "technicians": 0,
+     "tech_income_avg": 0,
+     "income_topup": 0,
+     "visits_month": 0,
+     "breakeven_retailers": null,
+     "contribution_per_retailer_net": -461,
+     "margin": -0.214
+    },
+    "returns": {
+     "payback_months": null,
+     "ltv_3yr": 0,
+     "ltv_cac": 0
+    },
+    "cluster_table": [
+     {
+      "retailers": 15,
+      "revenue": 32250,
+      "contribution": -6915,
+      "fixed": 120000,
+      "ebitda": -126915,
+      "technicians": 0,
+      "tech_income_avg": 0,
+      "income_topup": 0,
+      "visits_month": 0,
+      "breakeven_retailers": null,
+      "contribution_per_retailer_net": -461,
+      "margin": -0.214
+     },
+     {
+      "retailers": 20,
+      "revenue": 43000,
+      "contribution": -9220,
+      "fixed": 120000,
+      "ebitda": -129220,
+      "technicians": 0,
+      "tech_income_avg": 0,
+      "income_topup": 0,
+      "visits_month": 0,
+      "breakeven_retailers": null,
+      "contribution_per_retailer_net": -461,
+      "margin": -0.214
+     },
+     {
+      "retailers": 25,
+      "revenue": 53750,
+      "contribution": -11525,
+      "fixed": 120000,
+      "ebitda": -131525,
+      "technicians": 0,
+      "tech_income_avg": 0,
+      "income_topup": 0,
+      "visits_month": 0,
+      "breakeven_retailers": null,
+      "contribution_per_retailer_net": -461,
+      "margin": -0.214
+     },
+     {
+      "retailers": 30,
+      "revenue": 64500,
+      "contribution": -13830,
+      "fixed": 120000,
+      "ebitda": -133830,
+      "technicians": 0,
+      "tech_income_avg": 0,
+      "income_topup": 0,
+      "visits_month": 0,
+      "breakeven_retailers": null,
+      "contribution_per_retailer_net": -461,
+      "margin": -0.214
+     },
+     {
+      "retailers": 40,
+      "revenue": 86000,
+      "contribution": -18440,
+      "fixed": 120000,
+      "ebitda": -138440,
+      "technicians": 0,
+      "tech_income_avg": 0,
+      "income_topup": 0,
+      "visits_month": 0,
+      "breakeven_retailers": null,
+      "contribution_per_retailer_net": -461,
+      "margin": -0.214
+     },
+     {
+      "retailers": 50,
+      "revenue": 107500,
+      "contribution": -23050,
+      "fixed": 120000,
+      "ebitda": -143050,
+      "technicians": 0,
+      "tech_income_avg": 0,
+      "income_topup": 0,
+      "visits_month": 0,
+      "breakeven_retailers": null,
+      "contribution_per_retailer_net": -461,
+      "margin": -0.214
+     }
+    ]
+   },
+   "base": {
+    "retailer": {
+     "lines": [
+      [
+       "AC installs routed to ASC",
+       6.3,
+       90,
+       42
+      ],
+      [
+       "OOW jobs routed",
+       10.8,
+       169,
+       82
+      ],
+      [
+       "AMC sold (fulfilled by partner)",
+       4,
+       1101,
+       164
+      ]
+     ],
+     "revenue": 6796,
+     "contribution": 1806,
+     "visits": 0.0,
+     "payouts": 0
+    },
+    "cluster": {
+     "retailers": 30,
+     "revenue": 203880,
+     "contribution": 54180,
+     "fixed": 95000,
+     "ebitda": -40820,
+     "technicians": 0,
+     "tech_income_avg": 0,
+     "income_topup": 0,
+     "visits_month": 0,
+     "breakeven_retailers": 53,
+     "contribution_per_retailer_net": 1806,
+     "margin": 0.266
+    },
+    "returns": {
+     "payback_months": 16,
+     "ltv_3yr": 41816,
+     "ltv_cac": 2.3
+    },
+    "cluster_table": [
+     {
+      "retailers": 15,
+      "revenue": 101940,
+      "contribution": 27090,
+      "fixed": 95000,
+      "ebitda": -67910,
+      "technicians": 0,
+      "tech_income_avg": 0,
+      "income_topup": 0,
+      "visits_month": 0,
+      "breakeven_retailers": 53,
+      "contribution_per_retailer_net": 1806,
+      "margin": 0.266
+     },
+     {
+      "retailers": 20,
+      "revenue": 135920,
+      "contribution": 36120,
+      "fixed": 95000,
+      "ebitda": -58880,
+      "technicians": 0,
+      "tech_income_avg": 0,
+      "income_topup": 0,
+      "visits_month": 0,
+      "breakeven_retailers": 53,
+      "contribution_per_retailer_net": 1806,
+      "margin": 0.266
+     },
+     {
+      "retailers": 25,
+      "revenue": 169900,
+      "contribution": 45150,
+      "fixed": 95000,
+      "ebitda": -49850,
+      "technicians": 0,
+      "tech_income_avg": 0,
+      "income_topup": 0,
+      "visits_month": 0,
+      "breakeven_retailers": 53,
+      "contribution_per_retailer_net": 1806,
+      "margin": 0.266
+     },
+     {
+      "retailers": 30,
+      "revenue": 203880,
+      "contribution": 54180,
+      "fixed": 95000,
+      "ebitda": -40820,
+      "technicians": 0,
+      "tech_income_avg": 0,
+      "income_topup": 0,
+      "visits_month": 0,
+      "breakeven_retailers": 53,
+      "contribution_per_retailer_net": 1806,
+      "margin": 0.266
+     },
+     {
+      "retailers": 40,
+      "revenue": 271840,
+      "contribution": 72240,
+      "fixed": 95000,
+      "ebitda": -22760,
+      "technicians": 0,
+      "tech_income_avg": 0,
+      "income_topup": 0,
+      "visits_month": 0,
+      "breakeven_retailers": 53,
+      "contribution_per_retailer_net": 1806,
+      "margin": 0.266
+     },
+     {
+      "retailers": 50,
+      "revenue": 339800,
+      "contribution": 90300,
+      "fixed": 95000,
+      "ebitda": -4700,
+      "technicians": 0,
+      "tech_income_avg": 0,
+      "income_topup": 0,
+      "visits_month": 0,
+      "breakeven_retailers": 53,
+      "contribution_per_retailer_net": 1806,
+      "margin": 0.266
+     }
+    ]
+   },
+   "high": {
+    "retailer": {
+     "lines": [
+      [
+       "AC installs routed to ASC",
+       23.2,
+       150,
+       112
+      ],
+      [
+       "OOW jobs routed",
+       49.09,
+       275,
+       186
+      ],
+      [
+       "AMC sold (fulfilled by partner)",
+       7,
+       1355,
+       530
+      ]
+     ],
+     "revenue": 26465,
+     "contribution": 15439,
+     "visits": 0.0,
+     "payouts": 0
+    },
+    "cluster": {
+     "retailers": 40,
+     "revenue": 1058600,
+     "contribution": 617560,
+     "fixed": 80000,
+     "ebitda": 537560,
+     "technicians": 0,
+     "tech_income_avg": 0,
+     "income_topup": 0,
+     "visits_month": 0,
+     "breakeven_retailers": 6,
+     "contribution_per_retailer_net": 15439,
+     "margin": 0.583
+    },
+    "returns": {
+     "payback_months": 3,
+     "ltv_3yr": 419807,
+     "ltv_cac": 35.0
+    },
+    "cluster_table": [
+     {
+      "retailers": 15,
+      "revenue": 396975,
+      "contribution": 231585,
+      "fixed": 80000,
+      "ebitda": 151585,
+      "technicians": 0,
+      "tech_income_avg": 0,
+      "income_topup": 0,
+      "visits_month": 0,
+      "breakeven_retailers": 6,
+      "contribution_per_retailer_net": 15439,
+      "margin": 0.583
+     },
+     {
+      "retailers": 20,
+      "revenue": 529300,
+      "contribution": 308780,
+      "fixed": 80000,
+      "ebitda": 228780,
+      "technicians": 0,
+      "tech_income_avg": 0,
+      "income_topup": 0,
+      "visits_month": 0,
+      "breakeven_retailers": 6,
+      "contribution_per_retailer_net": 15439,
+      "margin": 0.583
+     },
+     {
+      "retailers": 25,
+      "revenue": 661625,
+      "contribution": 385975,
+      "fixed": 80000,
+      "ebitda": 305975,
+      "technicians": 0,
+      "tech_income_avg": 0,
+      "income_topup": 0,
+      "visits_month": 0,
+      "breakeven_retailers": 6,
+      "contribution_per_retailer_net": 15439,
+      "margin": 0.583
+     },
+     {
+      "retailers": 30,
+      "revenue": 793950,
+      "contribution": 463170,
+      "fixed": 80000,
+      "ebitda": 383170,
+      "technicians": 0,
+      "tech_income_avg": 0,
+      "income_topup": 0,
+      "visits_month": 0,
+      "breakeven_retailers": 6,
+      "contribution_per_retailer_net": 15439,
+      "margin": 0.583
+     },
+     {
+      "retailers": 40,
+      "revenue": 1058600,
+      "contribution": 617560,
+      "fixed": 80000,
+      "ebitda": 537560,
+      "technicians": 0,
+      "tech_income_avg": 0,
+      "income_topup": 0,
+      "visits_month": 0,
+      "breakeven_retailers": 6,
+      "contribution_per_retailer_net": 15439,
+      "margin": 0.583
+     },
+     {
+      "retailers": 50,
+      "revenue": 1323250,
+      "contribution": 771950,
+      "fixed": 80000,
+      "ebitda": 691950,
+      "technicians": 0,
+      "tech_income_avg": 0,
+      "income_topup": 0,
+      "visits_month": 0,
+      "breakeven_retailers": 6,
+      "contribution_per_retailer_net": 15439,
+      "margin": 0.583
+     }
+    ]
+   }
+  },
+  "E_HYBRID": {
+   "low": {
+    "retailer": {
+     "lines": [
+      [
+       "AC installs (brand-authorised)",
+       1.12,
+       1500,
+       105
+      ],
+      [
+       "other installs",
+       1.2,
+       200,
+       -9
+      ],
+      [
+       "OOW repair/service",
+       2.25,
+       678,
+       -6
+      ],
+      [
+       "AMC sold",
+       2,
+       931,
+       -259
+      ],
+      [
+       "retailer after-sales desk fee",
+       1,
+       450,
+       405
+      ]
+     ],
+     "revenue": 5765,
+     "contribution": -19,
+     "visits": 4.91,
+     "payouts": 3661
+    },
+    "cluster": {
+     "retailers": 25,
+     "revenue": 144125,
+     "contribution": -475,
+     "fixed": 200000,
+     "ebitda": -200475,
+     "technicians": 5,
+     "tech_income_avg": 18305,
+     "income_topup": 0,
+     "visits_month": 123,
+     "breakeven_retailers": null,
+     "contribution_per_retailer_net": -19,
+     "margin": -0.003
+    },
+    "returns": {
+     "payback_months": null,
+     "ltv_3yr": 0,
+     "ltv_cac": 0
+    },
+    "cluster_table": [
+     {
+      "retailers": 15,
+      "revenue": 86475,
+      "contribution": -285,
+      "fixed": 200000,
+      "ebitda": -200285,
+      "technicians": 3,
+      "tech_income_avg": 18305,
+      "income_topup": 0,
+      "visits_month": 74,
+      "breakeven_retailers": null,
+      "contribution_per_retailer_net": -19,
+      "margin": -0.003
+     },
+     {
+      "retailers": 20,
+      "revenue": 115300,
+      "contribution": -380,
+      "fixed": 200000,
+      "ebitda": -200380,
+      "technicians": 4,
+      "tech_income_avg": 18305,
+      "income_topup": 0,
+      "visits_month": 98,
+      "breakeven_retailers": null,
+      "contribution_per_retailer_net": -19,
+      "margin": -0.003
+     },
+     {
+      "retailers": 25,
+      "revenue": 144125,
+      "contribution": -475,
+      "fixed": 200000,
+      "ebitda": -200475,
+      "technicians": 5,
+      "tech_income_avg": 18305,
+      "income_topup": 0,
+      "visits_month": 123,
+      "breakeven_retailers": null,
+      "contribution_per_retailer_net": -19,
+      "margin": -0.003
+     },
+     {
+      "retailers": 30,
+      "revenue": 172950,
+      "contribution": -570,
+      "fixed": 200000,
+      "ebitda": -200570,
+      "technicians": 6,
+      "tech_income_avg": 18305,
+      "income_topup": 0,
+      "visits_month": 147,
+      "breakeven_retailers": null,
+      "contribution_per_retailer_net": -19,
+      "margin": -0.003
+     },
+     {
+      "retailers": 40,
+      "revenue": 230600,
+      "contribution": -760,
+      "fixed": 200000,
+      "ebitda": -200760,
+      "technicians": 8,
+      "tech_income_avg": 18305,
+      "income_topup": 0,
+      "visits_month": 196,
+      "breakeven_retailers": null,
+      "contribution_per_retailer_net": -19,
+      "margin": -0.003
+     },
+     {
+      "retailers": 50,
+      "revenue": 288250,
+      "contribution": -950,
+      "fixed": 200000,
+      "ebitda": -200950,
+      "technicians": 9,
+      "tech_income_avg": 20339,
+      "income_topup": 0,
+      "visits_month": 246,
+      "breakeven_retailers": null,
+      "contribution_per_retailer_net": -19,
+      "margin": -0.003
+     }
+    ]
+   },
+   "base": {
+    "retailer": {
+     "lines": [
+      [
+       "AC installs (brand-authorised)",
+       6.3,
+       2400,
+       708
+      ],
+      [
+       "other installs",
+       5.25,
+       300,
+       77
+      ],
+      [
+       "OOW repair/service",
+       10.8,
+       847,
+       137
+      ],
+      [
+       "AMC sold",
+       4,
+       1101,
+       168
+      ],
+      [
+       "retailer after-sales desk fee",
+       1,
+       1500,
+       1350
+      ]
+     ],
+     "revenue": 31747,
+     "contribution": 8366,
+     "visits": 23.02,
+     "payouts": 10833
+    },
+    "cluster": {
+     "retailers": 30,
+     "revenue": 952410,
+     "contribution": 273480,
+     "fixed": 165000,
+     "ebitda": 108480,
+     "technicians": 18,
+     "tech_income_avg": 18055,
+     "income_topup": 0,
+     "visits_month": 691,
+     "breakeven_retailers": 19,
+     "contribution_per_retailer_net": 9116,
+     "margin": 0.287
+    },
+    "returns": {
+     "payback_months": 5,
+     "ltv_3yr": 211069,
+     "ltv_cac": 11.7
+    },
+    "cluster_table": [
+     {
+      "retailers": 15,
+      "revenue": 476205,
+      "contribution": 147990,
+      "fixed": 165000,
+      "ebitda": -17010,
+      "technicians": 9,
+      "tech_income_avg": 18055,
+      "income_topup": 0,
+      "visits_month": 345,
+      "breakeven_retailers": 17,
+      "contribution_per_retailer_net": 9866,
+      "margin": 0.311
+     },
+     {
+      "retailers": 20,
+      "revenue": 634940,
+      "contribution": 189820,
+      "fixed": 165000,
+      "ebitda": 24820,
+      "technicians": 12,
+      "tech_income_avg": 18055,
+      "income_topup": 0,
+      "visits_month": 460,
+      "breakeven_retailers": 18,
+      "contribution_per_retailer_net": 9491,
+      "margin": 0.299
+     },
+     {
+      "retailers": 25,
+      "revenue": 793675,
+      "contribution": 231650,
+      "fixed": 165000,
+      "ebitda": 66650,
+      "technicians": 15,
+      "tech_income_avg": 18055,
+      "income_topup": 0,
+      "visits_month": 576,
+      "breakeven_retailers": 18,
+      "contribution_per_retailer_net": 9266,
+      "margin": 0.292
+     },
+     {
+      "retailers": 30,
+      "revenue": 952410,
+      "contribution": 273480,
+      "fixed": 165000,
+      "ebitda": 108480,
+      "technicians": 18,
+      "tech_income_avg": 18055,
+      "income_topup": 0,
+      "visits_month": 691,
+      "breakeven_retailers": 19,
+      "contribution_per_retailer_net": 9116,
+      "margin": 0.287
+     },
+     {
+      "retailers": 40,
+      "revenue": 1269880,
+      "contribution": 357140,
+      "fixed": 165000,
+      "ebitda": 192140,
+      "technicians": 24,
+      "tech_income_avg": 18055,
+      "income_topup": 0,
+      "visits_month": 921,
+      "breakeven_retailers": 19,
+      "contribution_per_retailer_net": 8928,
+      "margin": 0.281
+     },
+     {
+      "retailers": 50,
+      "revenue": 1587350,
+      "contribution": 440800,
+      "fixed": 165000,
+      "ebitda": 275800,
+      "technicians": 30,
+      "tech_income_avg": 18055,
+      "income_topup": 0,
+      "visits_month": 1151,
+      "breakeven_retailers": 19,
+      "contribution_per_retailer_net": 8816,
+      "margin": 0.278
+     }
+    ]
+   },
+   "high": {
+    "retailer": {
+     "lines": [
+      [
+       "AC installs (brand-authorised)",
+       23.2,
+       3699,
+       1587
+      ],
+      [
+       "other installs",
+       18.0,
+       400,
+       164
+      ],
+      [
+       "OOW repair/service",
+       49.09,
+       1102,
+       301
+      ],
+      [
+       "AMC sold",
+       7,
+       1355,
+       549
+      ],
+      [
+       "retailer after-sales desk fee",
+       1,
+       3200,
+       2880
+      ]
+     ],
+     "revenue": 159815,
+     "contribution": 61277,
+     "visits": 91.46,
+     "payouts": 35076
+    },
+    "cluster": {
+     "retailers": 40,
+     "revenue": 6392600,
+     "contribution": 2511080,
+     "fixed": 140000,
+     "ebitda": 2371080,
+     "technicians": 57,
+     "tech_income_avg": 24615,
+     "income_topup": 0,
+     "visits_month": 3658,
+     "breakeven_retailers": 3,
+     "contribution_per_retailer_net": 62777,
+     "margin": 0.393
+    },
+    "returns": {
+     "payback_months": 1,
+     "ltv_3yr": 1706989,
+     "ltv_cac": 142.2
+    },
+    "cluster_table": [
+     {
+      "retailers": 15,
+      "revenue": 2397225,
+      "contribution": 979155,
+      "fixed": 140000,
+      "ebitda": 839155,
+      "technicians": 22,
+      "tech_income_avg": 23915,
+      "income_topup": 0,
+      "visits_month": 1372,
+      "breakeven_retailers": 3,
+      "contribution_per_retailer_net": 65277,
+      "margin": 0.408
+     },
+     {
+      "retailers": 20,
+      "revenue": 3196300,
+      "contribution": 1285540,
+      "fixed": 140000,
+      "ebitda": 1145540,
+      "technicians": 29,
+      "tech_income_avg": 24190,
+      "income_topup": 0,
+      "visits_month": 1829,
+      "breakeven_retailers": 3,
+      "contribution_per_retailer_net": 64277,
+      "margin": 0.402
+     },
+     {
+      "retailers": 25,
+      "revenue": 3995375,
+      "contribution": 1591925,
+      "fixed": 140000,
+      "ebitda": 1451925,
+      "technicians": 36,
+      "tech_income_avg": 24358,
+      "income_topup": 0,
+      "visits_month": 2286,
+      "breakeven_retailers": 3,
+      "contribution_per_retailer_net": 63677,
+      "margin": 0.398
+     },
+     {
+      "retailers": 30,
+      "revenue": 4794450,
+      "contribution": 1898310,
+      "fixed": 140000,
+      "ebitda": 1758310,
+      "technicians": 43,
+      "tech_income_avg": 24472,
+      "income_topup": 0,
+      "visits_month": 2744,
+      "breakeven_retailers": 3,
+      "contribution_per_retailer_net": 63277,
+      "margin": 0.396
+     },
+     {
+      "retailers": 40,
+      "revenue": 6392600,
+      "contribution": 2511080,
+      "fixed": 140000,
+      "ebitda": 2371080,
+      "technicians": 57,
+      "tech_income_avg": 24615,
+      "income_topup": 0,
+      "visits_month": 3658,
+      "breakeven_retailers": 3,
+      "contribution_per_retailer_net": 62777,
+      "margin": 0.393
+     },
+     {
+      "retailers": 50,
+      "revenue": 7990750,
+      "contribution": 3123850,
+      "fixed": 140000,
+      "ebitda": 2983850,
+      "technicians": 71,
+      "tech_income_avg": 24701,
+      "income_topup": 0,
+      "visits_month": 4573,
+      "breakeven_retailers": 3,
+      "contribution_per_retailer_net": 62477,
+      "margin": 0.391
+     }
+    ]
+   }
+  }
+ }
+}

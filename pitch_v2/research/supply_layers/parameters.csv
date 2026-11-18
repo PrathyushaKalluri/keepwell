@@ -1,0 +1,52 @@
+parameter,low,base,high,unit,label,source,url,note
+technician_income_tier23_today,12000,20000,30000,INR/month,DERIVED,AmbitionBox Vijayawada; Indeed AP; Jobhai posts; Jooble national,https://ambitionbox.com/profile/ac-mechanic-salary/vijayawada-location,Tier 2/3 AC/appliance technician; peak above base and off-season below
+uc_partner_net_income,28322,28322,30708,INR/month,FACT,UC Earnings Index 9M FY26; UC shareholder letter Q2 FY27,https://investorrelations.urbancompany.com/announcements-and-highlights/service-partners-earnings-index-9m-fy26,91-97 hrs/month; all categories; metro-heavy
+uc_partner_orders_per_month,30,43,60,orders/month,DERIVED,UC FY25 24.49mn orders / 47833 MAP / 12,https://nsearchives.nseindia.com/corporate/URBANCO_16102026160706_Urban_Company_Shareholders_Letter_Q2_FY27.pdf,from prior research
+jobs_per_tech_day_blended,1.7,2.8,3.8,jobs/day,SOURCE-BACKED PROXY,UC average (low); UC partner claims 70-80/mo via Outlook Business (base); pitch (high),https://www.outlookbusiness.com/corporate/the-urban-cost-of-gig-service-2,install vs repair split UNKNOWN; hypothesis service 4-6; repair 3-4; install 2-3
+jobs_per_tech_day_by_type,UNKNOWN,UNKNOWN,UNKNOWN,jobs/day,ASSUMPTION,none found,,settle with ASC incentive sheets or pilot GPS logs
+utilisation,0.6,0.7,0.8,share of paid capacity,ASSUMPTION,driven by seasonality index,,pitch uses flat 0.8
+technician_attrition_employed,0.3,0.45,0.6,share/year,SOURCE-BACKED PROXY,TeamLease consumer durables 57%; telecom 43%,https://group.teamlease.com/?p=17434,UC partner attrition 'low single digits' (period unstated) per YourStory 2024
+ac_seasonality_index_mar_jun,1.4,1.8,2.0,index (avg month=1),DERIVED,Voltas FY25 quarterly UCP revenue; Tribune 60%; Storyboard18 67% Mar-Jun,https://financialreports.eu/filings/voltas-ltd/interim-quarterly-report/2025/42365216/,sell-in data; installs follow
+ac_seasonality_index_oct_feb,0.9,0.6,0.5,index (avg month=1),DERIVED,same,https://tribuneindia.com/news/business/prolonged-heatwave-sends-ac-sales-north-632709,low column = mildest trough; peak/trough 1.5x/3.0x/4.1x
+voltas_fy25_quarter_share,0.149,0.25,0.358,share of annual UCP revenue,FACT,Voltas filings FY25: Q1 35.8% Q2 14.9% Q3 16.7% Q4 32.6%,https://financialreports.eu/filings/voltas-ltd/interim-quarterly-report/2025/42365216/,low=Q2; high=Q1
+leakage_repeat_jobs,0.05,0.15,0.3,share of repeat jobs lost off-platform,ASSUMPTION,anchored low by home-cleaning study ~1.2% (PlatStrat 2023); commission doubles leakage (PKU),https://questromworld.bu.edu/platformstrategy/wp-content/uploads/sites/49/2023/06/PlatStrat2023_paper_27.pdf,no Indian rate published
+amc_price_ac_2visit,1000,1200,1800,INR/year,SOURCE-BACKED PROXY,UC AC annual plan 1098-1298; Croma ZipCare 2yr 3599,https://www.urbancompany.com/delhi-ncr-voltas-ac-service-repair-faridabad,labour only; pitch 1800 is 40-60% above UC
+amc_price_brand_ac,1500,3600,6000,INR/year,SOURCE-BACKED PROXY,NoBroker forums: LG 1500-4700; Daikin 3000-4600; Voltas ~6000,https://www.nobroker.in/forum/what-is-daikin-ac-amc-cost,LOW confidence user reports
+amc_price_ro,599,2500,6000,INR/year,SOURCE-BACKED PROXY,Eureka Forbes blog (from 599); Kent third-party 2500-6000,https://www.eurekaforbes.com/blog/benefits-of-water-purifier-amc.html,
+amc_attach_oow,0.02,0.05,0.1,share of out-of-warranty units per year,SOURCE-BACKED PROXY,OneAssist phones 7-8%; US EW 30%; EF 'very small proportion',https://cxotoday.com/expert-opinion/high-repair-replacement-costs-driving-indias-device-protection-economy/,no Indian appliance figure
+amc_renewal,0.4,0.55,0.7,share renewing,ASSUMPTION,none found,,settle with pilot month-13 renewal
+amc_visits_per_year,2,2,4,visits,FACT,UC; Croma; Blue Star (2); Daikin (4),https://global.servify.com/termsandconditions/bluestar-ew-plan,
+amc_cost_per_visit,300,400,480,INR/visit,DERIVED,UC service price 449-599 less 20-25% fee,https://www.urbancompany.com/blog/earnings-index-benchmarking-report-uc-service-professionals-vs-off-the-platform-professionals,pitch 300
+amc_contribution_at_base,UNKNOWN,0.1,0.25,share of AMC price,DERIVED,1200 - 800 visits - 180 retailer - 100 rework,,high = pitch case (1800 price; 300 visits)
+parts_share_of_repair_bill,0.3,0.45,0.6,share,DERIVED,UC AC rate card (prior research),https://www.urbancompany.com/charges/ac-service-charges-and-ac-installation-charges,pitch 61%
+parts_margin_tech_agency,UNKNOWN,UNKNOWN,UNKNOWN,share of part price,UNKNOWN,only proxy: dealer margin 15-40% (Beacon Filing),https://beaconfiling.com/blog/distribution-network-india-dealer-models,settle via distributor interviews
+distributor_credit_days,UNKNOWN,UNKNOWN,UNKNOWN,days,UNKNOWN,none found,,
+cluster_working_capital,UNKNOWN,300000,UNKNOWN,INR per cluster,ASSUMPTION,pitch figure,,stock fast movers; PCBs/compressors per job
+refurb_buy_price_ac_1_5t,3500,UNKNOWN,9660,INR/unit,SOURCE-BACKED PROXY,Reuze scrap 1.5T 3500 (floor); Cashify 'up to' 9660,https://www.reuze.in/what-we-take/ac-scrap,Flipkart exchange 3500-6500 is brand-funded discount
+refurb_cost_per_unit,UNKNOWN,UNKNOWN,UNKNOWN,INR/unit,UNKNOWN,RentoMojo ~400/item mostly furniture (not comparable),https://inc42.com/features/rentomojos-post-ipo-test-can-the-flywheel-keep-going/,gas alone 2300-3000 at retail
+refurb_resale_price,UNKNOWN,7500,UNKNOWN,INR/unit,ASSUMPTION,pitch figure,,settle with 50 OLX listings
+recommerce_gross_margin,UNKNOWN,0.157,UNKNOWN,share,DERIVED,Cashify FY25 (1096-924)/1096,https://entrackr.com/fintrackr/cashifys-fy25-income-nears-rs-1100-cr-losses-shrink-80-10532841,phones
+ac_scrap_value_1_5t,2500,3500,4500,INR/unit,SOURCE-BACKED PROXY,Reuze 1.0T/1.5T/2.0T,https://www.reuze.in/what-we-take/ac-scrap,one buyer
+epr_price_consumer_electronics,22,UNKNOWN,74,INR/kg,FACT,E-Waste Amendment Rules 2024 + CPCB Sep 2024 (via Newslaundry),https://www.newslaundry.com/2025/04/15/a-corporate-mutiny-threatens-indias-e-wonderland-dream,floor/ceiling; under Delhi HC challenge; AC band UNKNOWN
+epr_recycling_cost,6,17,20,INR/kg,SOURCE-BACKED PROXY,CEAMA 6-20; recycler 17 (Newslaundry),https://www.newslaundry.com/2025/04/15/a-corporate-mutiny-threatens-indias-e-wonderland-dream,
+collection_fee_to_collector,UNKNOWN,UNKNOWN,UNKNOWN,INR/kg or unit,UNKNOWN,none found,,interview Karo Sambhav / Recykal
+gpa_insurance_per_tech,1000,1250,1500,INR/year for 10L cover,DERIVED,Pazcare 500-900 office staff x1.5-2 field,https://www.pazcare.com/blog/group-personal-accident-insurance-for-startups-best-options-and-pricing,
+public_liability_policy,8000,14000,20000,INR/year,SOURCE-BACKED PROXY,BimaKavach micro-enterprise CGL,https://www.bimakavach.com/blog/public-liability-insurance-small-businesses-india/,limit not specified
+insurance_cost_per_job,UNKNOWN,2.5,UNKNOWN,INR/job,DERIVED,(14x1250+14000)/12480 jobs,,
+gig_levy_central,0.01,UNKNOWN,0.02,share of turnover (cap 5% of payouts),FACT,Code on Social Security s.114(4); not notified as of Sep-Oct 2026,https://www.taxmann.com/post/blog/analysis-aggregator-obligations-code-on-social-security/,applies only if Keepwell is an 'aggregator'
+gig_levy_karnataka,0.01,0.01,0.05,share of payout,FACT,Karnataka notification 16 Feb 2026 (1%; cap Rs1.50/txn),https://www.scconline.com/blog/post/2026/02/18/karnataka-government-notifies-gig-workers-welfare-fee-mandatory/,statutory range 1-5%
+gig_levy_telangana,0.01,UNKNOWN,0.02,share,FACT,Telangana Act 2026 (passed Mar 2026),https://ksandk.com/newsletter/telangana-legislative-assembly-passed-telangana-platform-based-gig-workers-registration-social-security-and-welfare-act-2026-passed-on-march-29-2026/,notified rate UNKNOWN; AP has no law
+employer_statutory_cost_employed,0.063,0.063,0.126,share of gross pay,DERIVED,EPF 12% on 15k ceiling + EDLI 0.5%; ESI 3.25% if wage <=21k,https://www.scconline.com/blog/post/2026/07/06/epf-eps-edli-contribution-rates-notified/,low/base at 30k pay; high at 20k pay; excludes bonus/gratuity
+gst_services_repair_install_amc,0.18,0.18,0.18,rate,FACT,Notif 11/2017-CT(Rate) SAC 9987,https://cleartax.in/s/maintenance-services-gst-rates-sac-code-9987,
+gst_ac_unit,0.18,0.18,0.18,rate,FACT,56th GST Council; from 22 Sep 2025 (was 28%),https://pib.gov.in/FactsheetDetails.aspx?Id=149274,
+gst_ac_parts,UNKNOWN,0.18,UNKNOWN,rate,ASSUMPTION,inferred; verify Schedule II Notif 9/2025-CT(Rate),,
+gst_composition_services_limit,5000000,5000000,5000000,INR turnover,FACT,GST Council flyer (6% rate),https://www.gstcouncil.gov.in/sites/default/files/e-version-gst-flyers/composition-levy-scheme.pdf,one cluster ~1.24 Cr exceeds
+whatsapp_marketing_msg,0.78,0.86,1.09,INR/message,SOURCE-BACKED PROXY,Meta pricing + BSPs (from 1 Jan 2026),https://developers.facebook.com/docs/whatsapp/pricing,ex-GST; high incl BSP markup
+whatsapp_utility_msg,0.115,0.115,0.13,INR/message,SOURCE-BACKED PROXY,Meta pricing + BSPs,https://developers.facebook.com/docs/whatsapp/pricing/updates-to-pricing,charged in-window again from 1 Oct 2026
+gemini_audio_per_min,0.05,0.084,0.17,INR/audio minute (input),DERIVED,Google AI pricing x 1920 tokens/min x Rs88/$,https://aistudio.google.com/docs/pricing,2.5/3.5 Flash-Lite / 3.1 Flash-Lite / 3 Flash
+sarvam_stt_per_min,0.38,0.49,0.59,INR/minute,FACT,Sarvam API pricing (22.80-35.40/hr),https://www.sarvam.ai/api-pricing,
+upi_mdr,0,0,0,share,SOURCE-BACKED PROXY,RBI zero-MDR policy (via Razorpay),https://razorpay.com/pricing/,gateways still charge ~2% platform fee
+sms_transactional,UNKNOWN,UNKNOWN,UNKNOWN,INR/SMS,UNKNOWN,not verified,,check MSG91/Gupshup
+tech_cost_per_job,1.5,2.5,5,INR/job,DERIVED,6 utility + 1 marketing msg + 3 min voice + ~6k tokens,,excludes payment gateway
+training_subsidy_per_trainee,2800,4000,6760,INR/trainee,DERIVED,PMKVY 4.0 rate x120h; 2018-19 RAC programme 40Cr/1 lakh; CCN Cat I x120h,https://egazette.gov.in/WriteReadData/2026/270524.pdf,paid to training partner not employer
+rpl_reward_per_candidate,500,500,500,INR,FACT,PIB Jul 2025,https://static.pib.gov.in/WriteReadData/specificdocs/documents/2025/jul/doc2025714585701.pdf,plus ~2502 to training partner
