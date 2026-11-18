@@ -289,3 +289,58 @@ if __name__ == "__main__" and "--F" in sys.argv:
     print("F base, no plan-seller contract:", variant_F("base", plan_jobs=0))
     print("F base, zero authorisation:", (lambda: (FAIR.__setitem__('auth_brand_coverage', 0.0), variant_F('base'), FAIR.__setitem__('auth_brand_coverage', 0.35))[1])())
     print("F base at 40 retailers:", variant_F("base", retailers=40))
+
+
+# ------------------------------------------------------------------ Gate-1 follow-up: AC-only vs multi-appliance (same fair inputs)
+# per-category job types: (events per out-of-warranty unit-yr, ticket incl GST, parts share, parts margin) -- AR incidence & bills, RB parts
+CAT = {
+    "AC":              dict(mix=0.30, oow=0.85, jobs=[(1.00, 550, 0.10, 0.20), (0.40, 2300, 0.45, 0.20), (0.15, 1500, 0.45, 0.20)],
+                            install=("auth", None), amc=(1299, 2, 400), season=1.8),
+    "Refrigerator":    dict(mix=0.25, oow=0.91, jobs=[(0.08, 1500, 0.50, 0.20), (0.03, 199, 0.0, 0.0)], install=None, amc=None, season=1.2),
+    "Washing machine": dict(mix=0.15, oow=0.82, jobs=[(0.12, 1200, 0.45, 0.20), (0.05, 199, 0.0, 0.0)], install=("other", 300), amc=None, season=1.0),
+    "Water purifier":  dict(mix=0.05, oow=0.80, jobs=[(1.50, 600, 0.50, 0.30), (0.15, 600, 0.40, 0.20)], install=None, amc=(2500, 3, 450), season=1.1),
+    "Geyser":          dict(mix=0.05, oow=0.80, jobs=[(0.10, 800, 0.45, 0.20)], install=("other", 300), amc=None, season=0.7),
+}
+
+
+def variant_G(cats, units=80, s="base", leakage=0.10, amc_attach_yr=0.03, plan_jobs=100, plan_contrib=150,
+              trough_floor=15000, core_share=0.5, retailers=30, years_base=4.5):
+    p = g(s); p.update(FAIR); p["materials_sale"] = p["materials_sale"] / 1.18
+    rev = con = visits = payouts = 0.0; peakw = 0.0; detail = {}
+    for c in cats:
+        d = CAT[c]; u = units * d["mix"]; base = u * 12 * years_base * 0.9
+        r = k = v = pay = 0.0
+        for ev, tk, ps, pm in d["jobs"]:
+            q = base * d["oow"] * ev / 12 * p["repair_capture"] * (1 - leakage)
+            pj = dict(p, oow_ticket_incl_gst=tk, parts_share=ps, parts_margin=pm); j = oow_job(pj)
+            r += q * j["net"]; k += q * j["contribution"]; v += q; pay += q * j["payout"]
+        if d["install"]:
+            if d["install"][0] == "auth":
+                q = u * p["auth_brand_coverage"] * p["install_routing"]; j = ac_install_job(p); pp = p["ac_install_payout"]
+            else:
+                q = u * 0.9 * p["other_install_capture"]; j = other_install_job(dict(p, other_install_net=d["install"][1])); pp = p["other_install_payout"]
+            r += q * j["net"]; k += q * j["contribution"]; v += q; pay += q * pp
+        if d["amc"]:
+            price, vis, vc = d["amc"]; q = base * d["oow"] * amc_attach_yr / 12 * (1 - leakage)
+            j = amc_job(dict(p, amc_price_incl_gst=price, amc_visits=vis, amc_visit_cost=vc))
+            r += q * j["net"]; k += q * j["contribution"]; v += q * vis / 12 * 12 / 12; pay += q * vis * vc / 12 * 12 / 12
+        detail[c] = dict(revenue=round(r), contribution=round(k), visits=round(v, 1))
+        rev += r; con += k; visits += v; payouts += pay; peakw += v * d["season"]
+    peak_idx = peakw / visits if visits else 1
+    techs = math.ceil(retailers * visits * peak_idx / (p["jobs_day"] * p["days"]))
+    trough_earn = retailers * payouts / techs * (2 - peak_idx) if techs else 0   # off-season month earnings
+    topup = math.ceil(techs * core_share) * max(0, trough_floor - trough_earn) * 5 / 12
+    c_con = retailers * con - topup + plan_jobs * plan_contrib
+    per = c_con / retailers
+    return dict(cats=cats, units=units, per_retailer_revenue=round(rev), per_retailer_contrib=round(con), visits=round(visits, 1),
+                peak_index=round(peak_idx, 2), techs=techs, avg_tech_income=round(retailers * payouts / techs) if techs else 0, topup=round(topup),
+                per_retailer_all_in=round(per), breakeven=math.ceil(p["cluster_fixed"] / per) if per > 0 else None,
+                cluster_ebitda_30=round(c_con - p["cluster_fixed"]), detail=detail)
+
+
+if __name__ == "__main__" and "--G" in sys.argv:
+    ALL = ["AC", "Refrigerator", "Washing machine", "Water purifier", "Geyser"]
+    for cats in (["AC"], ["AC", "Washing machine", "Refrigerator"], ["AC", "Water purifier"], ["AC", "Washing machine", "Refrigerator", "Water purifier"], ALL):
+        for un in (60, 80, 100):
+            r = variant_G(cats, un); r.pop("detail") if un != 80 else None
+            print(r)

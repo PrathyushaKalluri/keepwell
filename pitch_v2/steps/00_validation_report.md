@@ -24,7 +24,7 @@
 **A redesigned version can work**, but only under three conditions:
 1. Keepwell becomes a **brand-authorised (or sub-contracted) installation partner**.
 2. It serves **larger shops** (80–100+ units a month).
-3. It **focuses on ACs**.
+3. It serves **four appliances (AC, washing machine, refrigerator, water purifier), with AC as the anchor**. The market and the numbers are shown for all four; ACs carry most of the value (see §4b).
 
 On fair inputs, a cluster breaks even at **29–44 retailers**, not the 21 in the founders' document. Contribution is **₹3.8–5.8k per retailer per month**, not ₹7.8k. This is **a 15–20% contribution operator**, so it must be pitched as a density business that is honest about its margins.
 
@@ -101,9 +101,49 @@ A fresh agent played a sceptical angel investor and saw none of our reasoning. I
 
 ---
 
+## 4b. AC only, or four appliances? (decision added after your review)
+
+**Your concern was that the idea broke because it covered many products. It didn't.** It broke on five other inputs: installation authorisation, the number of retailers, technician productivity, the AMC price and GST.
+
+**We should not pitch AC only.** I re-ran the same fair inputs with each category's own repair frequency, bill, parts share and seasonality, using `variant_G` in `ue_v2.py` with 80 units a month and 30 retailers:
+
+| Portfolio | Revenue per retailer per month | Contribution per retailer per month (all-in) | Breakeven retailers | Cluster EBITDA at 30 | Seasonal peak index |
+|---|---|---|---|---|---|
+| AC only | ₹26.6k | ₹4.5k | 37 | −₹0.30 L | 1.80 |
+| AC + washing machine + refrigerator | ₹29.1k | ₹5.2k | 32 | −₹0.09 L | 1.63 |
+| AC + water purifier | ₹28.5k | ₹4.9k | 34 | −₹0.19 L | 1.72 |
+| **AC + WM + fridge + water purifier (recommended)** | **₹31.0k** | **₹5.5k** | **30** | **+₹0.01 L** | **1.59** |
+| All five (+ geyser) | ₹31.5k | ₹5.7k | 29 | +₹0.07 L | 1.55 |
+
+| Portfolio at 100 units a month | Contribution per retailer per month (all-in) | Breakeven retailers | Cluster EBITDA at 30 |
+|---|---|---|---|
+| AC only | ₹5.5k | 30 | ₹0.00 L |
+| Four appliances | ₹6.9k | 25 | +₹0.41 L |
+
+**What the comparison shows:**
+- **The four-appliance portfolio is better on every measure.** It brings about 17% more revenue and 23% more contribution per retailer, and needs 7 fewer retailers to break even. The difference comes from better use of technicians across the year.
+- **The year is smoother.** The seasonal peak index falls from 1.8 to 1.6, because washing machines, fridges and purifiers keep technicians busy from October to February.
+- **The retailer gets one partner for everything it sells.** A retailer won't hand us its ACs and keep calling someone else for washing machines.
+- **The market is larger.** It is sized on everything the retailer sells (about ₹1,550 Cr retailer-linked, BASE), not AC alone.
+
+**Why AC is still the anchor:**
+- AC is about 85% of the value per retailer, because it brings brand-authorised installs, frequent paid service, gas refills and the only AMC customers readily buy.
+- So AC leads the go-to-market and the first-season test.
+- A pilot that starts before summer will be AC-heavy in volume anyway. **That is a test plan, not the business definition.**
+
+**Where the other categories earn less:**
+- Refrigerator and washing machine repairs are rare (0.08–0.17 a year per unit).
+- Water-purifier filter visits are frequent but small.
+- So these categories add utilisation and stickiness more than profit.
+- Geyser adds little and stays optional.
+
+**Decision:** pitch and model **four appliances (AC, washing machine, refrigerator, water purifier)**, with AC as the anchor. Run the pilot on all four, timed to catch the AC season.
+
+**Correction to the earlier F variant:** it was labelled "AC-first" but already counted the repair events of every category. These per-category numbers replace it.
+
 ## 5. The recommended solution shape (to build Steps 1–13 on, if you approve)
 
-**Keepwell is the authorised after-sale service arm for small-town appliance retailers, starting with ACs.**
+**Keepwell is the authorised after-sale service arm for small-town appliance retailers. It covers ACs, washing machines, refrigerators and water purifiers, with AC as the anchor.**
 
 1. **Who it serves.** Independent multi-brand shops selling **80 or more major units a month**, about 3–5k such shops nationally. Keepwell works under the retailer's name, so the customer stays the retailer's.
 2. **Who pays.**
@@ -131,10 +171,9 @@ A fresh agent played a sceptical angel investor and saw none of our reasoning. I
 
    It costs under ₹5 a job, and one cluster manager plus one dispatcher can run about 30 retailers. **The AI is the cost engine, not the moat.**
 6. **Order of build.**
-   1. AC installs, pre-summer service and AMC.
-   2. Gas and repair.
-   3. Washing machines, fridges and water purifiers, in the second year.
-   4. Parts, refurbishment and EPR, only once the data supports them.
+   1. **From day one:** all four appliances, covering installs (authorised), out-of-warranty service and repair, and AMC (AC and water purifier).
+   2. **Then:** parts.
+   3. **Last:** refurbishment and EPR, only once the data supports them. Geyser is optional.
 7. **First proof.** **One cluster through one summer (Mar–Jun 2027)**, not three clusters in 13 months.
 
 **What must be true in the first 90 days (the kill criteria):**
@@ -173,7 +212,7 @@ A fresh agent played a sceptical angel investor and saw none of our reasoning. I
 
 ## 7. Decisions for you (Gate 1)
 
-1. **Approve the recommended shape (§5)?** That means AC-first, authorised or sub-contracted installation, businesses and customers paying, the retailer as the source with no fee, and one cluster through one summer. You can say yes, tweak it, or say no.
+1. **Approve the recommended shape (§5)?** That means four appliances with AC as the anchor, authorised or sub-contracted installation, businesses and customers paying, the retailer as the source with no fee, and one cluster through one summer. You can say yes, tweak it, or say no.
 2. **Pilot cluster:** **Warangal–Karimnagar or Vijayawada–Guntur.**
    - Warangal–Karimnagar has fewer chain stores, so likely more independents.
    - Vijayawada–Guntur has denser retail, but Bajaj Electronics' extended-warranty counters are there.
