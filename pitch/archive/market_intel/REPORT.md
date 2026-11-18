@@ -1,3 +1,5 @@
+> **ARCHIVED 19 Nov 2026.** Kept for reference; the conclusions are summarised in `../../RESEARCH_INSIGHTS.md`.
+
 # Retailer-led post-warranty repair in Tier 2/3 India: research report
 
 **Research date:** 18 Nov 2026.

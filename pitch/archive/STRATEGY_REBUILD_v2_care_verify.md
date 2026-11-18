@@ -3,7 +3,7 @@
 > - **Keepwell Care (₹1,499 plan sold by agencies): rejected.** An agency can sell its own AMC with its own technicians and keep all ₹1,499. Giving Keepwell ~₹1,250 of its own customer's money makes no sense. Extended warranties (retailer, brand, OneAssist) already cover the first 2–5 years, and older machines already have local AMCs.
 > - **Keepwell Verify (₹20 a job for brands): rejected.** In-warranty repairs go to brand-authorised service centres, not independent agencies (mentor transcript). Repeat-visit cost mostly sits with the service centre, not the brand. The "proof" would come from the agency's own technician, and brands already run technician apps with photo and OTP closure, so a third-party "verification" adds nothing.
 > - **Jobs per agency per day are unsourced** (2–15 a day across our own figures).
-> Current direction: an evidence-first market study of retailer-led post-warranty repair in Tier 2/3 India, in `../market_intel/`.
+> Current direction: an evidence-first market study of retailer-led post-warranty repair in Tier 2/3 India, in `market_intel/` (also archived, 19 Nov 2026).
 
 # Keepwell strategy rebuild: who pays, how much, and why the money now
 > **Illustrative case.** Founder histories, the company timeline, the pilot results and the financials are assumptions made for the IIIT Hyderabad ESFS course pitch. The research, the interviews, the evidence and the prototype are real. **Status: proposal for the team's decision (17 Nov 2026), version 2 after an independent investor red-team. The decks and the financial model are not changed until the team approves a direction.**
