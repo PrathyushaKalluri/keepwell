@@ -1,0 +1,25 @@
+{
+ "n_rows": 0,
+ "n_places": 1008,
+ "places_by_type": {
+  "city": 67,
+  "town": 941
+ },
+ "by_class": {},
+ "by_type": {},
+ "dropped": {},
+ "outside": {
+  "outside India polygons": 56
+ },
+ "by_state": {},
+ "top_brands": [],
+ "addr_state_top": [],
+ "servers": [
+  "Geofabrik india-latest.osm.pbf (Overpass servers unavailable for POI pulls)"
+ ],
+ "osm_base": [
+  "maldives.osm.pbf (Geofabrik, extracted 2026-11-18 23:34)"
+ ],
+ "places_osm_base": "2026-07-15T15:22:01Z",
+ "rules": []
+}

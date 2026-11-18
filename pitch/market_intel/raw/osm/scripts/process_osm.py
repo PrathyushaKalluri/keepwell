@@ -173,15 +173,25 @@ def main():
     sys.path.insert(0, HERE)
     import geo
     states = geo.load_india()
+    import pbf_extract as px
     els, groups_of, bases = {}, {}, set()
-    for f in sorted(glob.glob(os.path.join(RAW, "tiles", "*.json"))):
-        js = json.load(open(f))
-        bases.add(js.get("osm_base"))
-        for e in js["elements"]:
-            k = (e["type"], e["id"])
-            els.setdefault(k, e)
-            groups_of.setdefault(k, set()).add(js["group"])
-    servers = {"maps.mail.ru (primary), others as fallback; see tile_fetch_log.txt"}
+    src = json.load(open(os.path.join(BASE, "pbf_json", "elements.json")))
+    bases.add(src["source"] + " (Geofabrik, extracted " + src["extracted"] + ")")
+    for e in src["elements"]:
+        k = (e["type"], e["id"])
+        els[k] = e
+        t = e["tags"]
+        g = set()
+        if t.get("shop") in px.SHOPS or t.get("craft") in px.CRAFTS:
+            g.add("tags")
+        if any(px.KEY_RE.match(kk) for kk in t):
+            g.add("keys")
+        nm = t.get("name")
+        if nm and (t.get("shop") is not None or t.get("craft") is not None or t.get("office") == "company") \
+                and px.NAME_RE.search(nm):
+            g.add("names")
+        groups_of[k] = g
+    servers = {"Geofabrik india-latest.osm.pbf (Overpass servers unavailable for POI pulls)"}
     qstate, outside = {}, Counter()
     for k, e in list(els.items()):
         lat = e.get("lat", e.get("center", {}).get("lat"))

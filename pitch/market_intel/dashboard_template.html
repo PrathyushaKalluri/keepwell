@@ -18,7 +18,7 @@ main{padding:16px 20px;max-width:1500px;margin:0 auto}.page{display:none}.page.o
 .kpi{background:var(--card);border:1px solid var(--line);border-radius:8px;padding:10px 12px}.kpi b{display:block;font-size:20px}.kpi span{color:var(--mut);font-size:12px}
 .card{background:var(--card);border:1px solid var(--line);border-radius:8px;padding:12px;margin-bottom:14px}
 .row{display:grid;grid-template-columns:3fr 2fr;gap:14px}@media(max-width:900px){.row{grid-template-columns:1fr}main{padding:12px 16px}}
-.map{height:560px;border-radius:6px}.ctl{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:8px;align-items:center}
+.map{height:560px;border-radius:6px;background:var(--bg)}.leaflet-container{background:var(--bg)!important}.ctl{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:8px;align-items:center}
 select,input{background:var(--card);color:var(--ink);border:1px solid var(--line);border-radius:6px;padding:5px 7px;font-size:13px}
 table{border-collapse:collapse;width:100%;font-size:12.5px}th,td{border-bottom:1px solid var(--line);padding:5px 6px;text-align:left;vertical-align:top}
 th{cursor:pointer;position:sticky;top:0;background:var(--card)}.tw{max-height:520px;overflow:auto}
@@ -81,7 +81,7 @@ const maps={};
 PAGES.forEach((p,i)=>{const b=document.createElement('button');b.textContent=(i+1)+'. '+p;b.onclick=()=>show(i+1);$('#nav').append(b)});
 function show(i){document.querySelectorAll('.page').forEach((e,j)=>e.classList.toggle('on',j==i-1));document.querySelectorAll('nav button').forEach((e,j)=>e.classList.toggle('on',j==i-1));
  ({1:p1,2:p2,3:p3,4:p4,5:p5,6:p6,7:p7,8:p8,9:p9})[i]();setTimeout(()=>Object.values(maps).forEach(m=>m.invalidateSize()),50);try{localStorage.setItem('pg',i)}catch(e){}}
-function mk(id){if(maps[id])return maps[id];const m=L.map(id,{preferCanvas:true}).setView([22.5,80],5);L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{maxZoom:18,attribution:'© OpenStreetMap contributors'}).addTo(m);maps[id]=m;return m}
+function mk(id){if(maps[id])return maps[id];const m=L.map(id,{preferCanvas:true,zoomSnap:.25}).setView([22.5,80],5);L.geoJSON(D.geo,{style:{weight:.8,color:getComputedStyle(document.documentElement).getPropertyValue('--mut'),fillColor:getComputedStyle(document.documentElement).getPropertyValue('--card'),fillOpacity:1},interactive:false}).addTo(m);m.attributionControl.addAttribution('State boundaries: DataMeet (CC BY 4.0) · points: OpenStreetMap contributors (ODbL)');maps[id]=m;return m}
 const ramp=t=>`hsl(${160-150*t},55%,${78-40*t}%)`;
 function tbl(el,cols,rows,sortable=true){let st={k:null,d:1};const draw=()=>{let r=rows.slice();if(st.k!=null)r.sort((a,b)=>{const x=a[st.k],y=b[st.k];return (typeof x==='number'&&typeof y==='number'?x-y:String(x??'').localeCompare(String(y??'')))*st.d});
  el.innerHTML='<thead><tr>'+cols.map((c,i)=>`<th data-i="${i}">${c[0]}</th>`).join('')+'</tr></thead><tbody>'+r.map(x=>'<tr>'+cols.map(c=>`<td>${c[2]?c[2](x[c[1]],x):fmt(x[c[1]])}</td>`).join('')+'</tr>').join('')+'</tbody>';
@@ -115,7 +115,7 @@ let l3=[];function p3(){const m=mk('map3');fillSel($('#f3s'),[...new Set(C.map(c
  tbl($('#t3'),[['City','n'],['State','s'],['Listed repair','op'],['Appliance repair','opa'],['ASC','asc'],['Verified agencies','x',()=>'UNKNOWN'],['Technicians','y',()=>'UNKNOWN'],['Requests/day (BASE)','d']],CORE.filter(c=>!st||c.s==st).map(c=>({...c,d:Math.round(c.e.base.total.jobs/300)})).sort((a,b)=>b.op-a.op).slice(0,300))}
 let l4;function p4(){const m=mk('map4');['#f4c','#f4m','#sc4'].forEach(s=>$(s).onchange=p4);if(l4)m.removeLayer(l4);const cat=$('#f4c').value,me=$('#f4m').value,sc=$('#sc4').value;
  const v=c=>c.e[sc][cat][me];const mx=Math.max(...CORE.map(v));l4=L.layerGroup();CORE.filter(c=>c.la).forEach(c=>L.circleMarker([c.la,c.lo],{radius:3+14*Math.sqrt(v(c)/mx),fillColor:ramp(Math.sqrt(v(c)/mx)),color:'#555',weight:.5,fillOpacity:.75}).bindTooltip(`${c.n}: ${fmt(v(c))} (${sc.toUpperCase()})`).addTo(l4));l4.addTo(m);
- tbl($('#t4'),[['Parameter','p'],['Category','c'],['LOW','low'],['BASE','base'],['HIGH','high'],['Label','label']],Object.entries(D.params).map(([k,v])=>({p:k.split('|')[0],c:k.split('|')[1],...v})),true)}
+ tbl($('#t4'),[['Parameter','p'],['Category','c'],['LOW','low',v=>v??'—'],['BASE','base',v=>v??'—'],['HIGH','high',v=>v??'—'],['Label','label']],Object.entries(D.params).map(([k,v])=>({p:k.split('|')[0],c:k.split('|')[1],...v})),true)}
 const CLS={'HIGH OPPORTUNITY':'#2f6b5e','PROMISING BUT UNVERIFIED':'#7fb3a5','COMPETITIVE / SATURATED':'#c4572c','LOW COMMERCIAL ATTRACTIVENESS':'#b7b2a6','INSUFFICIENT DATA':'#e4e2dc'};
 let l5;function p5(){const m=mk('map5');if(!$('#f5').options[1])Object.keys(CLS).forEach(k=>$('#f5').add(new Option(k,k)));$('#f5').onchange=p5;if(l5)m.removeLayer(l5);const f=$('#f5').value;
  l5=L.layerGroup();const rows=CORE.filter(c=>!f||c.cls==f);rows.filter(c=>c.la).forEach(c=>L.circleMarker([c.la,c.lo],{radius:5+Math.sqrt(c.e.base.total.jobs/2e4),fillColor:CLS[c.cls],color:'#444',weight:.6,fillOpacity:.9}).bindTooltip(`${c.n}: ${c.cls} · entry ${c.es} · ${c.conf}`).addTo(l5));l5.addTo(m);
