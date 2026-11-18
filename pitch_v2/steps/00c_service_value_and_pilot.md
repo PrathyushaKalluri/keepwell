@@ -64,7 +64,7 @@ Data layers are upside. On its own, the service business must meet five tests th
    - Its large households support washing machines and fridges.
    - The detailed heat and TDS figures come from the location research.
 3. **The independent shops are there.** Chains have about 10 stores across three cities (Bajaj Electronics). Everything else is independent, which is our customer. Bajaj's extended-warranty counters (Onsitego / OneAssist) don't serve independent shops.
-4. **Andhra Pradesh is cheaper and gives more support.** AP has no gig-worker levy (Telangana charges 1–2%). AP Startup Policy 4.0 offers grants up to ₹15–20 L, seed equity up to ₹50 L and go-to-market support up to ₹50 L. That is non-dilutive money for the first round.
+4. **Andhra Pradesh is cheaper and gives more support.** AP has no gig-worker levy (Telangana charges 1–2%). AP Startup Policy 4.0 offers grants up to ₹15–20 L, seed equity up to ₹50 L and go-to-market support up to ₹50 L. The grants are non-dilutive money for the first round; the seed equity and go-to-market support are taken as equity.
 5. **Competition is present but thin.** Urban Company and a few others claim coverage, which proves people pay for service, but nobody serves the independent shops. The Amaravati capital region adds new households.
 
 **The strongest argument against it:** it is 275 km (about 5 h) from the Hyderabad team.
