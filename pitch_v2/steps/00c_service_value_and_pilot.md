@@ -46,12 +46,12 @@ Data layers are upside. On its own, the service business must meet five tests th
 **Decision:** pilot in **Vijayawada, with Guntur, Mangalagiri and Tenali in the same cluster**.
 - **Second cluster and backup:** **Warangal–Hanamkonda–Kazipet** (Telangana).
 - **Basis:** the model and `pitch/archive/market_intel/data/cities.csv`.
-- **Still to come:** heat, water quality and technician-supply detail from the location research. It will be added when it lands, and I'll flag it if it contradicts this decision.
+- **Location research (19 Nov):** `research/pilot_location/` scores 9 belts on 7 weighted factors. **Vijayawada–Guntur 76.0, Warangal 73.5, Nizamabad 65.0.** The research confirms the choice, but the lead is narrow. It also corrected three claims; the corrections are applied below.
 
 | Belt | Households 2026 (est.) | Repair and service spend a year (BASE) | Chain stores found | Competitors checked (verified / claimed) | Distance from Hyderabad | State rules |
 |---|---|---|---|---|---|---|
-| **Vijayawada + Guntur + Tenali** (hub to satellites 25–35 km) | **about 8.1 L** | **about ₹31 Cr** | 10 (Bajaj Electronics) | 1/3 (Vijayawada), 1/2 (Guntur) | 275 km, about 5 h | AP: **no gig-worker levy**; AP Startup Policy 4.0 grants ₹15–20 L + seed equity up to ₹50 L |
-| Warangal tri-city (+ Karimnagar 70 km) | about 2.4 L (3.4 L with Karimnagar) | about ₹14 Cr (₹19.5 Cr) | 3 (5) | 1/1 | 145 km, about 3 h | TS: gig levy 1–2%; T-Hub / T-Fund |
+| **Vijayawada + Guntur + Tenali** (hub to satellites 25–35 km) | **about 8.1 L** | **about ₹31 Cr** | 10 (Bajaj Electronics) | 1/3 (Vijayawada), 1/2 (Guntur) | 275 km, about 5 h | AP: no *state* gig fee (the central Code on Social Security applies in both states); AP Startup Policy 4.0 grants ₹15–20 L + seed equity up to ₹50 L |
+| Warangal tri-city (+ Karimnagar 70 km) | about 2.4 L (3.4 L with Karimnagar) | about ₹14 Cr (₹19.5 Cr) | 3 (5) | 1/1 | 145 km, about 3 h | TS: state gig fee of 1–2% of each payout (Act 21 of 2026) on top of the central Code; T-Hub / T-Fund |
 | Visakhapatnam | about 6.1 L | about ₹23 Cr | 8 | 1/4 | 620 km | AP; one city, no satellites |
 | Nellore | about 2.0 L | about ₹7.5 Cr | 1 | 1/1 | 460 km | AP |
 | Kurnool / Rajahmundry–Kakinada / Khammam / Nizamabad | 0.85–3.2 L | ₹4.9–12.3 Cr | 2–4 | not checked | 200–470 km | |
@@ -59,20 +59,24 @@ Data layers are upside. On its own, the service business must meet five tests th
 **Why Vijayawada–Guntur:**
 1. **Density decides viability (Step 0, sensitivity rank 1).** A cluster needs about 2,400 appliances sold a month across 50–70 shops to reach 10–12%. This belt has about 8 lakh households within 35 km of the hub, more than 3× the Warangal tri-city. It is the only belt where 50–70 independent shops in one cluster is realistic.
 2. **The demand fits the products.**
-   - It is one of India's hottest and most humid plains, with long AC hours. That means more service, gas refills and coil corrosion, which favours the AC anchor.
-   - Its high-TDS groundwater supports water-purifier service.
+   - It has a real AC season: the IMD May mean maximum is **40.2 °C**, the record is **48.8 °C**, and **4 months average 35 °C or more**. The belt has the **largest AC base of any candidate**, about **129k ACs and 186k AC jobs a year** [Model]. Its humidity is moderate (46% on May afternoons); the claim that it is "most humid" is corrected.
+   - Saline groundwater in parts of Krishna and Guntur (CGWB) supports water-purifier service. District TDS medians are still UNKNOWN.
+   - Incomes are strong: per-capita GDDP is **₹4.2 L in Krishna** and **₹3.6 L in NTR**, against ₹1.87 L in Hanumakonda (Warangal).
+   - It has a technician pipeline: a JCH-Hitachi / APSSDC AC-training centre in Vijayawada, and the ITI refrigeration and AC trade.
    - Its large households support washing machines and fridges.
    - The detailed heat and TDS figures come from the location research.
 3. **The independent shops are there.** Chains have about 10 stores across three cities (Bajaj Electronics). Everything else is independent, which is our customer. Bajaj's extended-warranty counters (Onsitego / OneAssist) don't serve independent shops.
-4. **Andhra Pradesh is cheaper and gives more support.** AP has no gig-worker levy (Telangana charges 1–2%). AP Startup Policy 4.0 offers grants up to ₹15–20 L, seed equity up to ₹50 L and go-to-market support up to ₹50 L. The grants are non-dilutive money for the first round; the seed equity and go-to-market support are taken as equity.
-5. **Competition is present but thin.** Urban Company and a few others claim coverage, which proves people pay for service, but nobody serves the independent shops. The Amaravati capital region adds new households.
+4. **Andhra Pradesh is cheaper and gives more support.** AP has no *state* gig fee; Telangana adds 1–2% of payouts on top of the central Code, which applies in both states. AP Startup Policy 4.0 offers grants up to ₹15–20 L, seed equity up to ₹50 L and go-to-market support up to ₹50 L. The grants are non-dilutive money for the first round; the seed equity and go-to-market support are taken as equity.
+5. **Competition is present for households and absent for shops.** Urban Company is live with AC prices in Vijayawada (from ₹799) and Guntur (from ₹699), and Eureka Forbes has 6 centres in Vijayawada. That proves households pay for service. **None of them serves the independent shop**, which is our customer and channel. This is the strongest argument against the belt. The Amaravati capital region adds new households.
 
-**The strongest argument against it:** it is 275 km (about 5 h) from the Hyderabad team.
+**The strongest arguments against it:** households here already have Urban Company and Eureka Forbes, and the belt is 273 km away (3.6 h at free flow, about 5 h in practice) from the Hyderabad team.
 - **Mitigation:** the CEO and the first cluster manager live in Vijayawada for the pilot.
 - Hyderabad keeps only technology and HQ.
 
 **Why Warangal is the second cluster, not the first:**
-- It is closer (3 h), has few chains and is Telangana-based. But it has about 2.4 L households, too few to reach 50–70 shops in one cluster.
+- **For it:** it is the hottest belt (Hanamkonda's May maximum is 41.6 °C). Telangana's urban AC/cooler ownership is 62.7%, against 36.2% in AP. It has no Urban Company AC page, it is a fluoride hotspot, and it is 2–3 h from Hyderabad.
+- **Against it:** about 2.4 L households, and no town of 50k or more within 40 km (Karimnagar is 70 km away). Incomes are lower, and Telangana adds the state gig fee.
+- **What would flip the decision:** a shop count showing 30–50 or more independents the tri-city can sign (from GST HSN data or a 2-day shop walk). That is worth doing before the cluster-2 decision.
 - It becomes cluster 2 in month 7 to test a smaller-town format, with Karimnagar as a satellite.
 
 **What the pilot must confirm in this belt (90 days):**
