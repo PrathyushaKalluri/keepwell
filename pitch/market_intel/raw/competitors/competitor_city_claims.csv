@@ -1,0 +1,841 @@
+company,city,state,status,evidence_url,note
+Urban Company,Warangal,Telangana,NOT VERIFIED,https://www.urbancompany.com/warangal-ro-purchase,Only a Native RO purifier purchase page in sitemap; no AC/fridge/WM/RO repair page.
+Urban Company,Karimnagar,Telangana,NO EVIDENCE FOUND,https://www.urbancompany.com/sitemap/category-sitemap-1.xml,"No page for this city slug in UC category sitemaps (checked 84,327 URLs)"
+Urban Company,Vijayawada,Andhra Pradesh,PUBLICLY CLAIMED,https://www.urbancompany.com/vijayawada-ac-service-repair,"City page with city-specific price catalogue fetched 2026-11-18: Foam-jet AC service from Rs 799. Ratings shown are national aggregates, not local reviews; UC does not publish its 47-city list; top 10 cities >90% of net NTV (Q3 FY26)"
+Urban Company,Visakhapatnam,Andhra Pradesh,PUBLICLY CLAIMED,https://www.urbancompany.com/visakhapatnam-ac-service-repair,"City page with city-specific price catalogue fetched 2026-11-18: Foam-jet AC from Rs 799; fridge and WM pages also in sitemap. Ratings shown are national aggregates, not local reviews; UC does not publish its 47-city list; top 10 cities >90% of net NTV (Q3 FY26)"
+Urban Company,Guntur,Andhra Pradesh,PUBLICLY CLAIMED,https://www.urbancompany.com/guntur-ac-service-repair,"City page with city-specific price catalogue fetched 2026-11-18: Foam-jet AC from Rs 799; WM page also in sitemap. Ratings shown are national aggregates, not local reviews; UC does not publish its 47-city list; top 10 cities >90% of net NTV (Q3 FY26)"
+Urban Company,Nellore,Andhra Pradesh,NO EVIDENCE FOUND,https://www.urbancompany.com/sitemap/category-sitemap-1.xml,"No page for this city slug in UC category sitemaps (checked 84,327 URLs)"
+Urban Company,Coimbatore,Tamil Nadu,PUBLICLY CLAIMED,https://www.urbancompany.com/coimbatore-refrigerator-repair,"City page with city-specific price catalogue fetched 2026-11-18: Fridge check-up from Rs 199; RO repair page in sitemap. Ratings shown are national aggregates, not local reviews; UC does not publish its 47-city list; top 10 cities >90% of net NTV (Q3 FY26)"
+Urban Company,Madurai,Tamil Nadu,NO EVIDENCE FOUND,https://www.urbancompany.com/sitemap/category-sitemap-1.xml,"No page for this city slug in UC category sitemaps (checked 84,327 URLs)"
+Urban Company,Tiruchirappalli,Tamil Nadu,NOT VERIFIED,https://www.urbancompany.com/tiruchirappalli-ro-purchase,Only a Native RO purifier purchase page in sitemap; no AC/fridge/WM/RO repair page.
+Urban Company,Mysuru,Karnataka,NOT VERIFIED,https://www.urbancompany.com/mysore-ro-purchase,Only a Native RO purifier purchase page in sitemap; no AC/fridge/WM/RO repair page.
+Urban Company,Hubballi,Karnataka,NO EVIDENCE FOUND,https://www.urbancompany.com/sitemap/category-sitemap-1.xml,"No page for this city slug in UC category sitemaps (checked 84,327 URLs)"
+Urban Company,Mangaluru,Karnataka,NO EVIDENCE FOUND,https://www.urbancompany.com/sitemap/category-sitemap-1.xml,"No page for this city slug in UC category sitemaps (checked 84,327 URLs)"
+Urban Company,Kochi,Kerala,PUBLICLY CLAIMED,https://www.urbancompany.com/kochi-ac-service-repair,"City page with city-specific price catalogue fetched 2026-11-18: Foam-jet AC from Rs 899; fridge page also in sitemap. Ratings shown are national aggregates, not local reviews; UC does not publish its 47-city list; top 10 cities >90% of net NTV (Q3 FY26)"
+Urban Company,Thrissur,Kerala,NO EVIDENCE FOUND,https://www.urbancompany.com/sitemap/category-sitemap-1.xml,"No page for this city slug in UC category sitemaps (checked 84,327 URLs)"
+Urban Company,Indore,Madhya Pradesh,PUBLICLY CLAIMED,https://www.urbancompany.com/indore-washing-machine-repair,"City page with city-specific price catalogue fetched 2026-11-18: WM check-up from Rs 199; AC/fridge pages not in sitemap. Ratings shown are national aggregates, not local reviews; UC does not publish its 47-city list; top 10 cities >90% of net NTV (Q3 FY26)"
+Urban Company,Bhopal,Madhya Pradesh,PUBLICLY CLAIMED,https://www.urbancompany.com/bhopal-ac-service-repair,"City page with city-specific price catalogue fetched 2026-11-18: Foam-jet AC from Rs 649; WM page also in sitemap. Ratings shown are national aggregates, not local reviews; UC does not publish its 47-city list; top 10 cities >90% of net NTV (Q3 FY26)"
+Urban Company,Raipur,Chhattisgarh,NOT VERIFIED,https://www.urbancompany.com/raipur-ro-purchase,"Only a Native RO purifier purchase page in sitemap; no AC/fridge/WM/RO repair page. Other UC categories (microwave repair, cleaning, salon) have pages."
+Urban Company,Nagpur,Maharashtra,PUBLICLY CLAIMED,https://www.urbancompany.com/nagpur-ac-service-repair,"City page with city-specific price catalogue fetched 2026-11-18: Foam-jet AC from Rs 699; WM and RO repair pages also in sitemap. Ratings shown are national aggregates, not local reviews; UC does not publish its 47-city list; top 10 cities >90% of net NTV (Q3 FY26)"
+Urban Company,Nashik,Maharashtra,PUBLICLY CLAIMED,https://www.urbancompany.com/nashik-washing-machine-repair,"City page with city-specific price catalogue fetched 2026-11-18: WM check-up from Rs 199. Ratings shown are national aggregates, not local reviews; UC does not publish its 47-city list; top 10 cities >90% of net NTV (Q3 FY26)"
+Urban Company,Aurangabad,Maharashtra,NOT VERIFIED,https://www.urbancompany.com/aurangabad-ro-purchase,Only a Native RO purifier purchase page in sitemap; no AC/fridge/WM/RO repair page.
+Urban Company,Surat,Gujarat,PUBLICLY CLAIMED,https://www.urbancompany.com/surat-ac-service-repair,"City page with city-specific price catalogue fetched 2026-11-18: Foam-jet AC from Rs 599. Ratings shown are national aggregates, not local reviews; UC does not publish its 47-city list; top 10 cities >90% of net NTV (Q3 FY26)"
+Urban Company,Vadodara,Gujarat,PUBLICLY CLAIMED,https://www.urbancompany.com/vadodara-ac-service-repair,"City page with city-specific price catalogue fetched 2026-11-18: Foam-jet AC from Rs 599; fridge and WM pages also in sitemap. Ratings shown are national aggregates, not local reviews; UC does not publish its 47-city list; top 10 cities >90% of net NTV (Q3 FY26)"
+Urban Company,Rajkot,Gujarat,NO EVIDENCE FOUND,https://www.urbancompany.com/sitemap/category-sitemap-1.xml,"No page for this city slug in UC category sitemaps (checked 84,327 URLs)"
+Urban Company,Lucknow,Uttar Pradesh,PUBLICLY CLAIMED,https://www.urbancompany.com/lucknow-washing-machine-repair,"City page with city-specific price catalogue fetched 2026-11-18: WM check-up from Rs 199; fridge and RO repair pages in sitemap; no AC page. Ratings shown are national aggregates, not local reviews; UC does not publish its 47-city list; top 10 cities >90% of net NTV (Q3 FY26)"
+Urban Company,Kanpur,Uttar Pradesh,PUBLICLY CLAIMED,https://www.urbancompany.com/kanpur-washing-machine-repair,"City page with city-specific price catalogue fetched 2026-11-18: WM check-up from Rs 199; fridge and RO repair pages in sitemap. Ratings shown are national aggregates, not local reviews; UC does not publish its 47-city list; top 10 cities >90% of net NTV (Q3 FY26)"
+Urban Company,Patna,Bihar,PUBLICLY CLAIMED,https://www.urbancompany.com/patna-washing-machine-repair,"City page with city-specific price catalogue fetched 2026-11-18: WM check-up from Rs 199; RO repair page in sitemap. Ratings shown are national aggregates, not local reviews; UC does not publish its 47-city list; top 10 cities >90% of net NTV (Q3 FY26)"
+Urban Company,Bhubaneswar,Odisha,NOT VERIFIED,https://www.urbancompany.com/bhubaneswar-ro-purchase,"Only a Native RO purifier purchase page in sitemap; no AC/fridge/WM/RO repair page. Other UC categories (microwave repair, cleaning, salon) have pages."
+Urban Company,Guwahati,Assam,PUBLICLY CLAIMED,https://www.urbancompany.com/guwahati-refrigerator-repair,"City page with city-specific price catalogue fetched 2026-11-18: Fridge check-up from Rs 199. Ratings shown are national aggregates, not local reviews; UC does not publish its 47-city list; top 10 cities >90% of net NTV (Q3 FY26)"
+Urban Company,Jaipur,Rajasthan,PUBLICLY CLAIMED,https://www.urbancompany.com/jaipur-ac-service-repair,"City page with city-specific price catalogue fetched 2026-11-18: Foam-jet AC from Rs 599; fridge, WM, RO pages also in sitemap. Ratings shown are national aggregates, not local reviews; UC does not publish its 47-city list; top 10 cities >90% of net NTV (Q3 FY26)"
+Urban Company,Ludhiana,Punjab,PUBLICLY CLAIMED,https://www.urbancompany.com/ludhiana-ac-service-repair,"City page with city-specific price catalogue fetched 2026-11-18: Foam-jet AC from Rs 699. Ratings shown are national aggregates, not local reviews; UC does not publish its 47-city list; top 10 cities >90% of net NTV (Q3 FY26)"
+Eureka Forbes (Aquaguard service),Warangal,Telangana,NO EVIDENCE FOUND,https://www.eurekaforbes.com/sitemap.xml,"No authorised-centre page for this city name in 729 sitemap entries; company claims 19,500 PIN codes overall"
+Eureka Forbes (Aquaguard service),Karimnagar,Telangana,VERIFIED ACTIVE,https://www.eurekaforbes.com/authorized-center/karimnagar-505001/1576,"1 authorised service centre page(s) with named local partner business and street address (sitemap; address confirmed on fetched sample pages for Indore, Karimnagar, Thrissur, Guntur; others inferred from identical page template)"
+Eureka Forbes (Aquaguard service),Vijayawada,Andhra Pradesh,VERIFIED ACTIVE,https://www.eurekaforbes.com/authorized-center/vijayawada-520011/1543,"6 authorised service centre page(s) with named local partner business and street address (sitemap; address confirmed on fetched sample pages for Indore, Karimnagar, Thrissur, Guntur; others inferred from identical page template)"
+Eureka Forbes (Aquaguard service),Visakhapatnam,Andhra Pradesh,VERIFIED ACTIVE,https://www.eurekaforbes.com/authorized-center/visakhapatnam-530029/1512,"2 authorised service centre page(s) with named local partner business and street address (sitemap; address confirmed on fetched sample pages for Indore, Karimnagar, Thrissur, Guntur; others inferred from identical page template)"
+Eureka Forbes (Aquaguard service),Guntur,Andhra Pradesh,VERIFIED ACTIVE,https://www.eurekaforbes.com/authorized-center/guntur-522007/1382,"1 authorised service centre page(s) with named local partner business and street address (sitemap; address confirmed on fetched sample pages for Indore, Karimnagar, Thrissur, Guntur; others inferred from identical page template)"
+Eureka Forbes (Aquaguard service),Nellore,Andhra Pradesh,VERIFIED ACTIVE,https://www.eurekaforbes.com/authorized-center/nellore-524004/1523,"1 authorised service centre page(s) with named local partner business and street address (sitemap; address confirmed on fetched sample pages for Indore, Karimnagar, Thrissur, Guntur; others inferred from identical page template)"
+Eureka Forbes (Aquaguard service),Coimbatore,Tamil Nadu,VERIFIED ACTIVE,https://www.eurekaforbes.com/authorized-center/coimbatore-641653/1418,"9 authorised service centre page(s) with named local partner business and street address (sitemap; address confirmed on fetched sample pages for Indore, Karimnagar, Thrissur, Guntur; others inferred from identical page template)"
+Eureka Forbes (Aquaguard service),Madurai,Tamil Nadu,NOT VERIFIED,https://www.eurekaforbes.com/authorized-center/madurai-600016/1134,Only one 'madurai' centre URL and it carries PIN 600016 (a Chennai PIN) - data error; not counted
+Eureka Forbes (Aquaguard service),Tiruchirappalli,Tamil Nadu,VERIFIED ACTIVE,https://www.eurekaforbes.com/authorized-center/trichy-620020/1518,"2 authorised service centre page(s) with named local partner business and street address (sitemap; address confirmed on fetched sample pages for Indore, Karimnagar, Thrissur, Guntur; others inferred from identical page template)"
+Eureka Forbes (Aquaguard service),Mysuru,Karnataka,VERIFIED ACTIVE,https://www.eurekaforbes.com/authorized-center/mysore-571234/1521,"4 authorised service centre page(s) with named local partner business and street address (sitemap; address confirmed on fetched sample pages for Indore, Karimnagar, Thrissur, Guntur; others inferred from identical page template)"
+Eureka Forbes (Aquaguard service),Hubballi,Karnataka,VERIFIED ACTIVE,https://www.eurekaforbes.com/authorized-center/hubli-dharwad-580008/1666,"1 authorised service centre page(s) with named local partner business and street address (sitemap; address confirmed on fetched sample pages for Indore, Karimnagar, Thrissur, Guntur; others inferred from identical page template)"
+Eureka Forbes (Aquaguard service),Mangaluru,Karnataka,VERIFIED ACTIVE,https://www.eurekaforbes.com/authorized-center/mangalore-575020/1453,"3 authorised service centre page(s) with named local partner business and street address (sitemap; address confirmed on fetched sample pages for Indore, Karimnagar, Thrissur, Guntur; others inferred from identical page template)"
+Eureka Forbes (Aquaguard service),Kochi,Kerala,VERIFIED ACTIVE,https://www.eurekaforbes.com/authorized-center/ernakulam-682030/1689,"7 authorised service centre page(s) with named local partner business and street address (sitemap; address confirmed on fetched sample pages for Indore, Karimnagar, Thrissur, Guntur; others inferred from identical page template)"
+Eureka Forbes (Aquaguard service),Thrissur,Kerala,VERIFIED ACTIVE,https://www.eurekaforbes.com/authorized-center/thrissur-680652/1581,"4 authorised service centre page(s) with named local partner business and street address (sitemap; address confirmed on fetched sample pages for Indore, Karimnagar, Thrissur, Guntur; others inferred from identical page template)"
+Eureka Forbes (Aquaguard service),Indore,Madhya Pradesh,VERIFIED ACTIVE,https://www.eurekaforbes.com/authorized-center/indore-452014/1636,"6 authorised service centre page(s) with named local partner business and street address (sitemap; address confirmed on fetched sample pages for Indore, Karimnagar, Thrissur, Guntur; others inferred from identical page template)"
+Eureka Forbes (Aquaguard service),Bhopal,Madhya Pradesh,VERIFIED ACTIVE,https://www.eurekaforbes.com/authorized-center/bhopal-462030/1477,"4 authorised service centre page(s) with named local partner business and street address (sitemap; address confirmed on fetched sample pages for Indore, Karimnagar, Thrissur, Guntur; others inferred from identical page template)"
+Eureka Forbes (Aquaguard service),Raipur,Chhattisgarh,VERIFIED ACTIVE,https://www.eurekaforbes.com/authorized-center/raipur-492001/1279,"3 authorised service centre page(s) with named local partner business and street address (sitemap; address confirmed on fetched sample pages for Indore, Karimnagar, Thrissur, Guntur; others inferred from identical page template)"
+Eureka Forbes (Aquaguard service),Nagpur,Maharashtra,VERIFIED ACTIVE,https://www.eurekaforbes.com/authorized-center/nagpur-440022/1692,"10 authorised service centre page(s) with named local partner business and street address (sitemap; address confirmed on fetched sample pages for Indore, Karimnagar, Thrissur, Guntur; others inferred from identical page template)"
+Eureka Forbes (Aquaguard service),Nashik,Maharashtra,VERIFIED ACTIVE,https://www.eurekaforbes.com/authorized-center/nashik-422101/1527,"2 authorised service centre page(s) with named local partner business and street address (sitemap; address confirmed on fetched sample pages for Indore, Karimnagar, Thrissur, Guntur; others inferred from identical page template)"
+Eureka Forbes (Aquaguard service),Aurangabad,Maharashtra,VERIFIED ACTIVE,https://www.eurekaforbes.com/authorized-center/aurangabad-431105/1694,"4 authorised service centre page(s) with named local partner business and street address (sitemap; address confirmed on fetched sample pages for Indore, Karimnagar, Thrissur, Guntur; others inferred from identical page template)"
+Eureka Forbes (Aquaguard service),Surat,Gujarat,VERIFIED ACTIVE,https://www.eurekaforbes.com/authorized-center/surat-395007/1598,"10 authorised service centre page(s) with named local partner business and street address (sitemap; address confirmed on fetched sample pages for Indore, Karimnagar, Thrissur, Guntur; others inferred from identical page template)"
+Eureka Forbes (Aquaguard service),Vadodara,Gujarat,VERIFIED ACTIVE,https://www.eurekaforbes.com/authorized-center/vadodara-390013/1585,"7 authorised service centre page(s) with named local partner business and street address (sitemap; address confirmed on fetched sample pages for Indore, Karimnagar, Thrissur, Guntur; others inferred from identical page template)"
+Eureka Forbes (Aquaguard service),Rajkot,Gujarat,VERIFIED ACTIVE,https://www.eurekaforbes.com/authorized-center/rajkot-360001/1676,"2 authorised service centre page(s) with named local partner business and street address (sitemap; address confirmed on fetched sample pages for Indore, Karimnagar, Thrissur, Guntur; others inferred from identical page template)"
+Eureka Forbes (Aquaguard service),Lucknow,Uttar Pradesh,VERIFIED ACTIVE,https://www.eurekaforbes.com/authorized-center/lucknow-226012/1414,"10 authorised service centre page(s) with named local partner business and street address (sitemap; address confirmed on fetched sample pages for Indore, Karimnagar, Thrissur, Guntur; others inferred from identical page template)"
+Eureka Forbes (Aquaguard service),Kanpur,Uttar Pradesh,VERIFIED ACTIVE,https://www.eurekaforbes.com/authorized-center/kanpur-208027/1462,"3 authorised service centre page(s) with named local partner business and street address (sitemap; address confirmed on fetched sample pages for Indore, Karimnagar, Thrissur, Guntur; others inferred from identical page template)"
+Eureka Forbes (Aquaguard service),Patna,Bihar,VERIFIED ACTIVE,https://www.eurekaforbes.com/authorized-center/patna-800014/1612,"6 authorised service centre page(s) with named local partner business and street address (sitemap; address confirmed on fetched sample pages for Indore, Karimnagar, Thrissur, Guntur; others inferred from identical page template)"
+Eureka Forbes (Aquaguard service),Bhubaneswar,Odisha,NO EVIDENCE FOUND,https://www.eurekaforbes.com/sitemap.xml,"No authorised-centre page for this city name in 729 sitemap entries; company claims 19,500 PIN codes overall"
+Eureka Forbes (Aquaguard service),Guwahati,Assam,VERIFIED ACTIVE,https://www.eurekaforbes.com/authorized-center/kamrup-guwahati-781365/1681,"9 authorised service centre page(s) with named local partner business and street address (sitemap; address confirmed on fetched sample pages for Indore, Karimnagar, Thrissur, Guntur; others inferred from identical page template)"
+Eureka Forbes (Aquaguard service),Jaipur,Rajasthan,VERIFIED ACTIVE,https://www.eurekaforbes.com/authorized-center/jaipur-302004/1655,"9 authorised service centre page(s) with named local partner business and street address (sitemap; address confirmed on fetched sample pages for Indore, Karimnagar, Thrissur, Guntur; others inferred from identical page template)"
+Eureka Forbes (Aquaguard service),Ludhiana,Punjab,VERIFIED ACTIVE,https://www.eurekaforbes.com/authorized-center/ludhiana-141013/1433,"3 authorised service centre page(s) with named local partner business and street address (sitemap; address confirmed on fetched sample pages for Indore, Karimnagar, Thrissur, Guntur; others inferred from identical page template)"
+Servsy,Warangal,Telangana,NOT VERIFIED,https://servsy.in/about,"Not on 46-city list; generic claim of 19,000+ PIN codes / 500+ cities"
+Servsy,Karimnagar,Telangana,NOT VERIFIED,https://servsy.in/about,"Not on 46-city list; generic claim of 19,000+ PIN codes / 500+ cities"
+Servsy,Vijayawada,Andhra Pradesh,NOT VERIFIED,https://servsy.in/about,"Not on 46-city list; generic claim of 19,000+ PIN codes / 500+ cities"
+Servsy,Visakhapatnam,Andhra Pradesh,PUBLICLY CLAIMED,https://servsy.in/service-areas,Listed on service-area page; Servsy's own About page says its pilot was Mumbai/Pune
+Servsy,Guntur,Andhra Pradesh,NOT VERIFIED,https://servsy.in/about,"Not on 46-city list; generic claim of 19,000+ PIN codes / 500+ cities"
+Servsy,Nellore,Andhra Pradesh,NOT VERIFIED,https://servsy.in/about,"Not on 46-city list; generic claim of 19,000+ PIN codes / 500+ cities"
+Servsy,Coimbatore,Tamil Nadu,PUBLICLY CLAIMED,https://servsy.in/service-areas,Listed on service-area page as same-day city; Servsy's own About page says its pilot was Mumbai/Pune
+Servsy,Madurai,Tamil Nadu,PUBLICLY CLAIMED,https://servsy.in/service-areas,Listed on service-area page; Servsy's own About page says its pilot was Mumbai/Pune
+Servsy,Tiruchirappalli,Tamil Nadu,NOT VERIFIED,https://servsy.in/about,"Not on 46-city list; generic claim of 19,000+ PIN codes / 500+ cities"
+Servsy,Mysuru,Karnataka,PUBLICLY CLAIMED,https://servsy.in/service-areas,Listed on service-area page; Servsy's own About page says its pilot was Mumbai/Pune
+Servsy,Hubballi,Karnataka,NOT VERIFIED,https://servsy.in/about,"Not on 46-city list; generic claim of 19,000+ PIN codes / 500+ cities"
+Servsy,Mangaluru,Karnataka,PUBLICLY CLAIMED,https://servsy.in/service-areas,Listed on service-area page; Servsy's own About page says its pilot was Mumbai/Pune
+Servsy,Kochi,Kerala,PUBLICLY CLAIMED,https://servsy.in/service-areas,Listed on service-area page as same-day city; Servsy's own About page says its pilot was Mumbai/Pune
+Servsy,Thrissur,Kerala,NOT VERIFIED,https://servsy.in/about,"Not on 46-city list; generic claim of 19,000+ PIN codes / 500+ cities"
+Servsy,Indore,Madhya Pradesh,PUBLICLY CLAIMED,https://servsy.in/service-areas,Listed on service-area page as same-day city; Servsy's own About page says its pilot was Mumbai/Pune
+Servsy,Bhopal,Madhya Pradesh,PUBLICLY CLAIMED,https://servsy.in/service-areas,Listed on service-area page as same-day city; Servsy's own About page says its pilot was Mumbai/Pune
+Servsy,Raipur,Chhattisgarh,PUBLICLY CLAIMED,https://servsy.in/service-areas,Listed on service-area page; Servsy's own About page says its pilot was Mumbai/Pune
+Servsy,Nagpur,Maharashtra,PUBLICLY CLAIMED,https://servsy.in/service-areas,Listed on service-area page as same-day city; Servsy's own About page says its pilot was Mumbai/Pune
+Servsy,Nashik,Maharashtra,PUBLICLY CLAIMED,https://servsy.in/service-areas,Listed on service-area page; Servsy's own About page says its pilot was Mumbai/Pune
+Servsy,Aurangabad,Maharashtra,NOT VERIFIED,https://servsy.in/about,"Not on 46-city list; generic claim of 19,000+ PIN codes / 500+ cities"
+Servsy,Surat,Gujarat,PUBLICLY CLAIMED,https://servsy.in/service-areas,Listed on service-area page as same-day city; Servsy's own About page says its pilot was Mumbai/Pune
+Servsy,Vadodara,Gujarat,PUBLICLY CLAIMED,https://servsy.in/service-areas,Listed on service-area page; Servsy's own About page says its pilot was Mumbai/Pune
+Servsy,Rajkot,Gujarat,PUBLICLY CLAIMED,https://servsy.in/service-areas,Listed on service-area page; Servsy's own About page says its pilot was Mumbai/Pune
+Servsy,Lucknow,Uttar Pradesh,PUBLICLY CLAIMED,https://servsy.in/service-areas,Listed on service-area page as same-day city; Servsy's own About page says its pilot was Mumbai/Pune
+Servsy,Kanpur,Uttar Pradesh,PUBLICLY CLAIMED,https://servsy.in/service-areas,Listed on service-area page; Servsy's own About page says its pilot was Mumbai/Pune
+Servsy,Patna,Bihar,PUBLICLY CLAIMED,https://servsy.in/service-areas,Listed on service-area page as same-day city; Servsy's own About page says its pilot was Mumbai/Pune
+Servsy,Bhubaneswar,Odisha,PUBLICLY CLAIMED,https://servsy.in/service-areas,Listed on service-area page as same-day city; Servsy's own About page says its pilot was Mumbai/Pune
+Servsy,Guwahati,Assam,PUBLICLY CLAIMED,https://servsy.in/service-areas,Listed on service-area page; Servsy's own About page says its pilot was Mumbai/Pune
+Servsy,Jaipur,Rajasthan,PUBLICLY CLAIMED,https://servsy.in/service-areas,Listed on service-area page as same-day city; Servsy's own About page says its pilot was Mumbai/Pune
+Servsy,Ludhiana,Punjab,NOT VERIFIED,https://servsy.in/about,"Not on 46-city list; generic claim of 19,000+ PIN codes / 500+ cities"
+HomeTriangle,Warangal,Telangana,NO EVIDENCE FOUND,https://hometriangle.com/sitemap-services.xml,City not in 21-city services sitemap
+HomeTriangle,Karimnagar,Telangana,NO EVIDENCE FOUND,https://hometriangle.com/sitemap-services.xml,City not in 21-city services sitemap
+HomeTriangle,Vijayawada,Andhra Pradesh,PUBLICLY CLAIMED,https://hometriangle.com/vijaywada,City listed in services sitemap with 48 identical templated services; no local proof checked
+HomeTriangle,Visakhapatnam,Andhra Pradesh,PUBLICLY CLAIMED,https://hometriangle.com/visakhapatnam,City listed in services sitemap with 48 identical templated services; no local proof checked
+HomeTriangle,Guntur,Andhra Pradesh,NO EVIDENCE FOUND,https://hometriangle.com/sitemap-services.xml,City not in 21-city services sitemap
+HomeTriangle,Nellore,Andhra Pradesh,NO EVIDENCE FOUND,https://hometriangle.com/sitemap-services.xml,City not in 21-city services sitemap
+HomeTriangle,Coimbatore,Tamil Nadu,PUBLICLY CLAIMED,https://hometriangle.com/coimbatore,City listed in services sitemap with 48 identical templated services; no local proof checked
+HomeTriangle,Madurai,Tamil Nadu,PUBLICLY CLAIMED,https://hometriangle.com/madurai,City listed in services sitemap with 48 identical templated services; no local proof checked
+HomeTriangle,Tiruchirappalli,Tamil Nadu,NO EVIDENCE FOUND,https://hometriangle.com/sitemap-services.xml,City not in 21-city services sitemap
+HomeTriangle,Mysuru,Karnataka,PUBLICLY CLAIMED,https://hometriangle.com/mysore,City listed in services sitemap with 48 identical templated services; no local proof checked
+HomeTriangle,Hubballi,Karnataka,NO EVIDENCE FOUND,https://hometriangle.com/sitemap-services.xml,City not in 21-city services sitemap
+HomeTriangle,Mangaluru,Karnataka,NO EVIDENCE FOUND,https://hometriangle.com/sitemap-services.xml,City not in 21-city services sitemap
+HomeTriangle,Kochi,Kerala,PUBLICLY CLAIMED,https://hometriangle.com/kochi,City listed in services sitemap with 48 identical templated services; no local proof checked
+HomeTriangle,Thrissur,Kerala,NO EVIDENCE FOUND,https://hometriangle.com/sitemap-services.xml,City not in 21-city services sitemap
+HomeTriangle,Indore,Madhya Pradesh,NO EVIDENCE FOUND,https://hometriangle.com/sitemap-services.xml,City not in 21-city services sitemap
+HomeTriangle,Bhopal,Madhya Pradesh,NO EVIDENCE FOUND,https://hometriangle.com/sitemap-services.xml,City not in 21-city services sitemap
+HomeTriangle,Raipur,Chhattisgarh,NO EVIDENCE FOUND,https://hometriangle.com/sitemap-services.xml,City not in 21-city services sitemap
+HomeTriangle,Nagpur,Maharashtra,NO EVIDENCE FOUND,https://hometriangle.com/sitemap-services.xml,City not in 21-city services sitemap
+HomeTriangle,Nashik,Maharashtra,NO EVIDENCE FOUND,https://hometriangle.com/sitemap-services.xml,City not in 21-city services sitemap
+HomeTriangle,Aurangabad,Maharashtra,NO EVIDENCE FOUND,https://hometriangle.com/sitemap-services.xml,City not in 21-city services sitemap
+HomeTriangle,Surat,Gujarat,NO EVIDENCE FOUND,https://hometriangle.com/sitemap-services.xml,City not in 21-city services sitemap
+HomeTriangle,Vadodara,Gujarat,NO EVIDENCE FOUND,https://hometriangle.com/sitemap-services.xml,City not in 21-city services sitemap
+HomeTriangle,Rajkot,Gujarat,NO EVIDENCE FOUND,https://hometriangle.com/sitemap-services.xml,City not in 21-city services sitemap
+HomeTriangle,Lucknow,Uttar Pradesh,PUBLICLY CLAIMED,https://hometriangle.com/lucknow,City listed in services sitemap with 48 identical templated services; no local proof checked
+HomeTriangle,Kanpur,Uttar Pradesh,NO EVIDENCE FOUND,https://hometriangle.com/sitemap-services.xml,City not in 21-city services sitemap
+HomeTriangle,Patna,Bihar,NO EVIDENCE FOUND,https://hometriangle.com/sitemap-services.xml,City not in 21-city services sitemap
+HomeTriangle,Bhubaneswar,Odisha,PUBLICLY CLAIMED,https://hometriangle.com/bhubaneswar,City listed in services sitemap with 48 identical templated services; no local proof checked
+HomeTriangle,Guwahati,Assam,NO EVIDENCE FOUND,https://hometriangle.com/sitemap-services.xml,City not in 21-city services sitemap
+HomeTriangle,Jaipur,Rajasthan,PUBLICLY CLAIMED,https://hometriangle.com/jaipur,City listed in services sitemap with 48 identical templated services; no local proof checked
+HomeTriangle,Ludhiana,Punjab,NO EVIDENCE FOUND,https://hometriangle.com/sitemap-services.xml,City not in 21-city services sitemap
+ServiceOnDoors,Warangal,Telangana,PUBLICLY CLAIMED,https://serviceondoors.com/ac/ac-service-in-warangal-urban,AC service page exists for district 'warangal-urban' (part of ~770-district programmatic SEO set; not evidence of local operations)
+ServiceOnDoors,Karimnagar,Telangana,PUBLICLY CLAIMED,https://serviceondoors.com/ac/ac-service-in-karimnagar,AC service page exists for district 'karimnagar' (part of ~770-district programmatic SEO set; not evidence of local operations)
+ServiceOnDoors,Vijayawada,Andhra Pradesh,PUBLICLY CLAIMED,https://serviceondoors.com/ac/ac-service-in-krishna,AC service page exists for district 'krishna' (part of ~770-district programmatic SEO set; not evidence of local operations)
+ServiceOnDoors,Visakhapatnam,Andhra Pradesh,PUBLICLY CLAIMED,https://serviceondoors.com/ac/ac-service-in-visakhapatnam,AC service page exists for district 'visakhapatnam' (part of ~770-district programmatic SEO set; not evidence of local operations)
+ServiceOnDoors,Guntur,Andhra Pradesh,PUBLICLY CLAIMED,https://serviceondoors.com/ac/ac-service-in-guntur,AC service page exists for district 'guntur' (part of ~770-district programmatic SEO set; not evidence of local operations)
+ServiceOnDoors,Nellore,Andhra Pradesh,PUBLICLY CLAIMED,https://serviceondoors.com/ac/ac-service-in-nellore,AC service page exists for district 'nellore' (part of ~770-district programmatic SEO set; not evidence of local operations)
+ServiceOnDoors,Coimbatore,Tamil Nadu,PUBLICLY CLAIMED,https://serviceondoors.com/ac/ac-service-in-coimbatore,AC service page exists for district 'coimbatore' (part of ~770-district programmatic SEO set; not evidence of local operations)
+ServiceOnDoors,Madurai,Tamil Nadu,PUBLICLY CLAIMED,https://serviceondoors.com/ac/ac-service-in-madurai,AC service page exists for district 'madurai' (part of ~770-district programmatic SEO set; not evidence of local operations)
+ServiceOnDoors,Tiruchirappalli,Tamil Nadu,PUBLICLY CLAIMED,https://serviceondoors.com/ac/ac-service-in-tiruchirappalli,AC service page exists for district 'tiruchirappalli' (part of ~770-district programmatic SEO set; not evidence of local operations)
+ServiceOnDoors,Mysuru,Karnataka,PUBLICLY CLAIMED,https://serviceondoors.com/ac/ac-service-in-mysuru,AC service page exists for district 'mysuru' (part of ~770-district programmatic SEO set; not evidence of local operations)
+ServiceOnDoors,Hubballi,Karnataka,PUBLICLY CLAIMED,https://serviceondoors.com/ac/ac-service-in-hubli,AC service page exists for district 'hubli' (part of ~770-district programmatic SEO set; not evidence of local operations)
+ServiceOnDoors,Mangaluru,Karnataka,PUBLICLY CLAIMED,https://serviceondoors.com/ac/ac-service-in-dakshina-kannada,AC service page exists for district 'dakshina-kannada' (part of ~770-district programmatic SEO set; not evidence of local operations)
+ServiceOnDoors,Kochi,Kerala,PUBLICLY CLAIMED,https://serviceondoors.com/ac/ac-service-in-ernakulam,AC service page exists for district 'ernakulam' (part of ~770-district programmatic SEO set; not evidence of local operations)
+ServiceOnDoors,Thrissur,Kerala,PUBLICLY CLAIMED,https://serviceondoors.com/ac/ac-service-in-thrissur,AC service page exists for district 'thrissur' (part of ~770-district programmatic SEO set; not evidence of local operations)
+ServiceOnDoors,Indore,Madhya Pradesh,PUBLICLY CLAIMED,https://serviceondoors.com/ac/ac-service-in-indore,AC service page exists for district 'indore' (part of ~770-district programmatic SEO set; not evidence of local operations); also a city RO service-centre page in sitemap-city-1.xml
+ServiceOnDoors,Bhopal,Madhya Pradesh,PUBLICLY CLAIMED,https://serviceondoors.com/ac/ac-service-in-bhopal,AC service page exists for district 'bhopal' (part of ~770-district programmatic SEO set; not evidence of local operations); also a city RO service-centre page in sitemap-city-1.xml
+ServiceOnDoors,Raipur,Chhattisgarh,PUBLICLY CLAIMED,https://serviceondoors.com/ac/ac-service-in-raipur,AC service page exists for district 'raipur' (part of ~770-district programmatic SEO set; not evidence of local operations)
+ServiceOnDoors,Nagpur,Maharashtra,PUBLICLY CLAIMED,https://serviceondoors.com/ac/ac-service-in-nagpur,AC service page exists for district 'nagpur' (part of ~770-district programmatic SEO set; not evidence of local operations); also a city RO service-centre page in sitemap-city-1.xml
+ServiceOnDoors,Nashik,Maharashtra,PUBLICLY CLAIMED,https://serviceondoors.com/ac/ac-service-in-nashik,AC service page exists for district 'nashik' (part of ~770-district programmatic SEO set; not evidence of local operations)
+ServiceOnDoors,Aurangabad,Maharashtra,PUBLICLY CLAIMED,https://serviceondoors.com/ac/ac-service-in-aurangabad,AC service page exists for district 'aurangabad' (part of ~770-district programmatic SEO set; not evidence of local operations)
+ServiceOnDoors,Surat,Gujarat,PUBLICLY CLAIMED,https://serviceondoors.com/ac/ac-service-in-surat,AC service page exists for district 'surat' (part of ~770-district programmatic SEO set; not evidence of local operations); also a city RO service-centre page in sitemap-city-1.xml
+ServiceOnDoors,Vadodara,Gujarat,PUBLICLY CLAIMED,https://serviceondoors.com/ac/ac-service-in-vadodara,AC service page exists for district 'vadodara' (part of ~770-district programmatic SEO set; not evidence of local operations); also a city RO service-centre page in sitemap-city-1.xml
+ServiceOnDoors,Rajkot,Gujarat,PUBLICLY CLAIMED,https://serviceondoors.com/ac/ac-service-in-rajkot,AC service page exists for district 'rajkot' (part of ~770-district programmatic SEO set; not evidence of local operations)
+ServiceOnDoors,Lucknow,Uttar Pradesh,PUBLICLY CLAIMED,https://serviceondoors.com/ac/ac-service-in-lucknow,AC service page exists for district 'lucknow' (part of ~770-district programmatic SEO set; not evidence of local operations); also a city RO service-centre page in sitemap-city-1.xml
+ServiceOnDoors,Kanpur,Uttar Pradesh,PUBLICLY CLAIMED,https://serviceondoors.com/ac/ac-service-in-kanpur,AC service page exists for district 'kanpur' (part of ~770-district programmatic SEO set; not evidence of local operations); also a city RO service-centre page in sitemap-city-1.xml
+ServiceOnDoors,Patna,Bihar,PUBLICLY CLAIMED,https://serviceondoors.com/ac/ac-service-in-patna,AC service page exists for district 'patna' (part of ~770-district programmatic SEO set; not evidence of local operations); also a city RO service-centre page in sitemap-city-1.xml
+ServiceOnDoors,Bhubaneswar,Odisha,PUBLICLY CLAIMED,https://serviceondoors.com/ac/ac-service-in-khordha,AC service page exists for district 'khordha' (part of ~770-district programmatic SEO set; not evidence of local operations); also a city RO service-centre page in sitemap-city-1.xml
+ServiceOnDoors,Guwahati,Assam,PUBLICLY CLAIMED,https://serviceondoors.com/ac/ac-service-in-kamrup-metropolitan,AC service page exists for district 'kamrup-metropolitan' (part of ~770-district programmatic SEO set; not evidence of local operations)
+ServiceOnDoors,Jaipur,Rajasthan,PUBLICLY CLAIMED,https://serviceondoors.com/ac/ac-service-in-jaipur,AC service page exists for district 'jaipur' (part of ~770-district programmatic SEO set; not evidence of local operations); also a city RO service-centre page in sitemap-city-1.xml
+ServiceOnDoors,Ludhiana,Punjab,PUBLICLY CLAIMED,https://serviceondoors.com/ac/ac-service-in-ludhiana,AC service page exists for district 'ludhiana' (part of ~770-district programmatic SEO set; not evidence of local operations)
+Jeeves (Flipkart),Warangal,Telangana,NOT VERIFIED,https://english.madhyamam.com/business/flipkart-enters-market-for-home-product-services-and-repairs-1110087,Claims 400 cities / 300+ walk-in centres with no list; jeeves.co.in unavailable (503) on 2026-11-18; no city page found
+Jeeves (Flipkart),Karimnagar,Telangana,NOT VERIFIED,https://english.madhyamam.com/business/flipkart-enters-market-for-home-product-services-and-repairs-1110087,Claims 400 cities / 300+ walk-in centres with no list; jeeves.co.in unavailable (503) on 2026-11-18; no city page found
+Jeeves (Flipkart),Vijayawada,Andhra Pradesh,NOT VERIFIED,https://english.madhyamam.com/business/flipkart-enters-market-for-home-product-services-and-repairs-1110087,Claims 400 cities / 300+ walk-in centres with no list; jeeves.co.in unavailable (503) on 2026-11-18; no city page found
+Jeeves (Flipkart),Visakhapatnam,Andhra Pradesh,NOT VERIFIED,https://english.madhyamam.com/business/flipkart-enters-market-for-home-product-services-and-repairs-1110087,Claims 400 cities / 300+ walk-in centres with no list; jeeves.co.in unavailable (503) on 2026-11-18; no city page found
+Jeeves (Flipkart),Guntur,Andhra Pradesh,NOT VERIFIED,https://english.madhyamam.com/business/flipkart-enters-market-for-home-product-services-and-repairs-1110087,Claims 400 cities / 300+ walk-in centres with no list; jeeves.co.in unavailable (503) on 2026-11-18; no city page found
+Jeeves (Flipkart),Nellore,Andhra Pradesh,NOT VERIFIED,https://english.madhyamam.com/business/flipkart-enters-market-for-home-product-services-and-repairs-1110087,Claims 400 cities / 300+ walk-in centres with no list; jeeves.co.in unavailable (503) on 2026-11-18; no city page found
+Jeeves (Flipkart),Coimbatore,Tamil Nadu,NOT VERIFIED,https://english.madhyamam.com/business/flipkart-enters-market-for-home-product-services-and-repairs-1110087,Claims 400 cities / 300+ walk-in centres with no list; jeeves.co.in unavailable (503) on 2026-11-18; no city page found
+Jeeves (Flipkart),Madurai,Tamil Nadu,NOT VERIFIED,https://english.madhyamam.com/business/flipkart-enters-market-for-home-product-services-and-repairs-1110087,Claims 400 cities / 300+ walk-in centres with no list; jeeves.co.in unavailable (503) on 2026-11-18; no city page found
+Jeeves (Flipkart),Tiruchirappalli,Tamil Nadu,NOT VERIFIED,https://english.madhyamam.com/business/flipkart-enters-market-for-home-product-services-and-repairs-1110087,Claims 400 cities / 300+ walk-in centres with no list; jeeves.co.in unavailable (503) on 2026-11-18; no city page found
+Jeeves (Flipkart),Mysuru,Karnataka,NOT VERIFIED,https://english.madhyamam.com/business/flipkart-enters-market-for-home-product-services-and-repairs-1110087,Claims 400 cities / 300+ walk-in centres with no list; jeeves.co.in unavailable (503) on 2026-11-18; no city page found
+Jeeves (Flipkart),Hubballi,Karnataka,NOT VERIFIED,https://english.madhyamam.com/business/flipkart-enters-market-for-home-product-services-and-repairs-1110087,Claims 400 cities / 300+ walk-in centres with no list; jeeves.co.in unavailable (503) on 2026-11-18; no city page found
+Jeeves (Flipkart),Mangaluru,Karnataka,NOT VERIFIED,https://english.madhyamam.com/business/flipkart-enters-market-for-home-product-services-and-repairs-1110087,Claims 400 cities / 300+ walk-in centres with no list; jeeves.co.in unavailable (503) on 2026-11-18; no city page found
+Jeeves (Flipkart),Kochi,Kerala,NOT VERIFIED,https://english.madhyamam.com/business/flipkart-enters-market-for-home-product-services-and-repairs-1110087,Claims 400 cities / 300+ walk-in centres with no list; jeeves.co.in unavailable (503) on 2026-11-18; no city page found
+Jeeves (Flipkart),Thrissur,Kerala,NOT VERIFIED,https://english.madhyamam.com/business/flipkart-enters-market-for-home-product-services-and-repairs-1110087,Claims 400 cities / 300+ walk-in centres with no list; jeeves.co.in unavailable (503) on 2026-11-18; no city page found
+Jeeves (Flipkart),Indore,Madhya Pradesh,NOT VERIFIED,https://english.madhyamam.com/business/flipkart-enters-market-for-home-product-services-and-repairs-1110087,Claims 400 cities / 300+ walk-in centres with no list; jeeves.co.in unavailable (503) on 2026-11-18; no city page found
+Jeeves (Flipkart),Bhopal,Madhya Pradesh,NOT VERIFIED,https://english.madhyamam.com/business/flipkart-enters-market-for-home-product-services-and-repairs-1110087,Claims 400 cities / 300+ walk-in centres with no list; jeeves.co.in unavailable (503) on 2026-11-18; no city page found
+Jeeves (Flipkart),Raipur,Chhattisgarh,NOT VERIFIED,https://english.madhyamam.com/business/flipkart-enters-market-for-home-product-services-and-repairs-1110087,Claims 400 cities / 300+ walk-in centres with no list; jeeves.co.in unavailable (503) on 2026-11-18; no city page found
+Jeeves (Flipkart),Nagpur,Maharashtra,NOT VERIFIED,https://english.madhyamam.com/business/flipkart-enters-market-for-home-product-services-and-repairs-1110087,Claims 400 cities / 300+ walk-in centres with no list; jeeves.co.in unavailable (503) on 2026-11-18; no city page found
+Jeeves (Flipkart),Nashik,Maharashtra,NOT VERIFIED,https://english.madhyamam.com/business/flipkart-enters-market-for-home-product-services-and-repairs-1110087,Claims 400 cities / 300+ walk-in centres with no list; jeeves.co.in unavailable (503) on 2026-11-18; no city page found
+Jeeves (Flipkart),Aurangabad,Maharashtra,NOT VERIFIED,https://english.madhyamam.com/business/flipkart-enters-market-for-home-product-services-and-repairs-1110087,Claims 400 cities / 300+ walk-in centres with no list; jeeves.co.in unavailable (503) on 2026-11-18; no city page found
+Jeeves (Flipkart),Surat,Gujarat,NOT VERIFIED,https://english.madhyamam.com/business/flipkart-enters-market-for-home-product-services-and-repairs-1110087,Claims 400 cities / 300+ walk-in centres with no list; jeeves.co.in unavailable (503) on 2026-11-18; no city page found
+Jeeves (Flipkart),Vadodara,Gujarat,NOT VERIFIED,https://english.madhyamam.com/business/flipkart-enters-market-for-home-product-services-and-repairs-1110087,Claims 400 cities / 300+ walk-in centres with no list; jeeves.co.in unavailable (503) on 2026-11-18; no city page found
+Jeeves (Flipkart),Rajkot,Gujarat,NOT VERIFIED,https://english.madhyamam.com/business/flipkart-enters-market-for-home-product-services-and-repairs-1110087,Claims 400 cities / 300+ walk-in centres with no list; jeeves.co.in unavailable (503) on 2026-11-18; no city page found
+Jeeves (Flipkart),Lucknow,Uttar Pradesh,NOT VERIFIED,https://english.madhyamam.com/business/flipkart-enters-market-for-home-product-services-and-repairs-1110087,Claims 400 cities / 300+ walk-in centres with no list; jeeves.co.in unavailable (503) on 2026-11-18; no city page found
+Jeeves (Flipkart),Kanpur,Uttar Pradesh,NOT VERIFIED,https://english.madhyamam.com/business/flipkart-enters-market-for-home-product-services-and-repairs-1110087,Claims 400 cities / 300+ walk-in centres with no list; jeeves.co.in unavailable (503) on 2026-11-18; no city page found
+Jeeves (Flipkart),Patna,Bihar,NOT VERIFIED,https://english.madhyamam.com/business/flipkart-enters-market-for-home-product-services-and-repairs-1110087,Claims 400 cities / 300+ walk-in centres with no list; jeeves.co.in unavailable (503) on 2026-11-18; no city page found
+Jeeves (Flipkart),Bhubaneswar,Odisha,NOT VERIFIED,https://english.madhyamam.com/business/flipkart-enters-market-for-home-product-services-and-repairs-1110087,Claims 400 cities / 300+ walk-in centres with no list; jeeves.co.in unavailable (503) on 2026-11-18; no city page found
+Jeeves (Flipkart),Guwahati,Assam,NOT VERIFIED,https://english.madhyamam.com/business/flipkart-enters-market-for-home-product-services-and-repairs-1110087,Claims 400 cities / 300+ walk-in centres with no list; jeeves.co.in unavailable (503) on 2026-11-18; no city page found
+Jeeves (Flipkart),Jaipur,Rajasthan,NOT VERIFIED,https://english.madhyamam.com/business/flipkart-enters-market-for-home-product-services-and-repairs-1110087,Claims 400 cities / 300+ walk-in centres with no list; jeeves.co.in unavailable (503) on 2026-11-18; no city page found
+Jeeves (Flipkart),Ludhiana,Punjab,NOT VERIFIED,https://english.madhyamam.com/business/flipkart-enters-market-for-home-product-services-and-repairs-1110087,Claims 400 cities / 300+ walk-in centres with no list; jeeves.co.in unavailable (503) on 2026-11-18; no city page found
+Reliance resQ,Warangal,Telangana,NOT VERIFIED,https://apps.apple.com/in/app/id1539872459,"Generic claim of 1,200+ centres in 'all major cities'; city not named; no resQ centre address found"
+Reliance resQ,Karimnagar,Telangana,NOT VERIFIED,https://apps.apple.com/in/app/id1539872459,"Generic claim of 1,200+ centres in 'all major cities'; city not named; no resQ centre address found"
+Reliance resQ,Vijayawada,Andhra Pradesh,NOT VERIFIED,https://apps.apple.com/in/app/id1539872459,"Generic claim of 1,200+ centres in 'all major cities'; city not named; no resQ centre address found"
+Reliance resQ,Visakhapatnam,Andhra Pradesh,NOT VERIFIED,https://apps.apple.com/in/app/id1539872459,"Generic claim of 1,200+ centres in 'all major cities'; city not named; no resQ centre address found"
+Reliance resQ,Guntur,Andhra Pradesh,NOT VERIFIED,https://apps.apple.com/in/app/id1539872459,"Generic claim of 1,200+ centres in 'all major cities'; city not named; no resQ centre address found"
+Reliance resQ,Nellore,Andhra Pradesh,NOT VERIFIED,https://apps.apple.com/in/app/id1539872459,"Generic claim of 1,200+ centres in 'all major cities'; city not named; no resQ centre address found"
+Reliance resQ,Coimbatore,Tamil Nadu,NOT VERIFIED,https://apps.apple.com/in/app/id1539872459,"Generic claim of 1,200+ centres in 'all major cities'; city not named; no resQ centre address found"
+Reliance resQ,Madurai,Tamil Nadu,NOT VERIFIED,https://apps.apple.com/in/app/id1539872459,"Generic claim of 1,200+ centres in 'all major cities'; city not named; no resQ centre address found"
+Reliance resQ,Tiruchirappalli,Tamil Nadu,NOT VERIFIED,https://apps.apple.com/in/app/id1539872459,"Generic claim of 1,200+ centres in 'all major cities'; city not named; no resQ centre address found"
+Reliance resQ,Mysuru,Karnataka,NOT VERIFIED,https://apps.apple.com/in/app/id1539872459,"Generic claim of 1,200+ centres in 'all major cities'; city not named; no resQ centre address found"
+Reliance resQ,Hubballi,Karnataka,NOT VERIFIED,https://apps.apple.com/in/app/id1539872459,"Generic claim of 1,200+ centres in 'all major cities'; city not named; no resQ centre address found"
+Reliance resQ,Mangaluru,Karnataka,NOT VERIFIED,https://apps.apple.com/in/app/id1539872459,"Generic claim of 1,200+ centres in 'all major cities'; city not named; no resQ centre address found"
+Reliance resQ,Kochi,Kerala,NOT VERIFIED,https://apps.apple.com/in/app/id1539872459,"Generic claim of 1,200+ centres in 'all major cities'; city not named; no resQ centre address found"
+Reliance resQ,Thrissur,Kerala,NOT VERIFIED,https://apps.apple.com/in/app/id1539872459,"Generic claim of 1,200+ centres in 'all major cities'; city not named; no resQ centre address found"
+Reliance resQ,Indore,Madhya Pradesh,NOT VERIFIED,https://apps.apple.com/in/app/id1539872459,"Generic claim of 1,200+ centres in 'all major cities'; city not named; no resQ centre address found"
+Reliance resQ,Bhopal,Madhya Pradesh,NOT VERIFIED,https://apps.apple.com/in/app/id1539872459,"Generic claim of 1,200+ centres in 'all major cities'; city not named; no resQ centre address found"
+Reliance resQ,Raipur,Chhattisgarh,NOT VERIFIED,https://apps.apple.com/in/app/id1539872459,"Generic claim of 1,200+ centres in 'all major cities'; city not named; no resQ centre address found"
+Reliance resQ,Nagpur,Maharashtra,NOT VERIFIED,https://apps.apple.com/in/app/id1539872459,"Generic claim of 1,200+ centres in 'all major cities'; city not named; no resQ centre address found"
+Reliance resQ,Nashik,Maharashtra,NOT VERIFIED,https://apps.apple.com/in/app/id1539872459,"Generic claim of 1,200+ centres in 'all major cities'; city not named; no resQ centre address found"
+Reliance resQ,Aurangabad,Maharashtra,NOT VERIFIED,https://apps.apple.com/in/app/id1539872459,"Generic claim of 1,200+ centres in 'all major cities'; city not named; no resQ centre address found"
+Reliance resQ,Surat,Gujarat,NOT VERIFIED,https://apps.apple.com/in/app/id1539872459,"Generic claim of 1,200+ centres in 'all major cities'; city not named; no resQ centre address found"
+Reliance resQ,Vadodara,Gujarat,NOT VERIFIED,https://apps.apple.com/in/app/id1539872459,"Generic claim of 1,200+ centres in 'all major cities'; city not named; no resQ centre address found"
+Reliance resQ,Rajkot,Gujarat,NOT VERIFIED,https://apps.apple.com/in/app/id1539872459,"Generic claim of 1,200+ centres in 'all major cities'; city not named; no resQ centre address found"
+Reliance resQ,Lucknow,Uttar Pradesh,PUBLICLY CLAIMED,https://apps.apple.com/in/app/id1539872459,Named on resQ App Store listing as a coverage city; no centre address verified
+Reliance resQ,Kanpur,Uttar Pradesh,NOT VERIFIED,https://apps.apple.com/in/app/id1539872459,"Generic claim of 1,200+ centres in 'all major cities'; city not named; no resQ centre address found"
+Reliance resQ,Patna,Bihar,NOT VERIFIED,https://apps.apple.com/in/app/id1539872459,"Generic claim of 1,200+ centres in 'all major cities'; city not named; no resQ centre address found"
+Reliance resQ,Bhubaneswar,Odisha,NOT VERIFIED,https://apps.apple.com/in/app/id1539872459,"Generic claim of 1,200+ centres in 'all major cities'; city not named; no resQ centre address found"
+Reliance resQ,Guwahati,Assam,NOT VERIFIED,https://apps.apple.com/in/app/id1539872459,"Generic claim of 1,200+ centres in 'all major cities'; city not named; no resQ centre address found"
+Reliance resQ,Jaipur,Rajasthan,PUBLICLY CLAIMED,https://apps.apple.com/in/app/id1539872459,Named on resQ App Store listing as a coverage city; no centre address verified
+Reliance resQ,Ludhiana,Punjab,PUBLICLY CLAIMED,https://apps.apple.com/in/app/id1539872459,Named on resQ App Store listing as a coverage city; no centre address verified
+Onsitego,Warangal,Telangana,NOT VERIFIED,https://onsitego.com/,"Claims 3,300+ service centres and 10,000+ retail stores; no city list or city pages in sitemap"
+Onsitego,Karimnagar,Telangana,NOT VERIFIED,https://onsitego.com/,"Claims 3,300+ service centres and 10,000+ retail stores; no city list or city pages in sitemap"
+Onsitego,Vijayawada,Andhra Pradesh,NOT VERIFIED,https://onsitego.com/,"Claims 3,300+ service centres and 10,000+ retail stores; no city list or city pages in sitemap"
+Onsitego,Visakhapatnam,Andhra Pradesh,NOT VERIFIED,https://onsitego.com/,"Claims 3,300+ service centres and 10,000+ retail stores; no city list or city pages in sitemap"
+Onsitego,Guntur,Andhra Pradesh,NOT VERIFIED,https://onsitego.com/,"Claims 3,300+ service centres and 10,000+ retail stores; no city list or city pages in sitemap"
+Onsitego,Nellore,Andhra Pradesh,NOT VERIFIED,https://onsitego.com/,"Claims 3,300+ service centres and 10,000+ retail stores; no city list or city pages in sitemap"
+Onsitego,Coimbatore,Tamil Nadu,NOT VERIFIED,https://onsitego.com/,"Claims 3,300+ service centres and 10,000+ retail stores; no city list or city pages in sitemap"
+Onsitego,Madurai,Tamil Nadu,NOT VERIFIED,https://onsitego.com/,"Claims 3,300+ service centres and 10,000+ retail stores; no city list or city pages in sitemap"
+Onsitego,Tiruchirappalli,Tamil Nadu,NOT VERIFIED,https://onsitego.com/,"Claims 3,300+ service centres and 10,000+ retail stores; no city list or city pages in sitemap"
+Onsitego,Mysuru,Karnataka,NOT VERIFIED,https://onsitego.com/,"Claims 3,300+ service centres and 10,000+ retail stores; no city list or city pages in sitemap"
+Onsitego,Hubballi,Karnataka,NOT VERIFIED,https://onsitego.com/,"Claims 3,300+ service centres and 10,000+ retail stores; no city list or city pages in sitemap"
+Onsitego,Mangaluru,Karnataka,NOT VERIFIED,https://onsitego.com/,"Claims 3,300+ service centres and 10,000+ retail stores; no city list or city pages in sitemap"
+Onsitego,Kochi,Kerala,NOT VERIFIED,https://onsitego.com/,"Claims 3,300+ service centres and 10,000+ retail stores; no city list or city pages in sitemap"
+Onsitego,Thrissur,Kerala,NOT VERIFIED,https://onsitego.com/,"Claims 3,300+ service centres and 10,000+ retail stores; no city list or city pages in sitemap"
+Onsitego,Indore,Madhya Pradesh,NOT VERIFIED,https://onsitego.com/,"Claims 3,300+ service centres and 10,000+ retail stores; no city list or city pages in sitemap"
+Onsitego,Bhopal,Madhya Pradesh,NOT VERIFIED,https://onsitego.com/,"Claims 3,300+ service centres and 10,000+ retail stores; no city list or city pages in sitemap"
+Onsitego,Raipur,Chhattisgarh,NOT VERIFIED,https://onsitego.com/,"Claims 3,300+ service centres and 10,000+ retail stores; no city list or city pages in sitemap"
+Onsitego,Nagpur,Maharashtra,NOT VERIFIED,https://onsitego.com/,"Claims 3,300+ service centres and 10,000+ retail stores; no city list or city pages in sitemap"
+Onsitego,Nashik,Maharashtra,NOT VERIFIED,https://onsitego.com/,"Claims 3,300+ service centres and 10,000+ retail stores; no city list or city pages in sitemap"
+Onsitego,Aurangabad,Maharashtra,NOT VERIFIED,https://onsitego.com/,"Claims 3,300+ service centres and 10,000+ retail stores; no city list or city pages in sitemap"
+Onsitego,Surat,Gujarat,NOT VERIFIED,https://onsitego.com/,"Claims 3,300+ service centres and 10,000+ retail stores; no city list or city pages in sitemap"
+Onsitego,Vadodara,Gujarat,NOT VERIFIED,https://onsitego.com/,"Claims 3,300+ service centres and 10,000+ retail stores; no city list or city pages in sitemap"
+Onsitego,Rajkot,Gujarat,NOT VERIFIED,https://onsitego.com/,"Claims 3,300+ service centres and 10,000+ retail stores; no city list or city pages in sitemap"
+Onsitego,Lucknow,Uttar Pradesh,NOT VERIFIED,https://onsitego.com/,"Claims 3,300+ service centres and 10,000+ retail stores; no city list or city pages in sitemap"
+Onsitego,Kanpur,Uttar Pradesh,NOT VERIFIED,https://onsitego.com/,"Claims 3,300+ service centres and 10,000+ retail stores; no city list or city pages in sitemap"
+Onsitego,Patna,Bihar,NOT VERIFIED,https://onsitego.com/,"Claims 3,300+ service centres and 10,000+ retail stores; no city list or city pages in sitemap"
+Onsitego,Bhubaneswar,Odisha,NOT VERIFIED,https://onsitego.com/,"Claims 3,300+ service centres and 10,000+ retail stores; no city list or city pages in sitemap"
+Onsitego,Guwahati,Assam,NOT VERIFIED,https://onsitego.com/,"Claims 3,300+ service centres and 10,000+ retail stores; no city list or city pages in sitemap"
+Onsitego,Jaipur,Rajasthan,NOT VERIFIED,https://onsitego.com/,"Claims 3,300+ service centres and 10,000+ retail stores; no city list or city pages in sitemap"
+Onsitego,Ludhiana,Punjab,NOT VERIFIED,https://onsitego.com/,"Claims 3,300+ service centres and 10,000+ retail stores; no city list or city pages in sitemap"
+Qdigi Services (Onsitego),Warangal,Telangana,NOT VERIFIED,https://yourstory.com/2024/02/accel-backed-onsitego-acquires-quess-corps-qdigi-services-for-rs-80-crore,100+ owned and 200+ franchise centres claimed; no city list found
+Qdigi Services (Onsitego),Karimnagar,Telangana,NOT VERIFIED,https://yourstory.com/2024/02/accel-backed-onsitego-acquires-quess-corps-qdigi-services-for-rs-80-crore,100+ owned and 200+ franchise centres claimed; no city list found
+Qdigi Services (Onsitego),Vijayawada,Andhra Pradesh,NOT VERIFIED,https://yourstory.com/2024/02/accel-backed-onsitego-acquires-quess-corps-qdigi-services-for-rs-80-crore,100+ owned and 200+ franchise centres claimed; no city list found
+Qdigi Services (Onsitego),Visakhapatnam,Andhra Pradesh,NOT VERIFIED,https://yourstory.com/2024/02/accel-backed-onsitego-acquires-quess-corps-qdigi-services-for-rs-80-crore,100+ owned and 200+ franchise centres claimed; no city list found
+Qdigi Services (Onsitego),Guntur,Andhra Pradesh,NOT VERIFIED,https://yourstory.com/2024/02/accel-backed-onsitego-acquires-quess-corps-qdigi-services-for-rs-80-crore,100+ owned and 200+ franchise centres claimed; no city list found
+Qdigi Services (Onsitego),Nellore,Andhra Pradesh,NOT VERIFIED,https://yourstory.com/2024/02/accel-backed-onsitego-acquires-quess-corps-qdigi-services-for-rs-80-crore,100+ owned and 200+ franchise centres claimed; no city list found
+Qdigi Services (Onsitego),Coimbatore,Tamil Nadu,NOT VERIFIED,https://yourstory.com/2024/02/accel-backed-onsitego-acquires-quess-corps-qdigi-services-for-rs-80-crore,100+ owned and 200+ franchise centres claimed; no city list found
+Qdigi Services (Onsitego),Madurai,Tamil Nadu,NOT VERIFIED,https://yourstory.com/2024/02/accel-backed-onsitego-acquires-quess-corps-qdigi-services-for-rs-80-crore,100+ owned and 200+ franchise centres claimed; no city list found
+Qdigi Services (Onsitego),Tiruchirappalli,Tamil Nadu,NOT VERIFIED,https://yourstory.com/2024/02/accel-backed-onsitego-acquires-quess-corps-qdigi-services-for-rs-80-crore,100+ owned and 200+ franchise centres claimed; no city list found
+Qdigi Services (Onsitego),Mysuru,Karnataka,NOT VERIFIED,https://yourstory.com/2024/02/accel-backed-onsitego-acquires-quess-corps-qdigi-services-for-rs-80-crore,100+ owned and 200+ franchise centres claimed; no city list found
+Qdigi Services (Onsitego),Hubballi,Karnataka,NOT VERIFIED,https://yourstory.com/2024/02/accel-backed-onsitego-acquires-quess-corps-qdigi-services-for-rs-80-crore,100+ owned and 200+ franchise centres claimed; no city list found
+Qdigi Services (Onsitego),Mangaluru,Karnataka,NOT VERIFIED,https://yourstory.com/2024/02/accel-backed-onsitego-acquires-quess-corps-qdigi-services-for-rs-80-crore,100+ owned and 200+ franchise centres claimed; no city list found
+Qdigi Services (Onsitego),Kochi,Kerala,NOT VERIFIED,https://yourstory.com/2024/02/accel-backed-onsitego-acquires-quess-corps-qdigi-services-for-rs-80-crore,100+ owned and 200+ franchise centres claimed; no city list found
+Qdigi Services (Onsitego),Thrissur,Kerala,NOT VERIFIED,https://yourstory.com/2024/02/accel-backed-onsitego-acquires-quess-corps-qdigi-services-for-rs-80-crore,100+ owned and 200+ franchise centres claimed; no city list found
+Qdigi Services (Onsitego),Indore,Madhya Pradesh,NOT VERIFIED,https://yourstory.com/2024/02/accel-backed-onsitego-acquires-quess-corps-qdigi-services-for-rs-80-crore,100+ owned and 200+ franchise centres claimed; no city list found
+Qdigi Services (Onsitego),Bhopal,Madhya Pradesh,NOT VERIFIED,https://yourstory.com/2024/02/accel-backed-onsitego-acquires-quess-corps-qdigi-services-for-rs-80-crore,100+ owned and 200+ franchise centres claimed; no city list found
+Qdigi Services (Onsitego),Raipur,Chhattisgarh,NOT VERIFIED,https://yourstory.com/2024/02/accel-backed-onsitego-acquires-quess-corps-qdigi-services-for-rs-80-crore,100+ owned and 200+ franchise centres claimed; no city list found
+Qdigi Services (Onsitego),Nagpur,Maharashtra,NOT VERIFIED,https://yourstory.com/2024/02/accel-backed-onsitego-acquires-quess-corps-qdigi-services-for-rs-80-crore,100+ owned and 200+ franchise centres claimed; no city list found
+Qdigi Services (Onsitego),Nashik,Maharashtra,NOT VERIFIED,https://yourstory.com/2024/02/accel-backed-onsitego-acquires-quess-corps-qdigi-services-for-rs-80-crore,100+ owned and 200+ franchise centres claimed; no city list found
+Qdigi Services (Onsitego),Aurangabad,Maharashtra,NOT VERIFIED,https://yourstory.com/2024/02/accel-backed-onsitego-acquires-quess-corps-qdigi-services-for-rs-80-crore,100+ owned and 200+ franchise centres claimed; no city list found
+Qdigi Services (Onsitego),Surat,Gujarat,NOT VERIFIED,https://yourstory.com/2024/02/accel-backed-onsitego-acquires-quess-corps-qdigi-services-for-rs-80-crore,100+ owned and 200+ franchise centres claimed; no city list found
+Qdigi Services (Onsitego),Vadodara,Gujarat,NOT VERIFIED,https://yourstory.com/2024/02/accel-backed-onsitego-acquires-quess-corps-qdigi-services-for-rs-80-crore,100+ owned and 200+ franchise centres claimed; no city list found
+Qdigi Services (Onsitego),Rajkot,Gujarat,NOT VERIFIED,https://yourstory.com/2024/02/accel-backed-onsitego-acquires-quess-corps-qdigi-services-for-rs-80-crore,100+ owned and 200+ franchise centres claimed; no city list found
+Qdigi Services (Onsitego),Lucknow,Uttar Pradesh,NOT VERIFIED,https://yourstory.com/2024/02/accel-backed-onsitego-acquires-quess-corps-qdigi-services-for-rs-80-crore,100+ owned and 200+ franchise centres claimed; no city list found
+Qdigi Services (Onsitego),Kanpur,Uttar Pradesh,NOT VERIFIED,https://yourstory.com/2024/02/accel-backed-onsitego-acquires-quess-corps-qdigi-services-for-rs-80-crore,100+ owned and 200+ franchise centres claimed; no city list found
+Qdigi Services (Onsitego),Patna,Bihar,NOT VERIFIED,https://yourstory.com/2024/02/accel-backed-onsitego-acquires-quess-corps-qdigi-services-for-rs-80-crore,100+ owned and 200+ franchise centres claimed; no city list found
+Qdigi Services (Onsitego),Bhubaneswar,Odisha,NOT VERIFIED,https://yourstory.com/2024/02/accel-backed-onsitego-acquires-quess-corps-qdigi-services-for-rs-80-crore,100+ owned and 200+ franchise centres claimed; no city list found
+Qdigi Services (Onsitego),Guwahati,Assam,NOT VERIFIED,https://yourstory.com/2024/02/accel-backed-onsitego-acquires-quess-corps-qdigi-services-for-rs-80-crore,100+ owned and 200+ franchise centres claimed; no city list found
+Qdigi Services (Onsitego),Jaipur,Rajasthan,NOT VERIFIED,https://yourstory.com/2024/02/accel-backed-onsitego-acquires-quess-corps-qdigi-services-for-rs-80-crore,100+ owned and 200+ franchise centres claimed; no city list found
+Qdigi Services (Onsitego),Ludhiana,Punjab,NOT VERIFIED,https://yourstory.com/2024/02/accel-backed-onsitego-acquires-quess-corps-qdigi-services-for-rs-80-crore,100+ owned and 200+ franchise centres claimed; no city list found
+Servify,Warangal,Telangana,NOT VERIFIED,https://servify.com/in/,No India city list; service-locations figure did not render
+Servify,Karimnagar,Telangana,NOT VERIFIED,https://servify.com/in/,No India city list; service-locations figure did not render
+Servify,Vijayawada,Andhra Pradesh,NOT VERIFIED,https://servify.com/in/,No India city list; service-locations figure did not render
+Servify,Visakhapatnam,Andhra Pradesh,NOT VERIFIED,https://servify.com/in/,No India city list; service-locations figure did not render
+Servify,Guntur,Andhra Pradesh,NOT VERIFIED,https://servify.com/in/,No India city list; service-locations figure did not render
+Servify,Nellore,Andhra Pradesh,NOT VERIFIED,https://servify.com/in/,No India city list; service-locations figure did not render
+Servify,Coimbatore,Tamil Nadu,NOT VERIFIED,https://servify.com/in/,No India city list; service-locations figure did not render
+Servify,Madurai,Tamil Nadu,NOT VERIFIED,https://servify.com/in/,No India city list; service-locations figure did not render
+Servify,Tiruchirappalli,Tamil Nadu,NOT VERIFIED,https://servify.com/in/,No India city list; service-locations figure did not render
+Servify,Mysuru,Karnataka,NOT VERIFIED,https://servify.com/in/,No India city list; service-locations figure did not render
+Servify,Hubballi,Karnataka,NOT VERIFIED,https://servify.com/in/,No India city list; service-locations figure did not render
+Servify,Mangaluru,Karnataka,NOT VERIFIED,https://servify.com/in/,No India city list; service-locations figure did not render
+Servify,Kochi,Kerala,NOT VERIFIED,https://servify.com/in/,No India city list; service-locations figure did not render
+Servify,Thrissur,Kerala,NOT VERIFIED,https://servify.com/in/,No India city list; service-locations figure did not render
+Servify,Indore,Madhya Pradesh,NOT VERIFIED,https://servify.com/in/,No India city list; service-locations figure did not render
+Servify,Bhopal,Madhya Pradesh,NOT VERIFIED,https://servify.com/in/,No India city list; service-locations figure did not render
+Servify,Raipur,Chhattisgarh,NOT VERIFIED,https://servify.com/in/,No India city list; service-locations figure did not render
+Servify,Nagpur,Maharashtra,NOT VERIFIED,https://servify.com/in/,No India city list; service-locations figure did not render
+Servify,Nashik,Maharashtra,NOT VERIFIED,https://servify.com/in/,No India city list; service-locations figure did not render
+Servify,Aurangabad,Maharashtra,NOT VERIFIED,https://servify.com/in/,No India city list; service-locations figure did not render
+Servify,Surat,Gujarat,NOT VERIFIED,https://servify.com/in/,No India city list; service-locations figure did not render
+Servify,Vadodara,Gujarat,NOT VERIFIED,https://servify.com/in/,No India city list; service-locations figure did not render
+Servify,Rajkot,Gujarat,NOT VERIFIED,https://servify.com/in/,No India city list; service-locations figure did not render
+Servify,Lucknow,Uttar Pradesh,NOT VERIFIED,https://servify.com/in/,No India city list; service-locations figure did not render
+Servify,Kanpur,Uttar Pradesh,NOT VERIFIED,https://servify.com/in/,No India city list; service-locations figure did not render
+Servify,Patna,Bihar,NOT VERIFIED,https://servify.com/in/,No India city list; service-locations figure did not render
+Servify,Bhubaneswar,Odisha,NOT VERIFIED,https://servify.com/in/,No India city list; service-locations figure did not render
+Servify,Guwahati,Assam,NOT VERIFIED,https://servify.com/in/,No India city list; service-locations figure did not render
+Servify,Jaipur,Rajasthan,NOT VERIFIED,https://servify.com/in/,No India city list; service-locations figure did not render
+Servify,Ludhiana,Punjab,NOT VERIFIED,https://servify.com/in/,No India city list; service-locations figure did not render
+247around (Servify),Warangal,Telangana,NOT VERIFIED,https://www.businesswireindia.com/servify-acquires-247around-an-at-home-service-platform-specialising-in-connecting-consumers-with-oems-service-network-77389.html,"~19,000 PIN codes claimed (2022); no city list; site has 7 pages"
+247around (Servify),Karimnagar,Telangana,NOT VERIFIED,https://www.businesswireindia.com/servify-acquires-247around-an-at-home-service-platform-specialising-in-connecting-consumers-with-oems-service-network-77389.html,"~19,000 PIN codes claimed (2022); no city list; site has 7 pages"
+247around (Servify),Vijayawada,Andhra Pradesh,NOT VERIFIED,https://www.businesswireindia.com/servify-acquires-247around-an-at-home-service-platform-specialising-in-connecting-consumers-with-oems-service-network-77389.html,"~19,000 PIN codes claimed (2022); no city list; site has 7 pages"
+247around (Servify),Visakhapatnam,Andhra Pradesh,NOT VERIFIED,https://www.businesswireindia.com/servify-acquires-247around-an-at-home-service-platform-specialising-in-connecting-consumers-with-oems-service-network-77389.html,"~19,000 PIN codes claimed (2022); no city list; site has 7 pages"
+247around (Servify),Guntur,Andhra Pradesh,NOT VERIFIED,https://www.businesswireindia.com/servify-acquires-247around-an-at-home-service-platform-specialising-in-connecting-consumers-with-oems-service-network-77389.html,"~19,000 PIN codes claimed (2022); no city list; site has 7 pages"
+247around (Servify),Nellore,Andhra Pradesh,NOT VERIFIED,https://www.businesswireindia.com/servify-acquires-247around-an-at-home-service-platform-specialising-in-connecting-consumers-with-oems-service-network-77389.html,"~19,000 PIN codes claimed (2022); no city list; site has 7 pages"
+247around (Servify),Coimbatore,Tamil Nadu,NOT VERIFIED,https://www.businesswireindia.com/servify-acquires-247around-an-at-home-service-platform-specialising-in-connecting-consumers-with-oems-service-network-77389.html,"~19,000 PIN codes claimed (2022); no city list; site has 7 pages"
+247around (Servify),Madurai,Tamil Nadu,NOT VERIFIED,https://www.businesswireindia.com/servify-acquires-247around-an-at-home-service-platform-specialising-in-connecting-consumers-with-oems-service-network-77389.html,"~19,000 PIN codes claimed (2022); no city list; site has 7 pages"
+247around (Servify),Tiruchirappalli,Tamil Nadu,NOT VERIFIED,https://www.businesswireindia.com/servify-acquires-247around-an-at-home-service-platform-specialising-in-connecting-consumers-with-oems-service-network-77389.html,"~19,000 PIN codes claimed (2022); no city list; site has 7 pages"
+247around (Servify),Mysuru,Karnataka,NOT VERIFIED,https://www.businesswireindia.com/servify-acquires-247around-an-at-home-service-platform-specialising-in-connecting-consumers-with-oems-service-network-77389.html,"~19,000 PIN codes claimed (2022); no city list; site has 7 pages"
+247around (Servify),Hubballi,Karnataka,NOT VERIFIED,https://www.businesswireindia.com/servify-acquires-247around-an-at-home-service-platform-specialising-in-connecting-consumers-with-oems-service-network-77389.html,"~19,000 PIN codes claimed (2022); no city list; site has 7 pages"
+247around (Servify),Mangaluru,Karnataka,NOT VERIFIED,https://www.businesswireindia.com/servify-acquires-247around-an-at-home-service-platform-specialising-in-connecting-consumers-with-oems-service-network-77389.html,"~19,000 PIN codes claimed (2022); no city list; site has 7 pages"
+247around (Servify),Kochi,Kerala,NOT VERIFIED,https://www.businesswireindia.com/servify-acquires-247around-an-at-home-service-platform-specialising-in-connecting-consumers-with-oems-service-network-77389.html,"~19,000 PIN codes claimed (2022); no city list; site has 7 pages"
+247around (Servify),Thrissur,Kerala,NOT VERIFIED,https://www.businesswireindia.com/servify-acquires-247around-an-at-home-service-platform-specialising-in-connecting-consumers-with-oems-service-network-77389.html,"~19,000 PIN codes claimed (2022); no city list; site has 7 pages"
+247around (Servify),Indore,Madhya Pradesh,NOT VERIFIED,https://www.businesswireindia.com/servify-acquires-247around-an-at-home-service-platform-specialising-in-connecting-consumers-with-oems-service-network-77389.html,"~19,000 PIN codes claimed (2022); no city list; site has 7 pages"
+247around (Servify),Bhopal,Madhya Pradesh,NOT VERIFIED,https://www.businesswireindia.com/servify-acquires-247around-an-at-home-service-platform-specialising-in-connecting-consumers-with-oems-service-network-77389.html,"~19,000 PIN codes claimed (2022); no city list; site has 7 pages"
+247around (Servify),Raipur,Chhattisgarh,NOT VERIFIED,https://www.businesswireindia.com/servify-acquires-247around-an-at-home-service-platform-specialising-in-connecting-consumers-with-oems-service-network-77389.html,"~19,000 PIN codes claimed (2022); no city list; site has 7 pages"
+247around (Servify),Nagpur,Maharashtra,NOT VERIFIED,https://www.businesswireindia.com/servify-acquires-247around-an-at-home-service-platform-specialising-in-connecting-consumers-with-oems-service-network-77389.html,"~19,000 PIN codes claimed (2022); no city list; site has 7 pages"
+247around (Servify),Nashik,Maharashtra,NOT VERIFIED,https://www.businesswireindia.com/servify-acquires-247around-an-at-home-service-platform-specialising-in-connecting-consumers-with-oems-service-network-77389.html,"~19,000 PIN codes claimed (2022); no city list; site has 7 pages"
+247around (Servify),Aurangabad,Maharashtra,NOT VERIFIED,https://www.businesswireindia.com/servify-acquires-247around-an-at-home-service-platform-specialising-in-connecting-consumers-with-oems-service-network-77389.html,"~19,000 PIN codes claimed (2022); no city list; site has 7 pages"
+247around (Servify),Surat,Gujarat,NOT VERIFIED,https://www.businesswireindia.com/servify-acquires-247around-an-at-home-service-platform-specialising-in-connecting-consumers-with-oems-service-network-77389.html,"~19,000 PIN codes claimed (2022); no city list; site has 7 pages"
+247around (Servify),Vadodara,Gujarat,NOT VERIFIED,https://www.businesswireindia.com/servify-acquires-247around-an-at-home-service-platform-specialising-in-connecting-consumers-with-oems-service-network-77389.html,"~19,000 PIN codes claimed (2022); no city list; site has 7 pages"
+247around (Servify),Rajkot,Gujarat,NOT VERIFIED,https://www.businesswireindia.com/servify-acquires-247around-an-at-home-service-platform-specialising-in-connecting-consumers-with-oems-service-network-77389.html,"~19,000 PIN codes claimed (2022); no city list; site has 7 pages"
+247around (Servify),Lucknow,Uttar Pradesh,NOT VERIFIED,https://www.businesswireindia.com/servify-acquires-247around-an-at-home-service-platform-specialising-in-connecting-consumers-with-oems-service-network-77389.html,"~19,000 PIN codes claimed (2022); no city list; site has 7 pages"
+247around (Servify),Kanpur,Uttar Pradesh,NOT VERIFIED,https://www.businesswireindia.com/servify-acquires-247around-an-at-home-service-platform-specialising-in-connecting-consumers-with-oems-service-network-77389.html,"~19,000 PIN codes claimed (2022); no city list; site has 7 pages"
+247around (Servify),Patna,Bihar,NOT VERIFIED,https://www.businesswireindia.com/servify-acquires-247around-an-at-home-service-platform-specialising-in-connecting-consumers-with-oems-service-network-77389.html,"~19,000 PIN codes claimed (2022); no city list; site has 7 pages"
+247around (Servify),Bhubaneswar,Odisha,NOT VERIFIED,https://www.businesswireindia.com/servify-acquires-247around-an-at-home-service-platform-specialising-in-connecting-consumers-with-oems-service-network-77389.html,"~19,000 PIN codes claimed (2022); no city list; site has 7 pages"
+247around (Servify),Guwahati,Assam,NOT VERIFIED,https://www.businesswireindia.com/servify-acquires-247around-an-at-home-service-platform-specialising-in-connecting-consumers-with-oems-service-network-77389.html,"~19,000 PIN codes claimed (2022); no city list; site has 7 pages"
+247around (Servify),Jaipur,Rajasthan,NOT VERIFIED,https://www.businesswireindia.com/servify-acquires-247around-an-at-home-service-platform-specialising-in-connecting-consumers-with-oems-service-network-77389.html,"~19,000 PIN codes claimed (2022); no city list; site has 7 pages"
+247around (Servify),Ludhiana,Punjab,NOT VERIFIED,https://www.businesswireindia.com/servify-acquires-247around-an-at-home-service-platform-specialising-in-connecting-consumers-with-oems-service-network-77389.html,"~19,000 PIN codes claimed (2022); no city list; site has 7 pages"
+Bigfix,Warangal,Telangana,NO EVIDENCE FOUND,https://www.bigfix.in/sitemap.xml,"City pages only for Chennai, Bangalore, Hyderabad, Mumbai, Delhi; '25+ locations' unnamed"
+Bigfix,Karimnagar,Telangana,NO EVIDENCE FOUND,https://www.bigfix.in/sitemap.xml,"City pages only for Chennai, Bangalore, Hyderabad, Mumbai, Delhi; '25+ locations' unnamed"
+Bigfix,Vijayawada,Andhra Pradesh,NO EVIDENCE FOUND,https://www.bigfix.in/sitemap.xml,"City pages only for Chennai, Bangalore, Hyderabad, Mumbai, Delhi; '25+ locations' unnamed"
+Bigfix,Visakhapatnam,Andhra Pradesh,NO EVIDENCE FOUND,https://www.bigfix.in/sitemap.xml,"City pages only for Chennai, Bangalore, Hyderabad, Mumbai, Delhi; '25+ locations' unnamed"
+Bigfix,Guntur,Andhra Pradesh,NO EVIDENCE FOUND,https://www.bigfix.in/sitemap.xml,"City pages only for Chennai, Bangalore, Hyderabad, Mumbai, Delhi; '25+ locations' unnamed"
+Bigfix,Nellore,Andhra Pradesh,NO EVIDENCE FOUND,https://www.bigfix.in/sitemap.xml,"City pages only for Chennai, Bangalore, Hyderabad, Mumbai, Delhi; '25+ locations' unnamed"
+Bigfix,Coimbatore,Tamil Nadu,NO EVIDENCE FOUND,https://www.bigfix.in/sitemap.xml,"City pages only for Chennai, Bangalore, Hyderabad, Mumbai, Delhi; '25+ locations' unnamed"
+Bigfix,Madurai,Tamil Nadu,NO EVIDENCE FOUND,https://www.bigfix.in/sitemap.xml,"City pages only for Chennai, Bangalore, Hyderabad, Mumbai, Delhi; '25+ locations' unnamed"
+Bigfix,Tiruchirappalli,Tamil Nadu,NO EVIDENCE FOUND,https://www.bigfix.in/sitemap.xml,"City pages only for Chennai, Bangalore, Hyderabad, Mumbai, Delhi; '25+ locations' unnamed"
+Bigfix,Mysuru,Karnataka,NO EVIDENCE FOUND,https://www.bigfix.in/sitemap.xml,"City pages only for Chennai, Bangalore, Hyderabad, Mumbai, Delhi; '25+ locations' unnamed"
+Bigfix,Hubballi,Karnataka,NO EVIDENCE FOUND,https://www.bigfix.in/sitemap.xml,"City pages only for Chennai, Bangalore, Hyderabad, Mumbai, Delhi; '25+ locations' unnamed"
+Bigfix,Mangaluru,Karnataka,NO EVIDENCE FOUND,https://www.bigfix.in/sitemap.xml,"City pages only for Chennai, Bangalore, Hyderabad, Mumbai, Delhi; '25+ locations' unnamed"
+Bigfix,Kochi,Kerala,NO EVIDENCE FOUND,https://www.bigfix.in/sitemap.xml,"City pages only for Chennai, Bangalore, Hyderabad, Mumbai, Delhi; '25+ locations' unnamed"
+Bigfix,Thrissur,Kerala,NO EVIDENCE FOUND,https://www.bigfix.in/sitemap.xml,"City pages only for Chennai, Bangalore, Hyderabad, Mumbai, Delhi; '25+ locations' unnamed"
+Bigfix,Indore,Madhya Pradesh,NO EVIDENCE FOUND,https://www.bigfix.in/sitemap.xml,"City pages only for Chennai, Bangalore, Hyderabad, Mumbai, Delhi; '25+ locations' unnamed"
+Bigfix,Bhopal,Madhya Pradesh,NO EVIDENCE FOUND,https://www.bigfix.in/sitemap.xml,"City pages only for Chennai, Bangalore, Hyderabad, Mumbai, Delhi; '25+ locations' unnamed"
+Bigfix,Raipur,Chhattisgarh,NO EVIDENCE FOUND,https://www.bigfix.in/sitemap.xml,"City pages only for Chennai, Bangalore, Hyderabad, Mumbai, Delhi; '25+ locations' unnamed"
+Bigfix,Nagpur,Maharashtra,NO EVIDENCE FOUND,https://www.bigfix.in/sitemap.xml,"City pages only for Chennai, Bangalore, Hyderabad, Mumbai, Delhi; '25+ locations' unnamed"
+Bigfix,Nashik,Maharashtra,NO EVIDENCE FOUND,https://www.bigfix.in/sitemap.xml,"City pages only for Chennai, Bangalore, Hyderabad, Mumbai, Delhi; '25+ locations' unnamed"
+Bigfix,Aurangabad,Maharashtra,NO EVIDENCE FOUND,https://www.bigfix.in/sitemap.xml,"City pages only for Chennai, Bangalore, Hyderabad, Mumbai, Delhi; '25+ locations' unnamed"
+Bigfix,Surat,Gujarat,NO EVIDENCE FOUND,https://www.bigfix.in/sitemap.xml,"City pages only for Chennai, Bangalore, Hyderabad, Mumbai, Delhi; '25+ locations' unnamed"
+Bigfix,Vadodara,Gujarat,NO EVIDENCE FOUND,https://www.bigfix.in/sitemap.xml,"City pages only for Chennai, Bangalore, Hyderabad, Mumbai, Delhi; '25+ locations' unnamed"
+Bigfix,Rajkot,Gujarat,NO EVIDENCE FOUND,https://www.bigfix.in/sitemap.xml,"City pages only for Chennai, Bangalore, Hyderabad, Mumbai, Delhi; '25+ locations' unnamed"
+Bigfix,Lucknow,Uttar Pradesh,NO EVIDENCE FOUND,https://www.bigfix.in/sitemap.xml,"City pages only for Chennai, Bangalore, Hyderabad, Mumbai, Delhi; '25+ locations' unnamed"
+Bigfix,Kanpur,Uttar Pradesh,NO EVIDENCE FOUND,https://www.bigfix.in/sitemap.xml,"City pages only for Chennai, Bangalore, Hyderabad, Mumbai, Delhi; '25+ locations' unnamed"
+Bigfix,Patna,Bihar,NO EVIDENCE FOUND,https://www.bigfix.in/sitemap.xml,"City pages only for Chennai, Bangalore, Hyderabad, Mumbai, Delhi; '25+ locations' unnamed"
+Bigfix,Bhubaneswar,Odisha,NO EVIDENCE FOUND,https://www.bigfix.in/sitemap.xml,"City pages only for Chennai, Bangalore, Hyderabad, Mumbai, Delhi; '25+ locations' unnamed"
+Bigfix,Guwahati,Assam,NO EVIDENCE FOUND,https://www.bigfix.in/sitemap.xml,"City pages only for Chennai, Bangalore, Hyderabad, Mumbai, Delhi; '25+ locations' unnamed"
+Bigfix,Jaipur,Rajasthan,NO EVIDENCE FOUND,https://www.bigfix.in/sitemap.xml,"City pages only for Chennai, Bangalore, Hyderabad, Mumbai, Delhi; '25+ locations' unnamed"
+Bigfix,Ludhiana,Punjab,NO EVIDENCE FOUND,https://www.bigfix.in/sitemap.xml,"City pages only for Chennai, Bangalore, Hyderabad, Mumbai, Delhi; '25+ locations' unnamed"
+SERVIZ (serviz.in),Warangal,Telangana,NOT VERIFIED,https://serviz.in/,"15,000+ pincodes / 2,100+ centres claimed; no city list"
+SERVIZ (serviz.in),Karimnagar,Telangana,NOT VERIFIED,https://serviz.in/,"15,000+ pincodes / 2,100+ centres claimed; no city list"
+SERVIZ (serviz.in),Vijayawada,Andhra Pradesh,NOT VERIFIED,https://serviz.in/,"15,000+ pincodes / 2,100+ centres claimed; no city list"
+SERVIZ (serviz.in),Visakhapatnam,Andhra Pradesh,NOT VERIFIED,https://serviz.in/,"15,000+ pincodes / 2,100+ centres claimed; no city list"
+SERVIZ (serviz.in),Guntur,Andhra Pradesh,NOT VERIFIED,https://serviz.in/,"15,000+ pincodes / 2,100+ centres claimed; no city list"
+SERVIZ (serviz.in),Nellore,Andhra Pradesh,NOT VERIFIED,https://serviz.in/,"15,000+ pincodes / 2,100+ centres claimed; no city list"
+SERVIZ (serviz.in),Coimbatore,Tamil Nadu,NOT VERIFIED,https://serviz.in/,"15,000+ pincodes / 2,100+ centres claimed; no city list"
+SERVIZ (serviz.in),Madurai,Tamil Nadu,NOT VERIFIED,https://serviz.in/,"15,000+ pincodes / 2,100+ centres claimed; no city list"
+SERVIZ (serviz.in),Tiruchirappalli,Tamil Nadu,NOT VERIFIED,https://serviz.in/,"15,000+ pincodes / 2,100+ centres claimed; no city list"
+SERVIZ (serviz.in),Mysuru,Karnataka,NOT VERIFIED,https://serviz.in/,"15,000+ pincodes / 2,100+ centres claimed; no city list"
+SERVIZ (serviz.in),Hubballi,Karnataka,NOT VERIFIED,https://serviz.in/,"15,000+ pincodes / 2,100+ centres claimed; no city list"
+SERVIZ (serviz.in),Mangaluru,Karnataka,NOT VERIFIED,https://serviz.in/,"15,000+ pincodes / 2,100+ centres claimed; no city list"
+SERVIZ (serviz.in),Kochi,Kerala,NOT VERIFIED,https://serviz.in/,"15,000+ pincodes / 2,100+ centres claimed; no city list"
+SERVIZ (serviz.in),Thrissur,Kerala,NOT VERIFIED,https://serviz.in/,"15,000+ pincodes / 2,100+ centres claimed; no city list"
+SERVIZ (serviz.in),Indore,Madhya Pradesh,NOT VERIFIED,https://serviz.in/,"15,000+ pincodes / 2,100+ centres claimed; no city list"
+SERVIZ (serviz.in),Bhopal,Madhya Pradesh,NOT VERIFIED,https://serviz.in/,"15,000+ pincodes / 2,100+ centres claimed; no city list"
+SERVIZ (serviz.in),Raipur,Chhattisgarh,NOT VERIFIED,https://serviz.in/,"15,000+ pincodes / 2,100+ centres claimed; no city list"
+SERVIZ (serviz.in),Nagpur,Maharashtra,NOT VERIFIED,https://serviz.in/,"15,000+ pincodes / 2,100+ centres claimed; no city list"
+SERVIZ (serviz.in),Nashik,Maharashtra,NOT VERIFIED,https://serviz.in/,"15,000+ pincodes / 2,100+ centres claimed; no city list"
+SERVIZ (serviz.in),Aurangabad,Maharashtra,NOT VERIFIED,https://serviz.in/,"15,000+ pincodes / 2,100+ centres claimed; no city list"
+SERVIZ (serviz.in),Surat,Gujarat,NOT VERIFIED,https://serviz.in/,"15,000+ pincodes / 2,100+ centres claimed; no city list"
+SERVIZ (serviz.in),Vadodara,Gujarat,NOT VERIFIED,https://serviz.in/,"15,000+ pincodes / 2,100+ centres claimed; no city list"
+SERVIZ (serviz.in),Rajkot,Gujarat,NOT VERIFIED,https://serviz.in/,"15,000+ pincodes / 2,100+ centres claimed; no city list"
+SERVIZ (serviz.in),Lucknow,Uttar Pradesh,NOT VERIFIED,https://serviz.in/,"15,000+ pincodes / 2,100+ centres claimed; no city list"
+SERVIZ (serviz.in),Kanpur,Uttar Pradesh,NOT VERIFIED,https://serviz.in/,"15,000+ pincodes / 2,100+ centres claimed; no city list"
+SERVIZ (serviz.in),Patna,Bihar,NOT VERIFIED,https://serviz.in/,"15,000+ pincodes / 2,100+ centres claimed; no city list"
+SERVIZ (serviz.in),Bhubaneswar,Odisha,NOT VERIFIED,https://serviz.in/,"15,000+ pincodes / 2,100+ centres claimed; no city list"
+SERVIZ (serviz.in),Guwahati,Assam,NOT VERIFIED,https://serviz.in/,"15,000+ pincodes / 2,100+ centres claimed; no city list"
+SERVIZ (serviz.in),Jaipur,Rajasthan,NOT VERIFIED,https://serviz.in/,"15,000+ pincodes / 2,100+ centres claimed; no city list"
+SERVIZ (serviz.in),Ludhiana,Punjab,NOT VERIFIED,https://serviz.in/,"15,000+ pincodes / 2,100+ centres claimed; no city list"
+OneAssist,Warangal,Telangana,NOT VERIFIED,https://www.oneassist.in/,Generic 19K+ pincode claim; city not in its 10-city repair sitemap
+OneAssist,Karimnagar,Telangana,NOT VERIFIED,https://www.oneassist.in/,Generic 19K+ pincode claim; city not in its 10-city repair sitemap
+OneAssist,Vijayawada,Andhra Pradesh,NOT VERIFIED,https://www.oneassist.in/,Generic 19K+ pincode claim; city not in its 10-city repair sitemap
+OneAssist,Visakhapatnam,Andhra Pradesh,NOT VERIFIED,https://www.oneassist.in/,Generic 19K+ pincode claim; city not in its 10-city repair sitemap
+OneAssist,Guntur,Andhra Pradesh,NOT VERIFIED,https://www.oneassist.in/,Generic 19K+ pincode claim; city not in its 10-city repair sitemap
+OneAssist,Nellore,Andhra Pradesh,NOT VERIFIED,https://www.oneassist.in/,Generic 19K+ pincode claim; city not in its 10-city repair sitemap
+OneAssist,Coimbatore,Tamil Nadu,NOT VERIFIED,https://www.oneassist.in/,Generic 19K+ pincode claim; city not in its 10-city repair sitemap
+OneAssist,Madurai,Tamil Nadu,NOT VERIFIED,https://www.oneassist.in/,Generic 19K+ pincode claim; city not in its 10-city repair sitemap
+OneAssist,Tiruchirappalli,Tamil Nadu,NOT VERIFIED,https://www.oneassist.in/,Generic 19K+ pincode claim; city not in its 10-city repair sitemap
+OneAssist,Mysuru,Karnataka,NOT VERIFIED,https://www.oneassist.in/,Generic 19K+ pincode claim; city not in its 10-city repair sitemap
+OneAssist,Hubballi,Karnataka,NOT VERIFIED,https://www.oneassist.in/,Generic 19K+ pincode claim; city not in its 10-city repair sitemap
+OneAssist,Mangaluru,Karnataka,NOT VERIFIED,https://www.oneassist.in/,Generic 19K+ pincode claim; city not in its 10-city repair sitemap
+OneAssist,Kochi,Kerala,NOT VERIFIED,https://www.oneassist.in/,Generic 19K+ pincode claim; city not in its 10-city repair sitemap
+OneAssist,Thrissur,Kerala,NOT VERIFIED,https://www.oneassist.in/,Generic 19K+ pincode claim; city not in its 10-city repair sitemap
+OneAssist,Indore,Madhya Pradesh,NOT VERIFIED,https://www.oneassist.in/,Generic 19K+ pincode claim; city not in its 10-city repair sitemap
+OneAssist,Bhopal,Madhya Pradesh,NOT VERIFIED,https://www.oneassist.in/,Generic 19K+ pincode claim; city not in its 10-city repair sitemap
+OneAssist,Raipur,Chhattisgarh,NOT VERIFIED,https://www.oneassist.in/,Generic 19K+ pincode claim; city not in its 10-city repair sitemap
+OneAssist,Nagpur,Maharashtra,NOT VERIFIED,https://www.oneassist.in/,Generic 19K+ pincode claim; city not in its 10-city repair sitemap
+OneAssist,Nashik,Maharashtra,NOT VERIFIED,https://www.oneassist.in/,Generic 19K+ pincode claim; city not in its 10-city repair sitemap
+OneAssist,Aurangabad,Maharashtra,NOT VERIFIED,https://www.oneassist.in/,Generic 19K+ pincode claim; city not in its 10-city repair sitemap
+OneAssist,Surat,Gujarat,NOT VERIFIED,https://www.oneassist.in/,Generic 19K+ pincode claim; city not in its 10-city repair sitemap
+OneAssist,Vadodara,Gujarat,NOT VERIFIED,https://www.oneassist.in/,Generic 19K+ pincode claim; city not in its 10-city repair sitemap
+OneAssist,Rajkot,Gujarat,NOT VERIFIED,https://www.oneassist.in/,Generic 19K+ pincode claim; city not in its 10-city repair sitemap
+OneAssist,Lucknow,Uttar Pradesh,NOT VERIFIED,https://oneassist.in/ac-service-in-lucknow/,Listed in sitemap as a repair city but the page redirects to a generic category page (2026-11-18)
+OneAssist,Kanpur,Uttar Pradesh,NOT VERIFIED,https://www.oneassist.in/,Generic 19K+ pincode claim; city not in its 10-city repair sitemap
+OneAssist,Patna,Bihar,NOT VERIFIED,https://www.oneassist.in/,Generic 19K+ pincode claim; city not in its 10-city repair sitemap
+OneAssist,Bhubaneswar,Odisha,NOT VERIFIED,https://www.oneassist.in/,Generic 19K+ pincode claim; city not in its 10-city repair sitemap
+OneAssist,Guwahati,Assam,NOT VERIFIED,https://www.oneassist.in/,Generic 19K+ pincode claim; city not in its 10-city repair sitemap
+OneAssist,Jaipur,Rajasthan,NOT VERIFIED,https://oneassist.in/ac-service-in-jaipur/,Listed in sitemap as a repair city but the page redirects to a generic category page (2026-11-18)
+OneAssist,Ludhiana,Punjab,NOT VERIFIED,https://www.oneassist.in/,Generic 19K+ pincode claim; city not in its 10-city repair sitemap
+Zopper,Warangal,Telangana,NOT VERIFIED,https://www.zopper.com/industries/consumer-durables,"No service network or city claims; indirect presence only via regional retail partner logos (Sathya, Vasanth & Co, Darling, Celekt, B New, Cellbay) whose store towns were not checked"
+Zopper,Karimnagar,Telangana,NOT VERIFIED,https://www.zopper.com/industries/consumer-durables,"No service network or city claims; indirect presence only via regional retail partner logos (Sathya, Vasanth & Co, Darling, Celekt, B New, Cellbay) whose store towns were not checked"
+Zopper,Vijayawada,Andhra Pradesh,NOT VERIFIED,https://www.zopper.com/industries/consumer-durables,"No service network or city claims; indirect presence only via regional retail partner logos (Sathya, Vasanth & Co, Darling, Celekt, B New, Cellbay) whose store towns were not checked"
+Zopper,Visakhapatnam,Andhra Pradesh,NOT VERIFIED,https://www.zopper.com/industries/consumer-durables,"No service network or city claims; indirect presence only via regional retail partner logos (Sathya, Vasanth & Co, Darling, Celekt, B New, Cellbay) whose store towns were not checked"
+Zopper,Guntur,Andhra Pradesh,NOT VERIFIED,https://www.zopper.com/industries/consumer-durables,"No service network or city claims; indirect presence only via regional retail partner logos (Sathya, Vasanth & Co, Darling, Celekt, B New, Cellbay) whose store towns were not checked"
+Zopper,Nellore,Andhra Pradesh,NOT VERIFIED,https://www.zopper.com/industries/consumer-durables,"No service network or city claims; indirect presence only via regional retail partner logos (Sathya, Vasanth & Co, Darling, Celekt, B New, Cellbay) whose store towns were not checked"
+Zopper,Coimbatore,Tamil Nadu,NOT VERIFIED,https://www.zopper.com/industries/consumer-durables,"No service network or city claims; indirect presence only via regional retail partner logos (Sathya, Vasanth & Co, Darling, Celekt, B New, Cellbay) whose store towns were not checked"
+Zopper,Madurai,Tamil Nadu,NOT VERIFIED,https://www.zopper.com/industries/consumer-durables,"No service network or city claims; indirect presence only via regional retail partner logos (Sathya, Vasanth & Co, Darling, Celekt, B New, Cellbay) whose store towns were not checked"
+Zopper,Tiruchirappalli,Tamil Nadu,NOT VERIFIED,https://www.zopper.com/industries/consumer-durables,"No service network or city claims; indirect presence only via regional retail partner logos (Sathya, Vasanth & Co, Darling, Celekt, B New, Cellbay) whose store towns were not checked"
+Zopper,Mysuru,Karnataka,NOT VERIFIED,https://www.zopper.com/industries/consumer-durables,"No service network or city claims; indirect presence only via regional retail partner logos (Sathya, Vasanth & Co, Darling, Celekt, B New, Cellbay) whose store towns were not checked"
+Zopper,Hubballi,Karnataka,NOT VERIFIED,https://www.zopper.com/industries/consumer-durables,"No service network or city claims; indirect presence only via regional retail partner logos (Sathya, Vasanth & Co, Darling, Celekt, B New, Cellbay) whose store towns were not checked"
+Zopper,Mangaluru,Karnataka,NOT VERIFIED,https://www.zopper.com/industries/consumer-durables,"No service network or city claims; indirect presence only via regional retail partner logos (Sathya, Vasanth & Co, Darling, Celekt, B New, Cellbay) whose store towns were not checked"
+Zopper,Kochi,Kerala,NOT VERIFIED,https://www.zopper.com/industries/consumer-durables,"No service network or city claims; indirect presence only via regional retail partner logos (Sathya, Vasanth & Co, Darling, Celekt, B New, Cellbay) whose store towns were not checked"
+Zopper,Thrissur,Kerala,NOT VERIFIED,https://www.zopper.com/industries/consumer-durables,"No service network or city claims; indirect presence only via regional retail partner logos (Sathya, Vasanth & Co, Darling, Celekt, B New, Cellbay) whose store towns were not checked"
+Zopper,Indore,Madhya Pradesh,NOT VERIFIED,https://www.zopper.com/industries/consumer-durables,"No service network or city claims; indirect presence only via regional retail partner logos (Sathya, Vasanth & Co, Darling, Celekt, B New, Cellbay) whose store towns were not checked"
+Zopper,Bhopal,Madhya Pradesh,NOT VERIFIED,https://www.zopper.com/industries/consumer-durables,"No service network or city claims; indirect presence only via regional retail partner logos (Sathya, Vasanth & Co, Darling, Celekt, B New, Cellbay) whose store towns were not checked"
+Zopper,Raipur,Chhattisgarh,NOT VERIFIED,https://www.zopper.com/industries/consumer-durables,"No service network or city claims; indirect presence only via regional retail partner logos (Sathya, Vasanth & Co, Darling, Celekt, B New, Cellbay) whose store towns were not checked"
+Zopper,Nagpur,Maharashtra,NOT VERIFIED,https://www.zopper.com/industries/consumer-durables,"No service network or city claims; indirect presence only via regional retail partner logos (Sathya, Vasanth & Co, Darling, Celekt, B New, Cellbay) whose store towns were not checked"
+Zopper,Nashik,Maharashtra,NOT VERIFIED,https://www.zopper.com/industries/consumer-durables,"No service network or city claims; indirect presence only via regional retail partner logos (Sathya, Vasanth & Co, Darling, Celekt, B New, Cellbay) whose store towns were not checked"
+Zopper,Aurangabad,Maharashtra,NOT VERIFIED,https://www.zopper.com/industries/consumer-durables,"No service network or city claims; indirect presence only via regional retail partner logos (Sathya, Vasanth & Co, Darling, Celekt, B New, Cellbay) whose store towns were not checked"
+Zopper,Surat,Gujarat,NOT VERIFIED,https://www.zopper.com/industries/consumer-durables,"No service network or city claims; indirect presence only via regional retail partner logos (Sathya, Vasanth & Co, Darling, Celekt, B New, Cellbay) whose store towns were not checked"
+Zopper,Vadodara,Gujarat,NOT VERIFIED,https://www.zopper.com/industries/consumer-durables,"No service network or city claims; indirect presence only via regional retail partner logos (Sathya, Vasanth & Co, Darling, Celekt, B New, Cellbay) whose store towns were not checked"
+Zopper,Rajkot,Gujarat,NOT VERIFIED,https://www.zopper.com/industries/consumer-durables,"No service network or city claims; indirect presence only via regional retail partner logos (Sathya, Vasanth & Co, Darling, Celekt, B New, Cellbay) whose store towns were not checked"
+Zopper,Lucknow,Uttar Pradesh,NOT VERIFIED,https://www.zopper.com/industries/consumer-durables,"No service network or city claims; indirect presence only via regional retail partner logos (Sathya, Vasanth & Co, Darling, Celekt, B New, Cellbay) whose store towns were not checked"
+Zopper,Kanpur,Uttar Pradesh,NOT VERIFIED,https://www.zopper.com/industries/consumer-durables,"No service network or city claims; indirect presence only via regional retail partner logos (Sathya, Vasanth & Co, Darling, Celekt, B New, Cellbay) whose store towns were not checked"
+Zopper,Patna,Bihar,NOT VERIFIED,https://www.zopper.com/industries/consumer-durables,"No service network or city claims; indirect presence only via regional retail partner logos (Sathya, Vasanth & Co, Darling, Celekt, B New, Cellbay) whose store towns were not checked"
+Zopper,Bhubaneswar,Odisha,NOT VERIFIED,https://www.zopper.com/industries/consumer-durables,"No service network or city claims; indirect presence only via regional retail partner logos (Sathya, Vasanth & Co, Darling, Celekt, B New, Cellbay) whose store towns were not checked"
+Zopper,Guwahati,Assam,NOT VERIFIED,https://www.zopper.com/industries/consumer-durables,"No service network or city claims; indirect presence only via regional retail partner logos (Sathya, Vasanth & Co, Darling, Celekt, B New, Cellbay) whose store towns were not checked"
+Zopper,Jaipur,Rajasthan,NOT VERIFIED,https://www.zopper.com/industries/consumer-durables,"No service network or city claims; indirect presence only via regional retail partner logos (Sathya, Vasanth & Co, Darling, Celekt, B New, Cellbay) whose store towns were not checked"
+Zopper,Ludhiana,Punjab,NOT VERIFIED,https://www.zopper.com/industries/consumer-durables,"No service network or city claims; indirect presence only via regional retail partner logos (Sathya, Vasanth & Co, Darling, Celekt, B New, Cellbay) whose store towns were not checked"
+Croma ZipCare,Warangal,Telangana,NOT VERIFIED,https://www.croma.com/ew-knowMore,Not checked city by city (Croma store presence not verified in this run)
+Croma ZipCare,Karimnagar,Telangana,NOT VERIFIED,https://www.croma.com/ew-knowMore,Not checked city by city (Croma store presence not verified in this run)
+Croma ZipCare,Vijayawada,Andhra Pradesh,NOT VERIFIED,https://www.croma.com/ew-knowMore,Not checked city by city (Croma store presence not verified in this run)
+Croma ZipCare,Visakhapatnam,Andhra Pradesh,NOT VERIFIED,https://www.croma.com/ew-knowMore,Not checked city by city (Croma store presence not verified in this run)
+Croma ZipCare,Guntur,Andhra Pradesh,NOT VERIFIED,https://www.croma.com/ew-knowMore,Not checked city by city (Croma store presence not verified in this run)
+Croma ZipCare,Nellore,Andhra Pradesh,NOT VERIFIED,https://www.croma.com/ew-knowMore,Not checked city by city (Croma store presence not verified in this run)
+Croma ZipCare,Coimbatore,Tamil Nadu,NOT VERIFIED,https://www.croma.com/ew-knowMore,Not checked city by city (Croma store presence not verified in this run)
+Croma ZipCare,Madurai,Tamil Nadu,NOT VERIFIED,https://www.croma.com/ew-knowMore,Not checked city by city (Croma store presence not verified in this run)
+Croma ZipCare,Tiruchirappalli,Tamil Nadu,NOT VERIFIED,https://www.croma.com/ew-knowMore,Not checked city by city (Croma store presence not verified in this run)
+Croma ZipCare,Mysuru,Karnataka,NOT VERIFIED,https://www.croma.com/ew-knowMore,Not checked city by city (Croma store presence not verified in this run)
+Croma ZipCare,Hubballi,Karnataka,NOT VERIFIED,https://www.croma.com/ew-knowMore,Not checked city by city (Croma store presence not verified in this run)
+Croma ZipCare,Mangaluru,Karnataka,NOT VERIFIED,https://www.croma.com/ew-knowMore,Not checked city by city (Croma store presence not verified in this run)
+Croma ZipCare,Kochi,Kerala,NOT VERIFIED,https://www.croma.com/ew-knowMore,Not checked city by city (Croma store presence not verified in this run)
+Croma ZipCare,Thrissur,Kerala,NOT VERIFIED,https://www.croma.com/ew-knowMore,Not checked city by city (Croma store presence not verified in this run)
+Croma ZipCare,Indore,Madhya Pradesh,NOT VERIFIED,https://www.croma.com/ew-knowMore,Not checked city by city (Croma store presence not verified in this run)
+Croma ZipCare,Bhopal,Madhya Pradesh,NOT VERIFIED,https://www.croma.com/ew-knowMore,Not checked city by city (Croma store presence not verified in this run)
+Croma ZipCare,Raipur,Chhattisgarh,NOT VERIFIED,https://www.croma.com/ew-knowMore,Not checked city by city (Croma store presence not verified in this run)
+Croma ZipCare,Nagpur,Maharashtra,NOT VERIFIED,https://www.croma.com/ew-knowMore,Not checked city by city (Croma store presence not verified in this run)
+Croma ZipCare,Nashik,Maharashtra,NOT VERIFIED,https://www.croma.com/ew-knowMore,Not checked city by city (Croma store presence not verified in this run)
+Croma ZipCare,Aurangabad,Maharashtra,NOT VERIFIED,https://www.croma.com/ew-knowMore,Not checked city by city (Croma store presence not verified in this run)
+Croma ZipCare,Surat,Gujarat,NOT VERIFIED,https://www.croma.com/ew-knowMore,Not checked city by city (Croma store presence not verified in this run)
+Croma ZipCare,Vadodara,Gujarat,NOT VERIFIED,https://www.croma.com/ew-knowMore,Not checked city by city (Croma store presence not verified in this run)
+Croma ZipCare,Rajkot,Gujarat,NOT VERIFIED,https://www.croma.com/ew-knowMore,Not checked city by city (Croma store presence not verified in this run)
+Croma ZipCare,Lucknow,Uttar Pradesh,NOT VERIFIED,https://www.croma.com/ew-knowMore,Not checked city by city (Croma store presence not verified in this run)
+Croma ZipCare,Kanpur,Uttar Pradesh,NOT VERIFIED,https://www.croma.com/ew-knowMore,Not checked city by city (Croma store presence not verified in this run)
+Croma ZipCare,Patna,Bihar,NOT VERIFIED,https://www.croma.com/ew-knowMore,Not checked city by city (Croma store presence not verified in this run)
+Croma ZipCare,Bhubaneswar,Odisha,NOT VERIFIED,https://www.croma.com/ew-knowMore,Not checked city by city (Croma store presence not verified in this run)
+Croma ZipCare,Guwahati,Assam,NOT VERIFIED,https://www.croma.com/ew-knowMore,Not checked city by city (Croma store presence not verified in this run)
+Croma ZipCare,Jaipur,Rajasthan,NOT VERIFIED,https://www.croma.com/ew-knowMore,Not checked city by city (Croma store presence not verified in this run)
+Croma ZipCare,Ludhiana,Punjab,NOT VERIFIED,https://www.croma.com/ew-knowMore,Not checked city by city (Croma store presence not verified in this run)
+Kent RO,Warangal,Telangana,NOT VERIFIED,https://www.kent.co.in/pages/kentservice,National service network claimed without numbers; city locator not scraped
+Kent RO,Karimnagar,Telangana,NOT VERIFIED,https://www.kent.co.in/pages/kentservice,National service network claimed without numbers; city locator not scraped
+Kent RO,Vijayawada,Andhra Pradesh,NOT VERIFIED,https://www.kent.co.in/pages/kentservice,National service network claimed without numbers; city locator not scraped
+Kent RO,Visakhapatnam,Andhra Pradesh,NOT VERIFIED,https://www.kent.co.in/pages/kentservice,National service network claimed without numbers; city locator not scraped
+Kent RO,Guntur,Andhra Pradesh,NOT VERIFIED,https://www.kent.co.in/pages/kentservice,National service network claimed without numbers; city locator not scraped
+Kent RO,Nellore,Andhra Pradesh,NOT VERIFIED,https://www.kent.co.in/pages/kentservice,National service network claimed without numbers; city locator not scraped
+Kent RO,Coimbatore,Tamil Nadu,NOT VERIFIED,https://www.kent.co.in/pages/kentservice,National service network claimed without numbers; city locator not scraped
+Kent RO,Madurai,Tamil Nadu,NOT VERIFIED,https://www.kent.co.in/pages/kentservice,National service network claimed without numbers; city locator not scraped
+Kent RO,Tiruchirappalli,Tamil Nadu,NOT VERIFIED,https://www.kent.co.in/pages/kentservice,National service network claimed without numbers; city locator not scraped
+Kent RO,Mysuru,Karnataka,NOT VERIFIED,https://www.kent.co.in/pages/kentservice,National service network claimed without numbers; city locator not scraped
+Kent RO,Hubballi,Karnataka,NOT VERIFIED,https://www.kent.co.in/pages/kentservice,National service network claimed without numbers; city locator not scraped
+Kent RO,Mangaluru,Karnataka,NOT VERIFIED,https://www.kent.co.in/pages/kentservice,National service network claimed without numbers; city locator not scraped
+Kent RO,Kochi,Kerala,NOT VERIFIED,https://www.kent.co.in/pages/kentservice,National service network claimed without numbers; city locator not scraped
+Kent RO,Thrissur,Kerala,NOT VERIFIED,https://www.kent.co.in/pages/kentservice,National service network claimed without numbers; city locator not scraped
+Kent RO,Indore,Madhya Pradesh,NOT VERIFIED,https://www.kent.co.in/pages/kentservice,National service network claimed without numbers; city locator not scraped
+Kent RO,Bhopal,Madhya Pradesh,NOT VERIFIED,https://www.kent.co.in/pages/kentservice,National service network claimed without numbers; city locator not scraped
+Kent RO,Raipur,Chhattisgarh,NOT VERIFIED,https://www.kent.co.in/pages/kentservice,National service network claimed without numbers; city locator not scraped
+Kent RO,Nagpur,Maharashtra,NOT VERIFIED,https://www.kent.co.in/pages/kentservice,National service network claimed without numbers; city locator not scraped
+Kent RO,Nashik,Maharashtra,NOT VERIFIED,https://www.kent.co.in/pages/kentservice,National service network claimed without numbers; city locator not scraped
+Kent RO,Aurangabad,Maharashtra,NOT VERIFIED,https://www.kent.co.in/pages/kentservice,National service network claimed without numbers; city locator not scraped
+Kent RO,Surat,Gujarat,NOT VERIFIED,https://www.kent.co.in/pages/kentservice,National service network claimed without numbers; city locator not scraped
+Kent RO,Vadodara,Gujarat,NOT VERIFIED,https://www.kent.co.in/pages/kentservice,National service network claimed without numbers; city locator not scraped
+Kent RO,Rajkot,Gujarat,NOT VERIFIED,https://www.kent.co.in/pages/kentservice,National service network claimed without numbers; city locator not scraped
+Kent RO,Lucknow,Uttar Pradesh,NOT VERIFIED,https://www.kent.co.in/pages/kentservice,National service network claimed without numbers; city locator not scraped
+Kent RO,Kanpur,Uttar Pradesh,NOT VERIFIED,https://www.kent.co.in/pages/kentservice,National service network claimed without numbers; city locator not scraped
+Kent RO,Patna,Bihar,NOT VERIFIED,https://www.kent.co.in/pages/kentservice,National service network claimed without numbers; city locator not scraped
+Kent RO,Bhubaneswar,Odisha,NOT VERIFIED,https://www.kent.co.in/pages/kentservice,National service network claimed without numbers; city locator not scraped
+Kent RO,Guwahati,Assam,NOT VERIFIED,https://www.kent.co.in/pages/kentservice,National service network claimed without numbers; city locator not scraped
+Kent RO,Jaipur,Rajasthan,NOT VERIFIED,https://www.kent.co.in/pages/kentservice,National service network claimed without numbers; city locator not scraped
+Kent RO,Ludhiana,Punjab,NOT VERIFIED,https://www.kent.co.in/pages/kentservice,National service network claimed without numbers; city locator not scraped
+LG Electronics India,Warangal,Telangana,NOT VERIFIED,https://www.lg.com/in/support,Authorised service centres nationwide (assumed); locator not scraped
+LG Electronics India,Karimnagar,Telangana,NOT VERIFIED,https://www.lg.com/in/support,Authorised service centres nationwide (assumed); locator not scraped
+LG Electronics India,Vijayawada,Andhra Pradesh,NOT VERIFIED,https://www.lg.com/in/support,Authorised service centres nationwide (assumed); locator not scraped
+LG Electronics India,Visakhapatnam,Andhra Pradesh,NOT VERIFIED,https://www.lg.com/in/support,Authorised service centres nationwide (assumed); locator not scraped
+LG Electronics India,Guntur,Andhra Pradesh,NOT VERIFIED,https://www.lg.com/in/support,Authorised service centres nationwide (assumed); locator not scraped
+LG Electronics India,Nellore,Andhra Pradesh,NOT VERIFIED,https://www.lg.com/in/support,Authorised service centres nationwide (assumed); locator not scraped
+LG Electronics India,Coimbatore,Tamil Nadu,NOT VERIFIED,https://www.lg.com/in/support,Authorised service centres nationwide (assumed); locator not scraped
+LG Electronics India,Madurai,Tamil Nadu,NOT VERIFIED,https://www.lg.com/in/support,Authorised service centres nationwide (assumed); locator not scraped
+LG Electronics India,Tiruchirappalli,Tamil Nadu,NOT VERIFIED,https://www.lg.com/in/support,Authorised service centres nationwide (assumed); locator not scraped
+LG Electronics India,Mysuru,Karnataka,NOT VERIFIED,https://www.lg.com/in/support,Authorised service centres nationwide (assumed); locator not scraped
+LG Electronics India,Hubballi,Karnataka,NOT VERIFIED,https://www.lg.com/in/support,Authorised service centres nationwide (assumed); locator not scraped
+LG Electronics India,Mangaluru,Karnataka,NOT VERIFIED,https://www.lg.com/in/support,Authorised service centres nationwide (assumed); locator not scraped
+LG Electronics India,Kochi,Kerala,NOT VERIFIED,https://www.lg.com/in/support,Authorised service centres nationwide (assumed); locator not scraped
+LG Electronics India,Thrissur,Kerala,NOT VERIFIED,https://www.lg.com/in/support,Authorised service centres nationwide (assumed); locator not scraped
+LG Electronics India,Indore,Madhya Pradesh,NOT VERIFIED,https://www.lg.com/in/support,Authorised service centres nationwide (assumed); locator not scraped
+LG Electronics India,Bhopal,Madhya Pradesh,NOT VERIFIED,https://www.lg.com/in/support,Authorised service centres nationwide (assumed); locator not scraped
+LG Electronics India,Raipur,Chhattisgarh,NOT VERIFIED,https://www.lg.com/in/support,Authorised service centres nationwide (assumed); locator not scraped
+LG Electronics India,Nagpur,Maharashtra,NOT VERIFIED,https://www.lg.com/in/support,Authorised service centres nationwide (assumed); locator not scraped
+LG Electronics India,Nashik,Maharashtra,NOT VERIFIED,https://www.lg.com/in/support,Authorised service centres nationwide (assumed); locator not scraped
+LG Electronics India,Aurangabad,Maharashtra,NOT VERIFIED,https://www.lg.com/in/support,Authorised service centres nationwide (assumed); locator not scraped
+LG Electronics India,Surat,Gujarat,NOT VERIFIED,https://www.lg.com/in/support,Authorised service centres nationwide (assumed); locator not scraped
+LG Electronics India,Vadodara,Gujarat,NOT VERIFIED,https://www.lg.com/in/support,Authorised service centres nationwide (assumed); locator not scraped
+LG Electronics India,Rajkot,Gujarat,NOT VERIFIED,https://www.lg.com/in/support,Authorised service centres nationwide (assumed); locator not scraped
+LG Electronics India,Lucknow,Uttar Pradesh,NOT VERIFIED,https://www.lg.com/in/support,Authorised service centres nationwide (assumed); locator not scraped
+LG Electronics India,Kanpur,Uttar Pradesh,NOT VERIFIED,https://www.lg.com/in/support,Authorised service centres nationwide (assumed); locator not scraped
+LG Electronics India,Patna,Bihar,NOT VERIFIED,https://www.lg.com/in/support,Authorised service centres nationwide (assumed); locator not scraped
+LG Electronics India,Bhubaneswar,Odisha,NOT VERIFIED,https://www.lg.com/in/support,Authorised service centres nationwide (assumed); locator not scraped
+LG Electronics India,Guwahati,Assam,NOT VERIFIED,https://www.lg.com/in/support,Authorised service centres nationwide (assumed); locator not scraped
+LG Electronics India,Jaipur,Rajasthan,NOT VERIFIED,https://www.lg.com/in/support,Authorised service centres nationwide (assumed); locator not scraped
+LG Electronics India,Ludhiana,Punjab,NOT VERIFIED,https://www.lg.com/in/support,Authorised service centres nationwide (assumed); locator not scraped
+Samsung India,Warangal,Telangana,NOT VERIFIED,https://www.samsung.com/in/support/,Authorised service centres nationwide (assumed); locator not scraped
+Samsung India,Karimnagar,Telangana,NOT VERIFIED,https://www.samsung.com/in/support/,Authorised service centres nationwide (assumed); locator not scraped
+Samsung India,Vijayawada,Andhra Pradesh,NOT VERIFIED,https://www.samsung.com/in/support/,Authorised service centres nationwide (assumed); locator not scraped
+Samsung India,Visakhapatnam,Andhra Pradesh,NOT VERIFIED,https://www.samsung.com/in/support/,Authorised service centres nationwide (assumed); locator not scraped
+Samsung India,Guntur,Andhra Pradesh,NOT VERIFIED,https://www.samsung.com/in/support/,Authorised service centres nationwide (assumed); locator not scraped
+Samsung India,Nellore,Andhra Pradesh,NOT VERIFIED,https://www.samsung.com/in/support/,Authorised service centres nationwide (assumed); locator not scraped
+Samsung India,Coimbatore,Tamil Nadu,NOT VERIFIED,https://www.samsung.com/in/support/,Authorised service centres nationwide (assumed); locator not scraped
+Samsung India,Madurai,Tamil Nadu,NOT VERIFIED,https://www.samsung.com/in/support/,Authorised service centres nationwide (assumed); locator not scraped
+Samsung India,Tiruchirappalli,Tamil Nadu,NOT VERIFIED,https://www.samsung.com/in/support/,Authorised service centres nationwide (assumed); locator not scraped
+Samsung India,Mysuru,Karnataka,NOT VERIFIED,https://www.samsung.com/in/support/,Authorised service centres nationwide (assumed); locator not scraped
+Samsung India,Hubballi,Karnataka,NOT VERIFIED,https://www.samsung.com/in/support/,Authorised service centres nationwide (assumed); locator not scraped
+Samsung India,Mangaluru,Karnataka,NOT VERIFIED,https://www.samsung.com/in/support/,Authorised service centres nationwide (assumed); locator not scraped
+Samsung India,Kochi,Kerala,NOT VERIFIED,https://www.samsung.com/in/support/,Authorised service centres nationwide (assumed); locator not scraped
+Samsung India,Thrissur,Kerala,NOT VERIFIED,https://www.samsung.com/in/support/,Authorised service centres nationwide (assumed); locator not scraped
+Samsung India,Indore,Madhya Pradesh,NOT VERIFIED,https://www.samsung.com/in/support/,Authorised service centres nationwide (assumed); locator not scraped
+Samsung India,Bhopal,Madhya Pradesh,NOT VERIFIED,https://www.samsung.com/in/support/,Authorised service centres nationwide (assumed); locator not scraped
+Samsung India,Raipur,Chhattisgarh,NOT VERIFIED,https://www.samsung.com/in/support/,Authorised service centres nationwide (assumed); locator not scraped
+Samsung India,Nagpur,Maharashtra,NOT VERIFIED,https://www.samsung.com/in/support/,Authorised service centres nationwide (assumed); locator not scraped
+Samsung India,Nashik,Maharashtra,NOT VERIFIED,https://www.samsung.com/in/support/,Authorised service centres nationwide (assumed); locator not scraped
+Samsung India,Aurangabad,Maharashtra,NOT VERIFIED,https://www.samsung.com/in/support/,Authorised service centres nationwide (assumed); locator not scraped
+Samsung India,Surat,Gujarat,NOT VERIFIED,https://www.samsung.com/in/support/,Authorised service centres nationwide (assumed); locator not scraped
+Samsung India,Vadodara,Gujarat,NOT VERIFIED,https://www.samsung.com/in/support/,Authorised service centres nationwide (assumed); locator not scraped
+Samsung India,Rajkot,Gujarat,NOT VERIFIED,https://www.samsung.com/in/support/,Authorised service centres nationwide (assumed); locator not scraped
+Samsung India,Lucknow,Uttar Pradesh,NOT VERIFIED,https://www.samsung.com/in/support/,Authorised service centres nationwide (assumed); locator not scraped
+Samsung India,Kanpur,Uttar Pradesh,NOT VERIFIED,https://www.samsung.com/in/support/,Authorised service centres nationwide (assumed); locator not scraped
+Samsung India,Patna,Bihar,NOT VERIFIED,https://www.samsung.com/in/support/,Authorised service centres nationwide (assumed); locator not scraped
+Samsung India,Bhubaneswar,Odisha,NOT VERIFIED,https://www.samsung.com/in/support/,Authorised service centres nationwide (assumed); locator not scraped
+Samsung India,Guwahati,Assam,NOT VERIFIED,https://www.samsung.com/in/support/,Authorised service centres nationwide (assumed); locator not scraped
+Samsung India,Jaipur,Rajasthan,NOT VERIFIED,https://www.samsung.com/in/support/,Authorised service centres nationwide (assumed); locator not scraped
+Samsung India,Ludhiana,Punjab,NOT VERIFIED,https://www.samsung.com/in/support/,Authorised service centres nationwide (assumed); locator not scraped
+Voltas,Warangal,Telangana,NOT VERIFIED,https://www.tata.com/business/voltas,"30,000+ 'customer touchpoints' claim, undefined; locator not scraped"
+Voltas,Karimnagar,Telangana,NOT VERIFIED,https://www.tata.com/business/voltas,"30,000+ 'customer touchpoints' claim, undefined; locator not scraped"
+Voltas,Vijayawada,Andhra Pradesh,NOT VERIFIED,https://www.tata.com/business/voltas,"30,000+ 'customer touchpoints' claim, undefined; locator not scraped"
+Voltas,Visakhapatnam,Andhra Pradesh,NOT VERIFIED,https://www.tata.com/business/voltas,"30,000+ 'customer touchpoints' claim, undefined; locator not scraped"
+Voltas,Guntur,Andhra Pradesh,NOT VERIFIED,https://www.tata.com/business/voltas,"30,000+ 'customer touchpoints' claim, undefined; locator not scraped"
+Voltas,Nellore,Andhra Pradesh,NOT VERIFIED,https://www.tata.com/business/voltas,"30,000+ 'customer touchpoints' claim, undefined; locator not scraped"
+Voltas,Coimbatore,Tamil Nadu,NOT VERIFIED,https://www.tata.com/business/voltas,"30,000+ 'customer touchpoints' claim, undefined; locator not scraped"
+Voltas,Madurai,Tamil Nadu,NOT VERIFIED,https://www.tata.com/business/voltas,"30,000+ 'customer touchpoints' claim, undefined; locator not scraped"
+Voltas,Tiruchirappalli,Tamil Nadu,NOT VERIFIED,https://www.tata.com/business/voltas,"30,000+ 'customer touchpoints' claim, undefined; locator not scraped"
+Voltas,Mysuru,Karnataka,NOT VERIFIED,https://www.tata.com/business/voltas,"30,000+ 'customer touchpoints' claim, undefined; locator not scraped"
+Voltas,Hubballi,Karnataka,NOT VERIFIED,https://www.tata.com/business/voltas,"30,000+ 'customer touchpoints' claim, undefined; locator not scraped"
+Voltas,Mangaluru,Karnataka,NOT VERIFIED,https://www.tata.com/business/voltas,"30,000+ 'customer touchpoints' claim, undefined; locator not scraped"
+Voltas,Kochi,Kerala,NOT VERIFIED,https://www.tata.com/business/voltas,"30,000+ 'customer touchpoints' claim, undefined; locator not scraped"
+Voltas,Thrissur,Kerala,NOT VERIFIED,https://www.tata.com/business/voltas,"30,000+ 'customer touchpoints' claim, undefined; locator not scraped"
+Voltas,Indore,Madhya Pradesh,NOT VERIFIED,https://www.tata.com/business/voltas,"30,000+ 'customer touchpoints' claim, undefined; locator not scraped"
+Voltas,Bhopal,Madhya Pradesh,NOT VERIFIED,https://www.tata.com/business/voltas,"30,000+ 'customer touchpoints' claim, undefined; locator not scraped"
+Voltas,Raipur,Chhattisgarh,NOT VERIFIED,https://www.tata.com/business/voltas,"30,000+ 'customer touchpoints' claim, undefined; locator not scraped"
+Voltas,Nagpur,Maharashtra,NOT VERIFIED,https://www.tata.com/business/voltas,"30,000+ 'customer touchpoints' claim, undefined; locator not scraped"
+Voltas,Nashik,Maharashtra,NOT VERIFIED,https://www.tata.com/business/voltas,"30,000+ 'customer touchpoints' claim, undefined; locator not scraped"
+Voltas,Aurangabad,Maharashtra,NOT VERIFIED,https://www.tata.com/business/voltas,"30,000+ 'customer touchpoints' claim, undefined; locator not scraped"
+Voltas,Surat,Gujarat,NOT VERIFIED,https://www.tata.com/business/voltas,"30,000+ 'customer touchpoints' claim, undefined; locator not scraped"
+Voltas,Vadodara,Gujarat,NOT VERIFIED,https://www.tata.com/business/voltas,"30,000+ 'customer touchpoints' claim, undefined; locator not scraped"
+Voltas,Rajkot,Gujarat,NOT VERIFIED,https://www.tata.com/business/voltas,"30,000+ 'customer touchpoints' claim, undefined; locator not scraped"
+Voltas,Lucknow,Uttar Pradesh,NOT VERIFIED,https://www.tata.com/business/voltas,"30,000+ 'customer touchpoints' claim, undefined; locator not scraped"
+Voltas,Kanpur,Uttar Pradesh,NOT VERIFIED,https://www.tata.com/business/voltas,"30,000+ 'customer touchpoints' claim, undefined; locator not scraped"
+Voltas,Patna,Bihar,NOT VERIFIED,https://www.tata.com/business/voltas,"30,000+ 'customer touchpoints' claim, undefined; locator not scraped"
+Voltas,Bhubaneswar,Odisha,NOT VERIFIED,https://www.tata.com/business/voltas,"30,000+ 'customer touchpoints' claim, undefined; locator not scraped"
+Voltas,Guwahati,Assam,NOT VERIFIED,https://www.tata.com/business/voltas,"30,000+ 'customer touchpoints' claim, undefined; locator not scraped"
+Voltas,Jaipur,Rajasthan,NOT VERIFIED,https://www.tata.com/business/voltas,"30,000+ 'customer touchpoints' claim, undefined; locator not scraped"
+Voltas,Ludhiana,Punjab,NOT VERIFIED,https://www.tata.com/business/voltas,"30,000+ 'customer touchpoints' claim, undefined; locator not scraped"
+Godrej Appliances,Warangal,Telangana,NOT VERIFIED,https://www.godrejenterprises.com/support/appliances/air-conditioners/amc,No city data collected
+Godrej Appliances,Karimnagar,Telangana,NOT VERIFIED,https://www.godrejenterprises.com/support/appliances/air-conditioners/amc,No city data collected
+Godrej Appliances,Vijayawada,Andhra Pradesh,NOT VERIFIED,https://www.godrejenterprises.com/support/appliances/air-conditioners/amc,No city data collected
+Godrej Appliances,Visakhapatnam,Andhra Pradesh,NOT VERIFIED,https://www.godrejenterprises.com/support/appliances/air-conditioners/amc,No city data collected
+Godrej Appliances,Guntur,Andhra Pradesh,NOT VERIFIED,https://www.godrejenterprises.com/support/appliances/air-conditioners/amc,No city data collected
+Godrej Appliances,Nellore,Andhra Pradesh,NOT VERIFIED,https://www.godrejenterprises.com/support/appliances/air-conditioners/amc,No city data collected
+Godrej Appliances,Coimbatore,Tamil Nadu,NOT VERIFIED,https://www.godrejenterprises.com/support/appliances/air-conditioners/amc,No city data collected
+Godrej Appliances,Madurai,Tamil Nadu,NOT VERIFIED,https://www.godrejenterprises.com/support/appliances/air-conditioners/amc,No city data collected
+Godrej Appliances,Tiruchirappalli,Tamil Nadu,NOT VERIFIED,https://www.godrejenterprises.com/support/appliances/air-conditioners/amc,No city data collected
+Godrej Appliances,Mysuru,Karnataka,NOT VERIFIED,https://www.godrejenterprises.com/support/appliances/air-conditioners/amc,No city data collected
+Godrej Appliances,Hubballi,Karnataka,NOT VERIFIED,https://www.godrejenterprises.com/support/appliances/air-conditioners/amc,No city data collected
+Godrej Appliances,Mangaluru,Karnataka,NOT VERIFIED,https://www.godrejenterprises.com/support/appliances/air-conditioners/amc,No city data collected
+Godrej Appliances,Kochi,Kerala,NOT VERIFIED,https://www.godrejenterprises.com/support/appliances/air-conditioners/amc,No city data collected
+Godrej Appliances,Thrissur,Kerala,NOT VERIFIED,https://www.godrejenterprises.com/support/appliances/air-conditioners/amc,No city data collected
+Godrej Appliances,Indore,Madhya Pradesh,NOT VERIFIED,https://www.godrejenterprises.com/support/appliances/air-conditioners/amc,No city data collected
+Godrej Appliances,Bhopal,Madhya Pradesh,NOT VERIFIED,https://www.godrejenterprises.com/support/appliances/air-conditioners/amc,No city data collected
+Godrej Appliances,Raipur,Chhattisgarh,NOT VERIFIED,https://www.godrejenterprises.com/support/appliances/air-conditioners/amc,No city data collected
+Godrej Appliances,Nagpur,Maharashtra,NOT VERIFIED,https://www.godrejenterprises.com/support/appliances/air-conditioners/amc,No city data collected
+Godrej Appliances,Nashik,Maharashtra,NOT VERIFIED,https://www.godrejenterprises.com/support/appliances/air-conditioners/amc,No city data collected
+Godrej Appliances,Aurangabad,Maharashtra,NOT VERIFIED,https://www.godrejenterprises.com/support/appliances/air-conditioners/amc,No city data collected
+Godrej Appliances,Surat,Gujarat,NOT VERIFIED,https://www.godrejenterprises.com/support/appliances/air-conditioners/amc,No city data collected
+Godrej Appliances,Vadodara,Gujarat,NOT VERIFIED,https://www.godrejenterprises.com/support/appliances/air-conditioners/amc,No city data collected
+Godrej Appliances,Rajkot,Gujarat,NOT VERIFIED,https://www.godrejenterprises.com/support/appliances/air-conditioners/amc,No city data collected
+Godrej Appliances,Lucknow,Uttar Pradesh,NOT VERIFIED,https://www.godrejenterprises.com/support/appliances/air-conditioners/amc,No city data collected
+Godrej Appliances,Kanpur,Uttar Pradesh,NOT VERIFIED,https://www.godrejenterprises.com/support/appliances/air-conditioners/amc,No city data collected
+Godrej Appliances,Patna,Bihar,NOT VERIFIED,https://www.godrejenterprises.com/support/appliances/air-conditioners/amc,No city data collected
+Godrej Appliances,Bhubaneswar,Odisha,NOT VERIFIED,https://www.godrejenterprises.com/support/appliances/air-conditioners/amc,No city data collected
+Godrej Appliances,Guwahati,Assam,NOT VERIFIED,https://www.godrejenterprises.com/support/appliances/air-conditioners/amc,No city data collected
+Godrej Appliances,Jaipur,Rajasthan,NOT VERIFIED,https://www.godrejenterprises.com/support/appliances/air-conditioners/amc,No city data collected
+Godrej Appliances,Ludhiana,Punjab,NOT VERIFIED,https://www.godrejenterprises.com/support/appliances/air-conditioners/amc,No city data collected
+Daikin India,Warangal,Telangana,NOT VERIFIED,https://daikinindia.com/products-services/daikin-service-locator,"Locator exists, not scraped"
+Daikin India,Karimnagar,Telangana,NOT VERIFIED,https://daikinindia.com/products-services/daikin-service-locator,"Locator exists, not scraped"
+Daikin India,Vijayawada,Andhra Pradesh,NOT VERIFIED,https://daikinindia.com/products-services/daikin-service-locator,"Locator exists, not scraped"
+Daikin India,Visakhapatnam,Andhra Pradesh,NOT VERIFIED,https://daikinindia.com/products-services/daikin-service-locator,"Locator exists, not scraped"
+Daikin India,Guntur,Andhra Pradesh,NOT VERIFIED,https://daikinindia.com/products-services/daikin-service-locator,"Locator exists, not scraped"
+Daikin India,Nellore,Andhra Pradesh,NOT VERIFIED,https://daikinindia.com/products-services/daikin-service-locator,"Locator exists, not scraped"
+Daikin India,Coimbatore,Tamil Nadu,NOT VERIFIED,https://daikinindia.com/products-services/daikin-service-locator,"Locator exists, not scraped"
+Daikin India,Madurai,Tamil Nadu,NOT VERIFIED,https://daikinindia.com/products-services/daikin-service-locator,"Locator exists, not scraped"
+Daikin India,Tiruchirappalli,Tamil Nadu,NOT VERIFIED,https://daikinindia.com/products-services/daikin-service-locator,"Locator exists, not scraped"
+Daikin India,Mysuru,Karnataka,NOT VERIFIED,https://daikinindia.com/products-services/daikin-service-locator,"Locator exists, not scraped"
+Daikin India,Hubballi,Karnataka,NOT VERIFIED,https://daikinindia.com/products-services/daikin-service-locator,"Locator exists, not scraped"
+Daikin India,Mangaluru,Karnataka,NOT VERIFIED,https://daikinindia.com/products-services/daikin-service-locator,"Locator exists, not scraped"
+Daikin India,Kochi,Kerala,NOT VERIFIED,https://daikinindia.com/products-services/daikin-service-locator,"Locator exists, not scraped"
+Daikin India,Thrissur,Kerala,NOT VERIFIED,https://daikinindia.com/products-services/daikin-service-locator,"Locator exists, not scraped"
+Daikin India,Indore,Madhya Pradesh,NOT VERIFIED,https://daikinindia.com/products-services/daikin-service-locator,"Locator exists, not scraped"
+Daikin India,Bhopal,Madhya Pradesh,NOT VERIFIED,https://daikinindia.com/products-services/daikin-service-locator,"Locator exists, not scraped"
+Daikin India,Raipur,Chhattisgarh,NOT VERIFIED,https://daikinindia.com/products-services/daikin-service-locator,"Locator exists, not scraped"
+Daikin India,Nagpur,Maharashtra,NOT VERIFIED,https://daikinindia.com/products-services/daikin-service-locator,"Locator exists, not scraped"
+Daikin India,Nashik,Maharashtra,NOT VERIFIED,https://daikinindia.com/products-services/daikin-service-locator,"Locator exists, not scraped"
+Daikin India,Aurangabad,Maharashtra,NOT VERIFIED,https://daikinindia.com/products-services/daikin-service-locator,"Locator exists, not scraped"
+Daikin India,Surat,Gujarat,NOT VERIFIED,https://daikinindia.com/products-services/daikin-service-locator,"Locator exists, not scraped"
+Daikin India,Vadodara,Gujarat,NOT VERIFIED,https://daikinindia.com/products-services/daikin-service-locator,"Locator exists, not scraped"
+Daikin India,Rajkot,Gujarat,NOT VERIFIED,https://daikinindia.com/products-services/daikin-service-locator,"Locator exists, not scraped"
+Daikin India,Lucknow,Uttar Pradesh,NOT VERIFIED,https://daikinindia.com/products-services/daikin-service-locator,"Locator exists, not scraped"
+Daikin India,Kanpur,Uttar Pradesh,NOT VERIFIED,https://daikinindia.com/products-services/daikin-service-locator,"Locator exists, not scraped"
+Daikin India,Patna,Bihar,NOT VERIFIED,https://daikinindia.com/products-services/daikin-service-locator,"Locator exists, not scraped"
+Daikin India,Bhubaneswar,Odisha,NOT VERIFIED,https://daikinindia.com/products-services/daikin-service-locator,"Locator exists, not scraped"
+Daikin India,Guwahati,Assam,NOT VERIFIED,https://daikinindia.com/products-services/daikin-service-locator,"Locator exists, not scraped"
+Daikin India,Jaipur,Rajasthan,NOT VERIFIED,https://daikinindia.com/products-services/daikin-service-locator,"Locator exists, not scraped"
+Daikin India,Ludhiana,Punjab,NOT VERIFIED,https://daikinindia.com/products-services/daikin-service-locator,"Locator exists, not scraped"
+Housejoy,Warangal,Telangana,NO EVIDENCE FOUND,https://inc42.com/buzz/amazon-backed-housejoy-issues-pink-slips-to-40-employees,"Retreated to 5 metros (c.2018), pivoted to construction; housejoy.in unresponsive 2026-11-18"
+Housejoy,Karimnagar,Telangana,NO EVIDENCE FOUND,https://inc42.com/buzz/amazon-backed-housejoy-issues-pink-slips-to-40-employees,"Retreated to 5 metros (c.2018), pivoted to construction; housejoy.in unresponsive 2026-11-18"
+Housejoy,Vijayawada,Andhra Pradesh,NO EVIDENCE FOUND,https://inc42.com/buzz/amazon-backed-housejoy-issues-pink-slips-to-40-employees,"Retreated to 5 metros (c.2018), pivoted to construction; housejoy.in unresponsive 2026-11-18"
+Housejoy,Visakhapatnam,Andhra Pradesh,NO EVIDENCE FOUND,https://inc42.com/buzz/amazon-backed-housejoy-issues-pink-slips-to-40-employees,"Retreated to 5 metros (c.2018), pivoted to construction; housejoy.in unresponsive 2026-11-18"
+Housejoy,Guntur,Andhra Pradesh,NO EVIDENCE FOUND,https://inc42.com/buzz/amazon-backed-housejoy-issues-pink-slips-to-40-employees,"Retreated to 5 metros (c.2018), pivoted to construction; housejoy.in unresponsive 2026-11-18"
+Housejoy,Nellore,Andhra Pradesh,NO EVIDENCE FOUND,https://inc42.com/buzz/amazon-backed-housejoy-issues-pink-slips-to-40-employees,"Retreated to 5 metros (c.2018), pivoted to construction; housejoy.in unresponsive 2026-11-18"
+Housejoy,Coimbatore,Tamil Nadu,NO EVIDENCE FOUND,https://inc42.com/buzz/amazon-backed-housejoy-issues-pink-slips-to-40-employees,"Retreated to 5 metros (c.2018), pivoted to construction; housejoy.in unresponsive 2026-11-18"
+Housejoy,Madurai,Tamil Nadu,NO EVIDENCE FOUND,https://inc42.com/buzz/amazon-backed-housejoy-issues-pink-slips-to-40-employees,"Retreated to 5 metros (c.2018), pivoted to construction; housejoy.in unresponsive 2026-11-18"
+Housejoy,Tiruchirappalli,Tamil Nadu,NO EVIDENCE FOUND,https://inc42.com/buzz/amazon-backed-housejoy-issues-pink-slips-to-40-employees,"Retreated to 5 metros (c.2018), pivoted to construction; housejoy.in unresponsive 2026-11-18"
+Housejoy,Mysuru,Karnataka,NO EVIDENCE FOUND,https://inc42.com/buzz/amazon-backed-housejoy-issues-pink-slips-to-40-employees,"Retreated to 5 metros (c.2018), pivoted to construction; housejoy.in unresponsive 2026-11-18"
+Housejoy,Hubballi,Karnataka,NO EVIDENCE FOUND,https://inc42.com/buzz/amazon-backed-housejoy-issues-pink-slips-to-40-employees,"Retreated to 5 metros (c.2018), pivoted to construction; housejoy.in unresponsive 2026-11-18"
+Housejoy,Mangaluru,Karnataka,NO EVIDENCE FOUND,https://inc42.com/buzz/amazon-backed-housejoy-issues-pink-slips-to-40-employees,"Retreated to 5 metros (c.2018), pivoted to construction; housejoy.in unresponsive 2026-11-18"
+Housejoy,Kochi,Kerala,NO EVIDENCE FOUND,https://inc42.com/buzz/amazon-backed-housejoy-issues-pink-slips-to-40-employees,"Retreated to 5 metros (c.2018), pivoted to construction; housejoy.in unresponsive 2026-11-18"
+Housejoy,Thrissur,Kerala,NO EVIDENCE FOUND,https://inc42.com/buzz/amazon-backed-housejoy-issues-pink-slips-to-40-employees,"Retreated to 5 metros (c.2018), pivoted to construction; housejoy.in unresponsive 2026-11-18"
+Housejoy,Indore,Madhya Pradesh,NO EVIDENCE FOUND,https://inc42.com/buzz/amazon-backed-housejoy-issues-pink-slips-to-40-employees,"Retreated to 5 metros (c.2018), pivoted to construction; housejoy.in unresponsive 2026-11-18"
+Housejoy,Bhopal,Madhya Pradesh,NO EVIDENCE FOUND,https://inc42.com/buzz/amazon-backed-housejoy-issues-pink-slips-to-40-employees,"Retreated to 5 metros (c.2018), pivoted to construction; housejoy.in unresponsive 2026-11-18"
+Housejoy,Raipur,Chhattisgarh,NO EVIDENCE FOUND,https://inc42.com/buzz/amazon-backed-housejoy-issues-pink-slips-to-40-employees,"Retreated to 5 metros (c.2018), pivoted to construction; housejoy.in unresponsive 2026-11-18"
+Housejoy,Nagpur,Maharashtra,NO EVIDENCE FOUND,https://inc42.com/buzz/amazon-backed-housejoy-issues-pink-slips-to-40-employees,"Retreated to 5 metros (c.2018), pivoted to construction; housejoy.in unresponsive 2026-11-18"
+Housejoy,Nashik,Maharashtra,NO EVIDENCE FOUND,https://inc42.com/buzz/amazon-backed-housejoy-issues-pink-slips-to-40-employees,"Retreated to 5 metros (c.2018), pivoted to construction; housejoy.in unresponsive 2026-11-18"
+Housejoy,Aurangabad,Maharashtra,NO EVIDENCE FOUND,https://inc42.com/buzz/amazon-backed-housejoy-issues-pink-slips-to-40-employees,"Retreated to 5 metros (c.2018), pivoted to construction; housejoy.in unresponsive 2026-11-18"
+Housejoy,Surat,Gujarat,NO EVIDENCE FOUND,https://inc42.com/buzz/amazon-backed-housejoy-issues-pink-slips-to-40-employees,"Retreated to 5 metros (c.2018), pivoted to construction; housejoy.in unresponsive 2026-11-18"
+Housejoy,Vadodara,Gujarat,NO EVIDENCE FOUND,https://inc42.com/buzz/amazon-backed-housejoy-issues-pink-slips-to-40-employees,"Retreated to 5 metros (c.2018), pivoted to construction; housejoy.in unresponsive 2026-11-18"
+Housejoy,Rajkot,Gujarat,NO EVIDENCE FOUND,https://inc42.com/buzz/amazon-backed-housejoy-issues-pink-slips-to-40-employees,"Retreated to 5 metros (c.2018), pivoted to construction; housejoy.in unresponsive 2026-11-18"
+Housejoy,Lucknow,Uttar Pradesh,NO EVIDENCE FOUND,https://inc42.com/buzz/amazon-backed-housejoy-issues-pink-slips-to-40-employees,"Retreated to 5 metros (c.2018), pivoted to construction; housejoy.in unresponsive 2026-11-18"
+Housejoy,Kanpur,Uttar Pradesh,NO EVIDENCE FOUND,https://inc42.com/buzz/amazon-backed-housejoy-issues-pink-slips-to-40-employees,"Retreated to 5 metros (c.2018), pivoted to construction; housejoy.in unresponsive 2026-11-18"
+Housejoy,Patna,Bihar,NO EVIDENCE FOUND,https://inc42.com/buzz/amazon-backed-housejoy-issues-pink-slips-to-40-employees,"Retreated to 5 metros (c.2018), pivoted to construction; housejoy.in unresponsive 2026-11-18"
+Housejoy,Bhubaneswar,Odisha,NO EVIDENCE FOUND,https://inc42.com/buzz/amazon-backed-housejoy-issues-pink-slips-to-40-employees,"Retreated to 5 metros (c.2018), pivoted to construction; housejoy.in unresponsive 2026-11-18"
+Housejoy,Guwahati,Assam,NO EVIDENCE FOUND,https://inc42.com/buzz/amazon-backed-housejoy-issues-pink-slips-to-40-employees,"Retreated to 5 metros (c.2018), pivoted to construction; housejoy.in unresponsive 2026-11-18"
+Housejoy,Jaipur,Rajasthan,NO EVIDENCE FOUND,https://inc42.com/buzz/amazon-backed-housejoy-issues-pink-slips-to-40-employees,"Retreated to 5 metros (c.2018), pivoted to construction; housejoy.in unresponsive 2026-11-18"
+Housejoy,Ludhiana,Punjab,NO EVIDENCE FOUND,https://inc42.com/buzz/amazon-backed-housejoy-issues-pink-slips-to-40-employees,"Retreated to 5 metros (c.2018), pivoted to construction; housejoy.in unresponsive 2026-11-18"
+HelloTechie,Warangal,Telangana,NO EVIDENCE FOUND,https://www.hellotechie.com,Domain for sale; no operating company found (absence of evidence only)
+HelloTechie,Karimnagar,Telangana,NO EVIDENCE FOUND,https://www.hellotechie.com,Domain for sale; no operating company found (absence of evidence only)
+HelloTechie,Vijayawada,Andhra Pradesh,NO EVIDENCE FOUND,https://www.hellotechie.com,Domain for sale; no operating company found (absence of evidence only)
+HelloTechie,Visakhapatnam,Andhra Pradesh,NO EVIDENCE FOUND,https://www.hellotechie.com,Domain for sale; no operating company found (absence of evidence only)
+HelloTechie,Guntur,Andhra Pradesh,NO EVIDENCE FOUND,https://www.hellotechie.com,Domain for sale; no operating company found (absence of evidence only)
+HelloTechie,Nellore,Andhra Pradesh,NO EVIDENCE FOUND,https://www.hellotechie.com,Domain for sale; no operating company found (absence of evidence only)
+HelloTechie,Coimbatore,Tamil Nadu,NO EVIDENCE FOUND,https://www.hellotechie.com,Domain for sale; no operating company found (absence of evidence only)
+HelloTechie,Madurai,Tamil Nadu,NO EVIDENCE FOUND,https://www.hellotechie.com,Domain for sale; no operating company found (absence of evidence only)
+HelloTechie,Tiruchirappalli,Tamil Nadu,NO EVIDENCE FOUND,https://www.hellotechie.com,Domain for sale; no operating company found (absence of evidence only)
+HelloTechie,Mysuru,Karnataka,NO EVIDENCE FOUND,https://www.hellotechie.com,Domain for sale; no operating company found (absence of evidence only)
+HelloTechie,Hubballi,Karnataka,NO EVIDENCE FOUND,https://www.hellotechie.com,Domain for sale; no operating company found (absence of evidence only)
+HelloTechie,Mangaluru,Karnataka,NO EVIDENCE FOUND,https://www.hellotechie.com,Domain for sale; no operating company found (absence of evidence only)
+HelloTechie,Kochi,Kerala,NO EVIDENCE FOUND,https://www.hellotechie.com,Domain for sale; no operating company found (absence of evidence only)
+HelloTechie,Thrissur,Kerala,NO EVIDENCE FOUND,https://www.hellotechie.com,Domain for sale; no operating company found (absence of evidence only)
+HelloTechie,Indore,Madhya Pradesh,NO EVIDENCE FOUND,https://www.hellotechie.com,Domain for sale; no operating company found (absence of evidence only)
+HelloTechie,Bhopal,Madhya Pradesh,NO EVIDENCE FOUND,https://www.hellotechie.com,Domain for sale; no operating company found (absence of evidence only)
+HelloTechie,Raipur,Chhattisgarh,NO EVIDENCE FOUND,https://www.hellotechie.com,Domain for sale; no operating company found (absence of evidence only)
+HelloTechie,Nagpur,Maharashtra,NO EVIDENCE FOUND,https://www.hellotechie.com,Domain for sale; no operating company found (absence of evidence only)
+HelloTechie,Nashik,Maharashtra,NO EVIDENCE FOUND,https://www.hellotechie.com,Domain for sale; no operating company found (absence of evidence only)
+HelloTechie,Aurangabad,Maharashtra,NO EVIDENCE FOUND,https://www.hellotechie.com,Domain for sale; no operating company found (absence of evidence only)
+HelloTechie,Surat,Gujarat,NO EVIDENCE FOUND,https://www.hellotechie.com,Domain for sale; no operating company found (absence of evidence only)
+HelloTechie,Vadodara,Gujarat,NO EVIDENCE FOUND,https://www.hellotechie.com,Domain for sale; no operating company found (absence of evidence only)
+HelloTechie,Rajkot,Gujarat,NO EVIDENCE FOUND,https://www.hellotechie.com,Domain for sale; no operating company found (absence of evidence only)
+HelloTechie,Lucknow,Uttar Pradesh,NO EVIDENCE FOUND,https://www.hellotechie.com,Domain for sale; no operating company found (absence of evidence only)
+HelloTechie,Kanpur,Uttar Pradesh,NO EVIDENCE FOUND,https://www.hellotechie.com,Domain for sale; no operating company found (absence of evidence only)
+HelloTechie,Patna,Bihar,NO EVIDENCE FOUND,https://www.hellotechie.com,Domain for sale; no operating company found (absence of evidence only)
+HelloTechie,Bhubaneswar,Odisha,NO EVIDENCE FOUND,https://www.hellotechie.com,Domain for sale; no operating company found (absence of evidence only)
+HelloTechie,Guwahati,Assam,NO EVIDENCE FOUND,https://www.hellotechie.com,Domain for sale; no operating company found (absence of evidence only)
+HelloTechie,Jaipur,Rajasthan,NO EVIDENCE FOUND,https://www.hellotechie.com,Domain for sale; no operating company found (absence of evidence only)
+HelloTechie,Ludhiana,Punjab,NO EVIDENCE FOUND,https://www.hellotechie.com,Domain for sale; no operating company found (absence of evidence only)
+Mr Right,Warangal,Telangana,NO EVIDENCE FOUND,https://www.mrright.in/,Domain now a pest-control product brand; historic Bengaluru-only
+Mr Right,Karimnagar,Telangana,NO EVIDENCE FOUND,https://www.mrright.in/,Domain now a pest-control product brand; historic Bengaluru-only
+Mr Right,Vijayawada,Andhra Pradesh,NO EVIDENCE FOUND,https://www.mrright.in/,Domain now a pest-control product brand; historic Bengaluru-only
+Mr Right,Visakhapatnam,Andhra Pradesh,NO EVIDENCE FOUND,https://www.mrright.in/,Domain now a pest-control product brand; historic Bengaluru-only
+Mr Right,Guntur,Andhra Pradesh,NO EVIDENCE FOUND,https://www.mrright.in/,Domain now a pest-control product brand; historic Bengaluru-only
+Mr Right,Nellore,Andhra Pradesh,NO EVIDENCE FOUND,https://www.mrright.in/,Domain now a pest-control product brand; historic Bengaluru-only
+Mr Right,Coimbatore,Tamil Nadu,NO EVIDENCE FOUND,https://www.mrright.in/,Domain now a pest-control product brand; historic Bengaluru-only
+Mr Right,Madurai,Tamil Nadu,NO EVIDENCE FOUND,https://www.mrright.in/,Domain now a pest-control product brand; historic Bengaluru-only
+Mr Right,Tiruchirappalli,Tamil Nadu,NO EVIDENCE FOUND,https://www.mrright.in/,Domain now a pest-control product brand; historic Bengaluru-only
+Mr Right,Mysuru,Karnataka,NO EVIDENCE FOUND,https://www.mrright.in/,Domain now a pest-control product brand; historic Bengaluru-only
+Mr Right,Hubballi,Karnataka,NO EVIDENCE FOUND,https://www.mrright.in/,Domain now a pest-control product brand; historic Bengaluru-only
+Mr Right,Mangaluru,Karnataka,NO EVIDENCE FOUND,https://www.mrright.in/,Domain now a pest-control product brand; historic Bengaluru-only
+Mr Right,Kochi,Kerala,NO EVIDENCE FOUND,https://www.mrright.in/,Domain now a pest-control product brand; historic Bengaluru-only
+Mr Right,Thrissur,Kerala,NO EVIDENCE FOUND,https://www.mrright.in/,Domain now a pest-control product brand; historic Bengaluru-only
+Mr Right,Indore,Madhya Pradesh,NO EVIDENCE FOUND,https://www.mrright.in/,Domain now a pest-control product brand; historic Bengaluru-only
+Mr Right,Bhopal,Madhya Pradesh,NO EVIDENCE FOUND,https://www.mrright.in/,Domain now a pest-control product brand; historic Bengaluru-only
+Mr Right,Raipur,Chhattisgarh,NO EVIDENCE FOUND,https://www.mrright.in/,Domain now a pest-control product brand; historic Bengaluru-only
+Mr Right,Nagpur,Maharashtra,NO EVIDENCE FOUND,https://www.mrright.in/,Domain now a pest-control product brand; historic Bengaluru-only
+Mr Right,Nashik,Maharashtra,NO EVIDENCE FOUND,https://www.mrright.in/,Domain now a pest-control product brand; historic Bengaluru-only
+Mr Right,Aurangabad,Maharashtra,NO EVIDENCE FOUND,https://www.mrright.in/,Domain now a pest-control product brand; historic Bengaluru-only
+Mr Right,Surat,Gujarat,NO EVIDENCE FOUND,https://www.mrright.in/,Domain now a pest-control product brand; historic Bengaluru-only
+Mr Right,Vadodara,Gujarat,NO EVIDENCE FOUND,https://www.mrright.in/,Domain now a pest-control product brand; historic Bengaluru-only
+Mr Right,Rajkot,Gujarat,NO EVIDENCE FOUND,https://www.mrright.in/,Domain now a pest-control product brand; historic Bengaluru-only
+Mr Right,Lucknow,Uttar Pradesh,NO EVIDENCE FOUND,https://www.mrright.in/,Domain now a pest-control product brand; historic Bengaluru-only
+Mr Right,Kanpur,Uttar Pradesh,NO EVIDENCE FOUND,https://www.mrright.in/,Domain now a pest-control product brand; historic Bengaluru-only
+Mr Right,Patna,Bihar,NO EVIDENCE FOUND,https://www.mrright.in/,Domain now a pest-control product brand; historic Bengaluru-only
+Mr Right,Bhubaneswar,Odisha,NO EVIDENCE FOUND,https://www.mrright.in/,Domain now a pest-control product brand; historic Bengaluru-only
+Mr Right,Guwahati,Assam,NO EVIDENCE FOUND,https://www.mrright.in/,Domain now a pest-control product brand; historic Bengaluru-only
+Mr Right,Jaipur,Rajasthan,NO EVIDENCE FOUND,https://www.mrright.in/,Domain now a pest-control product brand; historic Bengaluru-only
+Mr Right,Ludhiana,Punjab,NO EVIDENCE FOUND,https://www.mrright.in/,Domain now a pest-control product brand; historic Bengaluru-only
+NoBroker,Warangal,Telangana,NO EVIDENCE FOUND,https://www.nobroker.in/ac-repair-services-in-pune,Only metro locality pages seen; Tier 2/3 not checked in sitemap (sitemap returned HTML)
+NoBroker,Karimnagar,Telangana,NO EVIDENCE FOUND,https://www.nobroker.in/ac-repair-services-in-pune,Only metro locality pages seen; Tier 2/3 not checked in sitemap (sitemap returned HTML)
+NoBroker,Vijayawada,Andhra Pradesh,NO EVIDENCE FOUND,https://www.nobroker.in/ac-repair-services-in-pune,Only metro locality pages seen; Tier 2/3 not checked in sitemap (sitemap returned HTML)
+NoBroker,Visakhapatnam,Andhra Pradesh,NO EVIDENCE FOUND,https://www.nobroker.in/ac-repair-services-in-pune,Only metro locality pages seen; Tier 2/3 not checked in sitemap (sitemap returned HTML)
+NoBroker,Guntur,Andhra Pradesh,NO EVIDENCE FOUND,https://www.nobroker.in/ac-repair-services-in-pune,Only metro locality pages seen; Tier 2/3 not checked in sitemap (sitemap returned HTML)
+NoBroker,Nellore,Andhra Pradesh,NO EVIDENCE FOUND,https://www.nobroker.in/ac-repair-services-in-pune,Only metro locality pages seen; Tier 2/3 not checked in sitemap (sitemap returned HTML)
+NoBroker,Coimbatore,Tamil Nadu,NO EVIDENCE FOUND,https://www.nobroker.in/ac-repair-services-in-pune,Only metro locality pages seen; Tier 2/3 not checked in sitemap (sitemap returned HTML)
+NoBroker,Madurai,Tamil Nadu,NO EVIDENCE FOUND,https://www.nobroker.in/ac-repair-services-in-pune,Only metro locality pages seen; Tier 2/3 not checked in sitemap (sitemap returned HTML)
+NoBroker,Tiruchirappalli,Tamil Nadu,NO EVIDENCE FOUND,https://www.nobroker.in/ac-repair-services-in-pune,Only metro locality pages seen; Tier 2/3 not checked in sitemap (sitemap returned HTML)
+NoBroker,Mysuru,Karnataka,NO EVIDENCE FOUND,https://www.nobroker.in/ac-repair-services-in-pune,Only metro locality pages seen; Tier 2/3 not checked in sitemap (sitemap returned HTML)
+NoBroker,Hubballi,Karnataka,NO EVIDENCE FOUND,https://www.nobroker.in/ac-repair-services-in-pune,Only metro locality pages seen; Tier 2/3 not checked in sitemap (sitemap returned HTML)
+NoBroker,Mangaluru,Karnataka,NO EVIDENCE FOUND,https://www.nobroker.in/ac-repair-services-in-pune,Only metro locality pages seen; Tier 2/3 not checked in sitemap (sitemap returned HTML)
+NoBroker,Kochi,Kerala,NO EVIDENCE FOUND,https://www.nobroker.in/ac-repair-services-in-pune,Only metro locality pages seen; Tier 2/3 not checked in sitemap (sitemap returned HTML)
+NoBroker,Thrissur,Kerala,NO EVIDENCE FOUND,https://www.nobroker.in/ac-repair-services-in-pune,Only metro locality pages seen; Tier 2/3 not checked in sitemap (sitemap returned HTML)
+NoBroker,Indore,Madhya Pradesh,NO EVIDENCE FOUND,https://www.nobroker.in/ac-repair-services-in-pune,Only metro locality pages seen; Tier 2/3 not checked in sitemap (sitemap returned HTML)
+NoBroker,Bhopal,Madhya Pradesh,NO EVIDENCE FOUND,https://www.nobroker.in/ac-repair-services-in-pune,Only metro locality pages seen; Tier 2/3 not checked in sitemap (sitemap returned HTML)
+NoBroker,Raipur,Chhattisgarh,NO EVIDENCE FOUND,https://www.nobroker.in/ac-repair-services-in-pune,Only metro locality pages seen; Tier 2/3 not checked in sitemap (sitemap returned HTML)
+NoBroker,Nagpur,Maharashtra,NO EVIDENCE FOUND,https://www.nobroker.in/ac-repair-services-in-pune,Only metro locality pages seen; Tier 2/3 not checked in sitemap (sitemap returned HTML)
+NoBroker,Nashik,Maharashtra,NO EVIDENCE FOUND,https://www.nobroker.in/ac-repair-services-in-pune,Only metro locality pages seen; Tier 2/3 not checked in sitemap (sitemap returned HTML)
+NoBroker,Aurangabad,Maharashtra,NO EVIDENCE FOUND,https://www.nobroker.in/ac-repair-services-in-pune,Only metro locality pages seen; Tier 2/3 not checked in sitemap (sitemap returned HTML)
+NoBroker,Surat,Gujarat,NO EVIDENCE FOUND,https://www.nobroker.in/ac-repair-services-in-pune,Only metro locality pages seen; Tier 2/3 not checked in sitemap (sitemap returned HTML)
+NoBroker,Vadodara,Gujarat,NO EVIDENCE FOUND,https://www.nobroker.in/ac-repair-services-in-pune,Only metro locality pages seen; Tier 2/3 not checked in sitemap (sitemap returned HTML)
+NoBroker,Rajkot,Gujarat,NO EVIDENCE FOUND,https://www.nobroker.in/ac-repair-services-in-pune,Only metro locality pages seen; Tier 2/3 not checked in sitemap (sitemap returned HTML)
+NoBroker,Lucknow,Uttar Pradesh,NO EVIDENCE FOUND,https://www.nobroker.in/ac-repair-services-in-pune,Only metro locality pages seen; Tier 2/3 not checked in sitemap (sitemap returned HTML)
+NoBroker,Kanpur,Uttar Pradesh,NO EVIDENCE FOUND,https://www.nobroker.in/ac-repair-services-in-pune,Only metro locality pages seen; Tier 2/3 not checked in sitemap (sitemap returned HTML)
+NoBroker,Patna,Bihar,NO EVIDENCE FOUND,https://www.nobroker.in/ac-repair-services-in-pune,Only metro locality pages seen; Tier 2/3 not checked in sitemap (sitemap returned HTML)
+NoBroker,Bhubaneswar,Odisha,NO EVIDENCE FOUND,https://www.nobroker.in/ac-repair-services-in-pune,Only metro locality pages seen; Tier 2/3 not checked in sitemap (sitemap returned HTML)
+NoBroker,Guwahati,Assam,NO EVIDENCE FOUND,https://www.nobroker.in/ac-repair-services-in-pune,Only metro locality pages seen; Tier 2/3 not checked in sitemap (sitemap returned HTML)
+NoBroker,Jaipur,Rajasthan,NO EVIDENCE FOUND,https://www.nobroker.in/ac-repair-services-in-pune,Only metro locality pages seen; Tier 2/3 not checked in sitemap (sitemap returned HTML)
+NoBroker,Ludhiana,Punjab,NO EVIDENCE FOUND,https://www.nobroker.in/ac-repair-services-in-pune,Only metro locality pages seen; Tier 2/3 not checked in sitemap (sitemap returned HTML)
+Justdial,Warangal,Telangana,VERIFIED ACTIVE,https://www.justdial.com/Warangal/AC-Repair-Services-in-Hanamkonda/nct-10890481,"Many local AC repair listings with street addresses and ratings (e.g. CHILLTECH, Gopalpur, Hanamkonda, ~240 ratings; Kool Tech AC service Rs 699) via search snippet"
+Justdial,Karimnagar,Telangana,NOT VERIFIED,https://www.justdial.com/,Directory lists local repair shops nationwide (claim); not checked per city - justdial.com blocks automated fetch
+Justdial,Vijayawada,Andhra Pradesh,NOT VERIFIED,https://www.justdial.com/,Directory lists local repair shops nationwide (claim); not checked per city - justdial.com blocks automated fetch
+Justdial,Visakhapatnam,Andhra Pradesh,NOT VERIFIED,https://www.justdial.com/,Directory lists local repair shops nationwide (claim); not checked per city - justdial.com blocks automated fetch
+Justdial,Guntur,Andhra Pradesh,NOT VERIFIED,https://www.justdial.com/,Directory lists local repair shops nationwide (claim); not checked per city - justdial.com blocks automated fetch
+Justdial,Nellore,Andhra Pradesh,NOT VERIFIED,https://www.justdial.com/,Directory lists local repair shops nationwide (claim); not checked per city - justdial.com blocks automated fetch
+Justdial,Coimbatore,Tamil Nadu,NOT VERIFIED,https://www.justdial.com/,Directory lists local repair shops nationwide (claim); not checked per city - justdial.com blocks automated fetch
+Justdial,Madurai,Tamil Nadu,NOT VERIFIED,https://www.justdial.com/,Directory lists local repair shops nationwide (claim); not checked per city - justdial.com blocks automated fetch
+Justdial,Tiruchirappalli,Tamil Nadu,NOT VERIFIED,https://www.justdial.com/,Directory lists local repair shops nationwide (claim); not checked per city - justdial.com blocks automated fetch
+Justdial,Mysuru,Karnataka,NOT VERIFIED,https://www.justdial.com/,Directory lists local repair shops nationwide (claim); not checked per city - justdial.com blocks automated fetch
+Justdial,Hubballi,Karnataka,NOT VERIFIED,https://www.justdial.com/,Directory lists local repair shops nationwide (claim); not checked per city - justdial.com blocks automated fetch
+Justdial,Mangaluru,Karnataka,NOT VERIFIED,https://www.justdial.com/,Directory lists local repair shops nationwide (claim); not checked per city - justdial.com blocks automated fetch
+Justdial,Kochi,Kerala,NOT VERIFIED,https://www.justdial.com/,Directory lists local repair shops nationwide (claim); not checked per city - justdial.com blocks automated fetch
+Justdial,Thrissur,Kerala,NOT VERIFIED,https://www.justdial.com/,Directory lists local repair shops nationwide (claim); not checked per city - justdial.com blocks automated fetch
+Justdial,Indore,Madhya Pradesh,NOT VERIFIED,https://www.justdial.com/,Directory lists local repair shops nationwide (claim); not checked per city - justdial.com blocks automated fetch
+Justdial,Bhopal,Madhya Pradesh,NOT VERIFIED,https://www.justdial.com/,Directory lists local repair shops nationwide (claim); not checked per city - justdial.com blocks automated fetch
+Justdial,Raipur,Chhattisgarh,NOT VERIFIED,https://www.justdial.com/,Directory lists local repair shops nationwide (claim); not checked per city - justdial.com blocks automated fetch
+Justdial,Nagpur,Maharashtra,NOT VERIFIED,https://www.justdial.com/,Directory lists local repair shops nationwide (claim); not checked per city - justdial.com blocks automated fetch
+Justdial,Nashik,Maharashtra,NOT VERIFIED,https://www.justdial.com/,Directory lists local repair shops nationwide (claim); not checked per city - justdial.com blocks automated fetch
+Justdial,Aurangabad,Maharashtra,NOT VERIFIED,https://www.justdial.com/,Directory lists local repair shops nationwide (claim); not checked per city - justdial.com blocks automated fetch
+Justdial,Surat,Gujarat,NOT VERIFIED,https://www.justdial.com/,Directory lists local repair shops nationwide (claim); not checked per city - justdial.com blocks automated fetch
+Justdial,Vadodara,Gujarat,NOT VERIFIED,https://www.justdial.com/,Directory lists local repair shops nationwide (claim); not checked per city - justdial.com blocks automated fetch
+Justdial,Rajkot,Gujarat,NOT VERIFIED,https://www.justdial.com/,Directory lists local repair shops nationwide (claim); not checked per city - justdial.com blocks automated fetch
+Justdial,Lucknow,Uttar Pradesh,NOT VERIFIED,https://www.justdial.com/,Directory lists local repair shops nationwide (claim); not checked per city - justdial.com blocks automated fetch
+Justdial,Kanpur,Uttar Pradesh,NOT VERIFIED,https://www.justdial.com/,Directory lists local repair shops nationwide (claim); not checked per city - justdial.com blocks automated fetch
+Justdial,Patna,Bihar,NOT VERIFIED,https://www.justdial.com/,Directory lists local repair shops nationwide (claim); not checked per city - justdial.com blocks automated fetch
+Justdial,Bhubaneswar,Odisha,NOT VERIFIED,https://www.justdial.com/,Directory lists local repair shops nationwide (claim); not checked per city - justdial.com blocks automated fetch
+Justdial,Guwahati,Assam,NOT VERIFIED,https://www.justdial.com/,Directory lists local repair shops nationwide (claim); not checked per city - justdial.com blocks automated fetch
+Justdial,Jaipur,Rajasthan,NOT VERIFIED,https://www.justdial.com/,Directory lists local repair shops nationwide (claim); not checked per city - justdial.com blocks automated fetch
+Justdial,Ludhiana,Punjab,NOT VERIFIED,https://www.justdial.com/,Directory lists local repair shops nationwide (claim); not checked per city - justdial.com blocks automated fetch
+TechSeva,Warangal,Telangana,NOT VERIFIED,https://tech-seva.onrender.com/,Claims 50+ cities Tier 2/3; no list
+TechSeva,Karimnagar,Telangana,NOT VERIFIED,https://tech-seva.onrender.com/,Claims 50+ cities Tier 2/3; no list
+TechSeva,Vijayawada,Andhra Pradesh,NOT VERIFIED,https://tech-seva.onrender.com/,Claims 50+ cities Tier 2/3; no list
+TechSeva,Visakhapatnam,Andhra Pradesh,NOT VERIFIED,https://tech-seva.onrender.com/,Claims 50+ cities Tier 2/3; no list
+TechSeva,Guntur,Andhra Pradesh,NOT VERIFIED,https://tech-seva.onrender.com/,Claims 50+ cities Tier 2/3; no list
+TechSeva,Nellore,Andhra Pradesh,NOT VERIFIED,https://tech-seva.onrender.com/,Claims 50+ cities Tier 2/3; no list
+TechSeva,Coimbatore,Tamil Nadu,NOT VERIFIED,https://tech-seva.onrender.com/,Claims 50+ cities Tier 2/3; no list
+TechSeva,Madurai,Tamil Nadu,NOT VERIFIED,https://tech-seva.onrender.com/,Claims 50+ cities Tier 2/3; no list
+TechSeva,Tiruchirappalli,Tamil Nadu,NOT VERIFIED,https://tech-seva.onrender.com/,Claims 50+ cities Tier 2/3; no list
+TechSeva,Mysuru,Karnataka,NOT VERIFIED,https://tech-seva.onrender.com/,Claims 50+ cities Tier 2/3; no list
+TechSeva,Hubballi,Karnataka,NOT VERIFIED,https://tech-seva.onrender.com/,Claims 50+ cities Tier 2/3; no list
+TechSeva,Mangaluru,Karnataka,NOT VERIFIED,https://tech-seva.onrender.com/,Claims 50+ cities Tier 2/3; no list
+TechSeva,Kochi,Kerala,NOT VERIFIED,https://tech-seva.onrender.com/,Claims 50+ cities Tier 2/3; no list
+TechSeva,Thrissur,Kerala,NOT VERIFIED,https://tech-seva.onrender.com/,Claims 50+ cities Tier 2/3; no list
+TechSeva,Indore,Madhya Pradesh,NOT VERIFIED,https://tech-seva.onrender.com/,Claims 50+ cities Tier 2/3; no list
+TechSeva,Bhopal,Madhya Pradesh,NOT VERIFIED,https://tech-seva.onrender.com/,Claims 50+ cities Tier 2/3; no list
+TechSeva,Raipur,Chhattisgarh,NOT VERIFIED,https://tech-seva.onrender.com/,Claims 50+ cities Tier 2/3; no list
+TechSeva,Nagpur,Maharashtra,NOT VERIFIED,https://tech-seva.onrender.com/,Claims 50+ cities Tier 2/3; no list
+TechSeva,Nashik,Maharashtra,NOT VERIFIED,https://tech-seva.onrender.com/,Claims 50+ cities Tier 2/3; no list
+TechSeva,Aurangabad,Maharashtra,NOT VERIFIED,https://tech-seva.onrender.com/,Claims 50+ cities Tier 2/3; no list
+TechSeva,Surat,Gujarat,NOT VERIFIED,https://tech-seva.onrender.com/,Claims 50+ cities Tier 2/3; no list
+TechSeva,Vadodara,Gujarat,NOT VERIFIED,https://tech-seva.onrender.com/,Claims 50+ cities Tier 2/3; no list
+TechSeva,Rajkot,Gujarat,NOT VERIFIED,https://tech-seva.onrender.com/,Claims 50+ cities Tier 2/3; no list
+TechSeva,Lucknow,Uttar Pradesh,NOT VERIFIED,https://tech-seva.onrender.com/,Claims 50+ cities Tier 2/3; no list
+TechSeva,Kanpur,Uttar Pradesh,NOT VERIFIED,https://tech-seva.onrender.com/,Claims 50+ cities Tier 2/3; no list
+TechSeva,Patna,Bihar,NOT VERIFIED,https://tech-seva.onrender.com/,Claims 50+ cities Tier 2/3; no list
+TechSeva,Bhubaneswar,Odisha,NOT VERIFIED,https://tech-seva.onrender.com/,Claims 50+ cities Tier 2/3; no list
+TechSeva,Guwahati,Assam,NOT VERIFIED,https://tech-seva.onrender.com/,Claims 50+ cities Tier 2/3; no list
+TechSeva,Jaipur,Rajasthan,NOT VERIFIED,https://tech-seva.onrender.com/,Claims 50+ cities Tier 2/3; no list
+TechSeva,Ludhiana,Punjab,NOT VERIFIED,https://tech-seva.onrender.com/,Claims 50+ cities Tier 2/3; no list

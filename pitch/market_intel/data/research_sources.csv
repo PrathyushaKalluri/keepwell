@@ -1,0 +1,217 @@
+module,source,url,publication_date,retrieval_date,coverage,definition,confidence
+geo,"Census of India 2011, Table A-4 (I): Towns and UAs classified by population size class, Class I (100,000+), with variation 1901-2011",https://censusindia.gov.in/nada/index.php/catalog/42876,Census 2011 (reference date 1 Mar 2011); file release date UNKNOWN (file cites a DCO letter dated 01.12.2016),2026-11-18,All India; 468 units (298 UAs + 170 towns) and their constituents,Census 2011 final population; UA = continuous urban spread of a town and its adjoining outgrowths/towns; units are non-overlapping at top level,High
+geo,"Census of India 2011, Table A-4 (II): Class II (50,000-99,999)",https://censusindia.gov.in/nada/index.php/catalog/42877,Census 2011; file release date UNKNOWN,2026-11-18,All India; 474 units (100 UAs + 374 towns),As above,High
+geo,"Census of India 2011, Table A-1: Number of villages, towns, households, population and area (India, states/UTs, districts, sub-districts)",https://censusindia.gov.in/nada/index.php/catalog/42526,Census 2011; file release date UNKNOWN,2026-11-18,"All states/UTs and districts, Total/Rural/Urban",Urban population and number of households (A-1 household count; not cross-checked against HH-series normal households),High
+geo,"Report of the Technical Group on Population Projections 2011-2036 (National Commission on Population, MoHFW), Table 9: projected urban population as on 1 March",https://nhm.gov.in/New_Updates_2018/Report_Population_Projection_2019.pdf,Report dated November 2019 (cover); released July 2020,2026-11-18,India + 36 states/UTs incl. Telangana and Ladakh as separate units; annual 2011-2036,PROJECTION (URGD method); thousands; Daman & Diu and Dadra & Nagar Haveli projected separately,Medium (projection)
+geo,"Census of India 2011 Provisional Population Totals Paper 2 Vol 2, Tables 2 and 3 (cities and UAs 1 lakh+), via Internet Archive",https://web.archive.org/web/2016/https://censusindia.gov.in/2011-prov-results/paper2/data_files/India2/Table_3_PR_UA_Citiees_1Lakh_and_Above.pdf,2011 (provisional),2026-11-18,Cities/UAs 1 lakh+,"PROVISIONAL figures; consulted for cross-check only, not used in outputs",Medium (superseded by final A-4)
+geo,"Ministry of Finance, Dept of Expenditure OM No.2/5/2017-E.II(B) dated 07.07.2017 with Annexure (X/Y/Z city list from OM 2/5/2014-E.II(B) of 21.07.2015); copy circulated by Govt of Puducherry Finance Dept",https://finance.py.gov.in/sites/default/files/hra23aug18.pdf,2017-07-07 (OM); copy circulated 2018-08-23,2026-11-18,"All states/UTs; X and Y lists, rest Z","7th CPC HRA classification of cities (X = 50 lakh+ UA, Y = 5-50 lakh, Z = rest); later reclassifications (if any) not checked",High for list as of 2017; UNKNOWN whether revised since
+geo,"DataMeet India maps, States/Admin2 shapefile (post-2019: Telangana, Ladakh, J&K, merged DNH&DD)",https://github.com/datameet/maps/tree/master/States,"Last geometry commit 2021-10-25 (commit 2c0c306, ""Merged the two Ladhak features""); J&K/Ladakh updated 2021-08-24 per SOI map",2026-11-18,36 states/UTs,Licence CC BY 4.0 (repo README). Simplified here: Douglas-Peucker 0.001 deg per ring + 3-decimal rounding; not topology-preserving,"Medium-High (community dataset; boundaries indicative, not official)"
+geo,"Wikipedia, List of cities in India by population (coordinates column)",https://en.wikipedia.org/wiki/List_of_cities_in_India_by_population,"Revision 1385294039, 2026-11-12",2026-11-18,~340 cities (city proper) with coordinates,"Coordinates only (population taken from Census A-4, not Wikipedia); 274/299 matched rows have identical Census 2011 pop",Medium
+geo,Wikidata (P625 coordinate location) via query.wikidata.org SPARQL,https://query.wikidata.org/,"Live database, queried 2026-11-18",2026-11-18,Towns not in the Wikipedia list,"Coordinates matched by name, accepted only if inside the state polygon; closest-population candidate chosen",Medium
+geo,OpenStreetMap Nominatim geocoder (featureType=settlement),https://nominatim.openstreetmap.org/,"Live service, queried 2026-11-18",2026-11-18,Remaining towns,Coordinates accepted only if inside the state polygon; data ODbL (c) OpenStreetMap contributors,Medium-Low
+demand,Urban Company Shareholders' Letter Q2 FY27 (NSE filing),https://nsearchives.nseindia.com/corporate/URBANCO_16102026160706_Urban_Company_Shareholders_Letter_Q2_FY27.pdf,2026-10-16,2026-11-18,Urban Company India Consumer Services; FY25-H1 FY27,"Partner earnings index (gross, UC fee %, travel, product costs, net, hours); segment NTV, revenue, support & refunds, marketing; orders, monthly active partners",High (listed-company disclosure)
+demand,Urban Company Service Partners Earnings Index 9M FY26,https://investorrelations.urbancompany.com/announcements-and-highlights/service-partners-earnings-index-9m-fy26,2026-01,2026-11-18,UC active partners ex InstaHelp,"Avg net monthly in-hand Rs 28,322; 91 hrs/month",High
+demand,Inc42 - Inside Urban Company's marketplace model,https://inc42.com/features/inside-urban-companys-marketplace-model-what-it-keeps-from-every-booking/,2026-08,2026-11-18,UC Q1 FY27,Commissions/fees 28.3% of partners' gross (9M FY26); cost lines,Medium (secondary; internal inconsistencies)
+demand,S&P Global Market Intelligence - Urban Company take rate forecast,https://www.spglobal.com/market-intelligence/en/news-insights/research/2026/04/urban-company-revenue-to-triple-by-2030-as-take-rates-and-platform-monetization-rise,2026-04,2026-11-18,UC core India,Take rate 30.6% (2023) to ~36% (2026E),Medium (via team notes; not re-fetched)
+demand,Urban Company AC service charges page (Delhi NCR),https://www.urbancompany.com/charges/ac-service-charges-and-ac-installation-charges,undated (c) 2014-26,2026-11-18,Delhi NCR list prices,"AC service 449-949; gas charging 3,000; PCB 1,500/4,500; capacitor + 349 labour; compressor",High for list price; city variation
+demand,Urban Company Coimbatore city page,https://www.urbancompany.com/coimbatore,undated (stats as of 31 Dec 2024),2026-11-18,Coimbatore (Tier 2) starting prices,AC repair from 299; WM/fridge check-up 199; RO service from 299,Medium (starting prices)
+demand,LocalCircles - AC servicing survey 2026,https://m-www.localcircles.com/a/press/page/air-conditioner-servicing-survey-2026,2026-04-16,2026-11-18,"27,000+ responses, 289 districts; 44% T1, 27% T2, 29% T3/4","How AC was/will be serviced: brand AMC/ad hoc, dealer, local, organised 3rd party; reasons",Medium-High (large online panel; self-selected)
+demand,ThePrint - LocalCircles 2022 AC brand-service survey,https://theprint.in/india/76-indians-dont-get-acs-fixed-by-manufacturers-due-to-high-costs-bad-service-survey-shows/997052,2022-06-15,2026-11-18,"22,000 respondents",76% don't use manufacturer service; 2/3 say brand charges 50%+ more than local,Medium
+demand,iFOREST AC refrigerant study via Tribune India,https://www.tribuneindia.com/news/delhi/78-of-ac-complaints-in-delhi-linked-to-unnecessary-refilling-study,2025-09-17,2026-11-18,"3,100 HH, 7 cities","~40% of HH refill annually; Rs 7,000 Cr national refill spend 2024; ACs per HH (Delhi)","Medium-High (primary survey, metro-skewed)"
+demand,iFOREST study via Outlook Business (Chennai),https://www.outlookbusiness.com/news/chennai-high-ac-usage-emissions-maintenance,2025-09,2026-11-18,Same survey,"87% one AC / 13% 2+; national refill avg 41%; Chennai refill Rs 2,300",Medium
+demand,ICRA RAC industry outlook via Tribune/ICRA,https://www.tribuneindia.com/news/business/ac-sales-take-hit-as-extended-rains-dampen-demand-volumes-may-dip-10-15-in-fy26-icra,2025-09,2026-11-18,India room AC industry,FY25 volumes 12.5-13.0 mn; FY26E 11.0-11.5 mn,High (rating agency)
+demand,IndiaSpend - CEEW AC stock,https://indiaspend.com/pollution/indians-will-buy-300-mn-acs-in-20-years-and-theyre-choosing-brands-features-over-energy-efficiency-746363,2025,2026-11-18,India RAC stock,~66 mn RAC stock 2022-23; ~14 mn sold 2024 (CEEW op-ed),Medium
+demand,CEEW - Perceptions of RAC service technicians on ICAP (Dixit et al. 2023),https://www.ceew.in/sites/default/files/perceptions-of-refrigeration-and-ac-servicing-sector-on-india-cooling-action-plan.pdf,2023,2026-11-18,"369 RAC technicians, 9 cities",AC units handled annually (bins <200 to >800); 4-6 active months; 15% OEM-linked,Medium-High (survey; network sampling)
+demand,Ken Research - India washing machine market,https://www.kenresearch.com/industry-reports/india-washing-machine-market.md,2025,2026-11-18,India WM,FY24 domestic sales 9.6 mn; mfg 8.9 mn; 2025E 10.31 mn; cites HCES 2023-24 urban WM 40.4%,Low-Medium (market research)
+demand,Scotts International - India refrigerator market,"https://www.scotts-international.com/india-refrigerator-market-report-and-forecast-2025-2034,t2122518/4/3/30",2025,2026-11-18,India refrigerators,13.804 mn units sold (year unstated),Low
+demand,dataforindia - Household assets (HCES 2023-24),https://www.dataforindia.com/households-assets,2025,2026-11-18,India national,"~335 mn HH (2024); HCES avg HH size 4.17; fridge ~half, WM ~1 in 5 (~60 mn HH), AC/cooler ~3 in 10",Medium (secondary analysis of official data)
+demand,World Bank urban population via TradingEconomics,https://tradingeconomics.com/india/urban-population-wb-data.html,2025,2026-11-18,India,Urban population 2024 534.9 mn,High
+demand,IES Arthapedia - Cities and towns (Census 2011),https://ies.gov.in/arthapedia/concept/cities-and-towns,n/a,2026-11-18,Census 2011,Class I towns ~70% of urban pop; 53 million-plus UAs 42.6%,High
+demand,SquareTrade/Allstate Protection Plans - Major Appliance Blues,https://newsroom.squaretrade.com/press-release/major-appliance-blues-american-homeowners-have-spent-681-billion-repairing-or,2022-03-01,2026-11-18,"US, ~2,064 homeowners","95% had appliance stop working; >40% of those in past year; 18%/33%/52% of malfunctions within 1/2/5 yrs; washers 29%, fridges 27%",Medium (US; proxy only)
+demand,J.D. Power 2025 US Appliance Reliability & Service Study,https://www.jdpower.com/business/press-releases/2025-us-appliance-reliability-service-study,2025-09-25,2026-11-18,US appliances bought 1-3 yrs ago,Problems per 100 (front-load washer 89 PP100 highest),"Medium (US; page 403, via search summary)"
+demand,NAHB life expectancy of home components (secondary summaries),https://www.floridarealtors.org/sites/default/files/basic-page/attachments/2019-03/howlongwillyourhouselast.pdf,2007 (study),2026-11-18,US,Refrigerator ~13 yrs; room AC ~10; washer 10-13,"Low-Medium (US, dated)"
+demand,Business Standard - Selling to the seasoned customer (archival),https://www.business-standard.com/article/markets/selling-to-the-seasoned-customer-198041401118_1.html,1998,2026-11-18,India,Fridge life ~15 yrs falling to 10; replacement ~50% of fridge sales,Low (archival)
+demand,LG India - AC AMC/warranty article,https://www.lg.com/in/magazine/essential-and-easy-tips-to-keep-your-lg-ac-running-like-new-amc-plug-in,2025-26,2026-11-18,LG ACs,10-yr compressor; 5-yr PCB & motor,Medium (marketing page)
+demand,Samsung India AC warranty T&C,https://images.samsung.com/is/content/samsung/assets/in/tnc/ac_warranty_terms_and_conditions.pdf,n/a,2026-11-18,Samsung ACs,"Labour/transport on PCB, evaporator, condenser, motor replacement chargeable",High
+demand,Samsung India extended warranty / home appliance warranty page,https://www.samsung.com/in/microsite/extended-warranty/home-appliances/,2026,2026-11-18,"Samsung fridges, WMs",12-month standard; DI compressor/motor 120 months part-only (from 1 Apr 2026),High
+demand,Bosch India warranty terms,https://www.bosch-home.in/experience-bosch/warranty-terms-and-conditions,n/a,2026-11-18,Bosch,Fridge 1 yr + 9 yr compressor; top-load WM 2 yr + 8 yr motor,High
+demand,Electrolux India warranty terms,https://www.electrolux.in/support/general-warranty-terms-and-conditions,n/a,2026-11-18,Electrolux,Top-load WM 2 yr + 3 yr motor,High
+demand,Bajaj Finserv - best 10-year warranty ACs,https://www.bajajfinserv.in/best-10-year-warranty-ac-in-india,2026-04-29,2026-11-18,Indian AC brands,10-yr compressor on select inverter splits; window ACs 1 yr comprehensive + up to 5 yr compressor,Medium
+demand,Urban Company IR - Native M3 Pro launch,https://investorrelations.urbancompany.com/announcements-and-highlights/urban-company-launches-native-m3-pro-with-3-year-unconditional-warranty-and-long-life-filtration,2026,2026-11-18,UC Native RO,3-year unconditional warranty,High
+demand,RO Care India - water purifier AMC charges,https://www.rocareindia.com/blog/10/water-purifier-amc-charges-india-2025,2025,2026-11-18,RO brands incl. Kent,"AMC, visit, filter and membrane price ranges",Low (third-party vendor)
+demand,Jooble - AC technician salary India,https://in.jooble.org/salary/ac-technician,2026-07,2026-11-18,India job ads,"Avg Rs 26,294/month",Low-Medium
+demand,Razorpay pricing,https://razorpay.com/pricing/,2026,2026-11-18,Razorpay standard,2% + GST cards/UPI platform fee/netbanking; intl up to 3%,High
+demand,Business Today - RBI backs UPI MDR on large-value P2M,https://www.businesstoday.in/latest/economy/story/important-step-rbi-backs-new-upi-charges-says-all-transactions-remain-free-for-users-555744-2026-09-15,2026-09-15,2026-11-18,UPI,"MDR on P2M > Rs 2,000 for larger merchants from 15 Oct 2026; small merchants (<Rs 1 lakh/mo) zero MDR; rate 0.3-0.4% (sources differ)",Medium (framework pending)
+demand,Checkbook - extended warranties,https://www.checkbook.org/redirect/categoryID/1080,n/a,2026-11-18,US retail,Stores keep 50-70% of warranty price,Low-Medium (US consumer org)
+demand,Wikipedia - Extended warranty,https://en.wikipedia.org/wiki/Extended_warranty,2026,2026-11-18,US retail,EW 20-30% of item price; associates up to 15% commission,Low
+demand,Medici Global - UrbanClap profile,https://mediciglobal.substack.com/p/startup-profile-urbanclap,undated,2026-11-18,UrbanClap early years,Claimed CAC Rs 400-500,Low (historical)
+demand,BlueWeave - India home appliance repair service market,https://blueweaveconsulting.com/report/india-home-appliance-repair-service-market,2024,2026-11-18,India,"USD 980.67 mn (2023), 8.18% CAGR to USD 1.49 bn (2030)",Low (single firm; scope unverified)
+demand,Credence Research - India AC servicing market,https://www.credenceresearch.com/report/india-ac-servicing-market,2025,2026-11-18,India,USD 654.6 mn (2025) to USD 1.70 bn (2035),Low
+demand,Redseer via Urban Company DRHP coverage,https://redseer.com/casestudies/how-redseer-helped-indias-leading-online-home-services-and-solutions-brand-urban-company-file-its-drhp/,2025,2026-11-18,India home services,Rs 5.1-5.2 trn FY25; online <1% of NTV; 10-11% CAGR,Medium (category split not public)
+demand,IndiaInfoline - Urban Company,https://www.indiainfoline.com/blog/urban-company-india-s-leading-online-home-services-player,2025,2026-11-18,UC SAM,Appliance repair ~2% of UC SAM,Low
+demand,Team primary research (survey n=19; interviews; mentor transcript),ken-case-competition-2026/evidence/ (see team_evidence_extract.md),2026-09,2026-11-18,"Hyderabad, Vizag, Bengaluru etc. (Tier 1/2; no Tier 3)","Channel, service frequency, quoted prices, agency anecdotes","Low (team primary, small sample)"
+demand,"NFHS-5 (2019-21) India Report, IIPS/MoHFW (DHS FR375)",https://dhsprogram.com/pubs/pdf/FR375/FR375.pdf,2022-03,2026-11-18,"India national, urban/rural; fieldwork 2019-21","Table 2.11: % of households possessing refrigerator, washing machine, air conditioner/cooler (AC+cooler combined); Table 2.1: % households using electronic purifier to treat drinking water (proxy for purifier ownership)","High (official, nationally representative)"
+demand,"NFHS-5 (2019-21) State Reports, IIPS/MoHFW (DHS FR374_<State>.pdf)",https://dhsprogram.com/publications/publication-FR374-DHS-Final-Reports.cfm,2021-2022,2026-11-18,"22 states/UTs downloaded: AP, Assam, Bihar, Chhattisgarh, Delhi, Goa, Gujarat, Haryana, HP, Jharkhand, Karnataka (2019-20), Kerala, MP, Maharashtra, Odisha, Punjab, Rajasthan, TN, Telangana, Uttarakhand, UP, WB; urban/rural",Table 7 Household possessions (AC+cooler combined); Table 4 water treatment 'use electronic purifier' (missing for UP: table text not extractable),High (official; state samples representative); data now 5+ years old
+demand,"CLASP & BEE, Residential Energy Consumption Patterns and Appliance Ownership in India: Insights from a 2024 Household Survey",https://www.clasp.ngo/wp-content/uploads/2026/05/Report_Residential_Energy_Consumption_Survey_India.pdf,2026-05,2026-11-18,"India aggregate, urban/rural; n=4,321 households, 20 states; survey 2024; no state-level ownership tables","Household penetration of AC and air cooler (separate), refrigerator, washing machine; purifier asked in questionnaire but no ownership figure reported","Medium (recent but small, not nationally representative; overall figures skew urban)"
+demand,"Down To Earth, Cooling appliances now drive India's household electricity use (secondary report of CLASP/BEE survey)",https://www.downtoearth.org.in/energy/cooling-appliances-now-drive-indias-household-electricity-use,2026-05-12,2026-11-18,India aggregate urban/rural,"Same figures as CLASP/BEE report (AC 17/4, overall 13.3; fridge 76/36; washing machine 29/6); cited in notes only",Medium (secondary)
+demand,"Livpure MD & CEO Rakesh Kaul interview, Digit",https://www.digit.in/features/home-appliances/livpure-rakesh-kaul-interaction.html/amp/,2026-06-19,2026-11-18,India national/urban/rural,"Electric water purifier penetration ~7% national, urban 12-15%, rural 3-4%","Low-Medium (industry executive statement, no method)"
+demand,"Livpure MD quote, MySmartPrice",https://www.mysmartprice.com/gear/appliances/appliances-features/livpure-bets-on-subscriptions-and-maintenance-free-water-purifiers-to-fix-indias-cost-of-ownership-problem/,2026,2026-11-18,India national/urban/rural,"Electric purifier penetration ~6% national, ~12% urban, ~3% rural","Low-Medium (industry executive statement; page returned 403 to direct fetch, figures from search snippet)"
+demand,"MoSPI HCES 2023-24 Final Report (checked, not used)",https://mospi.gov.in/sites/default/files/publication_reports/Final_Report_HCES_2023-24L.pdf,2025,2026-11-18,No published state/national possession tables; possession items (incl. 'Air conditioner/air cooler' combined) are only in unit-level microdata,n/a,Not used
+retail,Bajaj Electronics,https://www.bajajelectronics.com/stores,,2026-11-18,,,
+retail,Bajaj Electronics,https://nsearchives.nseindia.com/corporate/EMIL_17082023183331_Transcript30062023.pdf,,2026-11-18,,,
+retail,Bajaj Electronics,https://quartr.com/events/electronics-mart-india-limited-emil-q4-25-26_FR4dhJtA,,2026-11-18,,,
+retail,Bajaj Electronics,https://scanx.trade/stock-market-news/companies/electronics-mart-india-fy26-results-revenue-up-6-7-7-183-crore/51875139,,2026-11-18,,,
+retail,Aditya Vision,https://nsearchives.nseindia.com/corporate/ADITYAVISION_10082026194121_AnnualReportFinalUPLOAD2026.pdf,,2026-11-18,,,
+retail,Aditya Vision,https://adityavision.in/company/aditya-seva-aditya-suraksha.html,,2026-11-18,,,
+retail,Aditya Vision,https://adityavision.in/company/overview.html,,2026-11-18,,,
+retail,Sathya,https://www.sebi.gov.in/sebi_data/commondocs/apr-2026/Sathya%20Agencies%20Limited-Abridged%20Prospectus_p.pdf,,2026-11-18,,,
+retail,Sathya,https://www.franchiseindia.com/insights/en/news/sathya-agencies-acquires-unilet-appliances-adds-54-stores-in-karnataka.59972,,2026-11-18,,,
+retail,Sathya,https://www.ipoguru.in/ipo/sathya-agencies-ipo,,2026-11-18,,,
+retail,Unilet,https://www.sebi.gov.in/sebi_data/commondocs/apr-2026/Sathya%20Agencies%20Limited-Abridged%20Prospectus_p.pdf,,2026-11-18,,,
+retail,Girias,https://www.giriasindia.com,,2026-11-18,,,
+retail,Girias,https://www.giriasindia.com/stores,,2026-11-18,,,
+retail,Darling Retail,https://darlingretail.com/pages/store-location,,2026-11-18,,,
+retail,Darling Retail,https://darlingretail.com,,2026-11-18,,,
+retail,Vasanth & Co,https://vasanthandco.in/branches,,2026-11-18,,,
+retail,Value Plus,https://www.valueplusretail.com/pages/llms-full-txt,,2026-11-18,,,
+retail,Value Plus,https://www.valueplusretail.com/pages/store-locator,,2026-11-18,,,
+retail,Vijay Sales,https://www.vijaysales.com/vswarranty,,2026-11-18,,,
+retail,Vijay Sales,https://www.vijaysales.com/store-locator,,2026-11-18,,,
+retail,Pittappillil Agencies,https://www.pittappillilonline.com,,2026-11-18,,,
+retail,Pittappillil Agencies,https://www.pittappillilonline.com/store-locator,,2026-11-18,,,
+retail,Great Eastern Retail,https://www.greateasternretail.com/store-locator,,2026-11-18,,,
+retail,Great Eastern Retail,https://www.indianretailer.com/news/hisense-partners-great-eastern-retail-add-90-stores-across-seven-states,,2026-11-18,,,
+retail,Nandilath G-Mart,https://nandilathgmart.com/our-stores/,,2026-11-18,,,
+retail,Nandilath G-Mart,https://bwretailworld.com/companies/hisense-india-deepens-kerala-presence-with-nandilath-group-partnership,,2026-11-18,,,
+retail,Oxygen The Digital Expert,https://www.oxygendigitalshop.com/pages/warranty-policy,,2026-11-18,,,
+retail,Oxygen The Digital Expert,https://www.oxygendigitalshop.com/pages/store-locator,,2026-11-18,,,
+retail,Lotus Electronics,https://www.lotuselectronics.com/stores,,2026-11-18,,,
+retail,Lotus Electronics,https://www.lotuselectronics.com/contact-us/indore,,2026-11-18,,,
+retail,Sales India,https://salesindia.com/stores,,2026-11-18,,,
+retail,Viveks,https://viveks.com/page/about-us,,2026-11-18,,,
+retail,Viveks,https://media.viveks.com/extended-warranty,,2026-11-18,,,
+retail,Kohinoor Electronics,https://www.kohinoorelectronics.com/store-locator,,2026-11-18,,,
+retail,Pai International,https://www.deccanherald.com/business/pai-international-opens-showroom-bengaluru-2016835,,2026-11-18,,,
+retail,Croma,https://croma.com/zipcare-protect-advanced-2-years-for-croma-television-/p/280980,,2026-11-18,,,
+retail,Croma,https://www.pressreader.com/india/my-mobile/20190815/281573767322543,,2026-11-18,,,
+retail,Reliance Digital,https://www.ril.com/ar2025-26/retail.html,,2026-11-18,,,
+retail,Reliance Digital,https://relianceretail.com/our-business.html,,2026-11-18,,,
+retail,Reliance Digital,https://www.retail-insight-network.com/news/reliance-industries-limited-q1-fy26/,,2026-11-18,,,
+retail,Ezone,https://www.pressreader.com/india/my-mobile/20190815/281573767322543,,2026-11-18,,,
+retail,Adishwar Auto Ride,https://www.adishwar.com (no content),,2026-11-18,,,
+competitors,Jeeves (Jeeves Consumer Services / F1 Info Solutions & Services),https://smestreet.in/technology/flipkarts-jeeves-and-apnacomplex-team-up-for-fhs-home-repair-services-2034888,,2026-11-18,,,
+competitors,Jeeves (Jeeves Consumer Services / F1 Info Solutions & Services),https://inc42.com/buzz/flipkart-enters-at-home-services-segment-to-take-on-urban-company/,,2026-11-18,,,
+competitors,Jeeves (Jeeves Consumer Services / F1 Info Solutions & Services),https://english.madhyamam.com/business/flipkart-enters-market-for-home-product-services-and-repairs-1110087,,2026-11-18,,,
+competitors,Jeeves (Jeeves Consumer Services / F1 Info Solutions & Services),https://www.flipkart.com/ac-cleaning-service-store,,2026-11-18,,,
+competitors,Jeeves (Jeeves Consumer Services / F1 Info Solutions & Services),https://www.flipkart.com/pages/screen-damage-protection-tnc,,2026-11-18,,,
+competitors,Jeeves (Jeeves Consumer Services / F1 Info Solutions & Services),https://channeldrive.in/applications/flipkart-acquires-mobiles-products-service-chain-f1-info-solutions/,,2026-11-18,,,
+competitors,Jeeves (Jeeves Consumer Services / F1 Info Solutions & Services),https://yourstory.com/2025/09/flipkart-loss-widens-revenue-up-fy25,,2026-11-18,,,
+competitors,Jeeves (Jeeves Consumer Services / F1 Info Solutions & Services),https://jeeves.co.in/sitemap.xml,,2026-11-18,,,
+competitors,Reliance resQ,https://apps.apple.com/in/app/id1539872459,,2026-11-18,,,
+competitors,Reliance resQ,https://www.reliancedigital.in/product/4-year-resq-care-plan-rcp-extended-warranty-air-conditioner-from-rs-10000-to-rs-20000-9500606,,2026-11-18,,,
+competitors,Reliance resQ,https://www.reliancedigital.in/product/1-year-resq-care-plan-rcp-extended-warranty-water-purifier-without-filter-from-rs-5000-to-rs-10000-10182795,,2026-11-18,,,
+competitors,Reliance resQ,https://www.reliancedigital.in/page/resq-care-plan-tc,,2026-11-18,,,
+competitors,Onsitego,https://onsitego.com/,,2026-11-18,,,
+competitors,Onsitego,https://onsitego.com/sitemap.xml,,2026-11-18,,,
+competitors,Onsitego,https://onsitego.com/salespro-app-for-retailers,,2026-11-18,,,
+competitors,Onsitego,https://telecomlive.in/web/?p=815993,,2026-11-18,,,
+competitors,Onsitego,https://www.valueplusretail.com/pages/extended-warranty,,2026-11-18,,,
+competitors,Onsitego,https://www.vijaysales.com/p/136594/2-year-vs-plus-extended-warranty-for-washing-machine-from-rs-0-to-rs-10000,,2026-11-18,,,
+competitors,Onsitego,https://startuptalky.com/onsitego-success-story/,,2026-11-18,,,
+competitors,Onsitego,https://www.pressreader.com/india/my-mobile/20190815/281573767322543,,2026-11-18,,,
+competitors,Onsitego,https://www.infyner.com/company/onsitego/U74900MH2010PTC422221,,2026-11-18,,,
+competitors,Qdigi Services Ltd,https://yourstory.com/2024/02/accel-backed-onsitego-acquires-quess-corps-qdigi-services-for-rs-80-crore,,2026-11-18,,,
+competitors,Qdigi Services Ltd,https://app.mergerlinks.com/transactions/2024-02-07-qdigi-services,,2026-11-18,,,
+competitors,Qdigi Services Ltd,https://www.latestlaws.com/amp/latest-news/cyril-amarchand-mangaldas-advises-quess-corp-limited-on-its-sale-of-100-shares-of-qdigi-services-limited-213206,,2026-11-18,,,
+competitors,Qdigi Services Ltd,https://qdigi.in/,,2026-11-18,,,
+competitors,Servify,https://servify.com/in/,,2026-11-18,,,
+competitors,Servify,https://www.pulse.bot/small-cap-stocks/news/us-emerges-as-servifys-largest-market-in-fy25-with-rs-400-cr-revenue-0f091502-40db-475e-b46e-0421dec4de8e,,2026-11-18,,,
+competitors,Servify,https://entrackr.com/2024/10/servify-posts-rs-755-cr-revenue-in-fy24-cuts-losses-by-59,,2026-11-18,,,
+competitors,Servify,https://lapaasvoice.com/servify-cuts-losses-to-%E2%82%B951-crore-in-fy26-as-us-contributes-60-of-business/,,2026-11-18,,,
+competitors,247around,https://247around.com/about-us/,,2026-11-18,,,
+competitors,247around,https://247around.com/wp-sitemap-posts-page-1.xml,,2026-11-18,,,
+competitors,247around,https://www.businesswireindia.com/servify-acquires-247around-an-at-home-service-platform-specialising-in-connecting-consumers-with-oems-service-network-77389.html,,2026-11-18,,,
+competitors,Bigfix (Bigfix Gadget Care LLP; B2B arm 'Warrantify'),http://www.bigfix.in/about/,,2026-11-18,,,
+competitors,Bigfix (Bigfix Gadget Care LLP; B2B arm 'Warrantify'),https://www.bigfix.in/sitemap.xml,,2026-11-18,,,
+competitors,"SERVIZ (India, serviz.in)",https://serviz.in/,,2026-11-18,,,
+competitors,"SERVIZ (India, serviz.in)",https://www.cbinsights.com/company/serviz/alternatives-competitors,,2026-11-18,,,
+competitors,"SERVIZ (India, serviz.in)",https://dealroom.co/companies/serviz/,,2026-11-18,,,
+competitors,"SERVIZ (India, serviz.in)",https://serviz.com/sitemap.xml,,2026-11-18,,,
+competitors,Servsy (Servsy Networks Pvt Ltd),https://servsy.in/service-areas,,2026-11-18,,,
+competitors,Servsy (Servsy Networks Pvt Ltd),https://servsy.in/pricing,,2026-11-18,,,
+competitors,Servsy (Servsy Networks Pvt Ltd),https://servsy.in/about,,2026-11-18,,,
+competitors,Servsy (Servsy Networks Pvt Ltd),https://servsy.in/sitemap-pages.xml,,2026-11-18,,,
+competitors,Urban Company,https://prod-mssip.morganstanley.com/content/dam/msdotcom/en/indiaofferdocuments/pdfs/Urban_Company_Limited_Abridged_Prospectus.pdf,,2026-11-18,,,
+competitors,Urban Company,https://nsearchives.nseindia.com/corporate/URBANCO_23012026153501_UC_Shareholders_Letter_23012026.pdf,,2026-11-18,,,
+competitors,Urban Company,https://www.urbancompany.com/sitemap/sitemap.xml,,2026-11-18,,,
+competitors,Urban Company,https://www.urbancompany.com/jaipur-ac-service-repair,,2026-11-18,,,
+competitors,Urban Company,https://inc42.com/features/inside-urban-companys-marketplace-model-what-it-keeps-from-every-booking/,,2026-11-18,,,
+competitors,Urban Company,https://recipe.finology.in/discover/premium-stock-research/urban-company-fundamental-analysis,,2026-11-18,,,
+competitors,Urban Company,https://entrackr.com/fintrackr/urban-company-posts-rs-846-cr-revenue-in-9m-fy25-locks-and-ro-biz-grows-7x-9013901,,2026-11-18,,,
+competitors,Urban Company,https://startupbydoc.com/urban-company-swings-to-profit-in-fy25-with-%E2%82%B91144-cr-revenue-ipo-on-the-horizon/,,2026-11-18,,,
+competitors,OneAssist,https://www.oneassist.in/,,2026-11-18,,,
+competitors,OneAssist,https://www.oneassist.in/sitemap.xml,,2026-11-18,,,
+competitors,OneAssist,https://oneassist.in/ac-service-in-lucknow/,,2026-11-18,,,
+competitors,OneAssist,https://entrackr.com/fintrackr/oneassist-posts-over-rs-620-cr-revenue-in-fy25-with-rs-26-cr-ebitda-10067658,,2026-11-18,,,
+competitors,OneAssist,https://www.valueplusretail.com/pages/extended-warranty,,2026-11-18,,,
+competitors,Zopper,https://www.zopper.com/,,2026-11-18,,,
+competitors,Zopper,https://www.zopper.com/industries/consumer-durables,,2026-11-18,,,
+competitors,Zopper,https://www.zopper.com/croma/croma-device-secure,,2026-11-18,,,
+competitors,Zopper,https://inc42.com/?p=487310,,2026-11-18,,,
+competitors,Zopper,https://www.outlookbusiness.com/amp/story/corporate/zopper-expects-to-exit-fy26-with-gross-written-premium-of-1000-cr-aims-ipo-in-fy29,,2026-11-18,,,
+competitors,Zopper,https://www.magzter.com/en/stories/newspaper/The-New-Indian-Express-Hyderabad/ZOPPER-AIMS-TO-END-FY25-WITH-500CR-REVENUE,,2026-11-18,,,
+competitors,Croma ZipCare,https://www.croma.com/zipcare-maintain-plan-for-washing-machine-1-time/p/269376,,2026-11-18,,,
+competitors,Croma ZipCare,https://croma.com/zipcare-maintain-amc-plan-for-refrigerator-1-year/p/272167,,2026-11-18,,,
+competitors,Croma ZipCare,https://croma.com/zipcare-protect-advanced-2-years-for-croma-television-/p/280980,,2026-11-18,,,
+competitors,Croma ZipCare,https://www.croma.com/ew-knowMore,,2026-11-18,,,
+competitors,Eureka Forbes (Aquaguard service),https://www.eurekaforbes.com/sitemap.xml,,2026-11-18,,,
+competitors,Eureka Forbes (Aquaguard service),https://www.eurekaforbes.com/authorized-center/indore-452014/1636,,2026-11-18,,,
+competitors,Eureka Forbes (Aquaguard service),https://www.eurekaforbes.com/media/investor-relations/interactive-fy26-annual-report/extensive-pan-india.html,,2026-11-18,,,
+competitors,Eureka Forbes (Aquaguard service),https://www.eurekaforbes.com/blog/benefits-of-water-purifier-amc.html,,2026-11-18,,,
+competitors,Eureka Forbes (Aquaguard service),https://www.business-standard.com/markets/capital-market-news/eureka-forbes-spurts-after-robust-q4-numbers-125051600689_1.html,,2026-11-18,,,
+competitors,Kent RO (service/AMC),https://www.kent.co.in/pages/customer-service-amc,,2026-11-18,,,
+competitors,Kent RO (service/AMC),https://www.kent.co.in/pages/kentservice,,2026-11-18,,,
+competitors,LG Electronics India (service/AMC),https://www.lg.com/in/magazine/ac-installation-service-repair-guide/,,2026-11-18,,,
+competitors,LG Electronics India (service/AMC),https://www.lg.com/in/lg-best-care-terms-and-conditions,,2026-11-18,,,
+competitors,LG Electronics India (service/AMC),https://www.flipkart.com/pages/lg-ew-tnc,,2026-11-18,,,
+competitors,LG Electronics India (service/AMC),https://nobroker.in/forum/what-is-lg-ac-amc-charges,,2026-11-18,,,
+competitors,"Samsung India (service, Care+)",https://www.samsung.com/in/support/out-of-warranty-repair-charges/,,2026-11-18,,,
+competitors,"Samsung India (service, Care+)",https://ushl.samsung.com/in/support/home-appliances/ac-installation-and-repair-service-charges,,2026-11-18,,,
+competitors,"Samsung India (service, Care+)",https://www.samsung.com/in/support/self-repair,,2026-11-18,,,
+competitors,"Samsung India (service, Care+)",https://news.samsung.com/in/samsung-expands-extended-warranty-plans-for-home-appliances-with-samsung-care,,2026-11-18,,,
+competitors,Voltas (consumer AC service/AMC),https://voltas.com/pages/voltas-annual-maintenance-contract-amc-terms-and-conditions,,2026-11-18,,,
+competitors,Voltas (consumer AC service/AMC),https://www.tata.com/business/voltas,,2026-11-18,,,
+competitors,Voltas (consumer AC service/AMC),https://www.magzter.com/nl/stories/newspaper/Financial-Express-Lucknow/DOUBLING-DOWN-ON-HOME-MKT-VOLTAS,,2026-11-18,,,
+competitors,Godrej Appliances (AC AMC),https://www.godrejenterprises.com/support/appliances/air-conditioners/amc,,2026-11-18,,,
+competitors,Daikin India (Annual Service Care),https://daikinindia.com/product-services/product-services/services/annual-service-care,,2026-11-18,,,
+competitors,Daikin India (Annual Service Care),https://daikinindia.com/products-services/daikin-service-locator,,2026-11-18,,,
+competitors,Housejoy,https://inc42.com/buzz/amazon-backed-housejoy-issues-pink-slips-to-40-employees,,2026-11-18,,,
+competitors,Housejoy,https://realtynmore.com/housejoy-raises-focus-on-construction-biz,,2026-11-18,,,
+competitors,Housejoy,https://www.cbinsights.com/company/housejoy,,2026-11-18,,,
+competitors,Housejoy,https://yourstory.com/2016/09/housejoy-growth-story/,,2026-11-18,,,
+competitors,Housejoy,https://www.housejoy.in,,2026-11-18,,,
+competitors,HelloTechie,https://www.hellotechie.com,,2026-11-18,,,
+competitors,HelloTechie,https://hellotechie.in,,2026-11-18,,,
+competitors,Mr Right (Bengaluru home services),https://cwv.yourstory.com/2015/04/mr-right,,2026-11-18,,,
+competitors,Mr Right (Bengaluru home services),https://gust.com/companies/mrrightindia,,2026-11-18,,,
+competitors,Mr Right (Bengaluru home services),https://www.mrright.in/,,2026-11-18,,,
+competitors,ServiceOnDoors,https://serviceondoors.com/,,2026-11-18,,,
+competitors,ServiceOnDoors,https://serviceondoors.com/sitemap.xml,,2026-11-18,,,
+competitors,ServiceOnDoors,https://serviceondoors.com/sitemap-city-1.xml,,2026-11-18,,,
+competitors,HomeTriangle,https://hometriangle.com/sitemap-services.xml,,2026-11-18,,,
+competitors,NoBroker (appliance services),https://www.nobroker.in/ac-services/ac-repair-services-in-kamla-nagar-delhi-acprd,,2026-11-18,,,
+competitors,NoBroker (appliance services),https://www.nobroker.in/ac-services/ac-repair-services-in-marathahalli-bangalore-acprd,,2026-11-18,,,
+competitors,NoBroker (appliance services),https://www.nobroker.in/ac-repair-services-in-pune,,2026-11-18,,,
+competitors,Justdial (local listings for repair shops),https://www.justdial.com/Warangal/AC-Repair-Services-in-Hanamkonda/nct-10890481,,2026-11-18,,,
+competitors,Justdial (local listings for repair shops),https://www.outlookbusiness.com/corporate/just-dial-fy25-net-profit-up-61-to-rs-584-crore-revenue-rises-95,,2026-11-18,,,
+competitors,Justdial (local listings for repair shops),https://reports.muthu.co/posts/just-dial-ltd---apr-2025-earnings-call-transcript-analysis,,2026-11-18,,,
+competitors,TechSeva,https://tech-seva.onrender.com/,,2026-11-18,,,
+competitors,Taskbob,https://inc42.com/flash-feed/taskbob-shutdown/,,2026-11-18,,,
+competitors,Taskbob,https://inc42.com/flash-feed/taskbob-acquires-zepper,,2026-11-18,,,
+competitors,Doormint,https://inc42.com/flash-feed/doormint-shutdown,,2026-11-18,,,
+competitors,Doormint,https://inc42.com/buzz/doormint-shuts-gurgaon-bangalore,,2026-11-18,,,
+competitors,Zimmber / QuikrServices / LocalOye,https://yourstory.com/2017/05/quikrservices-acquires-zimmber,,2026-11-18,,,
+competitors,Zimmber / QuikrServices / LocalOye,https://ts.yourstory.com/2016/01/quikr-flipkart-localoye,,2026-11-18,,,
+competitors,Zimmber / QuikrServices / LocalOye,https://yourstory.com/2016/09/on-demand-laundry-and-beauty-verticals,,2026-11-18,,,
+competitors,Pync,https://www.peoplematters.in/news/business/quick-home-services-startup-pync-shuts-down-founders-join-snabbit-48058,,2026-11-18,,,
+osm,OpenStreetMap contributors via Overpass API (ODbL),https://www.openstreetmap.org/copyright,,2026-11-18,,,

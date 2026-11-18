@@ -1,3 +1,4 @@
+# ARCHIVED 18 Nov 2026 with STRATEGY_REBUILD_v2_care_verify.md. Not the current model.
 """Keepwell strategy rebuild: scenario model behind STRATEGY_REBUILD.md (version 2, after the investor red-team).
 
     python3 strategy_model.py            # prints every table used in the document

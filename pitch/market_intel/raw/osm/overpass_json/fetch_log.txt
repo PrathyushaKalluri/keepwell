@@ -1,0 +1,8 @@
+22:00:23 FAIL state list via overpass.private.coffee after 117s: HTTP Error 504: Gateway Timeout
+22:00:31 FAIL state list via overpass-api.de after 0s: <urlopen error [Errno 61] Connection refused>
+22:01:08 OK state list via maps.mail.ru in 21s, 36 elements
+22:03:54 OK places via overpass.private.coffee in 158s, 1008 elements
+22:05:48 FAIL IN-TN tags via overpass.private.coffee after 106s: HTTP Error 504: Gateway Timeout
+22:05:56 FAIL IN-TN tags via overpass-api.de after 0s: <urlopen error [Errno 61] Connection refused>
+22:06:14 FAIL IN-TN tags via maps.mail.ru after 2s: HTTP Error 504: Gateway Time-out
+22:10:38 FAIL IN-TN tags via overpass.kumi.systems after 240s: The read operation timed out

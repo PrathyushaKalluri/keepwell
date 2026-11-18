@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Tier 2/3 Repair Market</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.5.3/MarkerCluster.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.5.3/MarkerCluster.Default.min.css">
+<style>
+:root{--bg:#f7f6f2;--card:#fff;--ink:#1d2433;--mut:#667085;--line:#e4e2dc;--acc:#2f6b5e;--acc2:#c4572c;--warn:#b7791f;--bad:#b42318;--good:#2f6b5e}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#12151b;--card:#1b2029;--ink:#e8eaf0;--mut:#98a2b3;--line:#2c3340;--acc:#5fb39f;--acc2:#e07a4f}}
+:root[data-theme="dark"]{--bg:#12151b;--card:#1b2029;--ink:#e8eaf0;--mut:#98a2b3;--line:#2c3340;--acc:#5fb39f;--acc2:#e07a4f}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:14px/1.45 system-ui,-apple-system,Segoe UI,Roboto,sans-serif}
+header{padding:14px 20px;border-bottom:1px solid var(--line);background:var(--card);position:sticky;top:0;z-index:1000}
+h1{margin:0;font-size:18px}header p{margin:2px 0 8px;color:var(--mut);font-size:12px}
+nav{display:flex;gap:6px;flex-wrap:wrap}nav button{border:1px solid var(--line);background:transparent;color:var(--ink);padding:6px 10px;border-radius:6px;cursor:pointer;font-size:13px}
+nav button.on{background:var(--acc);color:#fff;border-color:var(--acc)}
+main{padding:16px 20px;max-width:1500px;margin:0 auto}.page{display:none}.page.on{display:block}
+.kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:10px;margin-bottom:14px}
+.kpi{background:var(--card);border:1px solid var(--line);border-radius:8px;padding:10px 12px}.kpi b{display:block;font-size:20px}.kpi span{color:var(--mut);font-size:12px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:8px;padding:12px;margin-bottom:14px}
+.row{display:grid;grid-template-columns:3fr 2fr;gap:14px}@media(max-width:900px){.row{grid-template-columns:1fr}main{padding:12px 16px}}
+.map{height:560px;border-radius:6px}.ctl{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:8px;align-items:center}
+select,input{background:var(--card);color:var(--ink);border:1px solid var(--line);border-radius:6px;padding:5px 7px;font-size:13px}
+table{border-collapse:collapse;width:100%;font-size:12.5px}th,td{border-bottom:1px solid var(--line);padding:5px 6px;text-align:left;vertical-align:top}
+th{cursor:pointer;position:sticky;top:0;background:var(--card)}.tw{max-height:520px;overflow:auto}
+.bar{height:14px;background:var(--acc);border-radius:3px}.bars td{padding:3px 6px}
+.tag{display:inline-block;padding:1px 6px;border-radius:10px;font-size:11px;border:1px solid var(--line)}
+.HIGH{color:var(--good)}.MEDIUM{color:var(--warn)}.LOW{color:var(--bad)}.note{color:var(--mut);font-size:12px}
+.sim{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:8px}.sim label{font-size:12px;color:var(--mut);display:flex;justify-content:space-between;gap:6px;align-items:center}
+.sim input{width:110px}.neg{color:var(--bad)}.pos{color:var(--good)}.legend{background:var(--card);padding:6px 8px;border-radius:6px;font-size:11px;line-height:1.5}
+a{color:var(--acc)}
+</style></head><body>
+<header><h1>Tier 2/3 India · appliance after-sales market intelligence</h1>
+<p>Research build <span id="built"></span>. Every estimate is LOW/BASE/HIGH and labelled. Listings are not verified capacity. Gaps are shown, not filled.</p>
+<nav id="nav"></nav></header>
+<main>
+<section class="page" id="p1"><div class="kpis" id="k1"></div>
+<div class="row"><div class="card"><div class="ctl">Map metric <select id="m1"></select> Scenario <select id="sc1"><option>base</option><option>low</option><option>high</option></select></div><div id="map1" class="map"></div></div>
+<div class="card"><b>State ranking</b> <span class="note">(by selected metric)</span><div class="tw"><table class="bars" id="t1"></table></div></div></div>
+<div class="card"><b>Two rankings that differ on purpose</b><div class="row"><div><p class="note">A. Largest market (annual repair + service spend, BASE, ₹ Cr)</p><table class="bars" id="t1a"></table></div><div><p class="note">B. Best for a pilot (entry score: top-5 city average × data completeness)</p><table class="bars" id="t1b"></table></div></div></div></section>
+
+<section class="page" id="p2"><div class="ctl">State <select id="f2s"></select> Chain <select id="f2c"></select> Confidence <select id="f2k"><option value="">any</option><option>HIGH</option><option>MEDIUM</option><option>LOW</option></select> <label><input type="checkbox" id="f2o" checked> OSM shop points</label></div>
+<div class="row"><div class="card"><div id="map2" class="map"></div><p class="note">Circles = verified chain outlets matched to a city (city-level position, not store address). Clusters = OpenStreetMap appliance/electronics shops (exact OSM coordinates; coverage incomplete).</p></div>
+<div class="card" id="c2">Click a city.</div></div></section>
+
+<section class="page" id="p3"><div class="ctl">State <select id="f3s"></select> Type <select id="f3t"><option value="">all repair classes</option><option>repair_appliance</option><option>repair_electronics_general</option><option>authorised_service_centre</option></select></div>
+<div class="row"><div class="card"><div id="map3" class="map"></div><p class="note" id="n3"></p></div><div class="card"><b>Service supply by city</b><p class="note">Listed = OSM-mapped businesses. Verified operating agencies and technician headcount are UNKNOWN: no verification calls were made.</p><div class="tw"><table id="t3"></table></div></div></div></section>
+
+<section class="page" id="p4"><div class="ctl">Category <select id="f4c"><option value="total">All categories</option><option>AC</option><option>Refrigerator</option><option>Washing machine</option><option>Water purifier</option></select> Measure <select id="f4m"><option value="oow">Out-of-warranty in use</option><option value="installed">Installed units</option><option value="jobs">Annual requests</option><option value="value">Annual spend ₹</option></select> Scenario <select id="sc4"><option>base</option><option>low</option><option>high</option></select></div>
+<div class="row"><div class="card"><div id="map4" class="map"></div></div><div class="card"><b>Assumptions behind the estimate</b><div class="tw"><table id="t4"></table></div></div></div></section>
+
+<section class="page" id="p5"><div class="ctl">Class <select id="f5"><option value="">all</option></select></div>
+<div class="row"><div class="card"><div id="map5" class="map"></div><div class="legend" id="lg5"></div></div><div class="card"><b>Classification rules</b><ul class="note">
+<li><b>INSUFFICIENT DATA</b>: LOW confidence and no verified chain outlets. Missing listings are never read as a gap.</li>
+<li><b>COMPETITIVE / SATURATED</b>: ≥3 competitors verified active, or ≥8 verified+claimed (only 30 cities checked).</li>
+<li><b>HIGH OPPORTUNITY</b>: top 15% entry score, confidence not LOW, ≥2 chain outlets and ≥3 listed repair points.</li>
+<li><b>PROMISING BUT UNVERIFIED</b>: top 40% entry score otherwise.</li><li><b>LOW COMMERCIAL ATTRACTIVENESS</b>: the rest.</li></ul>
+<div class="tw"><table id="t5"></table></div></div></div></section>
+
+<section class="page" id="p6"><div class="ctl">List <select id="f6"><option value="es">Top 25 by ease of startup entry</option><option value="ms">Top 25 by market opportunity</option><option value="co">Top 25 by retailer concentration</option><option value="jobs">Top 25 by estimated repair demand</option></select> Weights <select id="f6w"></select></div>
+<div class="card"><div class="tw"><table id="t6"></table></div><p class="note">Recommended model per city is the same everywhere for now: retailer-referred post-warranty jobs fulfilled by local agencies, tested in a 90-day pilot. Rank columns under alternative weights show stability.</p></div></section>
+
+<section class="page" id="p7"><div class="ctl">Preset <button data-s="0">LOW</button><button data-s="1">BASE</button><button data-s="2">HIGH</button></div>
+<div class="card"><div class="sim" id="sim"></div></div><div class="kpis" id="k7"></div>
+<div class="card note">GTV (what customers pay) is not revenue. Revenue = labour margin kept after paying the agency + parts margin + booking fee. Contribution = revenue − retailer commission − payment fees − refunds/rework − support − coordination. Defaults: average bill from the demand model; all other inputs are ASSUMPTIONS except support cost (Urban Company disclosure proxy).</div></section>
+
+<section class="page" id="p8"><div class="card"><div class="tw"><table id="t8"></table></div></div>
+<div class="card"><b>City presence matrix (30 checked cities)</b><div class="tw"><table id="t8b"></table></div></div></section>
+
+<section class="page" id="p9"><div class="ctl">Dataset <select id="f9"></select> Search <input id="q9" placeholder="filter…"> <button id="dl9">Download CSV</button> <span class="note" id="n9"></span></div>
+<div class="card"><div class="tw" style="max-height:640px"><table id="t9"></table></div></div>
+<div class="card note"><b>Known data gaps:</b> city populations are Census 2011 scaled by state urban growth; ownership is NFHS-5 (2019–21) scaled to 2026 national surveys, with AC derived from AC+cooler; repair incidence is the weakest input (US proxies); OSM business coverage is incomplete; no business was contacted, so nothing is "verified operating"; competitor presence is checked for 30 cities only; most regional chains' service arrangements are UNKNOWN.</div></section>
+</main>
+<script>/*__DATA__*/</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.5.3/leaflet.markercluster.min.js"></script>
+<script>
+const $=s=>document.querySelector(s),fmt=n=>n==null||n===''?'—':(typeof n==='number'?(Math.abs(n)>=1e7?(n/1e7).toFixed(1)+' Cr':Math.abs(n)>=1e5?(n/1e5).toFixed(1)+' L':Math.round(n).toLocaleString('en-IN')):n);
+const C=D.cities,CORE=C.filter(c=>c.core),S=D.states;$('#built').textContent=D.built;
+const PAGES=['India overview','Retailer heatmap','Service network','Installed base','Demand–supply gap','Top cities','Economics simulator','Competitors','Data explorer'];
+const maps={};
+PAGES.forEach((p,i)=>{const b=document.createElement('button');b.textContent=(i+1)+'. '+p;b.onclick=()=>show(i+1);$('#nav').append(b)});
+function show(i){document.querySelectorAll('.page').forEach((e,j)=>e.classList.toggle('on',j==i-1));document.querySelectorAll('nav button').forEach((e,j)=>e.classList.toggle('on',j==i-1));
+ ({1:p1,2:p2,3:p3,4:p4,5:p5,6:p6,7:p7,8:p8,9:p9})[i]();setTimeout(()=>Object.values(maps).forEach(m=>m.invalidateSize()),50);try{localStorage.setItem('pg',i)}catch(e){}}
+function mk(id){if(maps[id])return maps[id];const m=L.map(id,{preferCanvas:true}).setView([22.5,80],5);L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{maxZoom:18,attribution:'© OpenStreetMap contributors'}).addTo(m);maps[id]=m;return m}
+const ramp=t=>`hsl(${160-150*t},55%,${78-40*t}%)`;
+function tbl(el,cols,rows,sortable=true){let st={k:null,d:1};const draw=()=>{let r=rows.slice();if(st.k!=null)r.sort((a,b)=>{const x=a[st.k],y=b[st.k];return (typeof x==='number'&&typeof y==='number'?x-y:String(x??'').localeCompare(String(y??'')))*st.d});
+ el.innerHTML='<thead><tr>'+cols.map((c,i)=>`<th data-i="${i}">${c[0]}</th>`).join('')+'</tr></thead><tbody>'+r.map(x=>'<tr>'+cols.map(c=>`<td>${c[2]?c[2](x[c[1]],x):fmt(x[c[1]])}</td>`).join('')+'</tr>').join('')+'</tbody>';
+ if(sortable)el.querySelectorAll('th').forEach(th=>th.onclick=()=>{const k=cols[th.dataset.i][1];st.d=st.k===k?-st.d:-1;st.k=k;draw()})};draw()}
+function bars(el,rows,key,lab){const mx=Math.max(...rows.map(r=>r[key]||0))||1;el.innerHTML=rows.map((r,i)=>`<tr><td>${i+1}</td><td>${r.state}</td><td style="width:45%"><div class="bar" style="width:${100*(r[key]||0)/mx}%"></div></td><td>${fmt(r[key])}${lab||''}</td></tr>`).join('')}
+let geoL={};
+function choro(id,valf,label){const m=mk(id);if(geoL[id])m.removeLayer(geoL[id]);const vals={};S.forEach(s=>vals[s.state]=valf(s));const mx=Math.max(...Object.values(vals).map(v=>v||0))||1;
+ geoL[id]=L.geoJSON(D.geo,{style:f=>{const v=vals[f.properties.name];return{weight:.6,color:'#777',fillOpacity:v?0.8:0.15,fillColor:v?ramp(Math.sqrt(v/mx)):'#ccc'}},onEachFeature:(f,l)=>l.bindTooltip(`${f.properties.name}: ${fmt(vals[f.properties.name])} ${label}`)}).addTo(m)}
+const M1={eligible_cities:'Eligible Tier 2/3 cities',verified_chain_outlets_in_eligible_cities:'Verified chain outlets',retail_outlets_per_100k_hh:'Chain outlets per 100k HH',osm_repair_points_listed:'Listed repair points (OSM)',installed_base_base:'Installed appliances (BASE)',oow:'Out-of-warranty appliances',req:'Annual repair requests',startup_entry_score:'Startup-entry score',annual_value_inr_cr_base:'Annual spend ₹ Cr (BASE)'};
+function p1(){const sc=$('#sc1').value||'base';const tot=k=>CORE.reduce((a,c)=>a+c.e[sc].total[k],0);
+ $('#k1').innerHTML=[['Eligible Tier 2/3 cities',CORE.length],['Verified chain outlets in them',CORE.reduce((a,c)=>a+c.co,0)],['Listed repair points (OSM)',CORE.reduce((a,c)=>a+c.op,0)],['Verified operating agencies','UNKNOWN'],
+ ['Installed appliances ('+sc+')',tot('installed')],['Out of warranty ('+sc+')',tot('oow')],['Annual requests ('+sc+')',tot('jobs')],['Annual spend ₹ ('+sc+')',tot('value')],['Retailer-accessible ₹ ('+sc+')',tot('accessible_value')],
+ ['City confidence H/M/L',['HIGH','MEDIUM','LOW'].map(k=>CORE.filter(c=>c.conf==k).length).join(' / ')]].map(([a,b])=>`<div class="kpi"><b>${fmt(b)}</b><span>${a}</span></div>`).join('');
+ if(!$('#m1').options.length){Object.entries(M1).forEach(([k,v])=>$('#m1').add(new Option(v,k)));$('#m1').value='annual_value_inr_cr_base';$('#m1').onchange=$('#sc1').onchange=p1}
+ const k=$('#m1').value;const f=s=>k==='oow'?s['oow_installed_base_'+sc]:k==='req'?s['annual_repair_requests_'+sc]:s[k];
+ choro('map1',f,M1[k]);const rows=S.map(s=>({state:s.state,v:f(s)})).filter(r=>r.v).sort((a,b)=>b.v-a.v);bars($('#t1'),rows,'v');
+ bars($('#t1a'),S.slice().sort((a,b)=>b.annual_value_inr_cr_base-a.annual_value_inr_cr_base).slice(0,12),'annual_value_inr_cr_base',' Cr');
+ bars($('#t1b'),S.slice().sort((a,b)=>b.startup_entry_score-a.startup_entry_score).slice(0,12),'startup_entry_score')}
+function fillSel(el,vals,any='any'){if(el.options.length)return;el.add(new Option(any,''));vals.forEach(v=>el.add(new Option(v,v)))}
+let l2=[];function p2(){const m=mk('map2');fillSel($('#f2s'),[...new Set(C.map(c=>c.s))].sort());fillSel($('#f2c'),[...new Set(C.flatMap(c=>c.ch))].sort());
+ ['#f2s','#f2c','#f2k','#f2o'].forEach(s=>$(s).onchange=p2);l2.forEach(x=>m.removeLayer(x));l2=[];const st=$('#f2s').value,ch=$('#f2c').value,cf=$('#f2k').value;
+ const g=L.layerGroup();C.filter(c=>c.la&&(!st||c.s==st)&&(!ch||c.ch.includes(ch))&&(!cf||c.conf==cf)&&(c.co||c.or)).forEach(c=>{L.circleMarker([c.la,c.lo],{radius:4+2*Math.sqrt(c.co),color:'#c4572c',weight:1,fillOpacity:.55}).on('click',()=>city2(c)).bindTooltip(`${c.n}: ${c.co} chain outlets, ${c.or} OSM shops`).addTo(g)});g.addTo(m);l2.push(g);
+ if($('#f2o').checked&&window.L.markerClusterGroup){const cl=L.markerClusterGroup({chunkedLoading:true});D.osm.filter(p=>p[3].startsWith('retail')&&(!st||(C.find(c=>c.id==p[4])||{}).s==st)).forEach(p=>cl.addLayer(L.marker([p[0],p[1]]).bindPopup(`${p[2]||'(unnamed)'}<br>${p[3]}<br><a href="${p[5]}" target="_blank">OSM</a>`)));m.addLayer(cl);l2.push(cl)}}
+function city2(c){const os=D.outlets.filter(o=>o.matched_city_id==c.id);$('#c2').innerHTML=`<b>${c.n}, ${c.s}</b> <span class="tag">${c.t}</span> <span class="tag ${c.conf}">${c.conf}</span><p>Verified chain outlets: <b>${c.co}</b> · chains: ${c.ch.join(', ')||'none found'}<br>OSM shops: ${c.or} (appliance ${c.ora}) · Independents verified: UNKNOWN</p>
+ <div class="tw"><table><tr><th>Store</th><th>Address</th><th>Source</th></tr>${os.map(o=>`<tr><td>${o.retailer.split(' (')[0]}<br>${o.store_name}</td><td>${o.address}</td><td><a href="${o.source_url.split(' ')[0]}" target="_blank">locator</a></td></tr>`).join('')||'<tr><td colspan=3 class="note">No store-level rows (city counts only, or none).</td></tr>'}</table></div>
+ <p class="note">After-sales arrangements of these chains: see page 8 and retailers.csv (most are UNKNOWN).</p>`}
+let l3=[];function p3(){const m=mk('map3');fillSel($('#f3s'),[...new Set(C.map(c=>c.s))].sort());$('#f3s').onchange=$('#f3t').onchange=p3;l3.forEach(x=>m.removeLayer(x));l3=[];
+ const st=$('#f3s').value,ty=$('#f3t').value;const pts=D.osm.filter(p=>!p[3].startsWith('retail')&&(!ty||p[3]==ty)&&(!st||(C.find(c=>c.id==p[4])||{}).s==st));
+ if(window.L.markerClusterGroup){const cl=L.markerClusterGroup({chunkedLoading:true});pts.forEach(p=>cl.addLayer(L.circleMarker([p[0],p[1]],{radius:5,color:p[3]=='authorised_service_centre'?'#2f6b5e':'#b7791f'}).bindPopup(`${p[2]||'(unnamed)'}<br>${p[3]}<br>Status: LISTED, NOT VERIFIED<br><a href="${p[5]}" target="_blank">OSM</a>`)));m.addLayer(cl);l3.push(cl)}
+ $('#n3').textContent=`${pts.length} listed points shown. ${D.osm.length?'':'OpenStreetMap pull not yet available in this build.'} Green = brand-authorised (by name/brand tag), amber = independent/general.`;
+ tbl($('#t3'),[['City','n'],['State','s'],['Listed repair','op'],['Appliance repair','opa'],['ASC','asc'],['Verified agencies','x',()=>'UNKNOWN'],['Technicians','y',()=>'UNKNOWN'],['Requests/day (BASE)','d']],CORE.filter(c=>!st||c.s==st).map(c=>({...c,d:Math.round(c.e.base.total.jobs/300)})).sort((a,b)=>b.op-a.op).slice(0,300))}
+let l4;function p4(){const m=mk('map4');['#f4c','#f4m','#sc4'].forEach(s=>$(s).onchange=p4);if(l4)m.removeLayer(l4);const cat=$('#f4c').value,me=$('#f4m').value,sc=$('#sc4').value;
+ const v=c=>c.e[sc][cat][me];const mx=Math.max(...CORE.map(v));l4=L.layerGroup();CORE.filter(c=>c.la).forEach(c=>L.circleMarker([c.la,c.lo],{radius:3+14*Math.sqrt(v(c)/mx),fillColor:ramp(Math.sqrt(v(c)/mx)),color:'#555',weight:.5,fillOpacity:.75}).bindTooltip(`${c.n}: ${fmt(v(c))} (${sc.toUpperCase()})`).addTo(l4));l4.addTo(m);
+ tbl($('#t4'),[['Parameter','p'],['Category','c'],['LOW','low'],['BASE','base'],['HIGH','high'],['Label','label']],Object.entries(D.params).map(([k,v])=>({p:k.split('|')[0],c:k.split('|')[1],...v})),true)}
+const CLS={'HIGH OPPORTUNITY':'#2f6b5e','PROMISING BUT UNVERIFIED':'#7fb3a5','COMPETITIVE / SATURATED':'#c4572c','LOW COMMERCIAL ATTRACTIVENESS':'#b7b2a6','INSUFFICIENT DATA':'#e4e2dc'};
+let l5;function p5(){const m=mk('map5');if(!$('#f5').options[1])Object.keys(CLS).forEach(k=>$('#f5').add(new Option(k,k)));$('#f5').onchange=p5;if(l5)m.removeLayer(l5);const f=$('#f5').value;
+ l5=L.layerGroup();const rows=CORE.filter(c=>!f||c.cls==f);rows.filter(c=>c.la).forEach(c=>L.circleMarker([c.la,c.lo],{radius:5+Math.sqrt(c.e.base.total.jobs/2e4),fillColor:CLS[c.cls],color:'#444',weight:.6,fillOpacity:.9}).bindTooltip(`${c.n}: ${c.cls} · entry ${c.es} · ${c.conf}`).addTo(l5));l5.addTo(m);
+ $('#lg5').innerHTML=Object.entries(CLS).map(([k,v])=>`<span style="color:${v}">●</span> ${k} (${CORE.filter(c=>c.cls==k).length})`).join('<br>');
+ tbl($('#t5'),[['City','n'],['State','s'],['Class','cls'],['Demand/yr (BASE)','j'],['Listed supply','op'],['Requests per listed point','r'],['Competitors (v/c)','k'],['Confidence','conf']],rows.map(c=>({...c,j:c.e.base.total.jobs,r:c.op>=3?Math.round(c.e.base.total.jobs/c.op):'n/a (<3 listed)',k:c.cc?`${c.cv}/${c.cl}`:'not checked'})))}
+function p6(){if(!$('#f6w').options.length){Object.keys(D.weights).forEach(w=>$('#f6w').add(new Option(w+' '+D.weights[w].join('/'),w)))}$('#f6').onchange=$('#f6w').onchange=p6;const k=$('#f6').value,w=$('#f6w').value;
+ const val=c=>k=='jobs'?c.e.base.total.jobs:k=='es'?-c.rk[w]:c[k];const rows=CORE.slice().sort((a,b)=>val(b)-val(a)).slice(0,25).map((c,i)=>({...c,i:i+1,j:c.e.base.total.jobs,rd:c.rk.default,rq:c.rk['demand-heavy'],rs:c.rk['supply-heavy'],re2:c.rk.equal}));
+ tbl($('#t6'),[['#','i'],['City','n'],['State','s'],['Tier','t'],['Entry','es'],['Market','ms'],['Pop 2011','p11'],['HH 2026 est','hh'],['Chain outlets','co'],['Annual requests','j'],['Listed repair','op'],['Competitors','cn',v=>v||'—'],['Confidence','conf',v=>`<span class="${v}">${v}</span>`],['Rank default/demand/supply/equal','rd',(v,x)=>`${x.rd}/${x.rq}/${x.rs}/${x.re2}`],['Advantages','adv'],['Risks','risk']],rows)}
+const EL={retailers:'Participating retailers',referrals_per_retailer_month:'Referrals / retailer / month',referral_to_booking:'Referral → booking',booking_to_paid:'Booking → paid repair',avg_bill:'Average customer bill ₹',parts_share_of_bill:'Parts share of bill',parts_cost_share:'Parts cost / parts revenue',agency_payout_share_of_labour:'Agency payout (share of labour)',retailer_commission_share:'Retailer commission (share of bill)',booking_fee:'Platform booking fee ₹',support_per_job:'Support cost / job ₹',travel_coord_per_job:'Travel & coordination / job ₹',payment_fee_share:'Payment fees (share)',refund_rework_share:'Refund & rework allowance (share)',fixed_costs_month:'Fixed costs / month ₹'};
+function p7(){const box=$('#sim');if(!box.children.length){Object.entries(EL).forEach(([k,l])=>{box.insertAdjacentHTML('beforeend',`<label>${l}<input type="number" step="any" id="e_${k}" value="${D.econ[k][1]}"></label>`)});box.oninput=calc;document.querySelectorAll('#p7 [data-s]').forEach(b=>b.onclick=()=>{Object.keys(EL).forEach(k=>$('#e_'+k).value=D.econ[k][b.dataset.s]);calc()})}calc()}
+function calc(){const g={};Object.keys(EL).forEach(k=>g[k]=+$('#e_'+k).value);const leads=g.retailers*g.referrals_per_retailer_month,jobs=leads*g.referral_to_booking*g.booking_to_paid,b=g.avg_bill,parts=b*g.parts_share_of_bill,lab=b-parts;
+ const rev=lab*(1-g.agency_payout_share_of_labour)+parts*(1-g.parts_cost_share)+g.booking_fee,vc=b*(g.retailer_commission_share+g.payment_fee_share+g.refund_rework_share)+g.support_per_job+g.travel_coord_per_job,ct=rev-vc;
+ const be=ct>0?g.fixed_costs_month/ct:null,perR=g.referrals_per_retailer_month*g.referral_to_booking*g.booking_to_paid,op=jobs*ct-g.fixed_costs_month;
+ $('#k7').innerHTML=[['Leads / month',leads],['Paid jobs / month',jobs],['GTV / month (not revenue)',jobs*(b+g.booking_fee)],['Platform revenue / month',jobs*rev],['Revenue per job ₹',rev],['Contribution per job ₹',ct,1],['Contribution margin',rev?(100*ct/rev).toFixed(0)+'%':'—'],['Monthly contribution',jobs*ct,1],['Fixed costs / month',g.fixed_costs_month],['Operating profit / month',op,1],['Break-even jobs / month',be?Math.round(be):'never'],['Retailers needed',be?Math.round(be/perR):'never']]
+ .map(([a,v,s])=>`<div class="kpi"><b class="${s?(typeof v=='number'&&v<0?'neg':'pos'):''}">${fmt(v)}</b><span>${a}</span></div>`).join('')}
+function p8(){tbl($('#t8'),[['Company','company',v=>v.split(' (')[0]],['Status 2026','status_2026'],['Model','business_model'],['Who pays','main_paying_customer'],['Reach (claim)','geographic_reach_claim'],['Retailer ties','retailer_partnerships'],['Post-warranty','post_warranty_offer'],['Tier 2/3 evidence','tier23_evidence'],['Overlap','overlap_with_retailer_led_repair'],['Risk','competitive_risk']],D.competitors);
+ const cos=[...new Set(D.claims.map(r=>r.company))],cts=[...new Set(D.claims.map(r=>r.city))],ab={'VERIFIED ACTIVE':'<b style="color:var(--good)">V</b>','PUBLICLY CLAIMED':'<span style="color:var(--warn)">C</span>','NOT VERIFIED':'<span class="note">?</span>','NO EVIDENCE FOUND':'<span class="note">·</span>'};
+ $('#t8b').innerHTML='<tr><th>City</th>'+cos.map(c=>`<th style="writing-mode:vertical-rl;font-size:11px">${c}</th>`).join('')+'</tr>'+cts.map(ct=>'<tr><td>'+ct+'</td>'+cos.map(co=>{const r=D.claims.find(x=>x.city==ct&&x.company==co);return `<td title="${r?r.note.replace(/"/g,''):''}">${r?(r.evidence_url?`<a href="${r.evidence_url}" target="_blank">${ab[r.status]||'?'}</a>`:ab[r.status]):''}</td>`}).join('')+'</tr>').join('')+'<tr><td colspan=99 class="note">V verified active · C publicly claimed · ? not verified · · no evidence found (≠ absent)</td></tr>'}
+const DS={cities:()=>C.map(c=>({city:c.n,state:c.s,tier:c.t,hra:c.h,pop_2011:c.p11,hh_2026_est:c.hh,chain_outlets:c.co,chains:c.ch.join('; '),osm_retail:c.or,osm_repair:c.op,competitors:c.cn,requests_base:Math.round(c.e.base.total.jobs),spend_base:Math.round(c.e.base.total.value),entry:c.es,market:c.ms,confidence:c.conf,class:c.cls})),
+ states:()=>S,retailers:()=>D.retailers,retailer_outlets:()=>D.outlets,repair_points:()=>D.osm.filter(p=>!p[3].startsWith('retail')).map(p=>({name:p[2],class:p[3],lat:p[0],lon:p[1],city_id:p[4],osm:p[5],status:'LISTED, NOT VERIFIED'})),competitors:()=>D.competitors,competitor_claims:()=>D.claims};
+function p9(){const f=$('#f9');if(!f.options.length){Object.keys(DS).forEach(k=>f.add(new Option(k,k)));f.onchange=$('#q9').oninput=p9;$('#dl9').onclick=dl}const rows=filt();const cols=rows.length?Object.keys(rows[0]):[];
+ $('#n9').textContent=rows.length+' rows · built '+D.built;tbl($('#t9'),cols.map(c=>[c,c,v=>{const s=v==null?'':String(v);return s.startsWith('http')?`<a href="${s.split(' ')[0]}" target="_blank">link</a>`:s.length>140?s.slice(0,140)+'…':(typeof v=='number'?fmt(v):s)}]),rows.slice(0,800))}
+function filt(){const q=$('#q9').value.toLowerCase();return DS[$('#f9').value]().filter(r=>!q||JSON.stringify(r).toLowerCase().includes(q))}
+function dl(){const r=filt(),cols=Object.keys(r[0]||{});const esc=v=>'"'+String(v??'').replace(/"/g,'""')+'"';const csv=[cols.join(','),...r.map(x=>cols.map(c=>esc(x[c])).join(','))].join('\n');const a=document.createElement('a');a.href=URL.createObjectURL(new Blob([csv],{type:'text/csv'}));a.download=$('#f9').value+'.csv';a.click()}
+let start=1;try{start=+localStorage.getItem('pg')||1}catch(e){}show(start);
+</script></body></html>

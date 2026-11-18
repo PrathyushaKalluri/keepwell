@@ -1,0 +1,586 @@
+retailer,city,state,outlet_count,source_url,basis
+Bajaj Electronics (Electronics Mart India Ltd),Adilabad,Telangana,1,https://www.bajajelectronics.com/getstoredetails?stateId=76&cityId=0,store locator
+Bajaj Electronics (Electronics Mart India Ltd),Adoni,Andhra Pradesh,1,https://www.bajajelectronics.com/getstoredetails?stateId=77&cityId=0,store locator
+Bajaj Electronics (Electronics Mart India Ltd),Amalapuram,Andhra Pradesh,1,https://www.bajajelectronics.com/getstoredetails?stateId=77&cityId=0,store locator
+Bajaj Electronics (Electronics Mart India Ltd),Anakapalli,Andhra Pradesh,1,https://www.bajajelectronics.com/getstoredetails?stateId=77&cityId=0,store locator
+Bajaj Electronics (Electronics Mart India Ltd),Anantapur,Andhra Pradesh,2,https://www.bajajelectronics.com/getstoredetails?stateId=77&cityId=0,store locator
+Bajaj Electronics (Electronics Mart India Ltd),Armoor,Telangana,1,https://www.bajajelectronics.com/getstoredetails?stateId=76&cityId=0,store locator
+Bajaj Electronics (Electronics Mart India Ltd),Bapatla,Andhra Pradesh,1,https://www.bajajelectronics.com/getstoredetails?stateId=77&cityId=0,store locator
+Bajaj Electronics (Electronics Mart India Ltd),Bhadrachalam,Telangana,1,https://www.bajajelectronics.com/getstoredetails?stateId=76&cityId=0,store locator
+Bajaj Electronics (Electronics Mart India Ltd),Bhimavaram,Andhra Pradesh,1,https://www.bajajelectronics.com/getstoredetails?stateId=77&cityId=0,store locator
+Bajaj Electronics (Electronics Mart India Ltd),Bhupalpally,Telangana,1,https://www.bajajelectronics.com/getstoredetails?stateId=76&cityId=0,store locator
+Bajaj Electronics (Electronics Mart India Ltd),Bhuvanagiri,Telangana,1,https://www.bajajelectronics.com/getstoredetails?stateId=76&cityId=0,store locator
+Bajaj Electronics (Electronics Mart India Ltd),Chilakaluripet,Andhra Pradesh,1,https://www.bajajelectronics.com/getstoredetails?stateId=77&cityId=0,store locator
+Bajaj Electronics (Electronics Mart India Ltd),Chittoor,Andhra Pradesh,1,https://www.bajajelectronics.com/getstoredetails?stateId=77&cityId=0,store locator
+Bajaj Electronics (Electronics Mart India Ltd),Choutuppal,Telangana,1,https://www.bajajelectronics.com/getstoredetails?stateId=76&cityId=0,store locator
+Bajaj Electronics (Electronics Mart India Ltd),Dharmavaram,Andhra Pradesh,1,https://www.bajajelectronics.com/getstoredetails?stateId=77&cityId=0,store locator
+Bajaj Electronics (Electronics Mart India Ltd),Eluru,Andhra Pradesh,1,https://www.bajajelectronics.com/getstoredetails?stateId=77&cityId=0,store locator
+Bajaj Electronics (Electronics Mart India Ltd),Faridabad,Haryana,2,https://www.bajajelectronics.com/getstoredetails?stateId=88&cityId=0,store locator
+Bajaj Electronics (Electronics Mart India Ltd),Gadwal,Telangana,1,https://www.bajajelectronics.com/getstoredetails?stateId=76&cityId=0,store locator
+Bajaj Electronics (Electronics Mart India Ltd),Gajwel,Telangana,1,https://www.bajajelectronics.com/getstoredetails?stateId=76&cityId=0,store locator
+Bajaj Electronics (Electronics Mart India Ltd),Ghaziabad,Uttar Pradesh,2,https://www.bajajelectronics.com/getstoredetails?stateId=85&cityId=0,store locator
+Bajaj Electronics (Electronics Mart India Ltd),Gooty,Andhra Pradesh,1,https://www.bajajelectronics.com/getstoredetails?stateId=77&cityId=0,store locator
+Bajaj Electronics (Electronics Mart India Ltd),Gudivada,Andhra Pradesh,1,https://www.bajajelectronics.com/getstoredetails?stateId=77&cityId=0,store locator
+Bajaj Electronics (Electronics Mart India Ltd),Gudur,Andhra Pradesh,1,https://www.bajajelectronics.com/getstoredetails?stateId=77&cityId=0,store locator
+Bajaj Electronics (Electronics Mart India Ltd),Guntur,Andhra Pradesh,3,https://www.bajajelectronics.com/getstoredetails?stateId=77&cityId=0,store locator
+Bajaj Electronics (Electronics Mart India Ltd),Gurugram,Haryana,5,https://www.bajajelectronics.com/getstoredetails?stateId=88&cityId=0,store locator
+Bajaj Electronics (Electronics Mart India Ltd),Hanamkonda,Telangana,1,https://www.bajajelectronics.com/getstoredetails?stateId=76&cityId=0,store locator
+Bajaj Electronics (Electronics Mart India Ltd),Hanuman Junction,Andhra Pradesh,1,https://www.bajajelectronics.com/getstoredetails?stateId=77&cityId=0,store locator
+Bajaj Electronics (Electronics Mart India Ltd),Hindupur,Andhra Pradesh,1,https://www.bajajelectronics.com/getstoredetails?stateId=77&cityId=0,store locator
+Bajaj Electronics (Electronics Mart India Ltd),Husnabad,Telangana,1,https://www.bajajelectronics.com/getstoredetails?stateId=76&cityId=0,store locator
+Bajaj Electronics (Electronics Mart India Ltd),Hyderabad,Telangana,63,https://www.bajajelectronics.com/getstoredetails?stateId=76&cityId=0,store locator
+Bajaj Electronics (Electronics Mart India Ltd),Jadcherla,Telangana,1,https://www.bajajelectronics.com/getstoredetails?stateId=76&cityId=0,store locator
+Bajaj Electronics (Electronics Mart India Ltd),Jagityala,Telangana,1,https://www.bajajelectronics.com/getstoredetails?stateId=76&cityId=0,store locator
+Bajaj Electronics (Electronics Mart India Ltd),Janagam,Telangana,1,https://www.bajajelectronics.com/getstoredetails?stateId=76&cityId=0,store locator
+Bajaj Electronics (Electronics Mart India Ltd),Jangareddygudem,Andhra Pradesh,1,https://www.bajajelectronics.com/getstoredetails?stateId=77&cityId=0,store locator
+Bajaj Electronics (Electronics Mart India Ltd),Kadapa,Andhra Pradesh,2,https://www.bajajelectronics.com/getstoredetails?stateId=77&cityId=0,store locator
+Bajaj Electronics (Electronics Mart India Ltd),Kakinada,Andhra Pradesh,2,https://www.bajajelectronics.com/getstoredetails?stateId=77&cityId=0,store locator
+Bajaj Electronics (Electronics Mart India Ltd),Kalyandurgam,Andhra Pradesh,1,https://www.bajajelectronics.com/getstoredetails?stateId=77&cityId=0,store locator
+Bajaj Electronics (Electronics Mart India Ltd),Kamareddy,Telangana,1,https://www.bajajelectronics.com/getstoredetails?stateId=76&cityId=0,store locator
+Bajaj Electronics (Electronics Mart India Ltd),Karimnagar,Telangana,2,https://www.bajajelectronics.com/getstoredetails?stateId=76&cityId=0,store locator
+Bajaj Electronics (Electronics Mart India Ltd),Kavali,Andhra Pradesh,1,https://www.bajajelectronics.com/getstoredetails?stateId=77&cityId=0,store locator
+Bajaj Electronics (Electronics Mart India Ltd),Kazipet,Telangana,1,https://www.bajajelectronics.com/getstoredetails?stateId=76&cityId=0,store locator
+Bajaj Electronics (Electronics Mart India Ltd),Khammam,Telangana,4,https://www.bajajelectronics.com/getstoredetails?stateId=76&cityId=0,store locator
+Bajaj Electronics (Electronics Mart India Ltd),Kodada,Telangana,1,https://www.bajajelectronics.com/getstoredetails?stateId=76&cityId=0,store locator
+Bajaj Electronics (Electronics Mart India Ltd),Kothagudem,Telangana,1,https://www.bajajelectronics.com/getstoredetails?stateId=76&cityId=0,store locator
+Bajaj Electronics (Electronics Mart India Ltd),Kurnool,Andhra Pradesh,2,https://www.bajajelectronics.com/getstoredetails?stateId=77&cityId=0,store locator
+Bajaj Electronics (Electronics Mart India Ltd),Machilipatnam,Andhra Pradesh,1,https://www.bajajelectronics.com/getstoredetails?stateId=77&cityId=0,store locator
+Bajaj Electronics (Electronics Mart India Ltd),Madanapalle,Andhra Pradesh,1,https://www.bajajelectronics.com/getstoredetails?stateId=77&cityId=0,store locator
+Bajaj Electronics (Electronics Mart India Ltd),Mahbubnagar,Telangana,2,https://www.bajajelectronics.com/getstoredetails?stateId=76&cityId=0,store locator
+Bajaj Electronics (Electronics Mart India Ltd),Mancherial,Telangana,1,https://www.bajajelectronics.com/getstoredetails?stateId=76&cityId=0,store locator
+Bajaj Electronics (Electronics Mart India Ltd),Mandapeta,Andhra Pradesh,1,https://www.bajajelectronics.com/getstoredetails?stateId=77&cityId=0,store locator
+Bajaj Electronics (Electronics Mart India Ltd),Markapuram,Andhra Pradesh,1,https://www.bajajelectronics.com/getstoredetails?stateId=77&cityId=0,store locator
+Bajaj Electronics (Electronics Mart India Ltd),Miryalaguda,Telangana,1,https://www.bajajelectronics.com/getstoredetails?stateId=76&cityId=0,store locator
+Bajaj Electronics (Electronics Mart India Ltd),Nagar Kurnool,Telangana,1,https://www.bajajelectronics.com/getstoredetails?stateId=76&cityId=0,store locator
+Bajaj Electronics (Electronics Mart India Ltd),Naidupeta,Andhra Pradesh,1,https://www.bajajelectronics.com/getstoredetails?stateId=77&cityId=0,store locator
+Bajaj Electronics (Electronics Mart India Ltd),Nalgonda,Telangana,2,https://www.bajajelectronics.com/getstoredetails?stateId=76&cityId=0,store locator
+Bajaj Electronics (Electronics Mart India Ltd),Nandyala,Andhra Pradesh,1,https://www.bajajelectronics.com/getstoredetails?stateId=77&cityId=0,store locator
+Bajaj Electronics (Electronics Mart India Ltd),Narasaraopeta,Andhra Pradesh,1,https://www.bajajelectronics.com/getstoredetails?stateId=77&cityId=0,store locator
+Bajaj Electronics (Electronics Mart India Ltd),Nellore,Andhra Pradesh,1,https://www.bajajelectronics.com/getstoredetails?stateId=77&cityId=0,store locator
+Bajaj Electronics (Electronics Mart India Ltd),New Delhi,Delhi,22,https://www.bajajelectronics.com/getstoredetails?stateId=78&cityId=0,store locator
+Bajaj Electronics (Electronics Mart India Ltd),Nirmal,Telangana,1,https://www.bajajelectronics.com/getstoredetails?stateId=76&cityId=0,store locator
+Bajaj Electronics (Electronics Mart India Ltd),Nizamabad,Telangana,2,https://www.bajajelectronics.com/getstoredetails?stateId=76&cityId=0,store locator
+Bajaj Electronics (Electronics Mart India Ltd),Noida,Uttar Pradesh,1,https://www.bajajelectronics.com/getstoredetails?stateId=85&cityId=0,store locator
+Bajaj Electronics (Electronics Mart India Ltd),Ongole,Andhra Pradesh,1,https://www.bajajelectronics.com/getstoredetails?stateId=77&cityId=0,store locator
+Bajaj Electronics (Electronics Mart India Ltd),Palakollu,Andhra Pradesh,1,https://www.bajajelectronics.com/getstoredetails?stateId=77&cityId=0,store locator
+Bajaj Electronics (Electronics Mart India Ltd),Palasa,Andhra Pradesh,1,https://www.bajajelectronics.com/getstoredetails?stateId=77&cityId=0,store locator
+Bajaj Electronics (Electronics Mart India Ltd),Payakaraopeta,Andhra Pradesh,1,https://www.bajajelectronics.com/getstoredetails?stateId=77&cityId=0,store locator
+Bajaj Electronics (Electronics Mart India Ltd),Peddapally,Telangana,1,https://www.bajajelectronics.com/getstoredetails?stateId=76&cityId=0,store locator
+Bajaj Electronics (Electronics Mart India Ltd),Pileru,Andhra Pradesh,1,https://www.bajajelectronics.com/getstoredetails?stateId=77&cityId=0,store locator
+Bajaj Electronics (Electronics Mart India Ltd),Proddatur,Andhra Pradesh,1,https://www.bajajelectronics.com/getstoredetails?stateId=77&cityId=0,store locator
+Bajaj Electronics (Electronics Mart India Ltd),Puttur,Andhra Pradesh,1,https://www.bajajelectronics.com/getstoredetails?stateId=77&cityId=0,store locator
+Bajaj Electronics (Electronics Mart India Ltd),Rajahmundry,Andhra Pradesh,2,https://www.bajajelectronics.com/getstoredetails?stateId=77&cityId=0,store locator
+Bajaj Electronics (Electronics Mart India Ltd),Rajampet,Andhra Pradesh,1,https://www.bajajelectronics.com/getstoredetails?stateId=77&cityId=0,store locator
+Bajaj Electronics (Electronics Mart India Ltd),Ramagundam,Telangana,1,https://www.bajajelectronics.com/getstoredetails?stateId=76&cityId=0,store locator
+Bajaj Electronics (Electronics Mart India Ltd),Rayachoti,Andhra Pradesh,1,https://www.bajajelectronics.com/getstoredetails?stateId=77&cityId=0,store locator
+Bajaj Electronics (Electronics Mart India Ltd),Sangareddy,Telangana,1,https://www.bajajelectronics.com/getstoredetails?stateId=76&cityId=0,store locator
+Bajaj Electronics (Electronics Mart India Ltd),Sathupally,Telangana,1,https://www.bajajelectronics.com/getstoredetails?stateId=76&cityId=0,store locator
+Bajaj Electronics (Electronics Mart India Ltd),Shadnagar,Telangana,1,https://www.bajajelectronics.com/getstoredetails?stateId=76&cityId=0,store locator
+Bajaj Electronics (Electronics Mart India Ltd),Shankarpally,Telangana,1,https://www.bajajelectronics.com/getstoredetails?stateId=76&cityId=0,store locator
+Bajaj Electronics (Electronics Mart India Ltd),Siddipet,Telangana,1,https://www.bajajelectronics.com/getstoredetails?stateId=76&cityId=0,store locator
+Bajaj Electronics (Electronics Mart India Ltd),Srikakulam,Andhra Pradesh,1,https://www.bajajelectronics.com/getstoredetails?stateId=77&cityId=0,store locator
+Bajaj Electronics (Electronics Mart India Ltd),Srikalahasti,Andhra Pradesh,1,https://www.bajajelectronics.com/getstoredetails?stateId=77&cityId=0,store locator
+Bajaj Electronics (Electronics Mart India Ltd),Sullurpet,Andhra Pradesh,1,https://www.bajajelectronics.com/getstoredetails?stateId=77&cityId=0,store locator
+Bajaj Electronics (Electronics Mart India Ltd),Suryapet,Telangana,1,https://www.bajajelectronics.com/getstoredetails?stateId=76&cityId=0,store locator
+Bajaj Electronics (Electronics Mart India Ltd),Tadepalligudem,Andhra Pradesh,1,https://www.bajajelectronics.com/getstoredetails?stateId=77&cityId=0,store locator
+Bajaj Electronics (Electronics Mart India Ltd),Tadipatri,Andhra Pradesh,1,https://www.bajajelectronics.com/getstoredetails?stateId=77&cityId=0,store locator
+Bajaj Electronics (Electronics Mart India Ltd),Tandur,Telangana,1,https://www.bajajelectronics.com/getstoredetails?stateId=76&cityId=0,store locator
+Bajaj Electronics (Electronics Mart India Ltd),Tanuku,Andhra Pradesh,1,https://www.bajajelectronics.com/getstoredetails?stateId=77&cityId=0,store locator
+Bajaj Electronics (Electronics Mart India Ltd),Tenali,Andhra Pradesh,1,https://www.bajajelectronics.com/getstoredetails?stateId=77&cityId=0,store locator
+Bajaj Electronics (Electronics Mart India Ltd),Tirupati,Andhra Pradesh,2,https://www.bajajelectronics.com/getstoredetails?stateId=77&cityId=0,store locator
+Bajaj Electronics (Electronics Mart India Ltd),Vijayawada,Andhra Pradesh,6,https://www.bajajelectronics.com/getstoredetails?stateId=77&cityId=0,store locator
+Bajaj Electronics (Electronics Mart India Ltd),Visakhapatnam,Andhra Pradesh,7,https://www.bajajelectronics.com/getstoredetails?stateId=77&cityId=0,store locator
+Bajaj Electronics (Electronics Mart India Ltd),Vizianagaram,Andhra Pradesh,1,https://www.bajajelectronics.com/getstoredetails?stateId=77&cityId=0,store locator
+Bajaj Electronics (Electronics Mart India Ltd),Wanaparthy,Telangana,1,https://www.bajajelectronics.com/getstoredetails?stateId=76&cityId=0,store locator
+Bajaj Electronics (Electronics Mart India Ltd),Warangal,Telangana,1,https://www.bajajelectronics.com/getstoredetails?stateId=76&cityId=0,store locator
+Bajaj Electronics (Electronics Mart India Ltd),Zaheerabad,Telangana,1,https://www.bajajelectronics.com/getstoredetails?stateId=76&cityId=0,store locator
+Girias,Adyar,Tamil Nadu (from pincode),1,https://www.giriasindia.com/stores?page=4,store locator
+Girias,Ambattur,Tamil Nadu (from pincode),1,https://www.giriasindia.com/stores?page=4,store locator
+Girias,Ambur,Tamil Nadu (from pincode),1,https://www.giriasindia.com/stores?page=2,store locator
+Girias,Andhrahalli,Karnataka (from pincode),1,https://www.giriasindia.com/stores?page=5,store locator
+Girias,Anekal,Karnataka (from pincode),1,https://www.giriasindia.com/stores?page=6,store locator
+Girias,Anna Nagar,Tamil Nadu (from pincode),1,https://www.giriasindia.com/stores?page=4,store locator
+Girias,Anupparpalayam,Tamil Nadu (from pincode),1,https://www.giriasindia.com/stores?page=7,store locator
+Girias,Arcot,Tamil Nadu (from pincode),1,https://www.giriasindia.com/stores?page=6,store locator
+Girias,Attibele,UNKNOWN,1,https://www.giriasindia.com/stores?page=4,store locator
+Girias,Avadi,Tamil Nadu (from pincode),1,https://www.giriasindia.com/stores?page=2,store locator
+Girias,Bagepalli,Karnataka (from pincode),1,https://www.giriasindia.com/stores?page=6,store locator
+Girias,Banashankari,Karnataka (from pincode),1,https://www.giriasindia.com/stores?page=2,store locator
+Girias,Bannerghatta Road,Karnataka (from pincode),1,https://www.giriasindia.com/stores?page=2,store locator
+Girias,Batlagundu,Tamil Nadu (from pincode),1,https://www.giriasindia.com/stores?page=5,store locator
+Girias,Belgavi,Karnataka (from pincode),1,https://www.giriasindia.com/stores?page=2,store locator
+Girias,Bellary,Karnataka (from pincode),1,https://www.giriasindia.com/stores?page=3,store locator
+Girias,Bharthiya City Mall,UNKNOWN,1,https://www.giriasindia.com/stores?page=7,store locator
+Girias,Bidadi,Karnataka (from pincode),1,https://www.giriasindia.com/stores?page=1,store locator
+Girias,Bidar,Karnataka (from pincode),1,https://www.giriasindia.com/stores?page=5,store locator
+Girias,Bommanahalli,Karnataka (from pincode),1,https://www.giriasindia.com/stores?page=2,store locator
+Girias,Brigade Road,UNKNOWN,1,https://www.giriasindia.com/stores?page=7,store locator
+Girias,Broadway Hubli,UNKNOWN,1,https://www.giriasindia.com/stores?page=7,store locator
+Girias,Challakere,UNKNOWN,1,https://www.giriasindia.com/stores?page=7,store locator
+Girias,Channapatna,Karnataka (from pincode),1,https://www.giriasindia.com/stores?page=6,store locator
+Girias,Channarayapatna,Karnataka (from pincode),1,https://www.giriasindia.com/stores?page=6,store locator
+Girias,Chengalpattu,Tamil Nadu (from pincode),1,https://www.giriasindia.com/stores?page=7,store locator
+Girias,Chengam,Tamil Nadu (from pincode),1,https://www.giriasindia.com/stores?page=6,store locator
+Girias,Chidambaram,Tamil Nadu (from pincode),1,https://www.giriasindia.com/stores?page=6,store locator
+Girias,Chikka Ballapura,Karnataka (from pincode),1,https://www.giriasindia.com/stores?page=3,store locator
+Girias,Chikkajala,Karnataka (from pincode),1,https://www.giriasindia.com/stores?page=5,store locator
+Girias,Chikkamangalur,Karnataka (from pincode),1,https://www.giriasindia.com/stores?page=6,store locator
+Girias,Chintamani,Karnataka (from pincode),1,https://www.giriasindia.com/stores?page=6,store locator
+Girias,Chitradurga,Karnataka (from pincode),1,https://www.giriasindia.com/stores?page=6,store locator
+Girias,Cuddalore,Tamil Nadu (from pincode),1,https://www.giriasindia.com/stores?page=5,store locator
+Girias,Cumbum,Tamil Nadu (from pincode),1,https://www.giriasindia.com/stores?page=5,store locator
+Girias,Dabolim Vasco,UNKNOWN,1,https://www.giriasindia.com/stores?page=7,store locator
+Girias,Dadagapatty,UNKNOWN,1,https://www.giriasindia.com/stores?page=1,store locator
+Girias,Davangere,Karnataka (from pincode),1,https://www.giriasindia.com/stores?page=2,store locator
+Girias,Dharapuram,Tamil Nadu (from pincode),1,https://www.giriasindia.com/stores?page=5,store locator
+Girias,Dharmapuri,Tamil Nadu (from pincode),1,https://www.giriasindia.com/stores?page=4,store locator
+Girias,Dharwad,Karnataka (from pincode),1,https://www.giriasindia.com/stores?page=2,store locator
+Girias,Dindigul,Tamil Nadu (from pincode),1,https://www.giriasindia.com/stores?page=4,store locator
+Girias,Doddaballapura,Karnataka (from pincode),1,https://www.giriasindia.com/stores?page=4,store locator
+Girias,Egattur,Tamil Nadu (from pincode),1,https://www.giriasindia.com/stores?page=6,store locator
+Girias,Erode,Tamil Nadu (from pincode),1,https://www.giriasindia.com/stores?page=2,store locator
+Girias,Gandhinagar,Karnataka (from pincode),1,https://www.giriasindia.com/stores?page=2,store locator
+Girias,Gandhipuram (Coimbatore),Tamil Nadu (from pincode),1,https://www.giriasindia.com/stores?page=1,store locator
+Girias,Gauribidanur,Karnataka (from pincode),1,https://www.giriasindia.com/stores?page=5,store locator
+Girias,Gokula,Karnataka (from pincode),1,https://www.giriasindia.com/stores?page=2,store locator
+Girias,Gubbi,Karnataka (from pincode),1,https://www.giriasindia.com/stores?page=6,store locator
+Girias,Gudiyattam,Tamil Nadu (from pincode),1,https://www.giriasindia.com/stores?page=4,store locator
+Girias,Guduvanchery,Tamil Nadu (from pincode),1,https://www.giriasindia.com/stores?page=2,store locator
+Girias,Gummidipoondi,Tamil Nadu (from pincode),1,https://www.giriasindia.com/stores?page=7,store locator
+Girias,Harur,Tamil Nadu (from pincode),1,https://www.giriasindia.com/stores?page=5,store locator
+Girias,Hassan,Karnataka (from pincode),1,https://www.giriasindia.com/stores?page=2,store locator
+Girias,Haveri,Karnataka (from pincode),1,https://www.giriasindia.com/stores?page=4,store locator
+Girias,Hebbagodi,UNKNOWN,1,https://www.giriasindia.com/stores?page=4,store locator
+Girias,Hesarghatta Main Road,Karnataka (from pincode),1,https://www.giriasindia.com/stores?page=5,store locator
+Girias,Hiriyur,Karnataka (from pincode),1,https://www.giriasindia.com/stores?page=6,store locator
+Girias,Holenarasipura,Karnataka (from pincode),1,https://www.giriasindia.com/stores?page=1,store locator
+Girias,Hoskote,Karnataka (from pincode),1,https://www.giriasindia.com/stores?page=5,store locator
+Girias,Hospet,Karnataka (from pincode),1,https://www.giriasindia.com/stores?page=2,store locator
+Girias,Hosur,Tamil Nadu (from pincode),1,https://www.giriasindia.com/stores?page=1,store locator
+Girias,Hrbr Layout,Karnataka (from pincode),1,https://www.giriasindia.com/stores?page=2,store locator
+Girias,Hubli,Karnataka (from pincode),1,https://www.giriasindia.com/stores?page=2,store locator
+Girias,Hubli Gokul Road,UNKNOWN,1,https://www.giriasindia.com/stores?page=7,store locator
+Girias,Hunsur,Karnataka (from pincode),1,https://www.giriasindia.com/stores?page=7,store locator
+Girias,Indiranagar,Karnataka (from pincode),1,https://www.giriasindia.com/stores?page=2,store locator
+Girias,Jalahalli Cross,Karnataka (from pincode),1,https://www.giriasindia.com/stores?page=3,store locator
+Girias,Jayanagar,Karnataka (from pincode),1,https://www.giriasindia.com/stores?page=3,store locator
+Girias,K R Pet,UNKNOWN,1,https://www.giriasindia.com/stores?page=7,store locator
+Girias,K R Puram,Karnataka (from pincode),1,https://www.giriasindia.com/stores?page=5,store locator
+Girias,Kadur,Karnataka (from pincode),1,https://www.giriasindia.com/stores?page=6,store locator
+Girias,Kalaburagi,UNKNOWN,1,https://www.giriasindia.com/stores?page=3,store locator
+Girias,Kanakapura,UNKNOWN,1,https://www.giriasindia.com/stores?page=7,store locator
+Girias,Kanakapura Road,Karnataka (from pincode),1,https://www.giriasindia.com/stores?page=3,store locator
+Girias,Kanchipuram,Tamil Nadu (from pincode),1,https://www.giriasindia.com/stores?page=2,store locator
+Girias,Karaikal,Puducherry (from pincode),1,https://www.giriasindia.com/stores?page=5,store locator
+Girias,Karaikudi,Tamil Nadu (from pincode),1,https://www.giriasindia.com/stores?page=4,store locator
+Girias,Karumandapam,Tamil Nadu (from pincode),1,https://www.giriasindia.com/stores?page=1,store locator
+Girias,Karur,Tamil Nadu (from pincode),1,https://www.giriasindia.com/stores?page=4,store locator
+Girias,Kathriguppe,Karnataka (from pincode),1,https://www.giriasindia.com/stores?page=3,store locator
+Girias,Katpadi,Tamil Nadu (from pincode),1,https://www.giriasindia.com/stores?page=2,store locator
+Girias,Keelkattalai,Tamil Nadu (from pincode),1,https://www.giriasindia.com/stores?page=4,store locator
+Girias,Kelambakkam,Tamil Nadu (from pincode),1,https://www.giriasindia.com/stores?page=6,store locator
+Girias,Kengeri,Karnataka (from pincode),1,https://www.giriasindia.com/stores?page=4,store locator
+Girias,Kgf,Karnataka (from pincode),1,https://www.giriasindia.com/stores?page=1,store locator
+Girias,Kolar,Karnataka (from pincode),1,https://www.giriasindia.com/stores?page=2,store locator
+Girias,Kolathur,Tamil Nadu (from pincode),1,https://www.giriasindia.com/stores?page=6,store locator
+Girias,Koramangala,Karnataka (from pincode),1,https://www.giriasindia.com/stores?page=3,store locator
+Girias,Kovilpatti,Tamil Nadu (from pincode),1,https://www.giriasindia.com/stores?page=5,store locator
+Girias,Kr Nagara,Karnataka (from pincode),1,https://www.giriasindia.com/stores?page=6,store locator
+Girias,Krishnagiri,Tamil Nadu (from pincode),1,https://www.giriasindia.com/stores?page=4,store locator
+Girias,Kumbakonam,Tamil Nadu (from pincode),1,https://www.giriasindia.com/stores?page=2,store locator
+Girias,Kundrathur,Tamil Nadu (from pincode),1,https://www.giriasindia.com/stores?page=1,store locator
+Girias,Kunigal,Karnataka (from pincode),1,https://www.giriasindia.com/stores?page=5,store locator
+Girias,Kushalnagara,UNKNOWN,1,https://www.giriasindia.com/stores?page=5,store locator
+Girias,Kuvempunagar,Karnataka (from pincode),1,https://www.giriasindia.com/stores?page=3,store locator
+Girias,Madurai,Tamil Nadu (from pincode),1,https://www.giriasindia.com/stores?page=5,store locator
+Girias,Madurai Main,Tamil Nadu (from pincode),1,https://www.giriasindia.com/stores?page=1,store locator
+Girias,Magadi Road,Karnataka (from pincode),1,https://www.giriasindia.com/stores?page=5,store locator
+Girias,Mahalingapuram (Elite),Tamil Nadu (from pincode),1,https://www.giriasindia.com/stores?page=4,store locator
+Girias,Malavalli,UNKNOWN,1,https://www.giriasindia.com/stores?page=1,store locator
+Girias,Malleshwaram,Karnataka (from pincode),1,https://www.giriasindia.com/stores?page=3,store locator
+Girias,Malur,Karnataka (from pincode),1,https://www.giriasindia.com/stores?page=6,store locator
+Girias,Manali,Tamil Nadu (from pincode),1,https://www.giriasindia.com/stores?page=6,store locator
+Girias,Mandya,Karnataka (from pincode),1,https://www.giriasindia.com/stores?page=3,store locator
+Girias,Mangalore(Kadri Rd),Karnataka (from pincode),1,https://www.giriasindia.com/stores?page=3,store locator
+Girias,Mangalore(Ksr Rd),Karnataka (from pincode),1,https://www.giriasindia.com/stores?page=3,store locator
+Girias,Mannivakkam (Mudichur),Tamil Nadu (from pincode),1,https://www.giriasindia.com/stores?page=7,store locator
+Girias,Marathalli,Karnataka (from pincode),1,https://www.giriasindia.com/stores?page=3,store locator
+Girias,Marthandam,UNKNOWN,1,https://www.giriasindia.com/stores?page=4,store locator
+Girias,Medavakkam,UNKNOWN,1,https://www.giriasindia.com/stores?page=7,store locator
+Girias,Mettupalayam,UNKNOWN,1,https://www.giriasindia.com/stores?page=4,store locator
+Girias,Mkb Nagar (Vyasarpadi),Tamil Nadu (from pincode),1,https://www.giriasindia.com/stores?page=7,store locator
+Girias,Mogappair West,Tamil Nadu (from pincode),1,https://www.giriasindia.com/stores?page=1,store locator
+Girias,Mulabagilu,Karnataka (from pincode),1,https://www.giriasindia.com/stores?page=1,store locator
+Girias,Mysore,Karnataka (from pincode),1,https://www.giriasindia.com/stores?page=3,store locator
+Girias,Mysore Road (Guddadahalli),Karnataka (from pincode),1,https://www.giriasindia.com/stores?page=3,store locator
+Girias,Nagapattinam,Tamil Nadu (from pincode),1,https://www.giriasindia.com/stores?page=5,store locator
+Girias,Nagarbhavi,Karnataka (from pincode),1,https://www.giriasindia.com/stores?page=3,store locator
+Girias,Nagercoil,Tamil Nadu (from pincode),1,https://www.giriasindia.com/stores?page=2,store locator
+Girias,Namakkal,Tamil Nadu (from pincode),1,https://www.giriasindia.com/stores?page=2,store locator
+Girias,Nanganallur,Tamil Nadu (from pincode),1,https://www.giriasindia.com/stores?page=1,store locator
+Girias,Nanjangud,Karnataka (from pincode),1,https://www.giriasindia.com/stores?page=6,store locator
+Girias,Nelamangala,UNKNOWN,1,https://www.giriasindia.com/stores?page=3,store locator
+Girias,Neyveli,Tamil Nadu (from pincode),1,https://www.giriasindia.com/stores?page=4,store locator
+Girias,Oddanchatram,Tamil Nadu (from pincode),1,https://www.giriasindia.com/stores?page=5,store locator
+Girias,Okkiyam Thuraipakkam,Tamil Nadu (from pincode),1,https://www.giriasindia.com/stores?page=4,store locator
+Girias,Palani,Tamil Nadu (from pincode),1,https://www.giriasindia.com/stores?page=6,store locator
+Girias,Palayamkottai,Tamil Nadu (from pincode),1,https://www.giriasindia.com/stores?page=2,store locator
+Girias,Pallavaram,Tamil Nadu (from pincode),1,https://www.giriasindia.com/stores?page=6,store locator
+Girias,Panjim,UNKNOWN,1,https://www.giriasindia.com/stores?page=7,store locator
+Girias,Pattukkottai,Tamil Nadu (from pincode),1,https://www.giriasindia.com/stores?page=1,store locator
+Girias,Perambalur,Tamil Nadu (from pincode),1,https://www.giriasindia.com/stores?page=4,store locator
+Girias,Perundurai,UNKNOWN,1,https://www.giriasindia.com/stores?page=1,store locator
+Girias,"Plot No.1, Annai Nagar, Agaram Village, Tiruchirapalli - 620011.",UNKNOWN,1,https://www.giriasindia.com/stores?page=7,store locator
+Girias,Pollachi,Tamil Nadu (from pincode),1,https://www.giriasindia.com/stores?page=1,store locator
+Girias,Ponda,UNKNOWN,1,https://www.giriasindia.com/stores?page=7,store locator
+Girias,Ponneri,Tamil Nadu (from pincode),1,https://www.giriasindia.com/stores?page=1,store locator
+Girias,Poonamallee,Tamil Nadu (from pincode),1,https://www.giriasindia.com/stores?page=5,store locator
+Girias,Porur,Tamil Nadu (from pincode),1,https://www.giriasindia.com/stores?page=4,store locator
+Girias,Porvorim,UNKNOWN,1,https://www.giriasindia.com/stores?page=7,store locator
+Girias,Puducherry,Puducherry (from pincode),2,https://www.giriasindia.com/stores?page=5,store locator
+Girias,R T Nagar,Karnataka (from pincode),1,https://www.giriasindia.com/stores?page=3,store locator
+Girias,Raichur,Karnataka (from pincode),1,https://www.giriasindia.com/stores?page=3,store locator
+Girias,Raja Annamalai Puram,Tamil Nadu (from pincode),1,https://www.giriasindia.com/stores?page=1,store locator
+Girias,Rajajinagar,Karnataka (from pincode),1,https://www.giriasindia.com/stores?page=3,store locator
+Girias,Rajapalayam,Tamil Nadu (from pincode),1,https://www.giriasindia.com/stores?page=6,store locator
+Girias,Ramanagara,Karnataka (from pincode),1,https://www.giriasindia.com/stores?page=3,store locator
+Girias,Ramanathapuram,Tamil Nadu (from pincode),1,https://www.giriasindia.com/stores?page=2,store locator
+Girias,Redhills,UNKNOWN,1,https://www.giriasindia.com/stores?page=7,store locator
+Girias,Royapettah,Tamil Nadu (from pincode),1,https://www.giriasindia.com/stores?page=6,store locator
+Girias,Sadashivnagar,Karnataka (from pincode),1,https://www.giriasindia.com/stores?page=3,store locator
+Girias,Sahakarnagar,Karnataka (from pincode),1,https://www.giriasindia.com/stores?page=4,store locator
+Girias,Salem,Tamil Nadu (from pincode),1,https://www.giriasindia.com/stores?page=1,store locator
+Girias,Sankarankoil,Tamil Nadu (from pincode),1,https://www.giriasindia.com/stores?page=7,store locator
+Girias,Sarjapura,Karnataka (from pincode),1,https://www.giriasindia.com/stores?page=5,store locator
+Girias,Sathyamangalam,Tamil Nadu (from pincode),1,https://www.giriasindia.com/stores?page=1,store locator
+Girias,Shivamogga,Karnataka (from pincode),1,https://www.giriasindia.com/stores?page=3,store locator
+Girias,Sira,Karnataka (from pincode),1,https://www.giriasindia.com/stores?page=6,store locator
+Girias,Sivanandapuram,Tamil Nadu (from pincode),1,https://www.giriasindia.com/stores?page=4,store locator
+Girias,Sulur,Tamil Nadu (from pincode),1,https://www.giriasindia.com/stores?page=4,store locator
+Girias,Sundarapuram,Tamil Nadu (from pincode),1,https://www.giriasindia.com/stores?page=7,store locator
+Girias,Tambaram (West),Tamil Nadu (from pincode),1,https://www.giriasindia.com/stores?page=1,store locator
+Girias,Tenkasi,Tamil Nadu (from pincode),1,https://www.giriasindia.com/stores?page=5,store locator
+Girias,Thanjavur,UNKNOWN,1,https://www.giriasindia.com/stores?page=1,store locator
+Girias,Theni,Tamil Nadu (from pincode),1,https://www.giriasindia.com/stores?page=4,store locator
+Girias,Thiruttani,Tamil Nadu (from pincode),1,https://www.giriasindia.com/stores?page=6,store locator
+Girias,Thiruvallur,Tamil Nadu (from pincode),1,https://www.giriasindia.com/stores?page=1,store locator
+Girias,Thiruvarur,Tamil Nadu (from pincode),1,https://www.giriasindia.com/stores?page=5,store locator
+Girias,Tilakwadi Belagavi,Karnataka (from pincode),1,https://www.giriasindia.com/stores?page=7,store locator
+Girias,Tiptur,Karnataka (from pincode),1,https://www.giriasindia.com/stores?page=6,store locator
+Girias,Tiruchirapalli,Tamil Nadu (from pincode),1,https://www.giriasindia.com/stores?page=2,store locator
+Girias,Tiruppur,Tamil Nadu (from pincode),1,https://www.giriasindia.com/stores?page=1,store locator
+Girias,Tondiarpet,Tamil Nadu (from pincode),1,https://www.giriasindia.com/stores?page=5,store locator
+Girias,Trichy Road (Coimbatore),Tamil Nadu (from pincode),1,https://www.giriasindia.com/stores?page=1,store locator
+Girias,Tumkur,Karnataka (from pincode),1,https://www.giriasindia.com/stores?page=3,store locator
+Girias,Udumalaipettai,Tamil Nadu (from pincode),1,https://www.giriasindia.com/stores?page=7,store locator
+Girias,Udupi,Karnataka (from pincode),1,https://www.giriasindia.com/stores?page=4,store locator
+Girias,Vanagaram,Tamil Nadu (from pincode),1,https://www.giriasindia.com/stores?page=7,store locator
+Girias,Velachery,Tamil Nadu (from pincode),1,https://www.giriasindia.com/stores?page=1,store locator
+Girias,Vijaynagar,Karnataka (from pincode),1,https://www.giriasindia.com/stores?page=3,store locator
+Girias,Vilupuruam,Tamil Nadu (from pincode),1,https://www.giriasindia.com/stores?page=5,store locator
+Girias,Virugambakkam,Tamil Nadu (from pincode),1,https://www.giriasindia.com/stores?page=1,store locator
+Girias,Yelahanka,Karnataka (from pincode),1,https://www.giriasindia.com/stores?page=3,store locator
+Great Eastern Retail,Barasat,West Bengal,1,https://www.greateasternretail.com/find-store,store locator
+Great Eastern Retail,Bhubaneswar,Odisha,3,https://www.greateasternretail.com/find-store,store locator
+Great Eastern Retail,Bikaner,Rajasthan,1,https://www.greateasternretail.com/find-store,store locator
+Great Eastern Retail,Brahmapur,Odisha,1,https://www.greateasternretail.com/find-store,store locator
+Great Eastern Retail,Burdwan,West Bengal,1,https://www.greateasternretail.com/find-store,store locator
+Great Eastern Retail,Cuttack,Odisha,2,https://www.greateasternretail.com/find-store,store locator
+Great Eastern Retail,Delhi,Delhi,13,https://www.greateasternretail.com/find-store,store locator
+Great Eastern Retail,Haldia,West Bengal,1,https://www.greateasternretail.com/find-store,store locator
+Great Eastern Retail,Hoogly,West Bengal,1,https://www.greateasternretail.com/find-store,store locator
+Great Eastern Retail,Howrah,West Bengal,6,https://www.greateasternretail.com/find-store,store locator
+Great Eastern Retail,Jaipur,Rajasthan,8,https://www.greateasternretail.com/find-store,store locator
+Great Eastern Retail,Jaipyr,Rajasthan,1,https://www.greateasternretail.com/find-store,store locator
+Great Eastern Retail,Jodhpur,Rajasthan,3,https://www.greateasternretail.com/find-store,store locator
+Great Eastern Retail,Kanchrapara,West Bengal,1,https://www.greateasternretail.com/find-store,store locator
+Great Eastern Retail,Kanpur,Uttar Pradesh,1,https://www.greateasternretail.com/find-store,store locator
+Great Eastern Retail,Kolkata,West Bengal,15,https://www.greateasternretail.com/find-store,store locator
+Great Eastern Retail,Lucknow,Uttar Pradesh,7,https://www.greateasternretail.com/find-store,store locator
+Great Eastern Retail,Malda,West Bengal,1,https://www.greateasternretail.com/find-store,store locator
+Great Eastern Retail,Medinipur,West Bengal,1,https://www.greateasternretail.com/find-store,store locator
+Great Eastern Retail,Nadia,West Bengal,1,https://www.greateasternretail.com/find-store,store locator
+Great Eastern Retail,North 24 Pargana,West Bengal,2,https://www.greateasternretail.com/find-store,store locator
+Great Eastern Retail,Raypur,West Bengal,1,https://www.greateasternretail.com/find-store,store locator
+Great Eastern Retail,Sonarpur,West Bengal,1,https://www.greateasternretail.com/find-store,store locator
+Great Eastern Retail,Udaipur,Rajasthan,1,https://www.greateasternretail.com/find-store,store locator
+Great Eastern Retail,Varanasi,Uttar Pradesh,1,https://www.greateasternretail.com/find-store,store locator
+Great Eastern Retail,Vizag,Andhra Pradesh,1,https://www.greateasternretail.com/find-store,store locator
+Kohinoor Electronics,Mumbai,Maharashtra,7,https://www.kohinoorelectronics.com/find-store,store locator
+Kohinoor Electronics,Thane,Maharashtra,6,https://www.kohinoorelectronics.com/find-store,store locator
+Lotus Electronics,Bhilai,Chhattisgarh,1,https://www.lotuselectronics.com/contact-us/bhilai,store locator
+Lotus Electronics,Bhopal,Madhya Pradesh,5,https://www.lotuselectronics.com/contact-us/bhopal,store locator
+Lotus Electronics,Bilaspur,Chhattisgarh,1,https://www.lotuselectronics.com/contact-us/bilaspur,store locator
+Lotus Electronics,Indore,Madhya Pradesh,8,https://www.lotuselectronics.com/contact-us/indore,store locator
+Lotus Electronics,Jabalpur,Madhya Pradesh,1,https://www.lotuselectronics.com/contact-us/jabalpur,store locator
+Lotus Electronics,Jaipur,Rajasthan,4,https://www.lotuselectronics.com/contact-us/jaipur,store locator
+Lotus Electronics,Nagpur,Maharashtra,4,https://www.lotuselectronics.com/contact-us/nagpur,store locator
+Lotus Electronics,Raipur,Chhattisgarh,3,https://www.lotuselectronics.com/contact-us/raipur,store locator
+Lotus Electronics,Ujjain,Madhya Pradesh,1,https://www.lotuselectronics.com/contact-us/ujjain,store locator
+Nandilath G-Mart,UNKNOWN,Kerala,59,https://nandilathgmart.com/our-stores/,store locator
+Oxygen The Digital Expert (Oxygen Digital Shop),Adimali,Kerala,1,https://www.oxygendigitalshop.com/pages/store-locator-adimali-store,store locator
+Oxygen The Digital Expert (Oxygen Digital Shop),Adoor,Kerala,1,https://www.oxygendigitalshop.com/pages/store-locator-adoor-store,store locator
+Oxygen The Digital Expert (Oxygen Digital Shop),Anakkara,Kerala,1,https://www.oxygendigitalshop.com/pages/store-locator-anakkara-store,store locator
+Oxygen The Digital Expert (Oxygen Digital Shop),Anchal,Kerala,1,https://www.oxygendigitalshop.com/pages/store-locator-anchal-store,store locator
+Oxygen The Digital Expert (Oxygen Digital Shop),Changanassery,Kerala,1,https://www.oxygendigitalshop.com/pages/store-locator-changanacherry-store,store locator
+Oxygen The Digital Expert (Oxygen Digital Shop),Edappally,Kerala,1,https://www.oxygendigitalshop.com/pages/store-locator-edappally-store,store locator
+Oxygen The Digital Expert (Oxygen Digital Shop),Erattupetta,Kerala,1,https://www.oxygendigitalshop.com/pages/store-locator-erattupetta-store,store locator
+Oxygen The Digital Expert (Oxygen Digital Shop),Kadavanthara,Kerala,1,https://www.oxygendigitalshop.com/pages/store-locator-kadavantra-store,store locator
+Oxygen The Digital Expert (Oxygen Digital Shop),Kanjikuzhy,Kerala,1,https://www.oxygendigitalshop.com/pages/store-locator-kanjikuzhy-store,store locator
+Oxygen The Digital Expert (Oxygen Digital Shop),Kanjirappally,Kerala,1,https://www.oxygendigitalshop.com/pages/store-locator-kanjirappally-store,store locator
+Oxygen The Digital Expert (Oxygen Digital Shop),Kattappana,Kerala,1,https://www.oxygendigitalshop.com/pages/store-locator-kattappana-store,store locator
+Oxygen The Digital Expert (Oxygen Digital Shop),Kayamkulam,Kerala,1,https://www.oxygendigitalshop.com/pages/store-locator-kayamkulam-store,store locator
+Oxygen The Digital Expert (Oxygen Digital Shop),Kilimanoor,Kerala,1,https://www.oxygendigitalshop.com/pages/store-locator-kilimanoor-store,store locator
+Oxygen The Digital Expert (Oxygen Digital Shop),Kodimatha,Kerala,1,https://www.oxygendigitalshop.com/pages/store-locator-kodimatha-store,store locator
+Oxygen The Digital Expert (Oxygen Digital Shop),Kollam,Kerala,1,https://www.oxygendigitalshop.com/pages/store-locator-kollam-store,store locator
+Oxygen The Digital Expert (Oxygen Digital Shop),Koothattukulam,Kerala,1,https://www.oxygendigitalshop.com/pages/store-locator-koothattukulam-store,store locator
+Oxygen The Digital Expert (Oxygen Digital Shop),Kothamangalam,Kerala,1,https://www.oxygendigitalshop.com/pages/store-locator-kothamangalam-store,store locator
+Oxygen The Digital Expert (Oxygen Digital Shop),Kottakkal,Kerala,1,https://www.oxygendigitalshop.com/pages/store-locator-kottakkal-store,store locator
+Oxygen The Digital Expert (Oxygen Digital Shop),Kottarakkara,Kerala,1,https://www.oxygendigitalshop.com/pages/store-locator-kottarakkara-store,store locator
+Oxygen The Digital Expert (Oxygen Digital Shop),Manjeri,Kerala,1,https://www.oxygendigitalshop.com/pages/store-locator-manjeri-store,store locator
+Oxygen The Digital Expert (Oxygen Digital Shop),Muthoor,Kerala,1,https://www.oxygendigitalshop.com/pages/store-locator-muthoor-store,store locator
+Oxygen The Digital Expert (Oxygen Digital Shop),Muvattupuzha,Kerala,1,https://www.oxygendigitalshop.com/pages/store-locator-muvattupuzha-store,store locator
+Oxygen The Digital Expert (Oxygen Digital Shop),Nedumangad,Kerala,1,https://www.oxygendigitalshop.com/pages/store-locator-nedumangadu-store,store locator
+Oxygen The Digital Expert (Oxygen Digital Shop),Nedumkandam,Kerala,1,https://www.oxygendigitalshop.com/pages/store-locator-nedumkandam-store,store locator
+Oxygen The Digital Expert (Oxygen Digital Shop),Pala,Kerala,1,https://www.oxygendigitalshop.com/pages/store-locator-pala-store,store locator
+Oxygen The Digital Expert (Oxygen Digital Shop),Palakkad,Kerala,1,https://www.oxygendigitalshop.com/pages/store-locator-palakkad,store locator
+Oxygen The Digital Expert (Oxygen Digital Shop),Pathanamthitta,Kerala,1,https://www.oxygendigitalshop.com/pages/store-locator-pathanamthitta-store,store locator
+Oxygen The Digital Expert (Oxygen Digital Shop),Pathanapuram,Kerala,1,https://www.oxygendigitalshop.com/pages/store-locator-pathanapuram-store,store locator
+Oxygen The Digital Expert (Oxygen Digital Shop),Pattambi,Kerala,1,https://www.oxygendigitalshop.com/pages/store-locator-pattambi-store,store locator
+Oxygen The Digital Expert (Oxygen Digital Shop),Pattom,Kerala,1,https://www.oxygendigitalshop.com/pages/store-locator-pattom-store,store locator
+Oxygen The Digital Expert (Oxygen Digital Shop),Punalur,Kerala,1,https://www.oxygendigitalshop.com/pages/store-locator-punalur-store,store locator
+Oxygen The Digital Expert (Oxygen Digital Shop),Ranni,Kerala,1,https://www.oxygendigitalshop.com/pages/store-locator-ranni-store,store locator
+Oxygen The Digital Expert (Oxygen Digital Shop),Thalayolaparambu,Kerala,1,https://www.oxygendigitalshop.com/pages/store-locator-thalayolaparambu,store locator
+Oxygen The Digital Expert (Oxygen Digital Shop),Thirunakkara,Kerala,1,https://www.oxygendigitalshop.com/pages/store-locator-thirunakkara-store,store locator
+Oxygen The Digital Expert (Oxygen Digital Shop),Thiruvalla,Kerala,1,https://www.oxygendigitalshop.com/pages/store-locator-thiruvalla-store,store locator
+Oxygen The Digital Expert (Oxygen Digital Shop),Thodupuzha,Kerala,1,https://www.oxygendigitalshop.com/pages/store-locator-thodupuzha-store,store locator
+Oxygen The Digital Expert (Oxygen Digital Shop),Thrissur,Kerala,1,https://www.oxygendigitalshop.com/pages/store-locator-thrissur-store,store locator
+Oxygen The Digital Expert (Oxygen Digital Shop),Vaikom,Kerala,1,https://www.oxygendigitalshop.com/pages/store-locator-vaikom-store,store locator
+Pittappillil Agencies,- Angamaly,Kerala,1,https://www.pittappillilonline.com/store-locator,store locator
+Pittappillil Agencies,- Erattupetta,Kerala,1,https://www.pittappillilonline.com/store-locator,store locator
+Pittappillil Agencies,- Kakkanad,Kerala,1,https://www.pittappillilonline.com/store-locator,store locator
+Pittappillil Agencies,- Kanjirappally,Kerala,1,https://www.pittappillilonline.com/store-locator,store locator
+Pittappillil Agencies,- Kazhakoottam,Kerala,1,https://www.pittappillilonline.com/store-locator,store locator
+Pittappillil Agencies,- Kottiyam,Kerala,1,https://www.pittappillilonline.com/store-locator,store locator
+Pittappillil Agencies,- Omassery,Kerala,1,https://www.pittappillilonline.com/store-locator,store locator
+Pittappillil Agencies,- Pala Digi,Kerala,1,https://www.pittappillilonline.com/store-locator,store locator
+Pittappillil Agencies,- Punalur,Kerala,1,https://www.pittappillilonline.com/store-locator,store locator
+Pittappillil Agencies,- Ramanattukara,Kerala,1,https://www.pittappillilonline.com/store-locator,store locator
+Pittappillil Agencies,- Thodupuzha,Kerala,1,https://www.pittappillilonline.com/store-locator,store locator
+Pittappillil Agencies,- Vadakara,Kerala,1,https://www.pittappillilonline.com/store-locator,store locator
+Pittappillil Agencies,Adimaly,Kerala,1,https://www.pittappillilonline.com/store-locator,store locator
+Pittappillil Agencies,Adoor,Kerala,1,https://www.pittappillilonline.com/store-locator,store locator
+Pittappillil Agencies,Agnamaly Digital-Hub,Kerala,1,https://www.pittappillilonline.com/store-locator,store locator
+Pittappillil Agencies,Alappuzha,Kerala,1,https://www.pittappillilonline.com/store-locator,store locator
+Pittappillil Agencies,Ambalappuzha,Kerala,1,https://www.pittappillilonline.com/store-locator,store locator
+Pittappillil Agencies,Angamaly,Kerala,1,https://www.pittappillilonline.com/store-locator,store locator
+Pittappillil Agencies,Angamaly Geojo,Kerala,1,https://www.pittappillilonline.com/store-locator,store locator
+Pittappillil Agencies,Balussery,Kerala,1,https://www.pittappillilonline.com/store-locator,store locator
+Pittappillil Agencies,Chadayamangalam,Kerala,1,https://www.pittappillilonline.com/store-locator,store locator
+Pittappillil Agencies,Chalakudy,Kerala,1,https://www.pittappillilonline.com/store-locator,store locator
+Pittappillil Agencies,Changanassery,Kerala,1,https://www.pittappillilonline.com/store-locator,store locator
+Pittappillil Agencies,Chengannur,Kerala,1,https://www.pittappillilonline.com/store-locator,store locator
+Pittappillil Agencies,Edappal,Kerala,1,https://www.pittappillilonline.com/store-locator,store locator
+Pittappillil Agencies,Edappally,Kerala,1,https://www.pittappillilonline.com/store-locator,store locator
+Pittappillil Agencies,Eraviperoor,Kerala,1,https://www.pittappillilonline.com/store-locator,store locator
+Pittappillil Agencies,Ettumanoor,Kerala,1,https://www.pittappillilonline.com/store-locator,store locator
+Pittappillil Agencies,Haripad,Kerala,1,https://www.pittappillilonline.com/store-locator,store locator
+Pittappillil Agencies,Irinjalakuda,Kerala,1,https://www.pittappillilonline.com/store-locator,store locator
+Pittappillil Agencies,Kadakkal,Kerala,1,https://www.pittappillilonline.com/store-locator,store locator
+Pittappillil Agencies,Kakkad,Kerala,1,https://www.pittappillilonline.com/store-locator,store locator
+Pittappillil Agencies,Kanhangad,Kerala,1,https://www.pittappillilonline.com/store-locator,store locator
+Pittappillil Agencies,Kattakkada,Kerala,1,https://www.pittappillilonline.com/store-locator,store locator
+Pittappillil Agencies,Kattappana,Kerala,1,https://www.pittappillilonline.com/store-locator,store locator
+Pittappillil Agencies,Kayamkulam,Kerala,1,https://www.pittappillilonline.com/store-locator,store locator
+Pittappillil Agencies,Kilimanoor,Kerala,1,https://www.pittappillilonline.com/store-locator,store locator
+Pittappillil Agencies,Kodungallur,Kerala,1,https://www.pittappillilonline.com/store-locator,store locator
+Pittappillil Agencies,Kolenchery,Kerala,1,https://www.pittappillilonline.com/store-locator,store locator
+Pittappillil Agencies,Kollam,Kerala,1,https://www.pittappillilonline.com/store-locator,store locator
+Pittappillil Agencies,Kondotty,Kerala,1,https://www.pittappillilonline.com/store-locator,store locator
+Pittappillil Agencies,Kothamangalam,Kerala,1,https://www.pittappillilonline.com/store-locator,store locator
+Pittappillil Agencies,Kottarakkara,Kerala,2,https://www.pittappillilonline.com/store-locator,store locator
+Pittappillil Agencies,Kottayam,Kerala,1,https://www.pittappillilonline.com/store-locator,store locator
+Pittappillil Agencies,Koyilandy,Kerala,1,https://www.pittappillilonline.com/store-locator,store locator
+Pittappillil Agencies,Kozhencherry,Kerala,1,https://www.pittappillilonline.com/store-locator,store locator
+Pittappillil Agencies,Kozhikode,Kerala,1,https://www.pittappillilonline.com/store-locator,store locator
+Pittappillil Agencies,Kunnamkulam,Kerala,1,https://www.pittappillilonline.com/store-locator,store locator
+Pittappillil Agencies,Kunnathangadi,Kerala,1,https://www.pittappillilonline.com/store-locator,store locator
+Pittappillil Agencies,Manjeri,Kerala,1,https://www.pittappillilonline.com/store-locator,store locator
+Pittappillil Agencies,Mannarkkad,Kerala,1,https://www.pittappillilonline.com/store-locator,store locator
+Pittappillil Agencies,Mavelikkara,Kerala,1,https://www.pittappillilonline.com/store-locator,store locator
+Pittappillil Agencies,Muvattupuzha,Kerala,2,https://www.pittappillilonline.com/store-locator,store locator
+Pittappillil Agencies,Nedumangad,Kerala,1,https://www.pittappillilonline.com/store-locator,store locator
+Pittappillil Agencies,New Mahe,Kerala,1,https://www.pittappillilonline.com/store-locator,store locator
+Pittappillil Agencies,Nilambur,Kerala,1,https://www.pittappillilonline.com/store-locator,store locator
+Pittappillil Agencies,North Paravur,Kerala,1,https://www.pittappillilonline.com/store-locator,store locator
+Pittappillil Agencies,Pala,Kerala,1,https://www.pittappillilonline.com/store-locator,store locator
+Pittappillil Agencies,Palakkad,Kerala,1,https://www.pittappillilonline.com/store-locator,store locator
+Pittappillil Agencies,Pandalam,Kerala,1,https://www.pittappillilonline.com/store-locator,store locator
+Pittappillil Agencies,Paravattani,Kerala,1,https://www.pittappillilonline.com/store-locator,store locator
+Pittappillil Agencies,Paruthippara,Kerala,1,https://www.pittappillilonline.com/store-locator,store locator
+Pittappillil Agencies,Pathanamthitta,Kerala,1,https://www.pittappillilonline.com/store-locator,store locator
+Pittappillil Agencies,Pattambi,Kerala,1,https://www.pittappillilonline.com/store-locator,store locator
+Pittappillil Agencies,Perambra,Kerala,1,https://www.pittappillilonline.com/store-locator,store locator
+Pittappillil Agencies,Perinthalmanna,Kerala,1,https://www.pittappillilonline.com/store-locator,store locator
+Pittappillil Agencies,Perumbavoor,Kerala,2,https://www.pittappillilonline.com/store-locator,store locator
+Pittappillil Agencies,Pittappillil Digital Hub Edappally,Kerala,1,https://www.pittappillilonline.com/store-locator,store locator
+Pittappillil Agencies,Ponkunnam,Kerala,1,https://www.pittappillilonline.com/store-locator,store locator
+Pittappillil Agencies,Ranni,Kerala,1,https://www.pittappillilonline.com/store-locator,store locator
+Pittappillil Agencies,Sasthamkotta,Kerala,1,https://www.pittappillilonline.com/store-locator,store locator
+Pittappillil Agencies,Thamarassery,Kerala,1,https://www.pittappillilonline.com/store-locator,store locator
+Pittappillil Agencies,Thirunavaya,Kerala,1,https://www.pittappillilonline.com/store-locator,store locator
+Pittappillil Agencies,Thiruvalla,Kerala,1,https://www.pittappillilonline.com/store-locator,store locator
+Pittappillil Agencies,Thrippunithura,Kerala,1,https://www.pittappillilonline.com/store-locator,store locator
+Pittappillil Agencies,Thrissur,Kerala,1,https://www.pittappillilonline.com/store-locator,store locator
+Pittappillil Agencies,Valanchery,Kerala,1,https://www.pittappillilonline.com/store-locator,store locator
+Pittappillil Agencies,Vellayambalam,Kerala,1,https://www.pittappillilonline.com/store-locator,store locator
+Pittappillil Agencies,Wandoor,Kerala,1,https://www.pittappillilonline.com/store-locator,store locator
+Vasanth & Co,Ambattur,Tamil Nadu,1,https://vasanthandco.in/branches,store locator
+Vasanth & Co,Ambur,Tamil Nadu,1,https://vasanthandco.in/branches,store locator
+Vasanth & Co,Arakkonam,Tamil Nadu,1,https://vasanthandco.in/branches,store locator
+Vasanth & Co,Arani,Tamil Nadu,1,https://vasanthandco.in/branches,store locator
+Vasanth & Co,Arcot,Tamil Nadu,1,https://vasanthandco.in/branches,store locator
+Vasanth & Co,Ariyalur,Tamil Nadu,1,https://vasanthandco.in/branches,store locator
+Vasanth & Co,Aruppukottai,Tamil Nadu,1,https://vasanthandco.in/branches,store locator
+Vasanth & Co,Attur,Tamil Nadu,1,https://vasanthandco.in/branches,store locator
+Vasanth & Co,Bangalore,Karnataka,1,https://vasanthandco.in/branches,store locator
+Vasanth & Co,Batlagundu,Tamil Nadu,1,https://vasanthandco.in/branches,store locator
+Vasanth & Co,Chengalpattu,Tamil Nadu,2,https://vasanthandco.in/branches,store locator
+Vasanth & Co,Chengalpet,Tamil Nadu,1,https://vasanthandco.in/branches,store locator
+Vasanth & Co,Chennai,Tamil Nadu,29,https://vasanthandco.in/branches,store locator
+Vasanth & Co,Chidambaram,Tamil Nadu,1,https://vasanthandco.in/branches,store locator
+Vasanth & Co,Chinnamanur,Tamil Nadu,1,https://vasanthandco.in/branches,store locator
+Vasanth & Co,Coimbatore,Tamil Nadu,4,https://vasanthandco.in/branches,store locator
+Vasanth & Co,Cuddalore,Tamil Nadu,1,https://vasanthandco.in/branches,store locator
+Vasanth & Co,Cumbum,Tamil Nadu,1,https://vasanthandco.in/branches,store locator
+Vasanth & Co,Devakottai.,Tamil Nadu,1,https://vasanthandco.in/branches,store locator
+Vasanth & Co,Dharmapuri,Tamil Nadu,1,https://vasanthandco.in/branches,store locator
+Vasanth & Co,Dindigul,Tamil Nadu,1,https://vasanthandco.in/branches,store locator
+Vasanth & Co,Erode,Tamil Nadu,1,https://vasanthandco.in/branches,store locator
+Vasanth & Co,Gobichettipalayam,Tamil Nadu,1,https://vasanthandco.in/branches,store locator
+Vasanth & Co,Gowrivakkam,Tamil Nadu,1,https://vasanthandco.in/branches,store locator
+Vasanth & Co,Gudiyatham,Tamil Nadu,1,https://vasanthandco.in/branches,store locator
+Vasanth & Co,Gummidipoondi,Tamil Nadu,1,https://vasanthandco.in/branches,store locator
+Vasanth & Co,Harur,Tamil Nadu,1,https://vasanthandco.in/branches,store locator
+Vasanth & Co,Hosur,Tamil Nadu,1,https://vasanthandco.in/branches,store locator
+Vasanth & Co,Jayankondam,Tamil Nadu,1,https://vasanthandco.in/branches,store locator
+Vasanth & Co,Kaliyakkavilai,Tamil Nadu,1,https://vasanthandco.in/branches,store locator
+Vasanth & Co,Kallakurichi,Tamil Nadu,1,https://vasanthandco.in/branches,store locator
+Vasanth & Co,Kancheepuram,Tamil Nadu,1,https://vasanthandco.in/branches,store locator
+Vasanth & Co,Kanniyakumari,Tamil Nadu,1,https://vasanthandco.in/branches,store locator
+Vasanth & Co,Karur,Tamil Nadu,1,https://vasanthandco.in/branches,store locator
+Vasanth & Co,Kovilpatti,Tamil Nadu,1,https://vasanthandco.in/branches,store locator
+Vasanth & Co,Krishnagiri,Tamil Nadu,2,https://vasanthandco.in/branches,store locator
+Vasanth & Co,Kumbakonam,Tamil Nadu,2,https://vasanthandco.in/branches,store locator
+Vasanth & Co,Madurai,Tamil Nadu,4,https://vasanthandco.in/branches,store locator
+Vasanth & Co,Manali,Tamil Nadu,1,https://vasanthandco.in/branches,store locator
+Vasanth & Co,Marthandam,Tamil Nadu,1,https://vasanthandco.in/branches,store locator
+Vasanth & Co,Mayiladuthurai,Tamil Nadu,1,https://vasanthandco.in/branches,store locator
+Vasanth & Co,Melur,Tamil Nadu,1,https://vasanthandco.in/branches,store locator
+Vasanth & Co,Mettur,Tamil Nadu,1,https://vasanthandco.in/branches,store locator
+Vasanth & Co,Nagercoil,Tamil Nadu,2,https://vasanthandco.in/branches,store locator
+Vasanth & Co,Namakkal,Tamil Nadu,2,https://vasanthandco.in/branches,store locator
+Vasanth & Co,Nilgiris,Tamil Nadu,1,https://vasanthandco.in/branches,store locator
+Vasanth & Co,Palani,Tamil Nadu,2,https://vasanthandco.in/branches,store locator
+Vasanth & Co,Panachamoodu,Tamil Nadu,1,https://vasanthandco.in/branches,store locator
+Vasanth & Co,Panruti,Tamil Nadu,1,https://vasanthandco.in/branches,store locator
+Vasanth & Co,Pattukottai,Tamil Nadu,1,https://vasanthandco.in/branches,store locator
+Vasanth & Co,Perambalur,Tamil Nadu,1,https://vasanthandco.in/branches,store locator
+Vasanth & Co,Pochampalli,Tamil Nadu,1,https://vasanthandco.in/branches,store locator
+Vasanth & Co,Pollachi,Tamil Nadu,1,https://vasanthandco.in/branches,store locator
+Vasanth & Co,Pondicherry,Puducherry,1,https://vasanthandco.in/branches,store locator
+Vasanth & Co,Ponnamaravadhi,Tamil Nadu,1,https://vasanthandco.in/branches,store locator
+Vasanth & Co,Ponneri,Tamil Nadu,1,https://vasanthandco.in/branches,store locator
+Vasanth & Co,Puducherry,Puducherry,1,https://vasanthandco.in/branches,store locator
+Vasanth & Co,Pudukkottai,Tamil Nadu,1,https://vasanthandco.in/branches,store locator
+Vasanth & Co,Pudukottai,Tamil Nadu,1,https://vasanthandco.in/branches,store locator
+Vasanth & Co,Ramanathapuram,Tamil Nadu,2,https://vasanthandco.in/branches,store locator
+Vasanth & Co,Rasipuram,Tamil Nadu,1,https://vasanthandco.in/branches,store locator
+Vasanth & Co,Redhills,Tamil Nadu,1,https://vasanthandco.in/branches,store locator
+Vasanth & Co,Salem,Tamil Nadu,7,https://vasanthandco.in/branches,store locator
+Vasanth & Co,Sankarankovil,Tamil Nadu,1,https://vasanthandco.in/branches,store locator
+Vasanth & Co,Sathyamangalam,Tamil Nadu,1,https://vasanthandco.in/branches,store locator
+Vasanth & Co,Sholinghur,Tamil Nadu,1,https://vasanthandco.in/branches,store locator
+Vasanth & Co,Singanallur,Tamil Nadu,1,https://vasanthandco.in/branches,store locator
+Vasanth & Co,Sivagangai,Tamil Nadu,1,https://vasanthandco.in/branches,store locator
+Vasanth & Co,Sivakasi,Tamil Nadu,1,https://vasanthandco.in/branches,store locator
+Vasanth & Co,Tanjore,Tamil Nadu,1,https://vasanthandco.in/branches,store locator
+Vasanth & Co,Tenkasi,Tamil Nadu,2,https://vasanthandco.in/branches,store locator
+Vasanth & Co,Thanjavur,Tamil Nadu,1,https://vasanthandco.in/branches,store locator
+Vasanth & Co,Theni,Tamil Nadu,2,https://vasanthandco.in/branches,store locator
+Vasanth & Co,Thiruchengode,Tamil Nadu,1,https://vasanthandco.in/branches,store locator
+Vasanth & Co,Thiruvallur,Tamil Nadu,3,https://vasanthandco.in/branches,store locator
+Vasanth & Co,Thiruvarur,Tamil Nadu,1,https://vasanthandco.in/branches,store locator
+Vasanth & Co,Thoothukudi,Tamil Nadu,1,https://vasanthandco.in/branches,store locator
+Vasanth & Co,Thuckalay,Tamil Nadu,1,https://vasanthandco.in/branches,store locator
+Vasanth & Co,Thuraiyur,Tamil Nadu,1,https://vasanthandco.in/branches,store locator
+Vasanth & Co,Tindivanam,Tamil Nadu,1,https://vasanthandco.in/branches,store locator
+Vasanth & Co,Tirunelveli,Tamil Nadu,1,https://vasanthandco.in/branches,store locator
+Vasanth & Co,Tirupattur,Tamil Nadu,1,https://vasanthandco.in/branches,store locator
+Vasanth & Co,Tiruppur,Tamil Nadu,2,https://vasanthandco.in/branches,store locator
+Vasanth & Co,Tiruttani,Tamil Nadu,1,https://vasanthandco.in/branches,store locator
+Vasanth & Co,Tiruvannamalai,Tamil Nadu,1,https://vasanthandco.in/branches,store locator
+Vasanth & Co,Tiruvottiyur,Tamil Nadu,1,https://vasanthandco.in/branches,store locator
+Vasanth & Co,Tisayanvilai,Tamil Nadu,1,https://vasanthandco.in/branches,store locator
+Vasanth & Co,Trichy,Tamil Nadu,4,https://vasanthandco.in/branches,store locator
+Vasanth & Co,Tuticorin,Tamil Nadu,2,https://vasanthandco.in/branches,store locator
+Vasanth & Co,Udumalpet,Tamil Nadu,1,https://vasanthandco.in/branches,store locator
+Vasanth & Co,Valliyur,Tamil Nadu,1,https://vasanthandco.in/branches,store locator
+Vasanth & Co,Vellore,Tamil Nadu,3,https://vasanthandco.in/branches,store locator
+Vasanth & Co,Villupuram,Tamil Nadu,1,https://vasanthandco.in/branches,store locator
+Vasanth & Co,Virudachalam,Tamil Nadu,1,https://vasanthandco.in/branches,store locator
+Vasanth & Co,Virudhunagar,Tamil Nadu,1,https://vasanthandco.in/branches,store locator
+Darling Retail,Ariyalur (district),Tamil Nadu,2,https://darlingretail.com/pages/store-location,store locator
+Darling Retail,Chengalpattu (district),Tamil Nadu,5,https://darlingretail.com/pages/store-location,store locator
+Darling Retail,Chennai (district),Tamil Nadu,3,https://darlingretail.com/pages/store-location,store locator
+Darling Retail,Chidambaram (district),Tamil Nadu,1,https://darlingretail.com/pages/store-location,store locator
+Darling Retail,Coimbatore (district),Tamil Nadu,2,https://darlingretail.com/pages/store-location,store locator
+Darling Retail,Cuddalore (district),Tamil Nadu,12,https://darlingretail.com/pages/store-location,store locator
+Darling Retail,Dharmapuri (district),Tamil Nadu,2,https://darlingretail.com/pages/store-location,store locator
+Darling Retail,Dindigul (district),Tamil Nadu,4,https://darlingretail.com/pages/store-location,store locator
+Darling Retail,Kallakurichi (district),Tamil Nadu,7,https://darlingretail.com/pages/store-location,store locator
+Darling Retail,Kanchipuram (district),Tamil Nadu,4,https://darlingretail.com/pages/store-location,store locator
+Darling Retail,Kanyakumari (district),Tamil Nadu,5,https://darlingretail.com/pages/store-location,store locator
+Darling Retail,Karur (district),Tamil Nadu,1,https://darlingretail.com/pages/store-location,store locator
+Darling Retail,Krishnagiri (district),Tamil Nadu,4,https://darlingretail.com/pages/store-location,store locator
+Darling Retail,Kumbakonam (district),Tamil Nadu,2,https://darlingretail.com/pages/store-location,store locator
+Darling Retail,Madurai (district),Tamil Nadu,9,https://darlingretail.com/pages/store-location,store locator
+Darling Retail,Mayiladuthurai (district),Tamil Nadu,3,https://darlingretail.com/pages/store-location,store locator
+Darling Retail,Nagapattinam (district),Tamil Nadu,1,https://darlingretail.com/pages/store-location,store locator
+Darling Retail,Nagercoil (district),Tamil Nadu,2,https://darlingretail.com/pages/store-location,store locator
+Darling Retail,Namakkal (district),Tamil Nadu,3,https://darlingretail.com/pages/store-location,store locator
+Darling Retail,Perambalur (district),Tamil Nadu,1,https://darlingretail.com/pages/store-location,store locator
+Darling Retail,Puducherry (district),Puducherry,8,https://darlingretail.com/pages/store-location,store locator
+Darling Retail,Pudukkottai (district),Tamil Nadu,6,https://darlingretail.com/pages/store-location,store locator
+Darling Retail,Ramanathapuram (district),Tamil Nadu,5,https://darlingretail.com/pages/store-location,store locator
+Darling Retail,Rameswaram (district),Tamil Nadu,1,https://darlingretail.com/pages/store-location,store locator
+Darling Retail,Ranipet (district),Tamil Nadu,4,https://darlingretail.com/pages/store-location,store locator
+Darling Retail,Salem (district),Tamil Nadu,9,https://darlingretail.com/pages/store-location,store locator
+Darling Retail,Sivaganga (district),Tamil Nadu,4,https://darlingretail.com/pages/store-location,store locator
+Darling Retail,Tenkasi (district),Tamil Nadu,4,https://darlingretail.com/pages/store-location,store locator
+Darling Retail,Thanjavur (district),Tamil Nadu,6,https://darlingretail.com/pages/store-location,store locator
+Darling Retail,Theni (district),Tamil Nadu,4,https://darlingretail.com/pages/store-location,store locator
+Darling Retail,Thiruvallur (district),Tamil Nadu,7,https://darlingretail.com/pages/store-location,store locator
+Darling Retail,Thiruvannamalai (district),Tamil Nadu,10,https://darlingretail.com/pages/store-location,store locator
+Darling Retail,Thiruvarur (district),Tamil Nadu,3,https://darlingretail.com/pages/store-location,store locator
+Darling Retail,Tiruchirappalli (district),Tamil Nadu,5,https://darlingretail.com/pages/store-location,store locator
+Darling Retail,Tirunelveli (district),Tamil Nadu,2,https://darlingretail.com/pages/store-location,store locator
+Darling Retail,Tirupathur (district),Tamil Nadu,4,https://darlingretail.com/pages/store-location,store locator
+Darling Retail,Tiruppur (district),Tamil Nadu,1,https://darlingretail.com/pages/store-location,store locator
+Darling Retail,Vellore (district),Tamil Nadu,9,https://darlingretail.com/pages/store-location,store locator
+Darling Retail,Viluppuram (district),Tamil Nadu,4,https://darlingretail.com/pages/store-location,store locator
+Darling Retail,Virudhunagar (district),Tamil Nadu,5,https://darlingretail.com/pages/store-location,store locator
+Aditya Vision,"ALL (state total, 2026-03-31)",Bihar,118,https://nsearchives.nseindia.com/corporate/ADITYAVISION_10082026194121_AnnualReportFinalUPLOAD2026.pdf,filing
+Aditya Vision,"ALL (state total, 2026-03-31)",Uttar Pradesh,53,https://nsearchives.nseindia.com/corporate/ADITYAVISION_10082026194121_AnnualReportFinalUPLOAD2026.pdf,filing
+Aditya Vision,"ALL (state total, 2026-03-31)",Jharkhand,33,https://nsearchives.nseindia.com/corporate/ADITYAVISION_10082026194121_AnnualReportFinalUPLOAD2026.pdf,filing
+Aditya Vision,"ALL (state total, 2026-03-31)",Chhattisgarh,3,https://nsearchives.nseindia.com/corporate/ADITYAVISION_10082026194121_AnnualReportFinalUPLOAD2026.pdf,filing
+Sathya,"ALL (state total, 2026-01-31)",Tamil Nadu,301,https://www.sebi.gov.in/sebi_data/commondocs/apr-2026/Sathya%20Agencies%20Limited-Abridged%20Prospectus_p.pdf,filing
+Sathya,"ALL (state total, 2026-01-31)",Andhra Pradesh,65,https://www.sebi.gov.in/sebi_data/commondocs/apr-2026/Sathya%20Agencies%20Limited-Abridged%20Prospectus_p.pdf,filing
+Sathya,"ALL (state total, 2026-01-31)",Karnataka,54,https://www.sebi.gov.in/sebi_data/commondocs/apr-2026/Sathya%20Agencies%20Limited-Abridged%20Prospectus_p.pdf,filing
+Sathya,"ALL (state total, 2026-01-31)",Kerala,4,https://www.sebi.gov.in/sebi_data/commondocs/apr-2026/Sathya%20Agencies%20Limited-Abridged%20Prospectus_p.pdf,filing
+Sathya,"ALL (state total, 2026-01-31)",Puducherry,3,https://www.sebi.gov.in/sebi_data/commondocs/apr-2026/Sathya%20Agencies%20Limited-Abridged%20Prospectus_p.pdf,filing
+Value Plus,ALL (state total),Uttar Pradesh,60+ (56 cities),https://www.valueplusretail.com/pages/llms-full-txt,news (company website self-description)
+Value Plus,ALL (state total),West Bengal,25+ (14 cities),https://www.valueplusretail.com/pages/llms-full-txt,news (company website self-description)
+Value Plus,ALL (state total),Uttarakhand,20+ (15 cities),https://www.valueplusretail.com/pages/llms-full-txt,news (company website self-description)
+Value Plus,ALL (state total),Rajasthan,15+ (9 cities),https://www.valueplusretail.com/pages/llms-full-txt,news (company website self-description)
+Value Plus,ALL (state total),Sikkim,UNKNOWN,https://www.valueplusretail.com/pages/llms-full-txt,news (company website self-description)

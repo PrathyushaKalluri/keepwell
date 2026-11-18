@@ -1,0 +1,544 @@
+{
+ "counts": {
+  "cities.csv": 922,
+  "states.csv": 36,
+  "retailers.csv": 22,
+  "retailer_outlets.csv": 846,
+  "repair_agencies.csv": 0,
+  "competitor_coverage.csv": 840,
+  "appliance_estimates.csv": 11304,
+  "opportunity_scores.csv": 449,
+  "research_sources.csv": 216,
+  "data_quality_report.csv": 922
+ },
+ "econ": [
+  {
+   "scenario": "LOW",
+   "leads": 200,
+   "paid_jobs_month": 42,
+   "gtv_month": 23226,
+   "revenue_per_job": 66,
+   "variable_cost_per_job": 190,
+   "contribution_per_job": -124,
+   "contribution_margin_on_revenue": -1.864,
+   "monthly_contribution": -5196,
+   "fixed_costs_month": 1200000,
+   "operating_profit_month": -1205196,
+   "break_even_jobs_month": "never (negative contribution)",
+   "retailers_needed": "never"
+  },
+  {
+   "scenario": "BASE",
+   "leads": 1500,
+   "paid_jobs_month": 638,
+   "gtv_month": 603712,
+   "revenue_per_job": 227,
+   "variable_cost_per_job": 171,
+   "contribution_per_job": 56,
+   "contribution_margin_on_revenue": 0.247,
+   "monthly_contribution": 35728,
+   "fixed_costs_month": 800000,
+   "operating_profit_month": -764272,
+   "break_even_jobs_month": 14274,
+   "retailers_needed": 1120
+  },
+  {
+   "scenario": "HIGH",
+   "leads": 6000,
+   "paid_jobs_month": 3864,
+   "gtv_month": 6819960,
+   "revenue_per_job": 570,
+   "variable_cost_per_job": 170,
+   "contribution_per_job": 400,
+   "contribution_margin_on_revenue": 0.702,
+   "monthly_contribution": 1544421,
+   "fixed_costs_month": 600000,
+   "operating_profit_month": 944421,
+   "break_even_jobs_month": 1501,
+   "retailers_needed": 39
+  }
+ ],
+ "avg_bill": {
+  "low": 553,
+  "base": 898,
+  "high": 1666
+ },
+ "national": {
+  "low": {
+   "installed": 41123077,
+   "oow": 32094954,
+   "jobs": 10112359,
+   "value": 5591025413,
+   "accessible_value": 559102541
+  },
+  "base": {
+   "installed": 57130963,
+   "oow": 48619343,
+   "jobs": 24586626,
+   "value": 22085742185,
+   "accessible_value": 2871146484
+  },
+  "high": {
+   "installed": 79390989,
+   "oow": 71468666,
+   "jobs": 59567183,
+   "value": 99240281140,
+   "accessible_value": 14886042171
+  }
+ },
+ "core_cities": 449,
+ "osm_points": 0,
+ "osm_assigned": 0,
+ "retail_rows_matched": 322,
+ "retail_rows": 585,
+ "class_counts": {
+  "PROMISING BUT UNVERIFIED": 130,
+  "INSUFFICIENT DATA": 318,
+  "LOW COMMERCIAL ATTRACTIVENESS": 1
+ },
+ "conf_counts": {
+  "HIGH": 21,
+  "MEDIUM": 109,
+  "LOW": 319
+ },
+ "top_entry": [
+  [
+   "Indore",
+   "Madhya Pradesh",
+   64.7,
+   "HIGH",
+   "PROMISING BUT UNVERIFIED"
+  ],
+  [
+   "Raipur",
+   "Chhattisgarh",
+   64.3,
+   "HIGH",
+   "PROMISING BUT UNVERIFIED"
+  ],
+  [
+   "Warangal",
+   "Telangana",
+   64.0,
+   "HIGH",
+   "PROMISING BUT UNVERIFIED"
+  ],
+  [
+   "Bhopal",
+   "Madhya Pradesh",
+   63.7,
+   "HIGH",
+   "PROMISING BUT UNVERIFIED"
+  ],
+  [
+   "Visakhapatnam",
+   "Andhra Pradesh",
+   62.3,
+   "HIGH",
+   "PROMISING BUT UNVERIFIED"
+  ],
+  [
+   "Vijayawada",
+   "Andhra Pradesh",
+   61.8,
+   "HIGH",
+   "PROMISING BUT UNVERIFIED"
+  ],
+  [
+   "Thrissur",
+   "Kerala",
+   61.3,
+   "HIGH",
+   "PROMISING BUT UNVERIFIED"
+  ],
+  [
+   "Kochi",
+   "Kerala",
+   60.3,
+   "HIGH",
+   "PROMISING BUT UNVERIFIED"
+  ],
+  [
+   "Guntur",
+   "Andhra Pradesh",
+   60.2,
+   "HIGH",
+   "PROMISING BUT UNVERIFIED"
+  ],
+  [
+   "Karimnagar",
+   "Telangana",
+   59.0,
+   "HIGH",
+   "PROMISING BUT UNVERIFIED"
+  ],
+  [
+   "Lucknow",
+   "Uttar Pradesh",
+   58.3,
+   "HIGH",
+   "PROMISING BUT UNVERIFIED"
+  ],
+  [
+   "Kanpur",
+   "Uttar Pradesh",
+   56.1,
+   "HIGH",
+   "PROMISING BUT UNVERIFIED"
+  ],
+  [
+   "Nellore",
+   "Andhra Pradesh",
+   56.1,
+   "HIGH",
+   "PROMISING BUT UNVERIFIED"
+  ],
+  [
+   "Nagpur",
+   "Maharashtra",
+   55.9,
+   "HIGH",
+   "PROMISING BUT UNVERIFIED"
+  ],
+  [
+   "Madurai",
+   "Tamil Nadu",
+   55.6,
+   "HIGH",
+   "PROMISING BUT UNVERIFIED"
+  ],
+  [
+   "Tiruchirappalli",
+   "Tamil Nadu",
+   55.6,
+   "HIGH",
+   "PROMISING BUT UNVERIFIED"
+  ],
+  [
+   "Hubli-Dharwad",
+   "Karnataka",
+   55.3,
+   "HIGH",
+   "PROMISING BUT UNVERIFIED"
+  ],
+  [
+   "Coimbatore",
+   "Tamil Nadu",
+   54.2,
+   "HIGH",
+   "PROMISING BUT UNVERIFIED"
+  ],
+  [
+   "Mysore",
+   "Karnataka",
+   52.2,
+   "HIGH",
+   "PROMISING BUT UNVERIFIED"
+  ],
+  [
+   "Mangalore",
+   "Karnataka",
+   51.9,
+   "HIGH",
+   "PROMISING BUT UNVERIFIED"
+  ],
+  [
+   "Thiruvananthapuram",
+   "Kerala",
+   51.8,
+   "MEDIUM",
+   "PROMISING BUT UNVERIFIED"
+  ],
+  [
+   "Jodhpur",
+   "Rajasthan",
+   51.8,
+   "MEDIUM",
+   "PROMISING BUT UNVERIFIED"
+  ],
+  [
+   "Durg-Bhilainagar",
+   "Chhattisgarh",
+   51.8,
+   "MEDIUM",
+   "PROMISING BUT UNVERIFIED"
+  ],
+  [
+   "Kozhikode",
+   "Kerala",
+   51.0,
+   "MEDIUM",
+   "PROMISING BUT UNVERIFIED"
+  ],
+  [
+   "Jabalpur",
+   "Madhya Pradesh",
+   50.7,
+   "MEDIUM",
+   "PROMISING BUT UNVERIFIED"
+  ]
+ ],
+ "top_market": [
+  [
+   "Lucknow",
+   "Uttar Pradesh",
+   98.8
+  ],
+  [
+   "Indore",
+   "Madhya Pradesh",
+   98.6
+  ],
+  [
+   "Nagpur",
+   "Maharashtra",
+   97.9
+  ],
+  [
+   "Bhopal",
+   "Madhya Pradesh",
+   97.7
+  ],
+  [
+   "Visakhapatnam",
+   "Andhra Pradesh",
+   97.7
+  ],
+  [
+   "Kochi",
+   "Kerala",
+   97.6
+  ],
+  [
+   "Coimbatore",
+   "Tamil Nadu",
+   97.1
+  ],
+  [
+   "Thrissur",
+   "Kerala",
+   96.1
+  ],
+  [
+   "Vijayawada",
+   "Andhra Pradesh",
+   95.5
+  ],
+  [
+   "Kozhikode",
+   "Kerala",
+   95.4
+  ],
+  [
+   "Thiruvananthapuram",
+   "Kerala",
+   95.4
+  ],
+  [
+   "Raipur",
+   "Chhattisgarh",
+   95.3
+  ],
+  [
+   "Madurai",
+   "Tamil Nadu",
+   95.0
+  ],
+  [
+   "Jodhpur",
+   "Rajasthan",
+   95.0
+  ],
+  [
+   "Malappuram",
+   "Kerala",
+   94.0
+  ],
+  [
+   "Kanpur",
+   "Uttar Pradesh",
+   93.5
+  ],
+  [
+   "Warangal",
+   "Telangana",
+   92.7
+  ],
+  [
+   "Puducherry",
+   "Puducherry",
+   92.6
+  ],
+  [
+   "Tiruchirappalli",
+   "Tamil Nadu",
+   92.2
+  ],
+  [
+   "Salem",
+   "Tamil Nadu",
+   91.6
+  ],
+  [
+   "Kollam",
+   "Kerala",
+   91.2
+  ],
+  [
+   "Durg-Bhilainagar",
+   "Chhattisgarh",
+   90.6
+  ],
+  [
+   "Bhubaneswar",
+   "Odisha",
+   90.6
+  ],
+  [
+   "Tiruppur",
+   "Tamil Nadu",
+   90.2
+  ],
+  [
+   "Jabalpur",
+   "Madhya Pradesh",
+   90.1
+  ]
+ ],
+ "state_entry": [
+  [
+   "Andhra Pradesh",
+   49.7,
+   0.53
+  ],
+  [
+   "Telangana",
+   47.0,
+   0.57
+  ],
+  [
+   "Kerala",
+   45.7,
+   0.44
+  ],
+  [
+   "Tamil Nadu",
+   43.6,
+   0.5
+  ],
+  [
+   "Karnataka",
+   39.9,
+   0.4
+  ],
+  [
+   "Madhya Pradesh",
+   37.1,
+   0.09
+  ],
+  [
+   "Chhattisgarh",
+   32.9,
+   0.22
+  ],
+  [
+   "Uttar Pradesh",
+   30.1,
+   0.04
+  ],
+  [
+   "Puducherry",
+   28.2,
+   0.0
+  ],
+  [
+   "Rajasthan",
+   28.2,
+   0.05
+  ],
+  [
+   "Odisha",
+   24.1,
+   0.22
+  ],
+  [
+   "Maharashtra",
+   22.2,
+   0.06
+  ]
+ ],
+ "state_market": [
+  [
+   "Uttar Pradesh",
+   338.9
+  ],
+  [
+   "Maharashtra",
+   203.9
+  ],
+  [
+   "Kerala",
+   184.7
+  ],
+  [
+   "Madhya Pradesh",
+   180.5
+  ],
+  [
+   "Punjab",
+   152.5
+  ],
+  [
+   "Rajasthan",
+   142.3
+  ],
+  [
+   "Andhra Pradesh",
+   139.2
+  ],
+  [
+   "Tamil Nadu",
+   129.5
+  ],
+  [
+   "Gujarat",
+   117.7
+  ],
+  [
+   "Haryana",
+   108.4
+  ],
+  [
+   "Chhattisgarh",
+   71.3
+  ],
+  [
+   "Karnataka",
+   67.6
+  ]
+ ],
+ "unmatched_retail_by_state": {
+  "Telangana": 13,
+  "Andhra Pradesh": 10,
+  "Tamil Nadu": 88,
+  "Karnataka": 43,
+  "UNKNOWN": 17,
+  "West Bengal": 13,
+  "Kerala": 144
+ },
+ "state_level": {
+  "Bihar": 118,
+  "Uttar Pradesh": 113,
+  "Jharkhand": 33,
+  "Chhattisgarh": 3,
+  "Tamil Nadu": 301,
+  "Andhra Pradesh": 65,
+  "Karnataka": 54,
+  "Kerala": 4,
+  "Puducherry": 3,
+  "West Bengal": 25,
+  "Uttarakhand": 20,
+  "Rajasthan": 15,
+  "Sikkim": 0
+ }
+}

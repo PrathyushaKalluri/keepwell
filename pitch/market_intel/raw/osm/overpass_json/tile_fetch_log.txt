@@ -1,0 +1,6 @@
+22:33:36 OK   tags (6.0,72.0,10.0,76.0) maps.mail.ru 17s n=3
+22:34:27 SLOW tags (6.0,76.0,10.0,80.0) maps.mail.ru 47s HTTP Error 504: Gateway Timeout
+22:36:17 SLOW tags (6.0,76.0,10.0,80.0) maps.mail.ru 95s IncompleteRead(48752 bytes read)
+22:37:29 SLOW tags (8.0,76.0,10.0,78.0) maps.mail.ru 37s <urlopen error [Errno 8] nodename nor servname provided, or not known>
+22:41:20 SLOW tags (8.0,76.0,10.0,78.0) maps.mail.ru 216s <urlopen error [Errno 8] nodename nor servname provided, or not known>
+22:58:31 SLOW tags (8.0,76.0,9.0,77.0) maps.mail.ru 1031s The read operation timed out
