@@ -35,12 +35,53 @@ The last column of each table matters most for investors. Every partnership is t
 | **Parts distributors** | Genuine and compatible parts on credit; weekly runs | One consolidated buyer with predictable demand | 2 distributors in Vijayawada (CEO's credit network) | Parts margin 20% → 30% (pooled buying); working capital |
 | **Exchange and e-waste operators** (Selsmart / Attero, Digi2L, Recykal, Karo Sambhav [R]) | A fee per trade-in pickup; e-waste handling fee. They hold the EPR certificates, not us [R] | A field arm in towns where they have no pickup network | Advisor in place; partnership from year 2 | Trade-in about ₹230 contribution a unit [R]; e-waste feeder |
 
-## 3.4 Technician supply partners
-| Partner | They give us | They get | Status [Story] | Model number it moves |
-|---|---|---|---|---|
-| **Certified partner technicians** (the supply) | Paid per job, plus an off-season floor for the core group | Steady jobs, parts on credit, insurance, a certificate, payout in 48 hours | 22 certified in the pilot (Step 6) | Jobs per day, leakage, quality |
-| **Government ITI Vijayawada (RAC trade); JCH-Hitachi / APSSDC AC skill centre** [R] | Trained entrants; a place to run certification | Placements for their trainees | Placement tie-up | Technician supply; training cost |
-| **ESSC / PMKVY (Skill India)** [R] | Training subsidy of about ₹2,800–6,760 per trainee; RPL reward ₹500 per candidate [R] | Certified outcomes | Applied | Lowers training cost per technician |
+## 3.4 Technicians: our delivery partners (not employees, not trainees)
+
+**What the relationship is.** Keepwell doesn't hire technicians as employees, and it doesn't run a training academy. Keepwell is the **principal**: it sets the price, gives the guarantee and collects the money, so the household and the brand pay Keepwell. The work is done by **independent local technicians and small repair agencies who sign up as Keepwell partners**. They are contractors paid per job, the way Urban Company partners are [R].
+
+**Why they matter to the business:**
+- They are **our biggest cost**: about 60% of the labour on every job.
+- They decide **quality**: first-visit fix rate, rework, the shop's reputation.
+- Brand authorisation through service centres needs **named, checked technicians** for each install [R: authorised-installer rule].
+
+So they are a partner group we must manage well, even though they are not a revenue source.
+
+**The business model with technicians** (BASE, `ue_v2.py`):
+
+| Job | Who pays Keepwell | Technician gets (per job) | Keepwell keeps (contribution) |
+|---|---|---|---|
+| AC install (brand-authorised) | Brand / service-centre fee about ₹900 + materials about ₹1,270 net | ₹500 | about ₹470 |
+| Out-of-warranty repair or service | Household, about ₹1,000 incl. GST | about ₹330 (60% of labour) | about ₹164 |
+| AMC visit | Household (₹1,299 plan, 2 visits) | ₹400 a visit | about ₹100–200 per plan |
+
+**What technicians pay Keepwell:** nothing. There is no joining fee and no commission charged to them.
+
+**What they get from Keepwell:**
+- **steady extra jobs:** about ₹15k a month on top of their own customers
+- **an off-season minimum** for a core group
+- **parts on credit**
+- **insurance**
+- **payout within 48 hours**
+- **the shop's and the brand's backing**
+
+**What Keepwell gets in return:**
+- capacity without salaries
+- photo-verified work under our guarantee
+- the appliance record from every visit
+
+**The only "training" is a short onboarding**, about 2–3 days. It is not a course. It covers:
+- our app and the photo and serial checklist
+- the safety rules (gas, electrical)
+- the brand's install standard
+- the code of conduct
+
+That is what the guarantee and the authorisation require.
+
+**Later, technicians become a revenue source in one way only.** In Phase 2 (Supply), they can **buy parts from Keepwell** (parts margin, 00b). Nothing else is planned.
+
+**Where we find them:** through the COO's network of 200+ service-centre owners and their technicians (Step 2), and through local agencies that join as partners.
+
+**Recruitment channels for later, not partners now:** ITI trainees and skilling subsidies (ESSC/PMKVY, about ₹2,800–6,760 per trainee [R]). They matter only once we need hundreds of technicians across many clusters (year 3+). They are **not part of the pilot or the pitch's core**.
 
 ## 3.5 Money, programmes and technology partners
 | Partner | They give us | Status [Story] | Model or budget line |
@@ -89,14 +130,13 @@ The high-volume calls of the AI service layer run on Gemini: voice-note transcri
 1. The **partner map**, as organised in §3.2–3.5:
    - **Channel:** shops, the distributor, the dealers' association, plan sellers.
    - **Authorisation and supply:** service centres, brands, parts distributors, exchange and e-waste operators.
-   - **Technicians:** partners, ITI / APSSDC, ESSC.
+   - **Technicians:** certified partner technicians and agencies, paid per job (§3.4). They are delivery partners: no employment, no academy, no fee charged to them. ITI and ESSC are only later recruitment channels.
    - **Money, programmes and technology:** AP Policy 4.0, DPIIT, T-Hub / Google, T-Fund, the technology stack, insurers.
 2. **Each partner is tied to a model number** (this table goes into the deck appendix).
 3. **Status of the partnerships [Story]:**
    - 2 service-centre sub-contracts
    - 1 plan-seller pilot letter
    - 2 parts distributors
-   - an ITI placement tie-up
    - AP grant ₹15 L sanctioned
 4. **Not now:** Urban Company, regional chains, lenders, inspection buyers.
 5. **Google credits** are counted only at real usage.
