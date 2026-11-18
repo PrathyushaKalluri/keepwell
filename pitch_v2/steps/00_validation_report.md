@@ -23,7 +23,7 @@
 
 **A redesigned version can work**, but only under three conditions:
 1. Keepwell becomes a **brand-authorised (or sub-contracted) installation partner**.
-2. It serves **larger shops** (80–100+ units a month).
+2. It works with **every independent shop in a cluster**, large and small. Viability is measured in **units sold per cluster each month (about 2,400)**, not in a count of shops (see §4c).
 3. It serves **four appliances (AC, washing machine, refrigerator, water purifier), with AC as the anchor**. The market and the numbers are shown for all four; ACs carry most of the value (see §4b).
 
 On fair inputs, a cluster breaks even at **29–44 retailers**, not the 21 in the founders' document. Contribution is **₹3.8–5.8k per retailer per month**, not ₹7.8k. This is **a 15–20% contribution operator**, so it must be pitched as a density business that is honest about its margins.
@@ -41,7 +41,7 @@ On fair inputs, a cluster breaks even at **29–44 retailers**, not the 21 in th
 | Brand installation takes 3–5 days | **Partly** | LG: 24–72 h. Flipkart: 2–5 days. One documented no-show. Tier 2/3 data: none | Measure 30 installs in the pilot |
 | 1.2 L outlets → 23,400 serviceable retailers | **Breaks** | LG has 30,726 dealers, Voltas 30k+, Blue Star 10k+; 40–65% of sales go through independent shops | **5k / 9k / 18k** serviceable (BASE 9k) |
 | ₹4,000 Cr TAM | **Breaks** | Follows from the retailer count | About **₹1,550 Cr** (BASE) |
-| A shop sells 100 units a month | **Optimistic** | No source exists. Our working range is 30 / 60 / 120 | Target only shops with 80+ units |
+| A shop sells 100 units a month | **Optimistic** | No source exists. Our working range is 30 / 60 / 120 | Use units per cluster, not shop size (§4c) |
 | A technician does 76 jobs a month and earns ₹30k | **Breaks** | Urban Company partners average about 43 orders a month (₹28k net); a Tier 2/3 mechanic earns ₹10–25k | About 49 jobs a month. ₹30k needs about ₹610 a job |
 | AMC at ₹1,800 | **Breaks** | Urban Company sells a 2-service AC plan for ₹1,098–1,298 | ₹1,299 including GST |
 | Prices are net | **Breaks** | We pay 18% GST as principal; a local mechanic under ₹20 L turnover pays none | Repair and AMC prices must include GST |
@@ -141,11 +141,35 @@ A fresh agent played a sceptical angel investor and saw none of our reasoning. I
 
 **Correction to the earlier F variant:** it was labelled "AC-first" but already counted the repair events of every category. These per-category numbers replace it.
 
+## 4c. Every shop, or only large shops? (added after your review)
+
+**The earlier "80+ units" cut was a modelling shortcut, not a finding.** Units per shop was the input that moved results most, so I filtered for big shops. Re-running by shop size shows that a small shop earns us **the same per unit sold**:
+
+| Shop sells (units a month) | 15 | 30 | 45 | 60 | 80 | 100 | 120 |
+|---|---|---|---|---|---|---|---|
+| Contribution per shop per month (4 appliances) | ₹1.2k | ₹2.3k | ₹3.5k | ₹4.7k | ₹6.3k | ₹7.8k | ₹9.4k |
+| Contribution per unit sold | ₹78 | ₹78 | ₹78 | ₹78 | ₹78 | ₹78 | ₹78 |
+| Months to pay back ₹22k field-sales onboarding | 31 | 16 | 12 | 9 | 8 | 7 | 6 |
+| Months to pay back ₹6k self-serve onboarding | 10 | 6 | 5 | 4 | 3 | 3 | 2 |
+
+**What the table shows:**
+- **Small shops are not less profitable per unit.** The only difference is the cost of signing them up. A field salesperson costs the same whether a shop sells 15 units or 120.
+- **What a cluster needs is units, not big shops.** It must cover ₹1.65 L of fixed costs plus the off-season floor for technicians. That takes about **2,100–2,400 units sold a month across all its shops**, for example:
+  - 30 shops at 80 units, or
+  - 15 large shops plus 40 small shops.
+- **So we work with every shop and give each a different sales motion:**
+  - **Large shops (60+ units):** field sales, a demo, signage and a cluster-manager relationship, at about ₹22k CAC.
+  - **Small shops (under 60 units):** self-serve onboarding over WhatsApp, with a QR standee, a referral from a nearby large shop and no field visit, at about ₹6k CAC (an assumption, to be tested).
+- **The market grows.** The serviceable base becomes every independent large-appliance dealer: **30k / 45k / 70k**, not 5–18k. This also helps the story: we serve the long tail that chains and platforms ignore.
+- **Small shops add density.** More shops in the same town shortens travel between jobs and raises technician jobs per day.
+
+**Decision:** work with **every shop in the cluster**. Set cluster targets in **units sold per month**. Sales effort goes where the units are.
+
 ## 5. The recommended solution shape (to build Steps 1–13 on, if you approve)
 
 **Keepwell is the authorised after-sale service arm for small-town appliance retailers. It covers ACs, washing machines, refrigerators and water purifiers, with AC as the anchor.**
 
-1. **Who it serves.** Independent multi-brand shops selling **80 or more major units a month**, about 3–5k such shops nationally. Keepwell works under the retailer's name, so the customer stays the retailer's.
+1. **Who it serves.** **Every independent multi-brand appliance shop in a cluster** (30k / 45k / 70k nationally). Large shops get field sales, and small shops onboard themselves through WhatsApp (§4c). Keepwell works under the retailer's name, so the customer stays the retailer's.
 2. **Who pays.**
    - **Customers** pay for out-of-warranty AC service, repair and AMC. Prices include GST and sit at the market rate.
    - **Brands, or their authorised service centres,** pay for in-warranty installs (we are authorised or sub-contracted). Customers pay the brand rate card and buy materials.
@@ -178,7 +202,7 @@ A fresh agent played a sceptical angel investor and saw none of our reasoning. I
 
 **What must be true in the first 90 days (the kill criteria):**
 - Written authorisation, or a service-centre sub-contract, covering at least 30% of the pilot shops' AC units, with the payout known.
-- Ledgers from 10 shops showing at least 80 units a month.
+- Ledgers from the pilot shops showing at least 2,000 units a month across the cluster, with the size mix measured.
 - 15 retailers live and routing at least 50% of AC installs to us.
 - 8 technicians with jobs per day measured, and no more than 1 leaving.
 - A fulfilment talk open with Onsitego or Zopper.
