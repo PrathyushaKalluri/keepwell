@@ -13,54 +13,61 @@
 
 ---
 
-### 2.1 What the business needs from its founders (derived from Step 0)
+### 2.1 Designing the backgrounds for the biggest edge
 
-Each "what decides it" item is a key driver of the Step 0 unit economics.
+**The method.** The backstory is a story [Story], so we choose backgrounds that give Keepwell the most edge. That edge must still be believable and checkable in diligence. Each founder's past should bring **contacts that move a specific number in the Step 0 model**: a lower cost per shop, a higher chance of brand authorisation, or a contracted second revenue stream. The edge should cover **all four appliances**, not only AC.
 
-| The business lives or dies on… | What decides it [Model] | So we need a founder who has… |
-|---|---|---|
-| **Signing 50–70 independent shops per cluster** | shop density (sensitivity rank 1); routing at least 50% of installs | sold to these exact dealers and is trusted at their counters |
-| **Brand authorisation for installs** | authorised coverage (rank 2); install fee (rank 3) | run a brand's service network and knows how authorisation is granted |
-| **Technician supply, quality and the off-season** | jobs per day, payout, leakage | recruited, trained and managed field technicians at scale |
-| **Running 50–70 shops with a small team** | the AI service layer, at under ₹5 a job | built Indian-language voice and WhatsApp systems in production |
+**Why everything kept narrowing to AC, and the fix:**
+- AC is about 85% of the value per shop, and it is the only category where in-warranty installation is paid, so earlier drafts leaned on it.
+- The company sells **four appliances from day one**, and the 4-appliance case beats AC-only (00b §4b).
+- So the founders below come from **multi-category** backgrounds: a multi-brand distributor, a multi-category brand service network plus a water-purifier service network, and a device-protection platform that covers every appliance.
+- The pilot's timing (summer) is the only thing that stays AC-heavy.
 
-That gives three muscles: **winning shops, running the field, building the system.**
+**The options we compared.** Each was scored on what it does to the model:
 
----
+| Background option | Edge it brings | What it changes in the model | Verdict |
+|---|---|---|---|
+| CEO: regional sales head at **one AC brand** (earlier draft) | That brand's dealers only; AC only | Shop CAC partly lower; single-brand bias | Too narrow |
+| **CEO: regional head at the largest multi-brand consumer-durables distributor in AP/TS** | Supplies **600+ independent dealers** across Krishna–Guntur–Godavari and Warangal, in every category | **Shop CAC ₹22k → about ₹10k** (warm introductions, no cold visits). Faster density (rank-1 driver). Parts-credit relationships | **Chosen** |
+| COO: service head at one AC brand (earlier draft) | One brand's service centres | Authorisation for one brand | Too narrow |
+| **COO: zonal service head (AP/TS) at a multi-category appliance brand (AC, washing machine, refrigerator), and earlier at a water-purifier brand's service network** | Knows **the owners of 200+ authorised service centres** across brands. Knows how sub-contracts and authorisation are granted. Knows RO AMC economics | **Authorised coverage 35% → 45–50%** (rank-2 driver). RO AMC know-how. Technician recruits | **Chosen** |
+| CTO: voice-AI engineer at a call-centre AI company (earlier draft) | Builds the AI layer | Cost per job | Good, but no market edge |
+| **CTO: engineering lead at a device-protection and claims platform** (a company that sells extended warranties at retail counters and routes claims to repair partners) | Built **claims verification and a partner field app**. Knows how plan sellers buy fulfilment and verification | **Contracted plan-seller fulfilment jobs** (filler in the off-season). **First customer for the verification data layer** (Phase 3). Credibility for the 70–90% margin layer | **Chosen** |
+
+**Naming rule:** past employers are described by **type and size**, never by a real company name, e.g. "the largest multi-brand distributor in AP/TS". The founders are real people and the backgrounds are illustrative. Attaching real company names would make false claims about real firms. Every *contact* is made concrete instead (counts, roles, letters of intent in Step 6), because that is what investors test.
 
 ### 2.2 The three founders [Story]
 
 | | **Prathyusha Kalluri, CEO** | **Kavyanth Munagala, COO** | **Sri Charan Peri, CTO** |
 |---|---|---|---|
-| **Owns** | Retailers, brands, fundraising, the P&L | Technicians, service quality, authorisation, parts | The AI service layer, data, security and DPDP (acting Data Protection Officer) |
-| **Before Keepwell** | **9 years of consumer-durables channel sales.** Area sales manager, then regional sales head for Andhra Pradesh at a top-5 AC brand. Managed about **350 independent dealers** across the Krishna–Guntur–Godavari belt | **8 years of brand after-sales.** Ran an appliance brand's authorised-service network across AP and Telangana: about **220 service centres and 3,000 technicians**, plus installation service-level targets, warranty claims and regional parts depots | **7 years of Indian-language voice AI.** Built WhatsApp and voice intake systems handling about **2 million calls a month** for a conversational-AI company. Previously worked on dispatch and routing software |
-| **What they saw** | Dealers lost sales and goodwill over late installations they didn't control. A Guntur dealer showed her a consumer-court notice naming him alongside the brand | A third of the installation complaints in small towns were really technician shortages, and out-of-warranty customers were turned away | Most service calls in small towns arrive as Telugu voice notes that nobody structures |
-| **Why they're credible here** | Grew up in **Vijayawada**, the pilot hub. Knows dealers by name and is trusted at the counter | Knows how a brand grants installation authorisation and what it pays service centres. Knows technician economics | Has shipped production AI at a cost per call that matters |
-| **Links to the research** | I1, F7, F13 (`00_tough_questions.md`) | I3, F3–F5, F9, F11 | T1–T7 |
+| **Owns** | Shops, brands, fundraising, the P&L | Technicians, service quality, authorisation, parts | AI service layer, data products, security, DPDP (acting DPO) |
+| **Before Keepwell** | **10 years in consumer-durables distribution.** Area manager, then **regional head (AP/TS) at the largest multi-brand consumer-durables distributor in the two states**. Her region supplied **600+ independent dealers** with ACs, washing machines, refrigerators, TVs and water purifiers, on credit lines she approved | **9 years in appliance after-sales.** First at a **water-purifier brand's service network** (AMC-led, RO), then **zonal service head for AP/TS at a multi-category appliance brand** (AC, washing machine, refrigerator): about **220 authorised service centres and 3,000 technicians**, installation targets, warranty claims and regional parts depots | **8 years of engineering.** Built Indian-language voice and WhatsApp intake at a conversational-AI company (about 2 million calls a month). Then **engineering lead at a device-protection and claims platform**: built its claims-verification engine and its repair-partner field app |
+| **The connections she or he brings** | Personal relationships with the owners of hundreds of independent shops. Credit history with every dealer in the region. Knows which shops sell how much | Knows the owners of 200+ service centres across brands, the brand regional service teams, parts distributors, and certified technicians who want steadier work | Knows plan sellers' operations heads and how they buy fulfilment and verification. Knows what claims data brands and insurers value |
+| **What they saw** | Dealers lost repeat sales and goodwill over installations and repairs they didn't control. A Guntur dealer showed her a consumer-court notice naming him alongside the brand | Small-town installation complaints were mostly technician shortages. Out-of-warranty customers were turned away. Purifier AMCs were the one service customers renewed | Plan sellers had customers in small towns but **no reliable repair partner there**. Claims were paid on unverifiable photos |
+| **Edge in the model** | **Shop CAC about ₹10k** (vs ₹22k cold). The first 30 shops come from warm introductions | **Authorisation 45–50%** of units through service-centre sub-contracts. Recruits for the first 20 technicians. RO AMC playbook | **A contracted plan-seller fulfilment pilot**. A **verification-data customer** in year 3. Credible AI costs (under ₹5 a job) |
+| **Tough questions answered** | I1, I11, F7, F13 | I3, F3–F5, F9, F11, S5 | T1–T7, I7, S3 |
 
-**How they met [Story].** Prathyusha and Kavyanth worked at the same AC brand, she in sales and he in service. They kept hearing the same complaint from opposite sides: dealers said service was failing them, and service said dealers sent customers with no records. Sri Charan, a college friend of Kavyanth's, had built the voice systems a brand call centre used.
+**How they met [Story].** Prathyusha's distributor and Kavyanth's brand worked with the same dealers. She heard the dealers' side of every service failure, and he heard the service side. Sri Charan's protection platform kept asking Kavyanth's service centres to fulfil small-town claims they couldn't staff. The three met on that problem.
 
-**The gap we name ourselves:** none of the founders has run a startup to exit. We close it with advisors who have scaled service businesses (§2.3) and with a board from the next round.
+**The combined X-factor (for Step 11):** *"Between us we already know the shop owners, the service centres and the plan sellers in this market. Keepwell connects people who already trust us."* It is concrete:
+- **600+ dealers** reachable by warm introduction
+- **200+ service-centre owners** for authorisation sub-contracts
+- **one plan seller** willing to pilot fulfilment
 
-**Founder–problem fit for the fundability matrix (M3, Startup row):**
-- **Potential:** three complementary operators with domain depth.
-- **Uniqueness:** a CEO with existing trust at the target dealers' counters, and a COO who knows the authorisation route.
-- **Quality:** full-time, vested, a clean company (§2.5).
-
-**X-factor candidate (Step 1):** *"the founder who sold to these very dealers."*
+**The gap we name ourselves:** none of us has run a startup to exit. We close it with an advisor who has scaled field service, and a board seat at the next priced round.
 
 ### 2.3 Advisors and board [Story]
+Each advisor fills a named gap. They join on ESOP, not as investors.
 
-Each advisor is chosen to fill a named gap. Advisors join on ESOP grants, not as investors.
-
-| Advisor | Gap filled | Role |
+| Advisor | Gap filled | Connection brought |
 |---|---|---|
-| A former national service head of an appliance brand | Brand authorisation and plan-seller introductions | Monthly; opens the doors to AC brands and Onsitego-type fulfilment |
-| The president of a regional consumer-electronics dealers' association (AP) | Shop access beyond the CEO's network; trust | Introduces dealers; testimonial |
-| A field-service operator who has scaled a home-services business to 20+ cities | Scaling experience | Quarterly; cluster playbook |
-| A CA/CS firm and a startup lawyer (on retainer) | Compliance and contracts | Step 10 |
+| Former national service head of a multi-category appliance brand | Brand-level authorisation beyond AP/TS | Introductions to 3 more brands' service heads |
+| President of a regional consumer-electronics dealers' association (AP) | Shop access beyond the CEO's network; trust | Association endorsement; dealer meet-ups |
+| Operator who scaled a home-services business to 20+ cities | Scaling experience | Cluster playbook; hiring |
+| Head of partnerships at an exchange / e-waste operator (Selsmart / Digi2L type) | Phase 2 trade-in and e-waste feeder | Field-arm partnership from year 2 |
+| CA/CS firm and startup lawyer (retainer) | Compliance and contracts | Step 10 |
 
-**Board:** the three founders today. One independent director or investor seat comes at the next priced round (Step 9).
+**Board:** the three founders today. One investor seat or independent director comes at the next priced round (Step 9).
 
 ### 2.4 Company timeline [Story]
 
@@ -72,7 +79,8 @@ Backdated so that the Vijayawada–Guntur summer pilot has happened. Its results
 | **Apr–Jul 2025** | **Discovery in Vijayawada, Guntur and Warangal:** shops, technicians, households, and talks with brand service centres. The numbers are in Step 6 |
 | **Aug 2025** | **Keepwell Services Pvt Ltd incorporated** (Hyderabad, with a Vijayawada branch office). DPIIT recognition. All founders full-time |
 | Sep–Nov 2025 | **AI service layer, first version:** WhatsApp and voice intake in Telugu, Hindi and English, job cards, a photo and serial checklist, the appliance record and QR code. Technician certification curriculum written |
-| **Nov 2025** | **Installation sub-contract with an authorised service centre** in Vijayawada covering two AC brands. This is the route to authorisation that Step 0 required |
+| **Nov 2025** | **Installation sub-contracts with two authorised service centres** in Vijayawada, covering **two brands across AC, washing machine and refrigerator**. Both came through Kavyanth's contacts. This is the route to authorisation that Step 0 required |
+| Jan 2026 | **Fulfilment pilot letter with a plan seller** (Sri Charan's former platform type) for its small-town claims in the belt |
 | **Dec 2025** | **Pre-seed: ₹45 L on an iSAFE** from three operator angels (§2.6) |
 | Feb 2026 | **AP Startup Policy 4.0 grant sanctioned: ₹15 L** (₹10 L received; ₹5 L on a milestone) [R: policy exists, our sanction is Story] |
 | **Mar–Jun 2026** | **Summer pilot in the Vijayawada–Guntur cluster.** It started with 12 shops and grew. Results are in Step 6 |
@@ -106,7 +114,7 @@ Backdated so that the Vijayawada–Guntur summer pilot has happened. Its results
 ### 2.6 The pre-seed instrument: why an iSAFE from operator angels (with later rounds in mind)
 
 **Why operator angels.**
-- **Who they are:** a retired appliance-brand service head, a multi-store dealer from Guntur, and an ex-home-services founder.
+- **Who they are:** a retired appliance-brand service head, a multi-store dealer from Guntur (one of the CEO's distributor customers), and an ex-home-services founder.
 - **What they did besides the money:** they introduced the service centre that gave us the sub-contract, plus 6 pilot shops.
 - **The signal:** at Stage 2, insiders who checked the business and put money in send a stronger signal than friends and family (course M1/M2).
 
@@ -165,26 +173,40 @@ All founder shares vest over 4 years with a 1-year cliff (reverse vesting), coun
 ---
 
 ## Decisions to approve (Step 2)
+1. **Backgrounds chosen for edge.** Each one moves a number in the model:
+   - **Prathyusha, CEO:** regional head at the largest multi-brand consumer-durables distributor in AP/TS. 600+ dealers; shop CAC about ₹10k.
+   - **Kavyanth, COO:** zonal service head at a multi-category appliance brand, after a water-purifier service network. Owners of 200+ service centres; authorisation 45–50%.
+   - **Sri Charan, CTO:** voice AI, then engineering lead at a device-protection and claims platform. Plan-seller fulfilment pilot; first verification-data customer.
+2. **Naming rule:** employers are described by type and size, never by real names. Contacts are concrete (counts, roles, letters of intent).
+3. **Advisors:**
+   - ex-national service head
+   - AP dealers' association president
+   - scaled field-service operator
+   - exchange / e-waste partnerships head
+   - CA and legal
 
-1. **Founders and roles:**
-   - **Prathyusha Kalluri, CEO:** channel sales; AP dealers; from Vijayawada.
-   - **Kavyanth Munagala, COO:** brand service network; authorisation; technicians.
-   - **Sri Charan Peri, CTO:** Indian-language voice AI; acting Data Protection Officer.
-2. **Advisors:** an ex-brand national service head, an AP dealers' association president, a scaled field-service operator, and a CA/legal firm on retainer. All on ESOP.
-3. **Timeline:**
+   All on ESOP.
+4. **Timeline:**
    - discovery Apr–Jul 2025
    - incorporated Aug 2025
-   - service-centre sub-contract Nov 2025
+   - two service-centre sub-contracts Nov 2025
    - pre-seed Dec 2025
+   - plan-seller pilot letter Jan 2026
    - AP grant Feb 2026
-   - **summer pilot Mar–Jun 2026**
+   - summer pilot Mar–Jun 2026
    - off-season run Jul–Oct 2026
    - raising Nov 2026
-4. **Money so far:**
+5. **Money so far:**
    - raised ₹70 L: founders ₹15 L, iSAFE ₹45 L, AP grant ₹10 L
    - spent about ₹52 L
    - cash about ₹18 L
-5. **Pre-seed terms:** iSAFE, ₹6 Cr post-money cap, 20% discount, preference capped, information rights only.
-6. **Equity:** 38 / 31 / 31, with 4-year vesting and a 1-year cliff.
+6. **Pre-seed:** iSAFE with a ₹6 Cr post-money cap, a 20% discount, preference capped, information rights only. **Equity:** 38 / 31 / 31, 4-year vesting, 1-year cliff.
 
-On approval, the next step is Step 3, the ecosystem map.
+**Note for Step 7:** the founder edges feed the model as tagged [Story] inputs:
+- shop CAC ₹10k for warm-introduction shops
+- authorised coverage 45%
+- 100 plan-seller jobs a month per cluster
+
+Step 6 tests each one, and Step 7 shows the model with and without them.
+
+On approval, Step 3 (the ecosystem map) comes next.
