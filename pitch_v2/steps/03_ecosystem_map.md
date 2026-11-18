@@ -17,7 +17,7 @@
 > 5. **Corrected:** the pilot's shop count is no longer stated here (Step 2 says it started with 12; Step 6 gives the result). The install fee is ₹800, not ₹900. Plan sellers have **thin** small-town coverage, not none (Onsitego routes through about 400–450 service centres plus Qdigi).
 > 6. **Cut as not needed:** ITI / Skill India (one line, later), lenders and inspection buyers (already dropped in 00b), T-Fund and AP seed equity (moved to Step 8).
 > 7. **Hardest investor questions:**
->    - *Are the 2 service-centre sub-contracts exclusive and durable?* No. They are non-exclusive 12-month terms [Story]. Our hedges are direct brand talks, and the model's zero-authorisation case (breakeven rises to about 80 shops) shows the downside.
+>    - *Are the 2 service-centre sub-contracts exclusive and durable?* No. They are non-exclusive 12-month terms [Story]. Our hedges are direct brand talks, and the model's zero-authorisation case shows the downside: breakeven rises to about 50 shops with four appliances, or about 80 if AC-only.
 >    - *Urban Company is already in Vijayawada at ₹699–799. Why won't shops send buyers there?* It doesn't serve shops or do authorised installs. We give the shop its name on the guarantee, a commission and a record of every buyer.
 >    - *Who carries the gig-levy and misclassification risk?* Keepwell does, as principal. It is budgeted at 1% (5% worst case), with a legal opinion in Step 10.
 

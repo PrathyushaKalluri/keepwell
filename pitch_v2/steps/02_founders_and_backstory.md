@@ -80,8 +80,8 @@ Backdated so that the Vijayawada–Guntur summer pilot has happened. Its results
 | **Aug 2025** | **Keepwell Services Pvt Ltd incorporated** (Hyderabad, with a Vijayawada branch office). DPIIT recognition. All founders full-time |
 | Sep–Nov 2025 | **AI service layer, first version:** WhatsApp and voice intake in Telugu, Hindi and English, job cards, a photo and serial checklist, the appliance record and QR code. Technician certification curriculum written |
 | **Nov 2025** | **Installation sub-contracts with two authorised service centres** in Vijayawada, covering **two brands across AC, washing machine and refrigerator**. Both came through Kavyanth's contacts. This is the route to authorisation that Step 0 required |
-| Jan 2026 | **Fulfilment pilot letter with a plan seller** (Sri Charan's former platform type) for its small-town claims in the belt |
 | **Dec 2025** | **Pre-seed: ₹45 L on an iSAFE** from three operator angels (§2.6) |
+| Jan 2026 | **Fulfilment pilot letter with a plan seller** (Sri Charan's former platform type) for its small-town claims in the belt |
 | Feb 2026 | **AP Startup Policy 4.0 grant sanctioned: ₹15 L** (₹10 L received; ₹5 L on a milestone) [R: policy exists, our sanction is Story] |
 | **Mar–Jun 2026** | **Summer pilot in the Vijayawada–Guntur cluster.** It started with 12 shops and grew. Results are in Step 6 |
 | Jul–Oct 2026 | **Off-season run:** washing machines, fridges, water purifiers, AMC renewals. The cluster keeps growing. Warangal is scouted as cluster 2 |
