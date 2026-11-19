@@ -97,7 +97,7 @@ The slide reads down each column: **1** who reaches the stage, **2** what happen
 | Aug 2025 | Incorporated · DPIIT |
 | Nov 2025 | 2 authorised service-centre contracts |
 | Dec 2025 | ₹45 L pre-seed |
-| Feb 2026 | ₹15 L AP grant · 28 retailer LOIs |
+| Feb 2026 | ₹10 L AP grant (of ₹15 L) · 28 retailer LOIs |
 | Mar–Oct 2026 | Pilot cluster |
 | Nov 2026 | Raising the seed |
 
@@ -115,7 +115,7 @@ The slide reads down each column: **1** who reaches the stage, **2** what happen
 | Travel, tech, legal | 12 |
 | **In the bank** | **18** |
 
-**Why we raised it this way:** iSAFE, ₹6 Cr cap: priced on proof, not on an idea; ₹15 L grant: no ownership given up; ₹50k stipends: 40% of spend; founders all-in.
+**Why we raised it this way:** iSAFE, ₹6 Cr cap: priced on proof, not on an idea; AP grant: no ownership given up; ₹50k stipends: 40% of spend; founders all-in.
 
 ### 6. The pilot cluster paid for itself from 20 retailers
 

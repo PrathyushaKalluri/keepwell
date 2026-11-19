@@ -124,7 +124,7 @@
 | Aug 2025: incorporated, DPIIT | Keepwell Services Pvt Ltd. All three founders full-time from then (Step 2 §2.4) |
 | Nov 2025: 2 authorised service-centre contracts | Install sub-contracts with two authorised centres in Vijayawada, covering two brands across AC, washing machine and fridge. Both came through Kavyanth's contacts. They are why our installs keep the brand warranty valid |
 | Dec 2025: ₹45 L pre-seed | An iSAFE from three operator angels, at a ₹6 Cr post-money cap with a 20% discount |
-| Feb 2026: ₹15 L AP grant, 28 retailer LOIs | AP Startup Policy grant: ₹15 L sanctioned, **₹10 L received**, ₹5 L due on a milestone. **The bar shows ₹10 L because it counts cash received.** 28 retailers signed letters of intent before the pilot |
+| Feb 2026: ₹10 L AP grant (of ₹15 L), 28 retailer LOIs | AP Startup Policy grant: ₹15 L sanctioned, **₹10 L received**, ₹5 L due on a milestone. The timeline and the bar both show the ₹10 L received. 28 retailers signed letters of intent before the pilot |
 | Raised ₹70 L | ₹45 L (angels) + ₹15 L (founders) + ₹10 L (grant received) |
 | Spent ₹52 L | Founder stipends ₹21 L + pilot set-up ₹13 L + parts and tools ₹6 L + travel, tech and legal ₹12 L (₹5 L + ₹4 L + ₹3 L) |
 | ₹18 L in the bank | ₹70 L − ₹52 L. The ₹5 L grant balance is still to come |
