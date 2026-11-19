@@ -26,13 +26,12 @@ dict(id="answer", act="answer", sp="K", title="The retailer sells the promise. K
  why="Vision first, then the live, next, later steps, so the investor sees where it starts and where it goes.",
  believe="A clear company with a big vision and a simple first step.",
  next="Here is what that means for one appliance. Sri Charan."),
-dict(id="lifecycle", act="answer", sp="S", title="From the retailer's bill to a second life",
- show="A flowchart of one appliance's life with Keepwell's role in each box: Sold → Installed → In use → Breaks → Diagnosed. [click] Worth repairing? Yes → Parts (bought centrally) → Repaired → back in use. [click] No → Traded in → Refurbished (sold again) or Recycled. The Know bar along the bottom: one consented record.",
- say="""I'm Sri Charan. Here is one appliance's whole life with us. The retailer adds the install and Protect to the bill; the family consents on WhatsApp. An authorised technician installs it within a day. When it breaks, a Telugu voice note — our AI desk drafts the fault and the part to carry.
-[click] If it's worth repairing, we source genuine parts, fix it, and it goes back into use.
-[click] If not, we collect it as a trade-in while the retailer sells the new one, and refurbish or recycle it. Every step goes on one record.""",
- why="The product as one flow, with Keepwell's job at every stage, in three readable clicks.",
- believe="Keepwell runs the appliance's entire after-sale life, and every step earns money or data.",
+dict(id="lifecycle", act="answer", sp="S", title="At every stage, Keepwell and everyone around it gains",
+ show="A swimlane. Across the top, seven stages of one appliance's life as arrows: Sold → Installed → Warranty years → Covered (AMC + Protect) → Repaired → Traded in (refurbished) → Recycled, each tagged Serve now or Circulate from year 3. Rows: what Keepwell does; what Keepwell gets (₹2,600 install, AMC ₹1,299, Protect ₹2,000, ₹300 visit, ₹2,700 repair; trade-in and recycling as upside). [click] Four more rows: what the family, the retailer, the technician, and brands and partners get at each stage. Below: the branch (not worth repairing → trade-in), the loop (trade-in is the retailer's next sale) and the Know bar.",
+ say="""I'm Sri Charan. This is one appliance's whole life, left to right. At the sale we open its record. We install it within a day, keep it covered with maintenance and Protect, and repair it with genuine parts. When it isn't worth repairing, we take it as a trade-in, refurbish it or recycle it. The second row is what we earn at each stage.
+[click] Now read down any column. At every stage, the family, the retailer, the technician and the brand each gain something. The family gets one number and a guarantee, the retailer a commission and the next sale, the technician steady paid work, the brand a verified install. That's why they keep sending us the next job.""",
+ why="One picture answers both questions: what Keepwell does and earns at each stage, and why every other party wants it there.",
+ believe="Every party gains at every stage, so the model is pulled forward by its stakeholders, not pushed.",
  next="We tested this for eight months. Kavyanth."),
 dict(id="traction", act="proof", sp="K", title="The pilot cluster paid for itself from 20 retailers",
  show="Left, one sum read top to bottom: 195 retailer-months × ₹19,500 = ₹38.0 L revenue (2,340 jobs) − ₹28.1 L job costs = ₹9.9 L contribution (26%) − ₹8.0 L cluster team = +₹1.9 L cluster profit. Right, the monthly chart with active retailers under each month: contribution crosses the ₹1.0 L team cost in May, at 20 retailers. [click] The result line.",

@@ -21,7 +21,7 @@
 | 1 | Title + founders | Keepwell keeps the promise the retailer made | Prathyusha |
 | 2 | The problem: three cards + the result | Retailers sell the appliance, then lose the customer | Prathyusha |
 | 3 | Our answer: vision + live / next / later | The retailer sells the promise; Keepwell keeps it | Kavyanth |
-| 4 | The product: a lifecycle flowchart | Keepwell runs the appliance's whole after-sale life | Sri Charan |
+| 4 | The product: a lifecycle swimlane (7 stages × what Keepwell does, earns, and what the family, retailer, technician and brands gain) | At every stage, Keepwell and everyone around it gains | Sri Charan |
 | 5 | Traction: six pilot tiles + a monthly chart | One cluster paid for itself from 20 retailers | Kavyanth |
 | 6 | Unit economics: job → retailer → cluster | Positive at every level; 20 retailers pay for a cluster | Kavyanth |
 | 7 | Business model: live / next / later | How we make money, and who pays | Kavyanth |

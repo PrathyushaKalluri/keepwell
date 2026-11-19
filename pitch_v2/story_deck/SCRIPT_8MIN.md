@@ -1,8 +1,8 @@
 # Keepwell seed pitch: the 8-minute story deck, explained slide by slide
 
 **Deck:** [`index_8min.html`](index_8min.html). Open it in Chrome. **F** goes full screen, **N** shows these notes, **→ / space** reveals the next click and **B** opens the backup slides for Q&A.
-**Length:** 12 slides, about **7:42** at 150 words a minute.
-**Speaking time:** Prathyusha (CEO) 2:32 · Kavyanth (COO) 4:02 · Sri Charan (CTO) 1:08.
+**Length:** 12 slides, about **7:50** at 150 words a minute.
+**Speaking time:** Prathyusha (CEO) 2:32 · Kavyanth (COO) 4:02 · Sri Charan (CTO) 1:16.
 
 ## How to use this script
 
@@ -25,7 +25,7 @@ Each slide has five parts:
 | 1 | Keepwell | Keepwell keeps the promise the retailer made | Prathyusha | 0:26 | This is about the local retailer, and these three people know that world. |
 | 2 | The problem | Retailers sell the appliance, then lose the customer | Prathyusha | 0:35 | The pain sits with the local retailer and the family, and nobody owns it. |
 | 3 | Our answer | The retailer sells the promise. Keepwell keeps it. | Kavyanth | 0:38 | A clear company with a big vision and a simple first step. |
-| 4 | Our answer | From the retailer's bill to a second life | Sri | 0:43 | Keepwell runs the appliance's entire after-sale life, and every step earns money or data. |
+| 4 | Our answer | At every stage, Keepwell and everyone around it gains | Sri | 0:51 | Every party gains at every stage, so the model is pulled forward by its stakeholders, not pushed. |
 | 5 | The proof | The pilot cluster paid for itself from 20 retailers | Kavyanth | 0:50 | The cluster model is profitable in the field, and they know exactly why. |
 | 6 | The proof | Each retailer leaves ₹5,070 a month today and ₹9,600 at maturity | Kavyanth | 1:25 | Every rupee of the unit is accounted for, and growth comes from the same retailers. |
 | 7 | The money | How we make money | Kavyanth | 0:28 | Revenue per retailer grows without adding retailers. |
@@ -97,22 +97,20 @@ Each slide has five parts:
 
 **BRIDGE:** *"Here is what that means for one appliance. Sri Charan."*
 
-### 4. From the retailer's bill to a second life
-**Sri Charan (CTO)** · about 0:43 · act: Our answer
+### 4. At every stage, Keepwell and everyone around it gains
+**Sri Charan (CTO)** · about 0:51 · act: Our answer
 
-**SHOW (on screen):** A flowchart of one appliance's life with Keepwell's role in each box: Sold → Installed → In use → Breaks → Diagnosed. [click] Worth repairing? Yes → Parts (bought centrally) → Repaired → back in use. [click] No → Traded in → Refurbished (sold again) or Recycled. The Know bar along the bottom: one consented record.
+**SHOW (on screen):** A swimlane. Across the top, seven stages of one appliance's life as arrows: Sold → Installed → Warranty years → Covered (AMC + Protect) → Repaired → Traded in (refurbished) → Recycled, each tagged Serve now or Circulate from year 3. Rows: what Keepwell does; what Keepwell gets (₹2,600 install, AMC ₹1,299, Protect ₹2,000, ₹300 visit, ₹2,700 repair; trade-in and recycling as upside). [click] Four more rows: what the family, the retailer, the technician, and brands and partners get at each stage. Below: the branch (not worth repairing → trade-in), the loop (trade-in is the retailer's next sale) and the Know bar.
 
 **SAY (word for word):**
 
-> I'm Sri Charan. Here is one appliance's whole life with us. The retailer adds the install and Protect to the bill; the family consents on WhatsApp. An authorised technician installs it within a day. When it breaks, a Telugu voice note — our AI desk drafts the fault and the part to carry.
+> I'm Sri Charan. This is one appliance's whole life, left to right. At the sale we open its record. We install it within a day, keep it covered with maintenance and Protect, and repair it with genuine parts. When it isn't worth repairing, we take it as a trade-in, refurbish it or recycle it. The second row is what we earn at each stage.
 >
-> [click] If it's worth repairing, we source genuine parts, fix it, and it goes back into use.
->
-> [click] If not, we collect it as a trade-in while the retailer sells the new one, and refurbish or recycle it. Every step goes on one record.
+> [click] Now read down any column. At every stage, the family, the retailer, the technician and the brand each gain something. The family gets one number and a guarantee, the retailer a commission and the next sale, the technician steady paid work, the brand a verified install. That's why they keep sending us the next job.
 
-**WHY this slide:** The product as one flow, with Keepwell's job at every stage, in three readable clicks.
+**WHY this slide:** One picture answers both questions: what Keepwell does and earns at each stage, and why every other party wants it there.
 
-**THEY SHOULD BELIEVE:** Keepwell runs the appliance's entire after-sale life, and every step earns money or data.
+**THEY SHOULD BELIEVE:** Every party gains at every stage, so the model is pulled forward by its stakeholders, not pushed.
 
 **BRIDGE:** *"We tested this for eight months. Kavyanth."*
 

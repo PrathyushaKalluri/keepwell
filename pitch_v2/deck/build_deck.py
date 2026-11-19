@@ -130,6 +130,25 @@ def r_chain(sl, d, n):
         text(sl, x + 0.2, 3.1, 2.5, 0.5, l, size=12, color=PALE if i == 3 else GREY); text(sl, x + 0.2, 3.75, 2.5, 0.9, s, size=12, bold=True, color=WHITE if i == 3 else INK)
         if i < 3: box(sl, x + 2.87, 3.15, 0.19, 0.25, fill=GREY, shape=MSO_SHAPE.RIGHT_ARROW)
     landbar(sl, d["result"], 5.3)
+def r_swimlane(sl, d, n):
+    frame(sl, d, n); X = 0.6; LW = 1.3; G = 0.04; CW = (12.1 - LW - 7 * G) / 7; Y = 1.45; HH = 0.66
+    PH = {"Serve": TEAL, "Circulate": RGBColor(0x26, 0x37, 0x5A)}
+    for i, (name, age, ph) in enumerate(d["stages"]):
+        x = X + LW + G + i * (CW + G); s = box(sl, x, Y, CW + (0.12 if i < 6 else 0), HH, fill=PH[ph.split(" ")[0]], shape=MSO_SHAPE.PENTAGON if i < 6 else MSO_SHAPE.RECTANGLE)
+        text(sl, x + 0.05, Y + 0.02, CW - 0.12, 0.3, name, size=9.5, bold=True, color=WHITE); text(sl, x + 0.05, Y + 0.3, CW - 0.12, 0.17, age, size=7.5, color=PALE)
+        text(sl, x + 0.05, Y + 0.45, CW - 0.12, 0.2, ph, size=7.5, bold=True, color=AMBER)
+    x6 = X + LW + G + 5 * (CW + G); text(sl, x6 - 0.35, Y - 0.24, CW + 0.4, 0.22, "↓ " + d["branch"], size=8, bold=True, color=RED)
+    y = Y + HH + 0.06; RH = [0.66, 0.5, 0.58, 0.52, 0.46, 0.58]
+    for r, (lab, cells) in enumerate(d["rows"]):
+        h = RH[r]; kw = r < 2
+        box(sl, X, y, LW, h - 0.04, fill=NAVY if r == 1 else (TEAL if r == 0 else LIGHT))
+        text(sl, X + 0.06, y, LW - 0.1, h - 0.04, lab, size=9, bold=True, color=WHITE if kw else NAVY, anchor=MSO_ANCHOR.MIDDLE)
+        for i, c in enumerate(cells):
+            x = X + LW + G + i * (CW + G); box(sl, x, y, CW, h - 0.04, fill=TEALBG if r == 1 else SOFT)
+            text(sl, x + 0.04, y, CW - 0.07, h - 0.04, c, size=8.4 if r != 1 else 9, bold=r == 1, color=GREY if c == "—" else (NAVY if r == 1 else INK), anchor=MSO_ANCHOR.MIDDLE, align=PP_ALIGN.CENTER if c == "—" else PP_ALIGN.LEFT)
+        y += h
+    text(sl, X + LW + G + 4.6 * (CW + G), y + 0.0, 3.6, 0.25, d["loop"], size=8.5, bold=True, color=AMBER)
+    box(sl, X, y + 0.28, 12.1, 0.38, fill=NAVY); text(sl, X + 0.12, y + 0.28, 11.8, 0.38, d["spine"], size=10, bold=True, color=WHITE, anchor=MSO_ANCHOR.MIDDLE)
 def r_bridge(sl, d, n):
     frame(sl, d, n); y = 1.62; rh = 0.56
     for i, (op, v, lab, sub) in enumerate(d["rows"]):

@@ -93,18 +93,18 @@ The vision, in one sentence:
   - The terms have been reviewed by a lawyer, and a formal legal opinion is due within six months of the funding.
 - **The appliance record.** Every visit, part and plan is written to one record, with the family's consent, on WhatsApp.
 
-**What Keepwell does at each stage of an appliance's life:**
+**What Keepwell does, what it earns, and what everyone else gains, at each stage of an appliance's life:**
 
-| Stage | What Keepwell does |
-|---|---|
-| **Sold** | The retailer adds the install and Protect to the bill. The family consents on WhatsApp, and the record starts |
-| **Installed** | An authorised technician installs within a day, records the serial number and photos, and registers the warranty |
-| **In use** | AMC visits in the quiet season; Protect cover after the brand warranty ends; reminders |
-| **Breaks** | The family sends a voice note in Telugu. Keepwell's AI desk drafts the likely fault and the part to carry |
-| **Diagnosed** | The technician confirms the fault and asks: is it worth repairing? |
-| **If yes: parts and repair** | Keepwell buys genuine parts centrally from distributors. The fix is verified with a photo and the customer's OTP, carries a 90-day guarantee, and the technician is paid within 48 hours |
-| **If no: trade-in** | Keepwell collects the old unit while the retailer sells the new one |
-| **Then: refurbish or recycle** | The old unit is refurbished and resold through retailers with a warranty, or sent to a registered e-waste recycler |
+| | **1 Sold** (day 0) | **2 Installed** (day 1) | **3 Warranty years** (years 0–2) | **4 Covered** (AMC + Protect) | **5 Repaired** (years 2–8) | **6 Traded in** (years 5–8 · refurbish) | **7 Recycled** (year 8+) |
+|---|---|---|---|---|---|---|---|
+| **Keepwell does** | Opens the appliance record on WhatsApp; family consents | Authorised install in 24 h; serial, photos, warranty registered | Keeps the record and sends reminders (the brand repairs) | Sells AMC and Protect; off-season service visits | AI desk drafts fault and part; genuine part; photo + OTP close | Collects the old unit; refurbishes; resells through retailers | Sends to a registered recycler; salvages parts |
+| **Keepwell gets** | The lead and the customer | ₹2,600 per AC install | No fee: the relationship that sells the plan | AMC ₹1,299 · Protect ₹2,000 | ₹300 visit · ₹2,700 repair · parts margin | Pickup fee + resale margin (upside) | Per-kg fee + salvaged parts (upside) |
+| **Family** | One number to call; install promised in 24 h | Installed in a day; warranty stays valid | Free brand repairs; nothing forgotten | Scheduled service; repairs covered after warranty | Price fixed upfront; 90-day guarantee | Exchange credit for the old unit | Safe, legal disposal |
+| **Retailer** | Sells the promise, not just the box | 5% commission; no blame for delays | Stays in touch through reminders | 12% on AMC · 25% on Protect | 8% commission; keeps the customer | The next sale: back to stage 1 | Old units off the shop floor |
+| **Technician** | — | Paid per job within 48 h | — | Off-season visits fill the quiet months | Right part on the first visit; paid in 48 h | Refurbishing work | — |
+| **Brands and partners** | — | Service centre: installs done in towns it can't staff | Brand: a verified install and serial | — | Parts distributor: one pooled order | Second-hand buyer: a working unit with a warranty | Brand: meets its e-waste take-back target |
+
+Stage 5 → 6: when an appliance isn't worth repairing, it becomes a trade-in, and the trade-in is the retailer's next sale (back to stage 1). Stages 1–5 are live now; trade-in, refurbishing and recycling start in year 3 and are upside, not in the plan's numbers. Every stage is written to one consented appliance record.
 
 **Where the AI fits.** It reads voice notes and photos, and drafts the job. Prices, safety stops and claim decisions are always made by rules and people. The AI keeps costs low; the advantage over competitors comes from the retailers, the density of clusters and the record.
 
