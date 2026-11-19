@@ -228,7 +228,7 @@ The ₹8 L cluster team on slide 6 is the pilot's running cost, and its contribu
 | 2 Protect plans | 3,400 | ₹1,700 each (₹2,000 with GST). That is about 4% of the roughly 55 covered appliances a retailer sells, below the pilot's 6% |
 | 1 AMC renewal | 1,100 | Earlier customers renewing |
 | 3 repairs on appliances we installed | 6,000 | ₹2,000 each, as the installed base ages |
-| **Revenue** | **30,000** | |
+| **Revenue** | **30,000** | 18 jobs a month (today's 12 + 2 plans + 1 renewal + 3 repairs). ₹19,500 + ₹10,500 = +54% from the same retailer; average ₹1,667 a job |
 | **Keepwell keeps 32%** | **9,600** | Up from 26% because parts are bought centrally and denser routes mean more jobs per technician day |
 
 **Justify the cluster panel:**

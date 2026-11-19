@@ -223,7 +223,10 @@ def r_retailer(sl, d, n):
             if i == 2 and kind == "total" and k == len(rows) - 1: fill = NAVY
             box(sl, x, y, wpn, hgt - 0.04, fill=fill); dark = fill == NAVY
             col = WHITE if dark else (RED if kind == "minus" else (TEAL if kind in ("plus", "total") else NAVY))
-            text(sl, x + 0.1, y, 2.6, hgt - 0.04, lab, size=9, bold=kind == "total", color=WHITE if dark else INK, anchor=MSO_ANCHOR.MIDDLE)
+            if "|" in lab:
+                m_, s_ = lab.split("|"); text(sl, x + 0.1, y - 0.01, 2.6, 0.22, m_, size=9, bold=kind == "total", color=WHITE if dark else INK)
+                text(sl, x + 0.1, y + 0.18, 2.62, 0.22, s_, size=7, color=GREY)
+            else: text(sl, x + 0.1, y, 2.6, hgt - 0.04, lab, size=9, bold=kind == "total", color=WHITE if dark else INK, anchor=MSO_ANCHOR.MIDDLE)
             text(sl, x + 2.65, y, 1.17, hgt - 0.04, v, size=13 if kind == "total" else 12, bold=True, color=col, anchor=MSO_ANCHOR.MIDDLE, align=PP_ALIGN.RIGHT)
             y += hgt
         if i < 2: box(sl, x + wpn + 0.03, 4.2, 0.14, 0.25, fill=GREY, shape=MSO_SHAPE.RIGHT_ARROW)
