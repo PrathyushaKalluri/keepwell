@@ -340,8 +340,7 @@ FIN = [("Pre-seed iSAFE amount (₹)", RD.R["isafe"]), ("iSAFE post-money cap (�
        ("Seed amount (₹)", RD.R["seed"]), ("Seed pre-money (₹)", RD.R["seed_pre"]), ("ESOP pool, % of post-seed", RD.R["pool_post"]),
        ("Round 2 (GTM, H2 2028) amount (₹)", RD.R["r2"]), ("Round 2 pre-money (₹)", RD.R["r2_pre"]),
        ("Round 3 (Scaling, 2030) amount (₹)", RD.R["r3"]), ("Round 3 pre-money (₹)", RD.R["r3_pre"]),
-       ("Operator revenue multiple", RD.R["op_mult"]), ("Data revenue multiple", RD.R["data_mult"]),
-       ("Seed tranche 1, at close (₹)", RD.R["t1"]), ("Seed tranche 2, at the month-9 gate (₹)", RD.R["t2"])]
+       ("Operator revenue multiple", RD.R["op_mult"]), ("Data revenue multiple", RD.R["data_mult"])]
 for i, (lab, v) in enumerate(FIN, 3):
     wf.cell(i, 1, lab); c = wf.cell(i, 2, v); c.font = BLUE; c.number_format = PCT if v < 1 else INR
 B = lambda i: f"$B${i}"
@@ -390,7 +389,6 @@ for j, t in ((2, 0.35), (3, 0.40)):
     wf.cell(vm + 1, j, t).font = BLUE; wf.cell(vm + 1, j).number_format = PCT
     wf.cell(vm + 2, j, f"=$B${rt+1}*($D${ct+4}/$B${ct+4})/(1+{CL_(j)}{vm+1})^5").number_format = INR
 wf.cell(vm + 1, 1, "Target IRR"); wf.cell(vm + 2, 1, "Maximum seed post-money (₹)"); wf.cell(vm + 3, 1, "Our seed post-money (₹)"); wf.cell(vm + 3, 2, f"=B{r0}").number_format = INR
-wf.cell(vm + 5, 1, "Check: tranches sum to the seed amount"); wf.cell(vm + 5, 2, "=IF(ABS(B15+B16-B6)<1,\"OK\",\"MISMATCH\")")
 wf.column_dimensions["A"].width = 78
 for c_ in "BCDE": wf.column_dimensions[c_].width = 20
 PLAN["funding"] = dict(ct=ct, rt=rt, vm=vm, r0=r0)

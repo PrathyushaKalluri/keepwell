@@ -7,7 +7,7 @@
 
 > ### Read this first (flags)
 > 1. **The three legal questions an investor will ask first:**
->    - **Is Keepwell Protect insurance?** No. It is a repairs-only service contract that Keepwell fulfils itself. The counter-test plans were sold under terms reviewed by counsel. The formal legal opinion is due by month 6 and is a condition of tranche 2. Claims money is ring-fenced.
+>    - **Is Keepwell Protect insurance?** No. It is a repairs-only service contract that Keepwell fulfils itself. The counter-test plans were sold under terms reviewed by counsel. The formal legal opinion is due by month 6, before the month-9 checkpoint. Claims money is ring-fenced.
 >    - **Are technicians employees?** No. They are per-job partners. We pay the gig-worker levy (modelled at 1.4% of revenue) and carry accident cover.
 >    - **Do our installs void the warranty?** No. Installs are done only under brand-authorised service-centre sub-contracts. Unauthorised brands get a referral, not an install.
 > 2. **Data:** the appliance record is personal data under the DPDP Act 2023 and Rules 2025. Consent is collected at the shop counter on WhatsApp. Brand data products are aggregated or consented.

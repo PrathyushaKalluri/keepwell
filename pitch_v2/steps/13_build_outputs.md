@@ -23,6 +23,6 @@
 1. **Problem → solution:** the shop's promise ends at the counter → Keepwell is the shop's after-sale arm.
 2. **Solution → proof:** the pilot shows that shops route jobs (58%) and that families buy Protect (6%).
 3. **Proof → economics:** pilot inputs drive the model. Clusters earn 16% on service; Protect, the commission shift, central parts buying and partners fix Step 7's thin margins (Step 7b).
-4. **Economics → ask:** the course method gives ₹1.34 Cr of one-year need from the close, plus six months to raise Round 2, plus contingency: ₹2.5 Cr at ₹8 Cr pre-money, in two tranches.
-5. **Ask → gate → milestones → next round:** the month-9 gate releases tranche 2; the month-18 milestones, set on the stress path, earn Round 2 (₹5 Cr at ₹25 Cr pre).
-6. **Rounds → vision:** Serve → Supply → Know → Circulate, a year-7–8 exit, and the close line: *"Keepwell keeps the promise the shop made when it sold the appliance."*
+4. **Economics → ask:** the course method gives ₹1.34 Cr of one-year need from the close, plus six months to raise Round 2, plus contingency: ₹2.5 Cr at ₹8 Cr pre-money, in a single close.
+5. **Ask → checkpoint → milestones → next round:** the board reviews the month-9 checkpoint; the month-18 milestones, set on the stress path, earn Round 2 (₹5 Cr at ₹25 Cr pre).
+6. **Rounds → vision:** Serve → Supply → Know → Circulate, a year-7–8 exit, and the close line: *"Keepwell keeps the promise the retailer made when it sold the appliance."*

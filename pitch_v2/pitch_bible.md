@@ -48,7 +48,7 @@ This is the master plan for building the Keepwell investor pitch for the retaile
 | 6 | Traction and validation plan [Story] | `steps/06_traction_and_validation.md` | Backdated discovery (shops, technicians, households, brand talks). The 90-day Vijayawada–Guntur pilot and its results. Kill criteria. Series A gates | Steps 7, 8, 11 | **APPROVED 20 Nov (Gate 2 passed)** |
 | **C** | **The money** | | | | |
 | 7 | Business model and unit economics | `steps/07_business_model_unit_economics.md` + `steps/07b_model_redesign.md` + `keepwell_model.xlsx` (built by `build_model_v3.py`) | Revenue lines by phase. Contribution per job, shop and cluster. 8-year P&L and cash. Sensitivity. Low, base and high cases | Steps 8, 9, 13 | **APPROVED with 7b redesign; xlsx rebuilt on `plan_v3.py` (`build_model_v3.py`, 630 formulas, 0 errors, 0 mismatches)** |
-| 8 | Funding needs to the ask | `steps/08_funding_needs_and_ask.md` | Costed needs minus revenue, cash and grants gives the amount. Round size, tranches, use of funds, milestones per round (first round, seed, Series A). The investor type follows the story stage | Steps 9, 12 | **FINAL: ₹2.5 Cr seed at ₹8 Cr pre, two tranches** |
+| 8 | Funding needs to the ask | `steps/08_funding_needs_and_ask.md` | Costed needs minus revenue, cash and grants gives the amount. Round size, use of funds, milestones per round (first round, seed, Series A). The investor type follows the story stage | Steps 9, 12 | **FINAL: ₹2.5 Cr seed at ₹8 Cr pre, single close** |
 | **D** | **The deal and the trust** | | | | |
 | 9 | Investor, instrument, valuation, cap table, exit | `steps/09_deal_valuation_exit.md` | Investor type. Instrument (iSAFE / CCPS / note). Valuation by comparable, scorecard and VC methods. Cap table through Series A–B. Exit routes, buyers, comparables, returns (IRR vs the course benchmarks) | Steps 11, 12 | **FINAL: CCPS ₹8 Cr pre; cap table and returns in xlsx Funding sheet** |
 | 10 | Compliance, trust and data room | `steps/10_compliance_trust_dataroom.md` | Labour codes and gig levies, consumer protection and the guarantee, DPDP consent, GST, safety (gas and electrical), insurance, brand authorisation contracts, e-waste rules, data-room index | Steps 11, 13 | **FINAL** |
@@ -120,7 +120,7 @@ This is the master plan for building the Keepwell investor pitch for the retaile
 
 
 ## v2 status (19 Nov 2026): complete
-- **The ask:** ₹2.5 Cr seed, CCPS at ₹8 Cr pre-money (23.8%), in two tranches (₹1.75 Cr at close, ₹0.75 Cr at the month-9 gate), 18 months from close (Step 8 §8.4).
+- **The ask:** ₹2.5 Cr seed, CCPS at ₹8 Cr pre-money (23.8%), single close, 18 months from close, month-9 board checkpoint (Step 8 §8.4).
 - **The roadmap:** Round 2 ₹5 Cr at ₹25 Cr pre (H2 2028); Round 3 ₹15 Cr at ₹70 Cr pre (2030); exit 2033–34.
 - **Reconciled 19 Nov 2026** after an outside review (`steps/reviews/`): one canonical number set, the deal re-based, no real/illustrative tags.
 - **Outputs:** all in `steps/13_build_outputs.md`.

@@ -20,15 +20,15 @@
 - One family writes the refill date on the gas cylinder.
 - A brand's WhatsApp bot answered with "API related issue" until the customer gave up ("My request was not done").
 
-**What it means for Keepwell.** Trust goes to the person, not the system, so we work under the shop's name. Families already keep a paper record, so the appliance record is a habit they already have.
+**What it means for Keepwell.** Trust goes to the person, not the system, so we work under the retailer's name. Families already keep a paper record, so the appliance record is a habit they already have.
 
-## Shop owners (discovery, Apr–Jul 2025, Vijayawada, Guntur and Warangal; n = 64)
+## Retailers (discovery, Apr–Jul 2025, Vijayawada, Guntur and Warangal; n = 64)
 
 - **51 of 64** say installation delays get blamed on them.
 - **9** have had a consumer complaint or legal notice.
 - **None** earn anything after the sale.
-- **41 of 64** would route installs to "a service partner who puts my name on the guarantee". **28** signed letters of intent before the pilot, and all 34 pilot shops signed 2-year agreements.
-- In the pilot, the 4 shops whose owners used the install guarantee in their sales pitch sold the most Protect plans.
+- **41 of 64** would route installs to "a service partner who puts my name on the guarantee". **28** signed letters of intent before the pilot, and all 34 pilot retailers signed 2-year agreements.
+- In the pilot, the 4 retailers whose owners used the install guarantee in their sales pitch sold the most Protect plans.
 
 ## Technicians and service centres
 

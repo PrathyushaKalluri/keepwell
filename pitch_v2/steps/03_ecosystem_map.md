@@ -125,7 +125,7 @@ The high-volume calls of the AI service layer run on Gemini: voice-note transcri
 | Who | Why not now | When |
 |---|---|---|
 | **Urban Company** | It competes for households in Vijayawada and Guntur [R: live AC pages], and it does not serve shops | Possible buyer at exit (Step 9) |
-| **Regional chains** (Bajaj Electronics, Sathya) | They already have extended-warranty partners (Onsitego, OneAssist) [R]. Our customer is the independent shop | Year 3+: offer verification and fulfilment |
+| **Regional chains** (Bajaj Electronics, Sathya) | They already have extended-warranty partners (Onsitego, OneAssist) [R]. Our customer is the local retailer | Year 3+: offer verification and fulfilment |
 
 ## 3.8 What the ecosystem cannot give us, which is why we raise
 | Need | Can partners or grants cover it? |

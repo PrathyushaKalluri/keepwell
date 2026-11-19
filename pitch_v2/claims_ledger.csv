@@ -1,5 +1,5 @@
 id,claim,value,source,basis,used_in
-C01,Seed ask,₹2.5 Cr CCPS in two tranches: ₹1.75 Cr at close + ₹0.75 Cr at the month-9 gate,steps/08 §8.2; model/rounds.py,Model,deck 12; story ask; full story
+C01,Seed ask,"₹2.5 Cr CCPS, single close",steps/08 §8.2; model/rounds.py,Model,deck 12; story ask; full story
 C02,One-year funding need from the close (stress),₹1.34 Cr,steps/08 §8.2; model/monthly_cash.py (no plan cash; ₹2 L at close),Model,deck 12 notes; story ask
 C03,Sizing total (need + six months to raise Round 2 + contingency),₹1.34 + ₹1.00 + ₹0.16 = ₹2.50 Cr,steps/08 §8.2,Model,story ask
 C04,Pre-money / post-money,₹8 Cr / ₹10.5 Cr; 23.8% to seed,steps/09 §9.2; xlsx Funding,Model,deck 12; A1; backup
@@ -35,8 +35,8 @@ C33,Shop owners blamed for install delays,51 of 64,steps/06 §6.2,Discovery,deck
 C34,Shop net margin; seller liability,2–3%; Chennai ₹35k; Hyderabad ₹60k,steps/04 §4.6,Research,story problem
 C35,Founder networks,600+ dealers (CEO); 200+ service centres (COO),steps/02 §2.2,Team,deck 10; story team
 C36,Gig-worker levy,1.4% of revenue,steps/10; keepwell_model.xlsx Inputs levy,Research,story clean; A3
-C37,Month-9 gate and month-18 milestones,Gate: ≥65 units/shop · ≥50% routing · pilot cluster pays its team (trailing 12 months) · Protect ≥3.75% in pilot shops · legal opinion · ≥35% authorised. M18: 4 clusters · 200+ shops · ₹4.5 Cr+ run-rate · 3 partners · 1 verification contract,steps/08 §8.4,Plan,deck 12; story ask
-C38,Downside if the gate fails,Tranche 2 not paid; investor exposure ₹1.75 Cr with 1x preference,steps/08; steps/09,Model,Q&A
+C37,Month-9 checkpoint and month-18 milestones,Checkpoint (board review): ≥65 units/shop · ≥50% routing · pilot cluster pays its team (trailing 12 months) · Protect ≥3.75% in pilot shops · legal opinion · ≥35% authorised. M18: 4 clusters · 200+ shops · ₹4.5 Cr+ run-rate · 3 partners · 1 verification contract,steps/08 §8.4,Plan,deck 12; story ask
+C38,Downside if the checkpoint fails,Expansion stops with ~₹1 Cr in hand; orderly wind-down returns ~₹0.5 Cr under the 1x preference,steps/08; steps/09,Model,Q&A
 C39,Stress cash need to month 48,₹7.7 Cr (₹8.1 Cr at 55% claims; ₹8.7 Cr with no Protect); seed + Round 2 cover into late 2030; Round 3 covers the tail to the ₹10.1 Cr monthly low point,model/monthly_cash.py,Model,A2; Q&A
 C40,Competitor positions,UC ~36% take; Onsitego chains; 247around brand-paid; Jeeves/resQ captive,steps/05,Research,deck 9; story nobody
 C41,Shop letters of intent and agreements,28 LOIs before the pilot; 34 shops on 2-year exclusive service-arm agreements; 33 active,steps/06 update; steps/02 timeline,Pilot,deck 6; story pilot

@@ -29,7 +29,7 @@
 >    Step 7 had 1% in year 7 and a ₹21.6 Cr peak.
 > 4. **Why year 7–8 margins look modest:** the company is still opening 15–17 clusters a year, each at 25% output in its first year. **If the year-8 network were fully mature**, it would run at **₹249 Cr revenue and 13.4% EBITDA, with 9.1% from service alone** (no data revenue). This is the real health number for the service business.
 > 5. **Customer plan money is ring-fenced.** Expected claims on unexpired plans sit in a reserve and are **not** used to fund the company. Without any plan cash at all, the peak need would be ₹11.9 Cr. With the reserve it is ₹5.9 Cr.
-> 6. **Stress case** (5% attach, 45% claims, 25% parts margin, 50 shops per cluster, slower rollout): profitable from **year 6**, **peak need ₹9.1 Cr**. **LOW** (every pilot input at its worst) is never profitable and needs ₹58 Cr. So the seed carries a **month-9 gate (tranche 2) and month-18 milestones** (Step 8 §8.4).
+> 6. **Stress case** (5% attach, 45% claims, 25% parts margin, 50 shops per cluster, slower rollout): profitable from **year 6**, **peak need ₹9.1 Cr**. **LOW** (every pilot input at its worst) is never profitable and needs ₹58 Cr. So the seed carries a **month-9 board checkpoint and month-18 milestones** (Step 8 §8.4).
 > 7. **NEW revenue line, Keepwell Protect: ₹10.2 Cr in year 7 (8% of revenue).**
 >    - **Assumed:** 8% attach on covered appliances, and claims at 35% of the net price.
 >    - **Evidence:** Indian buyers do buy plans at the counter (chains earn crores from them), and our own failure data supports the claims figure.
@@ -150,7 +150,7 @@ The levers are added one at a time to the corrected Step 7 BASE; pilot inputs ar
 
 **Founder edge.** Kavyanth's relationships with owners of 200+ service centres (Step 2) are the pipeline. 66 partners are needed by year 8.
 
-**Brand-contract risk.** Some brand contracts limit multi-brand work. Partners take Keepwell jobs only for brands their contract allows. Other brands go to a second partner or to Keepwell's own technicians in that cluster. **Check this in the first 3 partner contracts** (tranche gate).
+**Brand-contract risk.** Some brand contracts limit multi-brand work. Partners take Keepwell jobs only for brands their contract allows. Other brands go to a second partner or to Keepwell's own technicians in that cluster. **Check this in the first 3 partner contracts** (month-9 checkpoint).
 
 ### Lever 5: 60 shops per cluster and a leaner head office
 
@@ -244,11 +244,11 @@ The levers are added one at a time to the corrected Step 7 BASE; pilot inputs ar
 
 **Reading:**
 - **Stress** reaches profit with about ₹9 Cr.
-- **LOW** means the pilot inputs were wrong. The seed's **month-9 gate** stops expansion, and withholds tranche 2, if units or attach look like LOW. The gate and milestones are in Step 8 §8.4.
+- **LOW** means the pilot inputs were wrong. The seed's **month-9 checkpoint** stops expansion if units or attach look like LOW. The checkpoint and milestones are in Step 8 §8.4.
 
 ## 7b.6 What this does to the story, and the hard questions
 
-**Positioning is unchanged:** "the after-sale service arm of every small-town appliance shop". The story gains one line: ***the shop sells the promise; Keepwell keeps it.*** Protect turns the Step 1 closing line into a product with a price.
+**Positioning is unchanged:** "the after-sale service arm of every local appliance retailer". The story gains one line: ***the shop sells the promise; Keepwell keeps it.*** Protect turns the Step 1 closing line into a product with a price.
 
 **Phases:** Serve → Supply → Know → Circulate. Protect sits in Serve, and partners scale Serve.
 

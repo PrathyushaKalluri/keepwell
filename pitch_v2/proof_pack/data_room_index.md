@@ -6,8 +6,8 @@
 | 2. Team | Founder bios and references, advisor letters, hiring plan | Why this team | `steps/02`, `steps/08 §8.3` |
 | 3. Market | TAM/SAM/SOM workbook, research sources, household survey and interviews | ≈ ₹4,000 Cr TAM | `steps/04`, `research/`, `proof_pack/voice_of_customer.md` |
 | 4. Product | AI-desk walkthrough, job-flow specs, guardrail rules, appliance-record schema | Product fit | `steps/05`, `proof_pack/demo_walkthrough.md` |
-| 5. Traction | Pilot ledgers by month, 2-year shop agreements and the 28 letters of intent, Protect counter-test log, scorecard with misses | 34 shops, ₹25 L, 6% attach | `steps/06` |
+| 5. Traction | Pilot ledgers by month, 2-year retailer agreements and the 28 letters of intent, Protect counter-test log, scorecard with misses | 34 retailers, ₹25 L, 6% attach | `steps/06` |
 | 6. Financials | `keepwell_model.xlsx` (4 scenarios plus the Funding sheet; 0 formula errors, 0 mismatches with Python), monthly cash profile, FY26 accounts | Unit economics, the ask, returns | `keepwell_model.xlsx`, `model/` |
-| 7. Contracts | Shop agreement, service-centre sub-contracts (renewed for 2027), the brand's letter of intent for authorisation, partner-cluster template, Protect terms, insurance | Authorisation, partners, Protect | `steps/03`, `steps/07b`, `steps/10` |
+| 7. Contracts | Retailer agreement, service-centre sub-contracts (renewed for 2027), the brand's letter of intent for authorisation, partner-cluster template, Protect terms, insurance | Authorisation, partners, Protect | `steps/03`, `steps/07b`, `steps/10` |
 | 8. Compliance | Protect legal opinion (a seed milestone), DPDP policy and consent flow, gig-levy workings, safety SOPs, complaints log | Hygiene | `steps/10` |
 | 9. Consistency | Claims ledger and the automated check | Every number traces to a source | `claims_ledger.csv`, `check_consistency.py` |

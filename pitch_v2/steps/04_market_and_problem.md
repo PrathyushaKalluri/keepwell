@@ -43,6 +43,8 @@
 
 ## 4.2 Supply side: units sold by independent shops × after-sale spend
 
+**In the pitch we call these *local retailers*:** every independent appliance retailer in Tier 2/3 towns, of every size (00c §4c). National chains are excluded because their service is captive.
+
 **Bridge from the validation report**
 - **₹1,550 Cr:** 9k shops that sell more than 60 units a month, × the founders' per-shop spend. This counted large shops only.
 - **00c §4c** changed the target to every independent shop, small ones included, because a small shop earns the same per unit.

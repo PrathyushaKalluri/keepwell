@@ -36,10 +36,13 @@ In a small Indian town, **the appliance shop owns the trust.** Families buy wher
 - every appliance gets a life record
 
 ### 1.3 Company vision
-> **Every appliance in small-town India is installed right, kept working, and given a second life, by people the family already trusts.**
 
-- **Closing line:** *"Keepwell keeps the promise the shop made when it sold the appliance."*
-- **Tagline under the logo:** **"The after-sale service arm of every small-town appliance shop."**
+*Local retailer* means every independent appliance retailer in Tier 2/3 towns, from a single-counter dealer to a large multi-brand showroom. It covers everyone except the national chains, which run captive service (Step 4).
+
+> **Keepwell looks after every appliance a local retailer sells for its whole life: installed right, repaired with genuine parts, kept covered, and refurbished or recycled when its time is up.**
+
+- **Closing line:** *"Keepwell keeps the promise the retailer made when it sold the appliance."*
+- **Tagline under the logo:** **"The after-sale service arm of every local appliance retailer."**
 
 ### 1.4 Company mission
 > **Be the authorised, guaranteed service arm for independent appliance retailers, delivered by certified local technicians and run on an AI service layer. With every owner's consent, build the record that brands, retailers and recyclers can trust.**
@@ -53,7 +56,7 @@ In a small Indian town, **the appliance shop owns the trust.** Families buy wher
 | **3. Know** | 3–6 | the record brands and retailers check | verified installations and claims; replacement leads and AMC renewals; failure intelligence | brands, plan sellers, retailers | 70–90% gross margin [R] |
 | **4. Circulate** | 5–8 | the appliance's second life | refurbished appliances sold back through the same shops, with a warranty | budget buyers | selective; stock-heavy |
 
-**For investors:** *a services operator with an AI layer: the after-sale service arm of India's independent appliance shops.* It earns on every job, every plan and every record, and the AI keeps the cost per job low.
+**For investors:** *a services operator with an AI layer: the after-sale service arm of India's local appliance retailers.* It earns on every job, every plan and every record, and the AI keeps the cost per job low.
 
 ### 1.6 Why we start with Serve, and why AC is the anchor
 - **The pain, the payer and the data meet at the service visit.** Every visit is paid, builds the record and earns the retailer's trust. Every later layer depends on visits.
@@ -122,19 +125,19 @@ The moat is operational, plus the record:
 - **The backup candidate:** the guarantee under the shop's name. No one else offers this to independent shops.
 
 ### 1.13 How this shows up in the pitch
-- **Title slide:** Keepwell, *The after-sale service arm of every small-town appliance shop.*
+- **Title slide:** Keepwell, *The after-sale service arm of every local appliance retailer.*
 - **Slide 2:** the shop owner's week (hook).
 - **Vision slide:** the four phases on one appliance's life line.
-- **Closing slide:** *"Keepwell keeps the promise the shop made when it sold the appliance."*
+- **Closing slide:** *"Keepwell keeps the promise the retailer made when it sold the appliance."*
 
 ---
 
 ## Decisions to approve (Step 1)
-1. **Vision:** *"Every appliance in small-town India is installed right, kept working, and given a second life, by people the family already trusts."*
-2. **Mission** (§1.4) and **tagline:** *"The after-sale service arm of every small-town appliance shop."*
-3. **Positioning:** *the after-sale service arm of every small-town appliance shop: a services operator with an AI layer.* The AI is the cost engine, not the moat.
+1. **Vision:** *"Keepwell looks after every appliance a local retailer sells for its whole life: installed right, repaired with genuine parts, kept covered, and refurbished or recycled when its time is up."*
+2. **Mission** (§1.4) and **tagline:** *"The after-sale service arm of every local appliance retailer."*
+3. **Positioning:** *the after-sale service arm of every local appliance retailer: a services operator with an AI layer.* The AI is the cost engine, not the moat.
 4. **Four phases** (Serve, Supply, Know, Circulate) as the vision structure.
 5. **Narrative spine** (§1.9): opens with the shop owner's week, then the family's evidence.
-6. **Closing line:** *"Keepwell keeps the promise the shop made when it sold the appliance."*
+6. **Closing line:** *"Keepwell keeps the promise the retailer made when it sold the appliance."*
 
 On approval, Step 2 (founders and backstory, from scratch) comes next.

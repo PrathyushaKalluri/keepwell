@@ -79,11 +79,38 @@ def r_solution(sl, d, n):
         x = 0.6 + i * 3.05; box(sl, x, 1.8, 2.9, 2.0, fill=NAVY if i == 2 else LIGHT)
         c = WHITE if i == 2 else NAVY; text(sl, x + 0.15, 1.95, 2.6, 0.7, h, size=17, bold=True, color=c)
         text(sl, x + 0.15, 2.7, 2.6, 1.0, b, size=12, color=PALE if i == 2 else INK)
-    text(sl, 0.6, 4.05, 12, 0.35, "THE JOURNEY: FOUR PHASES, ONE RECORD", size=11, bold=True, color=TEAL)
-    for i, (h, b) in enumerate(d["phases"]):
-        s = box(sl, 0.6 + i * 3.05, 4.45, 3.0, 0.95, fill=TEAL if i == 0 else NAVY, shape=MSO_SHAPE.CHEVRON)
-        text(sl, 0, 0, 0, 0, [h, b], size=11, bold=True, color=WHITE, align=PP_ALIGN.CENTER, anchor=MSO_ANCHOR.MIDDLE, shape=s)
+    box(sl, 0.6, 4.0, 12.1, 1.55, fill=NAVY); box(sl, 0.6, 4.0, 0.12, 1.55, fill=AMBER)
+    text(sl, 0.9, 4.08, 11.6, 0.35, "OUR VISION", size=11, bold=True, color=AMBER)
+    text(sl, 0.9, 4.42, 11.6, 1.1, d["vision"], size=17, bold=True, color=WHITE)
     landbar(sl, d["land"], 5.75)
+def r_lifecycle(sl, d, n):
+    frame(sl, d, n)
+    col = {"serve": TEAL, "supply": AMBER, "circ": RGBColor(0x26, 0x37, 0x5A)}
+    W5, H5, X0, Y0, GX = 2.3, 1.22, 0.6, 1.6, 0.15
+    pos = {0: (0, 0), 1: (1, 0), 2: (2, 0), 3: (3, 0), 4: (4, 0), 5: (4, 1), 6: (3, 1), 7: (4, 2), 8: (3, 2), 9: (2, 2)}
+    def xy(i): c, r = pos[i]; return X0 + c * (W5 + GX), Y0 + r * (H5 + 0.42)
+    for i, (h, b, k) in enumerate(d["stages"]):
+        x, y = xy(i); box(sl, x, y, W5, H5, fill=WHITE, line=col[k]); box(sl, x, y, W5, 0.07, fill=col[k])
+        text(sl, x + 0.08, y + 0.1, W5 - 0.16, 0.32, h, size=12, bold=True, color=NAVY)
+        text(sl, x + 0.08, y + 0.42, W5 - 0.16, 0.78, b, size=9.5, color=INK)
+    def arrow(x, y, w, h, shape, fill=GREY):
+        s_ = box(sl, x, y, w, h, fill=fill, shape=shape); return s_
+    for i in range(4):
+        x, y = xy(i); arrow(x + W5 + 0.01, y + H5 / 2 - 0.08, GX - 0.02, 0.16, MSO_SHAPE.RIGHT_ARROW)
+    x4, y4 = xy(4); box(sl, x4 + 0.35, y4 + H5 + 0.04, W5 - 0.7, 0.34, fill=NAVY, shape=MSO_SHAPE.ROUNDED_RECTANGLE)
+    text(sl, x4 + 0.35, y4 + H5 + 0.04, W5 - 0.7, 0.34, "Worth repairing?", size=10, bold=True, color=WHITE, align=PP_ALIGN.CENTER, anchor=MSO_ANCHOR.MIDDLE)
+    x5, y5 = xy(5); arrow(x5 - GX + 0.01, y5 + H5 / 2 - 0.08, GX - 0.02, 0.16, MSO_SHAPE.LEFT_ARROW, TEAL)
+    x6, y6 = xy(6); arrow(x6 + W5 / 2 - 0.08, y6 - 0.42, 0.16, 0.4, MSO_SHAPE.UP_ARROW, TEAL)
+    text(sl, x6 + W5 / 2 + 0.1, y6 - 0.4, 2.2, 0.35, "fixed → back in use", size=9, bold=True, color=TEAL)
+    text(sl, x4 + 0.0, y4 + H5 + 0.04, 0.35, 0.34, "yes ↓", size=9, bold=True, color=TEAL)
+    x7, y7 = xy(7); arrow(x5 + W5 + 0.04, y4 + H5 + 0.2, 0.14, y7 + 0.3 - (y4 + H5 + 0.2), MSO_SHAPE.DOWN_ARROW, RED)
+    text(sl, x5 + W5 - 0.45, y7 - 0.36, 0.45, 0.3, "no", size=9, bold=True, color=RED)
+    for i in (7, 8):
+        x, y = xy(i); arrow(x - GX + 0.01, y + H5 / 2 - 0.08, GX - 0.02, 0.16, MSO_SHAPE.LEFT_ARROW)
+    text(sl, X0, Y0 + H5 + 0.5, 2 * W5 + GX, 1.2, ["SERVE · now   SUPPLY · from year 2   CIRCULATE · from year 3", "Repairable → parts → repaired → back in use.", "Not worth repairing → trade-in → refurbished (sold again) or recycled."], size=10, color=GREY)
+    box(sl, X0, 6.2, 12.1, 0.42, fill=NAVY); text(sl, X0 + 0.15, 6.2, 11.8, 0.42, d["spine"], size=11, bold=True, color=WHITE, anchor=MSO_ANCHOR.MIDDLE)
+
+
 def r_flow(sl, d, n):
     frame(sl, d, n)
     for i, (h, b) in enumerate(d["steps"]):
@@ -187,7 +214,9 @@ def hs(d, n):
     elif t == "tiles":
         b = '<div class="grid2">' + "".join(f'<div class="card"><b>{E(a)}</b><span>{E(c)}</span></div>' for a, c in d["tiles"]) + f'</div><div class="land">{E(d["land"])}</div>'
     elif t == "solution":
-        b = '<div class="tiles">' + "".join(f'<div class="tile{" hi" if i == 2 else ""}"><b class="sm">{E(a)}</b><span>{E(c)}</span></div>' for i, (a, c) in enumerate(d["offers"])) + '</div><div class="chev">' + "".join(f'<div><b>{E(a)}</b><span>{E(c)}</span></div>' for a, c in d["phases"]) + f'</div><div class="land">{E(d["land"])}</div>'
+        b = '<div class="tiles">' + "".join(f'<div class="tile{" hi" if i == 2 else ""}"><b class="sm">{E(a)}</b><span>{E(c)}</span></div>' for i, (a, c) in enumerate(d["offers"])) + f'</div><div class="vision"><em>Our vision</em>{E(d["vision"])}</div><div class="land">{E(d["land"])}</div>'
+    elif t == "lifecycle":
+        b = '<div class="lcg">' + "".join(f'<div class="lcb {k}"><b>{E(h)}</b><span>{E(x)}</span></div>' for h, x, k in d["stages"]) + f'</div><div class="land">{E(d["spine"])}</div>'
     elif t == "flow":
         b = '<div class="flow">' + "".join(f'<div><i>{i+1}</i><b>{E(a)}</b><span>{E(c)}</span></div>' for i, (a, c) in enumerate(d["steps"])) + f'</div><div class="land">{E(d["principle"])}</div>'
     elif t == "traction":
@@ -234,6 +263,7 @@ table.wide td{font-size:15px}.sub2{font-size:13px;color:var(--grey);margin-top:1
 .chart{display:flex;align-items:flex-end;gap:18px;height:250px;border-bottom:2px solid #CFC7B8;padding-top:20px}.bc{flex:1;height:100%;display:flex;flex-direction:column;justify-content:flex-end;align-items:center}.bar{width:70%;background:var(--navy);border-radius:6px 6px 0 0}.bv{font-weight:700;color:var(--navy)}.be{font-weight:700;color:var(--teal);margin-top:4px}.be.neg{color:var(--red)}.by{font-size:12px;color:var(--grey)}
 .uof{display:grid;grid-template-columns:260px 1fr 50px;align-items:center;gap:8px;margin:6px 0;font-size:14px}.uof i{height:14px;background:var(--teal);border-radius:4px}.ms{background:#1B3A66;border-radius:12px;padding:16px 22px}.ms li{margin-bottom:8px}
 .foot{position:absolute;left:56px;right:56px;bottom:16px;font-size:11px;color:var(--grey);font-style:italic}.pn{position:absolute;right:24px;bottom:14px;font-size:12px;color:var(--grey)}
+.vision{margin-top:22px;background:var(--navy);color:#fff;border-left:6px solid var(--amber);padding:16px 22px;border-radius:0 12px 12px 0;font:700 19px/1.4 Georgia}.vision em{display:block;font:700 12px Arial;font-style:normal;color:var(--amber);letter-spacing:.12em;text-transform:uppercase;margin-bottom:6px}.lcg{display:grid;grid-template-columns:repeat(5,1fr);gap:10px}.lcb{background:#fff;border:1px solid #ddd;border-top:5px solid var(--teal);border-radius:10px;padding:10px;font-size:13px}.lcb.supply{border-top-color:var(--amber)}.lcb.circ{border-top-color:var(--navy)}.lcb b{display:block;color:var(--navy);font-size:15px;margin-bottom:4px}
 .help{position:fixed;left:12px;bottom:8px;color:#55637E;font:12px Arial}
 """
 JS = "const S=[...document.querySelectorAll('.s')];let i=Math.max(0,(parseInt(location.hash.slice(1))||1)-1);function r(){S.forEach((s,k)=>s.classList.toggle('on',k===i));history.replaceState(null,'','#'+(i+1));const sc=Math.min(innerWidth/1280,innerHeight/720)*.98;document.getElementById('deck').style.transform='scale('+sc+')'}addEventListener('keydown',e=>{if(['ArrowRight',' ','PageDown'].includes(e.key))i=Math.min(S.length-1,i+1);if(['ArrowLeft','PageUp'].includes(e.key))i=Math.max(0,i-1);r()});addEventListener('click',()=>{i=Math.min(S.length-1,i+1);r()});addEventListener('resize',r);r();"

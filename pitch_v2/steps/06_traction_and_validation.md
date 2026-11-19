@@ -6,7 +6,7 @@
 > - **Shop agreements:** before the pilot, 28 shops signed letters of intent. All 34 pilot shops signed 2-year service-arm agreements, exclusive in their catchment; 33 of 34 are still active.
 > - **Authorisation:** both service-centre sub-contracts are renewed for 2027, and one brand's regional team has signed a letter of intent for direct authorisation in 2027.
 > - **Protect:** the counter-test plans were sold under terms reviewed by counsel; the formal legal opinion is due by month 6 after the close.
-> - **Next steps:** the seed's gate (month 9) and milestones (month 18) are in Step 8 §8.4.
+> - **Next steps:** the seed's checkpoint (month 9) and milestones (month 18) are in Step 8 §8.4.
 
 > **Update after Step 7b (approved 19 Nov 2026).** **Added: Keepwell Protect counter test, May–Jun 2026 (the last 8 weeks of the summer phase), 12 shops.**
 > - Shops offered the 2-year repair plan at ₹1,499–2,999 by category on about 1,200 covered units sold.
@@ -161,7 +161,7 @@ Setup and working capital (₹6 L) sit separately in Step 2.
 
 ## 6.6 What the next round pays to prove: superseded
 
-> **Superseded by Step 8 §8.4.** The seed's gate is at **month 9** (it releases tranche 2) and its milestones are at **month 18**, both counted from the March 2027 close. The table below is kept as the earlier draft's record.
+> **Superseded by Step 8 §8.4.** The seed's checkpoint is at **month 9** (a board review) and its milestones are at **month 18**, both counted from the March 2027 close. The table below is kept as the earlier draft's record.
 | # | Milestone | Target | Why |
 |---|---|---|---|
 | 1 | Authorisation de-risked | 2 service centres delivering, plus 1 direct brand authorisation | Supplier power (Step 5) |

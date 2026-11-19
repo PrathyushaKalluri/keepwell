@@ -8,7 +8,7 @@
 
 > ### Read this first
 > 1. **The deal:** CCPS, ₹2.5 Cr at **₹8 Cr pre-money / ₹10.5 Cr post. Investors take 23.8%.**
->    - **Tranches:** ₹1.75 Cr at close, then ₹0.75 Cr at the month-9 gate, both at the same price.
+>    - **One close:** the full ₹2.5 Cr at signing.
 >    - **Pre-seed:** the ₹45 L pre-seed iSAFE converts at its ₹6 Cr cap.
 > 2. **Why ₹8 Cr pre-money:** the course methods and the market agree on it.
 >
@@ -30,7 +30,7 @@
 >    - 1x non-participating preference
 >    - broad-based weighted-average anti-dilution
 >    - a 3-person board: 2 founders and 1 lead-investor director
->    - tranche 2 conditional on the month-9 gate
+>    - a month-9 board checkpoint, with affirmative votes on budget and spend
 >    - founders' vesting continues from August 2025
 
 ---
@@ -94,10 +94,10 @@
 
 | Clause | Course template (Series A) | Keepwell seed |
 |---|---|---|
-| Instrument and amount | CCPS, ₹2.5 Cr | CCPS, ₹2.5 Cr: **₹1.75 Cr at close + ₹0.75 Cr at the month-9 gate**, same price |
+| Instrument and amount | CCPS, ₹2.5 Cr | CCPS, ₹2.5 Cr in a **single close** |
 | Valuation | ₹7.5 Cr pre | **₹8 Cr pre / ₹10.5 Cr post** |
 | Board | 4 (1 investor, 2 promoters, 1 independent) | **3: 2 founders + 1 lead-investor director.** An AP observer. An independent director added at Round 2 |
-| Tranche condition | — | **Tranche 2 is released on the month-9 gate (Step 8 §8.4), certified by an independent CA.** The lead director confirms it; a majority of seed investors may waive it |
+| Month-9 checkpoint | — | **Board review of the five checkpoint numbers (Step 8 §8.4), certified by an independent CA.** If they fail, expansion stops; budget and spend changes need the investor director's vote |
 | Liquidation preference | 1x non-participating | Same |
 | Anti-dilution | Broad-based weighted average | Same |
 | Pro-rata, ROFR, ROFO, tag, drag | Yes | Same; drag-along from year 7 |
@@ -123,7 +123,7 @@
 | Year 7 (2033), BASE | ₹376 Cr | 16.3% | ₹61.4 Cr | 24.6× | 58% |
 
 **Downside cases:**
-- **The month-9 gate fails:** tranche 2 is never paid. The investor's exposure is ₹1.75 Cr, protected by a 1x preference ahead of the founders.
+- **The month-9 checkpoint fails:** expansion stops with about ₹1 Cr in hand. An orderly wind-down returns about ₹0.5 Cr, under a 1x preference ahead of the founders.
 - **No Round 3** (BASE turns cash-flow positive from year 5): the seed keeps 19.8%, so the return is higher.
 
 ## 9.6 Exit path
@@ -141,7 +141,7 @@
 
 ## Decisions (Step 9, final)
 
-1. **CCPS, ₹2.5 Cr at ₹8 Cr pre / ₹10.5 Cr post (23.8%)**, in two tranches. The iSAFE converts at the cap (5.7%). ESOP 10%.
+1. **CCPS, ₹2.5 Cr at ₹8 Cr pre / ₹10.5 Cr post (23.8%)**, single close. The iSAFE converts at the cap (5.7%). ESOP 10%.
 2. **Terms:** the course CCPS template adapted for a seed, as in §9.4.
 3. **Round prices:** Round 2 at ₹25 Cr pre, Round 3 at ₹70 Cr pre.
 4. **Exit:** a strategic sale or PE in 2033–34.

@@ -112,7 +112,7 @@ Backdated so that the Vijayawada–Guntur summer pilot has happened. Its results
 | Travel, discovery, miscellaneous | 5 |
 | **Total** | **52** |
 
-**Cash today: about ₹18 L**, plus the ₹5 L grant tranche still due. Contribution from pilot operations is netted inside the cluster line. Step 6 reconciles the pilot's contribution exactly.
+**Cash today: about ₹18 L**, plus the ₹5 L grant instalment still due. Contribution from pilot operations is netted inside the cluster line. Step 6 reconciles the pilot's contribution exactly.
 
 ### 2.6 The pre-seed instrument: why an iSAFE from operator angels (with later rounds in mind)
 
