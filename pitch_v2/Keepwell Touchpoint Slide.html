@@ -1,0 +1,197 @@
+<!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#fff;color:#000}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body>
+<title>Keepwell Touchpoint Slide</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap">
+<style>
+/* Layout: one 16:9 slide (1600 x 900). Read top to bottom: 1 who reaches each stage, 2 what happens, 3 value for each party. A strip of three decisions underneath shows where an appliance branches. The page scales the slide to the window width. */
+:root {
+  --bg: #e9edf2; --slide: #ffffff; --ink: #142030; --muted: #566475; --line: #d6dce4;
+  --f: #a85a00; --r: #1f5fa8; --k: #0b7a75; --t: #5b4bb0; --p: #566475; --on: #ffffff;
+  --serve: #0b7a75; --circ: #1c2d4a; --cell: #f4f6f9; --loop: #a85a00; --dec: #fbead3;
+  --font-head: "Space Grotesk", "Inter", system-ui, sans-serif;
+  --font-body: "Inter", system-ui, -apple-system, "Segoe UI", sans-serif;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #0b121b; --slide: #131e2c; --ink: #e6edf5; --muted: #9aa9ba; --line: #2a3a4d;
+    --f: #f0a95a; --r: #7db4ec; --k: #47c2b9; --t: #b3a6ff; --p: #9aa9ba; --on: #0f1722;
+    --serve: #1f8f88; --circ: #2c4670; --cell: #1a2738; --loop: #f0a95a; --dec: #3a2a12; color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #0b121b; --slide: #131e2c; --ink: #e6edf5; --muted: #9aa9ba; --line: #2a3a4d;
+  --f: #f0a95a; --r: #7db4ec; --k: #47c2b9; --t: #b3a6ff; --p: #9aa9ba; --on: #0f1722;
+  --serve: #1f8f88; --circ: #2c4670; --cell: #1a2738; --loop: #f0a95a; --dec: #3a2a12; color-scheme: dark;
+}
+* { box-sizing: border-box; }
+body { background: var(--bg); color: var(--ink); font-family: var(--font-body);
+  padding-block: 16px; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); }
+#wrap { width: 1600px; height: 900px; margin: 0 auto; }
+#slide { width: 1600px; height: 900px; transform-origin: top left; background: var(--slide); border-radius: 14px; padding: 26px 44px 22px; display: flex; flex-direction: column; gap: 12px; box-shadow: 0 6px 30px -12px rgba(10,25,45,.35); overflow: hidden; }
+.top { display: flex; align-items: flex-end; justify-content: space-between; gap: 30px; }
+h1 { font: 700 40px/1.08 var(--font-head); margin: 0; letter-spacing: -0.01em; }
+.sub { font-size: 18px; color: var(--muted); margin-top: 6px; line-height: 1.4; }
+.sub b { color: var(--ink); }
+.legend { display: flex; flex-wrap: wrap; justify-content: flex-end; gap: 4px 18px; font-size: 14.5px; color: var(--muted); max-width: 640px; padding-bottom: 2px; }
+.legend > span { display: inline-flex; align-items: center; gap: 6px; white-space: nowrap; }
+.d { display: inline-grid; place-items: center; width: 24px; height: 24px; border-radius: 50%; font: 700 13px var(--font-head); color: var(--on); flex: none; }
+.d.f, .pill.f { background: var(--f); } .d.r, .pill.r { background: var(--r); } .d.k, .pill.k { background: var(--k); }
+.d.t, .pill.t { background: var(--t); } .d.p, .pill.p { background: var(--p); }
+.d.ring { outline: 3px solid var(--ink); outline-offset: 2px; }
+.legend .d { width: 20px; height: 20px; font-size: 11.5px; }
+
+.grid { display: grid; grid-template-columns: 28px 112px repeat(7, 1fr); gap: 7px; flex: 1; min-height: 0; grid-template-rows: auto auto auto auto auto repeat(4, 1fr); }
+.rl { font: 600 15px/1.25 var(--font-head); display: flex; align-items: center; gap: 8px; padding: 0 4px 0 2px; }
+.rl .num, .band i { display: inline-grid; place-items: center; width: 22px; height: 22px; border-radius: 50%; background: var(--ink); color: var(--slide); font: 700 12.5px var(--font-head); font-style: normal; flex: none; }
+.band { background: color-mix(in srgb, var(--ink) 10%, var(--slide)); color: var(--ink); border-radius: 6px; display: flex; align-items: center; justify-content: center; }
+.band span { writing-mode: vertical-rl; transform: rotate(180deg); font: 700 13.5px var(--font-head); letter-spacing: .1em; text-transform: uppercase; white-space: nowrap; display: flex; align-items: center; gap: 8px; }
+.band i { writing-mode: horizontal-tb; transform: rotate(180deg); }
+.rl.who { gap: 0; }
+.dot { display: inline-block; width: 11px; height: 11px; border-radius: 50%; margin-right: 8px; flex: none; }
+.dot.f { background: var(--f); } .dot.r { background: var(--r); } .dot.t { background: var(--t); } .dot.p { background: var(--p); }
+.h { background: var(--serve); color: #fff; padding: 8px 22px 7px 13px; display: flex; flex-direction: column; gap: 1px; clip-path: polygon(0 0, calc(100% - 15px) 0, 100% 50%, calc(100% - 15px) 100%, 0 100%); border-radius: 6px 0 0 6px; }
+.h.c { background: var(--circ); }
+.h.last { clip-path: none; border-radius: 6px; padding-right: 13px; }
+.h b { font: 700 17.5px/1.15 var(--font-head); }
+.h span { font-size: 13.5px; opacity: .92; }
+.h em { font: 700 12px var(--font-body); font-style: normal; color: #ffd9a0; margin-top: 2px; }
+.c { background: var(--cell); border-radius: 8px; padding: 7px 10px; font-size: 15.5px; line-height: 1.3; display: flex; flex-direction: column; justify-content: center; min-width: 0; }
+.c.reach { flex-direction: row; align-items: center; gap: 8px; font-weight: 600; font-size: 15px; }
+.rd { width: 13px; height: 13px; border-radius: 50%; flex: none; border: 2.5px solid var(--ink); }
+.c.reach.all .rd { background: var(--ink); }
+.c.reach.some { background: transparent; border: 1.5px dashed var(--line); }
+.c.first { gap: 5px; align-items: flex-start; }
+.pill { display: inline-block; font: 700 15.5px var(--font-head); color: var(--on); padding: 2px 11px; border-radius: 999px; }
+.trig { font-size: 14.5px; color: var(--ink); line-height: 1.25; }
+.c.ord { flex-direction: row; flex-wrap: nowrap; align-items: center; justify-content: flex-start; padding-left: 9px; }
+.ar { color: var(--muted); font-size: 15px; margin: 0 2px; line-height: 1; }
+.c.val { font-size: 15.5px; border-left: 5px solid var(--line); }
+.c.val.f { border-left-color: var(--f); } .c.val.r { border-left-color: var(--r); } .c.val.t { border-left-color: var(--t); } .c.val.p { border-left-color: var(--p); }
+.c.val.na { color: var(--muted); background: transparent; border: 1px dashed var(--line); align-items: center; font-size: 18px; }
+
+.decisions { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; }
+.dc { display: flex; align-items: center; gap: 12px; background: var(--dec); border-radius: 10px; padding: 8px 14px; font-size: 15px; line-height: 1.32; }
+.dc .dm { width: 28px; height: 28px; flex: none; transform: rotate(45deg); border: 2.5px solid var(--loop); background: var(--slide); border-radius: 4px; margin: 4px; display: grid; place-items: center; }
+.dc .dm b { transform: rotate(-45deg); font: 700 14px var(--font-head); color: var(--loop); }
+.dc b.q { font-family: var(--font-head); }
+.yes { color: var(--k); font-weight: 700; } .no { color: var(--loop); font-weight: 700; }
+</style>
+
+<div id="wrap">
+<div id="slide">
+  <div class="top">
+    <div>
+      <h1>Not every appliance reaches every stage</h1>
+      <div class="sub">Each stage also starts differently. Read down each column: <b>1</b> who reaches the stage, <b>2</b> what happens, <b>3</b> what each party gains. The three decisions at the bottom show where an appliance branches.</div>
+    </div>
+    <div class="legend" aria-label="Key">
+      <span><span class="d f">F</span>Family</span>
+      <span><span class="d r">R</span>Retailer</span>
+      <span><span class="d k">K</span>Keepwell</span>
+      <span><span class="d t">T</span>Technician</span>
+      <span><span class="d p">B</span>Brand or partner</span>
+      <span>Ringed = first touch</span>
+      <span>&#9679; every unit &nbsp; &#9675; only some</span>
+    </div>
+  </div>
+  <div class="grid">
+<div style="grid-row:1;grid-column:1 / span 2" class="rl"></div>
+<div style="grid-row:1;grid-column:3" class="h s"><b>1 Sold</b><span>day 0</span><em>Serve · now</em></div>
+<div style="grid-row:1;grid-column:4" class="h s"><b>2 Installed</b><span>day 1</span><em>Serve · now</em></div>
+<div style="grid-row:1;grid-column:5" class="h s"><b>3 Warranty years</b><span>years 0-2</span><em>Serve · now</em></div>
+<div style="grid-row:1;grid-column:6" class="h s"><b>4 Covered</b><span>AMC + Protect</span><em>Serve · now</em></div>
+<div style="grid-row:1;grid-column:7" class="h s"><b>5 Repaired</b><span>years 2-8</span><em>Serve · parts yr 2</em></div>
+<div style="grid-row:1;grid-column:8" class="h c"><b>6 Traded in</b><span>years 5-8 · refurbish</span><em>Circulate · yr 3</em></div>
+<div style="grid-row:1;grid-column:9" class="h c last"><b>7 Recycled</b><span>year 8+</span><em>Circulate · yr 3</em></div>
+<div style="grid-row:2;grid-column:1 / span 2" class="rl"><span class="num">1</span>Who reaches it</div>
+<div style="grid-row:2;grid-column:3" class="c reach all"><span class="rd"></span>Every unit</div>
+<div style="grid-row:2;grid-column:4" class="c reach all"><span class="rd"></span>Every unit</div>
+<div style="grid-row:2;grid-column:5" class="c reach all"><span class="rd"></span>Every unit</div>
+<div style="grid-row:2;grid-column:6" class="c reach some"><span class="rd"></span>Only if a plan is bought</div>
+<div style="grid-row:2;grid-column:7" class="c reach some"><span class="rd"></span>When it breaks after warranty</div>
+<div style="grid-row:2;grid-column:8" class="c reach some"><span class="rd"></span>Only if not worth repairing</div>
+<div style="grid-row:2;grid-column:9" class="c reach some"><span class="rd"></span>Only if it can&#x27;t be resold</div>
+<div style="grid-row:3 / span 3;grid-column:1" class="band"><span><i>2</i>What happens</span></div>
+<div style="grid-row:3;grid-column:2" class="rl">First touch</div>
+<div style="grid-row:3;grid-column:3" class="c first"><span class="pill f">Family</span><span class="trig">walks into the shop</span></div>
+<div style="grid-row:3;grid-column:4" class="c first"><span class="pill k">Keepwell</span><span class="trig">confirms the install slot</span></div>
+<div style="grid-row:3;grid-column:5" class="c first"><span class="pill f">Family</span><span class="trig">calls the brand if it breaks</span></div>
+<div style="grid-row:3;grid-column:6" class="c first"><span class="pill k">Keepwell</span><span class="trig">sends the month-11 reminder</span></div>
+<div style="grid-row:3;grid-column:7" class="c first"><span class="pill f">Family</span><span class="trig">sends a voice note or scans the QR</span></div>
+<div style="grid-row:3;grid-column:8" class="c first"><span class="pill f">Family</span><span class="trig">wants a new unit, at the shop</span></div>
+<div style="grid-row:3;grid-column:9" class="c first"><span class="pill f">Family</span><span class="trig">hands in a dead unit at the shop</span></div>
+<div style="grid-row:4;grid-column:2" class="rl">Order of touches</div>
+<div style="grid-row:4;grid-column:3" class="c ord"><span class="d f ring" title="Family">F</span><span class="ar">›</span><span class="d r" title="Retailer">R</span><span class="ar">›</span><span class="d k" title="Keepwell">K</span></div>
+<div style="grid-row:4;grid-column:4" class="c ord"><span class="d k ring" title="Keepwell">K</span><span class="ar">›</span><span class="d f" title="Family">F</span><span class="ar">›</span><span class="d t" title="Technician">T</span><span class="ar">›</span><span class="d p" title="Brand / partner">B</span><span class="ar">›</span><span class="d r" title="Retailer">R</span></div>
+<div style="grid-row:4;grid-column:5" class="c ord"><span class="d f ring" title="Family">F</span><span class="ar">›</span><span class="d p" title="Brand / partner">B</span><span class="ar">›</span><span class="d k" title="Keepwell">K</span><span class="ar">›</span><span class="d r" title="Retailer">R</span></div>
+<div style="grid-row:4;grid-column:6" class="c ord"><span class="d k ring" title="Keepwell">K</span><span class="ar">›</span><span class="d f" title="Family">F</span><span class="ar">›</span><span class="d r" title="Retailer">R</span><span class="ar">›</span><span class="d t" title="Technician">T</span></div>
+<div style="grid-row:4;grid-column:7" class="c ord"><span class="d f ring" title="Family">F</span><span class="ar">›</span><span class="d k" title="Keepwell">K</span><span class="ar">›</span><span class="d p" title="Brand / partner">B</span><span class="ar">›</span><span class="d t" title="Technician">T</span><span class="ar">›</span><span class="d r" title="Retailer">R</span></div>
+<div style="grid-row:4;grid-column:8" class="c ord"><span class="d f ring" title="Family">F</span><span class="ar">›</span><span class="d r" title="Retailer">R</span><span class="ar">›</span><span class="d k" title="Keepwell">K</span><span class="ar">›</span><span class="d t" title="Technician">T</span><span class="ar">›</span><span class="d p" title="Brand / partner">B</span></div>
+<div style="grid-row:4;grid-column:9" class="c ord"><span class="d f ring" title="Family">F</span><span class="ar">›</span><span class="d r" title="Retailer">R</span><span class="ar">›</span><span class="d k" title="Keepwell">K</span><span class="ar">›</span><span class="d p" title="Brand / partner">B</span></div>
+<div style="grid-row:5;grid-column:2" class="rl">What Keepwell does</div>
+<div style="grid-row:5;grid-column:3" class="c">Opens the appliance record on WhatsApp; family consents.</div>
+<div style="grid-row:5;grid-column:4" class="c">Authorised install in 24 h; serial, photos, warranty registered.</div>
+<div style="grid-row:5;grid-column:5" class="c">Keeps the record and sends reminders while the brand repairs.</div>
+<div style="grid-row:5;grid-column:6" class="c">Sells AMC and Protect; runs off-season service visits.</div>
+<div style="grid-row:5;grid-column:7" class="c">AI desk drafts fault and part; genuine part; photo + OTP close.</div>
+<div style="grid-row:5;grid-column:8" class="c">Collects the old unit; grades it; refurbishes if it can be saved.</div>
+<div style="grid-row:5;grid-column:9" class="c">Sends to a registered recycler; salvages parts.</div>
+<div style="grid-row:6 / span 4;grid-column:1" class="band b3"><span><i>3</i>Value for each party</span></div>
+<div style="grid-row:6;grid-column:2" class="rl who"><span class="dot f"></span>Family</div>
+<div style="grid-row:6;grid-column:3" class="c val f">One number to call; install in 24 h</div>
+<div style="grid-row:6;grid-column:4" class="c val f">Installed in a day; warranty valid</div>
+<div style="grid-row:6;grid-column:5" class="c val f">Free brand repairs; nothing forgotten</div>
+<div style="grid-row:6;grid-column:6" class="c val f">Scheduled service; repairs covered</div>
+<div style="grid-row:6;grid-column:7" class="c val f">Fixed price upfront; 90-day guarantee</div>
+<div style="grid-row:6;grid-column:8" class="c val f">Exchange credit for the old unit</div>
+<div style="grid-row:6;grid-column:9" class="c val f">Safe, legal disposal</div>
+<div style="grid-row:7;grid-column:2" class="rl who"><span class="dot r"></span>Retailer</div>
+<div style="grid-row:7;grid-column:3" class="c val r">Sells the promise, not just the box</div>
+<div style="grid-row:7;grid-column:4" class="c val r">5% commission; no blame for delays</div>
+<div style="grid-row:7;grid-column:5" class="c val r">Stays in touch through reminders</div>
+<div style="grid-row:7;grid-column:6" class="c val r">12% on AMC · 25% on Protect</div>
+<div style="grid-row:7;grid-column:7" class="c val r">8% commission; keeps the customer</div>
+<div style="grid-row:7;grid-column:8" class="c val r">The next sale: back to stage 1</div>
+<div style="grid-row:7;grid-column:9" class="c val r">Old units off the shop floor</div>
+<div style="grid-row:8;grid-column:2" class="rl who"><span class="dot t"></span>Technician</div>
+<div style="grid-row:8;grid-column:3" class="c val na">&mdash;</div>
+<div style="grid-row:8;grid-column:4" class="c val t">Paid per job within 48 h</div>
+<div style="grid-row:8;grid-column:5" class="c val na">&mdash;</div>
+<div style="grid-row:8;grid-column:6" class="c val t">Off-season visits fill quiet months</div>
+<div style="grid-row:8;grid-column:7" class="c val t">Right part first visit; paid in 48 h</div>
+<div style="grid-row:8;grid-column:8" class="c val t">Refurbishing work</div>
+<div style="grid-row:8;grid-column:9" class="c val na">&mdash;</div>
+<div style="grid-row:9;grid-column:2" class="rl who"><span class="dot p"></span>Brand / partner</div>
+<div style="grid-row:9;grid-column:3" class="c val na">&mdash;</div>
+<div style="grid-row:9;grid-column:4" class="c val p">Service centre: installs where it can&#x27;t staff</div>
+<div style="grid-row:9;grid-column:5" class="c val p">Brand: a verified install and serial</div>
+<div style="grid-row:9;grid-column:6" class="c val na">&mdash;</div>
+<div style="grid-row:9;grid-column:7" class="c val p">Distributor: one pooled order</div>
+<div style="grid-row:9;grid-column:8" class="c val p">Buyer: a working unit with a warranty</div>
+<div style="grid-row:9;grid-column:9" class="c val p">Brand: meets e-waste take-back target</div>
+  </div>
+  <div class="decisions" aria-label="Where an appliance branches">
+    <div class="dc"><span class="dm"><b>?</b></span><span><b class="q">It breaks after warranty?</b><br><span class="yes">Yes</span> stage 5, repair. <span class="no">No</span> it stays in use; the reminders carry on.</span></div>
+    <div class="dc"><span class="dm"><b>?</b></span><span><b class="q">Worth repairing?</b><br><span class="yes">Yes</span> fixed and back in use. <span class="no">No</span> it becomes a trade-in (stage 6), the retailer's next sale.</span></div>
+    <div class="dc"><span class="dm"><b>?</b></span><span><b class="q">Can it be resold?</b><br><span class="yes">Yes</span> refurbished, a second life with a new owner. <span class="no">No</span> stage 7, recycled.</span></div>
+  </div>
+</div>
+</div>
+
+<script>
+// Scale the 1600 x 900 slide to the window width (never above 1.6x).
+(function () {
+  var wrap = document.getElementById('wrap'), slide = document.getElementById('slide');
+  function fit() {
+    var avail = document.documentElement.clientWidth - 32;
+    var k = Math.max(0.2, Math.min(avail / 1600, 1.6));
+    slide.style.transform = 'scale(' + k + ')';
+    wrap.style.width = (1600 * k) + 'px';
+    wrap.style.height = (900 * k) + 'px';
+  }
+  window.addEventListener('resize', fit);
+  fit();
+})();
+</script>
+
+</body></html>

@@ -205,12 +205,12 @@ def r_bridge(sl, d, n):
 def r_retailer(sl, d, n):
     frame(sl, d, n)
     # strip: the 12 jobs behind ₹19,500
-    cw = 1.62
+    nj = len(d["jobs"]); cw = (10.1 - 0.06 * (nj - 1)) / nj
     for i, (cnt, what, price, sub) in enumerate(d["jobs"]):
         x = 0.6 + i * (cw + 0.06); box(sl, x, 1.5, cw, 0.92, fill=SOFT)
         text(sl, x + 0.06, 1.52, cw - 0.1, 0.32, f"{cnt} {what}", size=10, bold=True, color=NAVY)
         text(sl, x + 0.06, 1.8, cw - 0.1, 0.3, price, size=12, bold=True, color=TEAL); text(sl, x + 0.06, 2.08, cw - 0.1, 0.3, sub, size=8.5, color=GREY)
-    jt = d["jobs_total"]; x = 0.6 + 6 * (cw + 0.06); box(sl, x, 1.5, 12.7 - x, 0.92, fill=NAVY)
+    jt = d["jobs_total"]; x = 0.6 + nj * (cw + 0.06); box(sl, x, 1.5, 12.7 - x, 0.92, fill=NAVY)
     text(sl, x + 0.08, 1.52, 12.6 - x, 0.3, "= " + jt[0], size=10, bold=True, color=PALE); text(sl, x + 0.08, 1.78, 12.6 - x, 0.36, jt[1], size=17, bold=True, color=WHITE)
     text(sl, x + 0.08, 2.1, 12.6 - x, 0.3, jt[2], size=9, bold=True, color=AMBER)
     if d.get("jobs_note"): text(sl, 0.6, 2.43, 12.1, 0.28, d["jobs_note"], size=9.5, bold=True, color=TEAL)

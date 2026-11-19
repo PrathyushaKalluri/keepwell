@@ -106,7 +106,7 @@ The vision, in one sentence:
 | | **1 Sold** (day 0) | **2 Installed** (day 1) | **3 Warranty years** (years 0–2) | **4 Covered** (AMC + Protect) | **5 Repaired** (years 2–8) | **6 Traded in** (years 5–8 · refurbish) | **7 Recycled** (year 8+) |
 |---|---|---|---|---|---|---|---|
 | **Keepwell does** | Opens the appliance record on WhatsApp; family consents | Authorised install in 24 h; serial, photos, warranty registered | Keeps the record and sends reminders (the brand repairs) | Sells AMC and Protect; off-season service visits | AI desk drafts fault and part; genuine part; photo + OTP close | Collects the old unit; refurbishes; resells through retailers | Sends to a registered recycler; salvages parts |
-| **Keepwell gets** | The lead and the customer | ₹2,600 per AC install | No fee: the relationship that sells the plan | AMC ₹1,299 · Protect ₹2,000 | ₹300 visit · ₹2,700 repair · parts margin | Pickup fee + resale margin (upside) | Per-kg fee + salvaged parts (upside) |
+| **Keepwell gets** | The lead and the customer | ₹2,600 per AC install | No fee: the relationship that sells the plan | AMC ₹1,299 · Protect ₹2,000 | ₹300 visit · ₹2,000 repair · parts margin | Pickup fee + resale margin (upside) | Per-kg fee + salvaged parts (upside) |
 | **Family** | One number to call; install promised in 24 h | Installed in a day; warranty stays valid | Free brand repairs; nothing forgotten | Scheduled service; repairs covered after warranty | Price fixed upfront; 90-day guarantee | Exchange credit for the old unit | Safe, legal disposal |
 | **Retailer** | Sells the promise, not just the box | 5% commission; no blame for delays | Stays in touch through reminders | 12% on AMC · 25% on Protect | 8% commission; keeps the customer | The next sale: back to stage 1 | Old units off the shop floor |
 | **Technician** | — | Paid per job within 48 h | — | Off-season visits fill the quiet months | Right part on the first visit; paid in 48 h | Refurbishing work | — |
@@ -220,23 +220,24 @@ Keepwell ran one cluster in the Vijayawada–Guntur belt from **March to October
 
 **Who pays today.** Families pay, through the retailer, for:
 - an authorised AC install: a **₹800** fee (after the service centre's share of the brand's rate) plus about **₹1,800** of bracket and copper pipe;
-- a service visit: **from ₹300**; a repair with a part: about **₹2,700** before GST (₹3,190 with it);
+- a service visit: **from ₹300**; a repair with a part: about **₹2,000** before GST (₹2,360 with it), averaged across part types;
 - AMC: **₹1,299** a year;
 - **Keepwell Protect**: about **₹2,000** for two years.
 
 **The retailer earns a commission on every job.** That, together with being freed from the after-sale blame, is why retailers hand over the work.
 
-**Where ₹1,625 a job comes from.** Most jobs are small: a washing-machine install or a service visit is about ₹300. The average is higher because a third of the jobs are AC installs, which include the bracket and extra copper pipe, and two a month are repairs that need a part. One retailer's month in the pilot:
+**Where ₹1,625 a job comes from.** Most jobs are small: a washing-machine install or a service visit is about ₹300. The average is higher because a third of the jobs are AC installs, which include the bracket and extra copper pipe, and three a month are repairs that need a part. One retailer's month in the pilot:
 
 | The 12 jobs behind ₹19,500 (one retailer, a month) | Jobs | ₹ each, net of GST | ₹ a month | Why this price (market reference) |
 |---|---|---|---|---|
 | AC installation, authorised | 4 | 2,600 | 10,400 | The brand's own price. LG's charter: ₹1,199 fee (Keepwell keeps ₹800, the service centre the rest), bracket ₹750, copper ₹1,050 a metre. Same price, done in 24 hours instead of 2–5 days |
 | Other installation: washing machine, fridge, purifier | 2 | 300 | 600 | The market rate. Low margin, but it starts the appliance record |
-| Service visit, labour only (e.g. a washing-machine check) | 2 | 300 | 600 | Matches the local mechanic, below the ₹500–900 basic service of Urban Company and LG. Price is never the reason to leave |
-| Repair with a part: gas top-up, capacitor, PCB, motor | 2 | 2,700 | 5,400 | About ₹3,190 with GST, in line with Urban Company's rate card (gas ₹3,000, PCB ₹1,500–4,500, fan motor ₹2,299). Genuine part and a 90-day guarantee |
-| AMC, 2 AC services a year | 1.5 | 1,100 | 1,650 | ₹1,299 with GST, the top of Urban Company's ₹1,098–1,298; adds the record and reminders |
-| Keepwell Protect, 2 years | 0.5 | 1,700 | 850 | ₹2,000 with GST for 2 years; Croma ZipCare charges ₹1,139–2,499 for 1 year |
+| Service visit, labour only (e.g. a washing-machine check) | 1 | 300 | 300 | Matches the local mechanic, below the ₹500–900 basic service of Urban Company and LG. Price is never the reason to leave |
+| Repair with a part: capacitor, fan motor, gas top-up, PCB | 3 | 2,000 | 6,000 | About ₹2,360 with GST, averaged across part types on Urban Company's rate card (capacitor ₹599–749, fan motor ₹2,299, gas ₹3,000, PCB ₹1,500–4,500). Genuine part and a 90-day guarantee |
+| AMC, 2 AC services a year | 2 | 1,100 | 2,200 | ₹1,299 with GST, the top of Urban Company's ₹1,098–1,298; adds the record and reminders |
 | **Total** | **12** | **average 1,625** | **19,500** | **₹1,625 is the average of the mix, not a price.** A third of the jobs are AC installs with materials, which lifts the average above the ₹300 jobs |
+
+**Protect is not in the pilot month.** It was sold only in the pilot's last 8 weeks (72 plans) and is booked over its 2-year term, so it enters from year 1. Protect sells at ₹2,000 with GST (₹1,700 net) for 2 years; Croma ZipCare charges ₹1,139–2,499 for 1 year.
 
 **The pricing rule:** Keepwell charges the market rate on every job and wins on speed, the guarantee and the record, not on price.
 
@@ -247,8 +248,8 @@ Keepwell ran one cluster in the Vijayawada–Guntur belt from **March to October
 | Revenue: 12 jobs × ₹1,625 | 19,500 | The jobs a retailer passes to Keepwell |
 | − Technicians | 4,900 | Partner technicians are paid per job, ₹330–500 (about ₹400 on average) |
 | − Parts | 6,400 | Genuine parts used in repairs |
-| − Retailer commission | 1,440 | 5% on installs, 8% on repairs, 12% on AMC, 25% on Protect |
-| − Travel, payments, AI desk, guarantee reserve | 1,690 | Small costs that come with every job |
+| − Retailer commission | 1,320 | 5% on installs, 8% on repairs, 12% on AMC, 25% on Protect |
+| − Travel, payments, AI desk, guarantee reserve | 1,810 | Small costs that come with every job |
 | **= Contribution (26%)** | **5,070** | What Keepwell keeps from one retailer, before the cluster team |
 
 **Why 20 retailers is the breakeven:** the pilot cluster's team costs ₹1 lakh a month, and ₹1,00,000 ÷ ₹5,070 ≈ 20. That is exactly when the pilot turned profitable (section 5).
@@ -259,8 +260,8 @@ Keepwell ran one cluster in the Vijayawada–Guntur belt from **March to October
 |---|---|---|
 | Pilot revenue | 19,500 | |
 | + Protect plans | 3,400 | 2 plans a month × ₹1,700 net of GST: about 4% of the ~55 covered appliances a retailer sells each month. The pilot's counter test reached 6% |
-| + AMC renewals | 2,200 | 2 renewals a month × ₹1,100 net of GST, as earlier customers come up for renewal |
-| + Repairs on appliances Keepwell installed | 4,900 | About 1.8 more repairs a month × ₹2,700 as the installed base grows |
+| + AMC renewals | 1,100 | 1 renewal a month × ₹1,100 net of GST, as earlier customers come up for renewal |
+| + Repairs on appliances Keepwell installed | 6,000 | 3 more repairs a month × ₹2,000 as the installed base grows |
 | **= Revenue** | **30,000** | |
 | **Contribution at 32%** | **9,600** | Higher than 26% because parts are bought centrally and denser routes mean more jobs per technician day |
 

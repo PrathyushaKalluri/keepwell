@@ -107,7 +107,7 @@ Each slide has five parts:
 ### 4. At every stage, Keepwell and everyone around it gains
 **Sri Charan (CTO)** · about 0:37 · act: Our answer
 
-**SHOW (on screen):** A swimlane. Across the top, seven stages of one appliance's life as arrows: Sold → Installed → Warranty years → Covered (AMC + Protect) → Repaired → Traded in (refurbished) → Recycled, each tagged Serve now or Circulate from year 3. Rows: what Keepwell does; what Keepwell gets (₹2,600 install, AMC ₹1,299, Protect ₹2,000, ₹300 visit, ₹2,700 repair; trade-in and recycling as upside). [click] Four more rows: what the family, the retailer, the technician, and brands and partners get at each stage. Below: the branch (not worth repairing → trade-in), the loop (trade-in is the retailer's next sale) and the Know bar.
+**SHOW (on screen):** A swimlane. Across the top, seven stages of one appliance's life as arrows: Sold → Installed → Warranty years → Covered (AMC + Protect) → Repaired → Traded in (refurbished) → Recycled, each tagged Serve now or Circulate from year 3. Rows: what Keepwell does; what Keepwell gets (₹2,600 install, AMC ₹1,299, Protect ₹2,000, ₹300 visit, ₹2,000 repair; trade-in and recycling as upside). [click] Four more rows: what the family, the retailer, the technician, and brands and partners get at each stage. Below: the branch (not worth repairing → trade-in), the loop (trade-in is the retailer's next sale) and the Know bar.
 
 **SAY (word for word):**
 
@@ -160,11 +160,11 @@ Each slide has five parts:
 ### 7. Each retailer leaves ₹5,070 a month today and ₹9,600 at maturity
 **Kavyanth (COO)** · about 0:51 · act: The proof
 
-**SHOW (on screen):** Top row: the 12 jobs behind ₹19,500, each with its market reference — 4 AC installs × ₹2,600 (brand price), 2 other installs × ₹300, 2 service visits × ₹300 (local mechanic), 2 repairs with a part × ₹2,700 (UC rate card), 1.5 AMCs × ₹1,100, 0.5 Protect plans × ₹1,700 = ₹19,500, average ₹1,625. Below, three panels. One retailer's month in the pilot: ₹19,500 − technicians ₹4,900 − parts ₹6,400 − retailer commission ₹1,440 − travel, payments, AI desk ₹1,690 = ₹5,070 (26%). The same retailer in year 5: + Protect ₹3,400 + AMC renewals ₹2,200 + repairs on our installs ₹4,900 = ₹30,000; at 32%, ₹9,600. One cluster's month: pilot October 34 × ₹5,070 − ₹1.0 L team = +₹0.72 L; mature 60 × ₹9,600 − ₹1.5 L team = +₹4.26 L a month, ₹51 L a year. [click] The result line.
+**SHOW (on screen):** Top row: the 12 jobs behind ₹19,500, in whole jobs at market prices: 4 AC installs × ₹2,600 (brand price), 2 other installs × ₹300, 1 service visit × ₹300 (local mechanic), 3 repairs with a part × ₹2,000 (UC rate card), 2 AMCs × ₹1,100 = ₹19,500, average ₹1,625. Below, three panels. One retailer's month in the pilot: ₹19,500 − technicians ₹4,900 − parts ₹6,400 − retailer commission ₹1,320 − travel, payments, AI desk ₹1,810 = ₹5,070 (26%). The same retailer in year 5: + Protect ₹3,400 + AMC renewals ₹1,100 + repairs on our installs ₹6,000 = ₹30,000; at 32%, ₹9,600. One cluster's month: pilot October 34 × ₹5,070 − ₹1.0 L team = +₹0.72 L; mature 60 × ₹9,600 − ₹1.5 L team = +₹4.26 L a month, ₹51 L a year. [click] The result line.
 
 **SAY (word for word):**
 
-> Here's where that five thousand comes from. Twelve jobs a month, each at the market rate: four AC installs with the bracket and pipe, four three-hundred-rupee jobs, two repairs with a part, and the plans. Nineteen and a half thousand, sixteen twenty-five a job on average.
+> Here's where that five thousand comes from. Twelve jobs a month, each at the market rate: four AC installs with the bracket and pipe, three three-hundred-rupee jobs, three repairs with a part, and two maintenance contracts. Nineteen and a half thousand, sixteen twenty-five a job on average.
 >
 > Technicians, parts, the retailer's commission and travel take the rest; five thousand and seventy is ours.
 >
@@ -183,7 +183,7 @@ Each slide has five parts:
 ### 8. Families pay market prices per job. Keepwell keeps ₹26 of every ₹100.
 **Kavyanth (COO)** · about 0:21 · act: The money
 
-**SHOW (on screen):** One bar: every ₹100 a family pays: technician ₹25, parts ₹33, retailer ₹7, travel and payments ₹9, Keepwell ₹26. Three cards: Now, families pay (install ₹2,600, repair ₹300–2,700, AMC ₹1,299, Protect ₹2,000); Year 2, agencies and partners pay (parts, partner clusters at a 10% fee, trade-ins); Year 3, brands and buyers pay (verified installs and claims, refurbished units, e-waste).
+**SHOW (on screen):** One bar: every ₹100 a family pays: technician ₹25, parts ₹33, retailer ₹7, travel and payments ₹9, Keepwell ₹26. Three cards: Now, families pay (install ₹2,600, visit ₹300, repair ₹2,000, AMC ₹1,299, Protect ₹2,000); Year 2, agencies and partners pay (parts, partner clusters at a 10% fee, trade-ins); Year 3, brands and buyers pay (verified installs and claims, refurbished units, e-waste).
 
 **SAY (word for word):**
 
@@ -234,7 +234,7 @@ Each slide has five parts:
 ### 11. Same price as the market. Far more for it.
 **Sri Charan (CTO)** · about 0:23 · act: Why we win
 
-**SHOW (on screen):** Left, four pairs of bars, Keepwell vs the market, near-equal heights: AC install ₹1,199 vs brand ₹1,199; service visit ₹300 vs mechanic ₹300; gas repair ₹3,190 vs Urban Company ₹3,000; AMC ₹1,299 vs Urban Company ₹1,298. [click] Right, a ✓/✗ grid: 24-h authorised install, guarantee and fixed price, small towns, through the local retailer, one record. Only Keepwell's row is all ticks.
+**SHOW (on screen):** Left, four pairs of bars, Keepwell vs the market, near-equal heights: AC install ₹1,199 vs brand ₹1,199; service visit ₹300 vs mechanic ₹300; gas repair ₹3,000 vs Urban Company ₹3,000; AMC ₹1,299 vs Urban Company ₹1,298. [click] Right, a ✓/✗ grid: 24-h authorised install, guarantee and fixed price, small towns, through the local retailer, one record. Only Keepwell's row is all ticks.
 
 **SAY (word for word):**
 

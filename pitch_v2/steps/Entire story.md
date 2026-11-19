@@ -76,7 +76,7 @@ The slide is a swimlane: the seven stages of one appliance's life run across the
 | | **1 Sold** (day 0) | **2 Installed** (day 1) | **3 Warranty years** (years 0–2) | **4 Covered** (AMC + Protect) | **5 Repaired** (years 2–8) | **6 Traded in** (years 5–8 · refurbish) | **7 Recycled** (year 8+) |
 |---|---|---|---|---|---|---|---|
 | **Keepwell does** | Opens the appliance record on WhatsApp; family consents | Authorised install in 24 h; serial, photos, warranty registered | Keeps the record and sends reminders (the brand repairs) | Sells AMC and Protect; off-season service visits | AI desk drafts fault and part; genuine part; photo + OTP close | Collects the old unit; refurbishes; resells through retailers | Sends to a registered recycler; salvages parts |
-| **Keepwell gets** | The lead and the customer | ₹2,600 per AC install | No fee: the relationship that sells the plan | AMC ₹1,299 · Protect ₹2,000 | ₹300 visit · ₹2,700 repair · parts margin | Pickup fee + resale margin (upside) | Per-kg fee + salvaged parts (upside) |
+| **Keepwell gets** | The lead and the customer | ₹2,600 per AC install | No fee: the relationship that sells the plan | AMC ₹1,299 · Protect ₹2,000 | ₹300 visit · ₹2,000 repair · parts margin | Pickup fee + resale margin (upside) | Per-kg fee + salvaged parts (upside) |
 | **Family** | One number to call; install promised in 24 h | Installed in a day; warranty stays valid | Free brand repairs; nothing forgotten | Scheduled service; repairs covered after warranty | Price fixed upfront; 90-day guarantee | Exchange credit for the old unit | Safe, legal disposal |
 | **Retailer** | Sells the promise, not just the box | 5% commission; no blame for delays | Stays in touch through reminders | 12% on AMC · 25% on Protect | 8% commission; keeps the customer | The next sale: back to stage 1 | Old units off the shop floor |
 | **Technician** | — | Paid per job within 48 h | — | Off-season visits fill the quiet months | Right part on the first visit; paid in 48 h | Refurbishing work | — |
@@ -140,11 +140,12 @@ The slide continues from slide 5. It opens up the ₹5,070, grows the same retai
 |---|---|---|---|---|
 | AC installation, authorised | 4 | 2,600 | 10,400 | The brand's own price. LG's charter: ₹1,199 fee (Keepwell keeps ₹800, the service centre the rest), bracket ₹750, copper ₹1,050 a metre. Same price, done in 24 hours instead of 2–5 days |
 | Other installation: washing machine, fridge, purifier | 2 | 300 | 600 | The market rate. Low margin, but it starts the appliance record |
-| Service visit, labour only (e.g. a washing-machine check) | 2 | 300 | 600 | Matches the local mechanic, below the ₹500–900 basic service of Urban Company and LG. Price is never the reason to leave |
-| Repair with a part: gas top-up, capacitor, PCB, motor | 2 | 2,700 | 5,400 | About ₹3,190 with GST, in line with Urban Company's rate card (gas ₹3,000, PCB ₹1,500–4,500, fan motor ₹2,299). Genuine part and a 90-day guarantee |
-| AMC, 2 AC services a year | 1.5 | 1,100 | 1,650 | ₹1,299 with GST, the top of Urban Company's ₹1,098–1,298; adds the record and reminders |
-| Keepwell Protect, 2 years | 0.5 | 1,700 | 850 | ₹2,000 with GST for 2 years; Croma ZipCare charges ₹1,139–2,499 for 1 year |
+| Service visit, labour only (e.g. a washing-machine check) | 1 | 300 | 300 | Matches the local mechanic, below the ₹500–900 basic service of Urban Company and LG. Price is never the reason to leave |
+| Repair with a part: capacitor, fan motor, gas top-up, PCB | 3 | 2,000 | 6,000 | About ₹2,360 with GST, averaged across part types on Urban Company's rate card (capacitor ₹599–749, fan motor ₹2,299, gas ₹3,000, PCB ₹1,500–4,500). Genuine part and a 90-day guarantee |
+| AMC, 2 AC services a year | 2 | 1,100 | 2,200 | ₹1,299 with GST, the top of Urban Company's ₹1,098–1,298; adds the record and reminders |
 | **Total** | **12** | **average 1,625** | **19,500** | **₹1,625 is the average of the mix, not a price.** A third of the jobs are AC installs with materials, which lifts the average above the ₹300 jobs |
+
+**Protect is not in the pilot month.** It was sold only in the pilot's last 8 weeks (72 plans) and is booked over its 2-year term, so it enters from year 1. Protect sells at ₹2,000 with GST (₹1,700 net) for 2 years; Croma ZipCare charges ₹1,139–2,499 for 1 year.
 
 **The pricing rule:** Keepwell charges the market rate on every job and wins on speed, the guarantee and the record, not on price.
 
@@ -153,16 +154,16 @@ The slide continues from slide 5. It opens up the ₹5,070, grows the same retai
 | Revenue: 12 jobs × ₹1,625 | 19,500 |
 | − Technicians (about ₹400 a job) | 4,900 |
 | − Parts | 6,400 |
-| − Retailer commission (5% installs, 8% repairs, 12% AMC, 25% Protect) | 1,440 |
-| − Travel, payments, AI desk, guarantee reserve | 1,690 |
+| − Retailer commission (5% installs, 8% repairs, 12% AMC, 25% Protect) | 1,320 |
+| − Travel, payments, AI desk, guarantee reserve | 1,810 |
 | **= Contribution (26%)** | **5,070** |
 
 | The same retailer, year 5 | ₹ |
 |---|---|
 | Pilot revenue | 19,500 |
 | + Protect plans: 2 a month × ₹1,700 | 3,400 |
-| + AMC renewals: 2 a month × ₹1,100 | 2,200 |
-| + Repairs on appliances Keepwell installed (≈1.8 × ₹2,700) | 4,900 |
+| + AMC renewals: 1 a month × ₹1,100 | 1,100 |
+| + Repairs on appliances Keepwell installed (3 × ₹2,000) | 6,000 |
 | **= Revenue** | **30,000** |
 | **Contribution at 32%** (parts bought centrally, denser routes) | **9,600** |
 
@@ -186,7 +187,7 @@ Two Protect plans a month is about 4% of the appliances a retailer sells; the pi
 
 | When | Who pays | For what |
 |---|---|---|
-| Now | Families pay | Install ₹2,600, Repair ₹300–2,700, AMC ₹1,299, Protect ₹2,000 |
+| Now | Families pay | Install ₹2,600, Visit ₹300 · repair ₹2,000, AMC ₹1,299, Protect ₹2,000 |
 | Year 2 | Agencies and partners pay | Genuine parts, Partner clusters: 10% fee, Trade-ins |
 | Year 3 | Brands and buyers pay | Verified installs and claims, Refurbished units, E-waste (EPR) |
 
@@ -239,7 +240,7 @@ EBITDA is positive every year. We raise to open clusters faster, not to cover lo
 |---|---|---|
 | AC install | ₹1,199 | ₹1,199 (brand centre) |
 | Service visit | ₹300 | ₹300 (local mechanic) |
-| Gas repair | ₹3,190 | ₹3,000 (Urban Company) |
+| Gas repair | ₹3,000 | ₹3,000 (Urban Company) |
 | AMC | ₹1,299 | ₹1,298 (Urban Company) |
 
 | | 24-h authorised install | Guarantee, fixed price | Small towns | Through the local retailer | One record |
