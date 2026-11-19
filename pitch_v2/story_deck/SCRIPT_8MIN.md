@@ -25,7 +25,7 @@ Each slide has five parts:
 | 1 | Keepwell | Keepwell keeps the promise the retailer made | Prathyusha | 0:34 | These founders have lived this problem and already know the people who can solve it. |
 | 2 | The problem | Retailers sell the appliance, then lose the customer | Prathyusha | 0:35 | The pain sits with the local retailer and the family, and nobody owns it. |
 | 3 | Our answer | The retailer sells the promise. Keepwell keeps it. | Kavyanth | 0:30 | A clear company with a big vision and a simple first step. |
-| 4 | Our answer | At every stage, Keepwell and everyone around it gains | Sri | 0:37 | Every party gains at every stage, so the model is pulled forward by its stakeholders, not pushed. |
+| 4 | Our answer | Not every appliance reaches every stage | Sri | 0:37 | Keepwell runs the appliance's whole life, and everyone around it gains. |
 | 5 | The proof | ₹70 L raised, ₹52 L spent | Prathyusha | 0:31 | The team spends carefully and has already turned ₹52 L into a working cluster. |
 | 6 | The proof | The pilot cluster paid for itself from 20 retailers | Kavyanth | 0:41 | The cluster model is profitable in the field, and they know exactly why. |
 | 7 | The proof | Each retailer leaves ₹5,070 a month today and ₹9,600 at maturity | Kavyanth | 0:51 | Every rupee of the unit is accounted for, and growth comes from the same retailers. |
@@ -104,20 +104,22 @@ Each slide has five parts:
 
 **BRIDGE:** *"Here is what that means for one appliance. Sri Charan."*
 
-### 4. At every stage, Keepwell and everyone around it gains
+### 4. Not every appliance reaches every stage
 **Sri Charan (CTO)** · about 0:37 · act: Our answer
 
-**SHOW (on screen):** A swimlane. Across the top, seven stages of one appliance's life as arrows: Sold → Installed → Warranty years → Covered (AMC + Protect) → Repaired → Traded in (refurbished) → Recycled, each tagged Serve now or Circulate from year 3. Rows: what Keepwell does; what Keepwell gets (₹2,600 install, AMC ₹1,299, Protect ₹2,000, ₹300 visit, ₹2,000 repair; trade-in and recycling as upside). [click] Four more rows: what the family, the retailer, the technician, and brands and partners get at each stage. Below: the branch (not worth repairing → trade-in), the loop (trade-in is the retailer's next sale) and the Know bar.
+**SHOW (on screen):** Seven stage arrows across the top (Sold → Installed → Warranty years → Covered → Repaired → Traded in → Recycled), each with ● every unit or ○ only some. Band 1, who reaches it. Band 2, what happens: the first touch (who starts the stage), the order of touches as coloured initials with the first ringed, and what Keepwell does. [click] Band 3, value for each party: family, retailer, technician, brand or partner. [click] Three decisions: it breaks after warranty? worth repairing? can it be resold?
 
 **SAY (word for word):**
 
-> I'm Sri Charan. This is one appliance's life, left to right. We open its record at the sale, install it within a day, keep it covered, and repair it with genuine parts. When it isn't worth repairing, we take it as a trade-in and refurbish or recycle it. The second row is what we earn.
+> I'm Sri Charan. This is one appliance's life, left to right. Every unit is sold, installed and lives through its warranty; after that, only some reach each stage. Each stage starts with a different first touch, and we do one job at every step.
 >
-> [click] Now read down any column. At every stage the family, the retailer, the technician and the brand each gain. That's why they keep sending us the next job.
+> [click] Read down any column: the family, the retailer, the technician and the brand each gain something.
+>
+> [click] Three questions decide where an appliance goes next: does it break, is it worth repairing, can it be resold.
 
-**WHY this slide:** One picture answers both questions: what Keepwell does and earns at each stage, and why every other party wants it there.
+**WHY this slide:** It shows the whole product as one journey, makes clear which stages every unit reaches, and puts every party's gain in the same column.
 
-**THEY SHOULD BELIEVE:** Every party gains at every stage, so the model is pulled forward by its stakeholders, not pushed.
+**THEY SHOULD BELIEVE:** Keepwell runs the appliance's whole life, and everyone around it gains.
 
 **BRIDGE:** *"Before the pilot, how we got here."*
 

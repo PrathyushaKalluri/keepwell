@@ -21,7 +21,7 @@
 | 1 | Title + founders, each with why they started Keepwell | Keepwell keeps the promise the retailer made; three founders who lived the problem | Prathyusha |
 | 2 | The problem: three cards + the result | Retailers sell the appliance, then lose the customer | Prathyusha |
 | 3 | Our answer: vision + live / next / later | The retailer sells the promise; Keepwell keeps it | Kavyanth |
-| 4 | The product: a lifecycle swimlane | At every stage, Keepwell and everyone around it gains | Sri Charan |
+| 4 | The product: a touchpoint grid (7 stages × who reaches it, first touch, order of touches, what Keepwell does, value for each party) + 3 branching decisions | Not every appliance reaches every stage; at every stage each party gains | Sri Charan |
 | 5 | Our journey: timeline + raised ₹70 L / spent ₹52 L bars | ₹70 L took us from first interview to a cluster that pays for itself | Prathyusha |
 | 6 | Traction: the pilot as one sum + the monthly chart | The pilot cluster paid for itself from 20 retailers | Kavyanth |
 | 7 | Unit economics: the 12-job mix, one retailer's month, one cluster | Each retailer leaves ₹5,070 a month today and ₹9,600 at maturity | Kavyanth |

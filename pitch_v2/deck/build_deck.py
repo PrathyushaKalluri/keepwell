@@ -228,6 +228,61 @@ def r_retailer(sl, d, n):
             y += hgt
         if i < 2: box(sl, x + wpn + 0.03, 4.2, 0.14, 0.25, fill=GREY, shape=MSO_SHAPE.RIGHT_ARROW)
     landbar(sl, d["result"], 5.75); foot(sl, d["foot"])
+def r_touch(sl, d, n):
+    frame(sl, d, n)
+    PC = {"F": AMBER, "R": RGBColor(0x26, 0x37, 0x5A), "K": TEAL, "T": RGBColor(0x5F, 0xB8, 0xA8), "B": RGBColor(0x8A, 0x94, 0xA6)}
+    def dot(x, y, c, sz=0.22, ring=False):
+        s = box(sl, x, y, sz, sz, fill=PC[c], shape=MSO_SHAPE.OVAL, line=NAVY if ring else None)
+        if ring: s.line.width = Pt(2.25)
+        text(sl, x - 0.05, y, sz + 0.1, sz, c, size=7 if sz < 0.25 else 9, bold=True, color=WHITE, align=PP_ALIGN.CENTER, anchor=MSO_ANCHOR.MIDDLE)
+    lx = 4.2
+    for c, nm in d["parties"].items():
+        dot(lx, 1.2, c, 0.2); text(sl, lx + 0.22, 1.16, 1.3, 0.28, nm, size=8.5, bold=True, color=GREY); lx += 0.32 + len(nm) * 0.068
+    dot(lx + 0.05, 1.2, "K", 0.2, ring=True); text(sl, lx + 0.29, 1.16, 1.0, 0.28, "first touch", size=8.5, bold=True, color=GREY); lx += 1.15
+    box(sl, lx, 1.245, 0.12, 0.12, fill=NAVY, shape=MSO_SHAPE.OVAL); text(sl, lx + 0.14, 1.16, 0.85, 0.28, "every unit", size=8.5, bold=True, color=GREY)
+    box(sl, lx + 0.95, 1.245, 0.12, 0.12, fill=WHITE, line=NAVY, shape=MSO_SHAPE.OVAL); text(sl, lx + 1.09, 1.16, 0.9, 0.28, "only some", size=8.5, bold=True, color=GREY)
+    X, LW, G = 0.6, 1.35, 0.03; CW = (12.1 - LW - 7 * G) / 7; cx = lambda i: X + LW + G + i * (CW + G)
+    y = 1.5; HH = 0.55
+    for i, (nm, age, ph) in enumerate(d["stages"]):
+        box(sl, cx(i), y, CW + (0.1 if i < 6 else 0), HH, fill=TEAL if ph.startswith("Serve") else RGBColor(0x26, 0x37, 0x5A), shape=MSO_SHAPE.PENTAGON if i < 6 else MSO_SHAPE.RECTANGLE)
+        text(sl, cx(i) + 0.04, y + 0.01, CW - 0.1, 0.22, nm, size=9, bold=True, color=WHITE); text(sl, cx(i) + 0.04, y + 0.21, CW - 0.1, 0.17, age, size=7, color=PALE); text(sl, cx(i) + 0.04, y + 0.36, CW - 0.1, 0.17, ph, size=7, bold=True, color=AMBER)
+    def band(yy, num, lab, full=False):
+        box(sl, X, yy, 0.22, 0.22, fill=TEAL, shape=MSO_SHAPE.OVAL); text(sl, X - 0.02, yy, 0.26, 0.22, num, size=8, bold=True, color=WHITE, align=PP_ALIGN.CENTER, anchor=MSO_ANCHOR.MIDDLE)
+        text(sl, X + 0.25, yy - 0.02, 3.5 if full else LW - 0.27, 0.26, lab.upper(), size=9 if full else 7.5, bold=True, color=TEAL)
+        if full: box(sl, X, yy - 0.04, 12.1, 0.015, fill=RGBColor(0xE2, 0xDB, 0xCC))
+    y = 2.1; band(y + 0.04, "1", "Who reaches it")
+    for i, (all_, tx) in enumerate(d["reach"]):
+        s = box(sl, cx(i) + 0.02, y + 0.09, 0.13, 0.13, fill=NAVY if all_ else WHITE, line=NAVY, shape=MSO_SHAPE.OVAL)
+        text(sl, cx(i) + 0.17, y, CW - 0.18, 0.32, tx, size=8, bold=bool(all_), color=NAVY if all_ else GREY, anchor=MSO_ANCHOR.MIDDLE)
+    y = 2.5; band(y, "2", "What happens", True)
+    def lab(yy, h, t, fill=LIGHT, col=NAVY): box(sl, X, yy, LW - 0.02, h - 0.03, fill=fill); text(sl, X + 0.05, yy, LW - 0.1, h - 0.03, t, size=8.5, bold=True, color=col, anchor=MSO_ANCHOR.MIDDLE)
+    y = 2.76; h = 0.42; lab(y, h, "First touch")
+    for i, (c, tx) in enumerate(d["first"]):
+        box(sl, cx(i), y, CW, h - 0.03, fill=SOFT); dot(cx(i) + 0.04, y + 0.08, c, 0.24)
+        text(sl, cx(i) + 0.3, y, CW - 0.32, h - 0.03, d["parties"][c].split()[0] + " " + tx, size=7.5, color=INK, anchor=MSO_ANCHOR.MIDDLE)
+    y = 3.2; h = 0.3; lab(y, h, "Order of touches")
+    for i, o in enumerate(d["order"]):
+        for k, c in enumerate(o): dot(cx(i) + 0.04 + k * 0.29, y + 0.04, c, 0.2, ring=(k == 0))
+    y = 3.53; h = 0.52; lab(y, h, "What Keepwell does", fill=TEAL, col=WHITE)
+    for i, tx in enumerate(d["does"]):
+        box(sl, cx(i), y, CW, h - 0.03, fill=TEALBG); text(sl, cx(i) + 0.03, y, CW - 0.05, h - 0.03, tx, size=7.5, bold=True, color=NAVY, anchor=MSO_ANCHOR.MIDDLE)
+    y = 4.13; band(y, "3", "Value for each party", True)
+    y = 4.39; h = 0.37
+    for c, nm, vals in d["value"]:
+        box(sl, X, y, LW - 0.02, h - 0.03, fill=LIGHT); dot(X + 0.05, y + 0.07, c, 0.2); text(sl, X + 0.28, y, LW - 0.3, h - 0.03, nm, size=8.5, bold=True, color=NAVY, anchor=MSO_ANCHOR.MIDDLE)
+        for i, v in enumerate(vals):
+            box(sl, cx(i), y, CW, h - 0.03, fill=SOFT); text(sl, cx(i) + 0.03, y, CW - 0.05, h - 0.03, v, size=7.5, color=GREY if v == "—" else INK, anchor=MSO_ANCHOR.MIDDLE, align=PP_ALIGN.CENTER if v == "—" else PP_ALIGN.LEFT)
+        y += h
+    y += 0.08; w = (12.1 - 0.2) / 3
+    for i, (q, yes, no) in enumerate(d["decisions"]):
+        x = X + i * (w + 0.1); box(sl, x, y, w, 0.66, fill=NAVY)
+        box(sl, x + 0.1, y + 0.08, 0.2, 0.2, fill=AMBER, shape=MSO_SHAPE.DIAMOND); text(sl, x + 0.08, y + 0.06, 0.24, 0.24, "?", size=9, bold=True, color=WHITE, align=PP_ALIGN.CENTER, anchor=MSO_ANCHOR.MIDDLE)
+        text(sl, x + 0.36, y + 0.03, w - 0.4, 0.26, q, size=10, bold=True, color=WHITE)
+        tb = sl.shapes.add_textbox(Inches(x + 0.1), Inches(y + 0.28), Inches(w - 0.15), Inches(0.38)); tf = tb.text_frame; tf.word_wrap = True; tf.margin_top = tf.margin_bottom = 0
+        for k, (lbl, col, tx) in enumerate([("Yes → ", RGBColor(0x7F, 0xD6, 0xC6), yes), ("No → ", RGBColor(0xF2, 0xA0, 0x8F), no)]):
+            pp = tf.paragraphs[0] if k == 0 else tf.add_paragraph()
+            for txt, c2, bb in ((lbl, col, True), (tx, PALE, False)):
+                r = pp.add_run(); r.text = txt; r.font.size = Pt(8); r.font.bold = bb; r.font.color.rgb = c2; r.font.name = FONT
 def r_journey(sl, d, n):
     frame(sl, d, n); tl = d["timeline"]; X0, X1, Y = 0.9, 12.4, 2.05; step = (X1 - X0) / (len(tl) - 1)
     box(sl, X0, Y - 0.02, X1 - X0, 0.05, fill=PALE)

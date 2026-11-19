@@ -69,20 +69,25 @@ The slide states the vision in one sentence, then shows three steps:
 
 Each step runs on the record the step before creates.
 
-### 4. At every stage of the appliance's life, Keepwell and everyone around it gains
+### 4. Not every appliance reaches every stage
 
-The slide is a swimlane: the seven stages of one appliance's life run across the top; the rows show what Keepwell does, what it earns, and what each other party gains at that stage.
+The slide reads down each column: **1** who reaches the stage, **2** what happens (the first touch, the order of touches, what Keepwell does), **3** what each party gains. Parties: F Family, R Retailer, K Keepwell, T Technician, B Brand or partner; the first party in each order is the first touch. ● every unit, ○ only some.
 
-| | **1 Sold** (day 0) | **2 Installed** (day 1) | **3 Warranty years** (years 0–2) | **4 Covered** (AMC + Protect) | **5 Repaired** (years 2–8) | **6 Traded in** (years 5–8 · refurbish) | **7 Recycled** (year 8+) |
+| | **1 Sold** (day 0) | **2 Installed** (day 1) | **3 Warranty years** (years 0-2) | **4 Covered** (AMC + Protect) | **5 Repaired** (years 2-8) | **6 Traded in** (years 5-8 · refurbish) | **7 Recycled** (year 8+) |
 |---|---|---|---|---|---|---|---|
-| **Keepwell does** | Opens the appliance record on WhatsApp; family consents | Authorised install in 24 h; serial, photos, warranty registered | Keeps the record and sends reminders (the brand repairs) | Sells AMC and Protect; off-season service visits | AI desk drafts fault and part; genuine part; photo + OTP close | Collects the old unit; refurbishes; resells through retailers | Sends to a registered recycler; salvages parts |
-| **Keepwell gets** | The lead and the customer | ₹2,600 per AC install | No fee: the relationship that sells the plan | AMC ₹1,299 · Protect ₹2,000 | ₹300 visit · ₹2,000 repair · parts margin | Pickup fee + resale margin (upside) | Per-kg fee + salvaged parts (upside) |
-| **Family** | One number to call; install promised in 24 h | Installed in a day; warranty stays valid | Free brand repairs; nothing forgotten | Scheduled service; repairs covered after warranty | Price fixed upfront; 90-day guarantee | Exchange credit for the old unit | Safe, legal disposal |
-| **Retailer** | Sells the promise, not just the box | 5% commission; no blame for delays | Stays in touch through reminders | 12% on AMC · 25% on Protect | 8% commission; keeps the customer | The next sale: back to stage 1 | Old units off the shop floor |
-| **Technician** | — | Paid per job within 48 h | — | Off-season visits fill the quiet months | Right part on the first visit; paid in 48 h | Refurbishing work | — |
-| **Brands and partners** | — | Service centre: installs done in towns it can't staff | Brand: a verified install and serial | — | Parts distributor: one pooled order | Second-hand buyer: a working unit with a warranty | Brand: meets its e-waste take-back target |
+| **1 · Who reaches it** | ● Every unit | ● Every unit | ● Every unit | ○ Only if a plan is bought | ○ When it breaks after warranty | ○ Only if not worth repairing | ○ Only if it can't be resold |
+| **2 · First touch** | Family walks into the shop | Keepwell confirms the install slot | Family calls the brand if it breaks | Keepwell sends the month-11 reminder | Family sends a voice note or scans the QR | Family wants a new unit, at the shop | Family hands in a dead unit at the shop |
+| Order of touches | F › R › K | K › F › T › B › R | F › B › K › R | K › F › R › T | F › K › B › T › R | F › R › K › T › B | F › R › K › B |
+| What Keepwell does | Opens the appliance record on WhatsApp; family consents. | Authorised install in 24 h; serial, photos, warranty registered. | Keeps the record and sends reminders while the brand repairs. | Sells AMC and Protect; runs off-season service visits. | AI desk drafts fault and part; genuine part; photo + OTP close. | Collects the old unit; grades it; refurbishes if it can be saved. | Sends to a registered recycler; salvages parts. |
+| **3 · Family** | One number to call; install in 24 h | Installed in a day; warranty valid | Free brand repairs; nothing forgotten | Scheduled service; repairs covered | Fixed price upfront; 90-day guarantee | Exchange credit for the old unit | Safe, legal disposal |
+| **3 · Retailer** | Sells the promise, not just the box | 5% commission; no blame for delays | Stays in touch through reminders | 12% on AMC · 25% on Protect | 8% commission; keeps the customer | The next sale: back to stage 1 | Old units off the shop floor |
+| **3 · Technician** | — | Paid per job within 48 h | — | Off-season visits fill quiet months | Right part first visit; paid in 48 h | Refurbishing work | — |
+| **3 · Brand / partner** | — | Service centre: installs where it can't staff | Brand: a verified install and serial | — | Distributor: one pooled order | Buyer: a working unit with a warranty | Brand: meets e-waste take-back target |
 
-Stage 5 → 6: when an appliance isn't worth repairing, it becomes a trade-in, and the trade-in is the retailer's next sale (back to stage 1). Stages 1–5 are live now; trade-in, refurbishing and recycling start in year 3 and are upside, not in the plan's numbers. Every stage is written to one consented appliance record.
+**Where an appliance branches:**
+- **It breaks after warranty?** Yes: stage 5, repair. No: it stays in use; the reminders carry on.
+- **Worth repairing?** Yes: fixed and back in use. No: it becomes a trade-in (stage 6), the retailer's next sale.
+- **Can it be resold?** Yes: refurbished, a second life with a new owner. No: stage 7, recycled.
 
 ### 5. ₹70 L raised, ₹52 L spent: from first interview to a cluster that pays for itself
 

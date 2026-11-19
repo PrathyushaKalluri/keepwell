@@ -28,12 +28,13 @@ dict(id="answer", act="answer", sp="K", title="The retailer sells the promise. K
  why="Vision first, then the live, next, later steps, so the investor sees where it starts and where it goes.",
  believe="A clear company with a big vision and a simple first step.",
  next="Here is what that means for one appliance. Sri Charan."),
-dict(id="lifecycle", act="answer", sp="S", title="At every stage, Keepwell and everyone around it gains",
- show="A swimlane. Across the top, seven stages of one appliance's life as arrows: Sold → Installed → Warranty years → Covered (AMC + Protect) → Repaired → Traded in (refurbished) → Recycled, each tagged Serve now or Circulate from year 3. Rows: what Keepwell does; what Keepwell gets (₹2,600 install, AMC ₹1,299, Protect ₹2,000, ₹300 visit, ₹2,000 repair; trade-in and recycling as upside). [click] Four more rows: what the family, the retailer, the technician, and brands and partners get at each stage. Below: the branch (not worth repairing → trade-in), the loop (trade-in is the retailer's next sale) and the Know bar.",
- say="""I'm Sri Charan. This is one appliance's life, left to right. We open its record at the sale, install it within a day, keep it covered, and repair it with genuine parts. When it isn't worth repairing, we take it as a trade-in and refurbish or recycle it. The second row is what we earn.
-[click] Now read down any column. At every stage the family, the retailer, the technician and the brand each gain. That's why they keep sending us the next job.""",
- why="One picture answers both questions: what Keepwell does and earns at each stage, and why every other party wants it there.",
- believe="Every party gains at every stage, so the model is pulled forward by its stakeholders, not pushed.",
+dict(id="lifecycle", act="answer", sp="S", title="Not every appliance reaches every stage",
+ show="Seven stage arrows across the top (Sold → Installed → Warranty years → Covered → Repaired → Traded in → Recycled), each with ● every unit or ○ only some. Band 1, who reaches it. Band 2, what happens: the first touch (who starts the stage), the order of touches as coloured initials with the first ringed, and what Keepwell does. [click] Band 3, value for each party: family, retailer, technician, brand or partner. [click] Three decisions: it breaks after warranty? worth repairing? can it be resold?",
+ say="""I'm Sri Charan. This is one appliance's life, left to right. Every unit is sold, installed and lives through its warranty; after that, only some reach each stage. Each stage starts with a different first touch, and we do one job at every step.
+[click] Read down any column: the family, the retailer, the technician and the brand each gain something.
+[click] Three questions decide where an appliance goes next: does it break, is it worth repairing, can it be resold.""",
+ why="It shows the whole product as one journey, makes clear which stages every unit reaches, and puts every party's gain in the same column.",
+ believe="Keepwell runs the appliance's whole life, and everyone around it gains.",
  next="Before the pilot, how we got here."),
 dict(id="journey", act="proof", sp="P", title="₹70 L raised, ₹52 L spent",
  show="A timeline: discovery (Apr–Jul 2025) → incorporated → 2 authorised service-centre contracts → ₹45 L pre-seed (Dec 2025) → ₹15 L AP grant and 28 retailer LOIs → pilot (Mar–Oct 2026) → raising the seed. Two bars: raised ₹70 L (angels ₹45 L iSAFE, founders ₹15 L, grant ₹10 L); spent ₹52 L (stipends ₹21 L, pilot set-up ₹13 L, parts ₹6 L, travel/tech/legal ₹12 L) with ₹18 L in the bank. [click] Why: iSAFE at a ₹6 Cr cap, priced on proof; the grant gives up no ownership; stipends are 40% of spend.",
