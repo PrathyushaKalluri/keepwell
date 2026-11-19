@@ -2,6 +2,8 @@
 
 **Phase B: The opportunity and the proof. Status: DRAFT for approval (20 Nov 2026).**
 
+> **Update after Steps 7b–8 (20 Nov 2026, final).** Cluster EBITDA at maturity is now **14–16%** (Step 7b), not 10–12%. Breakeven is **22 shops at maturity** and 35 on pilot economics.
+
 > **Update after Step 7b (approved 20 Nov 2026).** **New job flow: Keepwell Protect.**
 > 1. *Sale:* the shop adds the 2-year repair plan to the bill, and the WhatsApp agent creates the plan record against the appliance's serial.
 > 2. *Coverage:* the plan starts when the brand warranty ends.

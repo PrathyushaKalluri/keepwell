@@ -10,7 +10,7 @@ This is the master plan for building the Keepwell investor pitch for the retaile
 
 **Folder:** `ESFS/pitch_v2/`, pushed to the branch `pitch/keepwell-seed-deck` under `keepwell/pitch_v2/`.
 
-**Old pitch:** the agency/Circuit version stays in `ESFS/pitch/`. It moves to `pitch/archive/v1_agency/` at Gate 3.
+**Old pitch:** the agency/Circuit version was **archived to `pitch/archive/v1_agency/` at Gate 3 (20 Nov 2026)**.
 
 ---
 
@@ -48,14 +48,14 @@ This is the master plan for building the Keepwell investor pitch for the retaile
 | 6 | Traction and validation plan [Story] | `steps/06_traction_and_validation.md` | Backdated discovery (shops, technicians, households, brand talks). The 90-day Vijayawada–Guntur pilot and its results. Kill criteria. Series A gates | Steps 7, 8, 11 | **APPROVED 20 Nov (Gate 2 passed)** |
 | **C** | **The money** | | | | |
 | 7 | Business model and unit economics | `steps/07_business_model_unit_economics.md` + `steps/07b_model_redesign.md` + `keepwell_model.xlsx` (built by `build_model_v3.py`) | Revenue lines by phase. Contribution per job, shop and cluster. 8-year P&L and cash. Sensitivity. Low, base and high cases | Steps 8, 9, 13 | **APPROVED with 7b redesign; xlsx rebuilt on `plan_v3.py` (`build_model_v3.py`, 630 formulas, 0 errors, 0 mismatches)** |
-| 8 | Funding needs to the ask | `steps/08_funding_needs_and_ask.md` | Costed needs minus revenue, cash and grants gives the amount. Round size, tranches, use of funds, milestones per round (first round, seed, Series A). The investor type follows the story stage | Steps 9, 12 | **DRAFT for approval: ₹7.5 Cr seed in 3 tranches (stress, monthly cash; reviewed)** |
+| 8 | Funding needs to the ask | `steps/08_funding_needs_and_ask.md` | Costed needs minus revenue, cash and grants gives the amount. Round size, tranches, use of funds, milestones per round (first round, seed, Series A). The investor type follows the story stage | Steps 9, 12 | **FINAL: ₹2.5 Cr seed (course one-year-need method); rounds roadmap** |
 | **D** | **The deal and the trust** | | | | |
-| 9 | Investor, instrument, valuation, cap table, exit | `steps/09_deal_valuation_exit.md` | Investor type. Instrument (iSAFE / CCPS / note). Valuation by comparable, scorecard and VC methods. Cap table through Series A–B. Exit routes, buyers, comparables, returns (IRR vs the course benchmarks) | Steps 11, 12 | Not started |
-| 10 | Compliance, trust and data room | `steps/10_compliance_trust_dataroom.md` | Labour codes and gig levies, consumer protection and the guarantee, DPDP consent, GST, safety (gas and electrical), insurance, brand authorisation contracts, e-waste rules, data-room index | Steps 11, 13 | Not started |
+| 9 | Investor, instrument, valuation, cap table, exit | `steps/09_deal_valuation_exit.md` | Investor type. Instrument (iSAFE / CCPS / note). Valuation by comparable, scorecard and VC methods. Cap table through Series A–B. Exit routes, buyers, comparables, returns (IRR vs the course benchmarks) | Steps 11, 12 | **FINAL: CCPS ₹10 Cr pre; cap table and returns in xlsx Funding sheet** |
+| 10 | Compliance, trust and data room | `steps/10_compliance_trust_dataroom.md` | Labour codes and gig levies, consumer protection and the guarantee, DPDP consent, GST, safety (gas and electrical), insurance, brand authorisation contracts, e-waste rules, data-room index | Steps 11, 13 | **FINAL** |
 | **E** | **Score, storyboard, build** | | | | |
-| 11 | Fundability self-score | `steps/11_fundability_score.md` | M3 matrix (Market, Product and Startup × Potential, Uniqueness and Quality) plus the X-factor, with fixes for weak cells | Step 12 | Not started |
-| 12 | Storyboard and investor red-team | `steps/12_storyboard_redteam.md` | Slide-by-slide storyboard (what we show / what we say). Two red-team passes and their fixes | Step 13 | Not started |
-| 13 | Build the outputs | `steps/13_build_outputs.md` | The deliverables listed below | — | Not started |
+| 11 | Fundability self-score | `steps/11_fundability_score.md` | M3 matrix (Market, Product and Startup × Potential, Uniqueness and Quality) plus the X-factor, with fixes for weak cells | Step 12 | **FINAL: 73/100** |
+| 12 | Storyboard and investor red-team | `steps/12_storyboard_redteam.md` | Slide-by-slide storyboard (what we show / what we say). Two red-team passes and their fixes | Step 13 | **FINAL: storyboard + red team (21 fixes applied)** |
+| 13 | Build the outputs | `steps/13_build_outputs.md` | The deliverables listed below | — | **DONE: see steps/13_build_outputs.md** |
 
 **Gates:**
 
@@ -117,3 +117,10 @@ This is the master plan for building the Keepwell investor pitch for the retaile
 - **Peak cash need:** about ₹10.6 Cr.
 - **Exit:** a strategic sale in years 7–8, valued at about ₹330–480 Cr.
 - **Pilot:** Vijayawada–Guntur (with Mangalagiri and Tenali). Second cluster: Warangal.
+
+
+## v2 status (20 Nov 2026): complete
+- **The ask:** ₹2.5 Cr seed (minimum ₹2.0 Cr), CCPS at ₹10 Cr pre-money, 18 months, five milestones (Step 8 §8.4).
+- **The roadmap:** Round 2 ₹5 Cr (H2 2028); Round 3 ₹15 Cr (2030); exit 2033–34.
+- **Outputs:** all in `steps/13_build_outputs.md`.
+- **Checks:** run `python3 check_consistency.py` before any edit to an output.

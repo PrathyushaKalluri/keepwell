@@ -332,6 +332,67 @@ wsn.cell(4 + len(cases), 4, round(pk["peak"] / 1e7, 2)); wsn.cell(4 + len(cases)
 wsn.column_dimensions["A"].width = 40
 for c_ in "BCDE": wsn.column_dimensions[c_].width = 24
 
+# ------------------------------------------------ Funding: rounds, cap table, seed returns (Steps 8-9; mirrors rounds.py)
+import rounds as RD
+wf = wb.create_sheet("Funding")
+wf["A1"] = "Rounds, cap table and seed-investor return (Steps 8–9). Blue = inputs. Mirrors model/rounds.py."; wf["A1"].font = BOLD
+FIN = [("Pre-seed iSAFE amount (₹)", RD.R["isafe"]), ("iSAFE post-money cap (₹)", RD.R["isafe_cap_post"]), ("iSAFE discount", RD.R["isafe_disc"]),
+       ("Seed amount (₹)", RD.R["seed"]), ("Seed pre-money (₹)", RD.R["seed_pre"]), ("ESOP pool, % of post-seed", RD.R["pool_post"]),
+       ("Round 2 (GTM, H2 2028) amount (₹)", RD.R["r2"]), ("Round 2 pre-money (₹)", RD.R["r2_pre"]),
+       ("Round 3 (Scaling, 2030) amount (₹)", RD.R["r3"]), ("Round 3 pre-money (₹)", RD.R["r3_pre"]),
+       ("Operator revenue multiple", RD.R["op_mult"]), ("Data revenue multiple", RD.R["data_mult"])]
+for i, (lab, v) in enumerate(FIN, 3):
+    wf.cell(i, 1, lab); c = wf.cell(i, 2, v); c.font = BLUE; c.number_format = PCT if v < 1 else INR
+B = lambda i: f"$B${i}"
+r0 = 3 + len(FIN) + 1
+calc = [
+ ("Seed post-money (₹)", f"={B(7)}+{B(6)}", INR),
+ ("Seed ownership", f"={B(6)}/B{r0}", PCT),
+ ("iSAFE ownership of pre-money capitalisation (cap vs discount, whichever gives more)", f"=MAX({B(3)}/{B(4)},{B(3)}/({B(7)}*(1-{B(5)})))", PCT),
+ ("ESOP pool share of pre-money capitalisation", f"={B(8)}/(1-B{r0+1})", PCT),
+ ("Founders share of pre-money capitalisation", f"=1-B{r0+2}-B{r0+3}", PCT),
+ ("Round 2 dilution", f"={B(9)}/({B(10)}+{B(9)})", PCT),
+ ("Round 3 dilution", f"={B(11)}/({B(12)}+{B(11)})", PCT),
+]
+for i, (lab, f, fmt) in enumerate(calc):
+    wf.cell(r0 + i, 1, lab); c = wf.cell(r0 + i, 2, f); c.number_format = fmt
+ct = r0 + len(calc) + 1
+wf.cell(ct, 1, "Cap table (fully diluted)").font = BOLD
+for j, h in enumerate(["After seed", "After Round 2", "After Round 3 / exit"], 2): wf.cell(ct, j, h).font = BOLD
+holders = [("Founders", f"=B{r0+4}*(1-B{r0+1})"), ("Pre-seed iSAFE", f"=B{r0+2}*(1-B{r0+1})"), ("ESOP pool", f"=B{r0+3}*(1-B{r0+1})"), ("Seed investors", f"=B{r0+1}")]
+for i, (lab, f) in enumerate(holders, 1):
+    rr = ct + i; wf.cell(rr, 1, lab); wf.cell(rr, 2, f); wf.cell(rr, 3, f"=B{rr}*(1-$B${r0+5})"); wf.cell(rr, 4, f"=C{rr}*(1-$B${r0+6})")
+rr = ct + 5; wf.cell(rr, 1, "Round 2 investors"); wf.cell(rr, 3, f"=B{r0+5}"); wf.cell(rr, 4, f"=C{rr}*(1-$B${r0+6})")
+rr = ct + 6; wf.cell(rr, 1, "Round 3 investors"); wf.cell(rr, 4, f"=B{r0+6}")
+rr = ct + 7; wf.cell(rr, 1, "Total").font = BOLD
+for j in "BCD": wf[f"{j}{rr}"] = f"=SUM({j}{ct+1}:{j}{ct+6})"
+for i0 in range(ct + 1, ct + 8):
+    for j in (2, 3, 4): wf.cell(i0, j).number_format = PCT
+fs = ct + 9
+wf.cell(fs, 1, "Founders individually (38 / 31 / 31)").font = BOLD
+for i, (nm, sh) in enumerate(RD.R["split"], 1):
+    wf.cell(fs + i, 1, nm); c = wf.cell(fs + i, 5, sh); c.font = BLUE; c.number_format = PCT
+    for j, col in ((2, "B"), (3, "C"), (4, "D")): wf.cell(fs + i, j, f"={col}${ct+1}*$E{fs+i}").number_format = PCT
+rt = fs + 5
+wf.cell(rt, 1, "Seed-investor return (live scenario on Plan sheet; EV = operator revenue × multiple + data revenue × multiple)").font = BOLD
+for j, h in enumerate(["Exit year 5 (2031)", "Exit year 7 (2033)", "Exit year 8 (2034)"], 2): wf.cell(rt, j, h).font = BOLD
+for j, (t, col) in enumerate(((5, "I"), (7, "K"), (8, "L")), 2):
+    cl = CL_(j)
+    wf.cell(rt + 1, j, f"=(Plan!{col}{RW['rev']}-Plan!{col}{RW['data']})*{B(13)}+Plan!{col}{RW['data']}*{B(14)}").number_format = INR
+    wf.cell(rt + 2, j, f"=$D${ct+4}*{cl}{rt+1}").number_format = INR
+    wf.cell(rt + 3, j, f"={cl}{rt+2}/{B(6)}").number_format = '0.0"x"'
+    wf.cell(rt + 4, j, f"={cl}{rt+3}^(1/{t})-1").number_format = PCT
+for i, lab in enumerate(["Enterprise value (₹)", "Seed stake value at exit (₹)", "Money multiple", "IRR (invested early 2027)"], 1): wf.cell(rt + i, 1, lab)
+vm = rt + 6
+wf.cell(vm, 1, "VC method (course M4): max seed post-money = year-5 EV × seed retention ÷ (1 + target IRR)^5").font = BOLD
+for j, t in ((2, 0.35), (3, 0.40)):
+    wf.cell(vm + 1, j, t).font = BLUE; wf.cell(vm + 1, j).number_format = PCT
+    wf.cell(vm + 2, j, f"=$B${rt+1}*($D${ct+4}/$B${ct+4})/(1+{CL_(j)}{vm+1})^5").number_format = INR
+wf.cell(vm + 1, 1, "Target IRR"); wf.cell(vm + 2, 1, "Maximum seed post-money (₹)"); wf.cell(vm + 3, 1, "Our seed post-money (₹)"); wf.cell(vm + 3, 2, f"=B{r0}").number_format = INR
+wf.column_dimensions["A"].width = 78
+for c_ in "BCDE": wf.column_dimensions[c_].width = 20
+PLAN["funding"] = dict(ct=ct, rt=rt, vm=vm, r0=r0)
+
 wb.save(OUT)
 json.dump(PLAN, open(pathlib.Path(__file__).parent / "plan_rows_v3.json", "w"))
 print("saved", OUT, "scenario", SCEN)

@@ -2,14 +2,14 @@
 
 **Phase B: the opportunity and the proof. Status: DRAFT for approval (20 Nov 2026). This is the last step before Gate 2. Revised after an independent review.**
 
-> **Update after Step 7b (approved 20 Nov 2026).** **Added: Keepwell Protect counter test [Story], May–Jun 2026 (last 8 weeks of the pilot), 12 shops.**
+> **Update after Step 7b (approved 20 Nov 2026).** **Added: Keepwell Protect counter test [Story], May–Jun 2026 (the last 8 weeks of the summer phase), 12 shops.**
 > - Shops offered the 2-year repair plan at ₹1,499–2,999 by category on about 1,200 covered units sold.
 > - **About 6% attach: 72 plans and ₹1.4 L sold incl. GST.** Shops kept 25% (about ₹30k).
 > - 0 claims so far: coverage starts after the brand warranty.
 > - Best sellers were the 4 shops whose owners also used the install guarantee in their sales pitch.
 > - Plan cash net of commission is held in the claims reserve and is **not** in the ₹18 L cash figure.
 >
-> This is evidence of willingness to buy, not of claims cost. Claims are tested from 2027 and are a tranche gate (Step 8).
+> This is evidence of willingness to buy, not of claims cost. Claims are tracked from mid-2027, when the first plans reach cover. Attach is a month-18 milestone (Step 8 §8.4).
 
 > **Illustrative case** for the IIIT Hyderabad ESFS course pitch.
 >
@@ -161,7 +161,9 @@ Setup and working capital (₹6 L) sit separately in Step 2.
 
 **Correction to `00_tough_questions` I1:** the commission is about ₹1.7k, not ₹2–3.5k. **Shops route installs to us for liability relief and to keep their customers, and earn the commission on top.**
 
-## 6.6 What the next round pays to prove (24 months)
+## 6.6 What the next round pays to prove: superseded
+
+> **Superseded by Step 8 §8.4.** The seed's milestones are at **month 18 (Jun 2028)**, and the month-12 checkpoint carries a stop rule. The table below is kept as the earlier draft's record.
 | # | Milestone | Target | Why |
 |---|---|---|---|
 | 1 | Authorisation de-risked | 2 service centres delivering, plus 1 direct brand authorisation | Supplier power (Step 5) |
@@ -174,7 +176,7 @@ Setup and working capital (₹6 L) sit separately in Step 2.
 
 Step 8 costs these milestones and sets the ask.
 
-## 6.7 Series A gates
+## 6.7 Round 3 (2030) markers (renamed; Step 8 §8.5)
 - **Clusters:** 3+, of which 2 are EBITDA-positive.
 - **Revenue:** run-rate of ₹16–20 Cr+ [R]. On the plan, about year 4, after a seed round.
 - **Contribution:** blended ≥20%, with data revenue started.
@@ -209,7 +211,7 @@ Step 8 costs these milestones and sets the ask.
 2. **Pilot results** [Story, model-generated]: 34 shops, about 2,400 jobs, about ₹25 L revenue, ₹4.5k per shop by month 4, breakeven at about 35 shops, and 5 misses shown.
 3. **Shop value:** liability relief and the guarantee first; ₹1.7k commission on top. This corrects I1.
 4. **Brand payout:** ₹800 net per AC install under the sub-contract.
-5. **Milestones** (§6.6) and **Series A gates** (§6.7).
+5. **Milestones:** see Step 8 §8.4 (month 18). §6.7 lists the Round 3 (2030) markers.
 6. **Gate 2:** approve the story and proof (Steps 1–6) before the money steps (7–10).
 
 On approval, the next step is Step 7: business model, unit economics and the Excel model, rebuilt on these pilot actuals.

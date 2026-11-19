@@ -17,7 +17,7 @@
 > 2. **This replaces the ₹1,550 Cr in the validation report.** That figure counted only the ~9k large shops. Gate 1 then decided to serve **every** shop (00c §4c), so all ~45k shops count. The bridge is in §4.2. It is the same headline number the founders started with, reached a different way.
 > 3. **SAM (5 southern states) ≈ ₹1,040 Cr. Beachhead (AP + Telangana) ≈ ₹360 Cr.** Both use the states' share of repair *value* (26% and 8.9%), not household counts.
 > 4. **SOM in year 7: ₹130 Cr revenue from 3,300 shops (55 clusters).** Updated after Step 7b; was ₹115 Cr from 1,950 shops.
->    - **Nationally:** about 4% of India's independent shops.
+>    - **Nationally:** about 7% of India's ~45k independent shops. About 2,000 are in the south (20–25% of southern Tier 2/3 shops) and about 1,300 in partner clusters in the west.
 >    - **Within the south:** about **20–25% of the southern Tier 2/3 shops**, because every year-7 shop is in the south.
 >
 >    The plan depends on winning density in the south, not a small national share.
@@ -30,7 +30,7 @@
 >    The Step 6 shop walk tests these.
 > 7. **Hardest investor questions:**
 >    - *"Your validation said ₹1,550 Cr. Why ₹4,000 Cr now?"* We now serve all 45k shops, not only the 9k large ones. National AC sales cap the total, and the household-side check lands at ₹3,600 Cr.
->    - *"Isn't 4% of India really a quarter of the south?"* Yes, about 20–25% of southern Tier 2/3 shops by year 7. Density, not national share, is the test.
+>    - *"Isn't that a quarter of the south?"* Yes: about 2,000 shops, 20–25% of southern Tier 2/3 shops by year 7, plus partner clusters in the west. Density, not national share, is the test.
 >    - *"If AC is 86% of the spend, aren't you an AC company?"* AC drives the money. Without the other three appliances, a cluster needs 7 more shops to break even (00 §4b).
 
 ---
@@ -133,7 +133,7 @@ The earlier city-by-city study [R: `pitch/archive/market_intel/`] measured paid 
 | **TAM** | After-sale spend linked to independent shops, Tier 2/3 India | **≈ ₹4,000 Cr** (₹3,500–4,800 Cr) | §4.2–4.3 |
 | **SAM** | Same, in AP, Telangana, Karnataka, Tamil Nadu and Kerala, reachable by year 8 | **≈ ₹1,040 Cr** (₹910–1,250 Cr) | 26% of Tier 2/3 repair value [R: archive `states.csv`] |
 | **Beachhead** | AP + Telangana | **≈ ₹360 Cr** (₹310–430 Cr) | 8.9% of Tier 2/3 repair value [R] |
-| **SOM, year 7** | Plan reach (Step 7b BASE) | **₹130.5 Cr revenue** (₹99 Cr core service, ₹10 Cr Keepwell Protect), **55 clusters (49 partner-run), 3,300 shops** | See below |
+| **SOM, year 7** | Plan reach (Step 7b BASE) | **₹130.5 Cr revenue** (₹79 Cr core service and installs, ₹3 Cr plan-seller jobs, ₹10 Cr Keepwell Protect, ₹27 Cr parts, trade-in and refurbished, ₹11 Cr data), **55 clusters (49 partner-run), 3,300 shops** | See below |
 
 **How big a share the SOM needs:**
 - **Of India's ~45k independent shops:** about **7%** (11% of the ~29k outside metros).

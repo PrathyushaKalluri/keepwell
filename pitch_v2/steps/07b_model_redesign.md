@@ -31,7 +31,7 @@
 >    Step 7 had 1% in year 7 and a ₹21.6 Cr peak.
 > 4. **Why year 7–8 margins look modest:** the company is still opening 15–17 clusters a year, each at 25% output in its first year. **If the year-8 network were fully mature**, it would run at **₹249 Cr revenue and 13.4% EBITDA, with 9.1% from service alone** (no data revenue). This is the real health number for the service business.
 > 5. **Customer plan money is ring-fenced.** Expected claims on unexpired plans sit in a reserve and are **not** used to fund the company. Without any plan cash at all, the peak need would be ₹11.7 Cr. With the reserve it is ₹5.8 Cr.
-> 6. **Stress case** (5% attach, 45% claims, 25% parts margin, 50 shops per cluster, slower rollout): profitable from **year 6**, **peak need ₹8.9 Cr**. **LOW** (every pilot input at its worst) is never profitable and needs ₹58 Cr. So the money must come in **tranches with kill gates** (Step 8).
+> 6. **Stress case** (5% attach, 45% claims, 25% parts margin, 50 shops per cluster, slower rollout): profitable from **year 6**, **peak need ₹8.9 Cr**. **LOW** (every pilot input at its worst) is never profitable and needs ₹58 Cr. So the seed carries a **month-12 checkpoint and month-18 milestones** (Step 8 §8.4).
 > 7. **NEW revenue line, Keepwell Protect: ₹10.2 Cr in year 7 (8% of revenue).**
 >    - **Assumed:** 8% attach on covered appliances, and claims at 35% of the net price.
 >    - **Evidence:** Indian buyers do buy plans at the counter (chains earn crores from them), and our own failure data supports the claims figure.
@@ -226,7 +226,7 @@ The levers are added one at a time to the corrected Step 7 BASE; pilot inputs ar
 
 **Reading:**
 - **Stress** reaches profit with about ₹9 Cr.
-- **LOW** means the pilot inputs were wrong. Nobody should fund that, so the round is released in **tranches**. Step 8 sizes these gates:
+- **LOW** means the pilot inputs were wrong. The seed's **month-12 checkpoint** stops expansion if units or attach look like LOW. The month-18 milestones (Step 8 §8.4) are:
   - units per shop ≥ 65
   - Protect attach ≥ 5%
   - claims ≤ 45%
@@ -242,7 +242,7 @@ The levers are added one at a time to the corrected Step 7 BASE; pilot inputs ar
 | Hard question | Answer |
 |---|---|
 | "Why would a shop sell your plan at 25% when insurers pay 40–50%?" | Independent small-town shops mostly have **no plan partner** (every plan partnership in our archived retail research sits with chains: Onsitego, OneAssist, Zopper). We also take the after-sale complaints off the shop. Its total Keepwell income rises from about ₹2,130 to about ₹3,170 a month. If attach stays low, the stress case (5%) still works |
-| "What if Protect fails completely?" | The model without Protect is lever 1: profitable from year 6, but needing about ₹17.5 Cr. **That is why Protect attach is a tranche gate, not an assumption we bank** |
+| "What if Protect fails completely?" | The model without Protect is lever 1: profitable from year 6, but needing about ₹17.5 Cr. **That is why Protect attach is a month-18 milestone, not an assumption we bank** |
 | "What stops partners from cutting you out?" | Keepwell holds the shop agreements, the Protect contracts, the customer payment, the guarantee and the appliance record. A partner who leaves takes its technicians but none of the demand. Partner contracts include non-solicit of Keepwell shops (Step 10) |
 | "Who pays claims if a cluster closes?" | The ring-fenced reserve (₹8.6 Cr by year 7), plus another partner or Keepwell technicians nearby |
 | "Your margins are thin for a startup." | They are services margins at the mature level: 14–16% per cluster and 13% for the whole network at maturity. They compare well with Urban Company's 17.7–21.7% contribution on net transaction value (00b). We are honest that this is an operator, valued at about 2.5–3× revenue |
