@@ -22,16 +22,34 @@ Y = dict(  # ---- 5-year plan, year 1 = Apr 2027–Mar 2028 (from the close)
     wc_share=0.10,                   # working capital: 10% of each year's revenue increase
     tax=0.25, start_retailers=34, start_clusters=1, start_cash=0.02 * CR, pilot_rev_run=34 * 19_500 * 12,
 )
-# ---- one retailer's month, opened up (slide 6). Sources: technicians ₹330–500 a job and retailer commission ≈ ₹1.7k a month (Step 6).
-SPLIT = dict(technicians=4_900, parts=6_400, retailer_commission=1_700, other_per_job=1_430)   # pilot, per active retailer per month
-LIFT = dict(protect=4_000, amc_renewals=2_600, installed_base_repairs=3_900)                   # added per retailer per month by year 5
-LIFT_NOTES = dict(protect="2 plans a month × ₹2,000 (about 4% of the ~55 covered appliances a retailer sells; the pilot test reached 6%)",
-                  amc_renewals="2 renewals a month × ₹1,299", installed_base_repairs="about 1.5 more repairs a month on appliances Keepwell installed")
+# ---- one retailer's month, opened up (slide 6). Prices net of 18% GST; sources in steps/00_unit_economics.md and research/retail_install, supply_layers.
+JOB_MIX = [  # (job, jobs a month, ₹ per job net of GST, basis)
+    ("AC installation, authorised (fee + bracket and extra copper)", 4.0, 2_300, "₹800 fee share + ₹1,500 materials (LG: bracket ₹750, copper ₹1,050 a metre)"),
+    ("Other installation (washing machine, fridge, purifier)", 2.0, 300, "₹300 per install (Step 0 rate card)"),
+    ("Service visit, labour only (e.g. a washing-machine check)", 2.0, 300, "₹300 a visit, local market rate"),
+    ("Repair with a part (gas top-up, capacitor, PCB, motor)", 2.0, 3_300, "labour + genuine part"),
+    ("AMC (2 AC services a year)", 1.5, 1_100, "₹1,299 incl. GST"),
+    ("Keepwell Protect plan (2 years)", 0.5, 1_700, "₹2,000 incl. GST"),
+]
+COMMISSION = dict(install=0.05, repair=0.08, amc=0.12, protect=0.25)   # Step 6 and Step 7b rates
+SPLIT = dict(technicians=4_900, parts=6_400, retailer_commission=1_480, other_per_job=1_650)   # pilot, per active retailer per month
+# parts: 4 AC installs × ~₹1,100 materials + 2 repairs × ~₹1,000 parts = ₹6,400; technicians ≈ ₹408 a job (Step 6: ₹330–500)
+LIFT = dict(protect=3_400, amc_renewals=2_200, installed_base_repairs=4_900)                   # added per retailer per month by year 5
+LIFT_NOTES = dict(protect="2 plans a month × ₹1,700 net (about 4% of the ~55 covered appliances a retailer sells; the pilot test reached 6%)",
+                  amc_renewals="2 renewals a month × ₹1,100 net", installed_base_repairs="about 1.5 more repairs a month × ₹3,300 on appliances Keepwell installed")
 MATURE_TEAM_MONTH = 1.5 * L   # a 60-retailer cluster adds a second field executive and a parts desk (= ₹18 L a year)
+
+def job_mix():
+    jobs = sum(n for _, n, _, _ in JOB_MIX); rev = sum(n * pr for _, n, pr, _ in JOB_MIX)
+    r = {k: sum(n * pr for j, n, pr, _ in JOB_MIX if key in j) for k, key in (("install", "installation"), ("repair", "Service visit"), ("repair2", "Repair with"), ("amc", "AMC"), ("protect", "Protect"))}
+    comm = r["install"] * COMMISSION["install"] + (r["repair"] + r["repair2"]) * COMMISSION["repair"] + r["amc"] * COMMISSION["amc"] + r["protect"] * COMMISSION["protect"]
+    return dict(jobs=jobs, revenue=rev, avg=rev / jobs, commission=comm)
 
 def retailer_month():
     rev = P["rev_per_retailer_month"]; cost = sum(SPLIT.values()); con = rev - cost
     assert rev == 12 * P["avg_job"], "12 jobs × average job must equal revenue per retailer"
+    jm = job_mix(); assert jm["jobs"] == 12 and jm["revenue"] == rev, jm
+    assert abs(jm["commission"] - SPLIT["retailer_commission"]) < 5, jm["commission"]
     assert abs(con - rev * P["contrib_margin"]) < 1, con
     mrev = rev + sum(LIFT.values()); assert mrev == U["rev_per_retailer_month"], mrev
     assert abs(MATURE_TEAM_MONTH * 12 - U["cluster_cost_year"]) < 1

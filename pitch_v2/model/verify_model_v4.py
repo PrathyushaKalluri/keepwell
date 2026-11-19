@@ -9,7 +9,7 @@ def chk(a, b, lab):
     if abs((a or 0) - b) > max(1, abs(b) * 1e-6): bad += 1; print("MISMATCH", lab, a, b)
 p = wb["Pilot"]; t = R["pilot_total"]
 chk(p.cell(t, 3).value, pt["revenue"], "pilot rev"); chk(p.cell(t, 4).value, pt["contribution"], "pilot con"); chk(p.cell(t, 6).value, pt["ebitda"], "pilot ebitda")
-rm = S.retailer_month(); un = wb["Unit"]; chk(un["B19"].value, rm["con"], "retailer contribution"); chk(un["B20"].value, 0, "split check"); chk(un["B25"].value, 0, "lift check"); chk(un["B26"].value, rm["oct_cluster"], "oct cluster"); chk(un["B27"].value, rm["mature_cluster_month"], "mature cluster month"); chk(un["B8"].value, u["cluster_ebitda"], "cluster ebitda"); chk(un["B10"].value * 1000, u["breakeven"] * 1000, "breakeven")
+rm = S.retailer_month(); un = wb["Unit"]; chk(un["D38"].value, 19500, "job mix total"); chk(un["D39"].value, 1625, "avg job"); chk(un["D40"].value, 0, "job mix check"); chk(un["B19"].value, rm["con"], "retailer contribution"); chk(un["B20"].value, 0, "split check"); chk(un["B25"].value, 0, "lift check"); chk(un["B26"].value, rm["oct_cluster"], "oct cluster"); chk(un["B27"].value, rm["mature_cluster_month"], "mature cluster month"); chk(un["B8"].value, u["cluster_ebitda"], "cluster ebitda"); chk(un["B10"].value * 1000, u["breakeven"] * 1000, "breakeven")
 pw = wb["Plan"]
 for j, r in enumerate(pl):
     for k, key in (("Revenue (₹)", "revenue"), ("EBITDA (₹)", "ebitda"), ("Cumulative cash (₹)", "cum_cash")):

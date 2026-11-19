@@ -48,10 +48,10 @@ The full answers are in `proof_pack/investor_qa.md`.
 |---|---|---|
 | 1 | "Services business: why venture money?" | Profitable operator growing to ₹86 Cr; a year-5 exit at 15× EBITDA is ₹254 Cr, about 20× for the seed (Step 9) |
 | 2 | "How do the pilot numbers fit together?" | One sum: 195 retailer-months × ₹19,500 = ₹38.0 L; 26% = ₹9.9 L; − ₹8 L team = +₹1.9 L (Step 7c) |
-| 3 | "Why would a retailer hand you its customers?" | We don't take them. The job carries the retailer's name, it earns about ₹1.7k a month in commission, and its after-sale blame goes away. 33 of 34 pilot retailers stayed (Step 6) |
+| 3 | "Why would a retailer hand you its customers?" | We don't take them. The job carries the retailer's name, it earns about ₹1,500 a month in commission, and its after-sale blame goes away. 33 of 34 pilot retailers stayed (Step 6) |
 | 4 | "Brands void warranties for third-party installs." | We install only under authorised service-centre sub-contracts, renewed for 2027, plus one brand's letter of intent (Step 10) |
 | 5 | "Is Protect insurance?" | No. A repairs-only service contract we fulfil, claims money ring-fenced; legal opinion by month 6 (Steps 8, 10) |
-| 6 | "Where does ₹19,500 → ₹30,000 come from?" | The same retailer: + Protect ₹4,000 (2 plans a month, ~4% attach; the test reached 6%), + AMC renewals ₹2,600, + repairs on our installs ₹3,900 (Step 7c §7c.1b) |
+| 6 | "Where does ₹19,500 → ₹30,000 come from?" | The same retailer: + Protect ₹3,400 (2 plans a month × ₹1,700, ~4% attach; the test reached 6%), + AMC renewals ₹2,200, + repairs on our installs ₹4,900 (Step 7c §7c.1b) |
 | 7 | "Profitable from year one, so why raise?" | Each cluster costs ₹20 L to open before it earns, and working capital grows; peak need ₹2.0 Cr (Step 8) |
 | 8 | "Why ₹10 Cr pre?" | Course scorecard (₹9 Cr × 89 ÷ 80), inside comparables (₹6–12 Cr), far under the VC-method ceiling (₹47 Cr post) (Step 9) |
 | 9 | "What if growth is slower?" | Conservative case: year 1 breaks even, profit from year 2, peak need ₹2.6 Cr covered by the buffer and a one-quarter delay in two launches (Step 7c §7c.4) |
@@ -70,4 +70,4 @@ The full answers are in `proof_pack/investor_qa.md`.
 | Exit labelled 2031 but year 5 ends March 2032 | "Year-5 exit (March 2032)" everywhere |
 | Protect legal opinion at month 6 and month 9 | Month 6 everywhere |
 | Slide 5 numbers didn't read as one point; slide 6 repeated it | Slide 5 rebuilt as one sum; slide 6 opens the retailer month and ties back to October's ₹0.72 L |
-| The earlier average job did not multiply to ₹19,500 (12 jobs gave ₹18,960) | Average job set to ₹1,625 so 12 × ₹1,625 = ₹19,500 and 195 × 12 = 2,340 jobs exactly |
+| The earlier average job did not multiply to ₹19,500 (12 jobs gave ₹18,960), and ₹1,625 had no build-up | A 12-job mix from researched prices (₹300 visits to ₹3,300 repairs) gives ₹19,500, an average of ₹1,625; 195 × 12 = 2,340 jobs |

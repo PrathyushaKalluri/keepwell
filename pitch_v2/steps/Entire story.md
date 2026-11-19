@@ -103,21 +103,31 @@ One cluster in Vijayawada–Guntur, March to October 2026. 34 retailers signed 2
 
 The slide continues from slide 5. It opens up the ₹5,070, grows the same retailer, and ends on slide 5's October number before scaling it.
 
+| The 12 jobs behind ₹19,500 (prices net of GST) | Jobs | ₹ each | ₹ a month |
+|---|---|---|---|
+| AC installation, authorised: ₹800 fee + ₹1,500 bracket and copper (LG price charter) | 4 | 2,300 | 9,200 |
+| Other installation: washing machine, fridge, purifier | 2 | 300 | 600 |
+| Service visit, labour only (e.g. a washing-machine check) | 2 | 300 | 600 |
+| Repair with a part: gas top-up, capacitor, PCB, motor | 2 | 3,300 | 6,600 |
+| AMC, 2 AC services a year (₹1,299 incl. GST) | 1.5 | 1,100 | 1,650 |
+| Keepwell Protect, 2 years (₹2,000 incl. GST) | 0.5 | 1,700 | 850 |
+| **Total** | **12** | **average 1,625** | **19,500** |
+
 | One retailer's month, pilot | ₹ |
 |---|---|
 | Revenue: 12 jobs × ₹1,625 | 19,500 |
 | − Technicians (about ₹400 a job) | 4,900 |
 | − Parts | 6,400 |
-| − Retailer commission | 1,700 |
-| − Travel, payments, AI desk, guarantee reserve | 1,430 |
+| − Retailer commission (5% installs, 8% repairs, 12% AMC, 25% Protect) | 1,480 |
+| − Travel, payments, AI desk, guarantee reserve | 1,650 |
 | **= Contribution (26%)** | **5,070** |
 
 | The same retailer, year 5 | ₹ |
 |---|---|
 | Pilot revenue | 19,500 |
-| + Protect plans: 2 a month × ₹2,000 | 4,000 |
-| + AMC renewals: 2 a month × ₹1,299 | 2,600 |
-| + Repairs on appliances Keepwell installed | 3,900 |
+| + Protect plans: 2 a month × ₹1,700 | 3,400 |
+| + AMC renewals: 2 a month × ₹1,100 | 2,200 |
+| + Repairs on appliances Keepwell installed (≈1.5 × ₹3,300) | 4,900 |
 | **= Revenue** | **30,000** |
 | **Contribution at 32%** (parts bought centrally, denser routes) | **9,600** |
 
@@ -133,7 +143,7 @@ Two Protect plans a month is about 4% of the appliances a retailer sells; the pi
 
 | Stage | Who pays | What we earn |
 |---|---|---|
-| **Live** | Households, through the retailer | Authorised install ₹800 net per AC; repair from ₹550; AMC ₹1,299; Protect ₹2,000. The retailer earns a commission on every job |
+| **Live** | Households, through the retailer | Authorised AC install ₹800 fee + materials; service visit from ₹300; repair with a part about ₹3,300; AMC ₹1,299; Protect ₹2,000 (incl. GST). The retailer earns a commission on every job |
 | **Next** | Agencies and partners | Parts; partner clusters run by service centres for a 10% fee; trade-ins |
 | **Later** | Brands and buyers | Install and claim verification; replacement leads; refurbished resale; e-waste |
 

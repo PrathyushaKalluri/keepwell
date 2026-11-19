@@ -211,12 +211,24 @@ Keepwell ran one cluster in the Vijayawada–Guntur belt from **March to October
 ## 6. How Keepwell makes money
 
 **Who pays today.** Families pay, through the retailer, for:
-- an authorised install: Keepwell keeps about **₹800 per AC** after the service centre's share of the brand's rate;
-- service and repair: at a rate card, **from ₹550**;
+- an authorised AC install: a **₹800** fee (after the service centre's share of the brand's rate) plus about **₹1,500** of bracket and copper pipe;
+- a service visit: **from ₹300**; a repair with a part: about **₹3,300**;
 - AMC: **₹1,299** a year;
 - **Keepwell Protect**: about **₹2,000** for two years.
 
 **The retailer earns a commission on every job.** That, together with being freed from the after-sale blame, is why retailers hand over the work.
+
+**Where ₹1,625 a job comes from.** Most jobs are small: a washing-machine install or a service visit is about ₹300. The average is higher because a third of the jobs are AC installs, which include the bracket and extra copper pipe, and two a month are repairs that need a part. One retailer's month in the pilot:
+
+| The 12 jobs behind ₹19,500 (prices net of GST) | Jobs | ₹ each | ₹ a month |
+|---|---|---|---|
+| AC installation, authorised: ₹800 fee + ₹1,500 bracket and copper (LG price charter) | 4 | 2,300 | 9,200 |
+| Other installation: washing machine, fridge, purifier | 2 | 300 | 600 |
+| Service visit, labour only (e.g. a washing-machine check) | 2 | 300 | 600 |
+| Repair with a part: gas top-up, capacitor, PCB, motor | 2 | 3,300 | 6,600 |
+| AMC, 2 AC services a year (₹1,299 incl. GST) | 1.5 | 1,100 | 1,650 |
+| Keepwell Protect, 2 years (₹2,000 incl. GST) | 0.5 | 1,700 | 850 |
+| **Total** | **12** | **average 1,625** | **19,500** |
 
 **Where a retailer's ₹19,500 a month goes (pilot):**
 
@@ -225,8 +237,8 @@ Keepwell ran one cluster in the Vijayawada–Guntur belt from **March to October
 | Revenue: 12 jobs × ₹1,625 | 19,500 | The jobs a retailer passes to Keepwell |
 | − Technicians | 4,900 | Partner technicians are paid per job, ₹330–500 (about ₹400 on average) |
 | − Parts | 6,400 | Genuine parts used in repairs |
-| − Retailer commission | 1,700 | 5% on installs, 8% on repairs, 12% on AMC |
-| − Travel, payments, AI desk, guarantee reserve | 1,430 | Small costs that come with every job |
+| − Retailer commission | 1,480 | 5% on installs, 8% on repairs, 12% on AMC, 25% on Protect |
+| − Travel, payments, AI desk, guarantee reserve | 1,650 | Small costs that come with every job |
 | **= Contribution (26%)** | **5,070** | What Keepwell keeps from one retailer, before the cluster team |
 
 **Why 20 retailers is the breakeven:** the pilot cluster's team costs ₹1 lakh a month, and ₹1,00,000 ÷ ₹5,070 ≈ 20. That is exactly when the pilot turned profitable (section 5).
@@ -236,9 +248,9 @@ Keepwell ran one cluster in the Vijayawada–Guntur belt from **March to October
 | | ₹ a month | Basis |
 |---|---|---|
 | Pilot revenue | 19,500 | |
-| + Protect plans | 4,000 | 2 plans a month × ₹2,000: about 4% of the ~55 covered appliances a retailer sells each month. The pilot's counter test reached 6% |
-| + AMC renewals | 2,600 | 2 renewals a month × ₹1,299, as earlier customers come up for renewal |
-| + Repairs on appliances Keepwell installed | 3,900 | About 1.5 more repairs a month as the installed base grows |
+| + Protect plans | 3,400 | 2 plans a month × ₹1,700 net of GST: about 4% of the ~55 covered appliances a retailer sells each month. The pilot's counter test reached 6% |
+| + AMC renewals | 2,200 | 2 renewals a month × ₹1,100 net of GST, as earlier customers come up for renewal |
+| + Repairs on appliances Keepwell installed | 4,900 | About 1.5 more repairs a month × ₹3,300 as the installed base grows |
 | **= Revenue** | **30,000** | |
 | **Contribution at 32%** | **9,600** | Higher than 26% because parts are bought centrally and denser routes mean more jobs per technician day |
 

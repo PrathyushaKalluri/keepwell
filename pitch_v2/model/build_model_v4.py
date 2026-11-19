@@ -75,17 +75,25 @@ U = [("Revenue per retailer per month (₹)", f"={REF['u_rev']}", INR), ("Contri
 for i, (lab, f, fmt) in enumerate(U, 3): wu.cell(i, 1, lab); c = wu.cell(i, 2, f); c.number_format = fmt
 wu["A13"] = "One retailer's month, opened up (pilot → mature)"; wu["A13"].font = BOLD
 RM = [("Pilot revenue per retailer per month (₹)", f"={REF['p_rev']}", None), ("  − technicians (≈ ₹400 a job)", S.SPLIT["technicians"], 1), ("  − parts", S.SPLIT["parts"], 1),
-      ("  − retailer commission", S.SPLIT["retailer_commission"], 1), ("  − travel, payments, AI desk, guarantee reserve", S.SPLIT["other_per_job"], 1),
+      ("  − retailer commission (5% installs, 8% repairs, 12% AMC, 25% Protect)", S.SPLIT["retailer_commission"], 1), ("  − travel, payments, AI desk, guarantee reserve", S.SPLIT["other_per_job"], 1),
       ("Result: contribution per retailer per month (₹)", "=B14-SUM(B15:B18)", None), ("Check: equals pilot margin × revenue (0 = OK)", f"=ROUND(B19-B14*{REF['p_cm']},0)", None),
-      ("  + Protect plans (2 a month × ₹2,000)", S.LIFT["protect"], 1), ("  + AMC renewals (2 a month × ₹1,299)", S.LIFT["amc_renewals"], 1),
-      ("  + repairs on the installed base", S.LIFT["installed_base_repairs"], 1), ("Result: mature revenue per retailer per month (₹)", "=B14+SUM(B21:B23)", None),
+      ("  + Protect plans (2 a month × ₹1,700 net)", S.LIFT["protect"], 1), ("  + AMC renewals (2 a month × ₹1,100 net)", S.LIFT["amc_renewals"], 1),
+      ("  + repairs on the installed base (≈1.5 × ₹3,300)", S.LIFT["installed_base_repairs"], 1), ("Result: mature revenue per retailer per month (₹)", "=B14+SUM(B21:B23)", None),
       ("Check: equals the mature input (0 = OK)", f"=B24-{REF['u_rev']}", None),
       ("Pilot cluster, October: 34 retailers × contribution − ₹1.0 L team (₹)", f"=Pilot!B11*B19-{REF['p_team']}", None),
       ("Mature cluster per month: 60 × mature contribution − team (₹)", f"={REF['u_n']}*B4-B7/12", None)]
 for i, (lab, v, blue) in enumerate(RM, 14):
     wu.cell(i, 1, lab); c = wu.cell(i, 2, v); c.number_format = INR
     if blue: c.font = BLUE
-wu.column_dimensions["A"].width = 64; wu.column_dimensions["B"].width = 18
+wu["A30"] = "The 12 jobs behind ₹19,500 (pilot, per retailer per month; prices net of GST)"; wu["A30"].font = BOLD
+for j, h in enumerate(["Job", "Jobs a month", "₹ per job", "₹ a month", "Basis"], 1): wu.cell(31, j, h).font = BOLD
+for i, (job, n, pr, basis) in enumerate(S.JOB_MIX, 32):
+    wu.cell(i, 1, job); c = wu.cell(i, 2, n); c.font = BLUE; c.number_format = '0.0'; c = wu.cell(i, 3, pr); c.font = BLUE; c.number_format = INR
+    wu.cell(i, 4, f"=B{i}*C{i}").number_format = INR; wu.cell(i, 5, basis)
+e = 32 + len(S.JOB_MIX); wu.cell(e, 1, "Total").font = BOLD; wu.cell(e, 2, f"=SUM(B32:B{e-1})").number_format = '0.0'; wu.cell(e, 4, f"=SUM(D32:D{e-1})").number_format = INR
+wu.cell(e + 1, 1, "Average job (₹)"); wu.cell(e + 1, 4, f"=D{e}/B{e}").number_format = INR
+wu.cell(e + 2, 1, "Check: equals pilot revenue per retailer (0 = OK)"); wu.cell(e + 2, 4, f"=D{e}-{REF['p_rev']}").number_format = INR
+wu.column_dimensions["A"].width = 64; wu.column_dimensions["C"].width = 12; wu.column_dimensions["D"].width = 14; wu.column_dimensions["E"].width = 70; wu.column_dimensions["B"].width = 18
 # ---------------- Plan
 wl = wb.create_sheet("Plan"); wl["A1"] = "5-year plan (year 1 = Apr 2027–Mar 2028)"; wl["A1"].font = BOLD
 for j, (y, cal) in enumerate(zip(S.Y["years"], S.Y["cal"]), 3): wl.cell(3, j, f"{y} ({cal})").font = BOLD

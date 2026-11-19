@@ -152,20 +152,29 @@ def r_bridge(sl, d, n):
     landbar(sl, d["result"], 5.85)
 def r_retailer(sl, d, n):
     frame(sl, d, n)
+    # strip: the 12 jobs behind ₹19,500
+    cw = 1.62
+    for i, (cnt, what, price, sub) in enumerate(d["jobs"]):
+        x = 0.6 + i * (cw + 0.06); box(sl, x, 1.5, cw, 0.92, fill=SOFT)
+        text(sl, x + 0.06, 1.52, cw - 0.1, 0.32, f"{cnt} {what}", size=10, bold=True, color=NAVY)
+        text(sl, x + 0.06, 1.8, cw - 0.1, 0.3, price, size=12, bold=True, color=TEAL); text(sl, x + 0.06, 2.08, cw - 0.1, 0.3, sub, size=8.5, color=GREY)
+    jt = d["jobs_total"]; x = 0.6 + 6 * (cw + 0.06); box(sl, x, 1.5, 12.7 - x, 0.92, fill=NAVY)
+    text(sl, x + 0.08, 1.52, 12.6 - x, 0.3, "= " + jt[0], size=10, bold=True, color=PALE); text(sl, x + 0.08, 1.78, 12.6 - x, 0.36, jt[1], size=17, bold=True, color=WHITE)
+    text(sl, x + 0.08, 2.1, 12.6 - x, 0.3, jt[2], size=9, bold=True, color=AMBER)
     for i, (h, rows) in enumerate(d["panels"]):
-        x = 0.6 + i * 4.1; wpn = 3.9; box(sl, x, 1.6, wpn, 0.42, fill=NAVY if i == 2 else TEAL)
-        text(sl, x + 0.12, 1.6, wpn - 0.2, 0.42, h.upper(), size=10.5, bold=True, color=WHITE, anchor=MSO_ANCHOR.MIDDLE)
-        y = 2.08
-        for lab, v, kind in rows:
-            hgt = 0.52; fill = TEALBG if kind == "total" else SOFT
-            if i == 2 and kind == "total": fill = NAVY if y > 3.5 else TEALBG
-            box(sl, x, y, wpn, hgt - 0.05, fill=fill); dark = fill == NAVY
+        x = 0.6 + i * 4.1; wpn = 3.9; box(sl, x, 2.55, wpn, 0.36, fill=NAVY if i == 2 else TEAL)
+        text(sl, x + 0.12, 2.55, wpn - 0.2, 0.36, h.upper(), size=10, bold=True, color=WHITE, anchor=MSO_ANCHOR.MIDDLE)
+        y = 2.95
+        for k, (lab, v, kind) in enumerate(rows):
+            hgt = 0.45; fill = TEALBG if kind == "total" else SOFT
+            if i == 2 and kind == "total" and k == len(rows) - 1: fill = NAVY
+            box(sl, x, y, wpn, hgt - 0.04, fill=fill); dark = fill == NAVY
             col = WHITE if dark else (RED if kind == "minus" else (TEAL if kind in ("plus", "total") else NAVY))
-            text(sl, x + 0.1, y, 2.55, hgt - 0.05, lab, size=9.5, bold=kind == "total", color=WHITE if dark else INK, anchor=MSO_ANCHOR.MIDDLE)
-            text(sl, x + 2.6, y, 1.22, hgt - 0.05, v, size=14 if kind == "total" else 12.5, bold=True, color=col, anchor=MSO_ANCHOR.MIDDLE, align=PP_ALIGN.RIGHT)
+            text(sl, x + 0.1, y, 2.6, hgt - 0.04, lab, size=9, bold=kind == "total", color=WHITE if dark else INK, anchor=MSO_ANCHOR.MIDDLE)
+            text(sl, x + 2.65, y, 1.17, hgt - 0.04, v, size=13 if kind == "total" else 12, bold=True, color=col, anchor=MSO_ANCHOR.MIDDLE, align=PP_ALIGN.RIGHT)
             y += hgt
-        if i < 2: box(sl, x + wpn + 0.03, 3.4, 0.14, 0.25, fill=GREY, shape=MSO_SHAPE.RIGHT_ARROW)
-    landbar(sl, d["result"], 5.35); foot(sl, d["foot"])
+        if i < 2: box(sl, x + wpn + 0.03, 4.1, 0.14, 0.25, fill=GREY, shape=MSO_SHAPE.RIGHT_ARROW)
+    landbar(sl, d["result"], 5.75); foot(sl, d["foot"])
 def r_cols3(sl, d, n):
     frame(sl, d, n)
     for i, (h, sub, items) in enumerate(d["cols"]):

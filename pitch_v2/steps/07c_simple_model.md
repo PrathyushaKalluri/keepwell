@@ -15,15 +15,26 @@
 | **One cluster** | team cost **₹1.0 L a month** (pilot) | **20 retailers pay for it.** A mature cluster of 60 retailers: ₹2.16 Cr revenue, ₹69 L contribution, ₹18 L team, **₹51 L EBITDA (24%)** |
 | **The company** | clusters × retailers, minus head office | **EBITDA positive from year 1** |
 
-## 7c.1b One retailer's month, opened up (deck slide 6; xlsx Unit sheet rows 14–27)
+## 7c.1b One retailer's month, opened up (deck slide 6; xlsx Unit sheet rows 14–40)
+
+| The 12 jobs behind ₹19,500 (prices net of GST) | Jobs | ₹ each | ₹ a month |
+|---|---|---|---|
+| AC installation, authorised: ₹800 fee + ₹1,500 bracket and copper (LG price charter) | 4 | 2,300 | 9,200 |
+| Other installation: washing machine, fridge, purifier | 2 | 300 | 600 |
+| Service visit, labour only (e.g. a washing-machine check) | 2 | 300 | 600 |
+| Repair with a part: gas top-up, capacitor, PCB, motor | 2 | 3,300 | 6,600 |
+| AMC, 2 AC services a year (₹1,299 incl. GST) | 1.5 | 1,100 | 1,650 |
+| Keepwell Protect, 2 years (₹2,000 incl. GST) | 0.5 | 1,700 | 850 |
+| **Total** | **12** | **average 1,625** | **19,500** |
+
 
 | Pilot | ₹ | Year 5 | ₹ |
 |---|---|---|---|
 | Revenue (12 jobs × ₹1,625) | 19,500 | Pilot revenue | 19,500 |
-| − Technicians (≈ ₹400 a job; Step 6: ₹330–500) | 4,900 | + Protect (2 plans × ₹2,000) | 4,000 |
-| − Parts | 6,400 | + AMC renewals (2 × ₹1,299) | 2,600 |
-| − Retailer commission (Step 6: ≈ ₹1.7k) | 1,700 | + Repairs on the installed base | 3,900 |
-| − Travel, payments, AI desk, guarantee reserve | 1,430 | = Revenue | 30,000 |
+| − Technicians (≈ ₹400 a job; Step 6: ₹330–500) | 4,900 | + Protect (2 plans × ₹1,700 net) | 3,400 |
+| − Parts | 6,400 | + AMC renewals (2 × ₹1,100 net) | 2,200 |
+| − Retailer commission (5/8/12/25% by job) | 1,480 | + Repairs on the installed base (≈1.5 × ₹3,300) | 4,900 |
+| − Travel, payments, AI desk, guarantee reserve | 1,650 | = Revenue | 30,000 |
 | **= Contribution (26%)** | **5,070** | **Contribution at 32%** | **9,600** |
 
 Cluster month: pilot October 34 × ₹5,070 − ₹1.0 L = **+₹0.72 L**; mature 60 × ₹9,600 − ₹1.5 L = **+₹4.26 L** (₹51 L a year; breakeven 16).
