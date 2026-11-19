@@ -13,7 +13,7 @@ canon = [("₹38 L", pt["revenue"] / 1e5, 38.0), ("₹9.9 L", pt["contribution"]
 bad = 0
 for lab, v, ref in canon:
     if abs(v - ref) > max(0.06, abs(ref) * 0.02): print("MODEL DRIFT", lab, round(v, 3), "vs", ref); bad += 1
-OUT = [H / "deck/deck_content.py", H / "story_deck/slides_8min.html", H / "story_deck/script_8min.py", H / "KEEPWELL_FULL_STORY.md", H / "steps/Entire story.md"]
+OUT = [H / "deck/deck_content.py", H / "story_deck/slides_8min.html", H / "story_deck/script_8min.py", H / "KEEPWELL_FULL_STORY.md", H / "steps/Entire story.md", H / "KEEPWELL_EXPLAINED.md"]
 OUT += list((H / "proof_pack").glob("*.md")) + [H / f"steps/{f}" for f in ("07c_simple_model.md", "08_funding_needs_and_ask.md", "09_deal_valuation_exit.md", "11_fundability_score.md", "13_build_outputs.md")]
 must = ["₹38 L", "₹9.9 L", "+₹1.9 L", "₹2.5 Cr", "₹10 Cr", "20 retailers"]
 for p in OUT[:2]:
