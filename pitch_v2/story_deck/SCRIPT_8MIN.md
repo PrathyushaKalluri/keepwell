@@ -1,8 +1,8 @@
 # Keepwell seed pitch: the 8-minute story deck, explained slide by slide
 
 **Deck:** [`index_8min.html`](index_8min.html). Open it in Chrome. **F** goes full screen, **N** shows these notes, **→ / space** reveals the next click and **B** opens the backup slides for Q&A.
-**Length:** 12 slides, about **7:31** at 150 words a minute.
-**Speaking time:** Prathyusha (CEO) 2:32 · Kavyanth (COO) 3:51 · Sri Charan (CTO) 1:08.
+**Length:** 12 slides, about **7:42** at 150 words a minute.
+**Speaking time:** Prathyusha (CEO) 2:32 · Kavyanth (COO) 4:02 · Sri Charan (CTO) 1:08.
 
 ## How to use this script
 
@@ -27,7 +27,7 @@ Each slide has five parts:
 | 3 | Our answer | The retailer sells the promise. Keepwell keeps it. | Kavyanth | 0:38 | A clear company with a big vision and a simple first step. |
 | 4 | Our answer | From the retailer's bill to a second life | Sri | 0:43 | Keepwell runs the appliance's entire after-sale life, and every step earns money or data. |
 | 5 | The proof | The pilot cluster paid for itself from 20 retailers | Kavyanth | 0:50 | The cluster model is profitable in the field, and they know exactly why. |
-| 6 | The proof | Each retailer leaves ₹5,070 a month today and ₹9,600 at maturity | Kavyanth | 1:14 | Every rupee of the unit is accounted for, and growth comes from the same retailers. |
+| 6 | The proof | Each retailer leaves ₹5,070 a month today and ₹9,600 at maturity | Kavyanth | 1:25 | Every rupee of the unit is accounted for, and growth comes from the same retailers. |
 | 7 | The money | How we make money | Kavyanth | 0:28 | Revenue per retailer grows without adding retailers. |
 | 8 | The money | Profitable from year one | Kavyanth | 0:41 | This is a profitable, capital-efficient business. |
 | 9 | Why we win | ₹4,000 Cr that no one organises | Prathyusha | 0:28 | The plan needs only a small share of a large market. |
@@ -136,13 +136,13 @@ Each slide has five parts:
 **BRIDGE:** *"Why does each retailer leave ₹5,070? Next slide."*
 
 ### 6. Each retailer leaves ₹5,070 a month today and ₹9,600 at maturity
-**Kavyanth (COO)** · about 1:14 · act: The proof
+**Kavyanth (COO)** · about 1:25 · act: The proof
 
-**SHOW (on screen):** Top row: the 12 jobs behind ₹19,500 — 4 AC installs × ₹2,300, 2 other installs × ₹300, 2 service visits × ₹300, 2 repairs with a part × ₹3,300, 1.5 AMCs × ₹1,100, 0.5 Protect plans × ₹1,700 = ₹19,500, average ₹1,625. Below, three panels. One retailer's month in the pilot: ₹19,500 − technicians ₹4,900 − parts ₹6,400 − retailer commission ₹1,480 − travel, payments, AI desk ₹1,650 = ₹5,070 (26%). The same retailer in year 5: + Protect ₹3,400 + AMC renewals ₹2,200 + repairs on our installs ₹4,900 = ₹30,000; at 32%, ₹9,600. One cluster's month: pilot October 34 × ₹5,070 − ₹1.0 L team = +₹0.72 L; mature 60 × ₹9,600 − ₹1.5 L team = +₹4.26 L a month, ₹51 L a year. [click] The result line.
+**SHOW (on screen):** Top row: the 12 jobs behind ₹19,500, each with its market reference — 4 AC installs × ₹2,600 (brand price), 2 other installs × ₹300, 2 service visits × ₹300 (local mechanic), 2 repairs with a part × ₹2,700 (UC rate card), 1.5 AMCs × ₹1,100, 0.5 Protect plans × ₹1,700 = ₹19,500, average ₹1,625. Below, three panels. One retailer's month in the pilot: ₹19,500 − technicians ₹4,900 − parts ₹6,400 − retailer commission ₹1,440 − travel, payments, AI desk ₹1,690 = ₹5,070 (26%). The same retailer in year 5: + Protect ₹3,400 + AMC renewals ₹2,200 + repairs on our installs ₹4,900 = ₹30,000; at 32%, ₹9,600. One cluster's month: pilot October 34 × ₹5,070 − ₹1.0 L team = +₹0.72 L; mature 60 × ₹9,600 − ₹1.5 L team = +₹4.26 L a month, ₹51 L a year. [click] The result line.
 
 **SAY (word for word):**
 
-> Here's where that five thousand comes from. A retailer gives us twelve jobs a month. Four are AC installs, with the bracket and pipe, at about twenty-three hundred rupees. Four are small jobs at three hundred: a washing-machine install or a service visit. Two are repairs with a part, at about thirty-three hundred. The rest is maintenance contracts and Protect. Together: nineteen and a half thousand, an average of sixteen twenty-five a job.
+> Here's where that five thousand comes from. A retailer gives us twelve jobs a month. Four are AC installs, with the bracket and pipe, at about twenty-six hundred rupees. Four are small jobs at three hundred: a washing-machine install or a service visit. Two are repairs with a part, at about twenty-seven hundred. The rest is maintenance contracts and Protect. Every price is the market rate: the brand's own install price, the local mechanic's visit charge. We win on speed and the guarantee, not on price. Together: nineteen and a half thousand, an average of sixteen twenty-five a job.
 >
 > Technicians take forty-nine hundred, parts sixty-four hundred, the retailer's commission about fifteen hundred, travel and payments the rest. Five thousand and seventy is ours.
 >
@@ -161,7 +161,7 @@ Each slide has five parts:
 ### 7. How we make money
 **Kavyanth (COO)** · about 0:28 · act: The money
 
-**SHOW (on screen):** Three columns: Live · Serve (paid by households through the retailer: AC install ₹800 fee + materials, service visit from ₹300, repair with a part ≈ ₹3,300, AMC ₹1,299, Protect ₹2,000, retailer commission); Next · Supply (parts, partner clusters at a 10% fee, trade-ins); Later · Know and circulate (verification for brands, leads, refurbished, e-waste). Line: ₹19,500 → ₹30,000 a month per retailer.
+**SHOW (on screen):** Three columns: Live · Serve (paid by households through the retailer: AC install ₹800 fee + materials, service visit from ₹300, repair with a part ≈ ₹2,700 (≈ ₹3,190 incl. GST), AMC ₹1,299, Protect ₹2,000, retailer commission); Next · Supply (parts, partner clusters at a 10% fee, trade-ins); Later · Know and circulate (verification for brands, leads, refurbished, e-waste). Line: ₹19,500 → ₹30,000 a month per retailer.
 
 **SAY (word for word):**
 
@@ -265,6 +265,7 @@ Each slide has five parts:
 ## Backup slides (press B; for Q&A only)
 
 - **Pilot, month by month:** Retailers 12 → 34; revenue ₹2.34 L → ₹6.63 L a month; contribution crosses the ₹1.0 L team in May; total +₹1.9 L.
+- **Why we charge what we charge:** Table: each job, our price net of GST, the market reference (LG charter, Urban Company rate card, local mechanic, Croma ZipCare) and why customers pick us.
 - **Valuation:** Course scorecard ₹10.0 Cr (89/100); comparables ₹6–12 Cr; VC method ceiling ₹47 Cr post; our price ₹10 Cr pre / ₹12.5 Cr post.
 - **Cap table and return:** Founders 64.0%, iSAFE 6.0%, ESOP 10.0%, seed 20.0%; exit ₹254 Cr; seed 20×, 83% IRR.
 - **Conservative case:** Revenue per retailer −10%, margin −2 points, rollout −25%, head office −15%: breakeven in year 1, positive from year 2; peak need ₹2.6 Cr, covered by the buffer and a one-quarter delay in two launches.

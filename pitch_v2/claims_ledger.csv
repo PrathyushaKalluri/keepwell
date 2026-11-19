@@ -27,9 +27,9 @@ C25,Discovery,51 of 64 retailers take the blame; 7 of 12 households keep no reco
 C26,Founder networks,600+ dealers; 200+ service centres; claims platforms,steps/02,Team,"deck 1, 11"
 C27,Retailer acquisition cost,₹22k cold → ₹9.5k warm,steps/02; steps/06,Pilot,deck 11
 C28,Fundability score,89/100 (80/90 + X-factor 9),steps/11,Model,backup
-C29,Business model prices,"AC install ₹800 fee + ₹1,500 materials; service visit ₹300; repair with a part ≈ ₹3,300; AMC ₹1,299 and Protect ₹2,000 incl. GST",steps/05; steps/06; steps/07b,Research/Pilot,deck 7
-C30,"Retailer month, opened up (pilot)","₹19,500 − technicians ₹4,900 − parts ₹6,400 − commission ₹1,480 − other ₹1,650 = ₹5,070",xlsx Unit rows 14–20; steps/06 (₹330–500 a job; commission rates),Pilot,deck 6; story unit
-C31,Retailer growth to year 5,"+ Protect ₹3,400 (2 × ₹1,700) + AMC ₹2,200 (2 × ₹1,100) + installed-base repairs ₹4,900 (≈1.5 × ₹3,300) = ₹30,000; 32% = ₹9,600",xlsx Unit rows 21–25,Model,deck 6; story unit
+C29,Business model prices,"AC install ₹2,600 net (₹800 fee + ₹1,800 bracket and copper, LG charter); service visit ₹300; repair with a part ≈ ₹2,700 net (UC rate card); AMC ₹1,299 and Protect ₹2,000 incl. GST","research/retail_install; research/supply_layers (LG charter, UC rate card, Croma ZipCare)",Research/Pilot,deck 7
+C30,"Retailer month, opened up (pilot)","₹19,500 − technicians ₹4,900 − parts ₹6,400 − commission ₹1,440 − other ₹1,690 = ₹5,070",xlsx Unit rows 14–20; steps/06 (₹330–500 a job; commission rates),Pilot,deck 6; story unit
+C31,Retailer growth to year 5,"+ Protect ₹3,400 (2 × ₹1,700) + AMC ₹2,200 (2 × ₹1,100) + installed-base repairs ₹4,900 (≈1.8 × ₹2,700) = ₹30,000; 32% = ₹9,600",xlsx Unit rows 21–25,Model,deck 6; story unit
 C32,Cluster month,"Pilot Oct 34 × ₹5,070 − ₹1.0 L = +₹0.72 L; mature 60 × ₹9,600 − ₹1.5 L = +₹4.26 L (₹51 L a year)",xlsx Unit rows 26–27,Model,deck 5–6
 C33,Pilot bridge,"195 retailer-months × ₹19,500 = ₹38.0 L − ₹28.1 L job costs = ₹9.9 L − ₹8.0 L team = +₹1.9 L",xlsx Pilot,Pilot,deck 5
-C34,"Job mix behind ₹19,500","4 AC installs × ₹2,300 + 2 other installs × ₹300 + 2 visits × ₹300 + 2 repairs × ₹3,300 + 1.5 AMC × ₹1,100 + 0.5 Protect × ₹1,700 = ₹19,500 (avg ₹1,625)",xlsx Unit rows 30–40; research/retail_install (LG price charter); steps/00_unit_economics,Research/Pilot,deck 6; story unit
+C34,"Job mix behind ₹19,500","4 AC installs × ₹2,600 + 2 other installs × ₹300 + 2 visits × ₹300 + 2 repairs × ₹2,700 + 1.5 AMC × ₹1,100 + 0.5 Protect × ₹1,700 = ₹19,500 (avg ₹1,625); each at the market rate",xlsx Unit rows 30–40; research/retail_install (LG price charter); steps/00_unit_economics,Research/Pilot,deck 6; story unit

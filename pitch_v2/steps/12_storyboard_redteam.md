@@ -70,4 +70,4 @@ The full answers are in `proof_pack/investor_qa.md`.
 | Exit labelled 2031 but year 5 ends March 2032 | "Year-5 exit (March 2032)" everywhere |
 | Protect legal opinion at month 6 and month 9 | Month 6 everywhere |
 | Slide 5 numbers didn't read as one point; slide 6 repeated it | Slide 5 rebuilt as one sum; slide 6 opens the retailer month and ties back to October's ₹0.72 L |
-| The earlier average job did not multiply to ₹19,500 (12 jobs gave ₹18,960), and ₹1,625 had no build-up | A 12-job mix from researched prices (₹300 visits to ₹3,300 repairs) gives ₹19,500, an average of ₹1,625; 195 × 12 = 2,340 jobs |
+| The earlier average job did not multiply to ₹19,500 (12 jobs gave ₹18,960), and ₹1,625 had no build-up | A 12-job mix from researched prices (₹300 visits to ₹2,700 repairs, each at the market rate) gives ₹19,500, an average of ₹1,625; 195 × 12 = 2,340 jobs |

@@ -78,7 +78,7 @@ RM = [("Pilot revenue per retailer per month (₹)", f"={REF['p_rev']}", None), 
       ("  − retailer commission (5% installs, 8% repairs, 12% AMC, 25% Protect)", S.SPLIT["retailer_commission"], 1), ("  − travel, payments, AI desk, guarantee reserve", S.SPLIT["other_per_job"], 1),
       ("Result: contribution per retailer per month (₹)", "=B14-SUM(B15:B18)", None), ("Check: equals pilot margin × revenue (0 = OK)", f"=ROUND(B19-B14*{REF['p_cm']},0)", None),
       ("  + Protect plans (2 a month × ₹1,700 net)", S.LIFT["protect"], 1), ("  + AMC renewals (2 a month × ₹1,100 net)", S.LIFT["amc_renewals"], 1),
-      ("  + repairs on the installed base (≈1.5 × ₹3,300)", S.LIFT["installed_base_repairs"], 1), ("Result: mature revenue per retailer per month (₹)", "=B14+SUM(B21:B23)", None),
+      ("  + repairs on the installed base (≈1.8 × ₹2,700)", S.LIFT["installed_base_repairs"], 1), ("Result: mature revenue per retailer per month (₹)", "=B14+SUM(B21:B23)", None),
       ("Check: equals the mature input (0 = OK)", f"=B24-{REF['u_rev']}", None),
       ("Pilot cluster, October: 34 retailers × contribution − ₹1.0 L team (₹)", f"=Pilot!B11*B19-{REF['p_team']}", None),
       ("Mature cluster per month: 60 × mature contribution − team (₹)", f"={REF['u_n']}*B4-B7/12", None)]
@@ -86,7 +86,7 @@ for i, (lab, v, blue) in enumerate(RM, 14):
     wu.cell(i, 1, lab); c = wu.cell(i, 2, v); c.number_format = INR
     if blue: c.font = BLUE
 wu["A30"] = "The 12 jobs behind ₹19,500 (pilot, per retailer per month; prices net of GST)"; wu["A30"].font = BOLD
-for j, h in enumerate(["Job", "Jobs a month", "₹ per job", "₹ a month", "Basis"], 1): wu.cell(31, j, h).font = BOLD
+for j, h in enumerate(["Job", "Jobs a month", "₹ per job", "₹ a month", "Why this price (market reference)"], 1): wu.cell(31, j, h).font = BOLD
 for i, (job, n, pr, basis) in enumerate(S.JOB_MIX, 32):
     wu.cell(i, 1, job); c = wu.cell(i, 2, n); c.font = BLUE; c.number_format = '0.0'; c = wu.cell(i, 3, pr); c.font = BLUE; c.number_format = INR
     wu.cell(i, 4, f"=B{i}*C{i}").number_format = INR; wu.cell(i, 5, basis)

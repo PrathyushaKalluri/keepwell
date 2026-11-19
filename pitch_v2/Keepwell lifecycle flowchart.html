@@ -1,0 +1,589 @@
+<title>Keepwell Lifecycle Flow</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;600;700&display=swap">
+<style>
+/* Layout: how the deck's numbers connect, the spine of the lifecycle, one card per stage, the engines, the gaps in the deck, then the reality check. */
+:root {
+  --bg: #f2f4f7;
+  --surface: #ffffff;
+  --ink: #142030;
+  --muted: #566475;
+  --line: #d6dce4;
+  --line-strong: #8e9bad;
+  --accent: #0b7a75;
+  --accent-soft: #dff1ef;
+  --warn: #a85a00;
+  --warn-soft: #fbead3;
+  --bad: #b3261e;
+  --bad-soft: #fbe3e1;
+  --story: #5b4bb0;
+  --story-soft: #e8e5f7;
+  --res: #1f5fa8;
+  --res-soft: #e1ecf8;
+  --font-head: "Space Grotesk", "Inter", system-ui, sans-serif;
+  --font-body: "Inter", system-ui, -apple-system, "Segoe UI", sans-serif;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #0f1722; --surface: #172231; --ink: #e6edf5; --muted: #9aa9ba;
+    --line: #2a3a4d; --line-strong: #52657c; --accent: #47c2b9; --accent-soft: #12302f;
+    --warn: #f0a95a; --warn-soft: #3a2a12; --bad: #ff8a80; --bad-soft: #3b1b19;
+    --story: #b3a6ff; --story-soft: #272244; --res: #7db4ec; --res-soft: #14283d;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #0f1722; --surface: #172231; --ink: #e6edf5; --muted: #9aa9ba;
+  --line: #2a3a4d; --line-strong: #52657c; --accent: #47c2b9; --accent-soft: #12302f;
+  --warn: #f0a95a; --warn-soft: #3a2a12; --bad: #ff8a80; --bad-soft: #3b1b19;
+  --story: #b3a6ff; --story-soft: #272244; --res: #7db4ec; --res-soft: #14283d;
+  color-scheme: dark;
+}
+* { box-sizing: border-box; }
+body {
+  background: var(--bg); color: var(--ink); font-family: var(--font-body); font-size: 15px; line-height: 1.55;
+  padding-block: 28px 56px;
+  padding-left: max(16px, env(safe-area-inset-left, 0px));
+  padding-right: max(16px, env(safe-area-inset-right, 0px));
+}
+.wrap { max-width: 1080px; margin: 0 auto; display: flex; flex-direction: column; gap: 28px; }
+h1, h2, h3, h4 { font-family: var(--font-head); margin: 0; text-wrap: balance; }
+h1 { font-size: clamp(26px, 4.4vw, 38px); line-height: 1.12; letter-spacing: -0.01em; }
+h2 { font-size: 20px; }
+h3 { font-size: 19px; }
+h4 { font-size: 11px; letter-spacing: 0.09em; text-transform: uppercase; color: var(--muted); font-weight: 600; margin-bottom: 6px; }
+p { margin: 0; }
+.lede { color: var(--muted); max-width: 68ch; margin-top: 10px; }
+.num { font-variant-numeric: tabular-nums; }
+.note { color: var(--muted); font-size: 13.5px; }
+
+/* tags */
+.t { display: inline-block; font-size: 10.5px; font-weight: 600; letter-spacing: 0.03em; padding: 1px 6px; border-radius: 4px; vertical-align: 1px; margin-left: 4px; white-space: nowrap; }
+.t-model { background: var(--accent-soft); color: var(--accent); }
+.t-guess { background: var(--warn-soft); color: var(--warn); }
+.t-story { background: var(--story-soft); color: var(--story); }
+.t-res { background: var(--res-soft); color: var(--res); }
+.t-deck { background: var(--ink); color: var(--bg); }
+.legend { display: flex; flex-wrap: wrap; gap: 6px 16px; font-size: 13px; color: var(--muted); margin-top: 14px; }
+.legend span { display: inline-flex; align-items: center; gap: 4px; }
+
+/* spine figure */
+figure { margin: 0; }
+.spine-box { background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 14px 14px 8px; overflow-x: auto; }
+.spine-box svg { display: block; min-width: 860px; width: 100%; height: auto; color: var(--ink); }
+figcaption { color: var(--muted); font-size: 13px; margin-top: 8px; max-width: 80ch; }
+.node { fill: var(--surface); stroke: var(--line-strong); stroke-width: 1.2; }
+.node-money { fill: var(--accent-soft); stroke: var(--accent); }
+.node-circ { fill: var(--warn-soft); stroke: var(--warn); }
+.node-zero { fill: var(--surface); stroke: var(--line-strong); stroke-dasharray: 4 3; }
+.s-name { font: 600 13px var(--font-head); fill: currentColor; }
+.s-when { font: 500 11px var(--font-body); fill: currentColor; }
+.s-where { font: 400 10.5px var(--font-body); fill: var(--muted); }
+.s-flow { font: 500 11px var(--font-body); fill: var(--muted); }
+.s-start { font: 600 10px var(--font-body); }
+.s-start.a { fill: var(--accent); } .s-start.w { fill: var(--warn); }
+.s-loop { font: 600 11px var(--font-body); fill: var(--warn); }
+.arrow { stroke: currentColor; stroke-width: 1.4; fill: none; }
+.loop { stroke: var(--warn); stroke-width: 1.4; fill: none; stroke-dasharray: 5 4; }
+.key { display: flex; flex-wrap: wrap; gap: 6px 18px; font-size: 12.5px; color: var(--muted); margin-top: 8px; }
+.key i { display: inline-block; width: 12px; height: 12px; border-radius: 3px; vertical-align: -2px; margin-right: 5px; border: 1.2px solid; }
+.key .k-money { background: var(--accent-soft); border-color: var(--accent); }
+.key .k-zero { background: var(--surface); border-color: var(--line-strong); border-style: dashed; }
+.key .k-circ { background: var(--warn-soft); border-color: var(--warn); }
+
+/* stage cards */
+.stages { display: flex; flex-direction: column; }
+.stage { background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 16px 18px 18px; }
+.stage-head { display: flex; align-items: baseline; gap: 12px; flex-wrap: wrap; margin-bottom: 12px; }
+.badge { font: 700 13px var(--font-head); width: 26px; height: 26px; border-radius: 50%; display: inline-grid; place-items: center; background: var(--ink); color: var(--bg); flex: none; transform: translateY(-1px); }
+.when { margin-left: auto; font-size: 12.5px; color: var(--muted); text-align: right; }
+.cols { display: grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: 16px 22px; }
+.cols > section { min-width: 0; }
+.cols ul { margin: 0; padding-left: 16px; display: flex; flex-direction: column; gap: 5px; }
+.cols li { padding-left: 2px; }
+.gets { background: var(--accent-soft); border-radius: 8px; padding: 10px 12px; }
+.gets h4 { color: var(--accent); }
+.gets.zero { background: var(--bg); }
+.gets.zero h4 { color: var(--muted); }
+.link { display: flex; align-items: center; gap: 10px; padding: 6px 0 6px 22px; color: var(--muted); font-size: 12.5px; }
+.link svg { width: 14px; height: 26px; flex: none; color: var(--line-strong); }
+.link.loopback { color: var(--warn); }
+.link.loopback svg { color: var(--warn); }
+.engines { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 16px; }
+.engine { background: var(--surface); border: 1px solid var(--line); border-left: 4px solid var(--warn); border-radius: 10px; padding: 16px 18px 18px; display: flex; flex-direction: column; gap: 12px; min-width: 0; }
+.engine ul { margin: 0; padding-left: 16px; display: flex; flex-direction: column; gap: 5px; }
+
+/* panels and tables */
+.panel { background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 18px; display: flex; flex-direction: column; gap: 14px; }
+table { border-collapse: collapse; width: 100%; font-size: 14px; }
+th, td { text-align: left; padding: 7px 10px; border-bottom: 1px solid var(--line); vertical-align: top; }
+th { font: 600 11px var(--font-head); letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted); }
+td.r, th.r { text-align: right; font-variant-numeric: tabular-nums; white-space: nowrap; }
+tr.total td { font-weight: 600; border-top: 2px solid var(--line-strong); border-bottom: none; }
+tr.sub td { color: var(--muted); }
+.ok { color: var(--accent); font-weight: 600; white-space: nowrap; }
+.table-scroll { overflow-x: auto; }
+.bars { display: flex; flex-direction: column; gap: 10px; }
+.barrow { display: grid; grid-template-columns: 92px 1fr; gap: 10px; align-items: center; font-size: 13px; }
+.barrow .lab b { display: block; font-family: var(--font-head); }
+.stack { display: flex; height: 30px; border-radius: 6px; overflow: hidden; border: 1px solid var(--line); background: transparent; }
+.stack div { height: 100%; }
+.seg1 { background: var(--accent); } .seg2 { background: color-mix(in srgb, var(--accent) 65%, var(--surface)); }
+.seg3 { background: color-mix(in srgb, var(--accent) 38%, var(--surface)); } .seg4 { background: color-mix(in srgb, var(--accent) 20%, var(--surface)); }
+.seg5 { background: var(--warn); }
+.stack-legend { display: flex; flex-wrap: wrap; gap: 6px 18px; font-size: 13px; }
+.stack-legend .sw { display: inline-block; width: 11px; height: 11px; border-radius: 3px; margin-right: 6px; vertical-align: -1px; }
+.gaps { margin: 0; padding-left: 20px; display: flex; flex-direction: column; gap: 9px; }
+
+/* reality */
+.reality { border: 1px solid var(--bad); background: var(--bad-soft); border-radius: 10px; padding: 18px; display: flex; flex-direction: column; gap: 14px; }
+.reality h2 { color: var(--bad); }
+.chart-box { overflow-x: auto; background: var(--surface); border-radius: 8px; border: 1px solid var(--line); padding: 10px; }
+.chart-box svg { display: block; min-width: 520px; width: 100%; height: auto; color: var(--ink); }
+.c-bar-neg { fill: var(--bad); } .c-bar-pos { fill: var(--accent); }
+.c-val { font: 600 12px var(--font-body); fill: currentColor; }
+.c-lab { font: 500 11.5px var(--font-body); fill: var(--muted); }
+.c-axis { stroke: var(--line-strong); stroke-width: 1; }
+.facts { margin: 0; padding-left: 18px; display: flex; flex-direction: column; gap: 6px; }
+.reality .panel { background: var(--surface); }
+@media (max-width: 560px) { .when { margin-left: 0; width: 100%; text-align: left; } .stage { padding: 14px; } .barrow { grid-template-columns: 1fr; gap: 4px; } }
+</style>
+
+<div class="wrap">
+
+<header>
+  <h1>One appliance, from the shop counter to the recycler</h1>
+  <p class="lede">Where each stage happens, what Keepwell earns, what everyone else gets, and the numbers at each step. The money numbers now follow slides 5 and 6 of the 8-minute deck. The deck gives totals but not how they are made, so the split between stages is my estimate. Nothing here has been proven with real customers.</p>
+  <div class="legend" aria-label="Number tags">
+    <span><span class="t t-deck">Deck</span> a number printed on the 8-minute deck</span>
+    <span><span class="t t-model">Model</span> from the team's spreadsheet</span>
+    <span><span class="t t-guess">Guess</span> my estimate to fill a gap</span>
+    <span><span class="t t-res">Research</span> third-party source</span>
+    <span><span class="t t-story">Story</span> invented for the course case</span>
+  </div>
+</header>
+
+<section class="panel" aria-label="How slides 5 and 6 connect">
+  <div>
+    <h2>The connection: slide 5 and slide 6 are one number used twice</h2>
+    <p class="lede" style="margin-top:6px;">Everything on the pilot slide comes from one retailer-month: <b>12.3 jobs, ₹19,500 of revenue, ₹5,070 kept</b>. Slide 6 is that same retailer-month, then a cluster built from it.</p>
+  </div>
+  <div class="table-scroll">
+  <table>
+    <thead><tr><th>Number on the slide</th><th>How it is made</th><th>Check</th></tr></thead>
+    <tbody>
+      <tr><td><b>34 retailers</b> (12 to 34)<span class="t t-deck">Deck</span></td><td>The monthly contribution bars divided by ₹5,070 give retailers per month: Mar 12, Apr 15, May 20, Jun 24, Jul 28, Aug 30, Sep 32, Oct 34. That adds up to <b>195 retailer-months</b>.<span class="t t-guess">Guess</span></td><td class="ok">12 and 34 match</td></tr>
+      <tr><td><b>2,400 jobs</b><span class="t t-deck">Deck</span></td><td>195 retailer-months x 12.3 jobs</td><td class="ok">2,399</td></tr>
+      <tr><td><b>₹38 L revenue</b><span class="t t-deck">Deck</span></td><td>195 x ₹19,500</td><td class="ok">₹38.0 L</td></tr>
+      <tr><td><b>₹1,580 per job</b> (slide 6)<span class="t t-deck">Deck</span></td><td>₹38 L ÷ 2,400 jobs. Also ₹19,500 ÷ 12.3 jobs.</td><td class="ok">₹1,583</td></tr>
+      <tr><td><b>₹9.9 L kept</b>, 26%<span class="t t-deck">Deck</span></td><td>195 x ₹5,070, which is also the sum of the eight monthly bars (0.61 + 0.76 + 1.01 + 1.22 + 1.42 + 1.52 + 1.62 + 1.72)</td><td class="ok">₹9.9 L</td></tr>
+      <tr><td><b>₹410 kept per job</b> (slide 6)<span class="t t-deck">Deck</span></td><td>26% of ₹1,580</td><td class="ok">₹411</td></tr>
+      <tr><td><b>+₹1.9 L cluster profit</b><span class="t t-deck">Deck</span></td><td>₹9.9 L kept - 8 months x ₹1.0 L cluster team</td><td class="ok">₹1.9 L</td></tr>
+      <tr><td><b>Breakeven at 20 retailers</b> (slide 6)<span class="t t-deck">Deck</span></td><td>₹1.0 L team cost ÷ ₹5,070 per retailer</td><td class="ok">19.7</td></tr>
+      <tr><td><b>Mature cluster: ₹51 L a year</b> (slide 6)<span class="t t-deck">Deck</span></td><td>60 retailers x ₹30,000 x 12 = ₹2.16 Cr. 32% kept = ₹69 L. Minus a cluster cost of about ₹1.5 L a month (₹18 L a year) = ₹51 L. The deck never states the ₹1.5 L; I worked it out backwards.<span class="t t-guess">Guess</span></td><td class="ok">₹51 L</td></tr>
+    </tbody>
+  </table>
+  </div>
+  <p class="note">One small gap: 12 jobs x ₹1,580 is ₹18,960, not ₹19,500. The slide's "about 12 jobs" is really 12.3.</p>
+</section>
+
+<section class="panel" aria-label="What is inside one retailer-month and how it grows">
+  <div>
+    <h2>What is inside the ₹19,500, and how it grows to ₹30,000</h2>
+    <p class="lede" style="margin-top:6px;">The deck says revenue per retailer rises from ₹19,500 in the pilot to ₹25,000 in year 1 and ₹30,000 by year 5, "as Protect, AMC renewals and parts build". It does not show the split. This is my split, tied to the deck's totals.</p>
+  </div>
+  <div class="bars" role="img" aria-label="Revenue per retailer per month: pilot ₹19,500, year 1 ₹25,000, year 5 ₹30,000. Installs and repairs stay the same; AMC grows, and Protect and parts are added.">
+    <div class="barrow"><div class="lab"><b>Pilot</b><span class="num">₹19,500</span></div><div class="stack" style="width:65%"><div class="seg1" style="width:43.1%"></div><div class="seg2" style="width:48.5%"></div><div class="seg3" style="width:8.4%"></div></div></div>
+    <div class="barrow"><div class="lab"><b>Year 1</b><span class="num">₹25,000</span></div><div class="stack" style="width:83.3%"><div class="seg1" style="width:33.6%"></div><div class="seg2" style="width:37.8%"></div><div class="seg3" style="width:8.4%"></div><div class="seg5" style="width:17.4%"></div><div class="seg4" style="width:2.8%"></div></div></div>
+    <div class="barrow"><div class="lab"><b>Year 5</b><span class="num">₹30,000</span></div><div class="stack" style="width:100%"><div class="seg1" style="width:28%"></div><div class="seg2" style="width:31.5%"></div><div class="seg3" style="width:10.5%"></div><div class="seg5" style="width:25%"></div><div class="seg4" style="width:5%"></div></div></div>
+  </div>
+  <div class="stack-legend">
+    <span><span class="sw seg1"></span>Install (stage 2)</span>
+    <span><span class="sw seg2"></span>Repair and service (stage 5)</span>
+    <span><span class="sw seg3"></span>AMC plans (stage 4)</span>
+    <span><span class="sw seg5"></span>Protect (stage 4)</span>
+    <span><span class="sw seg4"></span>Parts to other agencies (engine)</span>
+  </div>
+  <div class="table-scroll">
+  <table>
+    <thead><tr><th>Per retailer, per month</th><th class="r">Pilot</th><th class="r">Year 1</th><th class="r">Year 5</th><th>What changes</th></tr></thead>
+    <tbody>
+      <tr><td>Install revenue</td><td class="r">₹8,400</td><td class="r">₹8,400</td><td class="r">₹8,400</td><td>About 4 installs at ₹2,100. The same all the way.</td></tr>
+      <tr><td>Repair and service revenue</td><td class="r">₹9,450</td><td class="r">₹9,450</td><td class="r">₹9,450</td><td>About 7 jobs at ₹1,350. The same all the way.</td></tr>
+      <tr><td>AMC revenue</td><td class="r">₹1,650</td><td class="r">₹2,100</td><td class="r">₹3,150</td><td>Renewals build on top of first-year plans.</td></tr>
+      <tr><td>Protect revenue</td><td class="r">₹0</td><td class="r">₹4,350</td><td class="r">₹7,500</td><td>2.6 plans a month in year 1, 4.4 by year 5 (₹1,695 net each).</td></tr>
+      <tr><td>Parts revenue</td><td class="r">₹0</td><td class="r">₹700</td><td class="r">₹1,500</td><td>Genuine parts sold to local agencies.</td></tr>
+      <tr class="total"><td>Revenue</td><td class="r">₹19,500</td><td class="r">₹25,000</td><td class="r">₹30,000</td><td>The three deck numbers.</td></tr>
+      <tr><td>Install: kept</td><td class="r">₹2,016</td><td class="r">₹2,016</td><td class="r">₹2,016</td><td>24% of the revenue.</td></tr>
+      <tr><td>Repair and service: kept</td><td class="r">₹2,646</td><td class="r">₹2,646</td><td class="r">₹3,213</td><td>28% now. About 34% by year 5 as the margin on Keepwell's own parts goes from 20% to 30%.</td></tr>
+      <tr><td>AMC: kept</td><td class="r">₹412</td><td class="r">₹525</td><td class="r">₹788</td><td>About 25%.</td></tr>
+      <tr><td>Protect: kept</td><td class="r">₹0</td><td class="r">₹1,523</td><td class="r">₹2,625</td><td>35%. After the retailer's 25% and expected claims.</td></tr>
+      <tr><td>Parts: kept</td><td class="r">₹0</td><td class="r">₹70</td><td class="r">₹150</td><td>About 10%.</td></tr>
+      <tr><td>Scale efficiency</td><td class="r">₹0</td><td class="r">₹0</td><td class="r">₹808</td><td>The deck's 32% needs this extra amount. Denser routes and fewer second visits might explain it, but nothing in the deck does.</td></tr>
+      <tr class="total"><td>Kept</td><td class="r">₹5,070 (26%)</td><td class="r">₹6,800 (27%)</td><td class="r">₹9,600 (32%)</td><td>Pilot and year 5 are the deck's numbers. Year 1 is mine.</td></tr>
+      <tr class="sub"><td>Cluster cost a month</td><td class="r">₹1.0 L</td><td class="r">₹1.0 L</td><td class="r">₹1.5 L</td><td>Pilot team cost is on the deck. The ₹1.5 L is implied.</td></tr>
+      <tr class="sub"><td>Retailers to break even</td><td class="r">20</td><td class="r">15</td><td class="r">16</td><td>Cluster cost ÷ what one retailer keeps.</td></tr>
+    </tbody>
+  </table>
+  </div>
+  <p class="note">The pilot column splits 12.3 jobs as about 4.0 installs, 7.0 repairs and services, and 1.3 AMC plans. All the line-by-line figures are my estimates<span class="t t-guess">Guess</span>. They add up to the deck's totals, but the deck itself shows only the totals.</p>
+</section>
+
+<section class="panel" aria-label="Growth path">
+  <h2>The growth path behind it</h2>
+  <div class="table-scroll">
+  <table>
+    <thead><tr><th>From slide 8 of the deck</th><th class="r">Pilot</th><th class="r">2027</th><th class="r">2028</th><th class="r">2029</th><th class="r">2030</th><th class="r">2031</th></tr></thead>
+    <tbody>
+      <tr><td>Retailers</td><td class="r">34</td><td class="r">200</td><td class="r">500</td><td class="r">1,000</td><td class="r">1,800</td><td class="r">3,000</td></tr>
+      <tr><td>Clusters</td><td class="r">1</td><td class="r">4</td><td class="r">9</td><td class="r">18</td><td class="r">30</td><td class="r">50</td></tr>
+      <tr><td>Revenue per retailer a month</td><td class="r">₹19,500</td><td colspan="4" class="r" style="text-align:center;">rises to ₹25,000 in year 1, then to ₹30,000 by year 5</td><td class="r">₹30,000</td></tr>
+      <tr><td>Revenue (₹ Cr)</td><td class="r">0.38</td><td class="r">3.5</td><td class="r">11.2</td><td class="r">25.5</td><td class="r">49.0</td><td class="r">86.4</td></tr>
+    </tbody>
+  </table>
+  </div>
+  <p class="note">Revenue runs behind retailer count because new retailers ramp up over their first months. The pilot's 8-month revenue is shown as ₹0.38 Cr.</p>
+</section>
+
+<figure>
+  <div class="spine-box">
+    <svg viewBox="0 0 1000 192" role="img" aria-label="Seven lifecycle stages in order: sale, install, warranty, plans, repair, trade-in and refurbish, recycle. Stages 1 to 5 are live now, trade-in starts in year 2 and refurbish and recycle in year 3. A trade-in at the shop loops back to a new sale.">
+      <defs>
+        <marker id="ah" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M1 1 L9 5 L1 9 z" fill="currentColor"/></marker>
+        <marker id="ahw" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M1 1 L9 5 L1 9 z" fill="var(--warn)"/></marker>
+      </defs>
+      <path class="loop" d="M941 46 V26 H59 V44" marker-end="url(#ahw)"/>
+      <text class="s-loop" x="500" y="18" text-anchor="middle">customer buys a new unit, old one is exchanged at the shop</text>
+      <g>
+        <rect class="node node-zero" x="0" y="46" width="118" height="80" rx="8"/>
+        <text class="s-name" x="59" y="70" text-anchor="middle">1 Sale</text>
+        <text class="s-when" x="59" y="88" text-anchor="middle">Day 0</text>
+        <text class="s-where" x="59" y="106" text-anchor="middle">shop counter</text>
+
+        <rect class="node node-money" x="147" y="46" width="118" height="80" rx="8"/>
+        <text class="s-name" x="206" y="70" text-anchor="middle">2 Install</text>
+        <text class="s-when" x="206" y="88" text-anchor="middle">Day 1</text>
+        <text class="s-where" x="206" y="106" text-anchor="middle">customer's home</text>
+
+        <rect class="node node-zero" x="294" y="46" width="118" height="80" rx="8"/>
+        <text class="s-name" x="353" y="70" text-anchor="middle">3 Warranty</text>
+        <text class="s-when" x="353" y="88" text-anchor="middle">Year 0 to 2</text>
+        <text class="s-where" x="353" y="106" text-anchor="middle">brand's centre</text>
+
+        <rect class="node node-money" x="441" y="46" width="118" height="80" rx="8"/>
+        <text class="s-name" x="500" y="70" text-anchor="middle">4 Plans</text>
+        <text class="s-when" x="500" y="88" text-anchor="middle">Month 11 on</text>
+        <text class="s-where" x="500" y="106" text-anchor="middle">counter + home</text>
+
+        <rect class="node node-money" x="588" y="46" width="118" height="80" rx="8"/>
+        <text class="s-name" x="647" y="70" text-anchor="middle">5 Repair</text>
+        <text class="s-when" x="647" y="88" text-anchor="middle">Year 2 to 8</text>
+        <text class="s-where" x="647" y="106" text-anchor="middle">home or bench</text>
+
+        <rect class="node node-circ" x="735" y="46" width="118" height="80" rx="8"/>
+        <text class="s-name" x="794" y="70" text-anchor="middle">6 Trade-in, refurb</text>
+        <text class="s-when" x="794" y="88" text-anchor="middle">Year 5 to 8</text>
+        <text class="s-where" x="794" y="106" text-anchor="middle">shop + hub</text>
+
+        <rect class="node node-circ" x="882" y="46" width="118" height="80" rx="8"/>
+        <text class="s-name" x="941" y="70" text-anchor="middle">7 Recycle</text>
+        <text class="s-when" x="941" y="88" text-anchor="middle">Year 8 on</text>
+        <text class="s-where" x="941" y="106" text-anchor="middle">hub to recycler</text>
+      </g>
+      <g>
+        <line class="arrow" x1="119" y1="86" x2="145" y2="86" marker-end="url(#ah)"/>
+        <line class="arrow" x1="266" y1="86" x2="292" y2="86" marker-end="url(#ah)"/>
+        <line class="arrow" x1="413" y1="86" x2="439" y2="86" marker-end="url(#ah)"/>
+        <line class="arrow" x1="560" y1="86" x2="586" y2="86" marker-end="url(#ah)"/>
+        <line class="arrow" x1="707" y1="86" x2="733" y2="86" marker-end="url(#ah)"/>
+        <line class="arrow" x1="854" y1="86" x2="880" y2="86" marker-end="url(#ah)"/>
+      </g>
+      <g>
+        <text class="s-flow" x="59" y="146" text-anchor="middle">job lead</text>
+        <text class="s-flow" x="206" y="146" text-anchor="middle">QR + record</text>
+        <text class="s-flow" x="353" y="146" text-anchor="middle">month-11 reminder</text>
+        <text class="s-flow" x="500" y="146" text-anchor="middle">claim or repair call</text>
+        <text class="s-flow" x="647" y="146" text-anchor="middle">worn-out unit</text>
+        <text class="s-flow" x="794" y="146" text-anchor="middle">unsellable unit</text>
+        <text class="s-flow" x="941" y="146" text-anchor="middle">salvaged parts</text>
+      </g>
+      <g>
+        <text class="s-start a" x="59" y="170" text-anchor="middle">Serve · now</text>
+        <text class="s-start a" x="206" y="170" text-anchor="middle">Serve · now</text>
+        <text class="s-start a" x="353" y="170" text-anchor="middle">Serve · now</text>
+        <text class="s-start a" x="500" y="170" text-anchor="middle">Serve · now</text>
+        <text class="s-start a" x="647" y="170" text-anchor="middle">Serve · now</text>
+        <text class="s-start w" x="794" y="170" text-anchor="middle">Supply from yr 2</text>
+        <text class="s-start w" x="794" y="183" text-anchor="middle">Circulate from yr 3</text>
+        <text class="s-start w" x="941" y="170" text-anchor="middle">Circulate from yr 3</text>
+      </g>
+    </svg>
+  </div>
+  <div class="key" aria-hidden="true">
+    <span><i class="k-money"></i>Keepwell earns from the customer</span>
+    <span><i class="k-zero"></i>Keepwell earns nothing here</span>
+    <span><i class="k-circ"></i>Later stages: no revenue in the deck's numbers</span>
+  </div>
+  <figcaption>The top row of each box is how old the appliance is. The green and amber labels underneath are when Keepwell starts doing that stage, taken from slide 4 of the deck. Stages 6 and 7 are not part of the ₹19,500 to ₹30,000 growth, so they are extra upside, not something the deck's totals depend on.</figcaption>
+</figure>
+
+<section class="stages" aria-label="The seven stages in order">
+
+<article class="stage">
+  <div class="stage-head"><span class="badge">1</span><h3>Sale</h3><span class="when">Appliance age: day 0 · Keepwell: now</span></div>
+  <div class="cols">
+    <section><h4>Where it happens</h4><p>At the counter of an independent multi-brand appliance shop in a Tier 2/3 town. The shop adds the install and Protect to the bill, and the family agrees on WhatsApp.</p></section>
+    <section class="gets zero"><h4>Keepwell gets</h4><p>A job lead, the customer's phone number and the product model. No money yet.</p></section>
+    <section><h4>Everyone else gets</h4><ul>
+      <li><b>Customer:</b> one number to call, and an install promised in 24 hours.</li>
+      <li><b>Shop:</b> a service promise it does not have to run itself, and no blame if the brand installer is late.</li>
+    </ul></section>
+    <section><h4>Numbers</h4><ul>
+      <li>34 retailers on 2-year exclusive agreements by October, up from 12 in March<span class="t t-deck">Deck</span></li>
+      <li>Each retailer sends Keepwell about 12 jobs a month, about 4 of them installs<span class="t t-deck">Deck</span><span class="t t-guess">Guess</span></li>
+      <li>Retailer commission is paid on every job (rates are not on the deck)</li>
+    </ul></section>
+  </div>
+</article>
+<div class="link"><svg viewBox="0 0 14 26" aria-hidden="true"><path d="M7 0 V22 M2 17 L7 23 L12 17" fill="none" stroke="currentColor" stroke-width="1.6"/></svg>job lead goes to dispatch</div>
+
+<article class="stage">
+  <div class="stage-head"><span class="badge">2</span><h3>Install</h3><span class="when">Appliance age: day 1 · Keepwell: now</span></div>
+  <div class="cols">
+    <section><h4>Where it happens</h4><p>At the customer's home, within 24 hours. An authorised technician installs, captures the serial number and photos, and registers the warranty with the brand.</p></section>
+    <section class="gets"><h4>Keepwell gets</h4><ul>
+      <li>The install fee, and the materials it supplies.</li>
+      <li>An appliance record with a QR sticker on the unit.</li>
+      <li>The right to be called when it breaks.</li>
+    </ul></section>
+    <section><h4>Everyone else gets</h4><ul>
+      <li><b>Customer:</b> install in a day, and the warranty stays valid because the installer is authorised.</li>
+      <li><b>Technician:</b> paid per job within 48 hours.</li>
+      <li><b>Shop:</b> a commission and no blame for delays.</li>
+      <li><b>Brand or service centre:</b> its install target met in towns it cannot staff.</li>
+    </ul></section>
+    <section><h4>Numbers</h4><ul>
+      <li>An authorised AC install nets Keepwell ₹800<span class="t t-deck">Deck</span></li>
+      <li>About 4.0 installs per retailer a month, at about ₹2,100 each because AC installs include ₹1,500 of materials: <b>₹8,400 a month</b><span class="t t-guess">Guess</span></li>
+      <li>Keepwell keeps about 24%, so about ₹500 an install and <b>₹2,016 a month</b><span class="t t-guess">Guess</span></li>
+      <li>This line stays the same in year 1 and year 5<span class="t t-guess">Guess</span></li>
+    </ul></section>
+  </div>
+</article>
+<div class="link"><svg viewBox="0 0 14 26" aria-hidden="true"><path d="M7 0 V22 M2 17 L7 23 L12 17" fill="none" stroke="currentColor" stroke-width="1.6"/></svg>QR sticker and record stay with the appliance</div>
+
+<article class="stage">
+  <div class="stage-head"><span class="badge">3</span><h3>Warranty years</h3><span class="when">Appliance age: year 0 to 2 · Keepwell: now</span></div>
+  <div class="cols">
+    <section><h4>Where it happens</h4><p>At the brand's own service centre. Keepwell does not repair here. It keeps the record and sends renewal reminders.</p></section>
+    <section class="gets zero"><h4>Keepwell gets</h4><p>No money. It keeps the customer relationship warm and sets up stage 4.</p></section>
+    <section><h4>Everyone else gets</h4><ul>
+      <li><b>Customer:</b> free repairs by the brand.</li>
+      <li><b>Brand:</b> carries the warranty cost.</li>
+      <li><b>Shop:</b> stays in touch with its customer through reminders.</li>
+    </ul></section>
+    <section><h4>Numbers</h4><ul>
+      <li>Warranty is usually 1-2 years<span class="t t-res">Research</span></li>
+      <li>80-91% of installed units are out of warranty, so the paying years start in stage 4<span class="t t-res">Research</span></li>
+      <li>₹0 of the ₹19,500 comes from this stage</li>
+    </ul></section>
+  </div>
+</article>
+<div class="link"><svg viewBox="0 0 14 26" aria-hidden="true"><path d="M7 0 V22 M2 17 L7 23 L12 17" fill="none" stroke="currentColor" stroke-width="1.6"/></svg>reminder offers a plan</div>
+
+<article class="stage">
+  <div class="stage-head"><span class="badge">4</span><h3>Service plans: AMC and Protect</h3><span class="when">Appliance age: sold at the counter or from month 11 · Keepwell: now</span></div>
+  <div class="cols">
+    <section><h4>Where it happens</h4><p>The shop sells the plan at the counter, or after a reminder. Service visits happen at the customer's home, scheduled in the off-season. Protect covers repairs after the brand warranty ends.</p></section>
+    <section class="gets"><h4>Keepwell gets</h4><ul>
+      <li><b>AMC</b> (annual service plan): ₹1,299 a year.<span class="t t-deck">Deck</span></li>
+      <li><b>Protect</b> (2-year repair cover): ₹2,000.<span class="t t-deck">Deck</span></li>
+    </ul></section>
+    <section><h4>Everyone else gets</h4><ul>
+      <li><b>Customer:</b> scheduled service, and Protect pays for covered repairs.</li>
+      <li><b>Shop:</b> a commission, about 25% of a Protect plan.</li>
+      <li><b>Technician:</b> paid per service visit.</li>
+    </ul></section>
+    <section><h4>Numbers per retailer a month</h4><ul>
+      <li><b>AMC:</b> 1.3 plans in the pilot (₹1,650), rising to ₹2,100 in year 1 and ₹3,150 by year 5 as renewals build<span class="t t-guess">Guess</span></li>
+      <li><b>Protect:</b> not in the pilot's ₹19,500. Only a counter test: 6% of buyers took it at 12 retailers<span class="t t-deck">Deck</span></li>
+      <li>Modelled at 2.6 plans a month in year 1 (₹4,350) and 4.4 by year 5 (₹7,500)<span class="t t-guess">Guess</span></li>
+      <li>Keepwell keeps about 35% of a Protect plan after the shop's share and expected claims<span class="t t-model">Model</span></li>
+      <li>Protect is the biggest single reason revenue per retailer grows. No legal opinion yet that it is a service contract and not insurance.</li>
+    </ul></section>
+  </div>
+</article>
+<div class="link"><svg viewBox="0 0 14 26" aria-hidden="true"><path d="M7 0 V22 M2 17 L7 23 L12 17" fill="none" stroke="currentColor" stroke-width="1.6"/></svg>a breakdown triggers a repair or claim call</div>
+
+<article class="stage">
+  <div class="stage-head"><span class="badge">5</span><h3>Out-of-warranty repair</h3><span class="when">Appliance age: year 2 to 8 · Keepwell: now</span></div>
+  <div class="cols">
+    <section><h4>Where it happens</h4><p>At the customer's home or the technician's bench. The customer sends a voice note on WhatsApp, the AI drafts the likely fault and the part to carry, and the technician confirms it. The price comes from the rate card, or Protect covers it.</p></section>
+    <section class="gets"><h4>Keepwell gets</h4><ul>
+      <li>The repair bill.</li>
+      <li>A margin on the genuine parts it supplies (see the parts engine below).</li>
+      <li>The service history on the record.</li>
+    </ul></section>
+    <section><h4>Everyone else gets</h4><ul>
+      <li><b>Customer:</b> a fixed price before the visit and a 90-day guarantee.</li>
+      <li><b>Technician:</b> paid in 48 hours, with the right part on the first visit.</li>
+      <li><b>Shop:</b> a commission and keeps the customer.</li>
+      <li><b>Parts distributor:</b> one pooled order.</li>
+    </ul></section>
+    <section><h4>Numbers</h4><ul>
+      <li>Service and repair rates start from ₹550<span class="t t-deck">Deck</span></li>
+      <li>About 7.0 repair and service jobs per retailer a month, at about ₹1,350: <b>₹9,450 a month</b><span class="t t-guess">Guess</span></li>
+      <li>Keepwell keeps about 28%, so about ₹380 a job and <b>₹2,646 a month</b><span class="t t-guess">Guess</span></li>
+      <li>By year 5 it keeps about 34% (<b>₹3,213</b>) as the margin on Keepwell's own parts goes from 20% to 30%<span class="t t-guess">Guess</span></li>
+      <li>44% of AC service goes to local mechanics today, our main competitor<span class="t t-res">Research</span></li>
+    </ul></section>
+  </div>
+</article>
+<div class="link loopback"><svg viewBox="0 0 14 26" aria-hidden="true"><path d="M7 0 V22 M2 17 L7 23 L12 17" fill="none" stroke="currentColor" stroke-width="1.6"/></svg>customer replaces the unit; the shop takes the old one in exchange</div>
+
+<article class="stage">
+  <div class="stage-head"><span class="badge">6</span><h3>Trade-in, refurbish and resell</h3><span class="when">Appliance age: year 5 to 8 · Keepwell: pickups from year 2, resale from year 3</span></div>
+  <div class="cols">
+    <section><h4>Where it happens</h4><p>The exchange happens at the shop counter when the customer buys a new unit. Keepwell's field arm values and collects the old unit. Units that can be saved are refurbished and resold through retailers with a warranty.</p></section>
+    <section class="gets"><h4>Keepwell gets</h4><ul>
+      <li>A collection fee for the old unit.</li>
+      <li>The resale margin on units that can be sold again.</li>
+    </ul></section>
+    <section><h4>Everyone else gets</h4><ul>
+      <li><b>Customer:</b> exchange credit towards a new unit.</li>
+      <li><b>Shop:</b> a new sale (the loop back to stage 1) and a share of the resale.</li>
+      <li><b>Second-hand buyer:</b> a working appliance with a warranty.</li>
+      <li><b>Technician:</b> refurb jobs.</li>
+    </ul></section>
+    <section><h4>Numbers</h4><ul>
+      <li><b>None of this is in the deck's ₹19,500 to ₹30,000.</b> It is upside.</li>
+      <li>Collection fee about ₹400 a unit<span class="t t-guess">Guess</span></li>
+      <li>Exchange credit of ₹2,000-3,000<span class="t t-guess">Guess</span></li>
+      <li>Resale at about ₹7,500, with Keepwell keeping 12%, so about ₹900 a unit<span class="t t-model">Model</span><span class="t t-guess">Guess</span></li>
+      <li>About 45% of returned units are good enough to resell<span class="t t-guess">Guess</span></li>
+    </ul></section>
+  </div>
+</article>
+<div class="link"><svg viewBox="0 0 14 26" aria-hidden="true"><path d="M7 0 V22 M2 17 L7 23 L12 17" fill="none" stroke="currentColor" stroke-width="1.6"/></svg>units that cannot be resold go to e-waste</div>
+
+<article class="stage">
+  <div class="stage-head"><span class="badge">7</span><h3>Recycle</h3><span class="when">Appliance age: year 8 on · Keepwell: from year 3</span></div>
+  <div class="cols">
+    <section><h4>Where it happens</h4><p>The unit goes from the cluster hub to a registered e-waste recycler, with the paperwork the E-Waste Rules 2022 require. Working parts are pulled out first and go back into the parts stock.</p></section>
+    <section class="gets"><h4>Keepwell gets</h4><ul>
+      <li>A collection fee per kilogram.</li>
+      <li>Salvaged parts for stage 5.</li>
+      <li>Later, a share of the recycling certificates that brands must buy.</li>
+    </ul></section>
+    <section><h4>Everyone else gets</h4><ul>
+      <li><b>Brand:</b> meets its legal take-back target (EPR).</li>
+      <li><b>Recycler:</b> a steady supply of units with records.</li>
+      <li><b>Customer:</b> safe disposal.</li>
+    </ul></section>
+    <section><h4>Numbers</h4><ul>
+      <li><b>Not in the deck's totals.</b> The smallest line.</li>
+      <li>₹10-15 a kilo for 30-60 kg a unit, so about ₹300-900 a unit<span class="t t-guess">Guess</span></li>
+      <li>About 55% of units end up here<span class="t t-guess">Guess</span></li>
+    </ul></section>
+  </div>
+</article>
+</section>
+
+<section aria-label="Back-end engines">
+  <h2 style="margin-bottom: 12px;">Two engines that feed stages 2, 4 and 5</h2>
+  <div class="engines">
+    <article class="engine">
+      <h3>Technician training and certification</h3>
+      <div><h4>Where</h4><p>In the cluster's training room for two weeks, then on the job with a mentor.</p></div>
+      <div><h4>Keepwell gets</h4><p>A certified, rated technician pool. Quality goes up and leakage goes down.</p></div>
+      <div><h4>The technician gets</h4><p>A certificate, steady jobs and payment in 48 hours. The customer gets better work and the shop gets fewer complaints.</p></div>
+      <div><h4>Numbers</h4><ul>
+        <li>One cluster handles about 12.3 jobs x 20 to 60 retailers: roughly 250 to 740 jobs a month<span class="t t-guess">Guess</span></li>
+        <li>At about 76 jobs per technician a month, that is about 3 to 10 technicians<span class="t t-guess">Guess</span></li>
+        <li>Training costs ₹3,000-5,000 a seat, possibly funded by skilling schemes<span class="t t-guess">Guess</span></li>
+        <li>30-60% leave each year in this trade<span class="t t-res">Research</span></li>
+      </ul></div>
+    </article>
+    <article class="engine">
+      <h3>Parts procurement</h3>
+      <div><h4>Where</h4><p>A parts store in each cluster, restocked centrally from distributors. Starts in year 2.</p></div>
+      <div><h4>Keepwell gets</h4><p>A margin on parts used in its own repairs, and a margin selling genuine parts to local agencies.</p></div>
+      <div><h4>Everyone else gets</h4><p>The technician has the right part on the first visit. The distributor gets one predictable pooled order. Independent agencies buy at the pooled price.</p></div>
+      <div><h4>Numbers per retailer a month</h4><ul>
+        <li>Parts sold to other agencies: ₹700 in year 1, ₹1,500 by year 5<span class="t t-guess">Guess</span></li>
+        <li>Keepwell keeps about 10% on those sales<span class="t t-model">Model</span></li>
+        <li>Parts are about 60% of a repair bill, and the margin on Keepwell's own parts goes from 20% to 30%<span class="t t-guess">Guess</span></li>
+        <li>About ₹3 L of parts stock per cluster<span class="t t-guess">Guess</span></li>
+      </ul></div>
+    </article>
+  </div>
+</section>
+
+<section class="panel" aria-label="What the deck does not say">
+  <h2>What slides 5 and 6 leave out</h2>
+  <ol class="gaps">
+    <li><b>No split of the ₹19,500.</b> The deck never says how much is installs, repairs or AMC. I assumed 4.0 installs, 7.0 repairs and 1.3 AMC plans a month.</li>
+    <li><b>The pilot has no Protect in it.</b> The ₹19,500 comes without Protect, which was only a counter test. Yet about a quarter of the later ₹30,000 is Protect. Most of the growth rests on a product that has not been sold at scale or checked legally.</li>
+    <li><b>The jump from 26% to 32% kept has no bridge.</b> My bridge covers about ₹8,800 of the ₹9,600. The last ₹808 is a plug I cannot explain.</li>
+    <li><b>The mature cluster cost is hidden.</b> The pilot team costs ₹1.0 L a month. The ₹51 L a year only works if a mature cluster costs about ₹1.5 L a month, and the deck does not say so.</li>
+    <li><b>The pilot profit is cluster-level only.</b> The +₹1.9 L leaves out the head-office team: founders, engineers, AI and marketing.</li>
+    <li><b>The pace of signing retailers jumps.</b> The pilot added 22 retailers in 7 months, about 3 a month. Getting from 34 to 200 in 2027 needs about 14 a month, around four times faster<span class="t t-guess">Guess</span>.</li>
+    <li><b>No cost of signing a retailer</b> appears on slides 5 or 6, and there is no data on whether retailers stay past their first months, only that they signed 2-year agreements.</li>
+  </ol>
+</section>
+
+<section class="reality" aria-label="Reality check">
+  <h2>Reality check: two plans disagree about when the company makes money</h2>
+  <p>At cluster level the deck's numbers are positive: a cluster breaks even at about 20 retailers. The question is the whole company, which also pays for head office and for opening new clusters. Slide 8 of the deck says the company is profitable from year one. The step files' model says the company loses money until year 5. You told me to plan on the second.</p>
+  <div class="panel">
+    <div class="table-scroll">
+    <table>
+      <thead><tr><th>Operating profit (EBITDA), ₹ Cr</th><th class="r">Year 1</th><th class="r">Year 2</th><th class="r">Year 3</th><th class="r">Year 4</th><th class="r">Year 5</th></tr></thead>
+      <tbody>
+        <tr><td>8-minute deck, slide 8<span class="t t-deck">Deck</span></td><td class="r">+0.13</td><td class="r">+1.3</td><td class="r">+3.7</td><td class="r">+8.4</td><td class="r">+16.9</td></tr>
+        <tr><td>Step files model (07b)<span class="t t-model">Model</span></td><td class="r">-1.1</td><td class="r">-1.5</td><td class="r">-1.9</td><td class="r">-1.4</td><td class="r">+0.6</td></tr>
+        <tr class="sub"><td>Peak cash needed</td><td colspan="5" class="r" style="text-align:left;">Deck: ₹2.0 Cr. Step files: ₹5.8 Cr (base) to ₹8.9 Cr (cautious).</td></tr>
+      </tbody>
+    </table>
+    </div>
+    <p class="note">The deck's year-1 profit of +₹0.13 Cr on ₹3.5 Cr revenue means all cluster and head-office costs together are only about ₹0.8 Cr, if Keepwell keeps about 27% of revenue<span class="t t-guess">Guess</span>. That is about what four clusters alone would cost, leaving almost nothing for the founders, engineers and AI. The step files carry those costs, which is why they show a loss.</p>
+  </div>
+  <figure>
+    <div class="chart-box">
+      <svg viewBox="0 0 600 225" role="img" aria-label="Operating profit by year in crore rupees from the step files model: year 1 minus 1.1, year 2 minus 1.5, year 3 minus 1.9, year 4 minus 1.4, year 5 plus 0.6, year 6 plus 4.1, year 7 plus 8.6, year 8 plus 15.3">
+        <line class="c-axis" x1="20" y1="162" x2="590" y2="162"/>
+        <rect class="c-bar-neg" x="40" y="162" width="44" height="9.8"/>
+        <text class="c-val" x="62" y="187" text-anchor="middle">-1.1</text>
+        <rect class="c-bar-neg" x="110" y="162" width="44" height="13.3"/>
+        <text class="c-val" x="132" y="190" text-anchor="middle">-1.5</text>
+        <rect class="c-bar-neg" x="180" y="162" width="44" height="16.9"/>
+        <text class="c-val" x="202" y="193" text-anchor="middle">-1.9</text>
+        <rect class="c-bar-neg" x="250" y="162" width="44" height="12.4"/>
+        <text class="c-val" x="272" y="189" text-anchor="middle">-1.4</text>
+        <rect class="c-bar-pos" x="320" y="156.7" width="44" height="5.3"/>
+        <text class="c-val" x="342" y="150" text-anchor="middle">+0.6</text>
+        <rect class="c-bar-pos" x="390" y="125.6" width="44" height="36.4"/>
+        <text class="c-val" x="412" y="119" text-anchor="middle">+4.1</text>
+        <rect class="c-bar-pos" x="460" y="85.5" width="44" height="76.5"/>
+        <text class="c-val" x="482" y="79" text-anchor="middle">+8.6</text>
+        <rect class="c-bar-pos" x="530" y="26" width="44" height="136"/>
+        <text class="c-val" x="552" y="20" text-anchor="middle">+15.3</text>
+        <text class="c-lab" x="62" y="214" text-anchor="middle">Year 1</text>
+        <text class="c-lab" x="132" y="214" text-anchor="middle">Year 2</text>
+        <text class="c-lab" x="202" y="214" text-anchor="middle">Year 3</text>
+        <text class="c-lab" x="272" y="214" text-anchor="middle">Year 4</text>
+        <text class="c-lab" x="342" y="214" text-anchor="middle">Year 5</text>
+        <text class="c-lab" x="412" y="214" text-anchor="middle">Year 6</text>
+        <text class="c-lab" x="482" y="214" text-anchor="middle">Year 7</text>
+        <text class="c-lab" x="552" y="214" text-anchor="middle">Year 8</text>
+      </svg>
+    </div>
+    <figcaption>Operating profit (EBITDA) in ₹ crore from the step files model<span class="t t-model">Model</span>. It turns positive in year 5.</figcaption>
+  </figure>
+  <ul class="facts">
+    <li>The two files also describe two different invented pilots. The deck's pilot made ₹38 L revenue and a cluster profit of +₹1.9 L. The step files' pilot made about ₹25 L and lost about ₹12.7 L after the team cost<span class="t t-story">Story</span>.</li>
+    <li>None of this has real proof behind it yet. The pilot results in both files are generated from a model, so the first job is to run a real pilot and replace these numbers.</li>
+  </ul>
+</section>
+
+</div>

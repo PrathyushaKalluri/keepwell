@@ -23,20 +23,20 @@ Y = dict(  # ---- 5-year plan, year 1 = Apr 2027–Mar 2028 (from the close)
     tax=0.25, start_retailers=34, start_clusters=1, start_cash=0.02 * CR, pilot_rev_run=34 * 19_500 * 12,
 )
 # ---- one retailer's month, opened up (slide 6). Prices net of 18% GST; sources in steps/00_unit_economics.md and research/retail_install, supply_layers.
-JOB_MIX = [  # (job, jobs a month, ₹ per job net of GST, basis)
-    ("AC installation, authorised (fee + bracket and extra copper)", 4.0, 2_300, "₹800 fee share + ₹1,500 materials (LG: bracket ₹750, copper ₹1,050 a metre)"),
-    ("Other installation (washing machine, fridge, purifier)", 2.0, 300, "₹300 per install (Step 0 rate card)"),
-    ("Service visit, labour only (e.g. a washing-machine check)", 2.0, 300, "₹300 a visit, local market rate"),
-    ("Repair with a part (gas top-up, capacitor, PCB, motor)", 2.0, 3_300, "labour + genuine part"),
-    ("AMC (2 AC services a year)", 1.5, 1_100, "₹1,299 incl. GST"),
-    ("Keepwell Protect plan (2 years)", 0.5, 1_700, "₹2,000 incl. GST"),
+JOB_MIX = [  # (job, jobs a month, ₹ per job net of GST, why this price). Rule: market rate on every job; we win on speed, guarantee and record.
+    ("AC installation, authorised (fee + bracket and 1 m copper)", 4.0, 2_600, "Brand's own price: LG charter ₹1,199 fee (we keep ₹800) + bracket ₹750 + copper ₹1,050"),
+    ("Other installation (washing machine, fridge, purifier)", 2.0, 300, "Market rate ₹300; starts the appliance record"),
+    ("Service visit, labour only (e.g. a washing-machine check)", 2.0, 300, "Matches the local mechanic; below UC/LG basic service ₹500–900"),
+    ("Repair with a part (gas top-up, capacitor, PCB, motor)", 2.0, 2_700, "≈ ₹3,190 incl. GST; UC rate card: gas ₹3,000, PCB ₹1,500–4,500, fan motor ₹2,299"),
+    ("AMC (2 AC services a year)", 1.5, 1_100, "₹1,299 incl. GST, top of UC's ₹1,098–1,298; adds the record and reminders"),
+    ("Keepwell Protect plan (2 years)", 0.5, 1_700, "₹2,000 incl. GST for 2 years; Croma ZipCare is ₹1,139–2,499 for 1 year"),
 ]
 COMMISSION = dict(install=0.05, repair=0.08, amc=0.12, protect=0.25)   # Step 6 and Step 7b rates
-SPLIT = dict(technicians=4_900, parts=6_400, retailer_commission=1_480, other_per_job=1_650)   # pilot, per active retailer per month
-# parts: 4 AC installs × ~₹1,100 materials + 2 repairs × ~₹1,000 parts = ₹6,400; technicians ≈ ₹408 a job (Step 6: ₹330–500)
+SPLIT = dict(technicians=4_900, parts=6_400, retailer_commission=1_440, other_per_job=1_690)   # pilot, per active retailer per month
+# parts: 4 AC installs × ~₹1,200 materials at cost + 2 repairs × ~₹800 parts = ₹6,400; technicians ≈ ₹408 a job (Step 6: ₹330–500)
 LIFT = dict(protect=3_400, amc_renewals=2_200, installed_base_repairs=4_900)                   # added per retailer per month by year 5
 LIFT_NOTES = dict(protect="2 plans a month × ₹1,700 net (about 4% of the ~55 covered appliances a retailer sells; the pilot test reached 6%)",
-                  amc_renewals="2 renewals a month × ₹1,100 net", installed_base_repairs="about 1.5 more repairs a month × ₹3,300 on appliances Keepwell installed")
+                  amc_renewals="2 renewals a month × ₹1,100 net", installed_base_repairs="about 1.8 more repairs a month × ₹2,700 on appliances Keepwell installed")
 MATURE_TEAM_MONTH = 1.5 * L   # a 60-retailer cluster adds a second field executive and a parts desk (= ₹18 L a year)
 
 def job_mix():

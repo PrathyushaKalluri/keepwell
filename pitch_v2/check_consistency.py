@@ -21,7 +21,7 @@ for p in OUT[:2]:
     for m in must:
         if m not in t: print(f"MISSING '{m}' in {p.name}"); bad += 1
 STALE = [r"₹25 L", r"₹5 L contribution", r"₹4\.5k", r"130\.5", r"₹8 Cr pre", r"23\.8%", r"6\.6%", r"16\.3%", r"₹25 Cr pre", r"₹70 Cr pre", r"[Tt]ranche",
-         r"\[Story", r"\[Real", r"[Ii]llustrative case", r"small-town appliance shop", r"Round 2 \(", r"month-18 milestones", r"₹1\.34 Cr", r"₹3,170", r"181\.6", r"1,580", r"2,400 jobs", r"₹410", r"₹1,430", r"from ₹550", r"\+₹4,000", r"\+₹3,900"]
+         r"\[Story", r"\[Real", r"[Ii]llustrative case", r"small-town appliance shop", r"Round 2 \(", r"month-18 milestones", r"₹1\.34 Cr", r"₹3,170", r"181\.6", r"1,580", r"2,400 jobs", r"₹410", r"₹1,430", r"from ₹550", r"\+₹4,000", r"\+₹3,900", r"₹3,300", r"× ₹2,300", r"1,480"]
 for p in OUT:
     t = p.read_text()
     for pat in STALE:
