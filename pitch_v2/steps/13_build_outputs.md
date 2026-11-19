@@ -1,28 +1,22 @@
 # Step 13: The outputs
 
-**Phase E. Status: DONE (19 Nov 2026).** Every output is generated from one source, and `check_consistency.py` checks it against the model (0 problems).
+**Phase E. Status: DONE (19 Nov 2026), rebuilt on the simple model and the 12-slide flow.**
 
-| Output | File(s) | Built by | Notes |
-|---|---|---|---|
-| **Seed deck: 12 slides + 3 appendix** (the structure of the founders' idea document §16, ordered for investors) | `deck/Keepwell_Seed_Deck.pptx` · `.pdf` · `.html` | `deck/build_deck.py` from `deck/deck_content.py` | Speaker notes in the pptx. HTML: arrow keys or click |
-| **Story deck, full** (animated) | `story_deck/index.html` · `story_deck/SCRIPT.md` | `story_deck/build_story_deck.py` from `slides.html` + `script_data.py` (the v1 visual engine) | 18 slides + 4 backup, about 13 minutes. **F** full screen, **N** notes, **B** backup |
-| **Story deck, 10-minute** | `story_deck/index_10min.html` · `story_deck/SCRIPT_10MIN.md` | same | 14 slides, about 10½–11 minutes (4 slides folded) |
-| **Story deck, 8-minute (the pitch slot)** | `story_deck/index_8min.html` · `story_deck/SCRIPT_8MIN.md` | `story_deck/build_8min.py` from `slides_8min.html` + `script_8min.py` | 12 slides + 4 backup, about 7¾ minutes. The script gives SHOW / SAY / WHY / THEY SHOULD BELIEVE / BRIDGE for every slide |
-| **Full story** | `KEEPWELL_FULL_STORY.md` (same text as `steps/Entire story.md`) | hand-written from Steps 1–12 | The founder's story, slide by slide, then the money |
-| **Proof pack** | `proof_pack/investor_qa.md` · `voice_of_customer.md` · `data_room_index.md` · `demo_walkthrough.md` | hand-written | 15 Q&As; real household quotes; data-room map; 2-minute demo script |
-| **Financial model** | `keepwell_model.xlsx` | `model/build_model_v3.py` (+ `rounds.py`) | 680 formulas, 0 errors; 4 scenarios; Funding sheet (rounds, cap table, returns, VC method); `verify_model_v3.py` gives 0 mismatches |
-| **Claims ledger** | `claims_ledger.csv` | hand-written | 43 claims, each with value, source, basis and where it is used |
-| **Pitch bible v2** | `pitch_bible.md` | — | All steps final; Gate 3 done |
+| Output | File(s) | Built by |
+|---|---|---|
+| **Seed deck, 12 slides** | `deck/Keepwell_Seed_Deck.pptx` · `.pdf` | `deck/build_deck.py` from `deck/deck_content.py` |
+| **Story deck, 8 minutes, 12 slides** (animated) + the explained script | `story_deck/index_8min.html` · `story_deck/SCRIPT_8MIN.md` | `story_deck/build_8min.py` from `slides_8min.html` + `script_8min.py` |
+| **Financial model** | `keepwell_model.xlsx` (141 formulas, 0 errors) | `model/build_model_v4.py` from `model/simple_model.py`; `verify_model_v4.py` finds 0 mismatches |
+| **The story** | `steps/Entire story.md` (also `KEEPWELL_FULL_STORY.md`) | Written from Steps 1–12 |
+| **Proof pack** | `proof_pack/*.md` | Q&A, voice of the customer, data room, demo |
+| **Claims ledger** | `claims_ledger.csv` | Every number on every slide, with its source |
 
-**Media:** `story_deck/media/` holds redacted real household evidence. It is git-ignored, so copy the folder to the presenting laptop.
+**Retired:** the earlier 18-slide and 10-minute story decks and the earlier deck builder are in `archive_v3/`.
 
-**Archive (Gate 3):** the v1 agency/Circuit pitch is now in `pitch/archive/v1_agency/` (README inside).
-
-## How the story hangs together (one line per link)
-
-1. **Problem → solution:** the shop's promise ends at the counter → Keepwell is the shop's after-sale arm.
-2. **Solution → proof:** the pilot shows that shops route jobs (58%) and that families buy Protect (6%).
-3. **Proof → economics:** pilot inputs drive the model. Clusters earn 16% on service; Protect, the commission shift, central parts buying and partners fix Step 7's thin margins (Step 7b).
-4. **Economics → ask:** the course method gives ₹1.34 Cr of one-year need from the close, plus six months to raise Round 2, plus contingency: ₹2.5 Cr at ₹8 Cr pre-money, in a single close.
-5. **Ask → checkpoint → milestones → next round:** the board reviews the month-9 checkpoint; the month-18 milestones, set on the stress path, earn Round 2 (₹5 Cr at ₹25 Cr pre).
-6. **Rounds → vision:** Serve → Supply → Know → Circulate, a year-7–8 exit, and the close line: *"Keepwell keeps the promise the retailer made when it sold the appliance."*
+**The story in six links:**
+1. Retailers lose the customer after the sale.
+2. Keepwell is their after-sale arm for the appliance's whole life.
+3. The pilot cluster paid for itself from 20 retailers.
+4. Each retailer adds ₹5,000 a month.
+5. The company is profitable from year 1.
+6. ₹2.5 Cr opens 8 clusters and is the only round needed.

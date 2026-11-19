@@ -1,0 +1,640 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Keepwell · Seed Story (v2)</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Gelasio:ital,wght@0,500;0,600;0,700;1,500;1,600&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+:root{
+  --ink:#0E2340;--ink2:#26375A;--teal:#0F8C7A;--teal2:#16B39C;--tealbg:#E3F3EF;--amber:#E08A1E;--amberbg:#FCEFD9;
+  --red:#C2412D;--redbg:#F8E3DE;--cream:#FAF7F1;--paper:#FFFFFF;--grey:#8A93A6;--grey2:#5B667C;--line:#E6DFD2;
+  --serif:'Gelasio',Georgia,'Times New Roman',serif;--sans:'Inter',system-ui,-apple-system,'Segoe UI',sans-serif;
+  --ease:cubic-bezier(.22,1,.36,1)
+}
+*{box-sizing:border-box}
+html,body{margin:0;height:100%;background:#0A1322;overflow:hidden;font-family:var(--sans);-webkit-font-smoothing:antialiased}
+#stage{position:absolute;width:1920px;height:1080px;left:50%;top:50%;transform-origin:center center;overflow:hidden;background:var(--cream)}
+.slide{position:absolute;inset:0;padding:138px 110px 110px;opacity:0;visibility:hidden;transition:opacity .55s ease,visibility 0s .55s;color:var(--ink);background:var(--cream);overflow:hidden}
+.slide.on{opacity:1;visibility:visible;transition:opacity .55s ease}
+.slide.dark{background:radial-gradient(1200px 700px at 78% 18%,#1B3A66 0%,rgba(27,58,102,0) 60%),var(--ink);color:#fff}
+.slide.dark .eyebrow{color:var(--amber)} .slide.dark .lede{color:#C9D3E6}
+/* chrome */
+#hud{position:absolute;inset:0;pointer-events:none;z-index:40}
+.gnav{position:absolute;left:0;right:0;top:0;height:74px;display:flex;align-items:center;gap:26px;padding:0 56px;pointer-events:auto;transition:color .4s}
+.brand{display:flex;align-items:center;gap:12px;font:700 22px var(--serif);color:var(--ink);letter-spacing:.01em}
+.brand svg{width:30px;height:30px}
+.tabs{display:flex;gap:4px;margin-left:auto}
+.tabs span{font:600 13px var(--sans);letter-spacing:.06em;text-transform:uppercase;color:#9AA3B5;padding:8px 11px;border-radius:999px;cursor:pointer;transition:all .3s}
+.tabs span.cur{color:#fff;background:var(--ink)}
+#hud.ondark .brand{color:#fff} #hud.ondark .tabs span{color:#7F8DA8} #hud.ondark .tabs span.cur{background:var(--amber);color:#1b1206}
+.progress{position:absolute;left:0;right:0;top:0;height:4px;background:transparent}
+.progress i{display:block;height:100%;width:0;background:linear-gradient(90deg,var(--teal),var(--amber));transition:width .8s var(--ease)}
+.foot{position:absolute;left:110px;right:260px;bottom:30px;display:flex;justify-content:space-between;align-items:flex-end;font:500 14px var(--sans);color:var(--grey);pointer-events:none}
+.foot .src{max-width:1300px;line-height:1.4}
+.ctrl{position:absolute;right:40px;bottom:22px;display:flex;gap:8px;pointer-events:auto;opacity:.0;transition:opacity .3s}
+#stage:hover .ctrl{opacity:.9}
+.ctrl button{width:42px;height:42px;border-radius:50%;border:1px solid #C9C1B2;background:#fff;font:600 18px var(--sans);color:var(--ink);cursor:pointer}
+.pg{font:600 14px var(--sans);color:var(--grey);position:absolute;right:150px;bottom:33px}
+#hud.ondark .foot,#hud.ondark .pg{color:#7F8DA8}
+/* thread motif */
+.thread{position:absolute;left:0;bottom:70px;width:1920px;height:40px;pointer-events:none}
+.thread path{fill:none;stroke-width:3}
+.thread.broken path{stroke:var(--red);stroke-dasharray:18 14;opacity:.55}
+.thread.whole path{stroke:var(--teal);stroke-dasharray:2400;stroke-dashoffset:2400;transition:stroke-dashoffset 2.2s var(--ease) .3s;opacity:.7}
+.slide.on .thread.whole path{stroke-dashoffset:0}
+/* type */
+.eyebrow{font:700 16px var(--sans);letter-spacing:.2em;text-transform:uppercase;color:var(--amber)}
+h1.t{font:600 60px/1.08 var(--serif);margin:12px 0 16px;letter-spacing:-.012em;max-width:1500px}
+h1.t em{font-style:italic;color:var(--teal)} .slide.dark h1.t em{color:var(--teal2)}
+h1.t .r{color:var(--red)}
+.lede{font:400 25px/1.45 var(--sans);color:var(--grey2);max-width:1250px;margin:0}
+.serif{font-family:var(--serif)}
+.big{font:700 96px/1 var(--serif)}
+.tag{display:inline-block;font:700 12px var(--sans);letter-spacing:.12em;text-transform:uppercase;padding:6px 10px;border-radius:6px}
+.tag.real{background:var(--tealbg);color:var(--teal)} .tag.story{background:var(--amberbg);color:#9A5A08} .tag.red{background:var(--redbg);color:var(--red)}
+.card{background:var(--paper);border:1px solid var(--line);border-radius:18px;padding:26px 28px;box-shadow:0 10px 30px -18px rgba(14,35,64,.25)}
+.slide.dark .card{background:rgba(255,255,255,.06);border-color:rgba(255,255,255,.14);box-shadow:none}
+.chip{display:inline-flex;align-items:center;gap:8px;font:600 17px var(--sans);padding:10px 16px;border-radius:999px;background:#fff;border:1px solid var(--line);color:var(--ink)}
+.chip.t{background:var(--tealbg);border-color:#BFE3DA;color:#0B6B5D}
+.chip.a{background:var(--amberbg);border-color:#F2D3A2;color:#8A5208}
+.chip.r{background:var(--redbg);border-color:#EFC2B8;color:#9C321F}
+.row{display:flex;gap:28px} .col{display:flex;flex-direction:column;gap:18px}
+.grid{display:grid;gap:22px}
+.mt{margin-top:28px}
+/* animation */
+.a{opacity:0}
+.slide.on .a{animation:rise .8s var(--ease) both;animation-delay:calc(var(--i,0)*110ms + 120ms)}
+@keyframes rise{from{opacity:0;transform:translateY(26px)}to{opacity:1;transform:none}}
+@keyframes fadein{from{opacity:0}to{opacity:1}}
+@keyframes pop{0%{opacity:0;transform:scale(.5)}70%{transform:scale(1.08)}100%{opacity:1;transform:scale(1)}}
+@keyframes pulse{0%,100%{box-shadow:0 0 0 0 rgba(15,140,122,.5)}50%{box-shadow:0 0 0 22px rgba(15,140,122,0)}}
+@keyframes ring{0%,100%{transform:rotate(0)}20%{transform:rotate(-14deg)}40%{transform:rotate(12deg)}60%{transform:rotate(-8deg)}80%{transform:rotate(6deg)}}
+@keyframes spin{to{transform:rotate(360deg)}}
+@keyframes travel{from{offset-distance:0%}to{offset-distance:100%}}
+.st{opacity:0;transform:translateY(16px);transition:opacity .55s ease,transform .7s var(--ease);pointer-events:none}
+.st.show{opacity:1;transform:none;pointer-events:auto}
+.st.fade{transform:none}
+.hbar{height:100%;width:0;border-radius:0 8px 8px 0;transition:width 1.3s var(--ease)}
+.vbar{width:100%;height:0;transition:height 1.2s var(--ease)}
+svg .draw{stroke-dasharray:1;stroke-dashoffset:1;transition:stroke-dashoffset 2s cubic-bezier(.65,0,.35,1)}
+svg .draw.go{stroke-dashoffset:0}
+.still .a,.still .st{opacity:1!important;animation:none!important;transform:none!important}
+.still .hbar,.still .vbar,.still svg .draw,.still .wf,.still .xout::after{transition:none!important}.still .recl,.still .tl .m,.still .cdot,.still .tl .line i{animation:none!important;opacity:1!important;transition:none!important}.still .msg,.still .jc{transition:none!important}
+/* notes */
+#notes{position:fixed;left:0;right:0;bottom:0;max-height:46vh;overflow:auto;background:rgba(10,19,34,.96);color:#E7ECF5;padding:18px 28px 22px;font:400 17px/1.55 var(--sans);transform:translateY(100%);transition:transform .35s var(--ease);z-index:90;border-top:3px solid var(--amber)}
+#notes.open{transform:none}
+#notes .nh{display:flex;gap:18px;align-items:center;font:700 13px var(--sans);letter-spacing:.12em;text-transform:uppercase;color:var(--amber);margin-bottom:8px}
+#notes .nh b{color:#fff;letter-spacing:.02em;text-transform:none;font-size:16px}
+#notes .say{white-space:pre-wrap;font-size:19px;color:#fff}
+#notes .why{margin-top:10px;color:#9FB0CC;font-size:15px}
+#notes .timer{margin-left:auto;font:700 16px var(--sans);color:#fff}
+/* lightbox */
+#lb{position:fixed;inset:0;background:rgba(6,12,22,.94);display:none;align-items:center;justify-content:center;z-index:95;flex-direction:column;gap:14px}
+#lb.open{display:flex}
+#lb .lbrow{display:flex;align-items:center;gap:28px}
+#lb img,#lb video{max-width:78vw;max-height:78vh;border-radius:12px;box-shadow:0 30px 80px rgba(0,0,0,.5);background:#000}
+#lb .lbn{width:64px;height:64px;border-radius:50%;border:1px solid rgba(255,255,255,.25);background:rgba(255,255,255,.08);color:#fff;font:400 34px/1 var(--sans);cursor:pointer;flex:none;transition:background .2s}
+#lb .lbn:hover{background:rgba(255,255,255,.2)}
+#lb .lbx{position:absolute;top:22px;right:28px;width:48px;height:48px;font-size:26px}
+#lb p{color:#E7ECF5;font:500 18px/1.45 var(--sans);max-width:900px;text-align:center;margin:0}
+#lb .lbc{color:#7F8DA8;font:600 14px var(--sans);letter-spacing:.1em}
+.help{position:fixed;left:16px;bottom:12px;color:#55637E;font:500 12px var(--sans);z-index:5;transition:opacity 1s;animation:fadeout 1s 8s forwards}@keyframes fadeout{to{opacity:0}}
+
+/* ---------- slide specific ---------- */
+/* hook */
+.home{position:absolute;left:110px;top:300px;width:1080px;height:640px}
+.home .roof{position:absolute;inset:0}
+.mach{position:absolute;width:150px;height:150px;border-radius:24px;background:#fff;border:2px solid var(--line);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:8px;cursor:pointer;transition:all .35s var(--ease);font:600 15px var(--sans);color:var(--grey2);user-select:none}
+.mach svg{width:66px;height:66px;stroke:var(--ink);stroke-width:2.2;fill:none;stroke-linecap:round;stroke-linejoin:round}
+.mach:hover{transform:translateY(-4px)}
+.mach.hit{border-color:var(--red);background:#FFF6F3;box-shadow:0 14px 30px -14px rgba(194,65,45,.55)}
+.mach.hit svg{stroke:var(--red)}
+.mach .q{position:absolute;top:-16px;right:-18px;background:var(--ink);color:#fff;font:700 13px var(--sans);padding:7px 10px;border-radius:10px;opacity:0;transform:scale(.6);transition:all .4s var(--ease);white-space:nowrap}
+.qs .mach .q{opacity:1;transform:none}
+.hookcount{position:absolute;right:110px;top:330px;width:520px}
+.hookcount .n{font:700 170px/1 var(--serif);color:var(--red)}
+.punch{font:600 64px/1.1 var(--serif)}
+/* phone */
+.phone{width:330px;height:640px;border-radius:52px;background:#111;padding:14px;box-shadow:0 40px 80px -30px rgba(0,0,0,.55)}
+.phone .scr{width:100%;height:100%;border-radius:40px;overflow:hidden;background:#0B141A;position:relative;display:flex;flex-direction:column}
+.wa-h{height:70px;background:#1F2C34;display:flex;align-items:center;gap:12px;padding:0 16px;color:#E9EDEF;font:600 17px var(--sans)}
+.wa-h i{width:38px;height:38px;border-radius:50%;background:var(--teal);display:grid;place-items:center;font-style:normal;color:#fff;font-weight:800}
+.wa-h small{display:block;font:400 12px var(--sans);color:#8696A0}
+.wa-b{flex:1;padding:14px 12px;display:flex;flex-direction:column;gap:9px;background:#0B141A;overflow:hidden}
+.msg{max-width:84%;padding:9px 12px 7px;border-radius:12px;font:400 15px/1.35 var(--sans);color:#E9EDEF;opacity:0;transform:translateY(10px);transition:all .45s var(--ease)}
+.msg.me{align-self:flex-end;background:#005C4B;border-top-right-radius:3px}
+.msg.them{align-self:flex-start;background:#202C33;border-top-left-radius:3px}
+.msg.show{opacity:1;transform:none}
+.msg small{display:block;text-align:right;font-size:11px;color:#8696A0;margin-top:3px}
+.msg .lang{display:inline-block;font:700 10px var(--sans);background:#0F8C7A;color:#fff;border-radius:4px;padding:1px 5px;margin-right:6px}
+.vn{display:flex;align-items:center;gap:8px}
+.vn b{width:30px;height:30px;border-radius:50%;background:#25D366;display:grid;place-items:center;color:#0b141a;font-size:12px}
+.vn span{flex:1;height:22px;background:repeating-linear-gradient(90deg,#8FD9C2 0 3px,transparent 3px 6px);mask:linear-gradient(90deg,#000,#000);opacity:.9;border-radius:3px}
+/* charts generic */
+.axis{stroke:#CFC7B8;stroke-width:1.5}
+.gl{stroke:#E8E1D4;stroke-width:1}
+.lbl{font:600 16px var(--sans);fill:var(--grey2)}
+.vlbl{font:700 22px var(--sans);fill:var(--ink)}
+/* funnel */
+.fn polygon{transition:opacity .6s,transform .8s var(--ease)}
+/* timeline */
+.tl{position:relative;height:520px;margin-top:40px}
+.tl .line{position:absolute;left:0;right:0;top:250px;height:4px;background:var(--line)}
+.tl .line i{display:block;height:100%;width:0;background:linear-gradient(90deg,var(--teal),var(--amber));transition:width 2.6s var(--ease) .2s}
+.slide.on .tl .line i{width:100%}
+.tl .m{position:absolute;width:200px;margin-left:-100px;text-align:center;opacity:0}
+.slide.on .tl .m{animation:pop .5s var(--ease) both;animation-delay:calc(var(--k)*230ms + 400ms)}
+.tl .m .d{width:20px;height:20px;border-radius:50%;background:#fff;border:4px solid var(--teal);margin:0 auto}
+.tl .m.up{bottom:258px} .tl .m.dn{top:242px}
+.tl .m.up .d{margin-top:14px} .tl .m.key.up{bottom:254px}
+.tl .m b{display:block;font:700 15px var(--sans);color:var(--amber);letter-spacing:.06em;text-transform:uppercase}
+.tl .m span{display:block;font:600 18px/1.3 var(--sans);color:var(--ink);margin:6px 0}
+.tl .m.key .d{background:var(--amber);border-color:var(--amber);width:28px;height:28px}
+/* flywheel */
+.fly{animation:spin 40s linear infinite;transform-origin:280px 280px}
+/* misc */
+.xout{position:relative;color:var(--grey)} .xout::after{content:"";position:absolute;left:-4px;right:-4px;top:52%;height:2px;background:var(--grey);transform:scaleX(0);transform-origin:left;transition:transform .6s var(--ease) .8s}
+.slide.on .xout::after{transform:scaleX(1)}
+.stamp{display:inline-block;white-space:nowrap;border:4px solid var(--teal);color:var(--teal);font:800 21px var(--sans);letter-spacing:.06em;text-transform:uppercase;padding:10px 20px;border-radius:12px;transform:rotate(-4deg)}
+.tabbar{display:flex;gap:10px;margin-bottom:18px}
+.tabbar button{font:600 16px var(--sans);padding:11px 18px;border-radius:999px;border:1px solid var(--line);background:#fff;color:var(--ink);cursor:pointer}
+.tabbar button.cur{background:var(--ink);color:#fff;border-color:var(--ink)}
+.pane{display:none} .pane.cur{display:flex}
+.proof{position:relative;border-radius:16px;overflow:hidden;background:#fff;border:1px solid var(--line);cursor:zoom-in;box-shadow:0 18px 40px -24px rgba(14,35,64,.45);transition:transform .35s var(--ease)}
+.proof:hover{transform:translateY(-6px) rotate(-.4deg)}
+.proof img{display:block;width:100%;height:100%;object-fit:cover}
+.proof figcaption{position:absolute;left:0;right:0;bottom:0;padding:14px 16px;background:linear-gradient(transparent,rgba(10,19,34,.88));color:#fff;font:600 16px/1.3 var(--sans)}
+.ok{color:var(--teal2)}
+.proofv{position:relative;border-radius:16px;overflow:hidden;background:#000;border:1px solid var(--line);box-shadow:0 18px 40px -24px rgba(14,35,64,.45)}
+.proofv video{display:block;width:100%;height:100%;object-fit:cover;object-position:top}
+.proofv figcaption{position:absolute;left:0;right:0;bottom:0;padding:12px 14px;background:linear-gradient(transparent,rgba(10,19,34,.9));color:#fff;font:600 15px/1.3 var(--sans)}
+@keyframes pagescroll{0%,7%{transform:translateY(0)}90%,100%{transform:translateY(calc(-100% + 620px))}}
+.still .pane img{animation:none!important}
+@keyframes pagescroll2{0%,7%{transform:translateY(0)}90%,100%{transform:translateY(calc(-100% + 586px))}}
+.bframe{border:1px solid var(--line);border-radius:16px;overflow:hidden;background:#fff;box-shadow:0 18px 40px -24px rgba(14,35,64,.4)}
+.bframe[role=link]{cursor:pointer;transition:transform .3s var(--ease),box-shadow .3s}
+.bframe[role=link]:hover{transform:translateY(-4px);box-shadow:0 26px 50px -24px rgba(14,35,64,.55)}
+.bframe .opn{font:700 12px var(--sans);font-style:normal;color:var(--teal);background:#fff;border:1px solid #BFE3DA;border-radius:6px;padding:4px 9px;margin-left:6px;white-space:nowrap}
+.bbar{height:40px;background:#F1ECE2;display:flex;align-items:center;gap:7px;padding:0 14px;border-bottom:1px solid var(--line)}
+.bbar i{width:11px;height:11px;border-radius:50%;background:#D9CFBC}
+.bbar span{flex:1;margin-left:8px;background:#fff;border-radius:8px;font:500 14px var(--sans);color:var(--grey2);padding:6px 12px}
+.bwin{overflow:hidden;position:relative}
+.still .bwin img{animation:none!important}
+.slide:not(.on) .bwin img{animation:none!important}
+#cstage .tl{height:310px;margin-top:8px}#cstage .tl .line{top:158px}#cstage .tl .m.up{bottom:160px}#cstage .tl .m.dn{top:150px}#cstage .tl .m{width:172px;margin-left:-86px}#cstage .tl .m span{font-size:15px}#cstage .tl .m b{font-size:12px}
+
+/* ---- polish pass: calmer type, balanced wraps, more air ---- */
+h1.t{text-wrap:balance;line-height:1.1;margin-bottom:22px}
+.lede,.card,.card div,.card span,.pain,.said,.built,.crow,figcaption,.ease,li{text-wrap:pretty}
+.big,.vlbl{font-variant-numeric:lining-nums tabular-nums}
+.card{border-radius:20px}
+.eyebrow{margin-bottom:2px}
+</style>
+</head>
+<body>
+<div id="stage">
+
+<!-- Keepwell v2 story deck slides. Assembled into deck_template.html by build_story_deck.py (engine reused from pitch v1). -->
+<style>
+.ofr{display:grid;grid-template-columns:repeat(4,1fr);gap:22px;margin-top:36px}.ofr .card b{display:block;font:700 28px/1.2 var(--serif)}.ofr .card span{display:block;margin-top:10px;font:500 19px/1.4 var(--sans);color:var(--grey2)}
+.slide.dark .ofr .card span{color:#C9D3E6}.ofr .card.hi{border:2px solid var(--amber)}
+.ph{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-top:34px}.ph div{padding:22px 26px;background:var(--ink2);color:#fff;clip-path:polygon(0 0,93% 0,100% 50%,93% 100%,0 100%,6% 50%);font:700 22px var(--sans)}.ph div:first-child{background:var(--teal)}.ph span{display:block;font:500 16px var(--sans);color:#C9D3E6;margin-top:4px}
+.steps6{display:grid;grid-template-columns:repeat(6,1fr);gap:16px;margin-top:30px}.steps6 .card{min-height:330px;padding:22px}.steps6 i{display:grid;place-items:center;width:46px;height:46px;border-radius:50%;background:var(--ink);color:#fff;font:700 20px var(--sans);font-style:normal}.steps6 b{display:block;font:700 25px var(--sans);margin:16px 0 8px}.steps6 span{font:500 18px/1.4 var(--sans);color:var(--grey2)}.steps6 .card.last{border:2px solid var(--teal);background:var(--tealbg)}
+.kp4{display:grid;grid-template-columns:repeat(4,1fr);gap:22px;margin-top:40px}.kp4 .card .big{font-size:84px;color:var(--red)}.kp4 .card div:last-child{font:500 20px/1.35 var(--sans);color:var(--grey2);margin-top:10px}
+.kp5{display:grid;grid-template-columns:repeat(5,1fr);gap:18px;margin-top:30px}.kp5 .card .big{font-size:66px}.kp5 .card div:last-child{font:500 18px/1.35 var(--sans);color:var(--grey2);margin-top:8px}
+.hm{display:grid;grid-template-columns:1fr 1fr;gap:28px;margin-top:30px}.hm ul{margin:12px 0 0;padding-left:26px;font:500 23px/1.6 var(--sans)}.hm h3{font:700 16px var(--sans);letter-spacing:.14em;text-transform:uppercase;margin:0}
+.uc{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;margin-top:30px}.uc .card{padding:0;overflow:hidden}.uc h3{margin:0;background:var(--ink);color:#fff;font:700 22px var(--sans);padding:16px 22px}.uc table{width:100%;border-collapse:collapse;font:500 20px var(--sans)}.uc td{padding:11px 22px;border-bottom:1px solid var(--line)}.uc td:last-child{text-align:right;font-weight:700;color:var(--ink)}.uc tr.k td{background:var(--tealbg);color:#0B6B5D;font-weight:800}
+.fun .row{display:grid;grid-template-columns:200px 1fr;align-items:center;margin:20px 0}.fun b{font:700 26px var(--sans)}.fun .bar{height:76px;border-radius:12px;display:flex;align-items:center;padding:0 22px;color:#fff;font:700 30px var(--serif);white-space:nowrap}.fun small{display:block;font:500 18px var(--sans);color:var(--grey2);margin-top:6px}
+.ctab{width:100%;border-collapse:collapse;font:500 20px var(--sans);margin-top:22px}.ctab th{text-align:left;font:700 14px var(--sans);letter-spacing:.1em;text-transform:uppercase;color:var(--grey);border-bottom:2px solid var(--line);padding:10px 14px}.ctab td{border-bottom:1px solid var(--line);padding:12px 14px}.ctab tr.us td{background:var(--tealbg);font-weight:700;color:#0B6B5D}
+.founder{display:flex;flex-direction:column;gap:12px}.founder .av{width:96px;height:96px;border-radius:50%;background:var(--ink);color:#fff;display:grid;place-items:center;font:700 34px var(--serif)}.founder b{font:700 30px var(--serif)}.founder em{font:700 18px var(--sans);font-style:normal;color:var(--teal);letter-spacing:.08em;text-transform:uppercase}.founder .net{font:700 46px var(--serif);color:var(--amber)}.founder span{font:500 19px/1.45 var(--sans);color:var(--grey2)}
+.rd{display:grid;grid-template-columns:repeat(4,1fr);gap:18px;margin-top:22px}.rd .card b{display:block;font:700 40px var(--serif)}.rd .card em{font:700 15px var(--sans);font-style:normal;letter-spacing:.1em;text-transform:uppercase;color:var(--teal)}.rd .card span{display:block;font:500 18px/1.4 var(--sans);color:var(--grey2);margin-top:6px}.rd .card.now{background:var(--ink);color:#fff}.rd .card.now em{color:var(--amber)}.rd .card.now span{color:#C9D3E6}
+.rev{display:flex;align-items:flex-end;gap:26px;height:330px;margin-top:20px;border-bottom:2px solid var(--line)}.rev .c{flex:1;display:flex;flex-direction:column;justify-content:flex-end;align-items:center;height:100%}.rev .vbar{background:var(--ink2);border-radius:10px 10px 0 0;width:72%}.rev .c:nth-child(-n+2) .vbar{background:var(--teal)}.rev .v{font:700 22px var(--sans)}.rev .e{font:700 17px var(--sans);color:var(--teal)}.rev .e.n{color:var(--red)}.rev .y{font:600 16px var(--sans);color:var(--grey)}
+.beat{font:500 27px/1.35 var(--sans);color:#E7ECF5;display:flex;gap:18px;align-items:center;margin:14px 0}.beat i{width:42px;height:42px;border-radius:50%;background:var(--teal);display:grid;place-items:center;font-style:normal;font-weight:800;flex:none}
+.bt{width:100%;border-collapse:collapse;margin-top:30px;font:500 22px/1.4 var(--sans)}.bt th{text-align:left;font:700 15px var(--sans);letter-spacing:.1em;text-transform:uppercase;color:var(--grey);border-bottom:2px solid var(--line);padding:12px}.bt td{border-bottom:1px solid var(--line);padding:14px 12px}
+.wk{display:grid;grid-template-columns:repeat(4,1fr);gap:20px;margin-top:40px}.wk .card b{display:block;font:700 15px var(--sans);letter-spacing:.14em;text-transform:uppercase;color:var(--amber)}.wk .card span{display:block;font:500 23px/1.4 var(--sans);margin-top:10px}.wk .card.red{border:2px solid var(--red);background:#FFF6F3}
+</style>
+
+<section class="slide" data-id="thursday" data-thread="broken" data-steps="1">
+  <div class="eyebrow a">A retailer's week · Guntur</div>
+  <h1 class="t a" style="--i:1">He sells an AC on Monday. By Thursday, the customer is angry at <em>him</em>.</h1>
+  <div class="wk">
+    <div class="card a" style="--i:2"><b>Monday</b><span>Ravi sells a ₹38,000 AC to a family he has known for ten years.</span></div>
+    <div class="card a" style="--i:3"><b>Tuesday–Wednesday</b><span>The brand's installer "will come in 2–5 days". The family calls Ravi. Twice.</span></div>
+    <div class="card red a" style="--i:4"><b>Thursday</b><span>The family is at his counter — not the brand's. In 40 °C heat.</span></div>
+    <div class="card a" style="--i:5"><b>Two years later</b><span>Out of warranty. A mechanic guesses, charges what he likes, keeps no record.</span></div>
+  </div>
+  <div class="st mt" data-s="1" style="margin-top:46px"><span class="punch">Ravi earns nothing after the sale — <span style="color:var(--red)">but he carries all the blame.</span></span></div>
+</section>
+
+<section class="slide" data-id="evidence" data-thread="broken" data-steps="0">
+  <div class="eyebrow a">What we saw in homes · discovery, Hyderabad and Visakhapatnam</div>
+  <h1 class="t a" style="--i:1">Families are already building the appliance's memory — on stickers, in diaries, in marker pen.</h1>
+  <div class="row" style="margin-top:26px;height:600px">
+    <figure class="proofv a" style="--i:2;flex:1.15;margin:0"><video src="media/brandbot.mp4" autoplay muted loop playsinline></video><figcaption>A brand's WhatsApp bot: "API related issue"… her last message: "My request was not done."</figcaption></figure>
+    <figure class="proof a" style="--i:3;flex:1;margin:0"><img src="media/ro_sticker.jpg" alt=""><figcaption>A local agency's sticker on the purifier; next service date in marker</figcaption></figure>
+    <div class="col" style="flex:1">
+      <figure class="proof a" style="--i:4;flex:1;margin:0"><img src="media/diary_page.jpg" alt=""><figcaption>A family's handwritten repair diary</figcaption></figure>
+      <figure class="proof a" style="--i:5;flex:1;margin:0"><img src="media/gas_cylinder.jpg" alt=""><figcaption>Refill date written on the cylinder</figcaption></figure>
+    </div>
+  </div>
+</section>
+
+<section class="slide" data-id="problem" data-thread="broken" data-steps="0">
+  <div class="eyebrow a">The problem</div>
+  <h1 class="t a" style="--i:1">The retailer's promise ends at the counter. <span class="r">Nobody keeps it after that.</span></h1>
+  <div class="kp4">
+    <div class="card a" style="--i:2"><div class="big">2–5 days</div><div>for a brand install (Flipkart; LG quotes 24–72 h) — while the retailer takes the calls</div></div>
+    <div class="card a" style="--i:3"><div class="big">80–91%</div><div>of the installed base is out of warranty — on its own with a mechanic</div></div>
+    <div class="card a" style="--i:4"><div class="big">44%</div><div>of AC service goes to local mechanics: no guarantee, no GST, no record</div></div>
+    <div class="card a" style="--i:5"><div class="big">7 of 12</div><div>households we surveyed keep no service record at all</div></div>
+  </div>
+  <p class="lede a" style="--i:6;margin-top:40px">And the retailer? <b>2–3% net margin</b>, nothing earned after the sale — yet consumer commissions have held sellers <b>jointly liable</b> (Chennai ₹35k, Hyderabad ₹60k).</p>
+</section>
+
+<section class="slide" data-id="team" data-thread="whole" data-steps="0">
+  <div class="eyebrow a">Why us</div>
+  <h1 class="t a" style="--i:1">Between us, we already know this market by name.</h1>
+  <div class="row" style="margin-top:34px">
+    <div class="card founder a" style="--i:2;flex:1"><div class="av">PK</div><b>Prathyusha Kalluri</b><em>CEO · retailers & brands</em><div class="net">600+ dealers</div><span>Ten years in consumer-durables distribution; regional head (AP/TS) at the region's largest multi-brand distributor. Based in Vijayawada.</span></div>
+    <div class="card founder a" style="--i:3;flex:1"><div class="av">KM</div><b>Kavyanth Munagala</b><em>COO · technicians & partners</em><div class="net">200+ service centres</div><span>Zonal service head at a multi-category appliance brand; earlier an RO brand's service network. Knows how authorisation is granted.</span></div>
+    <div class="card founder a" style="--i:4;flex:1"><div class="av">SC</div><b>Sri Charan Peri</b><em>CTO · AI desk & Protect</em><div class="net">claims platforms</div><span>Voice-AI engineer, then engineering lead at a device-protection & claims platform: claims verification and a partner field app.</span></div>
+  </div>
+  <p class="lede a" style="--i:5;margin-top:26px;font-size:20px">Advisors: ex-national service head of an appliance brand · AP dealers' association president · home-services operator (20+ cities) · e-waste partnerships head.</p>
+</section>
+
+<section class="slide dark" data-id="keepwell" data-thread="whole" data-steps="1">
+  <div class="eyebrow a">Keepwell</div>
+  <h1 class="t a" style="--i:1">The retailer sells the promise. <em>Keepwell keeps it.</em></h1>
+  <p class="lede a" style="--i:2">The after-sale service arm of every local appliance retailer — under the retailer's name, delivered by certified local technicians.</p>
+  <div class="ofr">
+    <div class="card a" style="--i:3"><b>Authorised install</b><span>within 24 hours, under brand sub-contracts — no voided warranty</span></div>
+    <div class="card a" style="--i:4"><b>Guaranteed repair & AMC</b><span>fixed rate card, 90-day guarantee, AC · fridge · washer · purifier</span></div>
+    <div class="card hi a" style="--i:5"><b>Keepwell Protect</b><span>a 2-year repair plan the retailer sells on its own bill (~₹2,000)</span></div>
+    <div class="card a" style="--i:6"><b>The appliance record</b><span>every visit, part and plan — consented, on WhatsApp</span></div>
+  </div>
+  <div class="st" data-s="1" style="margin-top:40px;padding:28px 34px;border-left:6px solid var(--amber);background:rgba(255,255,255,.06);border-radius:0 18px 18px 0"><div style="font:700 15px var(--sans);letter-spacing:.16em;text-transform:uppercase;color:var(--amber);margin-bottom:10px">Our vision</div><div style="font:600 36px/1.3 var(--serif);color:#fff">Keepwell looks after every appliance a local retailer sells for its whole life: installed right, repaired with genuine parts, kept covered, and refurbished or recycled when its time is up.</div></div>
+</section>
+
+<section class="slide" data-id="lifecycle" data-thread="whole" data-steps="2">
+  <style>
+  .lc{position:absolute;left:110px;top:262px;width:1700px;height:720px}
+  .lc .bx{position:absolute;width:300px;height:158px;background:#fff;border:1px solid var(--line);border-radius:16px;padding:14px 16px;box-shadow:0 10px 26px -18px rgba(14,35,64,.35)}
+  .lc .bx b{display:flex;align-items:center;gap:10px;font:800 19px var(--sans);color:var(--ink)}
+  .lc .bx b i{width:30px;height:30px;border-radius:50%;background:var(--ink);color:#fff;font:700 14px var(--sans);font-style:normal;display:grid;place-items:center;flex:none}
+  .lc .bx span{display:block;font:500 14.5px/1.38 var(--sans);color:var(--grey2);margin-top:7px}
+  .lc .bx em{position:absolute;right:12px;top:12px;font:800 10px var(--sans);font-style:normal;letter-spacing:.12em;text-transform:uppercase;padding:3px 7px;border-radius:5px}
+  .lc .serve em{background:var(--tealbg);color:#0B6B5D}.lc .supply em{background:var(--amberbg);color:#8A5208}.lc .circ em{background:#E8ECF4;color:#26375A}
+  .lc .serve{border-top:4px solid var(--teal)}.lc .supply{border-top:4px solid var(--amber)}.lc .circ{border-top:4px solid var(--ink2)}
+  .lc .dec{position:absolute;left:1392px;top:184px;width:236px;padding:8px 10px;text-align:center;background:var(--ink);color:#fff;border-radius:999px;font:700 15px var(--sans)}
+  .lc .spine{position:absolute;left:0;right:0;top:648px;height:58px;border-radius:14px;background:linear-gradient(90deg,var(--teal),var(--ink2));color:#fff;display:flex;align-items:center;gap:14px;padding:0 22px;font:600 17px var(--sans)}
+  .lc .spine b{font:800 13px var(--sans);letter-spacing:.14em;text-transform:uppercase;background:rgba(255,255,255,.18);padding:5px 9px;border-radius:6px}
+  .lc .legend{position:absolute;left:0;top:478px;width:620px;font:500 15px/1.5 var(--sans);color:var(--grey2)}
+  .lc .legend .k{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:10px}
+  .lc .legend .k span{font:800 11px var(--sans);letter-spacing:.12em;text-transform:uppercase;padding:4px 8px;border-radius:6px}
+  .lc svg{position:absolute;inset:0;width:1700px;height:720px;overflow:visible}
+  .lc svg path{fill:none;stroke:#9AA3B5;stroke-width:2.4;marker-end:url(#ah)}
+  .lc svg path.g{stroke:var(--teal)} .lc svg path.r{stroke:var(--red)} .lc svg text{font:700 14px var(--sans);fill:var(--grey2)}
+  </style>
+  <div class="eyebrow a">The product · one appliance's whole life, and what Keepwell does at each step</div>
+  <h1 class="t a" style="--i:1;font-size:52px">From the retailer's bill to <em>a second life.</em></h1>
+  <div class="lc">
+    <svg viewBox="0 0 1700 720"><defs><marker id="ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#9AA3B5" stroke="none"/></marker></defs>
+      <g class="a" style="--i:3"><path d="M300 79 H340"/><path d="M640 79 H680"/><path d="M980 79 H1020"/><path d="M1320 79 H1360"/></g>
+      <g class="st" data-s="1"><path class="g" d="M1510 158 V184"/><path class="g" d="M1510 218 V240"/><text x="1520" y="234">yes</text><path class="g" d="M1360 319 H1320"/><path class="g" d="M1170 240 C1170 200, 830 200, 830 160"/><text x="905" y="212">fixed — back in use</text></g>
+      <g class="st" data-s="2"><path class="r" d="M1628 201 C1690 201, 1690 470, 1660 478"/><text x="1636" y="330">no</text><path d="M1360 547 H1320"/><path d="M1020 547 H980"/><path class="g" d="M1170 466 C1170 420, 470 420, 150 158"/><text x="560" y="404">refurbished — sold again by a retailer</text></g>
+    </svg>
+    <div class="bx serve a" style="--i:2;left:0;top:0"><em>Serve</em><b><i>1</i>Sold</b><span>Retailer adds install + Protect to the bill; the family consents on WhatsApp; the record starts.</span></div>
+    <div class="bx serve a" style="--i:3;left:340px;top:0"><em>Serve</em><b><i>2</i>Installed</b><span>Authorised technician within 24 h; serial and photos; warranty registered with the brand.</span></div>
+    <div class="bx serve a" style="--i:4;left:680px;top:0"><em>Serve</em><b><i>3</i>In use</b><span>AMC visits in the off-season; Protect cover after the brand warranty; renewal reminders.</span></div>
+    <div class="bx serve a" style="--i:5;left:1020px;top:0"><em>Serve</em><b><i>4</i>Breaks</b><span>A Telugu voice note on WhatsApp; AI drafts the likely fault, the part to carry and the cover.</span></div>
+    <div class="bx serve a" style="--i:6;left:1360px;top:0"><em>Serve</em><b><i>5</i>Diagnosed</b><span>Technician confirms the fault; price from the rate card, or covered by Protect.</span></div>
+    <div class="dec st" data-s="1">Worth repairing?</div>
+    <div class="bx supply st" data-s="1" style="left:1360px;top:240px"><em>Supply</em><b><i>6</i>Parts</b><span>Keepwell buys genuine parts centrally from distributors and stocks each cluster; also sells to local agencies.</span></div>
+    <div class="bx serve st" data-s="1" style="left:1020px;top:240px"><em>Serve</em><b><i>7</i>Repaired</b><span>Fixed and verified (photo + OTP); 90-day guarantee; technician paid in 48 h.</span></div>
+    <div class="bx supply st" data-s="2" style="left:1360px;top:468px"><em>Supply</em><b><i>8</i>Traded in</b><span>Keepwell's field arm values and collects the old unit; the retailer sells the replacement.</span></div>
+    <div class="bx circ st" data-s="2" style="left:1020px;top:468px"><em>Circulate</em><b><i>9</i>Refurbished</b><span>Salvageable units are refurbished and resold through retailers, with a warranty.</span></div>
+    <div class="bx circ st" data-s="2" style="left:680px;top:468px"><em>Circulate</em><b><i>10</i>Recycled</b><span>The rest go to registered e-waste recyclers (E-Waste Rules 2022), with the paperwork.</span></div>
+    <div class="legend a" style="--i:7"><div class="k"><span style="background:var(--tealbg);color:#0B6B5D">Serve · now</span><span style="background:var(--amberbg);color:#8A5208">Supply · from year 2</span><span style="background:#E8ECF4;color:#26375A">Circulate · from year 3</span></div>One cluster team, one WhatsApp desk and one record follow the appliance through every step. AI reads and drafts; prices, safety stops and claim decisions stay with rules and people.</div>
+    <div class="spine st" data-s="2"><b>Know</b>Every step is written to one consented appliance record → verified installs and claims for brands and plan sellers, and replacement leads for the retailer.</div>
+  </div>
+</section>
+
+
+<section class="slide" data-id="aidesk" data-thread="whole" data-steps="0">
+  <div class="eyebrow a">The AI desk · guardrails</div>
+  <h1 class="t a" style="--i:1">AI reads and drafts. <em>Rules and people decide.</em></h1>
+  <div class="hm">
+    <div class="card a" style="--i:2"><h3 style="color:var(--teal)">The AI does</h3><ul><li>Understands voice notes in Telugu, Hindi, English</li><li>Reads model, serial, invoice from photos</li><li>Drafts the likely fault and the part to carry</li><li>Dispatches by zone and skill; writes the job card</li></ul></div>
+    <div class="card a" style="--i:3"><h3 style="color:var(--red)">Never the AI's call</h3><ul><li>Prices — always the published rate card</li><li>Gas and high-voltage safety stops — hard rules</li><li>Rejecting a Protect claim or a refund — a person</li><li>Sharing data — only with consent</li></ul></div>
+  </div>
+  <p class="lede a" style="--i:4;margin-top:30px">The AI is the <b>cost engine</b>: one coordinator runs a 60-retailer cluster. The moat is the retailers, the density and the record.</p>
+</section>
+
+<section class="slide" data-id="pilot" data-thread="whole" data-steps="0">
+  <div class="eyebrow a">Traction · Vijayawada–Guntur pilot, Mar–Oct 2026</div>
+  <h1 class="t a" style="--i:1">Eight months, 34 retailers — and the retailers kept routing to us.</h1>
+  <div class="kp5">
+    <div class="card a" style="--i:2"><div class="big">34</div><div>retailers on 2-year exclusive agreements (33 active)</div></div>
+    <div class="card a" style="--i:3"><div class="big">~2,400</div><div>jobs: 775 installs, 1,330 service & repair, 280 plan-seller</div></div>
+    <div class="card a" style="--i:4"><div class="big">₹25 L</div><div>revenue · ₹5 L contribution</div></div>
+    <div class="card a" style="--i:5"><div class="big">₹4.5k</div><div>contribution per retailer a month by month 4</div></div>
+    <div class="card a" style="--i:6;border:2px solid var(--teal)"><div class="big" style="color:var(--teal)">6%</div><div>Protect attach in a 12-retailer counter test</div></div>
+  </div>
+  <div class="hm" style="margin-top:28px">
+    <div class="a" style="--i:7"><h3 style="color:var(--teal)">What worked</h3><ul><li>74 units per retailer a month · 58% of installs routed to us</li><li>87% installed within 24 h · 81% fixed first visit</li></ul></div>
+    <div class="a" style="--i:8"><h3 style="color:var(--teal)">What it proves</h3><ul><li>Retailers hand over the after-sale job when their name stays on it</li><li>Families buy a plan at the counter</li></ul></div>
+  </div>
+</section>
+
+<section class="slide" data-id="misses" data-thread="whole" data-steps="0">
+  <div class="eyebrow a">What we got wrong</div>
+  <h1 class="t a" style="--i:1">Four misses — and what we changed.</h1>
+  <table class="ctab a" style="--i:2"><tr><th>Miss</th><th>Target</th><th>Result</th><th>What we changed</th></tr>
+    <tr><td>Retailer signing lagged</td><td>2,000 units/month by day 90</td><td>1,258 (2,516 by Oct)</td><td>A second field executive in June</td></tr>
+    <tr><td>One sub-contract partner under-delivered</td><td>2 active</td><td>1 did most</td><td>Talks with a third centre and a brand's regional team</td></tr>
+    <tr><td>Technician productivity</td><td>2.8 jobs/day</td><td>2.6</td><td>Re-zoned dispatch into 3 micro-zones → 2.8 in October</td></tr>
+    <tr><td>Plan-seller jobs</td><td>100/month</td><td>70</td><td>Contract widened to all its claims in the belt from Jan 2027</td></tr></table>
+  <p class="lede a" style="--i:3;margin-top:30px">Breakeven on today's pilot economics: <b>about 35 retailers</b>. That's why density is our first milestone.</p>
+</section>
+
+<section class="slide" data-id="unitecon" data-thread="whole" data-steps="0">
+  <div class="eyebrow a">Unit economics · mature (Step 7b model)</div>
+  <h1 class="t a" style="--i:1">Every cluster pays for itself — on service.</h1>
+  <div class="uc">
+    <div class="card a" style="--i:2"><h3>One mature retailer · a year</h3><table><tr><td>Units sold</td><td>74 / month</td></tr><tr><td>Service, installs, AMC</td><td>₹3.5 L</td></tr><tr><td>+ Protect (53 plans)</td><td>₹0.9 L</td></tr><tr><td>Contribution</td><td>₹1.16 L</td></tr><tr class="k"><td>Retailer earns</td><td>₹3,170 / month</td></tr></table></div>
+    <div class="card a" style="--i:3"><h3>One cluster · 60 retailers</h3><table><tr><td>Revenue</td><td>₹2.72 Cr</td></tr><tr><td>Contribution</td><td>₹67 L</td></tr><tr><td>Cluster team</td><td>−₹23 L</td></tr><tr class="k"><td>EBITDA</td><td>₹44 L · 16%</td></tr><tr><td>Breakeven</td><td>22 retailers</td></tr></table></div>
+    <div class="card a" style="--i:4"><h3>The company</h3><table><tr><td>EBITDA-positive</td><td>Year 5</td></tr><tr><td>Year-7 revenue</td><td>₹130.5 Cr</td></tr><tr><td>Year-7 EBITDA</td><td>6.6%</td></tr><tr class="k"><td>Mature network</td><td>13.4%</td></tr><tr><td>… on service alone</td><td>9.1%</td></tr></table></div>
+  </div>
+  <p class="lede a" style="--i:5;margin-top:22px;font-size:20px">While we grow, data (verified installs and claims, leads) is what tips the company into profit — clusters never need it.</p>
+</section>
+
+<section class="slide" data-id="protect" data-thread="whole" data-steps="0">
+  <div class="eyebrow a">Keepwell Protect · one plan</div>
+  <h1 class="t a" style="--i:1">We can sell repair cheaply because <em>we are the repairer.</em></h1>
+  <div class="row" style="margin-top:30px;gap:40px">
+    <div class="card a" style="--i:2;flex:1.1">
+      <div class="vrow" style="display:grid;grid-template-columns:330px 1fr 120px;gap:14px;align-items:center;font:600 21px var(--sans)">
+        <span>Net price (₹2,000 incl. GST)</span><div style="height:30px;background:#F1ECE2;border-radius:8px"><i class="hbar" data-w="100%" style="display:block;background:var(--ink)"></i></div><b>₹1,695</b>
+        <span>Retailer commission 25%</span><div style="height:30px;background:#F1ECE2;border-radius:8px"><i class="hbar" data-w="25%" style="display:block;background:var(--amber)"></i></div><b>₹424</b>
+        <span>Repair claims at our cost 35%</span><div style="height:30px;background:#F1ECE2;border-radius:8px"><i class="hbar" data-w="35%" style="display:block;background:var(--red)"></i></div><b>₹593</b>
+        <span>Admin 5%</span><div style="height:30px;background:#F1ECE2;border-radius:8px"><i class="hbar" data-w="5%" style="display:block;background:var(--grey)"></i></div><b>₹85</b>
+        <span style="color:var(--teal)">Keepwell keeps</span><div style="height:30px;background:#F1ECE2;border-radius:8px"><i class="hbar" data-w="35%" style="display:block;background:var(--teal)"></i></div><b style="color:var(--teal)">₹593</b>
+      </div>
+    </div>
+    <div class="col a" style="--i:3;flex:.9">
+      <div class="card"><b style="font:700 24px var(--serif)">A service contract, not insurance</b><div style="font:500 19px/1.4 var(--sans);color:var(--grey2);margin-top:8px">Repairs only, delivered by our own network. Expected claims on every unexpired plan sit in a ring-fenced reserve.</div></div>
+      <div class="card"><b style="font:700 24px var(--serif)">Claims at ~27% on our own data</b><div style="font:500 19px/1.4 var(--sans);color:var(--grey2);margin-top:8px">We carry 35%; our planning case uses 45%.</div></div>
+    </div>
+  </div>
+</section>
+
+<section class="slide" data-id="nobody" data-thread="whole" data-steps="0">
+  <div class="eyebrow a">Why we win</div>
+  <h1 class="t a" style="--i:1">Everyone serves the chains or the brands. <em>Nobody owns the local retailer.</em></h1>
+  <table class="ctab a" style="--i:2"><tr><th>Player</th><th>Serves</th><th>Why not the local retailer</th></tr>
+    <tr><td>Urban Company</td><td>Metro households via app</td><td>Takes the customer; ~36% take</td></tr>
+    <tr><td>Onsitego · Zopper</td><td>Plans at chain counters</td><td>Closest — but no owned delivery in small towns; a possible partner</td></tr>
+    <tr><td>247around · SERVIZ</td><td>Brand-paid installs</td><td>Paid by brands, not tied to retailers</td></tr>
+    <tr><td>Jeeves · resQ</td><td>Their own retailer's buyers</td><td>Captive</td></tr>
+    <tr><td>Local mechanics</td><td>Everyone, cheaply (44%)</td><td>No guarantee or record — we recruit the good ones</td></tr>
+    <tr class="us"><td>Keepwell</td><td>The local retailer's customers</td><td>Exclusive retailer agreements · density · authorisation · the record</td></tr></table>
+</section>
+
+<section class="slide" data-id="partners" data-thread="whole" data-steps="0">
+  <div class="eyebrow a">How we scale</div>
+  <h1 class="t a" style="--i:1">From year 3, service centres run our clusters — <em>we keep the retailer and the customer.</em></h1>
+  <div class="hm">
+    <div class="card a" style="--i:2"><h3 style="color:var(--teal)">The partner (an existing service centre)</h3><ul><li>Coordinator, premises, technicians, off-season floor</li><li>Earns 10% of core revenue (~₹21 L a year) + its technicians' per-job pay</li><li>Fills idle off-season capacity</li></ul></div>
+    <div class="card a" style="--i:3"><h3 style="color:var(--ink)">Keepwell</h3><ul><li>Retailer agreements, the customer, payment, Protect, the guarantee, parts, the AI desk</li><li>₹1 L a month per partner cluster — instead of a ₹23 L-a-year team</li><li>Partner cluster EBITDA to Keepwell: ₹38 L (14%)</li></ul></div>
+  </div>
+  <p class="lede a" style="--i:4;margin-top:28px">Kavyanth knows the owners of 200+ service centres. We need 66 partners by year 8.</p>
+</section>
+
+<section class="slide" data-id="market" data-thread="whole" data-steps="0">
+  <div class="eyebrow a">Market, from the bottom up</div>
+  <h1 class="t a" style="--i:1">₹4,000 Cr a year of after-sale spend that no one organises.</h1>
+  <div class="fun" style="margin-top:20px">
+    <div class="row a" style="--i:2"><b>TAM</b><div><div class="bar hbar" data-w="96%" style="background:var(--ink)">≈ ₹4,000 Cr</div><small>after-sale spend via local retailers, Tier 2/3 India</small></div></div>
+    <div class="row a" style="--i:3"><b>SAM</b><div><div class="bar hbar" data-w="49%" style="background:var(--ink2)">≈ ₹1,040 Cr</div><small>AP, Telangana, Karnataka, Tamil Nadu, Kerala</small></div></div>
+    <div class="row a" style="--i:4"><b>Beachhead</b><div><div class="bar hbar" data-w="29%" style="background:var(--teal)">≈ ₹360 Cr</div><small>Andhra Pradesh + Telangana</small></div></div>
+    <div class="row a" style="--i:5"><b>Year 7</b><div><div class="bar hbar" data-w="18%" style="background:var(--amber)">₹130 Cr</div><small>3,300 retailers · 55 clusters · ~7% of India's 45k local retailers</small></div></div>
+  </div>
+</section>
+
+<section class="slide" data-id="journey" data-thread="whole" data-steps="1">
+  <div class="eyebrow a">The plan · BASE, ₹ Cr (year 1 = 2027)</div>
+  <h1 class="t a" style="--i:1">Serve → Supply → Know → Circulate. <em>Each round raised on proof.</em></h1>
+  <div class="rev a" style="--i:2">
+    <div class="c"><div class="v">2.4</div><div class="vbar" data-h="1.3%"></div><div class="e n">−1.1</div><div class="y">Y1</div></div>
+    <div class="c"><div class="v">6.8</div><div class="vbar" data-h="3.7%"></div><div class="e n">−1.5</div><div class="y">Y2</div></div>
+    <div class="c"><div class="v">15.3</div><div class="vbar" data-h="8.4%"></div><div class="e n">−1.9</div><div class="y">Y3</div></div>
+    <div class="c"><div class="v">29.7</div><div class="vbar" data-h="16%"></div><div class="e n">−1.4</div><div class="y">Y4</div></div>
+    <div class="c"><div class="v">53.9</div><div class="vbar" data-h="30%"></div><div class="e">+0.6</div><div class="y">Y5</div></div>
+    <div class="c"><div class="v">86.9</div><div class="vbar" data-h="48%"></div><div class="e">+4.1</div><div class="y">Y6</div></div>
+    <div class="c"><div class="v">130.5</div><div class="vbar" data-h="72%"></div><div class="e">+8.6</div><div class="y">Y7</div></div>
+    <div class="c"><div class="v">181.6</div><div class="vbar" data-h="100%"></div><div class="e">+15.3</div><div class="y">Y8</div></div>
+  </div>
+  <div class="st rd" data-s="1">
+    <div class="card now"><em>Seed · now · ₹8 Cr pre</em><b>₹2.5 Cr</b><span>SERVE in AP/TS · 4 clusters · Protect proven</span></div>
+    <div class="card"><em>Round 2 · H2 2028 · ₹25 Cr pre</em><b>₹5 Cr</b><span>SUPPLY · parts, first partner clusters, verification</span></div>
+    <div class="card"><em>Round 3 · 2030 · ₹70 Cr pre</em><b>₹15 Cr</b><span>SCALE to 72 clusters · KNOW + CIRCULATE</span></div>
+    <div class="card"><em>Exit · 2033–34</em><b>₹255–376 Cr</b><span>EV, year 7 (stress–BASE) · strategic or PE</span></div>
+  </div>
+</section>
+
+<section class="slide" data-id="clean" data-thread="whole" data-steps="0">
+  <div class="eyebrow a">Clean company</div>
+  <h1 class="t a" style="--i:1">The three questions we answer before you ask.</h1>
+  <div class="row" style="margin-top:34px">
+    <div class="card a" style="--i:2;flex:1"><b style="font:700 28px var(--serif)">Is Protect insurance?</b><p style="font:500 21px/1.45 var(--sans);color:var(--grey2)">No. A repairs-only service contract we fulfil, on counsel-reviewed terms; claims ring-fenced. Formal opinion by month 6.</p></div>
+    <div class="card a" style="--i:3;flex:1"><b style="font:700 28px var(--serif)">Are technicians employees?</b><p style="font:500 21px/1.45 var(--sans);color:var(--grey2)">Per-job partners. We pay the gig-worker levy (1.4%) and carry accident cover.</p></div>
+    <div class="card a" style="--i:4;flex:1"><b style="font:700 28px var(--serif)">Do your installs void warranties?</b><p style="font:500 21px/1.45 var(--sans);color:var(--grey2)">Only authorised installs: two service-centre sub-contracts renewed for 2027, and a brand's letter of intent for direct authorisation.</p></div>
+  </div>
+  <p class="lede a" style="--i:5;margin-top:30px">DPIIT-recognised · vesting since Aug 2025 · CA-reviewed books · gate data CA-certified · consent-first data (DPDP 2023) · a 9-folder data room.</p>
+</section>
+
+<section class="slide dark" data-id="ask" data-thread="whole" data-steps="1">
+  <div class="eyebrow a">The ask</div>
+  <h1 class="t a" style="--i:1">₹2.5 Cr · one close · 18 months.</h1>
+  <div class="row" style="margin-top:20px;gap:18px">
+    <div class="card a" style="--i:2;flex:1"><div class="big" style="font-size:64px">₹2.5 Cr</div><div style="font:500 19px var(--sans);color:#C9D3E6">CCPS · a single close, before the term sheet</div></div>
+    <div class="card a" style="--i:3;flex:1"><div class="big" style="font-size:64px">₹8 Cr</div><div style="font:500 19px var(--sans);color:#C9D3E6">pre-money · 23.8% to the seed</div></div>
+    <div class="card a" style="--i:4;flex:1"><div class="big" style="font-size:64px">18 months</div><div style="font:500 19px var(--sans);color:#C9D3E6">from close · one-year need ₹1.34 Cr + six months to raise Round 2</div></div>
+  </div>
+  <div class="st card" data-s="1" style="margin-top:22px">
+    <div style="font:700 15px var(--sans);letter-spacing:.14em;text-transform:uppercase;color:var(--amber)">Month 9 (Dec 2027) — the board checkpoint</div>
+    <div class="beat"><i>1</i>65+ units a retailer a month · 50%+ of installs routed to us · the pilot cluster pays for its own team</div>
+    <div class="beat"><i>2</i>Protect at 3.75%+ in the pilot retailers · the legal opinion in hand · 35%+ of AC units authorised</div>
+    <div style="font:700 15px var(--sans);letter-spacing:.14em;text-transform:uppercase;color:var(--amber);margin-top:14px">Month 18 (Sep 2028) — the case for Round 2</div>
+    <div class="beat"><i>3</i>4 clusters · 200+ retailers · ₹4.5 Cr+ revenue run-rate · 3 partner agreements · a paid verification contract</div></div>
+</section>
+
+<section class="slide dark" data-id="close" data-thread="whole" data-steps="1">
+  <div class="eyebrow a">Ravi's Thursday, with Keepwell</div>
+  <h1 class="t a" style="--i:1">Keepwell keeps the promise the retailer made <em>when it sold the appliance.</em></h1>
+  <div class="st" data-s="1" style="margin-top:30px">
+    <div class="beat a" style="--i:2"><i>✓</i>Monday: Ravi sells the AC — with Keepwell install and Protect on the same bill.</div>
+    <div class="beat a" style="--i:3"><i>✓</i>Tuesday: an authorised technician installs it. The warranty is safe.</div>
+    <div class="beat a" style="--i:4"><i>✓</i>Two years later: a voice note in Telugu. A fix the same week. Covered.</div>
+    <div class="beat a" style="--i:5"><i>✓</i>Ravi earns on the plan — and the family comes back to his retailer.</div>
+  </div>
+</section>
+
+<section class="slide" data-id="b_divider" data-thread="" data-steps="0" data-backup="1"><h1 class="t" style="margin-top:300px">Backup slides</h1><p class="lede">Valuation · cap table · scenarios · terms</p></section>
+<section class="slide" data-id="b_valuation" data-thread="" data-steps="0" data-backup="1"><div class="eyebrow">Backup · valuation</div><h1 class="t">₹8 Cr pre-money: the course scorecard, inside comparables.</h1>
+  <table class="bt"><tr><th>Method</th><th>Result</th><th>Basis</th></tr><tr><td>Course scorecard</td><td>₹8.2 Cr pre</td><td>₹9 Cr × 73/100 ÷ benchmark 80</td></tr><tr><td>Comparables</td><td>₹6–12 Cr pre</td><td>Indian angel/seed rounds 2025–26; course CCPS template ₹7.5 Cr pre</td></tr><tr><td>VC method (stress, 40% IRR, 5 years)</td><td>≤ ₹13.5 Cr post</td><td>Year-5 EV ₹106 Cr × 68.5% retention ÷ 1.4⁵</td></tr><tr><td><b>Our price</b></td><td><b>₹8 Cr pre · ₹10.5 Cr post</b></td><td>23.8% for ₹2.5 Cr · 1.3× the pre-seed cap</td></tr></table></section>
+<section class="slide" data-id="b_captable" data-thread="" data-steps="0" data-backup="1"><div class="eyebrow">Backup · cap table and returns</div><h1 class="t">Founders keep 41% after three rounds.</h1>
+  <table class="bt"><tr><th>Holder</th><th>After seed</th><th>After Round 2 (₹25 Cr pre)</th><th>After Round 3 (₹70 Cr pre)</th></tr><tr><td>Founders (38/31/31)</td><td>60.5%</td><td>50.4%</td><td>41.5%</td></tr><tr><td>Pre-seed iSAFE</td><td>5.7%</td><td>4.8%</td><td>3.9%</td></tr><tr><td>ESOP pool</td><td>10.0%</td><td>8.3%</td><td>6.9%</td></tr><tr><td>Seed</td><td>23.8%</td><td>19.8%</td><td>16.3%</td></tr><tr><td>Round 2 · Round 3</td><td>—</td><td>16.7%</td><td>13.7% · 17.6%</td></tr></table>
+  <p class="lede" style="margin-top:24px">Seed return: 6.9× (47% IRR) at year 5 in stress · 16.7× at year 7 in stress · 24.6× at year 7 in BASE.</p></section>
+<section class="slide" data-id="b_scen" data-thread="" data-steps="0" data-backup="1"><div class="eyebrow">Backup · scenarios</div><h1 class="t">Planned on the stress case.</h1>
+  <table class="bt"><tr><th></th><th>BASE</th><th>Stress</th><th>LOW</th></tr><tr><td>Year-7 revenue</td><td>₹130.5 Cr</td><td>₹85.2 Cr</td><td>₹79.8 Cr</td></tr><tr><td>Year-7 EBITDA</td><td>6.6%</td><td>4.7%</td><td>−11%</td></tr><tr><td>First positive year</td><td>Y5</td><td>Y6</td><td>never</td></tr><tr><td>Peak cash need (monthly)</td><td>₹7.0 Cr</td><td>₹10.1 Cr</td><td>₹58 Cr</td></tr><tr><td>What we do</td><td>Plan</td><td>Seed + Round 2 cover to month 46</td><td>Month-9 checkpoint: expansion stops</td></tr></table></section>
+<section class="slide" data-id="b_terms" data-thread="" data-steps="0" data-backup="1"><div class="eyebrow">Backup · key terms (course CCPS template)</div><h1 class="t">Clean terms that keep later rounds clean.</h1>
+  <table class="bt"><tr><td>Instrument</td><td>CCPS · single close · 1x non-participating · broad-based weighted-average anti-dilution</td></tr><tr><td>Board</td><td>2 founders + 1 lead-investor director · AP observer · independent director at Round 2</td></tr><tr><td>Founders</td><td>4-year vesting from Aug 2025 (no reset) · 3-year lock-in</td></tr><tr><td>Rights</td><td>Pro-rata · information (monthly record extract) · ROFR/ROFO · tag · drag after year 7</td></tr><tr><td>ESOP</td><td>10% post-seed</td></tr></table></section>
+
+<div id="hud">
+  <div class="progress"><i id="prog"></i></div>
+  <div class="gnav"><div class="brand"><svg viewBox="0 0 48 48"><use href="#logo"/></svg>Keepwell</div><div class="tabs" id="tabs"></div></div>
+  <div class="pg" id="pg"></div>
+  <div class="ctrl"><button id="bprev" title="Back (←)">‹</button><button id="bnext" title="Next (→ / space)">›</button></div>
+</div>
+<svg class="thread" id="thread" viewBox="0 0 1920 40" preserveAspectRatio="none" style="position:absolute;z-index:30"><path d="M0 22 C 320 2, 640 38, 960 20 S 1600 4, 1920 22"/></svg>
+</div>
+
+<div id="notes"><div class="nh"><span id="nsp"></span><b id="ntitle"></b><span id="ntime"></span><span class="timer" id="timer">00:00</span></div><div class="say" id="nsay"></div><div class="why" id="nwhy"></div></div>
+<div id="lb"><button class="lbn lbx" title="Close (Esc)">×</button><div class="lbrow"><button class="lbn lbp" title="Previous (←)">‹</button><img alt=""><video controls playsinline loop></video><button class="lbn lbnx" title="Next (→)">›</button></div><p></p><span class="lbc"></span></div>
+<div class="help">→ / space next · ← back · N notes · F fullscreen · B backup slides</div>
+
+<!-- icon sprite -->
+<svg width="0" height="0" style="position:absolute">
+ <defs>
+  <symbol id="logo" viewBox="0 0 48 48"><rect width="48" height="48" rx="12" fill="#0F8C7A"/><path d="M14 30 C14 18, 34 18, 34 30" fill="none" stroke="#fff" stroke-width="3.4" stroke-linecap="round"/><circle cx="24" cy="31" r="4.5" fill="#E08A1E"/><path d="M10 34 H38" stroke="#fff" stroke-width="3" stroke-linecap="round" opacity=".8"/></symbol>
+  <symbol id="i-ac" viewBox="0 0 48 48"><rect x="5" y="12" width="38" height="16" rx="3"/><path d="M10 23h28M14 34l-2 5M24 34v6M34 34l2 5"/></symbol>
+  <symbol id="i-fridge" viewBox="0 0 48 48" fill="none" stroke-width="2.4" stroke-linecap="round"><rect x="13" y="4" width="22" height="40" rx="3"/><path d="M13 18h22M17 9v5M17 23v6"/></symbol>
+  <symbol id="i-wm" viewBox="0 0 48 48"><rect x="8" y="5" width="32" height="38" rx="3"/><circle cx="24" cy="27" r="9"/><path d="M8 13h32M13 9h4"/></symbol>
+  <symbol id="i-ro" viewBox="0 0 48 48"><rect x="11" y="4" width="26" height="36" rx="4"/><path d="M24 14c-4 5-5 7-5 9a5 5 0 0 0 10 0c0-2-1-4-5-9zM18 44h12"/></symbol>
+  <symbol id="i-geyser" viewBox="0 0 48 48"><rect x="12" y="4" width="24" height="34" rx="11"/><path d="M19 38v6M29 38v6M20 20h8"/></symbol>
+  <symbol id="i-tv" viewBox="0 0 48 48"><rect x="5" y="8" width="38" height="26" rx="3"/><path d="M16 42h16M24 34v8"/></symbol>
+  <symbol id="i-fan" viewBox="0 0 48 48"><circle cx="24" cy="22" r="3"/><path d="M24 19c0-8 8-12 10-7s-6 7-10 7zM26 24c6 5 4 13-1 12s-3-9 1-12zM21 23c-7 3-14-2-11-6s9 2 11 6zM24 25v19M16 44h16"/></symbol>
+  <symbol id="i-mixer" viewBox="0 0 48 48"><path d="M14 6h20l-3 22H17zM12 28h24v14H12zM24 35h.01"/></symbol>
+  <symbol id="i-wrench" viewBox="0 0 48 48" fill="none" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M30 6a10 10 0 0 0-9 14L6 35l7 7 15-15a10 10 0 0 0 14-9l-6 6-6-2-2-6z"/></symbol>
+  <symbol id="i-rupee" viewBox="0 0 48 48" fill="none" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 8h24M12 18h24M18 8c10 0 10 20 0 20h-6l16 14"/></symbol>
+  <symbol id="i-phone" viewBox="0 0 48 48" fill="none" stroke-width="2.4" stroke-linecap="round"><rect x="13" y="4" width="22" height="40" rx="4"/><path d="M21 38h6"/></symbol>
+  <symbol id="i-store" viewBox="0 0 48 48" fill="none" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M6 18l4-10h28l4 10M6 18h36v4a6 6 0 0 1-12 0 6 6 0 0 1-12 0 6 6 0 0 1-12 0zM9 26v16h30V26M20 42V32h8v10"/></symbol>
+  <symbol id="i-home" viewBox="0 0 48 48" fill="none" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M6 22L24 7l18 15M11 19v23h26V19M20 42V30h8v12"/></symbol>
+  <symbol id="i-mic" viewBox="0 0 48 48"><rect x="18" y="5" width="12" height="22" rx="6"/><path d="M11 22a13 13 0 0 0 26 0M24 35v8"/></symbol>
+  <symbol id="i-brain" viewBox="0 0 48 48"><path d="M8 24a16 16 0 1 0 32 0 16 16 0 1 0-32 0M18 24l4 4 8-9"/></symbol>
+  <symbol id="i-search" viewBox="0 0 48 48"><circle cx="21" cy="21" r="12"/><path d="M30 30l11 11M21 15v12M15 21h12"/></symbol>
+  <symbol id="i-doc" viewBox="0 0 48 48"><path d="M12 4h18l8 8v32H12zM30 4v8h8M18 22h12M18 30h12M18 38h7"/></symbol>
+  <symbol id="i-card" viewBox="0 0 48 48"><rect x="6" y="10" width="36" height="28" rx="4"/><path d="M12 18h14M12 25h20M12 32h9"/></symbol>
+  <symbol id="i-check" viewBox="0 0 48 48"><circle cx="24" cy="24" r="18"/><path d="M15 25l6 6 12-13"/></symbol>
+ </defs>
+</svg>
+
+<script>
+const NOTES = /*__NOTES__*/[];
+const ACTS = /*__ACTS__*/[];
+(function(){
+const stage=document.getElementById('stage');if(!stage)return;
+const slides=[...document.querySelectorAll('.slide')];
+const main=slides.filter(s=>!s.dataset.backup);
+let cur=0, step=0, t0=Date.now(), backup=false;const STILL=/still/.test(location.search);if(STILL)stage.classList.add('still');
+const N=()=> backup?slides.length:main.length;
+const list=()=> backup?slides:main;
+// fit
+function fit(){const s=Math.min(innerWidth/1920,innerHeight/1080);stage.style.transform=`translate(-50%,-50%) scale(${s})`}
+addEventListener('resize',fit);fit();
+// tabs
+const tabs=document.getElementById('tabs');if(!tabs)return;
+ACTS.forEach(([k,l])=>{const sp=document.createElement('span');sp.textContent=l;sp.dataset.act=k;sp.onclick=()=>{const i=main.findIndex(s=>noteOf(s).act===k);if(i>=0)go(i)};tabs.appendChild(sp)});
+function noteOf(s){return NOTES.find(n=>n.id===s.dataset.id)||{}}
+// helpers
+function fmt(n,sep){return sep?n.toLocaleString('en-IN'):String(n)}
+function count(el){if(el._done)return;el._done=1;const to=+el.dataset.to,sep=el.dataset.sep,D=STILL?1:1500,t1=performance.now();(function f(t){const k=Math.min((t-t1)/D,1),e=1-Math.pow(1-k,3);el.textContent=fmt(Math.round(to*e),sep);if(k<1)requestAnimationFrame(f)})(t1)}
+function live(el,s){let p=el.closest('.st');while(p&&s.contains(p)){if(!p.classList.contains('show'))return false;p=p.parentElement.closest('.st')}return true}
+function activate(s){
+  s.querySelectorAll('.count').forEach(el=>{if(live(el,s))setTimeout(()=>count(el),500)});
+  s.querySelectorAll('[data-w]').forEach(el=>{if(live(el,s))setTimeout(()=>el.style.width=el.dataset.w,350)});
+  s.querySelectorAll('[data-h]').forEach(el=>{if(live(el,s))setTimeout(()=>el.style.height=el.dataset.h,350)});
+  s.querySelectorAll('svg .draw').forEach(el=>{if(live(el,s)||el.classList.contains('st')&&el.classList.contains('show'))setTimeout(()=>el.classList.add('go'),300)});
+}
+function reset(s){
+  s.querySelectorAll('.count').forEach(el=>{el._done=0;el.textContent='0'});
+  s.querySelectorAll('[data-w]').forEach(el=>el.style.width='0');
+  s.querySelectorAll('[data-h]').forEach(el=>el.style.height='0');
+  s.querySelectorAll('svg .draw').forEach(el=>el.classList.remove('go'));
+  s.querySelectorAll('.st').forEach(el=>el.classList.remove('show'));
+  if(s.dataset.id==='hook'){s.querySelectorAll('.mach').forEach(m=>m.classList.remove('hit'));document.getElementById('hookn').textContent='0';document.getElementById('home').classList.remove('qs')}
+  if(s.dataset.id==='demo')chatStop();
+}
+function setStep(s,k){step=k;s.querySelectorAll('.st').forEach(el=>el.classList.toggle('show',+el.dataset.s<=k));
+  if(s.dataset.id==='hook')document.getElementById('home').classList.toggle('qs',k>=1);
+  activate(s)}
+function render(){
+  const L=list();L.forEach((s,i)=>{s.classList.toggle('on',i===cur)});
+  const s=L[cur];reset(s);setStep(s,STILL?+(s.dataset.steps||0):0);
+  const n=noteOf(s);
+  document.querySelectorAll('#tabs span').forEach(t=>t.classList.toggle('cur',t.dataset.act===n.act));
+  document.getElementById('hud').classList.toggle('ondark',s.classList.contains('dark'));
+  document.getElementById('prog').style.width=((cur+1)/L.length*100)+'%';
+  document.getElementById('pg').textContent=(cur+1)+' / '+L.length;
+  const th=document.getElementById('thread');if(!th)return;th.setAttribute('class','thread '+(s.dataset.thread||''));
+  th.style.display=s.dataset.thread?'block':'none';
+  // restart thread draw
+  if(s.dataset.thread==='whole'){const p=th.querySelector('path');p.style.transition='none';p.style.strokeDashoffset=2400;requestAnimationFrame(()=>{requestAnimationFrame(()=>{p.style.transition='';p.style.strokeDashoffset=0})})}
+  else{th.querySelector('path').style.strokeDashoffset=''}
+  document.getElementById('nsp').textContent=n.speaker||'';document.getElementById('ntitle').textContent=n.title||'';
+  document.getElementById('ntime').textContent=n.time?('~'+n.time):'';document.getElementById('nsay').textContent=n.say||'';document.getElementById('nwhy').textContent=n.why?('Why: '+n.why):'';
+  history.replaceState(null,'','#'+(cur+1));
+  restartScroll(s);if(s.dataset.id==='demo')chatPlay();
+  if(STILL&&s.dataset.id==='hook'){s.querySelectorAll('.mach').forEach((m,i)=>{if(i%3!==2)m.classList.add('hit')});document.getElementById('hookn').textContent=document.querySelectorAll('.mach.hit').length}
+}
+function restartScroll(root){root.querySelectorAll('.bwin img').forEach(el=>{const a=el.dataset.anim||(el.dataset.anim=el.style.animation);el.style.animation='none';void el.offsetWidth;el.style.animation=a})}
+function go(i){const L=list();cur=Math.max(0,Math.min(L.length-1,i));render()}
+function next(){const s=list()[cur];const max=+(s.dataset.steps||0);if(step<max){setStep(s,step+1)}else go(cur+1)}
+function prev(){const s=list()[cur];if(step>0){setStep(s,step-1)}else go(cur-1)}
+addEventListener('keydown',e=>{
+  if(window.__lb&&window.__lb.isOpen()){if(['ArrowRight','PageDown',' ','Enter','ArrowDown'].includes(e.key)){e.preventDefault();window.__lb.step(1)}else if(['ArrowLeft','PageUp','Backspace','ArrowUp'].includes(e.key)){e.preventDefault();window.__lb.step(-1)}else if(e.key==='Escape'){window.__lb.close()}return}
+  if(['ArrowRight','PageDown',' ','Enter'].includes(e.key)){e.preventDefault();next()}
+  else if(['ArrowLeft','PageUp','Backspace'].includes(e.key)){e.preventDefault();prev()}
+  else if(e.key==='n'||e.key==='N')document.getElementById('notes').classList.toggle('open');
+  else if(e.key==='f'||e.key==='F'){document.fullscreenElement?document.exitFullscreen():document.documentElement.requestFullscreen()}
+  else if(e.key==='b'||e.key==='B'){backup=!backup;go(backup?main.length:Math.min(cur,main.length-1))}
+  else if(e.key==='Home')go(0);else if(e.key==='End')go(list().length-1);
+  else if(e.key==='Escape'){document.getElementById('lb').classList.remove('open')}
+});
+document.getElementById('bnext').onclick=next;document.getElementById('bprev').onclick=prev;
+setInterval(()=>{const d=Math.floor((Date.now()-t0)/1000);document.getElementById('timer').textContent=String(Math.floor(d/60)).padStart(2,'0')+':'+String(d%60).padStart(2,'0')},1000);
+document.getElementById('timer').onclick=()=>t0=Date.now();
+
+// ---------- hook interactivity
+document.querySelectorAll('.mach').forEach(m=>m.addEventListener('click',e=>{e.stopPropagation();m.classList.toggle('hit');document.getElementById('hookn').textContent=document.querySelectorAll('.mach.hit').length}));
+
+// ---------- lightbox
+const lb=document.getElementById('lb');if(!lb)return;
+// gallery: while open, arrows move between this slide's photos/video instead of changing slides
+let lbItems=[],lbI=0;const lbImg=lb.querySelector('img'),lbVid=lb.querySelector('video');
+function lbShow(){const it=lbItems[lbI];if(it.vid){lbImg.style.display='none';lbVid.style.display='block';if(lbVid.getAttribute('src')!==it.src)lbVid.src=it.src;lbVid.play().catch(()=>{})}else{lbVid.pause();lbVid.style.display='none';lbImg.style.display='block';lbImg.src=it.src}
+  lb.querySelector('p').textContent=it.cap;lb.querySelector('.lbc').textContent=(lbI+1)+' / '+lbItems.length+'   ·   ← → to browse · Esc to close'}
+function lbOpen(fig){const figs=[...fig.closest('.slide').querySelectorAll('.proof,.proofv')];
+  lbItems=figs.map(f=>{const v=f.querySelector('video');const cap=f.dataset.cap||(f.querySelector('figcaption')||{}).textContent||'';return v?{vid:1,src:v.getAttribute('src'),cap}:{src:f.querySelector('img').getAttribute('src'),cap}});
+  lbI=Math.max(0,figs.indexOf(fig));lbShow();lb.classList.add('open')}
+function lbClose(){lb.classList.remove('open');lbVid.pause()}
+function lbStep(d){if(!lbItems.length)return;lbI=(lbI+d+lbItems.length)%lbItems.length;lbShow()}
+window.__lb={isOpen:()=>lb.classList.contains('open'),step:lbStep,close:lbClose};
+document.querySelectorAll('.proof,.proofv').forEach(f=>{f.style.cursor='zoom-in';f.addEventListener('click',e=>{e.stopPropagation();lbOpen(f)})});
+lb.querySelector('.lbp').onclick=e=>{e.stopPropagation();lbStep(-1)};
+lb.querySelector('.lbnx').onclick=e=>{e.stopPropagation();lbStep(1)};
+lb.querySelector('.lbx').onclick=e=>{e.stopPropagation();lbClose()};
+lbImg.onclick=e=>{e.stopPropagation();lbStep(1)};lbVid.onclick=e=>e.stopPropagation();
+lb.onclick=()=>lbClose();
+
+
+// start
+const h0=parseInt(location.hash.slice(1));go(isNaN(h0)?0:h0-1);
+})();
+</script>
+</body>
+</html>

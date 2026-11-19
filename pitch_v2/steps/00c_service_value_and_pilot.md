@@ -1,5 +1,8 @@
 # Step 0c: Why the service business is valuable on its own, and where to pilot (Gate 1 follow-up)
 
+> **Final numbers (19 Nov 2026):** the pilot, unit economics, plan and deal are restated in **Step 7c** (`07c_simple_model.md`) and Steps 8–9. Where this document's numbers differ, Step 7c is the reference.
+
+
 > **Superseded in part (19 Nov 2026).** Superseded numbers: "breakeven at 30" → 35 on pilot economics, 22 at maturity; year-7 revenue → ₹130.5 Cr (Step 7b). Cluster density: about 2,400 units a month comes from 30–35 shops at 74 units; a mature 60-shop cluster sells about 4,400.
 
 > **Update after Step 7b (approved 19 Nov 2026).** The line "10–12% from service alone" is superseded. A mature cluster now earns 14–16% EBITDA (Step 7b). At the company level, the mature run-rate from service alone is 9.1%.

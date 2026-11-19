@@ -1,8 +1,8 @@
 # Keepwell seed pitch: the 8-minute story deck, explained slide by slide
 
 **Deck:** [`index_8min.html`](index_8min.html). Open it in Chrome. **F** goes full screen, **N** shows these notes, **→ / space** reveals the next click and **B** opens the backup slides for Q&A.
-**Length:** 12 slides, about **7:58** at 150 words a minute.
-**Speaking time:** Prathyusha (CEO) 3:45 · Kavyanth (COO) 2:45 · Sri Charan (CTO) 1:28.
+**Length:** 12 slides, about **6:37** at 150 words a minute.
+**Speaking time:** Prathyusha (CEO) 2:32 · Kavyanth (COO) 2:57 · Sri Charan (CTO) 1:08.
 
 ## How to use this script
 
@@ -22,18 +22,18 @@ Each slide has five parts:
 
 | # | Act | Slide | Speaker | Time | What the investor should believe |
 |---|---|---|---|---|---|
-| 1 | The hook | He sells an AC on Monday. By Thursday, the customer is angry at him. | Prathyusha | 0:40 | The retailer carries the after-sale problem without owning any of the solution. |
-| 2 | The problem | The retailer's promise ends at the counter | Prathyusha | 0:43 | This is a large, everyday, unorganised problem — and families already want a record and a guarantee. |
-| 3 | Why us | Between us, we already know this market by name | Prathyusha | 0:31 | This team can sign retailers, service centres and plan partners faster and cheaper than anyone else. |
-| 4 | Keepwell | The retailer sells the promise. Keepwell keeps it. | Kavyanth | 0:43 | The product is simple, sold through a channel that already exists, with a clear path to bigger layers. |
-| 5 | Keepwell | From the retailer's bill to a second life — what Keepwell does at every step | Sri | 0:52 | Keepwell runs the appliance's entire after-sale life — and every step adds revenue and data on the same visit and record. |
-| 6 | The proof | Eight months, 34 retailers — and the retailers kept routing to us | Kavyanth | 0:40 | Retailers hand over the after-sale job when their name stays on it, and families buy a plan at the counter. |
-| 7 | The proof | Every cluster pays for itself — and the plan sells because we are the repairer | Kavyanth | 0:40 | The unit economics are positive on service, and Protect is a structural advantage, not a hope. |
-| 8 | Why we win | Everyone serves the chains or the brands. Nobody owns the local retailer. | Sri | 0:36 | There is an open lane, and Keepwell's position in it gets harder to copy with every retailer signed. |
-| 9 | How big | ₹4,000 Cr a year that no one organises | Prathyusha | 0:30 | The plan needs a modest share of a large, unorganised market. |
-| 10 | How big | Serve → Supply → Know → Circulate. Each round raised on proof. | Kavyanth | 0:42 | There is a clear, capital-light path from today's pilot to an exit, and each round is priced on evidence. |
-| 11 | The ask | ₹2.5 Cr · one close · 18 months | Prathyusha | 0:50 | The ask is sized by method, priced fairly, and the board can stop expansion at month 9 if the numbers miss. |
-| 12 | The close | Keepwell keeps the promise the retailer made | Prathyusha | 0:31 | This is a company worth backing: a real problem, a working answer, a team that can scale it. |
+| 1 | Keepwell | Keepwell keeps the promise the retailer made | Prathyusha | 0:26 | This is about the local retailer, and these three people know that world. |
+| 2 | The problem | Retailers sell the appliance, then lose the customer | Prathyusha | 0:35 | The pain sits with the local retailer and the family, and nobody owns it. |
+| 3 | Our answer | The retailer sells the promise. Keepwell keeps it. | Kavyanth | 0:38 | A clear company with a big vision and a simple first step. |
+| 4 | Our answer | From the retailer's bill to a second life | Sri | 0:43 | Keepwell runs the appliance's entire after-sale life, and every step earns money or data. |
+| 5 | The proof | One cluster, March to October 2026 | Kavyanth | 0:38 | The model works in the field and was profitable inside the pilot. |
+| 6 | The proof | Every retailer adds ₹5,000 a month; 20 retailers pay for a cluster | Kavyanth | 0:32 | The unit economics are positive and simple to scale. |
+| 7 | The money | How we make money | Kavyanth | 0:28 | Revenue per retailer grows without adding retailers. |
+| 8 | The money | Profitable from year one | Kavyanth | 0:41 | This is a profitable, capital-efficient business. |
+| 9 | Why we win | ₹4,000 Cr that no one organises | Prathyusha | 0:28 | The plan needs only a small share of a large market. |
+| 10 | Why we win | Everyone covers a part | Sri | 0:25 | There is an open lane, and Keepwell is the only one in it. |
+| 11 | Why we win | Between us, we already know this market by name | Prathyusha | 0:24 | This team has an unfair advantage in signing retailers and partners. |
+| 12 | The ask | Raising ₹2.5 Cr for the seed round | Prathyusha | 0:39 | A fairly priced, capital-efficient round with a clear return. |
 
 ## Why the story runs in this order
 
@@ -46,232 +46,222 @@ Each slide has five parts:
 
 ## Slide by slide
 
-### 1. He sells an AC on Monday. By Thursday, the customer is angry at him.
-**Prathyusha (CEO)** · about 0:40 · act: The hook
+### 1. Keepwell keeps the promise the retailer made
+**Prathyusha (CEO)** · about 0:26 · act: Keepwell
 
-**SHOW (on screen):** Four day-cards build left to right: Monday (Ravi sells a ₹38,000 AC to a family he has known for ten years), Tuesday–Wednesday (the brand's installer says 2–5 days; the family calls Ravi twice), Thursday in red (the family is at his counter, not the brand's), two years later (out of warranty; a mechanic guesses and keeps no record). [click] The punchline in large type: 'Ravi earns nothing after the sale — but he carries all the blame.'
-
-**SAY (word for word):**
-
-> Meet Ravi. He runs a multi-brand appliance store in Guntur — a local retailer. On Monday he sells a thirty-eight-thousand-rupee AC to a family he has known for ten years. The brand's installer says two to five days, so the family calls Ravi — twice. On Thursday, in forty-degree heat, they are standing at his counter, not the brand's.
->
-> Two years later the AC fails. It's out of warranty. A mechanic guesses, charges what he likes and keeps no record.
->
-> [click] Ravi earns nothing after the sale. But he carries all the blame.
-
-**WHY this slide:** Open on one person, not a statistic. In 40 seconds the investor feels the problem from the side that matters to us: the retailer.
-
-**THEY SHOULD BELIEVE:** The retailer carries the after-sale problem without owning any of the solution.
-
-**BRIDGE:** *"And Ravi's story is not one retailer's bad week — it is how the whole system works."*
-
-### 2. The retailer's promise ends at the counter
-**Prathyusha (CEO)** · about 0:43 · act: The problem
-
-**SHOW (on screen):** Left: a brand's WhatsApp bot failing (the video plays), an agency sticker with the next service date in marker, a family's handwritten repair diary. Right: four counters — 2–5 days for a brand install; 80–91% of machines out of warranty; 44% of AC service to local mechanics; 7 of 12 households keep no record. [click] 'The person the family trusts has no way to keep the promise he made.'
+**SHOW (on screen):** Title: 'Keepwell keeps the promise the retailer made.' Tagline: the after-sale service arm of every local appliance retailer. Three founder cards. Vijayawada · Seed round · 2026.
 
 **SAY (word for word):**
 
-> We went into homes to see it. This is a brand's WhatsApp bot telling a customer there's an 'API related issue' — her last message: 'My request was not done.' Families keep their own records — a sticker, a diary, a date in marker.
+> Meet Ravi. He runs a multi-brand appliance store in Guntur. On Monday he sells a thirty-eight-thousand-rupee AC. By Thursday the family is back at his counter, because the installer hasn't come. Two years later it breaks, and a mechanic guesses.
 >
-> The numbers say the same thing. Brand installs take two to five days. Eighty to ninety-one percent of machines in homes are out of warranty. Forty-four percent of AC service goes to local mechanics with no guarantee and no record.
->
-> [click] The person the family trusts has no way to keep the promise he made.
+> I'm Prathyusha, with Kavyanth and Sri Charan. We are Keepwell: the after-sale service arm of every local appliance retailer like Ravi.
 
-**WHY this slide:** Evidence the investor can see (the video, the diary) plus four sourced numbers. The click lands the one-line insight the company is built on.
+**WHY this slide:** Open on one retailer's week while the title and the team are on screen: the investor knows the problem, the company and the people in 30 seconds.
 
-**THEY SHOULD BELIEVE:** This is a large, everyday, unorganised problem — and families already want a record and a guarantee.
+**THEY SHOULD BELIEVE:** This is about the local retailer, and these three people know that world.
 
-**BRIDGE:** *"We know this market because each of us has lived one side of it."*
+**BRIDGE:** *"Here is the problem in three parts."*
 
-### 3. Between us, we already know this market by name
-**Prathyusha (CEO)** · about 0:31 · act: Why us
+### 2. Retailers sell the appliance, then lose the customer
+**Prathyusha (CEO)** · about 0:35 · act: The problem
 
-**SHOW (on screen):** Three founder cards, each with one big number: Prathyusha — 600+ dealers; Kavyanth — 200+ service centres; Sri Charan — claims platforms. Advisors in one line underneath.
+**SHOW (on screen):** Three cards: Slow installs (2–5 days; 51 of 64 retailers take the blame); Guesswork repairs (80–91% out of warranty; 44% of AC service to local mechanics); Blame, no income (2–3% net; nothing after the sale; held jointly liable). [click] The result line: 7 of 12 households keep no record, and the person they trust can't keep the promise.
 
 **SAY (word for word):**
 
-> I'm Prathyusha. For ten years I ran distribution to six hundred independent dealers in Andhra and Telangana — every one of them has a Ravi story. Kavyanth ran a brand's service network across two hundred service centres; he knows who has idle technicians in the monsoon. Sri Charan built claims verification at a device-protection company — the engine behind a plan sold at a counter.
+> Three things go wrong. Installs are slow: brands take two to five days, and fifty-one of the sixty-four retailers we met take the blame. Repairs are guesswork: most machines are out of warranty, and forty-four percent of AC service goes to local mechanics with no fixed price and no record. And the retailer earns nothing after the sale, while courts hold him liable.
 >
-> Keepwell connects people who already trust us.
+> [click] The result: the person the family trusts has no way to keep the promise he made.
 
-**WHY this slide:** The course gives the team the most weight. Each founder brings one network, and each network changes a number in the model (cheaper retailers, authorisation, plan fulfilment).
+**WHY this slide:** One problem, three causes, one result line, the same structure an investor scans in five seconds.
 
-**THEY SHOULD BELIEVE:** This team can sign retailers, service centres and plan partners faster and cheaper than anyone else.
+**THEY SHOULD BELIEVE:** The pain sits with the local retailer and the family, and nobody owns it.
 
-**BRIDGE:** *"So here is what we built. Kavyanth."*
+**BRIDGE:** *"So here is our answer. Kavyanth."*
 
-### 4. The retailer sells the promise. Keepwell keeps it.
-**Kavyanth (COO)** · about 0:43 · act: Keepwell
+### 3. The retailer sells the promise. Keepwell keeps it.
+**Kavyanth (COO)** · about 0:38 · act: Our answer
 
-**SHOW (on screen):** Dark slide. Four offers the retailer now sells under its own name: authorised install in 24 hours; guaranteed repair and AMC; Keepwell Protect, a 2-year repair plan on the retailer's bill (highlighted); the appliance record. [click] Our vision in one sentence: 'Keepwell looks after every appliance a local retailer sells for its whole life: installed right, repaired with genuine parts, kept covered, and refurbished or recycled when its time is up.'
+**SHOW (on screen):** Dark slide. The vision in one sentence, then [click] three steps: Step 1 Live, Serve (installs, repair, AMC, Protect under the retailer's name); Step 2 Next, Supply (central parts, partner clusters, trade-ins); Step 3 Later, Know and circulate (verified records; refurbish and recycle).
 
 **SAY (word for word):**
 
-> I'm Kavyanth. Keepwell is the after-sale service arm of every local appliance retailer. The retailer sells the promise; we keep it.
+> I'm Kavyanth. The retailer sells the promise; Keepwell keeps it. Our vision in one sentence: Keepwell looks after every appliance a local retailer sells for its whole life — installed right, repaired with genuine parts, kept covered, and refurbished or recycled when its time is up.
 >
-> An authorised install within a day, so the warranty is safe. Guaranteed repairs and AMC at a fixed rate card, for AC, fridge, washing machine and purifier. And Keepwell Protect — a two-year repair plan the retailer sells on its own bill.
->
-> [click] Our vision, in one sentence: Keepwell looks after every appliance a local retailer sells for its whole life — installed right, repaired with genuine parts, kept covered, and refurbished or recycled when its time is up.
+> [click] We build it in three steps. Today we serve: authorised installs, guaranteed repairs, AMC and Keepwell Protect, a two-year plan, all under the retailer's name. Next, we supply parts and run partner clusters. Later, the record and the second life.
 
-**WHY this slide:** The name arrives as the answer to Ravi. The click lands the whole vision — from install to recycling — in one sentence, which the next slide then draws as a flowchart.
+**WHY this slide:** Vision first, then the live, next, later steps, so the investor sees where it starts and where it goes.
 
-**THEY SHOULD BELIEVE:** The product is simple, sold through a channel that already exists, with a clear path to bigger layers.
+**THEY SHOULD BELIEVE:** A clear company with a big vision and a simple first step.
 
-**BRIDGE:** *"Here's what that looks like across one appliance's whole life. Sri Charan."*
+**BRIDGE:** *"Here is what that means for one appliance. Sri Charan."*
 
-### 5. From the retailer's bill to a second life — what Keepwell does at every step
-**Sri Charan (CTO)** · about 0:52 · act: Keepwell
+### 4. From the retailer's bill to a second life
+**Sri Charan (CTO)** · about 0:43 · act: Our answer
 
-**SHOW (on screen):** A flowchart of one appliance's life. Row 1: 1 Sold (retailer adds install + Protect to the bill; consent; record starts) → 2 Installed (authorised technician in 24 h; warranty registered) → 3 In use (AMC, Protect cover, reminders) → 4 Breaks (Telugu voice note; AI triage) → 5 Diagnosed (rate card or Protect). [click] 'Worth repairing? Yes' → 6 Parts (Keepwell buys genuine parts centrally from distributors, stocks each cluster, sells to local agencies) → 7 Repaired (photo + OTP; 90-day guarantee; technician paid in 48 h) → back to In use. [click] 'No' → 8 Traded in (Keepwell's field arm values and collects; the retailer sells the replacement) → 9 Refurbished (resold through retailers with a warranty, back to Sold) or 10 Recycled (registered e-waste recyclers). The Know bar along the bottom: every step is written to one consented record → verified installs and claims for brands, leads for the retailer. Legend: Serve now · Supply from year 2 · Circulate from year 3.
+**SHOW (on screen):** A flowchart of one appliance's life with Keepwell's role in each box: Sold → Installed → In use → Breaks → Diagnosed. [click] Worth repairing? Yes → Parts (bought centrally) → Repaired → back in use. [click] No → Traded in → Refurbished (sold again) or Recycled. The Know bar along the bottom: one consented record.
 
 **SAY (word for word):**
 
-> I'm Sri Charan. Here is one appliance's whole life with us. The retailer adds the install and Protect to the bill; the family consents on WhatsApp and the record starts. An authorised technician installs it within a day. Months later, a Telugu voice note — our AI desk drafts the likely fault and the part to carry.
+> I'm Sri Charan. Here is one appliance's whole life with us. The retailer adds the install and Protect to the bill; the family consents on WhatsApp. An authorised technician installs it within a day. When it breaks, a Telugu voice note — our AI desk drafts the fault and the part to carry.
 >
-> [click] If it's worth repairing, we buy genuine parts centrally from distributors, fix it, close with a photo and an OTP, and it goes back into use.
+> [click] If it's worth repairing, we source genuine parts, fix it, and it goes back into use.
 >
-> [click] If it isn't, we collect it as a trade-in while the retailer sells the new one — and we refurbish it or send it to a registered recycler. Every step goes on one record.
+> [click] If not, we collect it as a trade-in while the retailer sells the new one, and refurbish or recycle it. Every step goes on one record.
 
-**WHY this slide:** The flowchart shows the whole lifecycle and Keepwell's job at every step — sale, install, service, parts, repair, trade-in, refurbish, recycle — so the investor sees one company running the appliance's entire after-sale life, not a single repair app. The two clicks keep it readable: life, then repair, then end of life.
+**WHY this slide:** The product as one flow, with Keepwell's job at every stage, in three readable clicks.
 
-**THEY SHOULD BELIEVE:** Keepwell runs the appliance's entire after-sale life — and every step adds revenue and data on the same visit and record.
+**THEY SHOULD BELIEVE:** Keepwell runs the appliance's entire after-sale life, and every step earns money or data.
 
-**BRIDGE:** *"We ran this for eight months. Kavyanth."*
+**BRIDGE:** *"We tested this for eight months. Kavyanth."*
 
-### 6. Eight months, 34 retailers — and the retailers kept routing to us
-**Kavyanth (COO)** · about 0:40 · act: The proof
+### 5. One cluster, March to October 2026
+**Kavyanth (COO)** · about 0:38 · act: The proof
 
-**SHOW (on screen):** Five counters: 34 retailers on 2-year exclusive agreements (33 active); ~2,400 jobs; ₹25 L revenue; ₹4.5k contribution per retailer a month by month 4; 6% Protect attach (teal). Underneath: what worked (74 units per retailer a month, 58% of installs routed, 87% installed in 24 h, 81% first-visit fix) and what it proves.
+**SHOW (on screen):** Six tiles, all 8-month totals for one cluster: 34 retailers on 2-year exclusive agreements; 2,400 jobs; ₹38 L revenue; ₹9.9 L contribution (26%); +₹1.9 L cluster profit after the ₹8 L team; 6% Protect attach. A monthly chart: contribution bars crossing the ₹1.0 L team-cost line in May. [click] The one-line result.
 
 **SAY (word for word):**
 
-> We ran the pilot in Vijayawada–Guntur from March to October 2026. Thirty-four retailers signed two-year exclusive agreements, and thirty-three are still with us. About twenty-four hundred jobs, twenty-five lakh of revenue, and by month four each retailer contributed four and a half thousand rupees a month.
+> We ran one cluster in Vijayawada–Guntur for eight months. Thirty-four retailers signed two-year exclusive agreements. We did twenty-four hundred jobs and earned thirty-eight lakh of revenue. After paying technicians, parts and the retailers' commission, we kept nine point nine lakh — and after the cluster team's eight lakh, the cluster made a profit.
 >
-> Retailers routed fifty-eight percent of installs to us; eighty-seven percent were done within a day. We missed some targets too — retailer signing lagged and one partner under-delivered — and we fixed both.
+> Look at the chart: each month's contribution crossed the team cost in May, when we reached twenty retailers.
 >
-> And when twelve retailers offered Protect at the counter, six percent of buyers took it.
+> [click] The pilot tested one thing — does a cluster pay for itself? It does.
 
-**WHY this slide:** Traction before economics: the investor sees field proof first, with the misses stated, so the hits are believable.
+**WHY this slide:** Every number on the slide adds up to one conclusion: the cluster pays for itself. The chart shows when.
 
-**THEY SHOULD BELIEVE:** Retailers hand over the after-sale job when their name stays on it, and families buy a plan at the counter.
+**THEY SHOULD BELIEVE:** The model works in the field and was profitable inside the pilot.
 
-**BRIDGE:** *"Here is why that turns into a business."*
+**BRIDGE:** *"Here is why, retailer by retailer."*
 
-### 7. Every cluster pays for itself — and the plan sells because we are the repairer
-**Kavyanth (COO)** · about 0:40 · act: The proof
+### 6. Every retailer adds ₹5,000 a month; 20 retailers pay for a cluster
+**Kavyanth (COO)** · about 0:32 · act: The proof
 
-**SHOW (on screen):** Left: one mature 60-retailer cluster — ₹2.72 Cr revenue, ₹44 L EBITDA (16%), breakeven 22 retailers (35 today), the retailer earns ₹3,170 a month. Right: one ₹2,000 Protect plan as bars — net ₹1,695; retailer keeps ₹424; repairs at our cost ₹593; Keepwell keeps ₹593. [click] Company line: EBITDA-positive in year 5; ₹130.5 Cr revenue and ₹8.6 Cr EBITDA in year 7; mature network 13.4%.
+**SHOW (on screen):** Four boxes, left to right: one job ₹1,580 (≈ ₹410 contribution); one retailer ₹19,500 a month (₹5,070 contribution); one pilot cluster ₹1.0 L team a month (breakeven 20 retailers); one mature cluster ₹51 L EBITDA a year (24%). [click] 'Positive at every level.'
 
 **SAY (word for word):**
 
-> Sixty retailers make a cluster. At maturity it earns two point seven crore of revenue and forty-four lakh of EBITDA — sixteen percent, on service. It breaks even at twenty-two retailers; on today's pilot numbers, thirty-five. The retailer earns about three thousand a month from us.
+> An average job is fifteen hundred and eighty rupees; we keep about four hundred. A retailer gives us about twelve jobs a month — five thousand rupees of contribution. A cluster team costs one lakh a month, so twenty retailers pay for it. A mature cluster of sixty retailers earns fifty-one lakh a year.
 >
-> Protect is why the margin works: we're the repairer, so a two-thousand-rupee plan costs us about six hundred to honour, and we keep about six hundred.
->
-> [click] The company turns EBITDA-positive in year five and reaches a hundred and thirty crore of revenue in year seven.
+> [click] Positive at every level — the job, the retailer, the cluster. Growth is just adding retailers to clusters.
 
-**WHY this slide:** One slide carries the two numbers investors test first — cluster profit and the plan's margin — and the click links them to the company plan.
+**WHY this slide:** The chain links the pilot's numbers to the mature cluster in one line, so the investor sees how growth turns into profit.
 
-**THEY SHOULD BELIEVE:** The unit economics are positive on service, and Protect is a structural advantage, not a hope.
+**THEY SHOULD BELIEVE:** The unit economics are positive and simple to scale.
 
-**BRIDGE:** *"So why hasn't anyone else done this? Sri Charan."*
+**BRIDGE:** *"Here's where that money comes from."*
 
-### 8. Everyone serves the chains or the brands. Nobody owns the local retailer.
-**Sri Charan (CTO)** · about 0:36 · act: Why we win
+### 7. How we make money
+**Kavyanth (COO)** · about 0:28 · act: The money
 
-**SHOW (on screen):** Comparison table: Urban Company (metro households, takes the customer), Onsitego/Zopper (plans at chain counters; closest, no owned delivery in small towns, a possible partner), 247around/SERVIZ (brand-paid), Jeeves/resQ (captive), local mechanics (44%, no guarantee or record). Keepwell's row in teal: exclusive retailer agreements · density · authorisation · the record.
+**SHOW (on screen):** Three columns: Live · Serve (paid by households through the retailer: install ₹800 net, repair from ₹550, AMC ₹1,299, Protect ₹2,000, retailer commission); Next · Supply (parts, partner clusters at a 10% fee, trade-ins); Later · Know and circulate (verification for brands, leads, refurbished, e-waste). Line: ₹19,500 → ₹30,000 a month per retailer.
 
 **SAY (word for word):**
 
-> Because everyone serves someone else. Urban Company serves metro households and takes the customer. Onsitego sells plans at chain counters — it's the closest, but it has no delivery of its own in small towns, so it could be our partner. 247around is paid by brands. Jeeves and resQ are captive. Local mechanics are everywhere — and they're our future technicians.
+> Today, households pay through the retailer: for authorised installs, repairs, AMC and Protect, and the retailer earns a commission on every job. Next, parts and partner clusters. Later, brands pay to verify installs and claims, and old appliances get a second life.
 >
-> Nobody owns the local retailer's after-sale relationship. Our moat is exclusive retailer agreements, cluster density, authorisation — and a record that grows with every visit.
+> As Protect, AMC renewals and parts build, each retailer grows from nineteen and a half thousand to thirty thousand rupees a month.
 
-**WHY this slide:** Answers 'why hasn't X done this' with named players, and states the moat as operational facts, not technology.
+**WHY this slide:** Live, next and later revenue, with prices, so the investor sees what is earned today and what is upside.
 
-**THEY SHOULD BELIEVE:** There is an open lane, and Keepwell's position in it gets harder to copy with every retailer signed.
+**THEY SHOULD BELIEVE:** Revenue per retailer grows without adding retailers.
 
-**BRIDGE:** *"And the lane is big. Prathyusha."*
+**BRIDGE:** *"So here is the plan."*
 
-### 9. ₹4,000 Cr a year that no one organises
-**Prathyusha (CEO)** · about 0:30 · act: How big
+### 8. Profitable from year one
+**Kavyanth (COO)** · about 0:41 · act: The money
 
-**SHOW (on screen):** Bars: TAM ≈ ₹4,000 Cr (after-sale spend through local retailers, Tier 2/3) → SAM ≈ ₹1,040 Cr (five southern states) → beachhead ≈ ₹360 Cr (AP + TS) → year 7 ₹130 Cr (3,300 retailers, about 7% of India's local retailers).
+**SHOW (on screen):** A 5-year table and bars: retailers 200 → 3,000; clusters 4 → 50; revenue ₹3.5 Cr → ₹86 Cr; EBITDA +₹0.13 Cr → +₹16.9 Cr (4% → 20%). [click] 'EBITDA is positive every year; peak cash need ₹2.0 Cr; from 2030 growth pays for itself.'
 
 **SAY (word for word):**
 
-> About four thousand crore a year of after-sale spend flows through the customers of independent Tier 2 and 3 retailers. The five southern states are about a thousand crore; Andhra and Telangana alone, three hundred and sixty.
+> From two hundred retailers next year to three thousand in 2031. Revenue grows from three and a half crore to eighty-six crore, as each retailer grows from nineteen and a half thousand rupees a month in the pilot to twenty-five thousand next year and thirty thousand by year five. And EBITDA is positive every year — from the first year, rising to a twenty percent margin.
 >
-> By year seven we plan a hundred and thirty crore from thirty-three hundred retailers — about seven percent of India's local retailers, and about a quarter of the retailers in the towns we enter.
+> [click] We aren't raising to cover losses. We're raising to open clusters faster: the plan's peak cash need is two crore, and from 2030 growth pays for itself.
 
-**WHY this slide:** Market after economics: the TAM reads as 'how far this repeats', and the year-7 share is small and believable.
+**WHY this slide:** One table, one point: profitable from year one. The click explains why we still raise money.
 
-**THEY SHOULD BELIEVE:** The plan needs a modest share of a large, unorganised market.
+**THEY SHOULD BELIEVE:** This is a profitable, capital-efficient business.
 
-**BRIDGE:** *"Here is how we get there, one round at a time. Kavyanth."*
+**BRIDGE:** *"And there's a lot of room. Prathyusha."*
 
-### 10. Serve → Supply → Know → Circulate. Each round raised on proof.
-**Kavyanth (COO)** · about 0:42 · act: How big
+### 9. ₹4,000 Cr that no one organises
+**Prathyusha (CEO)** · about 0:28 · act: Why we win
 
-**SHOW (on screen):** Revenue bars, years 1–8 (₹2.4 Cr → ₹181.6 Cr) with EBITDA under each (−1.1 … +15.3). [click] Four round cards: Seed now ₹2.5 Cr at ₹8 Cr pre (Serve, 4 clusters); Round 2 H2 2028 ₹5 Cr at ₹25 Cr pre (Supply — service centres run partner clusters); Round 3 2030 ₹15 Cr at ₹70 Cr pre (scale to 72 clusters); exit 2033–34, EV ₹255–376 Cr.
+**SHOW (on screen):** Six tiles: 45,000 local retailers; 1.8–2.5 M appliances a month; ≈ ₹4,000 Cr TAM; ≈ ₹1,040 Cr SAM; ≈ ₹360 Cr beachhead; 3,000 retailers by 2031 (under 7%). Why-now line underneath.
 
 **SAY (word for word):**
 
-> Revenue grows from two crore next year to a hundred and thirty crore in year seven.
+> There are forty-five thousand local appliance retailers in India, selling about two million appliances a month — about four thousand crore a year of after-sale spend. Our plan needs three thousand of them by 2031, under seven percent.
 >
-> [click] And it's funded one step at a time, each raised on proof. The seed proves Serve in four clusters. Round two funds central parts buying, and from year three existing service centres run our new clusters as partners — that's how we grow without hiring a team in every town. Round three scales to seventy-two clusters. And in 2033 or 34, a strategic buyer or PE — an enterprise value of two hundred and fifty-five to three hundred and seventy-six crore.
+> And it's the right time: AC ownership is growing fifteen percent a year, families already book and pay on WhatsApp, and the new rules favour a registered operator.
 
-**WHY this slide:** Shows the vision and the later rounds without asking for them now — we only ask for the next proof.
+**WHY this slide:** The market as six tiles that end in how small a share we need, with why now in one line.
 
-**THEY SHOULD BELIEVE:** There is a clear, capital-light path from today's pilot to an exit, and each round is priced on evidence.
+**THEY SHOULD BELIEVE:** The plan needs only a small share of a large market.
 
-**BRIDGE:** *"Which brings us to today's ask. Prathyusha."*
+**BRIDGE:** *"Why hasn't anyone done this? Sri Charan."*
 
-### 11. ₹2.5 Cr · one close · 18 months
-**Prathyusha (CEO)** · about 0:50 · act: The ask
+### 10. Everyone covers a part
+**Sri Charan (CTO)** · about 0:25 · act: Why we win
 
-**SHOW (on screen):** Dark slide. Three cards: ₹2.5 Cr CCPS (a single close before the term sheet); ₹8 Cr pre-money (23.8%); 18 months from close (one-year need ₹1.34 Cr + six months to raise Round 2). [click] The month-9 board checkpoint (Dec 2027) and the month-18 case for Round 2 (Sep 2028). A clean-company line underneath.
+**SHOW (on screen):** A tick matrix: Keepwell ticks all six (authorised install, repair and AMC, plan at the counter, local retailer is the customer, own delivery in small towns, appliance record). Urban Company, Onsitego/Zopper, 247around/SERVIZ, brand service centres, Jeeves/resQ and local mechanics each cover a part. Line: only Keepwell is the after-sale arm of the local retailer.
 
 **SAY (word for word):**
 
-> So here's our ask: two and a half crore, as CCPS, at an eight crore pre-money valuation — the value the course's own scorecard gives, inside what comparable seed rounds pay.
+> Everyone covers a part. Urban Company serves metro households. Onsitego sells plans at chain counters. 247around is paid by brands. Jeeves and resQ serve only their own retailer's buyers. Local mechanics fix things but give no guarantee and keep no record.
 >
-> We sized it the course's way: one year of need from the close is one point three four crore; add six months to raise the next round, and a small buffer.
->
-> [click] It's a single close. At month nine, after the first AC season, the board checks five numbers — units per retailer, the pilot cluster paying for its own team, Protect sales, the legal opinion and authorisation — before we expand further. By month eighteen: four clusters, two hundred retailers — the case for Round 2.
+> Only Keepwell is the after-sale arm of the local retailer — authorised, guaranteed, and on one record.
 
-**WHY this slide:** Requirement first, then the number. The month-9 board checkpoint is the investor's protection; the clean-company line answers compliance before Q&A.
+**WHY this slide:** One matrix, one row that is full: the investor sees the gap at a glance.
 
-**THEY SHOULD BELIEVE:** The ask is sized by method, priced fairly, and the board can stop expansion at month 9 if the numbers miss.
+**THEY SHOULD BELIEVE:** There is an open lane, and Keepwell is the only one in it.
 
-**BRIDGE:** *"Let's go back to Ravi."*
+**BRIDGE:** *"And we're the team to take it. Prathyusha."*
 
-### 12. Keepwell keeps the promise the retailer made
-**Prathyusha (CEO)** · about 0:31 · act: The close
+### 11. Between us, we already know this market by name
+**Prathyusha (CEO)** · about 0:24 · act: Why we win
 
-**SHOW (on screen):** Dark slide. [click] Ravi's week again, with Keepwell: Monday, install and Protect on the same bill; Tuesday, an authorised install, warranty safe; two years later, a Telugu voice note and a covered fix the same week; Ravi earns on the plan and the family comes back to his retailer.
+**SHOW (on screen):** Three founder cards with one big number each (600+ dealers; 200+ service centres; claims platforms), advisors, and the edge: warm introductions cut the cost of signing a retailer from ₹22k to ₹9.5k.
 
 **SAY (word for word):**
 
-> Let's go back to Ravi.
+> I've supplied six hundred dealers in Andhra and Telangana for ten years. Kavyanth knows the owners of two hundred service centres. Sri Charan built the claims engine behind plans sold at a counter.
 >
-> [click] Monday, he sells the AC — with the install and Protect on the same bill. Tuesday, an authorised technician installs it. Two years later, a voice note in Telugu, and a covered fix the same week. Ravi earns on the plan, and the family comes back to his retailer.
+> That's our edge: our introductions cut the cost of signing a retailer from twenty-two thousand to nine and a half thousand rupees.
+
+**WHY this slide:** Each founder's network maps to one part of the business, and the edge is a number.
+
+**THEY SHOULD BELIEVE:** This team has an unfair advantage in signing retailers and partners.
+
+**BRIDGE:** *"So here's our ask."*
+
+### 12. Raising ₹2.5 Cr for the seed round
+**Prathyusha (CEO)** · about 0:39 · act: The ask
+
+**SHOW (on screen):** Dark slide. A table: 1 · Cluster launches 64% ₹1.6 Cr (8 new clusters, 500 retailers by March 2029; ₹20 L per cluster); 2 · Working capital 16% ₹0.4 Cr; 3 · Buffer and compliance 20% ₹0.5 Cr. Three cards: ₹2.5 Cr CCPS, single close; ₹10 Cr pre-money, 20%; 20× seed return at a year-5 exit (March 2032). [click] 'The only round we need to reach 1,000 retailers. Keepwell keeps the promise the retailer made.'
+
+**SAY (word for word):**
+
+> We're raising two and a half crore, as CCPS, at a ten crore pre-money valuation, in one close. Sixty-four percent opens eight new clusters, sixteen percent is working capital, and twenty percent is buffer and compliance above our two-crore peak need. Head office runs on our operating profit.
 >
-> Keepwell keeps the promise the retailer made when it sold the appliance. Thank you.
+> At a year-five exit, in March 2032, at fifteen times EBITDA, the seed's twenty percent returns about twenty times.
+>
+> [click] This is the only round we need to reach a thousand retailers. Keepwell keeps the promise the retailer made. Thank you.
 
-**WHY this slide:** The close replays the hook with the problem solved, so the room leaves with one picture and one line.
+**WHY this slide:** The ask as a use-of-funds table, then the terms, then the close line.
 
-**THEY SHOULD BELIEVE:** This is a company worth backing: a real problem, a working answer, a team that can scale it.
+**THEY SHOULD BELIEVE:** A fairly priced, capital-efficient round with a clear return.
 
-**BRIDGE:** (Q&A — press B for the backup slides.)
+**BRIDGE:** (Q&A: press B for the backup slides.)
 
 ## Backup slides (press B; for Q&A only)
 
-- **Valuation:** Course scorecard ₹8.2 Cr pre; comparables ₹6–12 Cr pre; VC method ≤ ₹13.5 Cr post (stress, 40% IRR); our price ₹8 Cr pre / ₹10.5 Cr post.
-- **Cap table and returns:** Founders 60.5% → 41.5% after Round 3; seed 23.8% → 16.3%; returns 6.9× (year 5, stress) to 24.6× (year 7, BASE).
-- **Scenarios:** BASE / stress / LOW: year-7 revenue, EBITDA, first positive year, peak cash need, what we do.
-- **Key terms:** CCPS, single close, 1x non-participating, broad-based weighted-average anti-dilution, 3-person board, vesting from Aug 2025, ESOP 10%.
+- **Pilot, month by month:** Retailers 12 → 34; revenue ₹2.34 L → ₹6.63 L a month; contribution crosses the ₹1.0 L team in May; total +₹1.9 L.
+- **Valuation:** Course scorecard ₹10.0 Cr (89/100); comparables ₹6–12 Cr; VC method ceiling ₹47 Cr post; our price ₹10 Cr pre / ₹12.5 Cr post.
+- **Cap table and return:** Founders 64.0%, iSAFE 6.0%, ESOP 10.0%, seed 20.0%; exit ₹254 Cr; seed 20×, 83% IRR.
+- **Conservative case:** Revenue per retailer −10%, margin −2 points, rollout −25%, head office −15%: breakeven in year 1, positive from year 2; peak need ₹2.6 Cr, covered by the buffer and a one-quarter delay in two launches.
 
 ## Before you present
 

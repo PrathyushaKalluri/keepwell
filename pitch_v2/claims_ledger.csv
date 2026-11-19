@@ -1,44 +1,30 @@
 id,claim,value,source,basis,used_in
-C01,Seed ask,"₹2.5 Cr CCPS, single close",steps/08 §8.2; model/rounds.py,Model,deck 12; story ask; full story
-C02,One-year funding need from the close (stress),₹1.34 Cr,steps/08 §8.2; model/monthly_cash.py (no plan cash; ₹2 L at close),Model,deck 12 notes; story ask
-C03,Sizing total (need + six months to raise Round 2 + contingency),₹1.34 + ₹1.00 + ₹0.16 = ₹2.50 Cr,steps/08 §8.2,Model,story ask
-C04,Pre-money / post-money,₹8 Cr / ₹10.5 Cr; 23.8% to seed,steps/09 §9.2; xlsx Funding,Model,deck 12; A1; backup
-C05,VC-method ceiling (stress 40% IRR 5y),₹13.5 Cr post,steps/09 §9.2; xlsx Funding,Model,A1; backup
-C06,Course scorecard valuation,₹8.2 Cr pre,steps/09 §9.2; steps/11,Model,A1; backup
-C07,Cap table after seed,Founders 60.5% · seed 23.8% · ESOP 10.0% · iSAFE 5.7%,xlsx Funding,Model,A1; backup
-C08,Founders after Round 3,41.5%,xlsx Funding,Model,A1; backup
-C09,Seed return,6.9× (47% IRR) yr-5 stress; 16.7× yr-7 stress; 24.6× yr-7 BASE,xlsx Funding,Model,backup; Q&A
-C10,Future rounds,Round 2 ₹5 Cr at ₹25 Cr pre (H2 2028); Round 3 ₹15 Cr at ₹70 Cr pre (2030),steps/08 §8.5; steps/09,Plan,deck 11; story journey
-C11,Exit EV year 7,"₹255 Cr (stress) – ₹376 Cr (BASE); ₹376 Cr = 2.9× Y7 revenue, ~25× Y8 EBITDA",xlsx Plan EV rows; steps/09 §9.5,Model,deck 11; story journey
-C12,Year-7 revenue / EBITDA (BASE),₹130.5 Cr / ₹8.6 Cr (6.6%),xlsx Plan,Model,deck 7/11; story unitecon
-C13,EBITDA-positive year (BASE / stress),Y5 / Y6,xlsx Plan,Model,deck 11; A2
-C14,Mature cluster (60 shops),₹2.72 Cr revenue; ₹44 L EBITDA (16%); breakeven 22 shops,xlsx Cluster,Model,deck 7; story unitecon
-C15,Partner cluster EBITDA to Keepwell,₹38 L (14%),xlsx Cluster,Model,deck 7; story partners
-C16,Breakeven on pilot economics,about 35 shops (22 at maturity),steps/06; steps/07b,Pilot,story misses; deck 7 land
-C17,Mature network run-rate,13.4% EBITDA; 9.1% service-only,steps/07b §7b.4,Model,deck 7; story unitecon
-C18,Mature shop,₹3.5 L core + ₹0.9 L Protect; ₹1.16 L contribution,xlsx Shop,Model,deck 7; story unitecon
-C19,Shop income from Keepwell,"₹1.7k/month in the pilot; ~₹3,170 with Protect",steps/06; steps/07b,Model,Story/Model
-C20,Protect per plan,"₹2,000 incl GST; ₹1,695 net; Keepwell keeps ₹593",xlsx Shop Protect block; steps/07b,Model,deck 7; story protect
-C21,Protect claims on own data,~27% of net (35% carried; 45% stress),steps/07b §7b.3,Model,story protect
-C22,Protect counter test,6% attach; 72 plans; 12 shops; May–Jun 2026,steps/06 update box,Pilot,deck 6; story pilot
-C23,Pilot,"34 shops on 2-year exclusive agreements (33 active); ~2,400 jobs; ₹25 L revenue; Mar–Oct 2026",steps/06,Pilot,Story
-C24,Pilot scorecard,74 units/shop/month; 58% routed; 87% in 24 h; 81% first-visit fix; 41% authorised,steps/06 §6.4,Pilot,deck 6; story pilot
-C25,Pilot misses,shop signing; sub-contract partner; 2.6 jobs/day; plan-seller 70 vs 100,steps/06 §6.4,Pilot,deck 6; story misses
-C26,TAM,≈ ₹4,000 Cr,Model,R/Model
-C27,SAM / beachhead,≈ ₹1,040 Cr / ≈ ₹360 Cr,Model,R
-C28,Year-7 shops,3,300 shops; 55 clusters; ~7% of India's 45k independent shops,Model,Model
-C29,Brand install wait,2–5 days (Flipkart); 24–72 h (LG),steps/04 §4.6,Research,deck 2; story problem
-C30,Out-of-warranty share,80–91% of installed base,steps/04 §4.6,Research,deck 2; story problem
-C31,AC service to local mechanics,44% (LocalCircles n=13,487),Model,R
-C32,Households with no record,7 of 12,steps/06 §6.2 (household discovery),Research,deck 2; story problem
-C33,Shop owners blamed for install delays,51 of 64,steps/06 §6.2,Discovery,deck 2; story hook
-C34,Shop net margin; seller liability,2–3%; Chennai ₹35k; Hyderabad ₹60k,steps/04 §4.6,Research,story problem
-C35,Founder networks,600+ dealers (CEO); 200+ service centres (COO),steps/02 §2.2,Team,deck 10; story team
-C36,Gig-worker levy,1.4% of revenue,steps/10; keepwell_model.xlsx Inputs levy,Research,story clean; A3
-C37,Month-9 checkpoint and month-18 milestones,Checkpoint (board review): ≥65 units/shop · ≥50% routing · pilot cluster pays its team (trailing 12 months) · Protect ≥3.75% in pilot shops · legal opinion · ≥35% authorised. M18: 4 clusters · 200+ shops · ₹4.5 Cr+ run-rate · 3 partners · 1 verification contract,steps/08 §8.4,Plan,deck 12; story ask
-C38,Downside if the checkpoint fails,Expansion stops with ~₹1 Cr in hand; orderly wind-down returns ~₹0.5 Cr under the 1x preference,steps/08; steps/09,Model,Q&A
-C39,Stress cash need to month 48,₹7.7 Cr (₹8.1 Cr at 55% claims; ₹8.7 Cr with no Protect); seed + Round 2 cover into late 2030; Round 3 covers the tail to the ₹10.1 Cr monthly low point,model/monthly_cash.py,Model,A2; Q&A
-C40,Competitor positions,UC ~36% take; Onsitego chains; 247around brand-paid; Jeeves/resQ captive,steps/05,Research,deck 9; story nobody
-C41,Shop letters of intent and agreements,28 LOIs before the pilot; 34 shops on 2-year exclusive service-arm agreements; 33 active,steps/06 update; steps/02 timeline,Pilot,deck 6; story pilot
-C42,Authorisation status,2 sub-contracts renewed for 2027; one brand's LOI for direct authorisation,steps/06 update; steps/10,Pilot,story clean; A3
-C43,LTV / CAC / payback (mature shop),₹74k/yr cluster EBITDA per shop; CAC ₹14k; payback 2–3 months; LTV:CAC ~26×,steps/07b,Model,Q&A
+C01,Seed ask,"₹2.5 Cr CCPS, single close",steps/08; model/simple_model.py,Model,deck 12; story ask
+C02,Valuation,₹10 Cr pre / ₹12.5 Cr post; 20% to seed,steps/09; xlsx Deal,Model,deck 12; story ask
+C03,Course scorecard,₹9 Cr × 89/100 ÷ 80 = ₹10.0 Cr,steps/09; steps/11; xlsx Deal,Model,backup
+C04,VC-method ceiling,₹47 Cr post (2031 EV ₹254 Cr ÷ 1.4^5),xlsx Deal,Model,backup
+C05,Cap table after seed,Founders 64.0% · iSAFE 6.0% · ESOP 10.0% · seed 20.0%,xlsx Deal,Model,backup
+C06,Exit and return,"2031 EV ₹254 Cr (15× EBITDA ₹16.9 Cr, ~2.9× revenue); seed 20×, 83% IRR",xlsx Deal,Model,deck 12; story ask
+C07,Pilot retailers,34 on 2-year exclusive agreements (12 → 34; 33 active); 28 LOIs before the pilot,steps/06; steps/07c,Pilot,deck 5; story traction
+C08,Pilot revenue,₹38 L over 8 months (Mar–Oct 2026),xlsx Pilot; steps/07c,Pilot,deck 5; story traction
+C09,Pilot contribution,₹9.9 L (26%),xlsx Pilot,Pilot,deck 5; story traction
+C10,Pilot cluster profit,+₹1.9 L after the ₹8 L team; positive from May; ₹0.72 L in October,xlsx Pilot,Pilot,deck 5; story traction
+C11,Pilot jobs,"about 2,400 (₹38 L ÷ ₹1,580)",xlsx Pilot,Pilot,deck 5; story traction
+C12,Protect attach,6% in a 12-retailer counter test (72 plans),steps/06,Pilot,deck 5; story traction
+C13,Per job,"₹1,580 average; 26% contribution ≈ ₹410",xlsx Inputs,Pilot,deck 6; story unit
+C14,Per retailer,"₹19,500 revenue, ₹5,070 contribution a month (pilot); ₹30,000 at 32% mature",xlsx Inputs; Unit,Pilot/Model,deck 6; story unit
+C15,Cluster breakeven,"20 retailers (₹1.0 L team ÷ ₹5,070)",xlsx Pilot,Model,deck 6; story unit
+C16,Mature cluster,"60 retailers: ₹2.16 Cr revenue, ₹51 L EBITDA (24%)",xlsx Unit,Model,deck 6; story unit
+C17,Plan,Revenue ₹3.5 / 11.2 / 25.5 / 49.0 / 86.4 Cr; EBITDA +₹0.13 / 1.3 / 3.7 / 8.4 / 16.9 Cr (2027–2031),xlsx Plan,Model,deck 8; story plan
+C18,Retailers and clusters,"200 / 500 / 1,000 / 1,800 / 3,000; 4 / 9 / 18 / 30 / 50",xlsx Plan,Plan,deck 8; story plan
+C19,Peak cash need,₹2.0 Cr (March 2030); self-funding from 2030,xlsx Plan,Model,"deck 8, 12; story"
+C20,Use of funds,Launches ₹1.6 Cr (8 × ₹20 L) + working capital net of operating cash ₹0.4 Cr = ₹2.0 Cr peak need; buffer and compliance ₹0.5 Cr,steps/08,Plan,deck 12; story ask
+C21,Conservative case,Year 1 breakeven; positive from year 2; peak need ₹2.6 Cr,steps/07c,Model,backup; Q&A
+C22,TAM / SAM / beachhead,"≈ ₹4,000 / 1,040 / 360 Cr",steps/04,Research,deck 9; story market
+C23,Local retailers,"45,000; 1.8–2.5 M appliances a month",steps/04,Research,deck 9; story market
+C24,Problem facts,2–5 day installs; 80–91% out of warranty; 44% of AC service to local mechanics; 2–3% retailer net margin,steps/04 §4.6,Research,deck 2; story problem
+C25,Discovery,51 of 64 retailers take the blame; 7 of 12 households keep no record,steps/06,Discovery,deck 2; story problem
+C26,Founder networks,600+ dealers; 200+ service centres; claims platforms,steps/02,Team,"deck 1, 11"
+C27,Retailer acquisition cost,₹22k cold → ₹9.5k warm,steps/02; steps/06,Pilot,deck 11
+C28,Fundability score,89/100 (80/90 + X-factor 9),steps/11,Model,backup
+C29,Business model prices,"AC install ₹800 net; repair from ₹550; AMC ₹1,299; Protect ₹2,000",steps/05; steps/06; steps/07b,Research/Pilot,deck 7

@@ -2,6 +2,9 @@
 
 **Phase A: Who we are. Status: DRAFT for approval (19 Nov 2026).**
 
+> **Final numbers (19 Nov 2026):** the pilot, unit economics, plan and deal are restated in **Step 7c** (`07c_simple_model.md`) and Steps 8–9. Where this document's numbers differ, Step 7c is the reference.
+
+
 > **Update after Steps 7b–8 (19 Nov 2026, final).** Current numbers (Step 7b): a mature 60-shop cluster earns **14–16% EBITDA on service** and breaks even at **22 shops** (35 shops on today's pilot economics). The pilot ran **8 months (Mar–Oct 2026)**, not 90 days. At company level, service alone reaches about breakeven by year 7 while the company grows, and **9.1% at the mature run-rate**; the data layer is what makes the growing company profitable.
 
 

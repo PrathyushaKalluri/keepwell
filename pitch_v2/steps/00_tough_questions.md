@@ -2,6 +2,9 @@
 
 **Status:** answered 19 Nov 2026 from the research (A, B and C), the unit-economics engine (M) and our reasoning (R).
 
+> **Final numbers (19 Nov 2026):** the pilot, unit economics, plan and deal are restated in **Step 7c** (`07c_simple_model.md`) and Steps 8–9. Where this document's numbers differ, Step 7c is the reference.
+
+
 > **Superseded in part (19 Nov 2026).** The desk fee (sections 8–9) was dropped at Gate 1. Canonical values: shop acquisition cost ₹9.5k warm (pilot), ₹14k blended plan, ₹20k partner clusters; the routing kill threshold is 50%; the shop count is about 45,000 independent shops. The ask is in Step 8.
 
 **Sources:**

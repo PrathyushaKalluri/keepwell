@@ -2,6 +2,9 @@
 
 **Phase B: the opportunity and the proof. Status: DRAFT for approval (19 Nov 2026). Revised after independent review.**
 
+> **Final numbers (19 Nov 2026):** the pilot, unit economics, plan and deal are restated in **Step 7c** (`07c_simple_model.md`) and Steps 8–9. Where this document's numbers differ, Step 7c is the reference.
+
+
 
 **Tags:**
 - **[R]**: research in `pitch_v2/research/` and `pitch/archive/market_intel/`

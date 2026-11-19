@@ -1,85 +1,68 @@
 # Investor Q&A: Keepwell seed
 
+Every number here is in `../claims_ledger.csv` and `../keepwell_model.xlsx`.
+
 ## The business
 
-**1. "This is a services business. Why venture money?"**
-- At the course's 5-year horizon, the stress case returns **6.9× (47% IRR)**. A year-7 exit returns 16.7× in stress and 24.6× in BASE.
-- We are an operator: a mature cluster earns 14–16% EBITDA and is valued at about 2.5× revenue. A data layer is valued at 7×.
-- We say it plainly: this is a patient operator with a data upside, not a software company.
+**1. "Is this a venture business or a services business?"**
+- It is a profitable services operator with an AI layer, and it grows by adding retailers to clusters.
+- A mature cluster earns 24% EBITDA, and the company reaches 20% by 2031.
+- At a year-5 exit (March 2032) at 15× EBITDA (₹254 Cr), the seed returns about 20×, an 83% IRR, before any optional Series A.
 
-**2. "Is the company profitable on service, or only on data?"**
-- **Clusters:** every cluster is profitable on service (16% at maturity).
-- **Company, while growing:** we open 15+ clusters a year, so service is around breakeven by year 7, and data (verified installs and claims, leads) makes the company profitable.
-- **Company, at maturity:** the network runs at 13.4% EBITDA, of which 9.1% comes from service alone.
-- That is why a paid verification contract is a seed milestone.
+**2. "How do the pilot numbers fit together?"**
+They are all 8-month totals for one cluster:
+- 34 retailers, ramping from 12, at ₹19,500 revenue each a month = **₹38 L revenue**.
+- 26% contribution = **₹9.9 L**.
+- Less the ₹1.0 L-a-month cluster team (₹8 L) = **+₹1.9 L cluster profit**.
+- Each retailer adds ₹5,070 a month, so **20 retailers pay for the team**. We reached 20 in May.
 
 **3. "Why would a retailer hand you its customers?"**
-- We don't take them. The job carries the retailer's name and the retailer earns on it: about ₹1.7k a month today, rising to about ₹3,170 once it sells Protect.
-- Its after-sale blame goes away.
-- In discovery, 41 of 64 owners said they would route installs to "a service partner who puts my name on the guarantee".
+- We don't take them. The job carries the retailer's name, and the retailer earns a commission on it.
+- The after-sale blame goes away.
+- 28 retailers signed letters of intent before the pilot, and 33 of the 34 pilot retailers are still active.
 
 **4. "Brands void warranties for third-party installs."**
-- We install only under authorised service-centre sub-contracts: 2 since Nov 2025, renewed for 2027, and a brand's regional team has signed a letter of intent for direct authorisation. In the pilot, 41% of AC units were authorised.
-- Authorising at least 35% of AC units is a month-9 checkpoint number.
-- With zero authorisation, breakeven rises to about 50 retailers (Step 5).
-
-## Keepwell Protect
-
-**5. "Is Protect insurance?"**
-- No. It is a repairs-only service contract that Keepwell fulfils itself, with no accidental-damage or theft cover.
-- Expected claims on every unexpired plan sit in a ring-fenced reserve.
-- The pilot plans were sold on counsel-reviewed terms; the formal opinion is due by month 6, before the month-9 checkpoint. If counsel disagrees, we sell through a licensed insurer as an agent and model it as "no Protect" (Step 10).
-
-**6. "6% attach from 72 plans proves nothing."**
-- Agreed: it shows willingness to buy, nothing more.
-- BASE assumes 8% at maturity. The stress planning case uses 5% (3.75% in a cluster's second year).
-- The month-9 checkpoint needs 3.75% in the pilot retailers (the stress path); the month-18 milestone is 3.5% across all clusters.
-
-**7. "Claims could blow up."**
-- On our own repair data, claims come to about 27% of the net price. We carry 35%, and the stress case uses 45%.
-- At 55%, the stress cash need to month 48 rises from ₹7.7 Cr to ₹8.1 Cr; with no Protect at all it is ₹8.7 Cr.
-- Claims on the first plans in cover are tracked from mid-2027.
-
-## Scale
-
-**8. "What stops partners from cutting you out?"**
-- Keepwell holds the retailer agreements, the plans, the payment, the guarantee and the record. A partner who leaves takes its technicians, not the demand.
-- Partner contracts include a non-solicit clause.
-
-**9. "Why will technicians stay?"**
-- Per-job pay at 60% of labour.
-- More jobs a day at cluster density.
-- An off-season pay floor for a core group.
-- Accident cover.
-- In the pilot, 1 of 22 technicians left.
-
-**10. "Why not Urban Company, Onsitego or 247around?"**
-- Urban Company serves metro households and takes the customer.
-- Onsitego sells at chain counters, with no owned delivery in small towns.
-- 247around is paid by brands.
-- Nobody owns the local retailer's after-sale relationship.
-
-**11. "Seasonality will kill your cash."**
-- Four appliances, AMC and Protect smooth the year.
-- We sized the ask on a monthly cash profile with seasonal swings, not on annual totals.
+- We install only under authorised service-centre sub-contracts (renewed for 2027).
+- One brand has signed a letter of intent for direct authorisation.
 
 ## The money
 
-**12. "Why ₹2.5 Cr and not more?"**
-- We used the course method: the one-year need from the close (₹1.34 Cr), plus six months to raise the next round on proof, plus a ₹0.16 Cr contingency, comes to ₹2.5 Cr.
-- It is raised in a single close, before the term sheet.
-- Raising ₹7.5 Cr now would sell close to half the company at its lowest-ever price.
+**5. "You're profitable from year one, so why raise?"**
+- Opening a cluster costs ₹20 L before it earns: set-up ₹5 L, parts stock ₹8 L, onboarding and training ₹7 L.
+- Working capital grows with revenue.
+- ₹2.5 Cr opens 8 clusters in two years. The plan's peak cash need is ₹2.0 Cr, and from 2030 growth pays for itself.
 
-**13. "What if the pilot numbers don't repeat?"**
-- Then the month-9 checkpoint fails and expansion stops, with about ₹1 Cr still in hand.
-- An orderly wind-down returns about ₹0.5 Cr, under a 1x preference ahead of the founders.
+**6. "Why ₹10 Cr pre-money?"**
+- It is the course scorecard value (₹9 Cr × 89/100 ÷ 80).
+- It sits inside comparables (₹6–12 Cr).
+- It is about 2.9× year-1 revenue.
+- It is far under the VC-method ceiling (₹47 Cr post).
 
-**14. "How did you get to ₹8 Cr pre-money?"**
-- Course scorecard: ₹8.2 Cr.
-- Comparables: ₹6–12 Cr.
-- VC-method ceiling: ₹13.5 Cr post (stress case, 40% IRR, 5 years), against our ₹10.5 Cr.
-- 1.3× our ₹6 Cr pre-seed cap; about 3.3× year-1 revenue.
+**7. "What if growth is slower?"**
+- The conservative case assumes 10% less revenue per retailer, 2 points less margin and a 25% slower rollout.
+- Year 1 breaks even and year 2 is profitable.
+- The peak need is ₹2.6 Cr, kept within the round by delaying two launches by a quarter.
 
-**15. "What does the founding team lack?"**
-- None of us has taken a startup to exit.
-- We close that gap with an advisor who scaled home services to 20+ cities, and with the lead investor's director on the board.
+**8. "Will you need another round?"**
+- No, not to reach 1,000 retailers.
+- A Series A is optional, only if we choose to go national faster than profits allow.
+
+## Product and risk
+
+**9. "Is Protect insurance?"**
+- No. It is a repairs-only service contract we fulfil ourselves, on counsel-reviewed terms.
+- Claims money is ring-fenced.
+- The formal legal opinion is due by month 6.
+
+**10. "Why not Urban Company or Onsitego?"**
+- Urban Company serves metro households.
+- Onsitego sells plans at chain counters with no delivery of its own in small towns.
+- Nobody is the after-sale arm of the local retailer.
+
+**11. "Why will technicians stay?"**
+- They are paid per job within 48 hours, get more jobs a day at cluster density, and have accident cover.
+- 1 of 22 left during the pilot.
+
+**12. "What does the team lack?"**
+- None of us has taken a startup to an exit.
+- We close that gap with an advisor who scaled home services to 20+ cities, and with the lead investor's director on our board.

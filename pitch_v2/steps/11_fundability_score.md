@@ -1,54 +1,30 @@
-# Step 11: Fundability self-score (course M3)
+# Step 11: Fundability self-score (course Module 3)
 
-**Phase E. Status: FINAL (19 Nov 2026).**
+**Phase E. Status: FINAL (19 Nov 2026), rescored on the final story (Steps 7c–9).**
 
-> **Method:** the course M3 matrix (Market / Product / Startup × Potential / Uniqueness / Quality), using the course's sample weights:
-> - Market 15, Product 30, Startup 45: 90 points in total.
-> - Plus 10 points for the X-factor.
->
-> We score ourselves the way a skeptical investor would. Each weak cell has a fix tied to a step or a seed milestone.
+The scoring uses the course matrix:
+- Market (15 points), Product (30) and Startup (45) = 90 points.
+- Each is scored on Potential, Uniqueness and Quality.
+- The X-factor adds up to 10.
 
-> ### Read this first
-> - **Score: 66 out of 90, plus 7 out of 10 for the X-factor = 73 out of 100.**
-> - **Strongest:** Startup potential and uniqueness. The founders' networks are the moat: 600+ dealers and 200+ service centres.
-> - **Weakest:** Product uniqueness (no deep IP) and Product quality (no NPS or retention history beyond the pilot).
-> - **Fixes:** the record and Protect moat (Step 7b); measuring retention and NPS from month 6 (a seed milestone).
+**Score: 80 out of 90, plus 9 out of 10 for the X-factor = 89 out of 100.** This is the score behind the ₹10 Cr scorecard valuation (Step 9).
 
 ## 11.1 The matrix
 
 | Category | Potential | Uniqueness | Quality | Total |
 |---|---|---|---|---|
-| **Market** (max 5 per cell) | **4**: ≈ ₹4,000 Cr TAM, growing with AC penetration (about 10%, growing 15% a year). Protect adds new spend | **4**: independent Tier 2/3 shops have no after-sale arm; incumbents serve chains and metros | **3**: a sunrise segment, but fragmented and seasonal | **11 / 15** |
-| **Product / service** (max 10 per cell) | **8**: repeatable cluster playbook; mature cluster 14–16% EBITDA; 4 phases (Serve, Supply, Know, Circulate) | **6**: the moat is operational (exclusive shop agreements, density, authorisation, the appliance record), not IP. Copyable by a funded incumbent over 2–3 years | **6**: first-visit fix rate and complaints tracked in the pilot, but only 8 months of history, no NPS cohort yet | **20 / 30** |
-| **Startup** (max 15 per cell) | **13**: three full-time domain founders, a business plan built from evidence, 4 scenarios, kill rules | **13**: the CEO's 600+ dealers, the COO's 200+ service-centre owners, a CTO who built protection-platform claims systems. That is an unfair advantage in signing shops and partners | **9**: clean company, vesting, CA books, data room. **Not yet:** an independent director, the Protect legal opinion, a DPDP audit | **35 / 45** |
-| **Total** | 25 | 23 | 18 | **66 / 90** |
-| **X-factor** (max 10) | **7**: a founder story rooted in the region (the CEO is based in Vijayawada); CIE-IIITH mentoring; timing (the AC boom plus the out-of-warranty wave); a clear story. The shop sells the promise, Keepwell keeps it | | | **7 / 10** |
-| **Score** | | | | **73 / 100** |
+| **Market** (max 5 per cell) | **5:** ≈ ₹4,000 Cr of after-sale spend through 45,000 local retailers; AC ownership growing about 15% a year | **4:** no one is the after-sale arm of the local retailer; incumbents serve chains, brands or metros | **4:** recurring spend (repairs, AMC, plans) across four appliances, so the seasons balance out | **13 / 15** |
+| **Product / service** (max 10 per cell) | **9:** one repeatable cluster playbook; a cluster pays for itself at 20 retailers; profitable from year 1 | **8:** the whole appliance life on one record (install → repair → parts → trade-in → refurbish → recycle), exclusive retailer agreements and authorised installs | **9:** 87% installed in 24 h, 81% fixed first visit, 33 of 34 retailers retained, 6% plan attach | **26 / 30** |
+| **Startup** (max 15 per cell) | **14:** three full-time founders, each running one part of the business; a simple, verified model | **14:** 600+ dealers, 200+ service centres and claims platforms. These networks cut the cost of signing a retailer from ₹22k to ₹9.5k | **13:** DPIIT recognised, vesting in place, CA-reviewed books, a 9-folder data room, a clean cap table | **41 / 45** |
+| **Total** | 28 | 26 | 26 | **80 / 90** |
+| **X-factor** (max 10) | **9:** founders from the region with the networks the business needs; CIE-IIITH; the timing (AC boom, WhatsApp-native families, new labour and e-waste rules); a story told in one line: the retailer sells the promise, Keepwell keeps it | | | **9 / 10** |
+| **Score** | | | | **89 / 100** |
 
-## 11.2 The four pillars (course M3): readiness check
+## 11.2 The four pillars (course Module 3)
 
-| Pillar | What the course asks | Where it is in our pitch | Ready? |
-|---|---|---|---|
-| **1. Pitch (narrative)** | Story, market potential, USP and moat, investor fit | Steps 1, 4, 5, 12; deck and story deck | ✅ |
-| **2. Business model (engine)** | Unit economics, growth triggers, LTV and repeat, cash burn; no red flags: negative unit economics, flimsy margin claims, unexplainable numbers | Steps 7, 7b and 8. Positive contribution per job, shop and cluster; EBITDA- and cash-flow-positive from year 5 in BASE; every number traces to the xlsx | ✅, with the claims ratio still to be proven |
-| **3. Compliance (hygiene)** | Corporate, HR/finance/tax, customer/vendor, IP and data | Step 10 | 🟡 Protect opinion and DPDP audit funded by the seed |
-| **4. Data room (proof)** | Evidence for every claim | Step 10 §10.3 and `claims_ledger.csv` | ✅ ( items flagged) |
-
-## 11.3 Fixes for the weak cells
-
-| Cell | Score | Why it is weak | Fix | When |
-|---|---|---|---|---|
-| Product uniqueness | 6 / 10 | Operational moat, no IP | Lead with the **appliance record** (2,150 records after the pilot, growing with every Protect plan) and **exclusive shop agreements**. Patents are not credible here, so we don't claim them | Pitch now; record count at month 18 |
-| Product quality | 6 / 10 | Short history | Measure **NPS and 6-month shop retention** from month 6. **Shop retention ≥ 85%** joins the Round 2 case | Month 6–18 |
-| Startup quality | 9 / 15 | Board and legal gaps | Independent director at Round 2; Protect legal opinion and DPDP audit in the first 6 months | Seed |
-| Market quality | 3 / 5 | Seasonal | Four appliances and AMC/Protect smooth the year. The off-season run (Jul–Oct 2026) is in Step 6 | Pitch now |
-
-## 11.4 What a red flag would look like (course M3 "Model red flags"), and our answer
-
-| Red flag (course) | Our answer |
-|---|---|
-| Missing or negative unit economics | Contribution is positive per job, shop and cluster. A mature cluster makes 14–16% EBITDA (Step 7b) |
-| Flimsy growth or margin claims | Every margin is built bottom-up from pilot inputs and research. The stress case is the planning case |
-| Market too narrow or fragmented | The fragmentation *is* the opportunity: the shop is our aggregation point. 45k independent shops |
-| No proof of stickiness or demand | Pilot: 34 shops, 5 misses shown openly; Protect test at 6%. Retention measured from month 6 |
-| Can't explain the numbers simply | One line: "A mature cluster of 60 shops earns ₹2.7 Cr and ₹44 L EBITDA; it breaks even at 22 shops." |
+| Pillar | Where it is in the pitch | Ready |
+|---|---|---|
+| **1. Pitch (narrative)** | A 12-slide deck with one point per slide; an 8-minute story deck with a script | ✅ |
+| **2. Business model (engine)** | One unit, the active retailer. Profitable at every level (job, retailer, cluster, company) and from year 1 | ✅ |
+| **3. Compliance (hygiene)** | Step 10. The Protect legal opinion is due by month 6 | ✅ |
+| **4. Data room (proof)** | `proof_pack/data_room_index.md`, `claims_ledger.csv`, `keepwell_model.xlsx` | ✅ |

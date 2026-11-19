@@ -1,5 +1,8 @@
 # Step 0b: Is the margin good enough, and where does Keepwell go? (Gate 1 follow-up)
 
+> **Final numbers (19 Nov 2026):** the pilot, unit economics, plan and deal are restated in **Step 7c** (`07c_simple_model.md`) and Steps 8–9. Where this document's numbers differ, Step 7c is the reference.
+
+
 > **Superseded in part (19 Nov 2026).** The units-per-shop figure here (80) is replaced by 74 (pilot and BASE). The exit is valued in Step 9 (revenue multiples, cross-checked at about 12× mature EBITDA).
 
 > **Update after Step 7b (approved 19 Nov 2026).** The 8-year stack here is superseded by `07b_model_redesign.md`: year-7 revenue ₹130.5 Cr at 6.6% EBITDA; the mature run-rate of the year-8 network is ₹249 Cr at 13.4%.

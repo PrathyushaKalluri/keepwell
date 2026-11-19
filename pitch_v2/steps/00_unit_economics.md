@@ -1,5 +1,8 @@
 # Step 0: Unit economics, rebuilt from evidence
 
+> **Final numbers (19 Nov 2026):** the pilot, unit economics, plan and deal are restated in **Step 7c** (`07c_simple_model.md`) and Steps 8–9. Where this document's numbers differ, Step 7c is the reference.
+
+
 > **Superseded in part (19 Nov 2026).** Design E (desk fee, filler jobs) was replaced by Steps 7 and 7b. The AC install contribution is ₹469 (pilot mix); ₹730 applied only to the full designed fee. LTV, CAC and payback for the final model are in Step 7b.
 
 

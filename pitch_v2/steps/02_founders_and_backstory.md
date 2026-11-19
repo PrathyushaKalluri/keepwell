@@ -2,6 +2,9 @@
 
 **Phase A: who we are. Status: DRAFT for approval (19 Nov 2026).**
 
+> **Final numbers (19 Nov 2026):** the pilot, unit economics, plan and deal are restated in **Step 7c** (`07c_simple_model.md`) and Steps 8–9. Where this document's numbers differ, Step 7c is the reference.
+
+
 > **Update after Step 7b (approved 19 Nov 2026).** Kavyanth's relationships with owners of 200+ service centres are now also the **pipeline for partner clusters**: from year 3, existing service-centre owners run new clusters for a 10% fee, and 66 are needed by year 8. Prathyusha's dealer network is also the channel for **Keepwell Protect**, the 2-year repair plan the shop sells at the counter. See `07b_model_redesign.md`.
 
 

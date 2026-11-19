@@ -2,6 +2,9 @@
 
 **Phase B: The opportunity and the proof. Status: DRAFT for approval (19 Nov 2026).**
 
+> **Final numbers (19 Nov 2026):** the pilot, unit economics, plan and deal are restated in **Step 7c** (`07c_simple_model.md`) and Steps 8–9. Where this document's numbers differ, Step 7c is the reference.
+
+
 > **Update after Steps 7b–8 (19 Nov 2026, final).** Cluster EBITDA at maturity is now **14–16%** (Step 7b), not 10–12%. Breakeven is **22 shops at maturity** and 35 on pilot economics.
 
 > **Update after Step 7b (approved 19 Nov 2026).** **New job flow: Keepwell Protect.**

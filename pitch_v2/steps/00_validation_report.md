@@ -1,5 +1,8 @@
 # Step 0: Validation report, retailer-led lifecycle idea (Gate 1)
 
+> **Final numbers (19 Nov 2026):** the pilot, unit economics, plan and deal are restated in **Step 7c** (`07c_simple_model.md`) and Steps 8–9. Where this document's numbers differ, Step 7c is the reference.
+
+
 > **Superseded in part (19 Nov 2026).** Since this gate, the founders decided: serve **every** shop (TAM ≈ ₹4,000 Cr, bridged in Step 4); no desk fee; four appliances; Keepwell Protect and partner clusters (Step 7b). **The ask and valuation are set in Steps 8–9: ₹2.5 Cr at ₹8 Cr pre-money, in two tranches.** The pilot ran Mar–Oct 2026 (Step 6). Competition is worded as "nobody *owns* the independent shop's after-sale relationship; Onsitego is the closest, and a possible partner".
 
 >

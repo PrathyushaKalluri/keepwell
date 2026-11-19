@@ -2,6 +2,9 @@
 
 **Phase C (the money). Status: APPROVED (19 Nov 2026); model rebuilt (`keepwell_model.xlsx`: 680 formulas, 0 errors, 0 mismatches in all four scenarios). Replaces the A/B/C decision in Step 7 §7.6.**
 
+> **Final numbers (19 Nov 2026):** the pilot, unit economics, plan and deal are restated in **Step 7c** (`07c_simple_model.md`) and Steps 8–9. Where this document's numbers differ, Step 7c is the reference.
+
+
 > - **Engine:** `model/plan_v3.py`, which runs on the Step 7 engine (`plan_core.py`). Run `python3 model/plan_v3.py` to print every table below.
 > - **Check:** lever 0 of the waterfall reproduces the corrected Step 7 BASE exactly (₹81.5 Cr; ₹1.0 Cr; peak ₹21.6 Cr).
 > - **Review:** an independent reviewer pass found 10 issues, and all are fixed in this version (§7b.8).

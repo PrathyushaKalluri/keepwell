@@ -2,6 +2,9 @@
 
 **Phase E. Status: FINAL (19 Nov 2026).** Feeds Step 13: the 12-slide seed deck, the animated story deck (full and 10-minute versions) with scripts, and the full story.
 
+> **Final numbers (19 Nov 2026):** §12.2 is the final 12-slide flow. The Q&A in §12.4 predates the simple model; the current answers are in `proof_pack/investor_qa.md` and Step 7c.
+
+
 ## 12.1 The story in nine sentences (everything else hangs off these)
 
 1. **The shop owns the trust.** In small-town India, families buy appliances from a shop owner they know, and they call him when it breaks.
@@ -14,30 +17,22 @@
 8. **The journey runs Serve → Supply → Know → Circulate.** It reaches ₹130 Cr of revenue by year 7, with an exit in 2033–34 at ₹255–376 Cr enterprise value.
 9. **The ask: ₹2.5 Cr now at ₹8 Cr pre-money, in a single close,** for 18 months, four clusters and the milestones that earn Round 2.
 
-## 12.2 The 12-slide seed deck (structure from the founders' idea document §16, ordered for investors)
+## 12.2 The 12-slide deck (the flow of a clean investor deck: one point per slide, one takeaway line)
 
-The rule from that document: lead with what the retailer gets, not "AI-powered". Each slide carries one picture, and only numbers we will defend.
-
-| # | Slide | The one line | Proof on the slide | Speaker |
-|---|---|---|---|---|
-| 1 | **Title** | "The after-sale service arm of every local appliance retailer." | Seed ₹2.5 Cr · Vijayawada · CIE-IIITH | Prathyusha |
-| 2 | **Problem (a person)** | "He sells an AC on Monday. By Thursday the customer is angry at *him*." | 51 of 64 shop owners blamed; installs take 2–5 days [R]; 80–91% out of warranty [R]; 44% of AC service goes to local mechanics [R]; 7 of 12 households keep no record | Prathyusha |
-| 3 | **Why now** | "The out-of-warranty wave meets WhatsApp-native India." | AC penetration about 10%, growing 15% a year; gig code and EPR rules formalise service; voice AI on WhatsApp | Prathyusha |
-| 4 | **Solution** | "The shop sells the promise; Keepwell keeps it." | Install · repair · AMC · Protect, under the shop's name; the four phases | Kavyanth |
-| 5 | **Product: the appliance's whole life** | "From the retailer's bill to a second life." | A lifecycle flowchart: sold → installed → in use → breaks → diagnosed → (repair) parts → repaired, or (end of life) traded in → refurbished or recycled; Keepwell's role in every box; the record along the bottom | Sri Charan |
-| 6 | **Traction (pilot)** | "Eight months, 34 shops, and the misses we learned from." | 2,400 jobs; ₹25 L; ₹4.5k contribution per shop by month 4; 6% Protect; 5 misses | Kavyanth |
-| 7 | **Business model and unit economics** | "Every cluster pays for itself on service." | Per plan ₹593; per shop ₹4.4 L / ₹1.16 L contribution; cluster ₹2.7 Cr / 16%; breakeven 22 shops | Kavyanth |
-| 8 | **Market** | "₹4,000 Cr of after-sale spend that no one organises." | TAM ₹4,000 Cr → SAM ₹1,040 Cr → beachhead ₹360 Cr → year-7 ₹130 Cr from 3,300 shops (7% of India's) | Prathyusha |
-| 9 | **Competition and moat** | "Everyone serves the chains or the brands. Nobody owns the local retailer's after-sale relationship." | Comparison table; the four moats | Sri Charan |
-| 10 | **Team** | "Between us we know 600 dealers and 200 service centres by name." | Three founders, advisors, the gap and how we close it | Prathyusha |
-| 11 | **The plan: rounds and journey** | "Each round is raised on proof." | 8-year revenue and EBITDA chart; Seed → Round 2 → Round 3 → exit | Kavyanth |
-| 12 | **The ask** | "₹2.5 Cr · one close · 18 months." | Use of funds; milestones; terms headline (CCPS, ₹8 Cr pre, single close); the help we want | Prathyusha |
-| Appendix | Valuation and cap table · scenarios · compliance · risks · Q&A | | | |
-
-**Why this order:**
-- Traction comes **before** unit economics. That way the investor sees real-world proof first, and then the economics reads as an explanation of it (course M3: "use data").
-- Market comes after the economics, so the TAM lands as "how far this repeats", not as a top-down claim.
-- Team sits just before the plan and the ask. The last things heard before the number are *who* will spend it and *how* it compounds.
+| # | Slide | The one point | Speaker |
+|---|---|---|---|
+| 1 | Title + founders | Keepwell keeps the promise the retailer made | Prathyusha |
+| 2 | The problem: three cards + the result | Retailers sell the appliance, then lose the customer | Prathyusha |
+| 3 | Our answer: vision + live / next / later | The retailer sells the promise; Keepwell keeps it | Kavyanth |
+| 4 | The product: a lifecycle flowchart | Keepwell runs the appliance's whole after-sale life | Sri Charan |
+| 5 | Traction: six pilot tiles + a monthly chart | One cluster paid for itself from 20 retailers | Kavyanth |
+| 6 | Unit economics: job → retailer → cluster | Positive at every level; 20 retailers pay for a cluster | Kavyanth |
+| 7 | Business model: live / next / later | How we make money, and who pays | Kavyanth |
+| 8 | The plan: a 5-year table and chart | Profitable from year one | Kavyanth |
+| 9 | Market: six tiles + why now | ₹4,000 Cr that no one organises; we need under 7% | Prathyusha |
+| 10 | Competition: a tick matrix | Everyone covers a part; only Keepwell covers it all | Sri Charan |
+| 11 | Team | Our networks are the edge | Prathyusha |
+| 12 | The ask: a use-of-funds table + terms | ₹2.5 Cr, the only round we need | Prathyusha |
 
 ## 12.3 The story deck (animated HTML): two versions
 

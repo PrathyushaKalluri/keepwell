@@ -2,6 +2,9 @@
 
 **Phase B: the opportunity and the proof. Status: FINAL (19 Nov 2026).**
 
+> **Final numbers (19 Nov 2026):** the pilot, unit economics, plan and deal are restated in **Step 7c** (`07c_simple_model.md`) and Steps 8–9. Where this document's numbers differ, Step 7c is the reference.
+
+
 > **Update (19 Nov 2026).**
 > - **Shop agreements:** before the pilot, 28 shops signed letters of intent. All 34 pilot shops signed 2-year service-arm agreements, exclusive in their catchment; 33 of 34 are still active.
 > - **Authorisation:** both service-centre sub-contracts are renewed for 2027, and one brand's regional team has signed a letter of intent for direct authorisation in 2027.

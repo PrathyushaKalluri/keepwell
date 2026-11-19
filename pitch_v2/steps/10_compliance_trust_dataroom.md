@@ -2,6 +2,9 @@
 
 **Phase D. Status: FINAL (19 Nov 2026).**
 
+> **Final numbers (19 Nov 2026):** the pilot, unit economics, plan and deal are restated in **Step 7c** (`07c_simple_model.md`) and Steps 8–9. Where this document's numbers differ, Step 7c is the reference.
+
+
 > **Frameworks:** course M3, Pillar 3 (compliance hygiene) and Pillar 4 (data room).
 > **Rule (memory):** never claim we are "compliant" with a law before the work is done. Each row below says what is **done**, **in progress** or **funded by the seed**.
 

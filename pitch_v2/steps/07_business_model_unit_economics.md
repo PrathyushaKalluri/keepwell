@@ -2,6 +2,9 @@
 
 **Phase C (the money). Status: DRAFT for approval. ⚠ It contains a decision point (19 Nov 2026).**
 
+> **Final numbers (19 Nov 2026):** the pilot, unit economics, plan and deal are restated in **Step 7c** (`07c_simple_model.md`) and Steps 8–9. Where this document's numbers differ, Step 7c is the reference.
+
+
 > **Superseded in part (19 Nov 2026).** §7.4–7.7 record the corrected Step 7 BASE (year 7 ₹81.5 Cr, peak ₹21.6 Cr), which was **replaced by Step 7b**. Use 7b for every number.
 
 > **Update after Step 7b (approved 19 Nov 2026).** **§7.6 is decided: the redesign in `07b_model_redesign.md` replaces options A/B/C.** `keepwell_model.xlsx` is rebuilt on `model/plan_v3.py`:
