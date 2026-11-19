@@ -54,10 +54,11 @@ They are all 8-month totals for one cluster:
 - Claims money is ring-fenced.
 - The formal legal opinion is due by month 6.
 
-**10. "Why not Urban Company or Onsitego?"**
-- Urban Company serves metro households.
-- Onsitego sells plans at chain counters with no delivery of its own in small towns.
-- Nobody is the after-sale arm of the local retailer.
+**10. "Why not Urban Company or Onsitego, and can't they copy you?"**
+- We charge market prices (brand install price, ₹300 visit, AMC ₹1,299) and give more: 24-hour authorised installs, a 90-day guarantee and one record, under the retailer's name.
+- Urban Company is in 51 cities with 90%+ of value in the top 10; Onsitego sells plans with no installs or crew of its own; Jeeves and resQ serve only their own buyers.
+- Copying needs exclusive retailer agreements, authorised install sub-contracts and 20 retailers per cluster before it pays, built one introduction at a time.
+- It is easier to buy than to build: Onsitego paid ₹80 Cr for Qdigi (2024). That is our exit, not our threat.
 
 **11. "Why will technicians stay?"**
 - They are paid per job within 48 hours, get more jobs a day at cluster density, and have accident cover.

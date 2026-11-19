@@ -38,7 +38,15 @@
 
 **Ravi earns nothing after the sale, but he carries all the blame. Keepwell is the after-sale service arm of every retailer like Ravi.**
 
-**What the slide shows:** the title, the tagline and the three founders.
+**What the slide shows:** the title, the tagline, and the three founders, each with the reason they started Keepwell:
+
+| Founder | Background | Why they started Keepwell |
+|---|---|---|
+| **Prathyusha Kalluri** (CEO) | 10 years in appliance distribution · 600+ dealers | “A Guntur dealer showed me a consumer-court notice naming him beside the brand, for an install he never did. Dealers kept losing customers over service they couldn't control.” |
+| **Kavyanth Munagala** (COO) | Ran a brand's service network · 200+ service centres | “Small-town installs failed for want of technicians, and out-of-warranty customers were turned away. The only service people renewed was the one done right.” |
+| **Sri Charan Peri** (CTO) | Built claims and field platforms at a device-protection company | “Plan sellers had small-town customers but no repair partner there, and claims were paid on photos nobody could verify.” |
+
+Advisors: ex-national service head of an appliance brand, AP dealers' association president, an operator who scaled home services to 20+ cities, an e-waste partnerships head. **Our edge:** warm introductions cut the cost of signing a retailer from ₹22k to ₹9.5k.
 
 ### 2. Retailers sell the appliance, then lose the customer
 
@@ -189,37 +197,29 @@ EBITDA is positive every year. We raise to open clusters faster, not to cover lo
 
 **The one point:** we need 3,000 of 45,000 retailers and about 2% of the spend to build a ₹86 Cr company.
 
-**Why now:**
-- AC ownership is about 10% and growing 15% a year.
-- Families already book and pay on WhatsApp.
-- New labour and e-waste rules favour a registered operator.
+### 10. Market prices, more for the money, and hard to copy
 
-### 10. Everyone covers a part
+**Keepwell competes at market prices and wins on what the customer gets for them.**
 
-The slide is a tick matrix:
+| Player | What it charges | What you get | What's missing |
+|---|---|---|---|
+| **Keepwell** | Brand's install price (₹1,199 + materials) · ₹300 visit · AMC ₹1,299 · Protect ₹2,000 for 2 years | Authorised install in 24 h, fixed price, 90-day guarantee, one record, under the retailer's name | — |
+| **Brand service centre** | ₹1,199 + GST for a split-AC install (LG, Voltas) | Authorised; warranty kept | 2–5 days; one brand only; thin in small towns |
+| **Urban Company** | AC install from ₹799 · gas ₹3,000 · AMC ₹1,098–1,298 | App booking, trained pros | 51 cities, 90%+ of value in the top 10; not the retailer's |
+| **Onsitego · Croma ZipCare** | Plans at chain counters: ZipCare ₹1,139–2,499 a year | A plan sold with the appliance | No installs; no own repair crew in small towns |
+| **Jeeves · resQ** | resQ window-AC install ₹531–590 | Install and repair | Only Flipkart or Reliance buyers; fast install in 13 cities |
+| **Local mechanic** | ₹300 a visit | Nearby and cheap | No guarantee, no record; his AC installs void the warranty |
 
-| Player | What it covers |
-|---|---|
-| **Keepwell** | All six: authorised install, repair and AMC, a plan at the counter, the local retailer as customer, its own delivery in small towns, and the appliance record |
-| Urban Company | Metro households |
-| Onsitego | Plans at chain counters |
-| 247around | Installs paid for by brands |
-| Jeeves and resQ | Only their own retailer's buyers |
-| Local mechanics | Repairs, but no guarantee and no record |
+**Why it's hard to copy:**
+1. **Exclusive retailer agreements:** 2-year exclusive service agreements; 33 of 34 pilot retailers stayed.
+2. **Authorised installs:** Sub-contracts with brand service centres; without them an install voids the warranty.
+3. **Density costs time and money:** A cluster loses money until 20 retailers; warm introductions sign one for ₹9.5k, cold ₹22k.
+4. **The record compounds:** Every job adds to one consented appliance record: the next lead, verified claims.
+5. **Incumbents are built for someone else:** UC: metro homes · Onsitego: plans, no crew · Jeeves, resQ: own buyers · brands: one brand.
 
-Only Keepwell is the after-sale arm of the local retailer.
+**Easier to buy than to build: Onsitego paid ₹80 Cr for Qdigi (2024). That is our exit, not our threat.**
 
-### 11. Between us, we already know this market by name
-
-| Founder | Network |
-|---|---|
-| Prathyusha | Supplied 600+ dealers for ten years |
-| Kavyanth | Knows the owners of 200+ service centres |
-| Sri Charan | Built the claims engine behind plans sold at a counter |
-
-**Our edge:** warm introductions cut the cost of signing a retailer from ₹22k to ₹9.5k.
-
-### 12. Raising ₹2.5 Cr for the seed round
+### 11. Raising ₹2.5 Cr for the seed round
 
 | Track | Share | Amount | What it delivers |
 |---|---|---|---|
@@ -231,7 +231,20 @@ Only Keepwell is the after-sale arm of the local retailer.
 
 **Return:** at a year-5 exit (March 2032) at 15× EBITDA (₹254 Cr), the seed's 20% returns about 20×, before any optional Series A.
 
-**This is the only round we need to reach 1,000 retailers. Keepwell keeps the promise the retailer made.**
+**This is the only round we need to reach 1,000 retailers.**
+
+### 12. Why now: the appliance wave has reached small towns, and its after-sale is unorganised
+
+| | Why now |
+|---|---|
+| **~10%** | of Indian homes own an AC; the AC market grows 15% a year, ₹53,600 Cr (2025) → ₹93,610 Cr (2029) |
+| **65%** | of Blue Star's sales are in Tier III–V towns; 85% of Voltas buyers are first-time buyers |
+| **80–91%** | of appliances in homes are out of warranty: the paying after-sale years are here |
+| **28% → 18%** | GST on ACs cut in September 2025: cheaper ACs, more first-time buyers |
+| **< ₹5** | a job for AI in Telugu voice and WhatsApp: a small-town service desk is now affordable |
+| **2022–25** | E-Waste Rules (EPR), the Right to Repair portal, DPDP consent and the labour codes reward a registered operator that keeps records |
+
+**Whoever organises the after-sale first keeps the retailer. Keepwell keeps the promise the retailer made.**
 
 ## Tough questions
 

@@ -28,6 +28,14 @@ Keepwell was started by three people. Each had already spent years on one side o
 - Built its claims-verification system and the app its field partners used.
 - He knew how a repair plan sold at a counter is priced, verified and delivered.
 
+**Why each of them started Keepwell** (shown on the first slide):
+
+| Founder | Background | Why they started Keepwell |
+|---|---|---|
+| **Prathyusha Kalluri** (CEO) | 10 years in appliance distribution · 600+ dealers | “A Guntur dealer showed me a consumer-court notice naming him beside the brand, for an install he never did. Dealers kept losing customers over service they couldn't control.” |
+| **Kavyanth Munagala** (COO) | Ran a brand's service network · 200+ service centres | “Small-town installs failed for want of technicians, and out-of-warranty customers were turned away. The only service people renewed was the one done right.” |
+| **Sri Charan Peri** (CTO) | Built claims and field platforms at a device-protection company | “Plan sellers had small-town customers but no repair partner there, and claims were paid on photos nobody could verify.” |
+
 **How they met.** Prathyusha's distributor and Kavyanth's brand served the same dealers. She heard the dealers' side of every service failure; he heard the service side. Sri Charan's platform kept asking Kavyanth's service centres to handle small-town claims they could not staff.
 
 **The reasoning.** The founders are not a generic team that found a problem online. Each of them brings a network the business needs on day one:
@@ -431,25 +439,38 @@ The most cash the plan ever needs is **₹2.0 crore**, at the end of year 3. **�
 
 ---
 
-## 10. Why nobody else has done this, and why now
+## 10. The market, the competition, and why now
 
-**Everyone covers only part of it:**
+**The competition: market prices, more for the money.**
 
-| Player | What it covers | What it misses |
-|---|---|---|
-| **Urban Company** | Repairs for city households, booked through an app | Not small-town retailers |
-| **Onsitego and Zopper** | Repair plans sold at chain-store counters | No repair network of their own in small towns |
-| **247around and SERVIZ** | Installs | Paid by brands, not tied to retailers |
-| **Jeeves and resQ** | After-sales service | Only for their own parent retailer's buyers (Flipkart, Reliance) |
-| **Brand service centres** | In-warranty work | One brand each, and thin in small towns |
-| **Local mechanics** | Repairs, everywhere | No guarantee and no record |
+| Player | What it charges | What you get | What's missing |
+|---|---|---|---|
+| **Keepwell** | Brand's install price (₹1,199 + materials) · ₹300 visit · AMC ₹1,299 · Protect ₹2,000 for 2 years | Authorised install in 24 h, fixed price, 90-day guarantee, one record, under the retailer's name | — |
+| **Brand service centre** | ₹1,199 + GST for a split-AC install (LG, Voltas) | Authorised; warranty kept | 2–5 days; one brand only; thin in small towns |
+| **Urban Company** | AC install from ₹799 · gas ₹3,000 · AMC ₹1,098–1,298 | App booking, trained pros | 51 cities, 90%+ of value in the top 10; not the retailer's |
+| **Onsitego · Croma ZipCare** | Plans at chain counters: ZipCare ₹1,139–2,499 a year | A plan sold with the appliance | No installs; no own repair crew in small towns |
+| **Jeeves · resQ** | resQ window-AC install ₹531–590 | Install and repair | Only Flipkart or Reliance buyers; fast install in 13 cities |
+| **Local mechanic** | ₹300 a visit | Nearby and cheap | No guarantee, no record; his AC installs void the warranty |
 
-**Only Keepwell does all six** of: authorised install, repair and AMC, a plan sold at the counter, serving the local retailer as its customer, its own delivery in small towns, and one appliance record.
+**Why it's hard to copy, or to enter:**
+1. **Exclusive retailer agreements:** 2-year exclusive service agreements; 33 of 34 pilot retailers stayed.
+2. **Authorised installs:** Sub-contracts with brand service centres; without them an install voids the warranty.
+3. **Density costs time and money:** A cluster loses money until 20 retailers; warm introductions sign one for ₹9.5k, cold ₹22k.
+4. **The record compounds:** Every job adds to one consented appliance record: the next lead, verified claims.
+5. **Incumbents are built for someone else:** UC: metro homes · Onsitego: plans, no crew · Jeeves, resQ: own buyers · brands: one brand.
+
+**Easier to buy than to build: Onsitego paid ₹80 Cr for Qdigi (2024). That is our exit, not our threat.** A big player that wants this market would find it faster to buy a built network of retailers and clusters than to build one, which is exactly what Onsitego did with Qdigi.
 
 **Why now:**
-- **More appliances need service:** AC ownership is about 10% of households and growing about 15% a year, so the number of appliances needing service is rising fast.
-- **Customers are ready:** families already book and pay on WhatsApp and UPI.
-- **Regulation favours the organised:** new labour codes and the 2022 e-waste rules favour a registered, recorded operator over an informal one.
+
+| | Why now |
+|---|---|
+| **~10%** | of Indian homes own an AC; the AC market grows 15% a year, ₹53,600 Cr (2025) → ₹93,610 Cr (2029) |
+| **65%** | of Blue Star's sales are in Tier III–V towns; 85% of Voltas buyers are first-time buyers |
+| **80–91%** | of appliances in homes are out of warranty: the paying after-sale years are here |
+| **28% → 18%** | GST on ACs cut in September 2025: cheaper ACs, more first-time buyers |
+| **< ₹5** | a job for AI in Telugu voice and WhatsApp: a small-town service desk is now affordable |
+| **2022–25** | E-Waste Rules (EPR), the Right to Repair portal, DPDP consent and the labour codes reward a registered operator that keeps records |
 
 **The market.**
 

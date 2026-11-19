@@ -18,7 +18,7 @@
 
 | # | Slide | The one point | Speaker |
 |---|---|---|---|
-| 1 | Title + founders | Keepwell keeps the promise the retailer made | Prathyusha |
+| 1 | Title + founders, each with why they started Keepwell | Keepwell keeps the promise the retailer made; three founders who lived the problem | Prathyusha |
 | 2 | The problem: three cards + the result | Retailers sell the appliance, then lose the customer | Prathyusha |
 | 3 | Our answer: vision + live / next / later | The retailer sells the promise; Keepwell keeps it | Kavyanth |
 | 4 | The product: a lifecycle swimlane (7 stages × what Keepwell does, earns, and what the family, retailer, technician and brands gain) | At every stage, Keepwell and everyone around it gains | Sri Charan |
@@ -27,9 +27,9 @@
 | 7 | Business model: live / next / later | How we make money, and who pays | Kavyanth |
 | 8 | The plan: a 5-year table and chart | Profitable from year one | Kavyanth |
 | 9 | Market: what it is (45,000 × ≈ ₹9 L = ₹4,000 Cr; spend split) + the opportunity drawn to scale (₹4,000 → ₹1,040 → ₹360 → ₹86 Cr) + why now | ₹4,000 Cr a year keeps small-town appliances running; we need 2% of it | Prathyusha |
-| 10 | Competition: a tick matrix | Everyone covers a part; only Keepwell covers it all | Sri Charan |
-| 11 | Team | Our networks are the edge | Prathyusha |
-| 12 | The ask: a use-of-funds table + terms | ₹2.5 Cr, the only round we need | Prathyusha |
+| 10 | Competition: prices side by side, what you get, what's missing + why it's hard to copy | Market prices, more for the money, and hard to copy | Sri Charan |
+| 11 | The ask: a use-of-funds table + terms | ₹2.5 Cr, the only round we need | Prathyusha |
+| 12 | Why now: six tiles + the close | The appliance wave has reached small towns; its after-sale is unorganised | Prathyusha |
 
 ## 12.3 The story deck (animated HTML)
 
@@ -55,7 +55,7 @@ The full answers are in `proof_pack/investor_qa.md`.
 | 7 | "Profitable from year one, so why raise?" | Each cluster costs ₹20 L to open before it earns, and working capital grows; peak need ₹2.0 Cr (Step 8) |
 | 8 | "Why ₹10 Cr pre?" | Course scorecard (₹9 Cr × 89 ÷ 80), inside comparables (₹6–12 Cr), far under the VC-method ceiling (₹47 Cr post) (Step 9) |
 | 9 | "What if growth is slower?" | Conservative case: year 1 breaks even, profit from year 2, peak need ₹2.6 Cr covered by the buffer and a one-quarter delay in two launches (Step 7c §7c.4) |
-| 10 | "Why not Urban Company, Onsitego or 247around?" | Each covers a part; nobody is the after-sale arm of the local retailer (Step 5) |
+| 10 | "Why not Urban Company or Onsitego, and can't they copy you?" | Same market prices, more for them; copying needs exclusive agreements, authorised installs and 20 retailers per cluster; easier to buy than build (Onsitego–Qdigi ₹80 Cr) (Step 5, slide 10) |
 | 11 | "Why will technicians stay?" | Per-job pay within 48 hours, more jobs a day at cluster density, accident cover; 1 of 22 left (Step 6) |
 | 12 | "What does the team lack?" | Exit experience: an advisor who scaled home services to 20+ cities and the lead investor's director on the board (Step 2) |
 

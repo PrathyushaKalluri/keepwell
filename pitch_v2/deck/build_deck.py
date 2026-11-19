@@ -57,15 +57,48 @@ def result(sl, t, y=6.2):
     text(sl, 0.6, y, 12.1, 0.55, t, size=13, bold=True, color=NAVY)
 def r_title(sl, d, n):
     box(sl, 0, 0, W, 0.08, fill=TEAL)
-    box(sl, 0.6, 0.7, 0.62, 0.62, fill=TEAL, shape=MSO_SHAPE.ROUNDED_RECTANGLE); text(sl, 1.35, 0.72, 4, 0.6, "keepwell", size=26, bold=True, color=NAVY, anchor=MSO_ANCHOR.MIDDLE)
-    text(sl, 0.6, 1.9, 12, 1.4, d["headline"], size=40, bold=True, color=NAVY)
-    text(sl, 0.6, 3.25, 12, 0.6, d["tagline"], size=20, color=GREY)
-    for i, (ini, nm, role) in enumerate(d["people"]):
-        x = 0.6 + i * 4.1; box(sl, x, 4.4, 3.9, 1.2, fill=SOFT, shape=MSO_SHAPE.ROUNDED_RECTANGLE)
-        box(sl, x + 0.18, 4.65, 0.7, 0.7, fill=C3[i], shape=MSO_SHAPE.OVAL); text(sl, x + 0.18, 4.65, 0.7, 0.7, ini, size=15, bold=True, color=WHITE, align=PP_ALIGN.CENTER, anchor=MSO_ANCHOR.MIDDLE)
-        text(sl, x + 1.0, 4.52, 2.8, 0.4, nm, size=14, bold=True, color=NAVY); text(sl, x + 1.0, 4.9, 2.8, 0.7, role, size=10, color=GREY)
+    box(sl, 0.6, 0.45, 0.5, 0.5, fill=TEAL, shape=MSO_SHAPE.ROUNDED_RECTANGLE); text(sl, 1.2, 0.45, 4, 0.5, "keepwell", size=22, bold=True, color=NAVY, anchor=MSO_ANCHOR.MIDDLE)
+    text(sl, 0.6, 1.15, 12, 0.8, d["headline"], size=36, bold=True, color=NAVY)
+    text(sl, 0.6, 1.9, 12, 0.5, d["tagline"], size=18, color=GREY)
+    text(sl, 0.6, 2.55, 12, 0.3, "THE FOUNDERS, AND WHY WE STARTED KEEPWELL", size=10, bold=True, color=TEAL)
+    for i, (ini, nm, role, bg, why) in enumerate(d["founders"]):
+        x = 0.6 + i * 4.1; box(sl, x, 2.9, 3.9, 3.35, fill=SOFT); box(sl, x, 2.9, 3.9, 0.07, fill=C3[i])
+        box(sl, x + 0.18, 3.1, 0.62, 0.62, fill=C3[i], shape=MSO_SHAPE.OVAL); text(sl, x + 0.18, 3.1, 0.62, 0.62, ini, size=13, bold=True, color=WHITE, align=PP_ALIGN.CENTER, anchor=MSO_ANCHOR.MIDDLE)
+        text(sl, x + 0.92, 3.06, 2.9, 0.35, nm, size=14, bold=True, color=NAVY); text(sl, x + 0.92, 3.4, 2.9, 0.3, role, size=10, bold=True, color=C3[i])
+        text(sl, x + 0.18, 3.85, 3.55, 0.5, bg, size=10, bold=True, color=INK)
+        text(sl, x + 0.18, 4.4, 3.55, 0.3, "WHY", size=8.5, bold=True, color=GREY)
+        text(sl, x + 0.18, 4.65, 3.55, 1.55, "“" + why + "”", size=12, italic=True, color=INK)
+    text(sl, 0.6, 6.38, 12.1, 0.3, d["advisors"], size=9.5, color=GREY)
     text(sl, 0.6, 6.85, 8, 0.35, d["foot"], size=11, color=GREY)
     sl.notes_slide.notes_text_frame.text = d["notes"]
+def r_comp2(sl, d, n):
+    frame(sl, d, n); cw = [1.5, 2.35, 2.05, 2.05]; hd = ["", "What it charges", "What you get", "What's missing"]; X = 0.6; y = 1.5
+    for j, h in enumerate(hd):
+        x = X + sum(cw[:j]); box(sl, x, y, cw[j] - 0.03, 0.36, fill=NAVY); text(sl, x + 0.06, y, cw[j] - 0.1, 0.36, h, size=9.5, bold=True, color=WHITE, anchor=MSO_ANCHOR.MIDDLE)
+    y += 0.4
+    for i, row in enumerate(d["rows"]):
+        us = i == 0; h = 0.66 if us else 0.56
+        for j, v in enumerate(row):
+            x = X + sum(cw[:j]); fill = TEALBG if us else (LIGHT if j == 0 else SOFT)
+            box(sl, x, y, cw[j] - 0.03, h - 0.04, fill=fill)
+            col = RED if (j == 3 and not us) else (NAVY if j < 2 else INK)
+            text(sl, x + 0.05, y, cw[j] - 0.1, h - 0.04, v, size=10 if j == 0 else 8.6, bold=(j == 0 or us or j == 1), color=TEAL if (us and j == 0) else col, anchor=MSO_ANCHOR.MIDDLE, align=PP_ALIGN.CENTER if v == "—" else PP_ALIGN.LEFT)
+        y += h
+    mx = 8.7; mw = 4.0; box(sl, mx, 1.5, mw, 4.05, fill=NAVY)
+    text(sl, mx + 0.15, 1.56, mw - 0.3, 0.3, "WHY IT'S HARD TO COPY", size=10, bold=True, color=AMBER)
+    yy = 1.9
+    for i, (h, s) in enumerate(d["moats"]):
+        box(sl, mx + 0.15, yy + 0.05, 0.28, 0.28, fill=TEAL, shape=MSO_SHAPE.OVAL); text(sl, mx + 0.15, yy + 0.05, 0.28, 0.28, str(i + 1), size=9, bold=True, color=WHITE, align=PP_ALIGN.CENTER, anchor=MSO_ANCHOR.MIDDLE)
+        text(sl, mx + 0.5, yy, mw - 0.6, 0.25, h, size=9.5, bold=True, color=WHITE); text(sl, mx + 0.5, yy + 0.24, mw - 0.6, 0.45, s, size=8.3, color=PALE)
+        yy += 0.6
+    box(sl, mx + 0.15, 4.92, mw - 0.3, 0.55, fill=RGBColor(0x26, 0x37, 0x5A)); text(sl, mx + 0.22, 4.92, mw - 0.4, 0.55, d["buy"], size=8.8, bold=True, color=AMBER, anchor=MSO_ANCHOR.MIDDLE)
+    landbar(sl, d["result"], 5.85); foot(sl, d["foot"])
+def r_whynow(sl, d, n):
+    frame(sl, d, n)
+    for i, (v, l) in enumerate(d["cards"]):
+        x = 0.6 + (i % 3) * 4.1; y = 1.6 + (i // 3) * 1.95; box(sl, x, y, 3.9, 1.8, fill=SOFT); box(sl, x, y, 0.07, 1.8, fill=[TEAL, TEAL, AMBER, AMBER, NAVY, NAVY][i])
+        text(sl, x + 0.22, y + 0.12, 3.5, 0.6, v, size=28, bold=True, color=NAVY); text(sl, x + 0.22, y + 0.82, 3.55, 0.95, l, size=11, color=INK)
+    landbar(sl, d["result"], 5.6); foot(sl, d["foot"])
 def r_cards(sl, d, n):
     frame(sl, d, n)
     for i, (h, a, b) in enumerate(d["cards"]):
@@ -253,7 +286,6 @@ def r_market2(sl, d, n):
         yy = 1.85 + i * 0.94; box(sl, lx, yy + 0.08, 0.2, 0.2, fill=cols[i])
         text(sl, lx + 0.28, yy, 1.6, 0.36, v, size=15 if i < 3 else 17, bold=True, color=AMBER if i == 3 else NAVY)
         text(sl, lx + 0.28, yy + 0.35, 1.6, 0.5, [l1, l2], size=8.5, color=GREY)
-    text(sl, 0.6, 5.62, 12.1, 0.3, d["why"], size=10, bold=True, color=NAVY)
     landbar(sl, d["result"], 5.98); foot(sl, d["foot"])
 def r_matrix(sl, d, n):
     frame(sl, d, n); cols = ["", *d["cols"]]; cw = [2.5] + [1.6] * 6

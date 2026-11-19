@@ -6,12 +6,14 @@ ACTS = [("open", "Keepwell"), ("problem", "The problem"), ("answer", "Our answer
 SPEAKERS = {"P": "Prathyusha (CEO)", "K": "Kavyanth (COO)", "S": "Sri Charan (CTO)"}
 SLIDES = [
 dict(id="title", act="open", sp="P", title="Keepwell keeps the promise the retailer made",
- show="Title: 'Keepwell keeps the promise the retailer made.' Tagline: the after-sale service arm of every local appliance retailer. Three founder cards. Vijayawada · Seed round · 2026.",
- say="""Meet Ravi. He runs a multi-brand appliance store in Guntur. On Monday he sells a thirty-eight-thousand-rupee AC. By Thursday the family is back at his counter, because the installer hasn't come. Two years later it breaks, and a mechanic guesses.
-I'm Prathyusha, with Kavyanth and Sri Charan. We are Keepwell: the after-sale service arm of every local appliance retailer like Ravi.""",
- why="Open on one retailer's week while the title and the team are on screen: the investor knows the problem, the company and the people in 30 seconds.",
- believe="This is about the local retailer, and these three people know that world.",
- next="Here is the problem in three parts."),
+ show="Logo, the line 'Keepwell keeps the promise the retailer made', the tagline, and three founder cards: each with a background line (600+ dealers; 200+ service centres; claims platforms) and a quote on why they started Keepwell. Advisors along the bottom.",
+ say="""Every local appliance retailer sells a promise at the counter. Keepwell keeps it. Each of us saw the problem from a different side.
+I'm Prathyusha. I supplied six hundred dealers, and one showed me a court notice naming him beside the brand, for an install he never did.
+Kavyanth ran a brand's service network: small-town installs failed for want of technicians.
+Sri Charan built claims platforms: plan sellers had customers in small towns and nobody to fix their appliances.""",
+ why="It opens with the promise and the people, and each founder's reason is the problem seen from one side: the retailer, the service network, the plan.",
+ believe="These founders have lived this problem and already know the people who can solve it.",
+ next="Here's what that looks like at a retailer's counter."),
 dict(id="problem", act="problem", sp="P", title="Retailers sell the appliance, then lose the customer",
  show="Three cards: Slow installs (2–5 days; 51 of 64 retailers take the blame); Guesswork repairs (80–91% out of warranty; 44% of AC service to local mechanics); Blame, no income (2–3% net; nothing after the sale; held jointly liable). [click] The result line: 7 of 12 households keep no record, and the person they trust can't keep the promise.",
  say="""Three things go wrong. Installs are slow: brands take two to five days, and fifty-one of the sixty-four retailers we met take the blame. Repairs are guesswork: most machines are out of warranty, and forty-four percent of AC service goes to local mechanics with no fixed price and no record. And the retailer earns nothing after the sale, while courts hold him liable.
@@ -73,28 +75,28 @@ On the right, to scale: the south is a thousand crore; Andhra and Telangana, whe
  why="One side says what the money is; the other shows, to scale, how little of it the plan needs.",
  believe="The market is real, unorganised and large, and the plan needs only a sliver of it.",
  next="Why hasn't anyone done this? Sri Charan."),
-dict(id="competition", act="win", sp="S", title="Everyone covers a part",
- show="A tick matrix: Keepwell ticks all six (authorised install, repair and AMC, plan at the counter, local retailer is the customer, own delivery in small towns, appliance record). Urban Company, Onsitego/Zopper, 247around/SERVIZ, brand service centres, Jeeves/resQ and local mechanics each cover a part. Line: only Keepwell is the after-sale arm of the local retailer.",
- say="""Everyone covers a part. Urban Company serves metro households. Onsitego sells plans at chain counters. 247around is paid by brands. Jeeves and resQ serve only their own retailer's buyers. Local mechanics fix things but give no guarantee and keep no record.
-Only Keepwell is the after-sale arm of the local retailer — authorised, guaranteed, and on one record.""",
- why="One matrix, one row that is full: the investor sees the gap at a glance.",
- believe="There is an open lane, and Keepwell is the only one in it.",
- next="And we're the team to take it. Prathyusha."),
-dict(id="team", act="win", sp="P", title="Between us, we already know this market by name",
- show="Three founder cards with one big number each (600+ dealers; 200+ service centres; claims platforms), advisors, and the edge: warm introductions cut the cost of signing a retailer from ₹22k to ₹9.5k.",
- say="""I've supplied six hundred dealers in Andhra and Telangana for ten years. Kavyanth knows the owners of two hundred service centres. Sri Charan built the claims engine behind plans sold at a counter.
-That's our edge: our introductions cut the cost of signing a retailer from twenty-two thousand to nine and a half thousand rupees.""",
- why="Each founder's network maps to one part of the business, and the edge is a number.",
- believe="This team has an unfair advantage in signing retailers and partners.",
- next="So here's our ask."),
+dict(id="competition", act="win", sp="S", title="Market prices, more for the money, and hard to copy",
+ show="Left, a table: each player, what it charges, what you get, what's missing (in red). Keepwell: brand's install price (₹1,199 + materials), ₹300 visit, AMC ₹1,299, Protect ₹2,000 for 2 years. Brand centre ₹1,199 + GST, 2–5 days, one brand. Urban Company from ₹799, gas ₹3,000, AMC ₹1,098–1,298, 51 cities. Onsitego · Croma ZipCare ₹1,139–2,499 a year, no installs. Jeeves · resQ ₹531–590, own buyers only. Local mechanic ₹300, no guarantee or record. [click] Right, why it's hard to copy: exclusive agreements, authorised installs, density, the record, incumbents built for someone else; and 'easier to buy than to build: Onsitego paid ₹80 Cr for Qdigi'.",
+ say="""We charge what the market charges: the brand's install price, the mechanic's three hundred, Urban Company's AMC. Read the last column: the brand takes days, Urban Company stays in big cities, plan sellers don't install, and the mechanic gives no guarantee.
+[click] Could someone copy us? They'd need exclusive retailer agreements, authorised installs, and twenty retailers in every cluster before it pays, built one introduction at a time. It's easier to buy than to build: Onsitego paid eighty crore for Qdigi. That's our exit, not our threat.""",
+ why="Prices side by side show we compete at market rates; the red column and the moat panel answer 'how are you different' and 'can't they just copy you'.",
+ believe="Keepwell matches market prices, gives more, and is slow and costly to copy.",
+ next="So here's what we're asking for."),
 dict(id="ask", act="ask", sp="P", title="Raising ₹2.5 Cr for the seed round",
- show="Dark slide. A table: 1 · Cluster launches 64% ₹1.6 Cr (8 new clusters, 500 retailers by March 2029; ₹20 L per cluster); 2 · Working capital 16% ₹0.4 Cr; 3 · Buffer and compliance 20% ₹0.5 Cr. Three cards: ₹2.5 Cr CCPS, single close; ₹10 Cr pre-money, 20%; 20× seed return at a year-5 exit (March 2032). [click] 'The only round we need to reach 1,000 retailers. Keepwell keeps the promise the retailer made.'",
+ show="Dark slide. A table: 1 · Cluster launches 64% ₹1.6 Cr (8 new clusters, 500 retailers by March 2029; ₹20 L per cluster); 2 · Working capital 16% ₹0.4 Cr; 3 · Buffer and compliance 20% ₹0.5 Cr. Three cards: ₹2.5 Cr CCPS, single close; ₹10 Cr pre-money, 20%; 20× seed return at a year-5 exit (March 2032). [click] 'The only round we need to reach 1,000 retailers.'",
  say="""We're raising two and a half crore, as CCPS, at a ten crore pre-money valuation, in one close. Sixty-four percent opens eight new clusters, sixteen percent is working capital, and twenty percent is buffer and compliance above our two-crore peak need. Head office runs on our operating profit.
 At a year-five exit, in March 2032, at fifteen times EBITDA, the seed's twenty percent returns about twenty times.
-[click] This is the only round we need to reach a thousand retailers. Keepwell keeps the promise the retailer made. Thank you.""",
+[click] This is the only round we need to reach a thousand retailers. Thank you.""",
  why="The ask as a use-of-funds table, then the terms, then the close line.",
  believe="A fairly priced, capital-efficient round with a clear return.",
- next="(Q&A: press B for the backup slides.)"),
+ next="And why now."),
+dict(id="whynow", act="ask", sp="P", title="Why now",
+ show="Six tiles: ~10% of homes own an AC, market growing 15% a year (₹53,600 Cr → ₹93,610 Cr); 65% of Blue Star sales in Tier III–V towns, 85% of Voltas buyers first-time; 80–91% out of warranty; GST on ACs 28% → 18%; AI desk under ₹5 a job; e-waste, right-to-repair, DPDP and labour rules reward a registered operator. [click] The close.",
+ say="""Why now? One home in ten has an AC, the market grows fifteen percent a year, and most new buyers are first-timers in small towns. Most machines are already out of warranty, ACs just got cheaper, an AI desk costs under five rupees a job, and the new rules reward a registered operator.
+[click] Whoever organises the after-sale first keeps the retailer. Keepwell keeps the promise the retailer made. Thank you.""",
+ why="It ends on timing and the close, so the last thing the investor hears is why this round, now.",
+ believe="The window is open now, and Keepwell is positioned to take it.",
+ next="Questions."),
 ]
 BACKUP = [
  dict(id="b_pilot", title="Pilot, month by month", show="Retailers 12 → 34; revenue ₹2.34 L → ₹6.63 L a month; contribution crosses the ₹1.0 L team in May; total +₹1.9 L.", say="The monthly table behind the traction slide.", why="", sp="K", act="ask"),

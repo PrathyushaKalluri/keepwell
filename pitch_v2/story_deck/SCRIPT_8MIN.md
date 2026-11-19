@@ -1,8 +1,8 @@
 # Keepwell seed pitch: the 8-minute story deck, explained slide by slide
 
 **Deck:** [`index_8min.html`](index_8min.html). Open it in Chrome. **F** goes full screen, **N** shows these notes, **→ / space** reveals the next click and **B** opens the backup slides for Q&A.
-**Length:** 12 slides, about **7:06** at 150 words a minute.
-**Speaking time:** Prathyusha (CEO) 2:36 · Kavyanth (COO) 3:28 · Sri Charan (CTO) 1:02.
+**Length:** 12 slides, about **7:32** at 150 words a minute.
+**Speaking time:** Prathyusha (CEO) 2:49 · Kavyanth (COO) 3:28 · Sri Charan (CTO) 1:15.
 
 ## How to use this script
 
@@ -22,7 +22,7 @@ Each slide has five parts:
 
 | # | Act | Slide | Speaker | Time | What the investor should believe |
 |---|---|---|---|---|---|
-| 1 | Keepwell | Keepwell keeps the promise the retailer made | Prathyusha | 0:26 | This is about the local retailer, and these three people know that world. |
+| 1 | Keepwell | Keepwell keeps the promise the retailer made | Prathyusha | 0:34 | These founders have lived this problem and already know the people who can solve it. |
 | 2 | The problem | Retailers sell the appliance, then lose the customer | Prathyusha | 0:35 | The pain sits with the local retailer and the family, and nobody owns it. |
 | 3 | Our answer | The retailer sells the promise. Keepwell keeps it. | Kavyanth | 0:38 | A clear company with a big vision and a simple first step. |
 | 4 | Our answer | At every stage, Keepwell and everyone around it gains | Sri | 0:37 | Every party gains at every stage, so the model is pulled forward by its stakeholders, not pushed. |
@@ -31,9 +31,9 @@ Each slide has five parts:
 | 7 | The money | How we make money | Kavyanth | 0:28 | Revenue per retailer grows without adding retailers. |
 | 8 | The money | Profitable from year one | Kavyanth | 0:41 | This is a profitable, capital-efficient business. |
 | 9 | Why we win | ₹4,000 Cr a year keeps small-town appliances running. We need 2% of it. | Prathyusha | 0:32 | The market is real, unorganised and large, and the plan needs only a sliver of it. |
-| 10 | Why we win | Everyone covers a part | Sri | 0:25 | There is an open lane, and Keepwell is the only one in it. |
-| 11 | Why we win | Between us, we already know this market by name | Prathyusha | 0:24 | This team has an unfair advantage in signing retailers and partners. |
-| 12 | The ask | Raising ₹2.5 Cr for the seed round | Prathyusha | 0:39 | A fairly priced, capital-efficient round with a clear return. |
+| 10 | Why we win | Market prices, more for the money, and hard to copy | Sri | 0:38 | Keepwell matches market prices, gives more, and is slow and costly to copy. |
+| 11 | The ask | Raising ₹2.5 Cr for the seed round | Prathyusha | 0:36 | A fairly priced, capital-efficient round with a clear return. |
+| 12 | The ask | Why now | Prathyusha | 0:32 | The window is open now, and Keepwell is positioned to take it. |
 
 ## Why the story runs in this order
 
@@ -47,21 +47,25 @@ Each slide has five parts:
 ## Slide by slide
 
 ### 1. Keepwell keeps the promise the retailer made
-**Prathyusha (CEO)** · about 0:26 · act: Keepwell
+**Prathyusha (CEO)** · about 0:34 · act: Keepwell
 
-**SHOW (on screen):** Title: 'Keepwell keeps the promise the retailer made.' Tagline: the after-sale service arm of every local appliance retailer. Three founder cards. Vijayawada · Seed round · 2026.
+**SHOW (on screen):** Logo, the line 'Keepwell keeps the promise the retailer made', the tagline, and three founder cards: each with a background line (600+ dealers; 200+ service centres; claims platforms) and a quote on why they started Keepwell. Advisors along the bottom.
 
 **SAY (word for word):**
 
-> Meet Ravi. He runs a multi-brand appliance store in Guntur. On Monday he sells a thirty-eight-thousand-rupee AC. By Thursday the family is back at his counter, because the installer hasn't come. Two years later it breaks, and a mechanic guesses.
+> Every local appliance retailer sells a promise at the counter. Keepwell keeps it. Each of us saw the problem from a different side.
 >
-> I'm Prathyusha, with Kavyanth and Sri Charan. We are Keepwell: the after-sale service arm of every local appliance retailer like Ravi.
+> I'm Prathyusha. I supplied six hundred dealers, and one showed me a court notice naming him beside the brand, for an install he never did.
+>
+> Kavyanth ran a brand's service network: small-town installs failed for want of technicians.
+>
+> Sri Charan built claims platforms: plan sellers had customers in small towns and nobody to fix their appliances.
 
-**WHY this slide:** Open on one retailer's week while the title and the team are on screen: the investor knows the problem, the company and the people in 30 seconds.
+**WHY this slide:** It opens with the promise and the people, and each founder's reason is the problem seen from one side: the retailer, the service network, the plan.
 
-**THEY SHOULD BELIEVE:** This is about the local retailer, and these three people know that world.
+**THEY SHOULD BELIEVE:** These founders have lived this problem and already know the people who can solve it.
 
-**BRIDGE:** *"Here is the problem in three parts."*
+**BRIDGE:** *"Here's what that looks like at a retailer's counter."*
 
 ### 2. Retailers sell the appliance, then lose the customer
 **Prathyusha (CEO)** · about 0:35 · act: The problem
@@ -209,44 +213,27 @@ Each slide has five parts:
 
 **BRIDGE:** *"Why hasn't anyone done this? Sri Charan."*
 
-### 10. Everyone covers a part
-**Sri Charan (CTO)** · about 0:25 · act: Why we win
+### 10. Market prices, more for the money, and hard to copy
+**Sri Charan (CTO)** · about 0:38 · act: Why we win
 
-**SHOW (on screen):** A tick matrix: Keepwell ticks all six (authorised install, repair and AMC, plan at the counter, local retailer is the customer, own delivery in small towns, appliance record). Urban Company, Onsitego/Zopper, 247around/SERVIZ, brand service centres, Jeeves/resQ and local mechanics each cover a part. Line: only Keepwell is the after-sale arm of the local retailer.
-
-**SAY (word for word):**
-
-> Everyone covers a part. Urban Company serves metro households. Onsitego sells plans at chain counters. 247around is paid by brands. Jeeves and resQ serve only their own retailer's buyers. Local mechanics fix things but give no guarantee and keep no record.
->
-> Only Keepwell is the after-sale arm of the local retailer — authorised, guaranteed, and on one record.
-
-**WHY this slide:** One matrix, one row that is full: the investor sees the gap at a glance.
-
-**THEY SHOULD BELIEVE:** There is an open lane, and Keepwell is the only one in it.
-
-**BRIDGE:** *"And we're the team to take it. Prathyusha."*
-
-### 11. Between us, we already know this market by name
-**Prathyusha (CEO)** · about 0:24 · act: Why we win
-
-**SHOW (on screen):** Three founder cards with one big number each (600+ dealers; 200+ service centres; claims platforms), advisors, and the edge: warm introductions cut the cost of signing a retailer from ₹22k to ₹9.5k.
+**SHOW (on screen):** Left, a table: each player, what it charges, what you get, what's missing (in red). Keepwell: brand's install price (₹1,199 + materials), ₹300 visit, AMC ₹1,299, Protect ₹2,000 for 2 years. Brand centre ₹1,199 + GST, 2–5 days, one brand. Urban Company from ₹799, gas ₹3,000, AMC ₹1,098–1,298, 51 cities. Onsitego · Croma ZipCare ₹1,139–2,499 a year, no installs. Jeeves · resQ ₹531–590, own buyers only. Local mechanic ₹300, no guarantee or record. [click] Right, why it's hard to copy: exclusive agreements, authorised installs, density, the record, incumbents built for someone else; and 'easier to buy than to build: Onsitego paid ₹80 Cr for Qdigi'.
 
 **SAY (word for word):**
 
-> I've supplied six hundred dealers in Andhra and Telangana for ten years. Kavyanth knows the owners of two hundred service centres. Sri Charan built the claims engine behind plans sold at a counter.
+> We charge what the market charges: the brand's install price, the mechanic's three hundred, Urban Company's AMC. Read the last column: the brand takes days, Urban Company stays in big cities, plan sellers don't install, and the mechanic gives no guarantee.
 >
-> That's our edge: our introductions cut the cost of signing a retailer from twenty-two thousand to nine and a half thousand rupees.
+> [click] Could someone copy us? They'd need exclusive retailer agreements, authorised installs, and twenty retailers in every cluster before it pays, built one introduction at a time. It's easier to buy than to build: Onsitego paid eighty crore for Qdigi. That's our exit, not our threat.
 
-**WHY this slide:** Each founder's network maps to one part of the business, and the edge is a number.
+**WHY this slide:** Prices side by side show we compete at market rates; the red column and the moat panel answer 'how are you different' and 'can't they just copy you'.
 
-**THEY SHOULD BELIEVE:** This team has an unfair advantage in signing retailers and partners.
+**THEY SHOULD BELIEVE:** Keepwell matches market prices, gives more, and is slow and costly to copy.
 
-**BRIDGE:** *"So here's our ask."*
+**BRIDGE:** *"So here's what we're asking for."*
 
-### 12. Raising ₹2.5 Cr for the seed round
-**Prathyusha (CEO)** · about 0:39 · act: The ask
+### 11. Raising ₹2.5 Cr for the seed round
+**Prathyusha (CEO)** · about 0:36 · act: The ask
 
-**SHOW (on screen):** Dark slide. A table: 1 · Cluster launches 64% ₹1.6 Cr (8 new clusters, 500 retailers by March 2029; ₹20 L per cluster); 2 · Working capital 16% ₹0.4 Cr; 3 · Buffer and compliance 20% ₹0.5 Cr. Three cards: ₹2.5 Cr CCPS, single close; ₹10 Cr pre-money, 20%; 20× seed return at a year-5 exit (March 2032). [click] 'The only round we need to reach 1,000 retailers. Keepwell keeps the promise the retailer made.'
+**SHOW (on screen):** Dark slide. A table: 1 · Cluster launches 64% ₹1.6 Cr (8 new clusters, 500 retailers by March 2029; ₹20 L per cluster); 2 · Working capital 16% ₹0.4 Cr; 3 · Buffer and compliance 20% ₹0.5 Cr. Three cards: ₹2.5 Cr CCPS, single close; ₹10 Cr pre-money, 20%; 20× seed return at a year-5 exit (March 2032). [click] 'The only round we need to reach 1,000 retailers.'
 
 **SAY (word for word):**
 
@@ -254,13 +241,30 @@ Each slide has five parts:
 >
 > At a year-five exit, in March 2032, at fifteen times EBITDA, the seed's twenty percent returns about twenty times.
 >
-> [click] This is the only round we need to reach a thousand retailers. Keepwell keeps the promise the retailer made. Thank you.
+> [click] This is the only round we need to reach a thousand retailers. Thank you.
 
 **WHY this slide:** The ask as a use-of-funds table, then the terms, then the close line.
 
 **THEY SHOULD BELIEVE:** A fairly priced, capital-efficient round with a clear return.
 
-**BRIDGE:** (Q&A: press B for the backup slides.)
+**BRIDGE:** *"And why now."*
+
+### 12. Why now
+**Prathyusha (CEO)** · about 0:32 · act: The ask
+
+**SHOW (on screen):** Six tiles: ~10% of homes own an AC, market growing 15% a year (₹53,600 Cr → ₹93,610 Cr); 65% of Blue Star sales in Tier III–V towns, 85% of Voltas buyers first-time; 80–91% out of warranty; GST on ACs 28% → 18%; AI desk under ₹5 a job; e-waste, right-to-repair, DPDP and labour rules reward a registered operator. [click] The close.
+
+**SAY (word for word):**
+
+> Why now? One home in ten has an AC, the market grows fifteen percent a year, and most new buyers are first-timers in small towns. Most machines are already out of warranty, ACs just got cheaper, an AI desk costs under five rupees a job, and the new rules reward a registered operator.
+>
+> [click] Whoever organises the after-sale first keeps the retailer. Keepwell keeps the promise the retailer made. Thank you.
+
+**WHY this slide:** It ends on timing and the close, so the last thing the investor hears is why this round, now.
+
+**THEY SHOULD BELIEVE:** The window is open now, and Keepwell is positioned to take it.
+
+**BRIDGE:** *"Questions."*
 
 ## Backup slides (press B; for Q&A only)
 
