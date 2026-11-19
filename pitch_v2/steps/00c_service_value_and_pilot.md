@@ -1,8 +1,9 @@
 # Step 0c: Why the service business is valuable on its own, and where to pilot (Gate 1 follow-up)
 
-> **Update after Step 7b (approved 20 Nov 2026).** The line "10–12% from service alone" is superseded. A mature cluster now earns 14–16% EBITDA (Step 7b). At the company level, the mature run-rate from service alone is 9.1%.
+> **Superseded in part (19 Nov 2026).** Superseded numbers: "breakeven at 30" → 35 on pilot economics, 22 at maturity; year-7 revenue → ₹130.5 Cr (Step 7b). Cluster density: about 2,400 units a month comes from 30–35 shops at 74 units; a mature 60-shop cluster sells about 4,400.
 
-> **Illustrative case** for the IIIT Hyderabad ESFS course pitch. The research is real and sourced, and the model's assumptions are tagged.
+> **Update after Step 7b (approved 19 Nov 2026).** The line "10–12% from service alone" is superseded. A mature cluster now earns 14–16% EBITDA (Step 7b). At the company level, the mature run-rate from service alone is 9.1%.
+
 >
 > **For approval, together with `00_validation_report.md` and `00b_margin_and_vision.md`.**
 
@@ -61,7 +62,7 @@ Data layers are upside. On its own, the service business must meet five tests th
 **Why Vijayawada–Guntur:**
 1. **Density decides viability (Step 0, sensitivity rank 1).** A cluster needs about 2,400 appliances sold a month across 50–70 shops to reach 10–12%. This belt has about 8 lakh households within 35 km of the hub, more than 3× the Warangal tri-city. It is the only belt where 50–70 independent shops in one cluster is realistic.
 2. **The demand fits the products.**
-   - It has a real AC season: the IMD May mean maximum is **40.2 °C**, the record is **48.8 °C**, and **4 months average 35 °C or more**. The belt has the **largest AC base of any candidate**, about **129k ACs and 186k AC jobs a year** [Model]. Its humidity is moderate (46% on May afternoons); the claim that it is "most humid" is corrected.
+   - It has a real AC season: the IMD May mean maximum is **40.2 °C**, the record is **48.8 °C**, and **4 months average 35 °C or more**. The belt has the **largest AC base of any candidate**, about **129k ACs and 186k AC jobs a year**. Its humidity is moderate (46% on May afternoons); the claim that it is "most humid" is corrected.
    - Saline groundwater in parts of Krishna and Guntur (CGWB) supports water-purifier service. District TDS medians are still UNKNOWN.
    - Incomes are strong: per-capita GDDP is **₹4.2 L in Krishna** and **₹3.6 L in NTR**, against ₹1.87 L in Hanumakonda (Warangal).
    - It has a technician pipeline: a JCH-Hitachi / APSSDC AC-training centre in Vijayawada, and the ITI refrigeration and AC trade.

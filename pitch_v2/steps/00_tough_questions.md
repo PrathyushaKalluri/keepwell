@@ -2,6 +2,8 @@
 
 **Status:** answered 19 Nov 2026 from the research (A, B and C), the unit-economics engine (M) and our reasoning (R).
 
+> **Superseded in part (19 Nov 2026).** The desk fee (sections 8–9) was dropped at Gate 1. Canonical values: shop acquisition cost ₹9.5k warm (pilot), ₹14k blended plan, ₹20k partner clusters; the routing kill threshold is 50%; the shop count is about 45,000 independent shops. The ask is in Step 8.
+
 **Sources:**
 - **RA:** `research/retail_install/findings.md`
 - **RB:** `research/supply_layers/findings.md`
@@ -25,7 +27,7 @@
 | I7 / S3 | Why hasn't 247around, Onsitego or Urban Company done this? | **They each cover a different slice:** 247around and SERVIZ do brand-paid jobs (247around makes about ₹14.5 Cr a year at a loss after 10 years). Onsitego, Zopper and OneAssist sell plans at the counter. Jeeves and resQ serve their own retailer only. Urban Company is in 51 cities, and its top 10 cities are over 90% of the value of its jobs. Onsitego left consumer repair because customer acquisition was too costly. **No one runs the full job for independent Tier 2/3 shops. That is untested, not disproven** (RC). Onsitego is the closest threat. | D |
 | I8 | What is the moat? | Analogs (HomeServe, Asurion, Urban Company) built moats from (1) exclusive multi-year contracts with whoever owns the point of sale and (2) dense, trained supply (RC). Ours: multi-year service-arm agreements with retailers, cluster density, certified partner technicians, and the appliance record. **The AI is the cost engine, not the moat.** | D + R |
 | I9 | Exits? | **Strategic buyers:** Onsitego (bought Qdigi for ₹80 Cr), Servify (bought 247around; valued at ₹5,660 Cr), Urban Company (12.9× net revenue at IPO), brands' service arms, Asurion-type acquirers. **Operator multiples:** 2–3× revenue (RC). | D |
-| I10 | What is proven? | **Today:** the research (shops, installation rules, prices, competitors). **Story:** discovery and a 90-day pilot (Step 6). **Not proven:** routing rate, brand authorisation, repair capture, technician productivity. | R |
+| I10 | What is proven? | **Today:** the research (shops, installation rules, prices, competitors). **Pilot:** discovery and the 8-month pilot (Step 6). **Not proven:** routing rate, brand authorisation, repair capture, technician productivity. | R |
 | I11 | Why this team? | The backstory is rebuilt in Step 2 so one founder comes from a brand's dealer and channel sales. | R (Step 2) |
 | I12 | Why now? | AC penetration is about 10%, and 85% of Voltas buyers buy for the first time. Blue Star makes 65% of its sales in Tier III–V towns. GST on ACs was cut to 18% (Sep 2025). Indian-language AI costs under ₹5 a job. Right to Repair and E-waste rules are coming in (RA, RB). | D |
 | I13 | Capital to Series A? | The Series A bar is about ₹16–20 Cr+ in run-rate (RC). That means 420–525 retailers, or 14–18 clusters (UE). The path: **about ₹2–2.5 Cr to prove 3 clusters, then a ₹8–15 Cr seed, then Series A.** | D + M |

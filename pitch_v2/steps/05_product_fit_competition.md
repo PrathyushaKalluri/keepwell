@@ -1,27 +1,26 @@
 # Step 5: Product, fit and competition
 
-**Phase B: The opportunity and the proof. Status: DRAFT for approval (20 Nov 2026).**
+**Phase B: The opportunity and the proof. Status: DRAFT for approval (19 Nov 2026).**
 
-> **Update after Steps 7b–8 (20 Nov 2026, final).** Cluster EBITDA at maturity is now **14–16%** (Step 7b), not 10–12%. Breakeven is **22 shops at maturity** and 35 on pilot economics.
+> **Update after Steps 7b–8 (19 Nov 2026, final).** Cluster EBITDA at maturity is now **14–16%** (Step 7b), not 10–12%. Breakeven is **22 shops at maturity** and 35 on pilot economics.
 
-> **Update after Step 7b (approved 20 Nov 2026).** **New job flow: Keepwell Protect.**
+> **Update after Step 7b (approved 19 Nov 2026).** **New job flow: Keepwell Protect.**
 > 1. *Sale:* the shop adds the 2-year repair plan to the bill, and the WhatsApp agent creates the plan record against the appliance's serial.
 > 2. *Coverage:* the plan starts when the brand warranty ends.
 > 3. *Claim:* the customer messages Keepwell, the AI triages the claim against the plan terms, and a partner or Keepwell technician repairs it at no charge.
 >
 > Guardrails: the AI does not decide claim rejections; a human does. Protect is a repairs-only service contract with expected claims ring-fenced. In partner clusters, Keepwell still owns the shop, the customer, the payment and the record. The north star is unchanged. See `07b_model_redesign.md`.
 
-> **Illustrative case** for the IIIT Hyderabad ESFS course pitch.
 > - Competitor facts are real and sourced **[R]**.
-> - Product build status is **[Story]**, consistent with Step 2.
-> - Unit numbers come from `ue_v2.py` **[Model]**.
+> - Product build status is ****, consistent with Step 2.
+> - Unit numbers come from `ue_v2.py` ****.
 
 **Builds on:** Steps 0–4 (approved). **Feeds:** Step 6 (pilot metrics), Step 11 (Product row), Step 12 (solution, demo and competition slides).
 
 > ### Read this first (flags for approval)
 > *Checked by an independent reviewer against Steps 0–4, the model and the research. Fixes applied.*
 > 1. **New: what the product is.** Keepwell sells **one service** (authorised install, guaranteed repair, AMC) to three payers: households, brands and service centres, and plan sellers. The shop, the technician and the household each see a WhatsApp-first view. There are no apps to download (§5.3).
-> 2. **New [Story]: what is built today.**
+> 2. **New: what is built today.**
 >    - Live in the pilot: WhatsApp and voice intake (Telugu, Hindi, English), job cards, dispatch, the photo and serial checklist, the appliance record with a QR sticker, the shop's weekly summary, technician payouts.
 >    - AMC scheduling and renewal reminders went live in the Jul–Oct 2026 off-season run.
    - Next 6–12 months: parts prediction and the verification export for brands and plan sellers. The lead engine comes later (§5.4).
@@ -37,15 +36,15 @@
 >    The closest threat is **Onsitego**. We plan to make plan sellers customers, not rivals (§5.7).
 > 6. **Porter's five forces:** the strongest forces are **substitutes** (the local mechanic, the brand's own service centre) and **supplier power** (brands control authorisation). Our answers are in §5.8.
 > 7. **Hardest investor questions:**
->    - *What stops Onsitego doing this?* It sells plans at chain counters and has thin repair supply in small towns. Running repair itself is what it left in 2020. We would rather fulfil its claims than fight it. Our shop agreements are multi-year and designed to be exclusive in each shop's catchment [Story].
->    - *Is the AI real or a slide?* It is live in the pilot [Story] at under ₹5 a job [R]. Its value is a lean team (one manager plus one dispatcher for 30 shops) and the record, not magic diagnosis.
->    - *Why won't brands squeeze you?* Brands need installs done in towns they can't staff. Service-centre sub-contracts and direct talks with brands give us two routes. With no authorisation at all, a four-appliance cluster needs **about 50 shops** to break even, against 30 with authorisation. So authorisation is a go/no-go gate in the pilot [Model].
+>    - *What stops Onsitego doing this?* It sells plans at chain counters and has thin repair supply in small towns. Running repair itself is what it left in 2020. We would rather fulfil its claims than fight it. Our shop agreements are multi-year and designed to be exclusive in each shop's catchment.
+>    - *Is the AI real or a slide?* It is live in the pilot at under ₹5 a job [R]. Its value is a lean team (one manager plus one dispatcher for 30 shops) and the record, not magic diagnosis.
+>    - *Why won't brands squeeze you?* Brands need installs done in towns they can't staff. Service-centre sub-contracts and direct talks with brands give us two routes. With no authorisation at all, a four-appliance cluster needs **about 50 shops** to break even, against 30 with authorisation. So authorisation is a go/no-go gate in the pilot.
 
 ---
 
 ## 5.1 How this step is built
 - **What we sell, and to whom:** the per-job economics from 00 and the market from Step 4.
-- **What is built:** the [Story] timeline from Step 2.
+- **What is built:** the timeline from Step 2.
 - **Competition:** the research in `competitors_funding/` and the archived competitor files [R].
 - **Tough questions answered:** I7, I8, S3, T1–T7.
 
@@ -53,8 +52,8 @@
 | Fit | The test | Where we stand |
 |---|---|---|
 | **Problem–solution** | Does the solution remove the pain for each side? | **Shop:** keeps the customer, earns commission, sheds complaints and liability. **Household:** fast install, fixed price, a 90-day guarantee, a record. **Technician:** steady jobs, parts, quick pay. **Brand or service centre:** installs done in towns it can't staff. **Plan seller:** small-town claims fulfilled |
-| **Product–market** | Will the payers pay, repeatedly? | Households already pay for AC service and AMCs (₹550 service; ₹1,099–1,299 AMC [R]). Brands already pay installers: in one SERVIZ example, the brand pays ₹1,000 and the service centre keeps ₹700 [R, single proxy]. What brands pay us is still unknown and is the first question in Step 6. Plan sellers need small-town fulfilment [R]. The Step 6 pilot measures repeat use and routing |
-| **Founder–market** | Can this team win shops, authorisation and supply? | CEO: 600+ dealers. COO: 200+ service-centre owners. CTO: plan sellers and the AI layer [Story, Step 2] |
+| **Product–market** | Will the payers pay, repeatedly? | Households already pay for AC service and AMCs (₹550 service; ₹1,099–1,299 AMC [R]). Brands already pay installers: in one SERVIZ example, the brand pays ₹1,000 and the service centre keeps ₹700 [R, single proxy]. The pilot answered what brands pay: the customer pays the brand rate (₹1,199 + GST), the service centre keeps about ₹400, and **Keepwell nets ₹800 per AC install** (Step 6). Plan sellers need small-town fulfilment [R]. The Step 6 pilot measures repeat use and routing |
+| **Founder–market** | Can this team win shops, authorisation and supply? | CEO: 600+ dealers. COO: 200+ service-centre owners. CTO: plan sellers and the AI layer |
 
 ## 5.3 How it works: one job, end to end
 
@@ -80,7 +79,7 @@
 
 **The AI service layer (the CTO's thread)**
 
-| Component | What it does | Built? [Story] |
+| Component | What it does | Built? |
 |---|---|---|
 | Intake | Voice, WhatsApp text and photos (Telugu, Hindi, English) in; structured job card out | Live |
 | Dispatch | Matches skill, brand authorisation, location and load | Live (with a human dispatcher) |
@@ -101,7 +100,7 @@
 - The AI never decides refunds or warranty claims.
 - Household data is used only with consent (DPDP Act, Step 10).
 
-## 5.4 What is built and what comes next [Story, consistent with Step 2]
+## 5.4 What is built and what comes next
 | When | Built |
 |---|---|
 | Sep–Nov 2025 | First version of the service layer: intake, job cards, the photo and serial checklist, the record and QR. Technician certification curriculum written (Step 2) |
@@ -122,9 +121,9 @@
 ## 5.6 Why it is hard to copy (the moat, made concrete)
 | Moat | What it is | How it shows in the numbers |
 |---|---|---|
-| **Exclusive service-arm agreements with shops** (the HomeServe pattern [R]) | Multi-year, with a revenue share and the shop's name on the guarantee. Designed to be exclusive in the shop's catchment [Story] | We expect lower shop churn than a marketplace [Assumption]. Competitors can't route that shop's installs |
-| **Cluster density** | 50–70 shops per cluster, with technicians close by | Cluster EBITDA rises from 0% at 30 shops to 10–12% at maturity [Model] |
-| **Authorisation access** | Service-centre sub-contracts, then direct authorisation by brands | 35% of AC installs authorised (BASE), 45% with the COO's contacts [Story edge]. At 45%, breakeven falls from 30 to about 27 shops [Model] |
+| **Exclusive service-arm agreements with shops** | Multi-year, with a revenue share and the shop's name on the guarantee. Designed to be exclusive in the shop's catchment | We expect lower shop churn than a marketplace [Assumption]. Competitors can't route that shop's installs |
+| **Cluster density** | 50–70 shops per cluster, with technicians close by | Cluster EBITDA rises from 0% at 30 shops to 10–12% at maturity |
+| **Authorisation access** | Service-centre sub-contracts, then direct authorisation by brands | 35% of AC installs authorised (BASE), 45% with the COO's contacts. At 45%, breakeven falls from 30 to about 27 shops |
 | **The appliance record** | Consent-based. Grows with every visit | The planned data layers (Phase 3) earn 70–90% gross margin [R; Plan] |
 
 **The AI is the cost engine, not the moat.** It can be copied. The four items above can't be copied quickly.
@@ -155,7 +154,7 @@
 **Verdict:** the business is attractive only with **density + authorisation + shop exclusivity**. The Step 6 pilot tests all three.
 
 ## 5.9 Weak points, said before an investor does
-- **Authorisation depends on others.** The sub-contracts are non-exclusive [Story]. With zero authorisation, breakeven rises to about 50 shops [Model].
+- **Authorisation depends on others.** The sub-contracts are non-exclusive. With zero authorisation, breakeven rises to about 50 shops.
 - **Urban Company is already in our belt** for households. Our edge holds only if shops route to us.
 - **Part prediction needs data** (a few thousand verified jobs [Assumption]) before it is useful. Until then, it is a checklist plus the technician's experience.
 - **Leakage**: partners keep their own customers. Measured in the pilot.
@@ -164,7 +163,7 @@
 
 ## Decisions to approve (Step 5)
 1. **The product:** one service, three payers, WhatsApp-first, no app downloads. The job flows A–C.
-2. **The AI service layer:** what's live versus next [Story], under ₹5 a job, and the four guardrails. Renewal reminders are live; the lead engine comes later.
+2. **The AI service layer:** what's live versus next, under ₹5 a job, and the four guardrails. Renewal reminders are live; the lead engine comes later.
 3. **North star:** verified jobs closed on the first visit per cluster per month, plus the guardrails.
 4. **The moat:** exclusive shop agreements, density, authorisation access, the record. The AI is the cost engine.
 5. **Competition and positioning line.** Onsitego is the closest threat, and our plan is to make it a customer.

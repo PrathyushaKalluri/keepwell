@@ -2,9 +2,9 @@
 import plan_v3 as V
 R = dict(
     isafe=0.45e7, isafe_cap_post=6.0e7, isafe_disc=0.20,
-    seed=2.5e7, seed_pre=10.0e7, pool_post=0.10,
-    r2=5.0e7, r2_pre=30.0e7,           # GTM round, H2 2028
-    r3=15.0e7, r3_pre=85.0e7,          # Scaling round, 2030
+    seed=2.5e7, seed_pre=8.0e7, pool_post=0.10, t1=1.75e7, t2=0.75e7,   # tranche 2 at the month-9 gate (after the first AC season)
+    r2=5.0e7, r2_pre=25.0e7,           # Round 2 (go-to-market), H2 2028
+    r3=15.0e7, r3_pre=70.0e7,          # Round 3 (scaling), 2030
     split=(("Prathyusha (CEO)", 0.38), ("Kavyanth (COO)", 0.31), ("Sri Charan (CTO)", 0.31)),
     data_mult=7, op_mult=2.5,
 )

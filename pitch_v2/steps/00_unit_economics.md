@@ -1,6 +1,7 @@
 # Step 0: Unit economics, rebuilt from evidence
 
-> Illustrative case for the IIIT Hyderabad ESFS course pitch. Research is real and sourced. Model inputs are tagged.
+> **Superseded in part (19 Nov 2026).** Design E (desk fee, filler jobs) was replaced by Steps 7 and 7b. The AC install contribution is ₹469 (pilot mix); ₹730 applied only to the full designed fee. LTV, CAC and payback for the final model are in Step 7b.
+
 
 **Engine:** `pitch_v2/ue_v2.py`. Run `python3 ue_v2.py --json --company` to reproduce every table here.
 

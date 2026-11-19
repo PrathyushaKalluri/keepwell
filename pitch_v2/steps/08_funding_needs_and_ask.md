@@ -1,182 +1,195 @@
 # Step 8: Funding needs and the ask
 
-**Phase C (the money). Status: FINAL (20 Nov 2026). Rebuilt on the course method after your challenge to the ₹7.5 Cr draft.**
+**Phase C (the money). Status: FINAL (19 Nov 2026), re-based after the outside review.**
 
-> **Illustrative case** for the IIIT Hyderabad ESFS course pitch.
-> - **Numbers:** `keepwell_model.xlsx` (Plan and Funding sheets), `model/monthly_cash.py` (seasonal monthly cash) and `model/rounds.py`.
-> - **Planning case:** STRESS (`Inputs!C2 = 4`).
-
-> ### Read this first (flags)
-> 1. **The ask today: ₹2.5 Cr seed** (minimum close ₹2.0 Cr), one close, CCPS (Step 9). **It funds 18 months**, to the point where the business model is proven in three clusters.
->    - **Why ₹2.5 Cr, not ₹7.5 Cr:** course Module 4's stage table puts our stage ("Product development / Business model") at **Seed, ₹50 L–2 Cr**. Module 1's method is to **work out a one-year funding need**, then keep a sufficient runway.
->    - **Our sizing:** the one-year need is ₹1.1 Cr. Adding a 6-month runway to raise the next round and a buffer for the Jan–Mar seasonal low gives **₹2.44 Cr**, rounded to ₹2.5 Cr.
->    - **Course benchmark:** the course's own MediQuick term sheet is ₹2.5 Cr.
-> 2. **The ask matches the revenue.** Year-1 revenue is ₹2.0–2.4 Cr. Over the seed's 18 months the business earns **₹5.1–6.4 Cr of revenue**, so every ₹1 of seed sits under about ₹2 of revenue.
-> 3. **The bigger plan is three rounds, each raised on proof.** We pitch only the first now.
+> **Sources:**
+> - `keepwell_model.xlsx` (Plan and Funding sheets)
+> - `model/monthly_cash.py` (monthly cash, with AC seasonality)
+> - `model/rounds.py`
 >
->    | Round | When | Amount | Raised on |
+> **Planning case:** STRESS. For the seed sizing, **month 1** is the first month after the close (target close March 2027). The monthly profile starts in the January low season, which is conservative. Month counts in §8.5–8.7 are model months.
+
+> ### Read this first
+> 1. **The ask: ₹2.5 Cr seed, CCPS at ₹8 Cr pre-money (₹10.5 Cr post; investors take 23.8%)**, in two tranches:
+>
+>    | Tranche | Amount | When |
+>    |---|---|---|
+>    | 1 | **₹1.75 Cr** | At close |
+>    | 2 | **₹0.75 Cr** | At the month-9 gate (December 2027, after the first AC season) |
+>
+>    It funds **18 months from close**.
+> 2. **How we sized it, by the course method (Module 1):**
+>
+>    | Building block | ₹ Cr |
+>    |---|---|
+>    | One-year need from the close (stress) | 1.34 |
+>    | Six more months to raise Round 2 on proof | 1.00 |
+>    | Contingency | 0.16 |
+>    | **Total** | **2.50** |
+>
+>    Cash at the close is about ₹2 L. Protect plan money is never counted: it sits in a ring-fenced claims reserve.
+> 3. **It fits the stage:**
+>    - The course's stage table puts seed at ₹50 L–2 Cr; the first tranche (₹1.75 Cr) sits inside that band.
+>    - The ask equals the course's own CCPS term sheet (₹2.5 Cr).
+>    - It is about 1× year-1 revenue (₹2.0–2.4 Cr).
+>    - Over the 18 months, the business earns ₹5.1–6.4 Cr of revenue.
+> 4. **The gate protects the investor.**
+>    - If the month-9 numbers look like the worst case, tranche 2 is not released and expansion stops.
+>    - In that case the investor has risked ₹1.75 Cr, not ₹2.5 Cr.
+> 5. **The bigger plan is two later rounds, each raised on proof, with the exit in 2033–34:**
+>
+>    | Round | When | Amount | Pre-money |
 >    |---|---|---|---|
->    | Seed (this pitch) | Now | ₹2.5 Cr | The pilot |
->    | Round 2 (Go-to-market) | H2 2028 | ₹5 Cr | The 18-month milestones |
->    | Round 3 (Scaling) | 2030 | ₹15 Cr | A ₹16–20 Cr revenue run-rate |
+>    | Round 2 | H2 2028 | ₹5 Cr | ₹25 Cr |
+>    | Round 3 | 2030 | ₹15 Cr | ₹70 Cr |
 >
->    Seed plus Round 2 (₹7.5 Cr) covers the stress cash need to month 48. Round 3 buys speed, and covers the stress tail.
-> 4. **No separate bridge.** This pitch *is* the round. Cash is ₹18 L, plus the ₹5 L AP grant instalment. With founders' stipends halved, that lasts to **early April 2027**. The target close is **Feb–Mar 2027**, about 90 days from a December term sheet, the timeline in the course's CCPS term-sheet template (MediQuick).
-> 5. **The seed's milestones (month 18, Jun 2028) are the case for Round 2** (§8.4):
->    - 4 clusters (3 in 2027, the 4th from Jan 2028) and 150+ shops
->    - the pilot cluster paying for its own team
->    - Protect attach at 3.5% or more
->    - a ₹5 Cr+ revenue run-rate
->    - 3 partner agreements
-> 6. **Kill rule:** a checkpoint at **month 12** (after the 2027 AC season). If units per shop are below 60 or attach is below 2% (the LOW case), we stop expanding at once. LOW still has about ₹0.8 Cr of cash at that point.
-> 7. **Who** (course M1 players for this stage):
+>    Seed plus Round 2 covers the stress case into late 2030 (model month 46). Round 3 buys speed and covers the stress tail of about ₹2.6 Cr.
+> 6. **Who invests** (the course's players for this stage):
 >
 >    | Investor | Amount | Role |
 >    |---|---|---|
 >    | Early-stage seed fund or angel network | ₹1.25 Cr | Lead |
 >    | Strategic angels | ₹0.75 Cr | Industry access |
 >    | AP Startup Policy 4.0 seed equity | ₹0.5 Cr | Government support |
->
->    Every amount is [Story/target].
 
 ---
 
-## 8.1 Where we are (Nov 2026, Step 2 [Story])
+## 8.1 Where we are (November 2026)
 
 | Item | Amount |
 |---|---|
-| Raised | ₹70 L: ₹45 L pre-seed iSAFE, ₹15 L founders, ₹10 L of the ₹15 L AP grant |
-| Spent | about ₹52 L (discovery, incorporation, the Mar–Oct 2026 pilot) |
+| Raised | ₹70 L: ₹45 L pre-seed iSAFE (₹6 Cr post-money cap, 20% discount), ₹15 L from founders, ₹10 L of the ₹15 L AP Startup Policy grant |
+| Spent | About ₹52 L (discovery, incorporation, the March–October 2026 pilot) |
 | Cash | ₹18 L, plus the ₹5 L grant instalment due |
-| Burn | about ₹6 L a month [Story]: the pilot cluster's coordinator and dispatcher, 2 engineers, founders' stipends. That compares with an average of about ₹3.5 L a month over the 15 months since incorporation (Step 2), when spend was lower before the pilot. About ₹5.25 L with stipends halved until the close |
-| Runway | about 4.4 months: to **early April 2027** |
-| Proof so far (Step 6 [Story]) | 34 shops, about 2,400 jobs, about ₹25 L revenue in 8 months. Breakeven at about 35 shops on pilot economics (22 at maturity on the 7b model). Protect counter test: 6% attach. Both service-centre sub-contracts **renewed for 2027** [Story] |
+| Burn | About ₹6 L a month (pilot cluster coordinator and dispatcher, 2 engineers, founders' stipends). About ₹5.25 L with stipends halved until the close |
+| Runway | To about early April 2027. **Target close: March 2027**, about 90 days from a December term sheet |
+| Cash at close | About ₹2 L. This is the model's opening cash |
+| Proof | **The pilot:** 34 shops on 2-year service-arm agreements (33 still active); about 2,400 jobs; ₹25 L of revenue; Protect counter test at 6% attach. **Breakeven:** about 35 shops on pilot economics. **Authorisation:** both service-centre sub-contracts renewed for 2027, plus a brand's letter of intent for direct authorisation |
 
 ## 8.2 How much: the course method (Module 1)
 
-**Step 1. One-year funding need (2027, stress, from the model):**
+**Step 1. One-year need from the close (stress, from the monthly model):**
 
-| Item | ₹ Cr |
+| Item, months 1–12 | ₹ Cr |
 |---|---|
-| Costed needs for year 1 | **1.73** |
-| … head office: 3 founders, 2 engineers, finance and compliance lead, AI/cloud, legal, audit | 0.85 |
-| … cluster teams: Vijayawada–Guntur plus 2 new clusters | 0.46 |
-| … shop onboarding (150 shops) | 0.15 |
-| … cluster set-up, working capital, parts stock | 0.12 |
-| … growth working capital | 0.14 |
-| … payment fees | 0.02 |
+| Head office: 3 founders, 2 engineers, a finance and compliance lead, AI and cloud, legal, audit | 0.85 |
+| Cluster teams: Vijayawada–Guntur plus 2 new clusters | 0.46 |
+| Shop onboarding (150 shops) | 0.15 |
+| Cluster set-up, parts stock and working capital | 0.26 |
+| Payment fees | 0.02 |
 | less contribution earned (service, installs, AMC, Protect, plan-seller jobs) | −0.37 |
-| less usable Protect cash, after the claims reserve | −0.10 |
-| less cash in hand | −0.18 |
-| **One-year need** | **1.08** |
+| less cash at close | −0.02 |
+| **One-year need** | **1.34** |
 
-**Step 2. Keep a sufficient runway** (course: "a sufficient runway needs to be available at all times"):
+**Step 2. Keep a sufficient runway** (the course: "a sufficient runway needs to be available at all times"):
 
 | Item | ₹ Cr |
 |---|---|
-| 6 more months to raise Round 2 on proof (months 13–18 burn, stress) | 0.84 |
-| Seasonal buffer: Jan–Mar is the cash low each year (months 19–21) | 0.52 |
-| **Total** | **2.44, so the ask is ₹2.5 Cr** |
-| *Minimum close: ₹2.0 Cr, which funds to about month 18 in stress* | |
+| Months 13–18: six months to raise Round 2 on the month-12 numbers | 1.00 |
+| Contingency, for the January–March cash low | 0.16 |
+| **Ask** | **2.50** |
 
 **Cross-checks:**
 
 | Benchmark | What it says | Fit |
 |---|---|---|
-| Course M4 stage table | Seed: ₹50 L–2 Cr; 35–40% IRR; 3–5-year horizon | ₹2.5 Cr is just above the top of the band. ₹2.0 Cr minimum is inside it |
-| Course CCPS term-sheet template (MediQuick, a Series A CCPS) | ₹2.5 Cr CCPS at ₹7.5 Cr pre-money | Same size |
-| Indian angel/seed rounds (research) | ₹1.5–2.5 Cr at ₹6–12 Cr pre-money | Inside |
-| Year-1 revenue | ₹2.0 Cr (stress) – ₹2.4 Cr (BASE) | Ask ≈ 1× year-1 revenue |
+| Course Module 4 stage table | Seed is ₹50 L–2 Cr, with a 35–40% IRR over 3–5 years | Tranche 1 (₹1.75 Cr) is inside the band; the full round is just above it |
+| Course CCPS term-sheet template (MediQuick) | ₹2.5 Cr CCPS | Same size |
+| Indian angel and seed rounds | ₹1.5–2.5 Cr at ₹6–12 Cr pre-money | Inside |
+| Year-1 revenue | ₹2.0 Cr (stress) to ₹2.4 Cr (BASE) | The ask is about 1× year-1 revenue |
 
-## 8.3 What the ₹2.5 Cr buys: use of funds by the course's five need columns
+## 8.3 What the ₹2.5 Cr buys: 18 months of spend, by the course's need columns
 
-The course marks **Discover PMF ✓✓** at our stage.
+Over months 1–18 in the stress case, the business spends **₹3.34 Cr**. Contribution earned covers ₹0.98 Cr, and the seed covers the rest plus the contingency.
 
-| Need column | Share | ₹ L | What it is |
+| Need column (course) | ₹ Cr | Share | What it is |
 |---|---|---|---|
-| **Discover product–market fit** | 30% | 75 | Two new clusters' coordinators and quality checks for 18 months. Protect claims audits. Gate data audited by a CA |
-| **Build a team** | 30% | 75 | Finance and compliance lead from day 1, claims and quality lead in month 12, founders on market-minus pay |
-| **Build product / service** | 15% | 38 | The AI desk: WhatsApp intake, triage, dispatch, the appliance record, the Protect plan record; cloud and AI costs |
-| **Marketing and sales** | 10% | 25 | Shop onboarding (150+ shops) and Protect counter kits and training |
-| **Working capital** | 15% | 37 | Cluster set-up, parts stock and receivables in the AC season |
+| **Discover product–market fit** | 0.91 | 27% | Running clusters 1–4: coordinators, dispatch, quality checks, Protect claims audits |
+| **Build a team** | 1.22 | 37% | Founders on market-minus pay; a finance and compliance lead from day 1; a claims and quality lead after the gate |
+| **Build product / service** | 0.31 | 9% | The AI desk (WhatsApp intake, triage, dispatch), the appliance record, the Protect plan record; cloud and AI costs |
+| **Marketing and sales** | 0.23 | 7% | Onboarding 200+ shops; Protect counter kits and training |
+| **Working capital** | 0.63 | 19% | Cluster set-up, parts stock, receivables in the AC season |
+| Payment fees | 0.04 | 1% | Payment gateway |
+| **Total spend** | **3.34** | 100% | Funded by ₹0.98 Cr contribution, ₹0.02 Cr cash at close and ₹2.34 Cr of seed, plus ₹0.16 Cr contingency |
 
-**Protect plan money is not in the ask.** Expected claims on unexpired plans sit in a ring-fenced account.
+## 8.4 The gate and the milestones (dated from the close)
 
-## 8.4 Milestones the seed must hit (month 18, Jun 2028), which are the case for Round 2
+**Month-9 gate (December 2027), which releases tranche 2 (₹0.75 Cr).** It is measured after the first AC season and the monsoon.
 
-Each threshold is what the **stress case** expects at that age (Step 7b), so a business on plan passes.
+| # | Gate | Threshold |
+|---|---|---|
+| 1 | Shop volume | **≥ 65 units per shop a month**; **≥ 50% of installs routed** to Keepwell |
+| 2 | Pilot cluster | Vijayawada–Guntur contribution **≥ its own team cost** (trailing 12 months, so a full AC season is included) |
+| 3 | Protect demand | Attach **≥ 3.75%** in the pilot shops (the stress path in a cluster's second year; the counter test showed 6%); **≥ 2%** in the new clusters (their first year) |
+| 4 | Protect legal status | **Legal opinion in hand** confirming Protect is a service contract; claims reserve account live |
+| 5 | Authorisation | **≥ 35% of AC units** installed under authorisation |
 
-| # | Milestone | Threshold | Model (stress / BASE) |
-|---|---|---|---|
-| 1 | Density | **4 clusters live** (3 in 2027; the 4th opened Jan 2028); **≥ 150 signed shops**; **≥ 65 units per shop per month** | 4 clusters at month 18 (5–6 by year end); 150 / 180 shops at month 12; 74 units |
-| 2 | The pilot cluster pays for itself | Vijayawada–Guntur: **≥ 45 shops**; contribution **≥ its own team cost** (trailing 12 months) | Second year: contribution about ₹27 L against a ₹22.8 L team |
-| 3 | Protect demand | Attach **≥ 3.5%** of covered units; **≥ 5%** in shops on Protect for 12+ months | 3.75% in a cluster's second year; the pilot test showed 6% |
-| 4 | Revenue | **≥ ₹5 Cr run-rate**; ₹5 Cr+ earned since the close | Year 2: ₹5.3 / ₹6.8 Cr |
-| 5 | Partners, data and legal | **3 signed partner-cluster agreements** (multi-brand cleared); **≥ 1 paid install-verification contract** with a brand or plan seller (the Know layer); authorisation for at least 35% of AC units; legal opinion that Protect is a service contract; reserve account live | Partner clusters start in year 3; verification revenue in year 3 |
+**Month-18 milestones (September 2028): the case for Round 2.**
 
-**Also tracked monthly and reported with the milestones** (not pass/fail):
-- shop retention at 6 months (target ≥ 85%)
-- NPS
-- **claims on the first plans in cover** (the pilot's 72 plans enter cover from mid-2027). This is still early data at month 18; we say so
+| # | Milestone | Threshold |
+|---|---|---|
+| 1 | Density | **4 clusters live, ≥ 200 signed shops** |
+| 2 | Revenue | **≥ ₹4.5 Cr run-rate** (stress path in September; BASE about ₹6 Cr) |
+| 3 | Partners | **3 signed partner-cluster agreements** with service-centre owners |
+| 4 | Data | **1 paid install-verification contract** with a brand or plan seller |
+| 5 | Protect | Attach **≥ 3.5%** across all clusters; claims tracked on every plan in cover |
 
-**Checkpoint at month 12** (Dec 2027, after the first full AC season with three clusters):
+**Also reported monthly:** shop retention (target ≥ 85% at 6 months), NPS, first-visit fix and callbacks.
 
-| Situation | Action |
-|---|---|
-| Units per shop < 60 **or** attach < 2% (the LOW case) | **Stop expanding** and fix or wind down, while cash is still about ₹0.8 Cr (LOW) |
-| Stress case | Cash at month 12 is about ₹1.4 Cr |
-| Wind-down cost (2 months' severance, lease exits) | about ₹0.45 Cr |
-| Protect customers | Claims paid from the reserve; plans novated to a partner service centre |
+**If the gate fails:**
+- Expansion stops and tranche 2 stays with the investors.
+- In the worst case (LOW), tranche 1 is nearly spent by month 9. The investor's total exposure is ₹1.75 Cr.
+- Protect customers are paid from the reserve, and their plans are novated to a partner service centre.
 
-## 8.5 The rounds after this one (shown as the roadmap, not the ask)
+## 8.5 The rounds after this one (the roadmap, not the ask)
 
-| Round | When | Amount | Raised on | What it funds (product journey) | Cash it covers (stress) |
+| Round | When | Amount | Pre-money | Raised on | What it funds (product journey) |
 |---|---|---|---|---|---|
-| **Seed (now)** | Feb–Mar 2027 | **₹2.5 Cr** | Pilot: 34 shops, ₹25 L revenue, 6% Protect test | **SERVE in AP/TS:** authorised installs, repair, AMC, Keepwell Protect; the AI desk and the appliance record; clusters 1–4 | to month 21 |
-| **Round 2: Go-to-market** (course: Series A, ₹1–5 Cr) | H2 2028 | **₹5 Cr** | §8.4 milestones; the 2028 summer's claims data | **SUPPLY:** central parts buying, clusters 5–6, the first partner clusters run by service centres; trade-in field arm; **KNOW starts:** install and claims verification for brands | to month 48 |
-| **Round 3: Scaling** (course: Series B, ₹5–30 Cr) | 2030 | **₹15 Cr** | ₹16–20 Cr run-rate; cluster EBITDA ≥ 10%; claims ≤ 45% over 2 summers | **SCALE + CIRCULATE:** partner network to 72 clusters across the south and west; replacement leads, brand data contracts, refurbished appliances, e-waste feeder | the stress tail (≈ ₹2.5 Cr) plus speed |
-| **Exit** | 2033–34 (year 7–8) | — | — | Strategic sale (warranty or after-sales platform, a consumer-durables major or chain, an insurer) or PE | — |
+| **Seed (now)** | March 2027 | **₹2.5 Cr** (₹1.75 Cr + ₹0.75 Cr) | **₹8 Cr** | The pilot | **Serve** in AP/TS: installs, repair, AMC, Protect, the AI desk and the record. Clusters 1–4 |
+| **Round 2** | H2 2028 | ₹5 Cr | ₹25 Cr | The month-18 milestones | **Supply:** central parts buying, clusters 5–6, the first partner clusters. **Know** begins with install verification for brands |
+| **Round 3** | 2030 | ₹15 Cr | ₹70 Cr | ₹16–20 Cr revenue run-rate; cluster EBITDA ≥ 10%; claims ≤ 45% over two summers | **Scale and Circulate:** a partner network of 72 clusters; leads, brand data, refurbished appliances, e-waste |
+| **Exit** | 2033–34 | — | — | — | Strategic sale or PE (Step 9) |
 
-**Why three rounds and not one big one:** each round is raised at a higher valuation on new proof (Step 9: ₹10 Cr → ₹30 Cr → ₹85 Cr pre-money). Founders keep about 47% after Round 3. Raising ₹7.5 Cr today would sell about 40% of the company at the lowest valuation it will ever have.
+**Why three rounds:** each is priced at about 2.4–3.7× trailing revenue, on new proof, and in line with how the exit is valued. Founders keep about 41% after Round 3. Raising everything now would sell far more of the company at its lowest price.
 
 **Revenue against the money:**
 
-| | To month 18 (seed life) | To month 48 | Equity raised by then |
+| | To month 18 | To month 48 | Equity raised by then |
 |---|---|---|---|
 | BASE | ₹6.4 Cr | ₹54 Cr | ₹7.5 Cr (seed + Round 2) |
 | Stress | ₹5.1 Cr | ₹39 Cr | ₹7.5 Cr |
 
 ## 8.6 Who we raise from
 
-The investor types are the course M1 players for "Finding a Business Model"; cheque sizes follow M2.
-
 | Investor | Amount | Why (course) | What else they bring |
 |---|---|---|---|
-| **Lead: early-stage seed fund or angel network** (consumer services, Bharat or circular-economy thesis) | ₹1.25 Cr | M1: "early-stage VCs: small seed rounds, sector-specific". M2: angel group ₹25 L–5 Cr; early VC ₹1 Cr+ | Prices the round, sits on the board, leads Round 2 introductions |
-| **Strategic angels** (3–5): ex-national service heads of appliance brands, a dealers'-association leader, a scaled field-service founder | ₹0.75 Cr (₹15–25 L each) | M1: "strategic angels: industry access and connections, often introducing pilot customers". M2: angel ₹10 L–1 Cr | Brand authorisation, partner recruitment, shops beyond AP/TS |
-| **AP Startup Policy 4.0 seed equity** | ₹0.5 Cr | The AP Startup Policy 4.0 offers seed equity up to ₹50 L (research). Course M1 lists government support at this stage | State channels; dealer-association credibility |
-| *Pre-seed iSAFE holders (₹45 L)* | pro-rata, if they wish | Already in | Convert at this round (Step 9) |
+| **Lead: an early-stage seed fund or angel network** (consumer services, Bharat or circular economy) | ₹1.25 Cr | Module 1 lists early-stage VCs for "small seed rounds, sector-specific". Module 2: angel groups write ₹25 L–5 Cr | Prices the round, takes the board seat, certifies the gate, leads Round 2 introductions |
+| **Strategic angels** (3–5): ex-national service heads of appliance brands, a dealers' association leader, a scaled field-service founder | ₹0.75 Cr (₹15–25 L each) | Module 1 lists strategic angels for "industry access, often introducing pilot customers" | Brand authorisation, partner recruitment, shops beyond AP/TS |
+| **AP Startup Policy 4.0 seed equity** | ₹0.5 Cr | The policy offers seed equity up to ₹50 L | State channels; credibility with dealers' associations |
 
-**If the AP equity is late:** close at ₹2.0 Cr (the minimum) and add it as a second close within 6 months.
+**If the AP equity is late:** close tranche 1 with the lead and the angels. AP joins at tranche 2.
 
-## 8.7 Weak points, said before an investor does
+## 8.7 Sensitivity (stress case, cash need to month 48 against seed plus Round 2 of ₹7.5 Cr)
 
-- **₹2.5 Cr is just above the course's seed band.** That is because a field service needs working capital and cluster teams. The ₹2.0 Cr minimum close sits inside the band.
-- **The monthly cash profile is an overlay** of AC seasonality on an annual model. We will replace it with the pilot ledgers' monthly pattern in the data room.
-- **The Round 2 and Round 3 valuations are plans**, not commitments (Step 9 shows the downside).
-- **Sensitivity (stress, cash need to month 48 against ₹7.5 Cr):**
-  - claims at 55%: ₹7.9 Cr
-  - attach at 3%: ₹7.9 Cr
-  - no Protect at all: ₹8.5 Cr
+| Change | Need to month 48 |
+|---|---|
+| As planned | ₹7.7 Cr (Round 3 timing absorbs the gap) |
+| Claims at 55% | ₹8.1 Cr |
+| Protect attach at 3% | ₹8.1 Cr |
+| No Protect at all | ₹8.7 Cr |
 
-  The seed itself (to month 21) moves by only ₹0.1–0.2 Cr. Round 2 would be sized up by ₹0.5–1 Cr.
-- **Profit depends on data while we grow.** Clusters are profitable on service (16% mature). At company level, service reaches breakeven by year 7 and 9.1% at the mature run-rate, and the data layer makes the growing company profitable. That is why one paid verification contract is a seed milestone.
+The seed's own 18 months moves by only ₹0.1–0.2 Cr in each case.
+
+**Profit while growing:**
+- Every cluster is profitable on service (16% at maturity).
+- At company level, service is around breakeven while we open 15+ clusters a year, and the data layer tips the company into profit.
+- At maturity, service alone earns 9.1%.
+- This is why a paid verification contract is a month-18 milestone.
 
 ---
 
 ## Decisions (Step 8, final)
-
-1. **Seed: ₹2.5 Cr** (minimum ₹2.0 Cr), one close, sized by the course's one-year-need method plus runway.
-2. **Milestones at month 18** (§8.4) are the case for Round 2. **Month-12 checkpoint** with a stop rule.
-3. **Future rounds** as the roadmap: Round 2 ₹5 Cr (H2 2028), Round 3 ₹15 Cr (2030); exit 2033–34.
-4. **Investor mix:** seed fund or angel-network lead ₹1.25 Cr, strategic angels ₹0.75 Cr, AP seed equity ₹0.5 Cr.
+1. **Seed: ₹2.5 Cr CCPS at ₹8 Cr pre**, in two tranches (₹1.75 Cr at close, ₹0.75 Cr at the month-9 gate), sized by the course's one-year-need method from the close date.
+2. **The month-9 gate and the month-18 milestones** as set out in §8.4.
+3. **Roadmap:** Round 2 ₹5 Cr at ₹25 Cr pre (H2 2028); Round 3 ₹15 Cr at ₹70 Cr pre (2030); exit 2033–34.
+4. **Investor mix:** lead ₹1.25 Cr, strategic angels ₹0.75 Cr, AP seed equity ₹0.5 Cr.

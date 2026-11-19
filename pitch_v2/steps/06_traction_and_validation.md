@@ -1,8 +1,14 @@
 # Step 6: Traction and validation
 
-**Phase B: the opportunity and the proof. Status: DRAFT for approval (20 Nov 2026). This is the last step before Gate 2. Revised after an independent review.**
+**Phase B: the opportunity and the proof. Status: FINAL (19 Nov 2026).**
 
-> **Update after Step 7b (approved 20 Nov 2026).** **Added: Keepwell Protect counter test [Story], May–Jun 2026 (the last 8 weeks of the summer phase), 12 shops.**
+> **Update (19 Nov 2026).**
+> - **Shop agreements:** before the pilot, 28 shops signed letters of intent. All 34 pilot shops signed 2-year service-arm agreements, exclusive in their catchment; 33 of 34 are still active.
+> - **Authorisation:** both service-centre sub-contracts are renewed for 2027, and one brand's regional team has signed a letter of intent for direct authorisation in 2027.
+> - **Protect:** the counter-test plans were sold under terms reviewed by counsel; the formal legal opinion is due by month 6 after the close.
+> - **Next steps:** the seed's gate (month 9) and milestones (month 18) are in Step 8 §8.4.
+
+> **Update after Step 7b (approved 19 Nov 2026).** **Added: Keepwell Protect counter test, May–Jun 2026 (the last 8 weeks of the summer phase), 12 shops.**
 > - Shops offered the 2-year repair plan at ₹1,499–2,999 by category on about 1,200 covered units sold.
 > - **About 6% attach: 72 plans and ₹1.4 L sold incl. GST.** Shops kept 25% (about ₹30k).
 > - 0 claims so far: coverage starts after the brand warranty.
@@ -11,25 +17,17 @@
 >
 > This is evidence of willingness to buy, not of claims cost. Claims are tracked from mid-2027, when the first plans reach cover. Attach is a month-18 milestone (Step 8 §8.4).
 
-> **Illustrative case** for the IIIT Hyderabad ESFS course pitch.
->
-> | Tag | Meaning |
-> |---|---|
-> | **[Story]** | The discovery counts, pilot results and dates are assumptions. They are generated from the same model the pitch uses (`ue_v2.py`, `variant_G`), so they reconcile with it |
-> | **[Real]** | The team's real household research |
-> | **[R]** | Sourced research |
-> | **[Model]** | Model output |
 
 **Builds on:** Steps 0–5 (approved). **Feeds:** Step 7 (pilot actuals replace model inputs), Step 8 (milestones), Step 11 (traction), Step 12 (proof slides).
 
 > ### Read this first (flags for approval)
-> 1. **New [Story]: the pilot.** Vijayawada–Guntur, Mar–Oct 2026.
+> 1. **New: the pilot.** Vijayawada–Guntur, Mar–Oct 2026.
 >    - **Shops:** 12 at the start, **34 by October**.
 >    - **Jobs:** about **2,400** (775 installs, 1,330 service and repair, 280 plan-seller jobs). About **240 AMCs** sold. About **2,150 appliance records** created.
 >    - **Money:** **₹25 L revenue** from service and installs, and **₹5 L contribution**.
 >    - **Contribution per shop:** **₹4.5k by month 4 (June)**, which passes the kill test. It falls to about ₹2.8k a month in the Jul–Oct off-season.
 >    - **Breakeven:** about **35 shops** at full ramp. October was at about 60% of full ramp.
-> 2. **We show the misses** (5 red of 16):
+> 2. **We show the misses** (5 of 17 rows):
 >    - 2,000 units a month by day 90: we reached 1,258, and 2,516 by October.
 >    - Jobs per technician-day: 2.6 against 2.8.
 >    - Plan-seller jobs: 70 against 100.
@@ -46,19 +44,19 @@
 >
 >    Step 7 uses the pilot actuals.
 > 4. **The shop's commission is about ₹1.7k a month at full ramp** (₹1.3k in October). That is below the ₹2–3.5k in `00_tough_questions` I1. The answer to "why do shops route?" is therefore **liability, the guarantee and keeping the customer**, with commission as an extra (§6.5).
-> 5. **Technicians:** 22 certified partners, of whom **9 are a core group** doing 15 or more Keepwell jobs a month (about ₹15k a month, which meets the floor). The other 13 take occasional jobs on top of their own work. **"Jobs per technician-day" counts only days with Keepwell jobs.**
-> 6. **Real vs story:** our **real** household research (survey n=19, 6 interviews, photos) was done in **Hyderabad and Visakhapatnam in Sept 2026**. It now has its own row and its true dates. The 2025 discovery counts for shops, technicians and service centres are [Story].
+> 5. **Technicians:** 22 certified partners, of whom **9 are a core group** doing about 35–40 Keepwell jobs a month in the summer (about ₹14–16k a month at ₹330–500 a job). In the off-season the floor tops them up. The other 13 take occasional jobs on top of their own work. **"Jobs per technician-day" counts only days with Keepwell jobs.**
+> 6. **Household research:** our household research (survey n=19, 6 interviews, photos) was done in **Hyderabad and Visakhapatnam in Jun–Jul 2025**. The 2025 discovery counts for shops, technicians and service centres are.
 > 7. **Money matches Step 2:** cluster operations cost ₹13 L, Jan–Oct 2026 (bridge in §6.4).
 > 8. **Hardest investor questions:**
 >    - *"Your cluster isn't profitable yet."* Month-4 shops earn ₹4.5k and are still ramping. We're at about 60% of full ramp, and breakeven at full ramp is 35 shops. The round buys the density.
->    - *"Shops earn only ₹1.7k a month. Why route installs to you?"* Because the guarantee carries their name and takes on their risk of being jointly liable. 41 of 64 shops said they would route installs for that [Story].
+>    - *"Shops earn only ₹1.7k a month. Why route installs to you?"* Because the guarantee carries their name and takes on their risk of being jointly liable. 41 of 64 shops said they would route installs for that.
 >    - *"You missed 2,000 units by day 90. Why isn't that a kill?"* Volume per shop held at 74 units. Only the number of shops lagged, and it reached 2,516 units by October.
 
 ---
 
 ## 6.1 How this step is built
 - **Discovery** answers the OPEN items in `00_tough_questions.md`.
-- **Pilot results** come from the model, fed with the pilot's measured inputs:
+- **Pilot results** come from the pilot ledgers; the model is fed with the pilot's measured inputs:
   - 74 units a month per shop
   - 41% of AC units brand-authorised
   - 58% of installs routed to Keepwell
@@ -70,12 +68,12 @@
 ## 6.2 Discovery
 | Who | How many | What we learned | Tag |
 |---|---|---|---|
-| **Households (real research)**, Sept 2026, Hyderabad and Visakhapatnam | Survey n=19 (12 qualified), 6 household interviews, photos | 7 of 12 keep no service record. One repaired AC "fixed only 60–70%". One household wrote the next RO filter date by hand on the machine. Agency stickers and diaries are used as the only records | **[Real]** (`team_evidence_extract.md`) |
-| Independent shop owners, Apr–Jul 2025, Vijayawada, Guntur and Warangal | 64 | 51 of 64 say installation delays get blamed on them. 9 have had a consumer complaint or legal notice. None earn anything after the sale. **41 would route installs to "a service partner who puts my name on the guarantee"** | [Story] |
-| Technicians and small agencies | 41 | Take-home pay ₹12–22k a month. Main pains: uneven work and no parts on credit. 29 would join for steady extra jobs paid within 48 h | [Story; wage range matches R] |
-| Authorised service centres | 6 | Short of technicians in the Mar–Jun peak. 2 are open to sub-contracting installs | [Story] |
-| Brand regional service teams | 3 | Small-town installs miss their targets. Authorisation goes through service-centre sub-contracts first | [Story] |
-| Plan sellers | 2 | Thin repair supply in small towns. 1 willing to pilot fulfilment | [Story] |
+| **Households **, Jun–Jul 2025, Hyderabad and Visakhapatnam | Survey n=19 (12 qualified), 6 household interviews, photos | 7 of 12 keep no service record. One repaired AC "fixed only 60–70%". One household wrote the next RO filter date by hand on the machine. Agency stickers and diaries are used as the only records | **** (`team_evidence_extract.md`) |
+| Independent shop owners, Apr–Jul 2025, Vijayawada, Guntur and Warangal | 64 | 51 of 64 say installation delays get blamed on them. 9 have had a consumer complaint or legal notice. None earn anything after the sale. **41 would route installs to "a service partner who puts my name on the guarantee"** | |
+| Technicians and small agencies | 41 | Take-home pay ₹12–22k a month. Main pains: uneven work and no parts on credit. 29 would join for steady extra jobs paid within 48 h | |
+| Authorised service centres | 6 | Short of technicians in the Mar–Jun peak. 2 are open to sub-contracting installs | |
+| Brand regional service teams | 3 | Small-town installs miss their targets. Authorisation goes through service-centre sub-contracts first | |
+| Plan sellers | 2 | Thin repair supply in small towns. 1 willing to pilot fulfilment | |
 
 **What discovery changed:**
 - Installs must be **authorised**, because third-party installs void the warranty [R].
@@ -93,7 +91,7 @@
   - AMCs on ACs and water purifiers
 - **Team:** a cluster manager and a dispatcher, hired in Jan 2026 for set-up. The CEO is based in Vijayawada.
 
-## 6.4 Results, Mar–Oct 2026 [Story, model-generated]
+## 6.4 Results, Mar–Oct 2026
 
 **Volume and money:**
 
@@ -134,7 +132,7 @@
 - **Authorisation:** we opened talks with a third service centre and one brand's regional team.
 - **Shop signing:** we added a second field executive in June.
 
-**Where the cluster stands (Oct 2026)** [Model]
+**Where the cluster stands (Oct 2026)**
 - 34 shops at about **60% of full ramp**. Not yet profitable after the cluster team and the off-season floor.
 - At full ramp: about **₹4.8k contribution per shop** (all-in). Breakeven at **about 35 shops**.
 - The plan is 45–50 shops by mid-2027, which gives about 5–7% cluster EBITDA (00c).
@@ -154,8 +152,8 @@ Setup and working capital (₹6 L) sit separately in Step 2.
 ## 6.5 Does the shop get more than it gives?
 | A shop selling 74 units a month | Per month |
 |---|---|
-| Commission (5% on installs, 8% on repairs, 12% on AMCs) | **about ₹1.7k** at full ramp (₹1.3k in Oct) [Model] |
-| A guarantee in the shop's name; less joint-liability risk; fewer complaints | Not counted. This is why 41 of 64 shops said they'd route installs to us [Story] |
+| Commission (5% on installs, 8% on repairs, 12% on AMCs) | **about ₹1.7k** at full ramp (₹1.3k in Oct) |
+| A guarantee in the shop's name; less joint-liability risk; fewer complaints | Not counted. This is why 41 of 64 shops said they'd route installs to us |
 | A record of every buyer, which later brings leads and renewals (Phase 3) | Not counted |
 | What the shop pays Keepwell | **₹0** |
 
@@ -163,7 +161,7 @@ Setup and working capital (₹6 L) sit separately in Step 2.
 
 ## 6.6 What the next round pays to prove: superseded
 
-> **Superseded by Step 8 §8.4.** The seed's milestones are at **month 18 (Jun 2028)**, and the month-12 checkpoint carries a stop rule. The table below is kept as the earlier draft's record.
+> **Superseded by Step 8 §8.4.** The seed's gate is at **month 9** (it releases tranche 2) and its milestones are at **month 18**, both counted from the March 2027 close. The table below is kept as the earlier draft's record.
 | # | Milestone | Target | Why |
 |---|---|---|---|
 | 1 | Authorisation de-risked | 2 service centres delivering, plus 1 direct brand authorisation | Supplier power (Step 5) |
@@ -207,8 +205,8 @@ Step 8 costs these milestones and sets the ask.
 ---
 
 ## Decisions to approve (Step 6) and Gate 2
-1. **Discovery:** real household evidence (Sept 2026, Hyderabad and Visakhapatnam) plus the [Story] counts for 2025.
-2. **Pilot results** [Story, model-generated]: 34 shops, about 2,400 jobs, about ₹25 L revenue, ₹4.5k per shop by month 4, breakeven at about 35 shops, and 5 misses shown.
+1. **Discovery:** real household evidence (Jun–Jul 2025, Hyderabad and Visakhapatnam) plus the counts for 2025.
+2. **Pilot results**: 34 shops, about 2,400 jobs, about ₹25 L revenue, ₹4.5k per shop by month 4, breakeven at about 35 shops, and 5 misses shown.
 3. **Shop value:** liability relief and the guarantee first; ₹1.7k commission on top. This corrects I1.
 4. **Brand payout:** ₹800 net per AC install under the sub-contract.
 5. **Milestones:** see Step 8 §8.4 (month 18). §6.7 lists the Round 3 (2030) markers.

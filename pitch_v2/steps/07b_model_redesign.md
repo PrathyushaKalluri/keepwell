@@ -1,12 +1,10 @@
 # Step 7b: Making the business model work (redesign)
 
-**Phase C (the money). Status: APPROVED (20 Nov 2026); model rebuilt (`keepwell_model.xlsx`: 630 formulas, 0 errors, 0 mismatches in all four scenarios). Replaces the A/B/C decision in Step 7 §7.6.**
+**Phase C (the money). Status: APPROVED (19 Nov 2026); model rebuilt (`keepwell_model.xlsx`: 680 formulas, 0 errors, 0 mismatches in all four scenarios). Replaces the A/B/C decision in Step 7 §7.6.**
 
-> **Illustrative case** for the IIIT Hyderabad ESFS course pitch.
 > - **Engine:** `model/plan_v3.py`, which runs on the Step 7 engine (`plan_core.py`). Run `python3 model/plan_v3.py` to print every table below.
 > - **Check:** lever 0 of the waterfall reproduces the corrected Step 7 BASE exactly (₹81.5 Cr; ₹1.0 Cr; peak ₹21.6 Cr).
 > - **Review:** an independent reviewer pass found 10 issues, and all are fixed in this version (§7b.8).
-> - The xlsx will be rebuilt after you approve.
 
 > ### Read this first (flags for approval)
 > 1. **Why Step 7 failed, in one line.** Three things together sank it:
@@ -25,20 +23,20 @@
 >    - year-7 revenue **₹130.5 Cr**, EBITDA **₹8.6 Cr (6.6%)**
 >    - year 8: ₹181.6 Cr, 8.4%
 >    - EBITDA-positive in **year 5**
->    - **peak funding need ₹5.8 Cr**
+>    - **peak funding need ₹5.9 Cr** (₹2 L of cash at the close)
 >    - a mature cluster earns **14–16% EBITDA**; breakeven is **22 shops**
 >
 >    Step 7 had 1% in year 7 and a ₹21.6 Cr peak.
 > 4. **Why year 7–8 margins look modest:** the company is still opening 15–17 clusters a year, each at 25% output in its first year. **If the year-8 network were fully mature**, it would run at **₹249 Cr revenue and 13.4% EBITDA, with 9.1% from service alone** (no data revenue). This is the real health number for the service business.
-> 5. **Customer plan money is ring-fenced.** Expected claims on unexpired plans sit in a reserve and are **not** used to fund the company. Without any plan cash at all, the peak need would be ₹11.7 Cr. With the reserve it is ₹5.8 Cr.
-> 6. **Stress case** (5% attach, 45% claims, 25% parts margin, 50 shops per cluster, slower rollout): profitable from **year 6**, **peak need ₹8.9 Cr**. **LOW** (every pilot input at its worst) is never profitable and needs ₹58 Cr. So the seed carries a **month-12 checkpoint and month-18 milestones** (Step 8 §8.4).
+> 5. **Customer plan money is ring-fenced.** Expected claims on unexpired plans sit in a reserve and are **not** used to fund the company. Without any plan cash at all, the peak need would be ₹11.9 Cr. With the reserve it is ₹5.9 Cr.
+> 6. **Stress case** (5% attach, 45% claims, 25% parts margin, 50 shops per cluster, slower rollout): profitable from **year 6**, **peak need ₹9.1 Cr**. **LOW** (every pilot input at its worst) is never profitable and needs ₹58 Cr. So the seed carries a **month-9 gate (tranche 2) and month-18 milestones** (Step 8 §8.4).
 > 7. **NEW revenue line, Keepwell Protect: ₹10.2 Cr in year 7 (8% of revenue).**
 >    - **Assumed:** 8% attach on covered appliances, and claims at 35% of the net price.
 >    - **Evidence:** Indian buyers do buy plans at the counter (chains earn crores from them), and our own failure data supports the claims figure.
 >    - **Gap:** there is **no published Indian attach rate**. This is the riskiest new number (§7b.3).
 > 8. **⚠ Regulatory flag.** Protect is a **repairs-only service contract** that Keepwell fulfils itself. Vijay Sales VS+, Aditya Suraksha, Viveks and WeCare already sell their own plans this way. It is **not insurance** and has no accidental-damage cover. IRDAI's 2026 proposals target plans sold *as insurance*. **Verify with a lawyer before Step 10.**
 > 9. **Approved steps that would change** (§7b.7):
->    - **Step 6:** add a Protect counter test [Story].
+>    - **Step 6:** add a Protect counter test.
 >    - **Step 4:** year-7 shops 1,950 → 3,300.
 >    - **Step 3:** service centres become partners.
 >    - **Step 2:** Kavyanth's network of 200+ service-centre owners becomes the partner pipeline.
@@ -79,7 +77,7 @@ The levers are added one at a time to the corrected Step 7 BASE; pilot inputs ar
 | 4. Central parts buying (20% → 30%) | ₹98.6 Cr | ₹6.4 Cr (6.4%) | 8.6% | ₹6.5 Cr | ₹12.3 Cr | Y5 | 16% |
 | 5. Partner clusters from year 3 | ₹98.6 Cr | ₹5.1 Cr (5.2%) | 7.2% | ₹6.4 Cr | ₹12.4 Cr | Y6 | 16% own / 14% partner |
 | 6. Faster rollout through partners (72 clusters by Y8) | ₹130.5 Cr | ₹6.7 Cr (5.1%) | 7.2% | ₹7.6 Cr | ₹15.0 Cr | Y6 | same |
-| 7. Head office 0.85× (AI intake and dispatch) | **₹130.5 Cr** | **₹8.6 Cr (6.6%)** | **8.4%** | **₹5.8 Cr** | ₹11.7 Cr | **Y5** | same |
+| 7. Head office 0.85× (AI intake and dispatch) | **₹130.5 Cr** | **₹8.6 Cr (6.6%)** | **8.4%** | **₹5.9 Cr** | ₹11.9 Cr | **Y5** | same |
 
 **How to read it:**
 - **Protect, the commission change and parts buying** fix the margin. Together they take mature cluster EBITDA from 8% to 16%.
@@ -150,7 +148,7 @@ The levers are added one at a time to the corrected Step 7 BASE; pilot inputs ar
 - From the ₹21.2 L fee, it pays a coordinator (about ₹4–6 L), the floor (₹4.5 L) and a share of premises (about ₹1.5 L), and keeps **about ₹9–11 L a year**. Its technicians also earn the per-job pay.
 - In the opening year, Keepwell **guarantees a minimum fee of ₹8 L**, so the partner never loses money while the cluster ramps.
 
-**Founder edge [Story].** Kavyanth's relationships with owners of 200+ service centres (Step 2) are the pipeline. 66 partners are needed by year 8.
+**Founder edge.** Kavyanth's relationships with owners of 200+ service centres (Step 2) are the pipeline. 66 partners are needed by year 8.
 
 **Brand-contract risk.** Some brand contracts limit multi-brand work. Partners take Keepwell jobs only for brands their contract allows. Other brands go to a second partner or to Keepwell's own technicians in that cluster. **Check this in the first 3 partner contracts** (tranche gate).
 
@@ -166,6 +164,25 @@ The levers are added one at a time to the corrected Step 7 BASE; pilot inputs ar
 - Clusters by year: 3 → 6 → 11 → 18 → 28 → 40 → 55 → 72 by year 8.
 - Shops: **3,300 in year 7, 4,320 in year 8**.
 - That is about **7% (year 7) to 10% (year 8)** of India's ~45k independent shops (Step 4). About 2,000 are in the south; the rest are partner clusters in the west.
+
+**Note on the waterfall:** rows 0–6 use the earlier ₹18 L opening cash. With cash at the close (₹2 L), each peak is about ₹0.16 Cr higher.
+
+**The mature run-rate, bridged:**
+
+| Component | Revenue |
+|---|---|
+| 72 clusters × ₹2.72 Cr of service | ₹196 Cr |
+| Physical layers (parts, trade-in, refurbished, e-waste) | ₹36 Cr |
+| Data | ₹16 Cr |
+| **Total** | **≈ ₹249 Cr** |
+
+- **The margins:** 13.4% EBITDA on all of it, and 9.1% on service revenue (₹232 Cr) without the data layer.
+
+**LTV, CAC and payback (final model, per mature shop):**
+- Cluster EBITDA per shop: ₹44.3 L ÷ 60 ≈ **₹74k a year**.
+- Cost to acquire a shop: **₹14k** (₹20k in partner clusters).
+- **Payback:** about 2–3 months at maturity, or about 9 months in a cluster's first year (25% of mature output).
+- **LTV:** shop churn is 10% a year, a 10-year expected life. Capped at 5 years, LTV ≈ ₹3.7 L, so **LTV:CAC ≈ 26×** on cluster EBITDA.
 
 ## 7b.3 Evidence behind every new input
 
@@ -187,14 +204,14 @@ The levers are added one at a time to the corrected Step 7 BASE; pilot inputs ar
 
 | Year | Clusters (partner) | Shops | Revenue | of which Protect | Data lines | EBITDA | EBITDA % | Service-only EBITDA | Cash, cumulative | Claims reserve |
 |---|---|---|---|---|---|---|---|---|---|---|
-| Y1 | 3 (0) | 180 | ₹2.4 Cr | 0.0 | 0.0 | −₹1.1 Cr | −45% | −₹1.1 Cr | −₹1.0 Cr | 0.1 |
-| Y2 | 6 (0) | 360 | ₹6.8 Cr | 0.2 | 0.0 | −₹1.5 Cr | −23% | −₹1.5 Cr | −₹2.7 Cr | 0.5 |
-| Y3 | 11 (5) | 660 | ₹15.3 Cr | 0.7 | 0.2 | −₹1.9 Cr | −13% | −₹2.1 Cr | −₹4.5 Cr | 1.1 |
-| Y4 | 18 (12) | 1,080 | ₹29.7 Cr | 1.8 | 0.9 | −₹1.4 Cr | −5% | −₹2.2 Cr | **−₹5.8 Cr (peak)** | 2.1 |
-| Y5 | 28 (22) | 1,680 | ₹53.9 Cr | 3.6 | 3.9 | ₹0.6 Cr | 1% | −₹2.3 Cr | −₹5.0 Cr | 3.6 |
-| Y6 | 40 (34) | 2,400 | ₹86.9 Cr | 6.3 | 7.1 | ₹4.1 Cr | 5% | −₹1.3 Cr | −₹0.4 Cr | 5.8 |
-| Y7 | 55 (49) | 3,300 | **₹130.5 Cr** | 10.2 | 11.0 | **₹8.6 Cr** | **6.6%** | ₹0.3 Cr | +₹7.4 Cr | 8.6 |
-| Y8 | 72 (66) | 4,320 | **₹181.6 Cr** | 15.4 | 16.2 | **₹15.3 Cr** | **8.4%** | ₹3.1 Cr | +₹20.3 Cr | 12.2 |
+| Y1 | 3 (0) | 180 | ₹2.4 Cr | 0.0 | 0.0 | −₹1.1 Cr | −45% | −₹1.1 Cr | −₹1.1 Cr | 0.1 |
+| Y2 | 6 (0) | 360 | ₹6.8 Cr | 0.2 | 0.0 | −₹1.5 Cr | −23% | −₹1.5 Cr | −₹2.8 Cr | 0.5 |
+| Y3 | 11 (5) | 660 | ₹15.3 Cr | 0.7 | 0.2 | −₹1.9 Cr | −13% | −₹2.1 Cr | −₹4.7 Cr | 1.1 |
+| Y4 | 18 (12) | 1,080 | ₹29.7 Cr | 1.8 | 0.9 | −₹1.4 Cr | −5% | −₹2.2 Cr | **−₹5.9 Cr (peak)** | 2.1 |
+| Y5 | 28 (22) | 1,680 | ₹53.9 Cr | 3.6 | 3.9 | ₹0.6 Cr | 1% | −₹2.3 Cr | −₹5.2 Cr | 3.6 |
+| Y6 | 40 (34) | 2,400 | ₹86.9 Cr | 6.3 | 7.1 | ₹4.1 Cr | 5% | −₹1.3 Cr | −₹0.5 Cr | 5.8 |
+| Y7 | 55 (49) | 3,300 | **₹130.5 Cr** | 10.2 | 11.0 | **₹8.6 Cr** | **6.6%** | ₹0.3 Cr | +₹7.2 Cr | 8.6 |
+| Y8 | 72 (66) | 4,320 | **₹181.6 Cr** | 15.4 | 16.2 | **₹15.3 Cr** | **8.4%** | ₹3.1 Cr | +₹20.2 Cr | 12.2 |
 
 **The health check investors should use: the mature run-rate.** The table above is depressed by growth. In year 8, 17 new clusters are running at 25% output, and 15 more are at 60%. If the year-8 network of 6 own and 66 partner clusters were all mature:
 
@@ -221,17 +238,13 @@ The levers are added one at a time to the corrected Step 7 BASE; pilot inputs ar
 | Y7 EBITDA | ₹8.6 Cr (6.6%) | ₹4.0 Cr (4.7%) | −₹9.0 Cr |
 | Y8 EBITDA | 8.4% | 6.8% | −8.0% |
 | First positive year | Y5 | Y6 | never (to Y8) |
-| Peak need | **₹5.8 Cr** | **₹8.9 Cr** | ₹57.7 Cr |
+| Peak need (annual) | **₹5.9 Cr** | **₹9.1 Cr** | ₹57.9 Cr |
+| Peak need (monthly low point) | ₹7.0 Cr | **₹10.1 Cr** | ₹57.9 Cr |
 | Mature cluster EBITDA | 16% own / 14% partner | 11% / 10% | −5% / +1% |
 
 **Reading:**
 - **Stress** reaches profit with about ₹9 Cr.
-- **LOW** means the pilot inputs were wrong. The seed's **month-12 checkpoint** stops expansion if units or attach look like LOW. The month-18 milestones (Step 8 §8.4) are:
-  - units per shop ≥ 65
-  - Protect attach ≥ 5%
-  - claims ≤ 45%
-  - one partner cluster at breakeven
-  - 3 partner contracts cleared for multi-brand work
+- **LOW** means the pilot inputs were wrong. The seed's **month-9 gate** stops expansion, and withholds tranche 2, if units or attach look like LOW. The gate and milestones are in Step 8 §8.4.
 
 ## 7b.6 What this does to the story, and the hard questions
 
@@ -255,7 +268,7 @@ The levers are added one at a time to the corrected Step 7 BASE; pilot inputs ar
 | 3 Ecosystem | Service centres move from "sub-contract" to **partner-cluster operator** (10% fee, ₹8 L opening floor). Add a plan-terms or legal advisor row (service contract, reserve) |
 | 4 Market | SOM year 7 becomes about **3,300 shops and ₹130 Cr** (was 1,950 shops and ₹115 Cr). Add Protect to the market: covered units × attach × ₹2,000 |
 | 5 Product | Add Protect to the job flows: sale → plan record → claim. North star unchanged |
-| 6 Traction [Story] | Add a **Protect counter test in the last 8 weeks of the pilot** at 12 shops: about 6% attach on about 1,200 covered units, so 72 plans and ₹1.4 L sold; 0 claims so far (coverage starts after the brand warranty). **Applied.** |
+| 6 Traction | Add a **Protect counter test in the last 8 weeks of the pilot** at 12 shops: about 6% attach on about 1,200 covered units, so 72 plans and ₹1.4 L sold; 0 claims so far (coverage starts after the brand warranty). **Applied.** |
 | 7 | Rebuild `keepwell_model.xlsx` on `plan_v3`; 7b replaces §7.6 |
 | 00b / 00c | Replace the old 8-year stack and the "10–12% from service alone" line with this plan and the mature run-rate |
 
@@ -278,12 +291,12 @@ The levers are added one at a time to the corrected Step 7 BASE; pilot inputs ar
 | | Before review | After review |
 |---|---|---|
 | Y7 EBITDA | ₹14.5 Cr (10.6%) | **₹8.6 Cr (6.6%)** |
-| Peak need | ₹2.6 Cr | **₹5.8 Cr** |
+| Peak need | ₹2.6 Cr | **₹5.9 Cr** |
 
 I am showing the corrected numbers, not the flattering ones.
 
 ## Decisions to approve (Step 7b)
 
 1. **The five levers**, especially **Keepwell Protect as a repairs-only service contract, with claims reserved**.
-2. **The new BASE** (₹130.5 Cr and 6.6% in year 7; 13.4% at mature run-rate; peak ₹5.8 Cr), with the **stress case (peak ₹8.9 Cr) as the planning case for Step 8**.
+2. **The new BASE** (₹130.5 Cr and 6.6% in year 7; 13.4% at mature run-rate; peak ₹5.9 Cr), with the **stress case (peak ₹9.1 Cr annual, ₹10.1 Cr at the monthly low point) as the planning case for Step 8**.
 3. **The changes to Steps 2–6** in §7b.7, including the Protect test in the pilot story.

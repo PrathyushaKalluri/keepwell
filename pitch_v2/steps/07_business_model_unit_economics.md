@@ -1,19 +1,20 @@
 # Step 7: Business model and unit economics
 
-**Phase C (the money). Status: DRAFT for approval. ⚠ It contains a decision point (20 Nov 2026).**
+**Phase C (the money). Status: DRAFT for approval. ⚠ It contains a decision point (19 Nov 2026).**
 
-> **Update after Step 7b (approved 20 Nov 2026).** **§7.6 is decided: the redesign in `07b_model_redesign.md` replaces options A/B/C.** `keepwell_model.xlsx` is rebuilt on `model/plan_v3.py`:
-> - Builder: `build_model_v3.py`, with 630 formulas, 0 errors.
+> **Superseded in part (19 Nov 2026).** §7.4–7.7 record the corrected Step 7 BASE (year 7 ₹81.5 Cr, peak ₹21.6 Cr), which was **replaced by Step 7b**. Use 7b for every number.
+
+> **Update after Step 7b (approved 19 Nov 2026).** **§7.6 is decided: the redesign in `07b_model_redesign.md` replaces options A/B/C.** `keepwell_model.xlsx` is rebuilt on `model/plan_v3.py`:
+> - Builder: `build_model_v3.py`, with 680 formulas, 0 errors.
 > - `verify_model_v3.py`: 0 mismatches in all four scenarios (LOW, BASE, HIGH, STRESS).
 > - Scenario switch at `Inputs!C2`.
 >
 > §7.1–7.5 remain as the record of the corrected Step 7 BASE (lever 0 in 7b).
 
-> **Illustrative case** for the IIIT Hyderabad ESFS course pitch. BASE inputs are the Step 6 pilot actuals [Story, generated from the model]. Research inputs are tagged [R], with sources on the model's Inputs sheet.
 
 **Model:** `pitch_v2/keepwell_model.xlsx`
 - Built by `model/build_model_v2.py`.
-- LibreOffice recalculation: **378 formulas, 0 errors**.
+- LibreOffice recalculation: **680 formulas, 0 errors** (current model; the first Step 7 build had fewer).
 - `model/verify_model.py` reports **0 mismatches** against the Python mirror `model/plan_core.py`.
 - The scenario switch is at `Inputs!C2`.
 

@@ -1,41 +1,44 @@
-id,claim,value,source,tag,used_in
-C01,Seed ask,₹2.5 Cr (min ₹2.0 Cr) CCPS,steps/08 §8.2; model/rounds.py,Model,deck 12; story ask; full story
-C02,One-year funding need (stress),₹1.08 Cr,steps/08 §8.2; keepwell_model.xlsx Plan Y1,Model,deck 12 notes; story ask
-C03,Sizing total (need + raise window + seasonal buffer),₹2.44 Cr,steps/08 §8.2; model/monthly_cash.py,Model,story ask
-C04,Pre-money / post-money,₹10 Cr / ₹12.5 Cr; 20% to seed,steps/09 §9.2; xlsx Funding,Model,deck 12; A1; backup
-C05,VC-method ceiling (stress 40% IRR 5y),₹14.4 Cr post,steps/09 §9.2; xlsx Funding,Model,A1; backup
+id,claim,value,source,basis,used_in
+C01,Seed ask,₹2.5 Cr CCPS in two tranches: ₹1.75 Cr at close + ₹0.75 Cr at the month-9 gate,steps/08 §8.2; model/rounds.py,Model,deck 12; story ask; full story
+C02,One-year funding need from the close (stress),₹1.34 Cr,steps/08 §8.2; model/monthly_cash.py (no plan cash; ₹2 L at close),Model,deck 12 notes; story ask
+C03,Sizing total (need + six months to raise Round 2 + contingency),₹1.34 + ₹1.00 + ₹0.16 = ₹2.50 Cr,steps/08 §8.2,Model,story ask
+C04,Pre-money / post-money,₹8 Cr / ₹10.5 Cr; 23.8% to seed,steps/09 §9.2; xlsx Funding,Model,deck 12; A1; backup
+C05,VC-method ceiling (stress 40% IRR 5y),₹13.5 Cr post,steps/09 §9.2; xlsx Funding,Model,A1; backup
 C06,Course scorecard valuation,₹8.2 Cr pre,steps/09 §9.2; steps/11,Model,A1; backup
-C07,Cap table after seed,Founders 64.0% · seed 20.0% · ESOP 10.0% · iSAFE 6.0%,xlsx Funding,Model,A1; backup
-C08,Founders after Round 3,46.6%,xlsx Funding,Model,A1; backup
-C09,Seed return,6.2× (44% IRR) yr-5 stress; 14.9× yr-7 stress; 21.9× yr-7 BASE,xlsx Funding,Model,backup; Q&A
-C10,Future rounds,Round 2 ₹5 Cr H2 2028; Round 3 ₹15 Cr 2030,steps/08 §8.5,Plan,deck 11; story journey
-C11,Exit EV year 7,₹255 Cr (stress) – ₹376 Cr (BASE),xlsx Plan EV rows,Model,deck 11; story journey
+C07,Cap table after seed,Founders 60.5% · seed 23.8% · ESOP 10.0% · iSAFE 5.7%,xlsx Funding,Model,A1; backup
+C08,Founders after Round 3,41.5%,xlsx Funding,Model,A1; backup
+C09,Seed return,6.9× (47% IRR) yr-5 stress; 16.7× yr-7 stress; 24.6× yr-7 BASE,xlsx Funding,Model,backup; Q&A
+C10,Future rounds,Round 2 ₹5 Cr at ₹25 Cr pre (H2 2028); Round 3 ₹15 Cr at ₹70 Cr pre (2030),steps/08 §8.5; steps/09,Plan,deck 11; story journey
+C11,Exit EV year 7,"₹255 Cr (stress) – ₹376 Cr (BASE); ₹376 Cr = 2.9× Y7 revenue, ~25× Y8 EBITDA",xlsx Plan EV rows; steps/09 §9.5,Model,deck 11; story journey
 C12,Year-7 revenue / EBITDA (BASE),₹130.5 Cr / ₹8.6 Cr (6.6%),xlsx Plan,Model,deck 7/11; story unitecon
 C13,EBITDA-positive year (BASE / stress),Y5 / Y6,xlsx Plan,Model,deck 11; A2
 C14,Mature cluster (60 shops),₹2.72 Cr revenue; ₹44 L EBITDA (16%); breakeven 22 shops,xlsx Cluster,Model,deck 7; story unitecon
 C15,Partner cluster EBITDA to Keepwell,₹38 L (14%),xlsx Cluster,Model,deck 7; story partners
-C16,Breakeven on pilot economics,about 35 shops,steps/06,Story,story misses; deck 7 land
+C16,Breakeven on pilot economics,about 35 shops (22 at maturity),steps/06; steps/07b,Pilot,story misses; deck 7 land
 C17,Mature network run-rate,13.4% EBITDA; 9.1% service-only,steps/07b §7b.4,Model,deck 7; story unitecon
 C18,Mature shop,₹3.5 L core + ₹0.9 L Protect; ₹1.16 L contribution,xlsx Shop,Model,deck 7; story unitecon
-C19,Shop income from Keepwell,₹1.7k/month today (pilot); ~₹3,170 with Protect,steps/06; steps/07b,Story/Model,story unitecon; Q&A
-C20,Protect per plan,₹2,000 incl GST; ₹1,695 net; keeps ₹593,xlsx Shop Protect block,Model/R,deck 7; story protect
-C21,Protect claims on own data,~27% of net (35% carried; 45% stress),steps/07b §7b.3,Derived,story protect
-C22,Protect counter test,6% attach; 72 plans; 12 shops; May–Jun 2026,steps/06 update box,Story,deck 6; story pilot
-C23,Pilot,34 shops; ~2,400 jobs; ₹25 L revenue; ₹5 L contribution; Mar–Oct 2026,steps/06 §6.4,Story,deck 6; story pilot
-C24,Pilot scorecard,74 units/shop/month; 58% routed; 87% in 24 h; 81% first-visit fix; 41% authorised,steps/06 §6.4,Story,deck 6; story pilot
-C25,Pilot misses,shop signing; sub-contract partner; 2.6 jobs/day; plan-seller 70 vs 100,steps/06 §6.4,Story,deck 6; story misses
-C26,TAM,≈ ₹4,000 Cr,steps/04 §4.2–4.3,R/Model,deck 8; story market
-C27,SAM / beachhead,≈ ₹1,040 Cr / ≈ ₹360 Cr,steps/04 §4.5,R,deck 8; story market
-C28,Year-7 shops,3,300 shops; 55 clusters; ~7% of India's 45k independent shops,steps/04 §4.5; xlsx Plan,Model,deck 8; story market
-C29,Brand install wait,2–5 days (Flipkart); 24–72 h (LG),steps/04 §4.6,R,deck 2; story problem
-C30,Out-of-warranty share,80–91% of installed base,steps/04 §4.6,R,deck 2; story problem
-C31,AC service to local mechanics,44% (LocalCircles n=13,487),steps/04 §4.6,R,deck 2; story problem
-C32,Households with no record,7 of 12,steps/06 §6.2 (team survey),Real,deck 2; story problem
-C33,Shop owners blamed for install delays,51 of 64,steps/06 §6.2,Story,deck 2; story hook
-C34,Shop net margin; seller liability,2–3%; Chennai ₹35k; Hyderabad ₹60k,steps/04 §4.6,R,story problem
-C35,Founder networks,600+ dealers (CEO); 200+ service centres (COO),steps/02 §2.2,Story,deck 10; story team
-C36,Gig-worker levy,1.4% of revenue,steps/10; keepwell_model.xlsx Inputs levy,R/Model,story clean; A3
-C37,Seed milestones (month 18),4 clusters·150+ shops·65+ units; pilot cluster pays team; attach ≥3.5%; ₹5 Cr run-rate; 3 partners + 1 verification contract + legal opinion,steps/08 §8.4,Plan,deck 12; story ask
-C38,Month-12 checkpoint,stop expansion if units <60 or attach <2%; ~₹0.8 Cr left (LOW),steps/08 §8.4,Model,Q&A
-C39,Stress cash need to month 48,₹7.5 Cr (seed + Round 2),model/monthly_cash.py,Model,A2; Q&A
-C40,Competitor positions,UC ~36% take; Onsitego chains; 247around brand-paid; Jeeves/resQ captive,steps/05,R,deck 9; story nobody
+C19,Shop income from Keepwell,"₹1.7k/month in the pilot; ~₹3,170 with Protect",steps/06; steps/07b,Model,Story/Model
+C20,Protect per plan,"₹2,000 incl GST; ₹1,695 net; Keepwell keeps ₹593",xlsx Shop Protect block; steps/07b,Model,deck 7; story protect
+C21,Protect claims on own data,~27% of net (35% carried; 45% stress),steps/07b §7b.3,Model,story protect
+C22,Protect counter test,6% attach; 72 plans; 12 shops; May–Jun 2026,steps/06 update box,Pilot,deck 6; story pilot
+C23,Pilot,"34 shops on 2-year exclusive agreements (33 active); ~2,400 jobs; ₹25 L revenue; Mar–Oct 2026",steps/06,Pilot,Story
+C24,Pilot scorecard,74 units/shop/month; 58% routed; 87% in 24 h; 81% first-visit fix; 41% authorised,steps/06 §6.4,Pilot,deck 6; story pilot
+C25,Pilot misses,shop signing; sub-contract partner; 2.6 jobs/day; plan-seller 70 vs 100,steps/06 §6.4,Pilot,deck 6; story misses
+C26,TAM,≈ ₹4,000 Cr,Model,R/Model
+C27,SAM / beachhead,≈ ₹1,040 Cr / ≈ ₹360 Cr,Model,R
+C28,Year-7 shops,3,300 shops; 55 clusters; ~7% of India's 45k independent shops,Model,Model
+C29,Brand install wait,2–5 days (Flipkart); 24–72 h (LG),steps/04 §4.6,Research,deck 2; story problem
+C30,Out-of-warranty share,80–91% of installed base,steps/04 §4.6,Research,deck 2; story problem
+C31,AC service to local mechanics,44% (LocalCircles n=13,487),Model,R
+C32,Households with no record,7 of 12,steps/06 §6.2 (household discovery),Research,deck 2; story problem
+C33,Shop owners blamed for install delays,51 of 64,steps/06 §6.2,Discovery,deck 2; story hook
+C34,Shop net margin; seller liability,2–3%; Chennai ₹35k; Hyderabad ₹60k,steps/04 §4.6,Research,story problem
+C35,Founder networks,600+ dealers (CEO); 200+ service centres (COO),steps/02 §2.2,Team,deck 10; story team
+C36,Gig-worker levy,1.4% of revenue,steps/10; keepwell_model.xlsx Inputs levy,Research,story clean; A3
+C37,Month-9 gate and month-18 milestones,Gate: ≥65 units/shop · ≥50% routing · pilot cluster pays its team (trailing 12 months) · Protect ≥3.75% in pilot shops · legal opinion · ≥35% authorised. M18: 4 clusters · 200+ shops · ₹4.5 Cr+ run-rate · 3 partners · 1 verification contract,steps/08 §8.4,Plan,deck 12; story ask
+C38,Downside if the gate fails,Tranche 2 not paid; investor exposure ₹1.75 Cr with 1x preference,steps/08; steps/09,Model,Q&A
+C39,Stress cash need to month 48,₹7.7 Cr (₹8.1 Cr at 55% claims; ₹8.7 Cr with no Protect); seed + Round 2 cover into late 2030; Round 3 covers the tail to the ₹10.1 Cr monthly low point,model/monthly_cash.py,Model,A2; Q&A
+C40,Competitor positions,UC ~36% take; Onsitego chains; 247around brand-paid; Jeeves/resQ captive,steps/05,Research,deck 9; story nobody
+C41,Shop letters of intent and agreements,28 LOIs before the pilot; 34 shops on 2-year exclusive service-arm agreements; 33 active,steps/06 update; steps/02 timeline,Pilot,deck 6; story pilot
+C42,Authorisation status,2 sub-contracts renewed for 2027; one brand's LOI for direct authorisation,steps/06 update; steps/10,Pilot,story clean; A3
+C43,LTV / CAC / payback (mature shop),₹74k/yr cluster EBITDA per shop; CAC ₹14k; payback 2–3 months; LTV:CAC ~26×,steps/07b,Model,Q&A

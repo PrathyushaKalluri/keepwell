@@ -1,16 +1,15 @@
 # Step 1: Vision and narrative spine
 
-**Phase A: Who we are. Status: DRAFT for approval (20 Nov 2026).**
+**Phase A: Who we are. Status: DRAFT for approval (19 Nov 2026).**
 
-> **Update after Steps 7b–8 (20 Nov 2026, final).** Current numbers (Step 7b): a mature 60-shop cluster earns **14–16% EBITDA on service** and breaks even at **22 shops** (35 shops on today's pilot economics). The pilot ran **8 months (Mar–Oct 2026)**, not 90 days. At company level, service alone reaches about breakeven by year 7 while the company grows, and **9.1% at the mature run-rate**; the data layer is what makes the growing company profitable.
+> **Update after Steps 7b–8 (19 Nov 2026, final).** Current numbers (Step 7b): a mature 60-shop cluster earns **14–16% EBITDA on service** and breaks even at **22 shops** (35 shops on today's pilot economics). The pilot ran **8 months (Mar–Oct 2026)**, not 90 days. At company level, service alone reaches about breakeven by year 7 while the company grows, and **9.1% at the mature run-rate**; the data layer is what makes the growing company profitable.
 
-> **Illustrative case.** This pitch is for the IIIT Hyderabad ESFS course. The founder histories, company timeline, pilot results and financials are assumptions, kept consistent with each other and with the research. The research itself is real and sourced.
 
 **Tags:**
-- **[Real]**: real research or evidence
+- ****: real research or evidence
 - **[R]**: research in `pitch_v2/research/`
-- **[Model]**: `ue_v2.py`
-- **[Story]**: assumed backstory or pilot fact, built in Steps 2 and 6
+- ****: `ue_v2.py`
+- ****: assumed backstory or pilot fact, built in Steps 2 and 6
 
 **Builds on Gate 1 (approved 19 Nov):**
 - `00_validation_report.md`
@@ -28,7 +27,7 @@
 In a small Indian town, **the appliance shop owns the trust.** Families buy where they know the owner, and they call him when the AC stops. **But the shop's role ends at the counter.**
 - The brand's installer comes when it comes. Brands quote 24–72 hours (LG) or 2–5 days (Flipkart) [R]. Documented no-shows exist [R].
 - After warranty, the family is on its own with a local mechanic, with no fixed price, no guarantee and no record.
-- The retailer earns **nothing after the sale**. His net margin is only **2–3%** [R]. Yet consumer commissions have held **sellers jointly liable** with brands for faulty products and service: Chennai ₹35k, Chandigarh, Hyderabad ₹60k [R/Real].
+- The retailer earns **nothing after the sale**. His net margin is only **2–3%** [R]. Yet consumer commissions have held **sellers jointly liable** with brands for faulty products and service: Chennai ₹35k, Chandigarh, Hyderabad ₹60k.
 - Nobody keeps the appliance's history, so every repair, claim, exchange and resale starts from zero.
 
 **The insight:** *the person customers trust (the retailer) and the people who can fix things (local technicians) are never connected, and no one keeps the record.* Connect them, under the retailer's name, and three things follow:
@@ -49,20 +48,20 @@ In a small Indian town, **the appliance shop owns the trust.** Families buy wher
 
 | Phase | Years | Keepwell is… | What it sells | Who pays | Margin role |
 |---|---|---|---|---|---|
-| **1. Serve** | 1–2 | the shop's service arm | Installation (brand-authorised), out-of-warranty service and repair, AMC. Covers AC, washing machine, refrigerator and water purifier, with AC as the anchor | households, brands, plan sellers | profitable-by-design core: 18–20% contribution; mature cluster EBITDA 10–12% [Model] |
+| **1. Serve** | 1–2 | the shop's service arm | Installation (brand-authorised), out-of-warranty service and repair, AMC. Covers AC, washing machine, refrigerator and water purifier, with AC as the anchor | households, brands, plan sellers | profitable-by-design core: 18–20% contribution; mature cluster EBITDA 10–12% |
 | **2. Supply** | 2–4 | the cluster's parts and exchange hub | parts to local agencies; trade-in pickup for brand exchange programmes; e-waste feeder | agencies, brands and exchange operators, recyclers | volume on visits we already make |
 | **3. Know** | 3–6 | the record brands and retailers check | verified installations and claims; replacement leads and AMC renewals; failure intelligence | brands, plan sellers, retailers | 70–90% gross margin [R] |
 | **4. Circulate** | 5–8 | the appliance's second life | refurbished appliances sold back through the same shops, with a warranty | budget buyers | selective; stock-heavy |
 
-**For investors:** *HomeServe for India's independent appliance shops.* HomeServe built its business on exclusive service agreements with whoever owns the customer, plus dense, trained supply [R]. Keepwell does the same with the shop. Its data layer is something HomeServe never had.
+**For investors:** *a services operator with an AI layer: the after-sale service arm of India's independent appliance shops.* It earns on every job, every plan and every record, and the AI keeps the cost per job low.
 
 ### 1.6 Why we start with Serve, and why AC is the anchor
 - **The pain, the payer and the data meet at the service visit.** Every visit is paid, builds the record and earns the retailer's trust. Every later layer depends on visits.
-- **The AC brings about 85% of the value per shop** [Model]. It drives brand-authorised installs, frequent paid service, gas refills, and the AMC customers actually buy.
+- **The AC brings about 85% of the value per shop**. It drives brand-authorised installs, frequent paid service, gas refills, and the AMC customers actually buy.
 - **Four appliances from day one, not AC only.**
   - Four appliances bring about 17% more revenue and 23% more contribution per shop.
   - They need 7 fewer shops to break even.
-  - They smooth the AC off-season: the seasonal peak index drops from 1.8 to 1.6 [Model].
+  - They smooth the AC off-season: the seasonal peak index drops from 1.8 to 1.6.
   - The shop gets one partner for everything it sells.
 
 ### 1.7 The technology thread (the CTO's story)
@@ -80,20 +79,20 @@ Keepwell's **AI service layer** runs every phase, and it is the reason a small t
 - **Positioning:** the AI is the cost engine and the record-builder, **not the moat** (§1.8).
 
 ### 1.8 The moat
-The moat is the same one that worked for HomeServe, Asurion and Urban Company [R], plus the record:
+The moat is operational, plus the record:
 1. **Multi-year, exclusive service-arm agreements with shops**, with a revenue share. The shop's customers become Keepwell's serviced base.
 2. **Cluster density.** Fifty to seventy shops per cluster shorten travel, fill technicians' days and lower cost per job. A late entrant has to rebuild this town by town.
 3. **Certified partner technicians.** We give them what they can't get alone: parts on credit, insurance, the guarantee, a certificate and steady work.
 4. **The appliance record.** It is consent-based and grows with every visit. It becomes valuable to brands (verification, failure intelligence) and to retailers (renewals, upgrades).
 
 ### 1.9 The narrative spine (the order investors hear it)
-1. **Hook, a shop owner's week [Story].** He sells an AC on Monday. By Thursday the customer is angry at *him*, not the brand. A consumer case can make him pay [Real precedent].
-2. **The family's side [Real].** The household evidence we already hold: survey, diaries, agency stickers, a brand bot that failed.
+1. **Hook, a shop owner's week.** He sells an AC on Monday. By Thursday the customer is angry at *him*, not the brand. A consumer case can make him pay.
+2. **The family's side.** The household evidence we already hold: survey, diaries, agency stickers, a brand bot that failed.
 3. **The insight.** The shop owns trust, technicians own skill, and no one connects them or keeps the record.
 4. **Keepwell.** The shop's authorised service arm, covering four appliances, guaranteed, under the shop's name.
 5. **How a job works, and the AI service layer.**
-6. **Proof [Story].** The 90-day Vijayawada–Guntur pilot (Step 6).
-7. **A healthy service business.** It breaks even at about 30 shops, reaches 10–12% at maturity, and earns back its opening cost in under two years [Model].
+6. **Proof.** The 8-month Vijayawada–Guntur pilot (Mar–Oct 2026) (Step 6).
+7. **A healthy service business.** It breaks even at about 35 shops on pilot economics (22 at maturity), reaches 14–16% EBITDA at maturity, and earns back its opening cost in under two years.
 8. **The four phases.** Serve, Supply, Know, Circulate, and how margin and value grow.
 9. **Market** (Step 4), **competition** (Step 5), **team** (Step 2).
 10. **The ask and the path to exit.** A strategic sale in years 7–8 (Steps 8–9).
@@ -103,8 +102,8 @@ The moat is the same one that worked for HomeServe, Asurion and Urban Company [R
 - **Why this solution:**
   - Work through the shop: trust already lives there.
   - Be authorised: required for in-warranty installs [R].
-  - Build dense clusters: density is the biggest lever [Model].
-  - Use per-job partner technicians, so technicians aren't paid to sit idle in the off-season [Model].
+  - Build dense clusters: density is the biggest lever.
+  - Use per-job partner technicians, so technicians aren't paid to sit idle in the off-season.
   - Build the record: it is where the high margins come from [R].
 - **Why us:** three founders who cover retailer channel sales, field service operations and Indian-language AI (Step 2, rebuilt from scratch).
 
@@ -133,7 +132,7 @@ The moat is the same one that worked for HomeServe, Asurion and Urban Company [R
 ## Decisions to approve (Step 1)
 1. **Vision:** *"Every appliance in small-town India is installed right, kept working, and given a second life, by people the family already trusts."*
 2. **Mission** (§1.4) and **tagline:** *"The after-sale service arm of every small-town appliance shop."*
-3. **Positioning:** *HomeServe for India's independent appliance shops.* The AI is the cost engine, not the moat.
+3. **Positioning:** *the after-sale service arm of every small-town appliance shop: a services operator with an AI layer.* The AI is the cost engine, not the moat.
 4. **Four phases** (Serve, Supply, Know, Circulate) as the vision structure.
 5. **Narrative spine** (§1.9): opens with the shop owner's week, then the family's evidence.
 6. **Closing line:** *"Keepwell keeps the promise the shop made when it sold the appliance."*

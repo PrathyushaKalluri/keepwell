@@ -43,7 +43,7 @@ def frame(sl, d, n):
     text(sl, 0.6, 0.32, 12, 0.35, d["kicker"].upper(), size=11, bold=True, color=TEAL)
     text(sl, 0.6, 0.62, 12.1, 1.0, d["headline"], size=27 if len(d["headline"]) < 62 else 23, bold=True, color=NAVY)
     text(sl, 11.6, 7.08, 1.2, 0.3, str(n), size=9, color=GREY, align=PP_ALIGN.RIGHT)
-    text(sl, 0.6, 7.08, 8, 0.3, "Keepwell · Seed 2026 · illustrative case, IIIT Hyderabad ESFS", size=9, color=GREY)
+    text(sl, 0.6, 7.08, 8, 0.3, "Keepwell · Seed round 2026 · Confidential", size=9, color=GREY)
     if d.get("notes"): sl.notes_slide.notes_text_frame.text = d["notes"]
 def foot(sl, t): text(sl, 0.6, 6.7, 12.1, 0.35, t, size=9, color=GREY, italic=True)
 def tile(sl, x, y, w, h, v, l, fill=LIGHT, vc=NAVY, vs=26, lc=GREY):
@@ -59,7 +59,6 @@ def r_title(sl, d, n):
     text(sl, 0.95, 3.15, 11.5, 0.6, d["tagline"], size=26, color=WHITE)
     text(sl, 0.95, 3.9, 11.5, 0.5, d["sub"], size=16, color=PALE)
     text(sl, 0.95, 6.35, 11.8, 0.4, NAMES, size=12, color=PALE)
-    text(sl, 0.95, 6.75, 11.8, 0.4, "Illustrative case for the IIIT Hyderabad ESFS course · founder histories, pilot and financials are [Story]", size=10, color=PALE, italic=True)
     sl.notes_slide.notes_text_frame.text = d["notes"]
 def r_problem(sl, d, n):
     frame(sl, d, n); bullets(sl, 0.6, 1.75, 7.3, 2.9, d["story"], size=15, gap=9)
@@ -136,16 +135,19 @@ def r_team(sl, d, n):
         box(sl, x + 0.2, 1.9, 0.9, 0.9, fill=NAVY, shape=MSO_SHAPE.OVAL); text(sl, x + 0.2, 1.9, 0.9, 0.9, "".join(w[0] for w in nm.split()[:2]), size=20, bold=True, color=WHITE, align=PP_ALIGN.CENTER, anchor=MSO_ANCHOR.MIDDLE)
         text(sl, x + 1.25, 1.9, 2.6, 0.45, nm, size=16, bold=True, color=NAVY); text(sl, x + 1.25, 2.33, 2.6, 0.4, role, size=13, bold=True, color=TEAL)
         text(sl, x + 0.2, 2.95, 3.5, 1.4, bg, size=11); text(sl, x + 0.2, 4.4, 3.5, 0.5, "Owns: " + owns, size=11, bold=True, color=GREY)
-    text(sl, 0.6, 5.1, 12.1, 0.6, d["advisors"], size=12); landbar(sl, d["gap"], 5.8); foot(sl, d["foot"])
+    text(sl, 0.6, 5.1, 12.1, 0.6, d["advisors"], size=12); landbar(sl, d["gap"], 5.8)
 def r_plan(sl, d, n):
     frame(sl, d, n)
-    cd = CategoryChartData(); cd.categories = d["years"]; cd.add_series("Revenue (₹ Cr)", d["rev"]); cd.add_series("EBITDA (₹ Cr)", d["ebitda"])
-    gf = sl.shapes.add_chart(XL_CHART_TYPE.COLUMN_CLUSTERED, Inches(0.6), Inches(1.6), Inches(12.1), Inches(3.1), cd); ch = gf.chart
-    ch.has_legend = True; ch.legend.position = XL_LEGEND_POSITION.TOP; ch.legend.include_in_layout = False; ch.legend.font.size = Pt(11)
-    for s_, c in zip(ch.series, (NAVY, TEAL)):
-        s_.format.fill.solid(); s_.format.fill.fore_color.rgb = c
-        s_.data_labels.show_value = True; s_.data_labels.font.size = Pt(10); s_.data_labels.number_format = '0.0;-0.0'; s_.data_labels.number_format_is_linked = False; s_.data_labels.position = XL_LABEL_POSITION.OUTSIDE_END
-    ch.value_axis.has_major_gridlines = False; ch.value_axis.tick_labels.font.size = Pt(10); ch.category_axis.tick_labels.font.size = Pt(11)
+    cd = CategoryChartData(); cd.categories = d["years"]; cd.add_series("Revenue (₹ Cr)", d["rev"])
+    gf = sl.shapes.add_chart(XL_CHART_TYPE.COLUMN_CLUSTERED, Inches(1.6), Inches(1.5), Inches(11.1), Inches(2.75), cd); ch = gf.chart
+    ch.has_title = False; ch.has_legend = False; s_ = ch.series[0]; s_.format.fill.solid(); s_.format.fill.fore_color.rgb = NAVY
+    s_.data_labels.show_value = True; s_.data_labels.font.size = Pt(10); s_.data_labels.position = XL_LABEL_POSITION.OUTSIDE_END
+    ch.value_axis.has_major_gridlines = False; ch.value_axis.visible = False; ch.category_axis.tick_labels.font.size = Pt(11)
+    text(sl, 0.6, 1.55, 1.0, 0.4, "Revenue", size=11, bold=True, color=NAVY)
+    text(sl, 0.6, 4.3, 1.0, 0.4, "EBITDA", size=11, bold=True, color=TEAL)
+    cw = 11.1 / len(d["years"])
+    for i, e in enumerate(d["ebitda"]):
+        text(sl, 1.6 + i * cw, 4.3, cw, 0.4, f"{e:+.1f}", size=12, bold=True, color=RED if e < 0 else TEAL, align=PP_ALIGN.CENTER)
     for i, (h, a, b) in enumerate(d["rounds"]):
         x = 0.6 + i * 3.05; box(sl, x, 4.85, 2.95, 1.75, fill=NAVY if i == 0 else LIGHT)
         c = WHITE if i == 0 else NAVY; text(sl, x + 0.15, 4.95, 2.7, 0.35, h, size=12, bold=True, color=AMBER if i == 0 else TEAL)
@@ -159,7 +161,7 @@ def r_ask(sl, d, n):
     for i, (l, p) in enumerate(d["uof"]):
         y = 3.85 + i * 0.5; text(sl, 0.6, y, 3.4, 0.42, l, size=12, color=WHITE, anchor=MSO_ANCHOR.MIDDLE)
         box(sl, 4.0, y + 0.08, 2.0 * p / 30, 0.28, fill=TEAL); text(sl, 4.05 + 2.0 * p / 30, y, 0.8, 0.42, f"{p}%", size=12, bold=True, color=WHITE, anchor=MSO_ANCHOR.MIDDLE)
-    box(sl, 7.0, 1.75, 5.7, 4.15, fill=RGBColor(0x1B, 0x3A, 0x66)); text(sl, 7.2, 1.85, 5.3, 0.4, "MILESTONES BY MONTH 18 (JUN 2028) → ROUND 2", size=11, bold=True, color=AMBER)
+    box(sl, 7.0, 1.75, 5.7, 4.15, fill=RGBColor(0x1B, 0x3A, 0x66)); text(sl, 7.2, 1.85, 5.3, 0.4, "THE GATE AND THE MILESTONES", size=11, bold=True, color=AMBER)
     bullets(sl, 7.2, 2.3, 5.3, 3.5, d["milestones"], size=14, color=WHITE, gap=9, mark="◆  ")
     text(sl, 0.6, 6.45, 12.1, 0.5, d["help"], size=12, color=PALE); text(sl, 11.6, 7.08, 1.2, 0.3, str(n), size=9, color=PALE, align=PP_ALIGN.RIGHT)
     sl.notes_slide.notes_text_frame.text = d["notes"]
@@ -197,12 +199,12 @@ def hs(d, n):
     elif t == "compete":
         b = '<div class="cmp"><table><tr><th>Player</th><th>What they do</th><th>Why not the independent shop</th></tr>' + "".join("<tr>" + "".join(f"<td>{E(c)}</td>" for c in r) + "</tr>" for r in d["rows"]) + '</table><div class="moats"><h3>Our four moats</h3>' + "".join(f'<div><b>{E(a)}</b><span>{E(c)}</span></div>' for a, c in d["moats"]) + "</div></div>"
     elif t == "team":
-        b = '<div class="cols3">' + "".join(f'<div class="card"><b>{E(a)}</b><em>{E(r)}</em><span>{E(c)}</span><small>Owns: {E(o)}</small></div>' for a, r, c, o in d["people"]) + f'</div><p class="sub2">{E(d["advisors"])}</p><div class="land">{E(d["gap"])}</div><p class="foot">{E(d["foot"])}</p>'
+        b = '<div class="cols3">' + "".join(f'<div class="card"><b>{E(a)}</b><em>{E(r)}</em><span>{E(c)}</span><small>Owns: {E(o)}</small></div>' for a, r, c, o in d["people"]) + f'</div><p class="sub2">{E(d["advisors"])}</p><div class="land">{E(d["gap"])}</div>'
     elif t == "plan":
         mx = max(d["rev"]); bars = "".join(f'<div class="bc"><div class="bv">{r:.1f}</div><div class="bar" style="height:{r/mx*100:.0f}%"></div><div class="be {"neg" if e < 0 else ""}">{e:+.1f}</div><div class="by">{y}</div></div>' for y, r, e in zip(d["years"], d["rev"], d["ebitda"]))
         b = f'<div class="chart">{bars}</div><p class="sub2">Bars: revenue (₹ Cr). Below each bar: EBITDA (₹ Cr).</p><div class="tiles">' + "".join(f'<div class="tile{" hi" if i == 0 else ""}"><em>{E(a)}</em><b>{E(v)}</b><span>{E(c)}</span></div>' for i, (a, v, c) in enumerate(d["rounds"])) + f'</div><p class="foot">{E(d["foot"])}</p>'
     elif t == "ask":
-        b = '<div class="two"><div><div class="tiles t3">' + "".join(f'<div class="tile hi"><b>{E(v)}</b><span>{E(l)}</span></div>' for v, l in d["terms"]) + '</div><h3>Use of funds</h3>' + "".join(f'<div class="uof"><span>{E(l)}</span><i style="width:{p*2}%"></i><b>{p}%</b></div>' for l, p in d["uof"]) + '</div><div class="ms"><h3>Milestones by month 18 → Round 2</h3><ul>' + "".join(f"<li>{E(x)}</li>" for x in d["milestones"]) + f'</ul></div></div><p class="sub2">{E(d["help"])}</p>'
+        b = '<div class="two"><div><div class="tiles t3">' + "".join(f'<div class="tile hi"><b>{E(v)}</b><span>{E(l)}</span></div>' for v, l in d["terms"]) + '</div><h3>Use of funds</h3>' + "".join(f'<div class="uof"><span>{E(l)}</span><i style="width:{p*2}%"></i><b>{p}%</b></div>' for l, p in d["uof"]) + '</div><div class="ms"><h3>The gate and the milestones</h3><ul>' + "".join(f"<li>{E(x)}</li>" for x in d["milestones"]) + f'</ul></div></div><p class="sub2">{E(d["help"])}</p>'
         return f'<section class="s dark">{k}{h}{b}</section>'
     elif t == "table":
         tt = d["table"]; b = "<table class='wide'>" + "".join("<tr>" + "".join((f"<th>{E(c)}</th>" if i == 0 else f"<td>{E(c)}</td>") for c in r) + "</tr>" for i, r in enumerate(tt)) + "</table>"

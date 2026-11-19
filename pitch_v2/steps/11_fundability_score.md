@@ -1,6 +1,6 @@
 # Step 11: Fundability self-score (course M3)
 
-**Phase E. Status: FINAL (20 Nov 2026).**
+**Phase E. Status: FINAL (19 Nov 2026).**
 
 > **Method:** the course M3 matrix (Market / Product / Startup × Potential / Uniqueness / Quality), using the course's sample weights:
 > - Market 15, Product 30, Startup 45: 90 points in total.
@@ -30,9 +30,9 @@
 | Pillar | What the course asks | Where it is in our pitch | Ready? |
 |---|---|---|---|
 | **1. Pitch (narrative)** | Story, market potential, USP and moat, investor fit | Steps 1, 4, 5, 12; deck and story deck | ✅ |
-| **2. Business model (engine)** | Unit economics, growth triggers, LTV and repeat, cash burn; no red flags: negative unit economics, flimsy margin claims, unexplainable numbers | Steps 7, 7b and 8. Positive contribution per job, shop and cluster; cash-positive in BASE year 5; every number traces to the xlsx | ✅, with the claims ratio still to be proven |
+| **2. Business model (engine)** | Unit economics, growth triggers, LTV and repeat, cash burn; no red flags: negative unit economics, flimsy margin claims, unexplainable numbers | Steps 7, 7b and 8. Positive contribution per job, shop and cluster; EBITDA- and cash-flow-positive from year 5 in BASE; every number traces to the xlsx | ✅, with the claims ratio still to be proven |
 | **3. Compliance (hygiene)** | Corporate, HR/finance/tax, customer/vendor, IP and data | Step 10 | 🟡 Protect opinion and DPDP audit funded by the seed |
-| **4. Data room (proof)** | Evidence for every claim | Step 10 §10.3 and `claims_ledger.csv` | ✅ ([Story] items flagged) |
+| **4. Data room (proof)** | Evidence for every claim | Step 10 §10.3 and `claims_ledger.csv` | ✅ ( items flagged) |
 
 ## 11.3 Fixes for the weak cells
 

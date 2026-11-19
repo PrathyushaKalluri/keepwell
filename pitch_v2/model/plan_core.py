@@ -37,7 +37,7 @@ I = {  # name: ((low, base, high), unit, tag, source)
  "pay_fee": ((0.010, 0.008, 0.005), "share of revenue", "R", "UPI 0% MDR; cards/gateway ~2%; blend"),
  "nwc_pct": ((0.10, 0.07, 0.05), "share of revenue growth", "Assumption", "B2B receivables, parts and refurbished stock, less AMC advances"),
  "tax_rate": ((0.25, 0.25, 0.25), "share of taxable profit", "R", "domestic company rate ~25%"),
- "start_cash": ((1800000, 1800000, 1800000), "INR", "Story", "Step 2 cash Nov 2026"),
+ "start_cash": ((200000, 200000, 200000), "INR", "Plan", "cash at the seed close (Mar 2027); model month 1 = first month after close"),
  "hq_mult": ((1.2, 1.0, 0.85), "x HQ headcount path", "Assumption", "HQ built by headcount (Step 7 §7.4)"),
  "setup": ((350000, 300000, 250000), "INR/new cluster", "Assumption", "Step 2"),
  "wc": ((350000, 300000, 250000), "INR/new cluster", "Assumption", ""),

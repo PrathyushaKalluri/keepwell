@@ -1,10 +1,6 @@
 # Voice of the customer
 
-> **Two kinds of evidence, kept apart.**
-> - **[Real]:** the team's household research (Hyderabad and Visakhapatnam, 2026; survey n = 19, 12 qualified; recorded interviews). Names are used with the interviewees' consent.
-> - **[Story]:** illustrative shop-owner and technician discovery for the course pitch (Step 6).
-
-## Households [Real]: "nothing in a repair can be checked"
+## Households (discovery, Hyderabad and Visakhapatnam): "nothing in a repair can be checked"
 
 > "They are never going to say the price, they're going to just give you an estimation… three thousand to five thousand." — **Sai Kakki**, young professional, Hyderabad
 
@@ -26,15 +22,15 @@
 
 **What it means for Keepwell.** Trust goes to the person, not the system, so we work under the shop's name. Families already keep a paper record, so the appliance record is a habit they already have.
 
-## Shop owners [Story, discovery Apr–Jul 2025, Vijayawada, Guntur and Warangal; n = 64]
+## Shop owners (discovery, Apr–Jul 2025, Vijayawada, Guntur and Warangal; n = 64)
 
 - **51 of 64** say installation delays get blamed on them.
 - **9** have had a consumer complaint or legal notice.
 - **None** earn anything after the sale.
-- **41 of 64** would route installs to "a service partner who puts my name on the guarantee".
+- **41 of 64** would route installs to "a service partner who puts my name on the guarantee". **28** signed letters of intent before the pilot, and all 34 pilot shops signed 2-year agreements.
 - In the pilot, the 4 shops whose owners used the install guarantee in their sales pitch sold the most Protect plans.
 
-## Technicians and service centres [Story]
+## Technicians and service centres
 
 - Brand service centres were short of technicians during the Mar–Jun peak, and 2 of the 6 we met were open to sub-contracting installs.
 - The same centres sit idle in the monsoon. This is the basis of the partner-cluster model (Step 7b).

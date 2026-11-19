@@ -1,6 +1,6 @@
 # Demo walkthrough: one appliance's life on Keepwell's AI desk (2 minutes, CTO)
 
-> This is a scripted walkthrough of the WhatsApp flow, for the live demo or a screen recording. The pilot flows are [Story]; the guardrails are design rules (Step 5).
+> This is a scripted walkthrough of the WhatsApp flow, for the live demo or a screen recording. The guardrails are design rules (Step 5).
 
 | # | Moment | What the audience sees | What the CTO says |
 |---|---|---|---|

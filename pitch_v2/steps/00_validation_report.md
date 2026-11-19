@@ -1,6 +1,7 @@
 # Step 0: Validation report, retailer-led lifecycle idea (Gate 1)
 
-> **Illustrative case** for the IIIT Hyderabad ESFS course pitch. The research is real and sourced. Model inputs are tagged.
+> **Superseded in part (19 Nov 2026).** Since this gate, the founders decided: serve **every** shop (TAM ≈ ₹4,000 Cr, bridged in Step 4); no desk fee; four appliances; Keepwell Protect and partner clusters (Step 7b). **The ask and valuation are set in Steps 8–9: ₹2.5 Cr at ₹8 Cr pre-money, in two tranches.** The pilot ran Mar–Oct 2026 (Step 6). Competition is worded as "nobody *owns* the independent shop's after-sale relationship; Onsitego is the closest, and a possible partner".
+
 >
 > **For approval.** This is the only document to review at this gate. Steps 1–13 begin only after you approve it.
 

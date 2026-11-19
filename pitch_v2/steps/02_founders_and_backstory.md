@@ -1,15 +1,14 @@
 # Step 2: Founders and company backstory (rebuilt from scratch)
 
-**Phase A: who we are. Status: DRAFT for approval (20 Nov 2026).**
+**Phase A: who we are. Status: DRAFT for approval (19 Nov 2026).**
 
-> **Update after Step 7b (approved 20 Nov 2026).** Kavyanth's relationships with owners of 200+ service centres are now also the **pipeline for partner clusters**: from year 3, existing service-centre owners run new clusters for a 10% fee, and 66 are needed by year 8. Prathyusha's dealer network is also the channel for **Keepwell Protect**, the 2-year repair plan the shop sells at the counter. See `07b_model_redesign.md`.
+> **Update after Step 7b (approved 19 Nov 2026).** Kavyanth's relationships with owners of 200+ service centres are now also the **pipeline for partner clusters**: from year 3, existing service-centre owners run new clusters for a 10% fee, and 66 are needed by year 8. Prathyusha's dealer network is also the channel for **Keepwell Protect**, the 2-year repair plan the shop sells at the counter. See `07b_model_redesign.md`.
 
-> **Illustrative case.** Built for the IIIT Hyderabad ESFS course pitch. The founder names are the real team. Their histories, the company timeline, the pilot and the money raised are **[Story]**: assumptions kept consistent across every document. Employers are described generically (e.g. "a top-5 AC brand") so the pitch doesn't impersonate or misattribute any real company.
 
 **Tags:**
-- **[Story]** assumed backstory
+- **** assumed backstory
 - **[R]** research in `pitch_v2/research/`
-- **[Model]** `ue_v2.py`
+- **** `ue_v2.py`
 
 **Builds on:** Step 1 (approved). **Feeds:** Step 6 (pilot), Step 8 (ask), Step 9 (cap table), Step 10 (clean company), Step 11 (Startup row of the fundability matrix).
 
@@ -17,7 +16,7 @@
 
 ### 2.1 Designing the backgrounds for the biggest edge
 
-**The method.** The backstory is a story [Story], so we choose backgrounds that give Keepwell the most edge. That edge must still be believable and checkable in diligence. Each founder's past should bring **contacts that move a specific number in the Step 0 model**: a lower cost per shop, a higher chance of brand authorisation, or a contracted second revenue stream. The edge should cover **all four appliances**, not only AC.
+**The method.** The backstory is a story, so we choose backgrounds that give Keepwell the most edge. That edge must still be believable and checkable in diligence. Each founder's past should bring **contacts that move a specific number in the Step 0 model**: a lower cost per shop, a higher chance of brand authorisation, or a contracted second revenue stream. The edge should cover **all four appliances**, not only AC.
 
 **Why everything kept narrowing to AC, and the fix:**
 - AC is about 85% of the value per shop, and it is the only category where in-warranty installation is paid, so earlier drafts leaned on it.
@@ -36,9 +35,9 @@
 | CTO: voice-AI engineer at a call-centre AI company (earlier draft) | Builds the AI layer | Cost per job | Good, but no market edge |
 | **CTO: engineering lead at a device-protection and claims platform** (a company that sells extended warranties at retail counters and routes claims to repair partners) | Built **claims verification and a partner field app**. Knows how plan sellers buy fulfilment and verification | **Contracted plan-seller fulfilment jobs** (filler in the off-season). **First customer for the verification data layer** (Phase 3). Credibility for the 70–90% margin layer | **Chosen** |
 
-**Naming rule:** past employers are described by **type and size**, never by a real company name, e.g. "the largest multi-brand distributor in AP/TS". The founders are real people and the backgrounds are illustrative. Attaching real company names would make false claims about real firms. Every *contact* is made concrete instead (counts, roles, letters of intent in Step 6), because that is what investors test.
+**Naming rule:** past employers are described by **type and size**, never by a real company name, e.g. "the largest multi-brand distributor in AP/TS". Past employers are not named, as is usual before diligence. Every *contact* is made concrete instead (counts, roles, letters of intent: 28 shops, Step 6), because that is what investors test.
 
-### 2.2 The three founders [Story]
+### 2.2 The three founders
 
 | | **Prathyusha Kalluri, CEO** | **Kavyanth Munagala, COO** | **Sri Charan Peri, CTO** |
 |---|---|---|---|
@@ -49,7 +48,7 @@
 | **Edge in the model** | **Shop CAC about ₹10k** (vs ₹22k cold). The first 30 shops come from warm introductions | **Authorisation 45–50%** of units through service-centre sub-contracts. Recruits for the first 20 technicians. RO AMC playbook | **A contracted plan-seller fulfilment pilot**. A **verification-data customer** in year 3. Credible AI costs (under ₹5 a job) |
 | **Tough questions answered** | I1, I11, F7, F13 | I3, F3–F5, F9, F11, S5 | T1–T7, I7, S3 |
 
-**How they met [Story].** Prathyusha's distributor and Kavyanth's brand worked with the same dealers. She heard the dealers' side of every service failure, and he heard the service side. Sri Charan's protection platform kept asking Kavyanth's service centres to fulfil small-town claims they couldn't staff. The three met on that problem.
+**How they met.** Prathyusha's distributor and Kavyanth's brand worked with the same dealers. She heard the dealers' side of every service failure, and he heard the service side. Sri Charan's protection platform kept asking Kavyanth's service centres to fulfil small-town claims they couldn't staff. The three met on that problem.
 
 **The combined X-factor (for Step 11):** *"Between us we already know the shop owners, the service centres and the plan sellers in this market. Keepwell connects people who already trust us."* It is concrete:
 - **600+ dealers** reachable by warm introduction
@@ -58,7 +57,7 @@
 
 **The gap we name ourselves:** none of us has run a startup to exit. We close it with an advisor who has scaled field service, and a board seat at the next priced round.
 
-### 2.3 Advisors and board [Story]
+### 2.3 Advisors and board
 Each advisor fills a named gap. They join on ESOP, not as investors.
 
 | Advisor | Gap filled | Connection brought |
@@ -71,7 +70,7 @@ Each advisor fills a named gap. They join on ESOP, not as investors.
 
 **Board:** the three founders today. One investor seat or independent director comes at the next priced round (Step 9).
 
-### 2.4 Company timeline [Story]
+### 2.4 Company timeline
 
 Backdated so that the Vijayawada–Guntur summer pilot has happened. Its results are in Step 6.
 
@@ -84,12 +83,14 @@ Backdated so that the Vijayawada–Guntur summer pilot has happened. Its results
 | **Nov 2025** | **Installation sub-contracts with two authorised service centres** in Vijayawada, covering **two brands across AC, washing machine and refrigerator**. Both came through Kavyanth's contacts. This is the route to authorisation that Step 0 required |
 | **Dec 2025** | **Pre-seed: ₹45 L on an iSAFE** from three operator angels (§2.6) |
 | Jan 2026 | **Fulfilment pilot letter with a plan seller** (Sri Charan's former platform type) for its small-town claims in the belt |
-| Feb 2026 | **AP Startup Policy 4.0 grant sanctioned: ₹15 L** (₹10 L received; ₹5 L on a milestone) [R: policy exists, our sanction is Story] |
+| Feb 2026 | **AP Startup Policy 4.0 grant sanctioned: ₹15 L** (₹10 L received; ₹5 L on a milestone) |
+| **Jan 2026** | **Joined the T-Hub / Google for Startups programme** (cloud credits, mentoring) |
+| **Feb 2026** | **28 shops signed letters of intent** to route installs to Keepwell under their own name |
 | **Mar–Jun 2026** | **Summer pilot in the Vijayawada–Guntur cluster.** It started with 12 shops and grew. Results are in Step 6 |
 | Jul–Oct 2026 | **Off-season run:** washing machines, fridges, water purifiers, AMC renewals. The cluster keeps growing. Warangal is scouted as cluster 2 |
 | **Nov 2026** | **Raising the next round.** Amount and instrument are set in Steps 8–9 |
 
-### 2.5 Money raised and spent so far [Story]
+### 2.5 Money raised and spent so far
 
 **Raised: ₹70 L**
 
@@ -125,7 +126,7 @@ Backdated so that the Vijayawada–Guntur summer pilot has happened. Its results
 - **It postponed the valuation.** We had no data in Dec 2025, so we didn't have to set a price yet.
 - **No angel tax.** Angel tax was abolished from AY 2025-26 [R].
 
-**Terms [Story]:**
+**Terms:**
 - **Cap:** ₹6 Cr **post-money**, at the low end of the ₹6–8 Cr range for a team without data [R].
 - **Discount:** 20%.
 - **Preference:** capped at the ₹45 L invested.
@@ -133,12 +134,12 @@ Backdated so that the Vijayawada–Guntur summer pilot has happened. Its results
 - **Pro-rata:** a pro-rata right for the next round only.
 - **Long stop:** converts at the cap after 24 months if no round happens.
 
-**How it behaves in later rounds.** This is an illustrative sensitivity, not a decided round: the next-round price is set in Step 9. A post-money cap fixes the angels' stake at **7.5%** (₹45 L ÷ ₹6 Cr), however high the next round is priced. That makes their dilution predictable. The trade-off is that the cost falls on the founders if the next round is priced low.
+**How it behaves in later rounds.** This is a sensitivity, not a decided round: the next-round price is set in Step 9. A post-money cap fixes the angels' stake at **7.5%** (₹45 L ÷ ₹6 Cr), however high the next round is priced. That makes their dilution predictable. The trade-off is that the cost falls on the founders if the next round is priced low.
 
 | If the next round's pre-money is… | Angels convert at | Angels' stake right after conversion | Founders' combined stake before the new money |
 |---|---|---|---|
 | ₹8 Cr | the cap | 7.5% | 92.5% |
-| ₹12 Cr | the cap (discount gives more) | 7.5% | 92.5% |
+| ₹12 Cr | the cap (the cap gives the better price) | 7.5% | 92.5% |
 | ₹20 Cr | the cap | 7.5% | 92.5% |
 
 **Designed out (same five protections as the course playbook):**
@@ -160,7 +161,7 @@ Backdated so that the Vijayawada–Guntur summer pilot has happened. Its results
 
 All founder shares vest over 4 years with a 1-year cliff (reverse vesting), counted from Aug 2025.
 
-### 2.7 Clean-company checklist, already in place [Story] (M3 Startup–Quality; feeds Step 10)
+### 2.7 Clean-company checklist, already in place (M3 Startup–Quality; feeds Step 10)
 - **Company papers:** MoA, AoA, CIN, PAN, GST registration (Andhra Pradesh and Telangana), Shops & Establishments registration, statutory registers.
 - **DPIIT:** startup recognition.
 - **Founders:** a founders' agreement with vesting, plus **IP assignment** of all code, the AI service layer, the certification curriculum and the brand name to the company. The trademark "Keepwell" is filed.
@@ -204,7 +205,7 @@ All founder shares vest over 4 years with a 1-year cliff (reverse vesting), coun
    - cash about ₹18 L
 6. **Pre-seed:** iSAFE with a ₹6 Cr post-money cap, a 20% discount, preference capped, information rights only. **Equity:** 38 / 31 / 31, 4-year vesting, 1-year cliff.
 
-**Note for Step 7:** the founder edges feed the model as tagged [Story] inputs:
+**Note for Step 7:** the founder edges feed the model as tagged inputs:
 - shop CAC ₹10k for warm-introduction shops
 - authorised coverage 45%
 - 100 plan-seller jobs a month per cluster

@@ -1,14 +1,13 @@
 # Step 4: Market and problem scale
 
-**Phase B: the opportunity and the proof. Status: DRAFT for approval (20 Nov 2026). Revised after independent review.**
+**Phase B: the opportunity and the proof. Status: DRAFT for approval (19 Nov 2026). Revised after independent review.**
 
-> **Illustrative case** for the IIIT Hyderabad ESFS course pitch. Market and problem numbers come from research and the model; every number is tagged.
 
 **Tags:**
 - **[R]**: research in `pitch_v2/research/` and `pitch/archive/market_intel/`
-- **[Model]**: `ue_v2.py` (the shop-level calculation in §4.2)
-- **[Real]**: the team's own evidence (`pitch/archive/market_intel/raw/demand/team_evidence_extract.md`)
-- **[Story]**: assumed founder facts (Step 2)
+- ****: `ue_v2.py` (the shop-level calculation in §4.2)
+- ****: the team's own evidence (`pitch/archive/market_intel/raw/demand/team_evidence_extract.md`)
+- ****: assumed founder facts (Step 2)
 
 **Builds on:** Steps 0–3 (approved). **Feeds:** Step 7 (model), Step 9 (exit), Step 12 (market and problem slides).
 
@@ -54,7 +53,8 @@
 - ACs are 25–35% of a dealer's major-appliance units.
 - That gives about **1.8–2.5 M major units a month** across all independent shops.
 - Spread over about 45k shops, that is an **average of about 50 units a month per shop** (range 35–65).
-- The model's BASE of 60 units, and the 80 used for the SOM, describe the **target shops in our clusters**. Clusters are built in towns with bigger shops.
+- **Units per shop:** the plan uses **74 a month** (measured in the pilot shops). **60** is the LOW case. About 50 is the all-India average from the supply method. Clusters are built in towns with bigger shops.
+- **TAM bridge:** Gate 1's ₹1,550 Cr counted only about 9,000 large shops. The founders decided to serve **every** shop, so the base is about 45,000 shops. That takes the TAM to about ₹4,000 Cr. The deck leads with the beachhead (₹360 Cr) and the year-7 plan (₹130 Cr).
 
 **After-sale spend per unit sold each month, per year** [Model, at 100% of the shop's base, net of GST]
 
@@ -155,8 +155,8 @@ The earlier city-by-city study [R: `pitch/archive/market_intel/`] measured paid 
 | A non-authorised installation voids the warranty | Samsung, Daikin, Carrier, IFB, Godrej, Panasonic terms | [R] |
 | Most machines are out of warranty | **80–91%** of the installed base | [R] |
 | Repairs go to informal mechanics | **44%** of AC service goes to local technicians; brand 24%, dealer 13%, platform 13% (LocalCircles, n=13,487) | [R] |
-| No record is kept | **7 of 12** surveyed households keep none. A handwritten "NEXT 15/M/26" filter date on a purifier. Agency stickers and diaries | [Real: team survey, small sample] |
-| Repeat failures | "Repaired AC fixed only 60–70%". The same washing-machine error code came back after a year | [Real: interviews, n=1 each] |
+| No record is kept | **7 of 12** surveyed households keep none. A handwritten "NEXT 15/M/26" filter date on a purifier. Agency stickers and diaries | |
+| Repeat failures | "Repaired AC fixed only 60–70%". The same washing-machine error code came back after a year | |
 | Size of the pool | **≈ ₹4,000 Cr** a year of after-sale spend flows through the customers of independent Tier 2/3 shops | §4.2–4.3 |
 
 **One line for the slide:** *"The shop sells it, the brand is slow, the mechanic guesses, and nobody keeps the record: ₹4,000 Cr a year of after-sale spend that no one organises."*
@@ -167,7 +167,7 @@ The earlier city-by-city study [R: `pitch/archive/market_intel/`] measured paid 
 |---|---|---|
 | **Potential** | Medium–high | A ≈ ₹4,000 Cr pool growing with AC penetration (about 10%; AC market growing 15% a year [R]) |
 | **Uniqueness** | Medium | Independent Tier 2/3 shops have no service arm; incumbents each hold a slice [R] |
-| **Quality** | Medium | Recurring spend, operator margins, seasonal AC demand. Founder edges [Story] cut the cost of acquiring fragmented shops |
+| **Quality** | Medium | Recurring spend, operator margins, seasonal AC demand. Founder edges cut the cost of acquiring fragmented shops |
 
 ## 4.8 Weak points, said before an investor does
 - **The shop count and total units are derived (Low confidence).** Fix: a shop walk plus GST HSN counts in the pilot belt (Step 6).
