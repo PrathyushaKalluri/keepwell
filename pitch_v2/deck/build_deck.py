@@ -256,18 +256,19 @@ def r_touch(sl, d, n):
         text(sl, cx(i) + 0.17, y, CW - 0.18, 0.32, tx, size=8, bold=bool(all_), color=NAVY if all_ else GREY, anchor=MSO_ANCHOR.MIDDLE)
     y = 2.5; band(y, "2", "What happens", True)
     def lab(yy, h, t, fill=LIGHT, col=NAVY): box(sl, X, yy, LW - 0.02, h - 0.03, fill=fill); text(sl, X + 0.05, yy, LW - 0.1, h - 0.03, t, size=8.5, bold=True, color=col, anchor=MSO_ANCHOR.MIDDLE)
-    y = 2.76; h = 0.42; lab(y, h, "First touch")
+    y = 2.76; h = 0.48; lab(y, h, "First touch")
     for i, (c, tx) in enumerate(d["first"]):
-        box(sl, cx(i), y, CW, h - 0.03, fill=SOFT); dot(cx(i) + 0.04, y + 0.08, c, 0.24)
+        box(sl, cx(i), y, CW, h - 0.03, fill=SOFT); dot(cx(i) + 0.05, y + 0.1, c, 0.26)
         text(sl, cx(i) + 0.3, y, CW - 0.32, h - 0.03, d["parties"][c].split()[0] + " " + tx, size=7.5, color=INK, anchor=MSO_ANCHOR.MIDDLE)
-    y = 3.2; h = 0.3; lab(y, h, "Order of touches")
+    y = 3.27; h = 0.38; lab(y, h, "Order of touches")
     for i, o in enumerate(d["order"]):
-        for k, c in enumerate(o): dot(cx(i) + 0.04 + k * 0.29, y + 0.04, c, 0.2, ring=(k == 0))
-    y = 3.53; h = 0.52; lab(y, h, "What Keepwell does", fill=TEAL, col=WHITE)
+        box(sl, cx(i), y, CW, h - 0.03, fill=SOFT); sz = 0.21; span = CW - 0.14 - sz; box(sl, cx(i) + 0.07 + sz / 2, y + h / 2 - 0.025, span, 0.025, fill=PALE)
+        for k, c in enumerate(o): dot(cx(i) + 0.07 + k * span / (len(o) - 1), y + (h - 0.03 - sz) / 2, c, sz, ring=(k == 0))
+    y = 3.68; h = 0.56; lab(y, h, "What Keepwell does", fill=TEAL, col=WHITE)
     for i, tx in enumerate(d["does"]):
         box(sl, cx(i), y, CW, h - 0.03, fill=TEALBG); text(sl, cx(i) + 0.03, y, CW - 0.05, h - 0.03, tx, size=7.5, bold=True, color=NAVY, anchor=MSO_ANCHOR.MIDDLE)
-    y = 4.13; band(y, "3", "Value for each party", True)
-    y = 4.39; h = 0.37
+    y = 4.32; band(y, "3", "Value for each party", True)
+    y = 4.58; h = 0.39
     for c, nm, vals in d["value"]:
         box(sl, X, y, LW - 0.02, h - 0.03, fill=LIGHT); dot(X + 0.05, y + 0.07, c, 0.2); text(sl, X + 0.28, y, LW - 0.3, h - 0.03, nm, size=8.5, bold=True, color=NAVY, anchor=MSO_ANCHOR.MIDDLE)
         for i, v in enumerate(vals):
@@ -275,7 +276,7 @@ def r_touch(sl, d, n):
         y += h
     y += 0.08; w = (12.1 - 0.2) / 3
     for i, (q, yes, no) in enumerate(d["decisions"]):
-        x = X + i * (w + 0.1); box(sl, x, y, w, 0.66, fill=NAVY)
+        x = X + i * (w + 0.1); box(sl, x, y, w, 0.7, fill=NAVY)
         box(sl, x + 0.1, y + 0.08, 0.2, 0.2, fill=AMBER, shape=MSO_SHAPE.DIAMOND); text(sl, x + 0.08, y + 0.06, 0.24, 0.24, "?", size=9, bold=True, color=WHITE, align=PP_ALIGN.CENTER, anchor=MSO_ANCHOR.MIDDLE)
         text(sl, x + 0.36, y + 0.03, w - 0.4, 0.26, q, size=10, bold=True, color=WHITE)
         tb = sl.shapes.add_textbox(Inches(x + 0.1), Inches(y + 0.28), Inches(w - 0.15), Inches(0.38)); tf = tb.text_frame; tf.word_wrap = True; tf.margin_top = tf.margin_bottom = 0
