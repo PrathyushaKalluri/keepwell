@@ -14,7 +14,7 @@
 
 | Founder | Role | Background |
 |---|---|---|
-| Prathyusha Kalluri | CEO | 10 years in appliance distribution; 600+ dealers |
+| Prathyusha Kalluri | CEO | 10 years in appliance distribution; 600+ local retailers |
 | Kavyanth Munagala | COO | Ran a brand's service network; knows 200+ service centres |
 | Sri Charan Peri | CTO | Built claims and field platforms at a device-protection company |
 
@@ -42,7 +42,7 @@
 
 | Founder | Background | Why they started Keepwell |
 |---|---|---|
-| **Prathyusha Kalluri** (CEO) | 10 years in appliance distribution · 600+ dealers | “A Guntur dealer showed me a consumer-court notice naming him beside the brand, for an install he never did. Dealers kept losing customers over service they couldn't control.” |
+| **Prathyusha Kalluri** (CEO) | 10 years in appliance distribution · 600+ local retailers | “A Guntur retailer showed me a consumer-court notice naming him beside the brand, for an install he never did. Retailers kept losing customers over service they couldn't control.” |
 | **Kavyanth Munagala** (COO) | Ran a brand's service network · 200+ service centres | “Small-town installs failed for want of technicians, and out-of-warranty customers were turned away. The only service people renewed was the one done right.” |
 | **Sri Charan Peri** (CTO) | Built claims and field platforms at a device-protection company | “Plan sellers had small-town customers but no repair partner there, and claims were paid on photos nobody could verify.” |
 

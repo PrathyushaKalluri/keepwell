@@ -1,8 +1,8 @@
 # Keepwell seed pitch: the 8-minute story deck, explained slide by slide
 
 **Deck:** [`index_8min.html`](index_8min.html). Open it in Chrome. **F** goes full screen, **N** shows these notes, **→ / space** reveals the next click and **B** opens the backup slides for Q&A.
-**Length:** 15 slides, about **7:53** at 150 words a minute.
-**Speaking time:** Prathyusha (CEO) 3:14 · Kavyanth (COO) 2:31 · Sri Charan (CTO) 2:08.
+**Length:** 15 slides, about **7:56** at 150 words a minute.
+**Speaking time:** Prathyusha (CEO) 3:17 · Kavyanth (COO) 2:31 · Sri Charan (CTO) 2:08.
 
 ## How to use this script
 
@@ -22,7 +22,7 @@ Each slide has five parts:
 
 | # | Act | Slide | Speaker | Time | What the investor should believe |
 |---|---|---|---|---|---|
-| 1 | Keepwell | Keepwell keeps the promise the retailer made | Prathyusha | 0:34 | These founders have lived this problem and already know the people who can solve it. |
+| 1 | Keepwell | Keepwell keeps the promise the retailer made | Prathyusha | 0:37 | These founders have lived this problem and already know the people who can solve it. |
 | 2 | The problem | Retailers sell the appliance, then lose the customer | Prathyusha | 0:36 | The pain sits with the local retailer and the family, and nobody owns it. |
 | 3 | Our answer | The retailer sells the promise. Keepwell keeps it. | Kavyanth | 0:38 | A clear company with a big vision and a simple first step. |
 | 4 | Our answer | Not every appliance reaches every stage | Sri | 1:25 | Keepwell runs the appliance's whole life, and everyone around it gains. |
@@ -50,15 +50,15 @@ Each slide has five parts:
 ## Slide by slide
 
 ### 1. Keepwell keeps the promise the retailer made
-**Prathyusha (CEO)** · about 0:34 · act: Keepwell
+**Prathyusha (CEO)** · about 0:37 · act: Keepwell
 
-**SHOW (on screen):** Logo, the line 'Keepwell keeps the promise the retailer made', the tagline, and three founder cards: each with a background line (600+ dealers; 200+ service centres; claims platforms) and a quote on why they started Keepwell. Advisors along the bottom.
+**SHOW (on screen):** Logo, the line 'Keepwell keeps the promise the retailer made', the tagline, and three founder cards: each with a background line (600+ local retailers; 200+ service centres; claims platforms) and a quote on why they started Keepwell. Advisors along the bottom.
 
 **SAY (word for word):**
 
 > Every local appliance retailer makes a promise at the counter: this will be installed properly, and it will be looked after. Then the sale ends, and nobody keeps that promise. Keepwell does. We are the after-sale service arm of the local retailer.
 >
-> We're three founders, and each of us saw this from one side. I'm Prathyusha: I supplied six hundred dealers and watched them blamed for installs they never did. Kavyanth ran a brand's service network. Sri Charan built claims platforms.
+> We're three founders, and each of us saw this from one side. I'm Prathyusha: I spent ten years in appliance distribution, supplying six hundred local retailers, and watched them blamed for installs they never did. Kavyanth ran a brand's service network. Sri Charan built claims platforms.
 
 **WHY this slide:** It opens with the promise and the people, and each founder's reason is the problem seen from one side: the retailer, the service network, the plan.
 

@@ -23,12 +23,12 @@
 
 **Say:**
 > Every local appliance retailer makes a promise at the counter: this will be installed properly, and it will be looked after. Then the sale ends, and nobody keeps that promise. Keepwell does. We are the after-sale service arm of the local retailer.
-> We're three founders, and each of us saw this from one side. I'm Prathyusha: I supplied six hundred dealers and watched them blamed for installs they never did. Kavyanth ran a brand's service network. Sri Charan built claims platforms.
+> We're three founders, and each of us saw this from one side. I'm Prathyusha: I spent ten years in appliance distribution, supplying six hundred local retailers, and watched them blamed for installs they never did. Kavyanth ran a brand's service network. Sri Charan built claims platforms.
 
 **Justify:**
 - **"The after-sale service arm of the local retailer":** "local retailer" means every independent appliance retailer in Tier 2/3 towns, from a single counter to a large showroom. National chains are excluded because they run their own service.
 - **Founder backgrounds (Step 2):**
-  - **Prathyusha:** 10 years in distribution, regional head for AP/TS, 600+ dealers. A Guntur dealer showed her a consumer-court notice naming him beside the brand.
+  - **Prathyusha:** 10 years in distribution, regional head for AP/TS, 600+ local retailers. A Guntur retailer showed her a consumer-court notice naming him beside the brand.
   - **Kavyanth:** 9 years in after-sales, zonal service head, about 220 authorised service centres; he knows the owners of 200+.
   - **Sri Charan:** voice AI, then engineering lead at a device-protection and claims platform.
 - **"Why these founders?"** Each brings a network the business needs on day one: retailers, service centres, and the claims and plan product. Warm introductions cut the cost of signing a retailer from ₹22k to ₹9.5k.
