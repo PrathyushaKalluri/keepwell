@@ -1,8 +1,8 @@
 # Keepwell seed pitch: the 8-minute story deck, explained slide by slide
 
 **Deck:** [`index_8min.html`](index_8min.html). Open it in Chrome. **F** goes full screen, **N** shows these notes, **→ / space** reveals the next click and **B** opens the backup slides for Q&A.
-**Length:** 12 slides, about **7:11** at 150 words a minute.
-**Speaking time:** Prathyusha (CEO) 2:32 · Kavyanth (COO) 3:31 · Sri Charan (CTO) 1:08.
+**Length:** 12 slides, about **7:13** at 150 words a minute.
+**Speaking time:** Prathyusha (CEO) 2:32 · Kavyanth (COO) 3:33 · Sri Charan (CTO) 1:08.
 
 ## How to use this script
 
@@ -27,7 +27,7 @@ Each slide has five parts:
 | 3 | Our answer | The retailer sells the promise. Keepwell keeps it. | Kavyanth | 0:38 | A clear company with a big vision and a simple first step. |
 | 4 | Our answer | From the retailer's bill to a second life | Sri | 0:43 | Keepwell runs the appliance's entire after-sale life, and every step earns money or data. |
 | 5 | The proof | The pilot cluster paid for itself from 20 retailers | Kavyanth | 0:50 | The cluster model is profitable in the field, and they know exactly why. |
-| 6 | The proof | Each retailer leaves ₹5,070 a month today and ₹9,600 at maturity | Kavyanth | 0:54 | Every rupee of the unit is accounted for, and growth comes from the same retailers. |
+| 6 | The proof | Each retailer leaves ₹5,070 a month today and ₹9,600 at maturity | Kavyanth | 0:56 | Every rupee of the unit is accounted for, and growth comes from the same retailers. |
 | 7 | The money | How we make money | Kavyanth | 0:28 | Revenue per retailer grows without adding retailers. |
 | 8 | The money | Profitable from year one | Kavyanth | 0:41 | This is a profitable, capital-efficient business. |
 | 9 | Why we win | ₹4,000 Cr that no one organises | Prathyusha | 0:28 | The plan needs only a small share of a large market. |
@@ -119,7 +119,7 @@ Each slide has five parts:
 ### 5. The pilot cluster paid for itself from 20 retailers
 **Kavyanth (COO)** · about 0:50 · act: The proof
 
-**SHOW (on screen):** Left, one sum read top to bottom: 195 retailer-months × ₹19,500 = ₹38.0 L revenue (about 2,400 jobs) − ₹28.1 L job costs = ₹9.9 L contribution (26%) − ₹8.0 L cluster team = +₹1.9 L cluster profit. Right, the monthly chart with active retailers under each month: contribution crosses the ₹1.0 L team cost in May, at 20 retailers. [click] The result line.
+**SHOW (on screen):** Left, one sum read top to bottom: 195 retailer-months × ₹19,500 = ₹38.0 L revenue (2,340 jobs) − ₹28.1 L job costs = ₹9.9 L contribution (26%) − ₹8.0 L cluster team = +₹1.9 L cluster profit. Right, the monthly chart with active retailers under each month: contribution crosses the ₹1.0 L team cost in May, at 20 retailers. [click] The result line.
 
 **SAY (word for word):**
 
@@ -136,13 +136,13 @@ Each slide has five parts:
 **BRIDGE:** *"Why does each retailer leave ₹5,070? Next slide."*
 
 ### 6. Each retailer leaves ₹5,070 a month today and ₹9,600 at maturity
-**Kavyanth (COO)** · about 0:54 · act: The proof
+**Kavyanth (COO)** · about 0:56 · act: The proof
 
 **SHOW (on screen):** Three panels, left to right. One retailer's month in the pilot: ₹19,500 − technicians ₹4,900 − parts ₹6,400 − retailer commission ₹1,700 − travel, payments, AI desk ₹1,430 = ₹5,070 (26%). The same retailer in year 5: + Protect ₹4,000 + AMC renewals ₹2,600 + repairs on our installs ₹3,900 = ₹30,000; at 32%, ₹9,600. One cluster's month: pilot October 34 × ₹5,070 − ₹1.0 L team = +₹0.72 L; mature 60 × ₹9,600 − ₹1.5 L team = +₹4.26 L a month, ₹51 L a year. [click] The result line.
 
 **SAY (word for word):**
 
-> Here's where that five thousand comes from. A retailer gives us about twelve jobs a month: nineteen and a half thousand rupees. Technicians take forty-nine hundred, parts sixty-four hundred, the retailer's commission seventeen hundred, travel and payments the rest. Five thousand and seventy is ours.
+> Here's where that five thousand comes from. A retailer gives us twelve jobs a month, at about sixteen hundred rupees each: nineteen and a half thousand rupees. Technicians take forty-nine hundred, parts sixty-four hundred, the retailer's commission seventeen hundred, travel and payments the rest. Five thousand and seventy is ours.
 >
 > The same retailer grows. Two Protect plans a month, two AMC renewals, and repairs on the appliances we installed take it to thirty thousand a month. Buying parts centrally lifts our share to thirty-two percent: ninety-six hundred.
 >

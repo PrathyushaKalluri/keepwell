@@ -7,7 +7,7 @@ P = dict(  # ---- pilot, Vijayawada–Guntur, Mar–Oct 2026
     rev_per_retailer_month=19_500,   # ₹ net of GST, per active retailer per month (pilot)
     contrib_margin=0.26,             # after technician pay, parts cost, retailer commission, per-job costs
     cluster_team_month=1.0 * L,      # pilot cluster team: coordinator, dispatcher, field executive
-    avg_job=1_580,                   # ₹ net per job (installs, service, repair, AMC, Protect)
+    avg_job=1_625,                   # ₹ net per job: 12 jobs a month × ₹1,625 = ₹19,500 exactly (installs, service, repair, AMC, Protect)
 )
 U = dict(  # ---- one mature retailer and one mature cluster (2031)
     rev_per_retailer_month=30_000, contrib_margin=0.32, retailers_per_cluster=60, cluster_cost_year=0.18 * CR,
@@ -31,6 +31,7 @@ MATURE_TEAM_MONTH = 1.5 * L   # a 60-retailer cluster adds a second field execut
 
 def retailer_month():
     rev = P["rev_per_retailer_month"]; cost = sum(SPLIT.values()); con = rev - cost
+    assert rev == 12 * P["avg_job"], "12 jobs × average job must equal revenue per retailer"
     assert abs(con - rev * P["contrib_margin"]) < 1, con
     mrev = rev + sum(LIFT.values()); assert mrev == U["rev_per_retailer_month"], mrev
     assert abs(MATURE_TEAM_MONTH * 12 - U["cluster_cost_year"]) < 1

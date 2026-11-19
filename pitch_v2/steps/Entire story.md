@@ -22,8 +22,8 @@
 
 | Unit | Revenue | What Keepwell keeps |
 |---|---|---|
-| One job | ₹1,580 | about ₹410 |
-| One retailer (about 12 jobs a month) | ₹19,500 a month | ₹5,070 a month (₹9,600 at maturity) |
+| One job | ₹1,625 | about ₹420 |
+| One retailer (12 jobs a month) | ₹19,500 a month | ₹5,070 a month (₹9,600 at maturity) |
 | One pilot cluster | Team costs ₹1.0 L a month | Pays for itself at 20 retailers |
 | The company | Clusters × retailers, minus head office | Profitable from year one |
 
@@ -88,8 +88,8 @@ One cluster in Vijayawada–Guntur, March to October 2026. 34 retailers signed 2
 | | Number | What it is |
 |---|---|---|
 | | **195** | Retailer-months: the active retailers each month, added up (12 + 15 + 20 + 24 + 28 + 30 + 32 + 34) |
-| × | **₹19,500** | Revenue per retailer a month (about 12 jobs × ₹1,580) |
-| = | **₹38.0 L** | Revenue (about 2,400 jobs) |
+| × | **₹19,500** | Revenue per retailer a month (12 jobs × ₹1,625) |
+| = | **₹38.0 L** | Revenue (2,340 jobs) |
 | − | **₹28.1 L** | Job costs (74%): technicians, parts, retailer commission, travel and payments |
 | = | **₹9.9 L** | Contribution (26%), which is ₹5,070 per retailer a month |
 | − | **₹8.0 L** | Cluster team: ₹1.0 L a month × 8 |
@@ -105,7 +105,7 @@ The slide continues from slide 5. It opens up the ₹5,070, grows the same retai
 
 | One retailer's month, pilot | ₹ |
 |---|---|
-| Revenue: 12 jobs × ₹1,580 | 19,500 |
+| Revenue: 12 jobs × ₹1,625 | 19,500 |
 | − Technicians (about ₹400 a job) | 4,900 |
 | − Parts | 6,400 |
 | − Retailer commission | 1,700 |

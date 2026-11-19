@@ -10,8 +10,8 @@
 
 | Level | The number | What it means |
 |---|---|---|
-| **One job** | ₹1,580 average bill, net of GST; 26% contribution ≈ **₹410** | After technician pay, parts cost, the retailer's commission and per-job costs |
-| **One retailer** | about 12 jobs a month = **₹19,500 revenue, ₹5,070 contribution a month** (pilot) | Grows to ₹30,000 revenue at 32% as Protect, AMC renewals and parts build (2031) |
+| **One job** | ₹1,625 average bill, net of GST; 26% contribution ≈ **₹420** | After technician pay, parts cost, the retailer's commission and per-job costs |
+| **One retailer** | 12 jobs a month = **₹19,500 revenue, ₹5,070 contribution a month** (pilot) | Grows to ₹30,000 revenue at 32% as Protect, AMC renewals and parts build (2031) |
 | **One cluster** | team cost **₹1.0 L a month** (pilot) | **20 retailers pay for it.** A mature cluster of 60 retailers: ₹2.16 Cr revenue, ₹69 L contribution, ₹18 L team, **₹51 L EBITDA (24%)** |
 | **The company** | clusters × retailers, minus head office | **EBITDA positive from year 1** |
 
@@ -19,7 +19,7 @@
 
 | Pilot | ₹ | Year 5 | ₹ |
 |---|---|---|---|
-| Revenue (12 jobs × ₹1,580) | 19,500 | Pilot revenue | 19,500 |
+| Revenue (12 jobs × ₹1,625) | 19,500 | Pilot revenue | 19,500 |
 | − Technicians (≈ ₹400 a job; Step 6: ₹330–500) | 4,900 | + Protect (2 plans × ₹2,000) | 4,000 |
 | − Parts | 6,400 | + AMC renewals (2 × ₹1,299) | 2,600 |
 | − Retailer commission (Step 6: ≈ ₹1.7k) | 1,700 | + Repairs on the installed base | 3,900 |
@@ -46,7 +46,7 @@ The pilot uses the same unit: ₹19,500 revenue per active retailer a month, 26%
 
 All six traction numbers are 8-month totals for one cluster:
 - 34 retailers on 2-year exclusive agreements
-- about 2,400 jobs (₹38 L ÷ ₹1,580)
+- 2,340 jobs (195 retailer-months × 12)
 - ₹38 L revenue
 - ₹9.9 L contribution
 - +₹1.9 L cluster profit

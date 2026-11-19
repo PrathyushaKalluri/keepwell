@@ -179,9 +179,9 @@ Keepwell ran one cluster in the Vijayawada–Guntur belt from **March to October
 | Number | What it is | How it links |
 |---|---|---|
 | **34 retailers** | All on 2-year exclusive service agreements (33 still active in November) | Grew 12 → 15 → 20 → 24 → 28 → 30 → 32 → 34, month by month |
-| **₹19,500** | Revenue per active retailer per month | About 12 jobs a month × ₹1,580 per job |
+| **₹19,500** | Revenue per active retailer per month | 12 jobs a month × ₹1,625 per job |
 | **₹38 lakh** | Total revenue | Active retailers each month × ₹19,500, added up over 8 months |
-| **2,400 jobs** | Installs, repairs, AMC and plans | ₹38 L ÷ ₹1,580 per job |
+| **2,340 jobs** | Installs, repairs, AMC and plans | 195 retailer-months × 12 jobs |
 | **₹9.9 lakh** | Contribution: what's left after paying technicians, parts, the retailer's commission and per-job costs | 26% of revenue |
 | **₹8 lakh** | The cluster team's cost | ₹1 lakh a month × 8 months |
 | **+₹1.9 lakh** | Cluster profit | ₹9.9 L − ₹8 L |
@@ -222,7 +222,7 @@ Keepwell ran one cluster in the Vijayawada–Guntur belt from **March to October
 
 | | ₹ a month | Why |
 |---|---|---|
-| Revenue: about 12 jobs × ₹1,580 | 19,500 | The jobs a retailer passes to Keepwell |
+| Revenue: 12 jobs × ₹1,625 | 19,500 | The jobs a retailer passes to Keepwell |
 | − Technicians | 4,900 | Partner technicians are paid per job, ₹330–500 (about ₹400 on average) |
 | − Parts | 6,400 | Genuine parts used in repairs |
 | − Retailer commission | 1,700 | 5% on installs, 8% on repairs, 12% on AMC |

@@ -14,14 +14,14 @@ bad = 0
 for lab, v, ref in canon:
     if abs(v - ref) > max(0.06, abs(ref) * 0.02): print("MODEL DRIFT", lab, round(v, 3), "vs", ref); bad += 1
 OUT = [H / "deck/deck_content.py", H / "story_deck/slides_8min.html", H / "story_deck/script_8min.py", H / "KEEPWELL_FULL_STORY.md", H / "steps/Entire story.md", H / "KEEPWELL_EXPLAINED.md"]
-OUT += list((H / "proof_pack").glob("*.md")) + [H / f"steps/{f}" for f in ("07c_simple_model.md", "08_funding_needs_and_ask.md", "09_deal_valuation_exit.md", "11_fundability_score.md", "13_build_outputs.md")]
+OUT += list((H / "proof_pack").glob("*.md")) + [H / f"steps/{f}" for f in ("07c_simple_model.md", "08_funding_needs_and_ask.md", "09_deal_valuation_exit.md", "11_fundability_score.md", "13_build_outputs.md", "12_storyboard_redteam.md")]
 must = ["₹38.0 L", "₹9.9 L", "+₹1.9 L", "₹2.5 Cr", "₹10 Cr", "20 retailers"]
 for p in OUT[:2]:
     t = p.read_text()
     for m in must:
         if m not in t: print(f"MISSING '{m}' in {p.name}"); bad += 1
 STALE = [r"₹25 L", r"₹5 L contribution", r"₹4\.5k", r"130\.5", r"₹8 Cr pre", r"23\.8%", r"6\.6%", r"16\.3%", r"₹25 Cr pre", r"₹70 Cr pre", r"[Tt]ranche",
-         r"\[Story", r"\[Real", r"[Ii]llustrative case", r"small-town appliance shop", r"Round 2 \(", r"month-18 milestones", r"₹1\.34 Cr", r"₹3,170", r"181\.6"]
+         r"\[Story", r"\[Real", r"[Ii]llustrative case", r"small-town appliance shop", r"Round 2 \(", r"month-18 milestones", r"₹1\.34 Cr", r"₹3,170", r"181\.6", r"1,580", r"2,400 jobs", r"₹410"]
 for p in OUT:
     t = p.read_text()
     for pat in STALE:

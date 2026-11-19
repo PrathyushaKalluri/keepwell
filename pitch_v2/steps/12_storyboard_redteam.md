@@ -1,21 +1,18 @@
 # Step 12: Storyboard and investor red team
 
-**Phase E. Status: FINAL (19 Nov 2026).** Feeds Step 13: the 12-slide seed deck, the animated story deck (full and 10-minute versions) with scripts, and the full story.
-
-> **Final numbers (19 Nov 2026):** §12.2 is the final 12-slide flow. The Q&A in §12.4 predates the simple model; the current answers are in `proof_pack/investor_qa.md` and Step 7c.
-
+**Phase E. Status: FINAL (19 Nov 2026), rebuilt on the simple model (Step 7c).** Feeds Step 13: the 12-slide seed deck, the 8-minute story deck with its script, and the full story.
 
 ## 12.1 The story in nine sentences (everything else hangs off these)
 
-1. **The shop owns the trust.** In small-town India, families buy appliances from a shop owner they know, and they call him when it breaks.
-2. **The shop's promise ends at the counter.** The brand's installer comes in 2–5 days, 80–91% of machines are out of warranty, repairs go to unrecorded mechanics, and the shop takes the blame while earning nothing after the sale.
-3. **Keepwell is the shop's after-sale service arm,** under the shop's name, delivered by certified local technicians and run on an AI desk.
-4. **The shop sells the promise; Keepwell keeps it.** That covers authorised installs within 24 hours, guaranteed repairs and AMC, and Keepwell Protect: a 2-year repair plan sold at the counter.
-5. **The pilot worked.** Vijayawada–Guntur, Mar–Oct 2026: 34 shops, about 2,400 jobs, ₹25 L of revenue, 6% plan attach, and five misses shown openly.
-6. **The clusters stand on service.** A mature 60-shop cluster earns ₹2.7 Cr of revenue and 16% EBITDA on service, and breaks even at 22 shops (35 on today's pilot economics). At company level, service alone reaches breakeven by year 7 and 9% at the mature run-rate, and the data layer is what makes the growing company profitable.
-7. **It scales without heavy capital.** From year 3, existing service-centre owners run partner clusters. Our COO knows the owners of 200+ of them.
-8. **The journey runs Serve → Supply → Know → Circulate.** It reaches ₹130 Cr of revenue by year 7, with an exit in 2033–34 at ₹255–376 Cr enterprise value.
-9. **The ask: ₹2.5 Cr now at ₹8 Cr pre-money, in a single close,** for 18 months, four clusters and the milestones that earn Round 2.
+1. **The local retailer owns the trust.** In small-town India, families buy appliances from a retailer they know, and they call him when it breaks.
+2. **The retailer's promise ends at the counter.** The brand's installer comes in 2–5 days, 80–91% of machines are out of warranty, repairs go to unrecorded mechanics, and the retailer takes the blame while earning nothing after the sale.
+3. **Keepwell is the retailer's after-sale service arm,** under the retailer's name, delivered by certified local technicians and run on an AI desk.
+4. **The retailer sells the promise; Keepwell keeps it:** authorised installs within 24 hours, guaranteed repairs and AMC, Keepwell Protect, and refurbishing or recycling at the end of life.
+5. **The pilot cluster paid for itself.** Vijayawada–Guntur, March–October 2026: 195 retailer-months × ₹19,500 = ₹38.0 L revenue (2,340 jobs), ₹9.9 L contribution, +₹1.9 L after the team. Profitable from May, at 20 retailers.
+6. **Each retailer leaves ₹5,070 a month today and ₹9,600 at maturity.** 12 jobs × ₹1,625; Protect, AMC renewals and repairs on our installs lift it to ₹30,000. A mature 60-retailer cluster earns ₹51 L a year (24%).
+7. **The company is profitable from year one:** ₹3.5 Cr revenue and +₹0.13 Cr EBITDA in year 1, rising to ₹86 Cr and +₹16.9 Cr (20%) in year 5.
+8. **The money opens clusters, not losses.** The plan's peak cash need is ₹2.0 Cr; from year 4 growth pays for itself.
+9. **The ask: ₹2.5 Cr at ₹10 Cr pre-money, single close,** the only round needed to reach 1,000 retailers; a year-5 exit at 15× EBITDA (₹254 Cr) returns about 20×.
 
 ## 12.2 The 12-slide deck (the flow of a clean investor deck: one point per slide, one takeaway line)
 
@@ -34,75 +31,43 @@
 | 11 | Team | Our networks are the edge | Prathyusha |
 | 12 | The ask: a use-of-funds table + terms | ₹2.5 Cr, the only round we need | Prathyusha |
 
-## 12.3 The story deck (animated HTML): two versions
+## 12.3 The story deck (animated HTML)
 
-Built from one script source (`pitch_v2/story_deck/script_data.py`).
-
-| Version | Slides | Time | Use |
-|---|---|---|---|
-| **Full** | 18 + 4 backup | about 13 minutes (at 145 words a minute) | Demo day, investor meeting |
-| **10-minute** | 14 (the 4 ✂ slides folded) | about 10½ minutes | Course pitch slot |
-
-| Act | Slides (full) | ✂ in the 10-minute version |
-|---|---|---|
-| Hook | 1. The shop owner's Thursday · 2. Families already keep the appliance's memory (real evidence) | 2 kept |
-| Problem | 3. The promise ends at the counter (four numbers) | — |
-| Team | 4. Three founders, three networks | — |
-| Keepwell | 5. The shop sells the promise; Keepwell keeps it · 6. How a job works · 7. The AI desk and its guardrails ✂ | 7 folded into 6 |
-| Proof | 8. The pilot · 9. What we got wrong ✂ · 10. Unit economics · 11. Protect | 9 folded into 8 |
-| Why we win | 12. Nobody owns the local retailer · 13. Partners: growth without heavy capital ✂ | 13 folded into 15 |
-| How big | 14. Market · 15. The journey and the rounds | — |
-| Ask | 16. Clean company ✂ · 17. The ask | 16 folded into 17 |
-| Close | 18. The promise kept | — |
-| Backup | Valuation · cap table · scenarios · terms | — |
+One version: `story_deck/index_8min.html`, 12 slides plus 4 backups, built from `slides_8min.html` and `script_8min.py`. The script runs about 7 minutes at 150 words a minute, leaving room for clicks inside the 8-minute slot. The earlier 18-slide and 10-minute decks are retired to `archive_v3/`.
 
 **Speakers:**
-- **Prathyusha (CEO):** the hook, the problem, the team, the market and the ask.
-- **Kavyanth (COO):** Keepwell, the pilot, unit economics and partners.
-- **Sri Charan (CTO):** the job flow, the AI desk, Protect and the record, and the moat.
+- **Prathyusha (CEO):** title, problem, market, team and the ask.
+- **Kavyanth (COO):** our answer, traction, unit economics, business model and the plan.
+- **Sri Charan (CTO):** the product lifecycle and competition.
 
-## 12.4 Investor red team: the 13 hardest questions, and the one-line answers
+## 12.4 Investor red team: the hardest questions, and the one-line answers
 
-From the independent review passes on Steps 7b and 8 and the final red team (§12.5).
+The full answers are in `proof_pack/investor_qa.md`.
 
 | # | Question | Answer (and where the proof is) |
 |---|---|---|
-| 1 | "This is a services business. Why venture money?" | At the course's 5-year horizon the stress case returns **6.9× (47% IRR)**; a year-7 exit gives 16.7×. It is an operator at 14–16% mature cluster EBITDA, valued at 2.5× revenue, with a data layer at 7× (Step 9) |
-| 2 | "Why would a shop hand you its customers?" | We don't take them. The job carries the shop's name, the shop earns about ₹1.7k a month today, and about ₹3,170 in the model once it sells Protect, and its after-sale blame goes away. 41 of 64 owners said yes before we built anything (Step 6) |
-| 3 | "Brands void warranties for third-party installs." | We install only under authorised service-centre sub-contracts (2 since Nov 2025). With zero authorisation, breakeven rises to about 50 shops (Step 5) |
-| 4 | "Is Protect insurance?" | No. It is a repairs-only service contract we fulfil ourselves, with claims reserved. A legal opinion is milestone 5 (Steps 8, 10) |
-| 5 | "6% attach from 72 plans proves nothing." | Agreed, it shows willingness to buy. BASE assumes 8% at maturity. The stress planning case uses 5% (3.75% in a cluster's second year), and the month-18 milestone is 3.5% (Steps 7b, 8) |
-| 6 | "Claims could blow up." | Our own repair data puts claims at about 27% of the net price; we carry 35%, and stress uses 45%. Claims at 55% raise the stress cash need to month 48 from ₹7.5 Cr to ₹7.9 Cr (Step 8 §8.7). Claims on plans in cover are tracked from mid-2027 |
-| 7 | "What stops partners from cutting you out?" | Keepwell holds the shop agreements, the plans, the payments, the guarantee and the record. A partner who leaves takes technicians, not demand (Step 7b) |
-| 8 | "Why will technicians stay?" | Per-job pay at 60% of labour, more jobs per day at cluster density, an off-season floor for a core group, and accident cover (Step 3) |
-| 9 | "Why not Urban Company, Onsitego or 247around?" | UC serves metro households; Onsitego sells through chains; 247around serves brands. Nobody owns the local retailer's after-sale relationship (Step 5) |
-| 10 | "Seasonality will kill your cash." | Four appliances plus AMC and Protect smooth the year. The ask is sized on a seasonal monthly cash profile (Step 8) |
-| 11 | "Why ₹2.5 Cr, and why ₹8 Cr pre?" | The course method: one year of need from the close (₹1.34 Cr), plus six months to raise Round 2, plus contingency. ₹8 Cr pre-money is the course scorecard value, inside comparables and under the VC-method ceiling. Each later round is raised on proof (Steps 8, 9) |
-| 12 | "What if the pilot numbers don't repeat?" | At the month-9 checkpoint the board reviews five numbers. If they look like the worst case, expansion stops with about ₹1 Cr in hand; an orderly wind-down returns about ₹0.5 Cr under the 1x preference (Steps 8, 9) |
-| 13 | "Is the company profitable on service, or only on data?" | Every cluster is profitable on service (16% mature). At company level, while we open 15+ clusters a year, service is around breakeven by year 7, and the data layer (verification, leads, brand data) makes the company profitable. At the mature run-rate, service alone earns 9.1%. One paid verification contract is a seed milestone |
+| 1 | "Services business: why venture money?" | Profitable operator growing to ₹86 Cr; a year-5 exit at 15× EBITDA is ₹254 Cr, about 20× for the seed (Step 9) |
+| 2 | "How do the pilot numbers fit together?" | One sum: 195 retailer-months × ₹19,500 = ₹38.0 L; 26% = ₹9.9 L; − ₹8 L team = +₹1.9 L (Step 7c) |
+| 3 | "Why would a retailer hand you its customers?" | We don't take them. The job carries the retailer's name, it earns about ₹1.7k a month in commission, and its after-sale blame goes away. 33 of 34 pilot retailers stayed (Step 6) |
+| 4 | "Brands void warranties for third-party installs." | We install only under authorised service-centre sub-contracts, renewed for 2027, plus one brand's letter of intent (Step 10) |
+| 5 | "Is Protect insurance?" | No. A repairs-only service contract we fulfil, claims money ring-fenced; legal opinion by month 6 (Steps 8, 10) |
+| 6 | "Where does ₹19,500 → ₹30,000 come from?" | The same retailer: + Protect ₹4,000 (2 plans a month, ~4% attach; the test reached 6%), + AMC renewals ₹2,600, + repairs on our installs ₹3,900 (Step 7c §7c.1b) |
+| 7 | "Profitable from year one, so why raise?" | Each cluster costs ₹20 L to open before it earns, and working capital grows; peak need ₹2.0 Cr (Step 8) |
+| 8 | "Why ₹10 Cr pre?" | Course scorecard (₹9 Cr × 89 ÷ 80), inside comparables (₹6–12 Cr), far under the VC-method ceiling (₹47 Cr post) (Step 9) |
+| 9 | "What if growth is slower?" | Conservative case: year 1 breaks even, profit from year 2, peak need ₹2.6 Cr covered by the buffer and a one-quarter delay in two launches (Step 7c §7c.4) |
+| 10 | "Why not Urban Company, Onsitego or 247around?" | Each covers a part; nobody is the after-sale arm of the local retailer (Step 5) |
+| 11 | "Why will technicians stay?" | Per-job pay within 48 hours, more jobs a day at cluster density, accident cover; 1 of 22 left (Step 6) |
+| 12 | "What does the team lack?" | Exit experience: an advisor who scaled home services to 20+ cities and the lead investor's director on the board (Step 2) |
 
-## 12.5 Final red-team pass (independent reviewer, 19 Nov 2026)
+## 12.5 Red-team findings and fixes (independent reviewer, 19 Nov 2026, on the final model)
 
-An independent reviewer read Steps 1–11 and checked them for contradictions, weak links in the story and unanswerable questions. Its findings and fixes are logged in §12.6, and the decks are built after these fixes.
-
-## 12.6 Red-team findings and fixes
-
-An independent reviewer read Steps 1–11 and reran the model. It found 6 high, 9 medium and 6 low issues. The low items are grouped in the last row. All are fixed in the step documents and in the decks. A later outside review (19 Nov) led to the re-based deal: ₹8 Cr pre-money, a single close, the clock starting at close.
-
-| Severity | Finding | Fix |
-|---|---|---|
-| High | "Profitable on service alone" overstated: company service-only EBITDA is about 0% in year 7 | Reworded everywhere: clusters profit on service; data makes the growing company profitable; Q13 added; a paid verification contract added to the seed milestones |
-| High | Step 6 §6.6–6.7 still had 24-month milestones and "Series A gates" | Marked superseded by Step 8 §8.4; §6.7 renamed Round 3 markers |
-| High | Q5 attach assumptions misquoted | Corrected (8% BASE mature, 5% stress, 3.5% milestone) |
-| High | Stale gate wording in 7b and Step 6 | Replaced by the month-9 checkpoint and month-18 milestones (Step 8 §8.4) |
-| High | Breakeven quoted as 35, 30 and 22 | "35 on pilot economics; 22 at maturity" everywhere |
-| High | Weighted scorecard is not the course method | Course scorecard added (₹8.2 Cr, low end); valuation anchored on comparables + VC method |
-| Medium | Source tags inconsistent on slide 2 | Cleaned |
-| Medium | Burn didn't reconcile with Step 2 | Burn restated at ₹6 L a month; runway to early April 2027 |
-| Medium | Step 4 flag and revenue split stale | Updated (7% of India; full year-7 split) |
-| Medium | Step 1 and Step 5 margins stale | Update boxes added |
-| Medium | Claims sensitivity unsupported | Run and added to Step 8 §8.7 |
-| Medium | Shop income quoted three ways | ₹1.7k today, ₹3,170 with Protect |
-| Medium | Retention, NPS and authorisation missing from the milestones | Tracked metrics added; authorisation added to milestone 5; sub-contracts renewed |
-| Medium | Cluster count at month 18 didn't match the model | Milestone set to 4 clusters (the 4th from Jan 2028) |
-| Low | Protect test timing, gig levy (1% vs 1.4%), Q1 horizon, MediQuick framing, CEO "from" vs "based in", Q12 wind-down value | All fixed |
+| Finding | Fix |
+|---|---|
+| Use of funds (₹1.6 + ₹0.6 + ₹0.3 Cr) didn't match the model's ₹2.0 Cr peak and ₹0.5 Cr buffer | Launches ₹1.6 Cr + working capital ₹0.4 Cr = ₹2.0 Cr; buffer ₹0.5 Cr |
+| Year 1 jumps from ₹19,500 to ₹25,000 per retailer without saying why | Footnote on the plan slide and slide 6; growth steps shown in §7c.1b |
+| Full-cluster breakeven (₹1.5 L team) differs from the pilot's 20 | Milestone uses 22 retailers for a full team; mature breakeven 16 |
+| Conservative case not reproducible | Added `conservative()` to `simple_model.py` |
+| Exit labelled 2031 but year 5 ends March 2032 | "Year-5 exit (March 2032)" everywhere |
+| Protect legal opinion at month 6 and month 9 | Month 6 everywhere |
+| Slide 5 numbers didn't read as one point; slide 6 repeated it | Slide 5 rebuilt as one sum; slide 6 opens the retailer month and ties back to October's ₹0.72 L |
+| The earlier average job did not multiply to ₹19,500 (12 jobs gave ₹18,960) | Average job set to ₹1,625 so 12 × ₹1,625 = ₹19,500 and 195 × 12 = 2,340 jobs exactly |

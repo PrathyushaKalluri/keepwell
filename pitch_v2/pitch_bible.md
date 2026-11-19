@@ -129,7 +129,7 @@ This is the master plan for building the Keepwell investor pitch for the retaile
 
 ## v4 (19 Nov 2026, final): simple model and the 12-slide flow
 - **One unit, the active retailer:**
-  - A job is ₹1,580; a retailer is ₹19,500 a month (₹5,070 contribution); 20 retailers pay for a cluster.
+  - A job is ₹1,625 (12 a month); a retailer is ₹19,500 a month (₹5,070 contribution); 20 retailers pay for a cluster.
   - The pilot made +₹1.9 L on ₹38 L of revenue.
   - The company is profitable from year 1 (Step 7c).
 - **The ask:** ₹2.5 Cr CCPS at ₹10 Cr pre (20%), single close. Peak cash need ₹2.0 Cr; the only round needed to reach 1,000 retailers.
