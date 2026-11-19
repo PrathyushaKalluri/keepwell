@@ -228,6 +228,102 @@ def r_retailer(sl, d, n):
             y += hgt
         if i < 2: box(sl, x + wpn + 0.03, 4.2, 0.14, 0.25, fill=GREY, shape=MSO_SHAPE.RIGHT_ARROW)
     landbar(sl, d["result"], 5.75); foot(sl, d["foot"])
+def r_journey(sl, d, n):
+    frame(sl, d, n); tl = d["timeline"]; X0, X1, Y = 0.9, 12.4, 2.05; step = (X1 - X0) / (len(tl) - 1)
+    box(sl, X0, Y - 0.02, X1 - X0, 0.05, fill=PALE)
+    for i, (dt, ev) in enumerate(tl):
+        x = X0 + i * step; hl = i in (3, 5); box(sl, x - 0.13, Y - 0.13, 0.26, 0.26, fill=AMBER if hl else TEAL, shape=MSO_SHAPE.OVAL)
+        text(sl, x - 0.85, Y - 0.5, 1.7, 0.3, dt, size=10.5, bold=True, color=NAVY, align=PP_ALIGN.CENTER)
+        text(sl, x - 0.85, Y + 0.18, 1.7, 0.6, ev, size=10, color=INK, align=PP_ALIGN.CENTER)
+    SC = 7.2 / 70; x0 = 2.0
+    for row, (lab, items, y) in enumerate([("Raised ₹70 L", d["raised"], 3.25), ("Spent ₹52 L", d["spent"], 4.15)]):
+        text(sl, 0.6, y, 1.4, 0.6, lab, size=14, bold=True, color=NAVY, anchor=MSO_ANCHOR.MIDDLE); x = x0
+        cols = [NAVY, TEAL, AMBER] if row == 0 else [RGBColor(0x26, 0x37, 0x5A), TEAL, RGBColor(0x5F, 0xB8, 0xA8), AMBER, RGBColor(0xE8, 0xB0, 0x5C), GREY]
+        for k, (nm, v) in enumerate(items):
+            w = v * SC; box(sl, x, y, w - 0.03, 0.6, fill=cols[k])
+            text(sl, x + 0.04, y, w - 0.08, 0.6, [f"₹{v} L", nm] if w > 0.9 else [f"₹{v} L"], size=10 if w > 0.9 else 9, bold=True, color=WHITE, anchor=MSO_ANCHOR.MIDDLE, align=PP_ALIGN.CENTER)
+            x += w
+        if row == 1:
+            w = d["left"] * SC; box(sl, x, y, w - 0.03, 0.6, fill=WHITE, line=TEAL); text(sl, x, y, w, 0.6, [f"₹{d['left']} L", "in the bank"], size=10, bold=True, color=TEAL, anchor=MSO_ANCHOR.MIDDLE, align=PP_ALIGN.CENTER)
+    for i, (h, s) in enumerate(d["why"]):
+        x = 9.45; y = 3.05 + i * 0.62; box(sl, x, y, 3.25, 0.55, fill=SOFT); box(sl, x, y, 0.06, 0.55, fill=TEAL)
+        text(sl, x + 0.12, y + 0.02, 3.1, 0.28, h, size=11, bold=True, color=NAVY); text(sl, x + 0.12, y + 0.27, 3.1, 0.28, s, size=10, color=GREY)
+    landbar(sl, d["result"], 5.35)
+def r_bm(sl, d, n):
+    frame(sl, d, n); text(sl, 0.6, 1.5, 12, 0.3, "EVERY ₹100 A FAMILY PAYS", size=11, bold=True, color=TEAL); x = 0.6
+    cols = [RGBColor(0x5F, 0xB8, 0xA8), RGBColor(0x26, 0x37, 0x5A), AMBER, PALE, TEAL]
+    for k, (nm, v) in enumerate(d["split"]):
+        w = 12.1 * v / 100; kw = nm == "Keepwell"; box(sl, x, 1.85, w - 0.04, 1.0 if not kw else 1.15, fill=cols[k])
+        if w > 1.6: text(sl, x, 1.88, w - 0.04, 0.95, [f"₹{v}", nm], size=20 if kw else 15, bold=True, color=WHITE, anchor=MSO_ANCHOR.MIDDLE, align=PP_ALIGN.CENTER)
+        else:
+            text(sl, x, 1.88, w - 0.04, 0.95, f"₹{v}", size=15, bold=True, color=NAVY if nm.startswith("Travel") else WHITE, anchor=MSO_ANCHOR.MIDDLE, align=PP_ALIGN.CENTER)
+            text(sl, x - 0.2, 2.88, w + 0.4, 0.3, nm, size=9.5, bold=True, color=GREY, align=PP_ALIGN.CENTER)
+        x += w
+    for i, (when, who, chips) in enumerate(d["stages"]):
+        x = 0.6 + i * 4.1; y = 3.3; box(sl, x, y, 3.9, 2.2, fill=SOFT); box(sl, x, y, 3.9, 0.07, fill=[TEAL, AMBER, NAVY][i])
+        text(sl, x + 0.2, y + 0.15, 3.5, 0.3, when, size=11, bold=True, color=[TEAL, AMBER, NAVY][i]); text(sl, x + 0.2, y + 0.45, 3.5, 0.4, who, size=17, bold=True, color=NAVY)
+        for k, c in enumerate(chips):
+            cx = x + 0.2 + (k % 2) * 1.78; cy = y + 1.0 + (k // 2) * 0.55
+            box(sl, cx, cy, 1.7, 0.45, fill=WHITE, line=RGBColor(0xDD, 0xE3, 0xEA), shape=MSO_SHAPE.ROUNDED_RECTANGLE); text(sl, cx, cy, 1.7, 0.45, c, size=10.5, bold=True, color=INK, anchor=MSO_ANCHOR.MIDDLE, align=PP_ALIGN.CENTER)
+        if i < 2: box(sl, x + 3.93, y + 1.0, 0.14, 0.25, fill=GREY, shape=MSO_SHAPE.RIGHT_ARROW)
+    landbar(sl, d["result"], 5.75)
+def r_comp3(sl, d, n):
+    frame(sl, d, n); text(sl, 0.6, 1.5, 5, 0.3, "SAME PRICE", size=12, bold=True, color=TEAL)
+    for i, (lab, us, mk, who) in enumerate(d["prices"]):
+        x = 0.6 + (i % 2) * 2.6; y = 1.85 + (i // 2) * 1.9; mx = max(us, mk) * 1.05; H = 0.95
+        text(sl, x, y, 2.4, 0.3, lab, size=12, bold=True, color=NAVY)
+        for k, (v, col, nm) in enumerate([(us, TEAL, "Keepwell"), (mk, PALE, who)]):
+            h = H * v / mx; bx = x + 0.1 + k * 1.1; box(sl, bx, y + 0.62 + H - h, 0.9, h, fill=col)
+            text(sl, bx - 0.1, y + 0.62 + H - h - 0.27, 1.1, 0.27, f"₹{v:,}", size=11, bold=True, color=NAVY, align=PP_ALIGN.CENTER)
+            text(sl, bx - 0.15, y + 1.6, 1.2, 0.3, nm, size=9.5, color=GREY, align=PP_ALIGN.CENTER)
+    X = 6.0; cw = 1.0; text(sl, X, 1.5, 6, 0.3, "FAR MORE FOR IT", size=12, bold=True, color=TEAL)
+    for j, c in enumerate(d["cols"]):
+        text(sl, X + 1.5 + j * cw, 1.82, cw - 0.05, 0.62, c, size=10, bold=True, color=NAVY, align=PP_ALIGN.CENTER, anchor=MSO_ANCHOR.BOTTOM)
+    SYM = {"Y": ("✓", TEAL), "P": ("Partly", AMBER), "N": ("✗", RED)}
+    for i, (nm, v) in enumerate(d["rows"]):
+        y = 2.5 + i * 0.5; us = i == 0
+        if us: box(sl, X, y, 1.5 + 5 * cw, 0.46, fill=TEALBG)
+        text(sl, X + 0.05, y, 1.45, 0.46, nm, size=12 if us else 11, bold=True, color=TEAL if us else NAVY, anchor=MSO_ANCHOR.MIDDLE)
+        for j, ch in enumerate(v):
+            sym, col = SYM[ch]; text(sl, X + 1.5 + j * cw, y, cw, 0.46, sym, size=18 if len(sym) == 1 else 10, bold=True, color=col, align=PP_ALIGN.CENTER, anchor=MSO_ANCHOR.MIDDLE)
+    landbar(sl, d["result"], 5.8); foot(sl, d["foot"])
+def r_moat(sl, d, n):
+    frame(sl, d, n)
+    for i, (v, l) in enumerate(d["tiles"]):
+        x = 0.6 + i * 3.05; box(sl, x, 1.7, 2.85, 2.5, fill=SOFT); box(sl, x, 1.7, 2.85, 0.08, fill=[TEAL, AMBER, NAVY, TEAL][i])
+        box(sl, x + 0.2, 1.95, 0.5, 0.5, fill=[TEAL, AMBER, NAVY, TEAL][i], shape=MSO_SHAPE.OVAL); text(sl, x + 0.2, 1.95, 0.5, 0.5, str(i + 1), size=16, bold=True, color=WHITE, align=PP_ALIGN.CENTER, anchor=MSO_ANCHOR.MIDDLE)
+        text(sl, x + 0.2, 2.6, 2.5, 0.7, v, size=26 if len(v) < 10 else 21, bold=True, color=NAVY); text(sl, x + 0.2, 3.35, 2.5, 0.8, l, size=13, color=INK)
+    v, l = d["buy"]; box(sl, 0.6, 4.55, 12.1, 1.3, fill=NAVY)
+    text(sl, 0.85, 4.55, 2.6, 1.3, v, size=40, bold=True, color=AMBER, anchor=MSO_ANCHOR.MIDDLE); text(sl, 3.5, 4.55, 9, 1.3, l, size=18, bold=True, color=WHITE, anchor=MSO_ANCHOR.MIDDLE)
+def r_whynow2(sl, d, n):
+    frame(sl, d, n)
+    for i, (kind, big, lab) in enumerate(d["tiles"]):
+        x = 0.6 + i * 3.05; y = 1.6; box(sl, x, y, 2.85, 3.7, fill=SOFT)
+        gx, gy = x + 0.3, y + 0.3
+        if kind == "dots":
+            for k in range(10):
+                box(sl, gx + (k % 5) * 0.46, gy + (k // 5) * 0.55, 0.36, 0.42, fill=TEAL if k == 0 else PALE, shape=MSO_SHAPE.ROUNDED_RECTANGLE)
+        elif kind == "bars":
+            for k, (v, yr) in enumerate([(53.6, "2025"), (93.6, "2029")]):
+                h = 1.0 * v / 93.6; box(sl, gx + 0.25 + k * 1.1, gy + 1.05 - h, 0.8, h, fill=PALE if k == 0 else TEAL)
+                text(sl, gx + 0.1 + k * 1.1, gy + 1.08, 1.1, 0.25, yr, size=10, color=GREY, align=PP_ALIGN.CENTER)
+        elif kind == "ring":
+            cd = CategoryChartData(); cd.categories = ["out", "in"]; cd.add_series("s", [85, 15])
+            ch = sl.shapes.add_chart(XL_CHART_TYPE.DOUGHNUT, Inches(gx + 0.45), Inches(gy - 0.15), Inches(1.45), Inches(1.45), cd).chart
+            ch.has_legend = False; ch.has_title = False; pts = ch.plots[0].series[0].points; pts[0].format.fill.solid(); pts[0].format.fill.fore_color.rgb = AMBER; pts[1].format.fill.solid(); pts[1].format.fill.fore_color.rgb = PALE
+        elif kind == "step":
+            for k, (v, col) in enumerate([(28, PALE), (18, TEAL)]):
+                h = 1.05 * v / 28; box(sl, gx + 0.25 + k * 1.1, gy + 1.05 - h, 0.8, h, fill=col)
+                text(sl, gx + 0.1 + k * 1.1, gy + 1.08, 1.1, 0.25, f"{v}%", size=10, color=GREY, align=PP_ALIGN.CENTER)
+        text(sl, x + 0.2, y + 1.85, 2.5, 0.8, big, size=30 if len(big) < 8 else 24, bold=True, color=NAVY)
+        text(sl, x + 0.2, y + 2.65, 2.5, 0.8, lab, size=15, color=INK)
+    landbar(sl, d["result"], 5.6)
+def r_close(sl, d, n):
+    box(sl, 0, 0, W, 7.5, fill=NAVY); box(sl, 0, 0, W, 0.08, fill=TEAL)
+    box(sl, 0.9, 1.0, 0.6, 0.6, fill=TEAL, shape=MSO_SHAPE.ROUNDED_RECTANGLE); text(sl, 1.65, 1.0, 4, 0.6, "keepwell", size=24, bold=True, color=WHITE, anchor=MSO_ANCHOR.MIDDLE)
+    text(sl, 0.9, 2.4, 11.6, 2.2, d["line"], size=54, bold=True, color=WHITE)
+    text(sl, 0.9, 4.9, 11.6, 0.6, d["sub"], size=20, bold=True, color=AMBER)
+    text(sl, 11.6, 7.08, 1.2, 0.3, str(n), size=9, color=PALE, align=PP_ALIGN.RIGHT)
 def r_cols3(sl, d, n):
     frame(sl, d, n)
     for i, (h, sub, items) in enumerate(d["cols"]):

@@ -24,7 +24,7 @@ The scoring uses the course matrix:
 
 | Pillar | Where it is in the pitch | Ready |
 |---|---|---|
-| **1. Pitch (narrative)** | A 12-slide deck with one point per slide; an 8-minute story deck with a script | ✅ |
+| **1. Pitch (narrative)** | A 15-slide deck with one point per slide; an 8-minute story deck with a script | ✅ |
 | **2. Business model (engine)** | One unit, the active retailer. Profitable at every level (job, retailer, cluster, company) and from year 1 | ✅ |
 | **3. Compliance (hygiene)** | Step 10. The Protect legal opinion is due by month 6 | ✅ |
 | **4. Data room (proof)** | `proof_pack/data_room_index.md`, `claims_ledger.csv`, `keepwell_model.xlsx` | ✅ |

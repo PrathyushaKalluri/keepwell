@@ -1,8 +1,8 @@
 # Keepwell seed pitch: the 8-minute story deck, explained slide by slide
 
 **Deck:** [`index_8min.html`](index_8min.html). Open it in Chrome. **F** goes full screen, **N** shows these notes, **→ / space** reveals the next click and **B** opens the backup slides for Q&A.
-**Length:** 12 slides, about **7:32** at 150 words a minute.
-**Speaking time:** Prathyusha (CEO) 2:49 · Kavyanth (COO) 3:28 · Sri Charan (CTO) 1:15.
+**Length:** 15 slides, about **7:23** at 150 words a minute.
+**Speaking time:** Prathyusha (CEO) 3:12 · Kavyanth (COO) 2:51 · Sri Charan (CTO) 1:20.
 
 ## How to use this script
 
@@ -24,16 +24,19 @@ Each slide has five parts:
 |---|---|---|---|---|---|
 | 1 | Keepwell | Keepwell keeps the promise the retailer made | Prathyusha | 0:34 | These founders have lived this problem and already know the people who can solve it. |
 | 2 | The problem | Retailers sell the appliance, then lose the customer | Prathyusha | 0:35 | The pain sits with the local retailer and the family, and nobody owns it. |
-| 3 | Our answer | The retailer sells the promise. Keepwell keeps it. | Kavyanth | 0:38 | A clear company with a big vision and a simple first step. |
+| 3 | Our answer | The retailer sells the promise. Keepwell keeps it. | Kavyanth | 0:30 | A clear company with a big vision and a simple first step. |
 | 4 | Our answer | At every stage, Keepwell and everyone around it gains | Sri | 0:37 | Every party gains at every stage, so the model is pulled forward by its stakeholders, not pushed. |
-| 5 | The proof | The pilot cluster paid for itself from 20 retailers | Kavyanth | 0:50 | The cluster model is profitable in the field, and they know exactly why. |
-| 6 | The proof | Each retailer leaves ₹5,070 a month today and ₹9,600 at maturity | Kavyanth | 0:51 | Every rupee of the unit is accounted for, and growth comes from the same retailers. |
-| 7 | The money | How we make money | Kavyanth | 0:28 | Revenue per retailer grows without adding retailers. |
-| 8 | The money | Profitable from year one | Kavyanth | 0:41 | This is a profitable, capital-efficient business. |
-| 9 | Why we win | ₹4,000 Cr a year keeps small-town appliances running. We need 2% of it. | Prathyusha | 0:32 | The market is real, unorganised and large, and the plan needs only a sliver of it. |
-| 10 | Why we win | Market prices, more for the money, and hard to copy | Sri | 0:38 | Keepwell matches market prices, gives more, and is slow and costly to copy. |
-| 11 | The ask | Raising ₹2.5 Cr for the seed round | Prathyusha | 0:36 | A fairly priced, capital-efficient round with a clear return. |
-| 12 | The ask | Why now | Prathyusha | 0:32 | The window is open now, and Keepwell is positioned to take it. |
+| 5 | The proof | ₹70 L raised, ₹52 L spent | Prathyusha | 0:31 | The team spends carefully and has already turned ₹52 L into a working cluster. |
+| 6 | The proof | The pilot cluster paid for itself from 20 retailers | Kavyanth | 0:41 | The cluster model is profitable in the field, and they know exactly why. |
+| 7 | The proof | Each retailer leaves ₹5,070 a month today and ₹9,600 at maturity | Kavyanth | 0:51 | Every rupee of the unit is accounted for, and growth comes from the same retailers. |
+| 8 | The money | Families pay market prices per job. Keepwell keeps ₹26 of every ₹100. | Kavyanth | 0:21 | The revenue is simple, per job, and every party in the chain is paid. |
+| 9 | The money | Profitable from year one | Kavyanth | 0:28 | This is a profitable, capital-efficient business. |
+| 10 | Why we win | ₹4,000 Cr a year keeps small-town appliances running. We need 2% of it. | Prathyusha | 0:32 | The market is real, unorganised and large, and the plan needs only a sliver of it. |
+| 11 | Why we win | Same price as the market. Far more for it. | Sri | 0:23 | Keepwell does not win on price; it wins on what the customer gets. |
+| 12 | Why we win | Built one retailer at a time. Hard to copy. | Sri | 0:20 | The moat is the network, and the likely competitors are the likely buyers. |
+| 13 | The ask | Raising ₹2.5 Cr for the seed round | Prathyusha | 0:35 | A fairly priced, capital-efficient round with a clear return. |
+| 14 | The ask | The appliance wave has reached small towns | Prathyusha | 0:19 | The timing is now. |
+| 15 | The ask | Keepwell keeps the promise the retailer made | Prathyusha | 0:06 | Keepwell is the after-sale arm every local retailer needs. |
 
 ## Why the story runs in this order
 
@@ -85,13 +88,13 @@ Each slide has five parts:
 **BRIDGE:** *"So here is our answer. Kavyanth."*
 
 ### 3. The retailer sells the promise. Keepwell keeps it.
-**Kavyanth (COO)** · about 0:38 · act: Our answer
+**Kavyanth (COO)** · about 0:30 · act: Our answer
 
 **SHOW (on screen):** Dark slide. The vision in one sentence, then [click] three steps: Step 1 Live, Serve (installs, repair, AMC, Protect under the retailer's name); Step 2 Next, Supply (central parts, partner clusters, trade-ins); Step 3 Later, Know and circulate (verified records; refurbish and recycle).
 
 **SAY (word for word):**
 
-> I'm Kavyanth. The retailer sells the promise; Keepwell keeps it. Our vision in one sentence: Keepwell looks after every appliance a local retailer sells for its whole life — installed right, repaired with genuine parts, kept covered, and refurbished or recycled when its time is up.
+> I'm Kavyanth. The retailer sells the promise; Keepwell keeps it. Our vision: Keepwell looks after every appliance a local retailer sells, for its whole life.
 >
 > [click] We build it in three steps. Today we serve: authorised installs, guaranteed repairs, AMC and Keepwell Protect, a two-year plan, all under the retailer's name. Next, we supply parts and run partner clusters. Later, the record and the second life.
 
@@ -116,16 +119,33 @@ Each slide has five parts:
 
 **THEY SHOULD BELIEVE:** Every party gains at every stage, so the model is pulled forward by its stakeholders, not pushed.
 
-**BRIDGE:** *"We tested this for eight months. Kavyanth."*
+**BRIDGE:** *"Before the pilot, how we got here."*
 
-### 5. The pilot cluster paid for itself from 20 retailers
-**Kavyanth (COO)** · about 0:50 · act: The proof
+### 5. ₹70 L raised, ₹52 L spent
+**Prathyusha (CEO)** · about 0:31 · act: The proof
+
+**SHOW (on screen):** A timeline: discovery (Apr–Jul 2025) → incorporated → 2 authorised service-centre contracts → ₹45 L pre-seed (Dec 2025) → ₹15 L AP grant and 28 retailer LOIs → pilot (Mar–Oct 2026) → raising the seed. Two bars: raised ₹70 L (angels ₹45 L iSAFE, founders ₹15 L, grant ₹10 L); spent ₹52 L (stipends ₹21 L, pilot set-up ₹13 L, parts ₹6 L, travel/tech/legal ₹12 L) with ₹18 L in the bank. [click] Why: iSAFE at a ₹6 Cr cap, priced on proof; the grant gives up no ownership; stipends are 40% of spend.
+
+**SAY (word for word):**
+
+> Here's how we got to the pilot. Four months of interviews, then we incorporated, signed two authorised service centres, and raised seventy lakh: forty-five from three operator angels, fifteen of our own, and a state grant. We've spent fifty-two, mostly on our stipends and the pilot set-up; eighteen is still in the bank.
+>
+> [click] We used an iSAFE so the price would be set on proof, not on an idea.
+
+**WHY this slide:** It shows the money already raised and spent, so the seed reads as the next step on a track record.
+
+**THEY SHOULD BELIEVE:** The team spends carefully and has already turned ₹52 L into a working cluster.
+
+**BRIDGE:** *"Here's what the pilot proved. Kavyanth."*
+
+### 6. The pilot cluster paid for itself from 20 retailers
+**Kavyanth (COO)** · about 0:41 · act: The proof
 
 **SHOW (on screen):** Left, one sum read top to bottom: 195 retailer-months × ₹19,500 = ₹38.0 L revenue (2,340 jobs) − ₹28.1 L job costs = ₹9.9 L contribution (26%) − ₹8.0 L cluster team = +₹1.9 L cluster profit. Right, the monthly chart with active retailers under each month: contribution crosses the ₹1.0 L team cost in May, at 20 retailers. [click] The result line.
 
 **SAY (word for word):**
 
-> We ran one cluster in Vijayawada–Guntur for eight months, from twelve retailers to thirty-four. Read the left side as one sum. Add up the active retailers each month and you get a hundred and ninety-five retailer-months. Each brought nineteen and a half thousand rupees, so thirty-eight lakh of revenue. After technicians, parts and the retailers' commission, nine point nine lakh was left. The cluster team cost eight lakh. So the cluster made one point nine lakh of profit.
+> We ran one cluster in Vijayawada–Guntur for eight months, from twelve retailers to thirty-four. Read the left side as one sum: a hundred and ninety-five retailer-months at nineteen and a half thousand is thirty-eight lakh of revenue. Nine point nine lakh was left after job costs; the team cost eight. Profit: one point nine lakh.
 >
 > The chart shows when it turned: in May, the month we reached twenty retailers.
 >
@@ -137,7 +157,7 @@ Each slide has five parts:
 
 **BRIDGE:** *"Why does each retailer leave ₹5,070? Next slide."*
 
-### 6. Each retailer leaves ₹5,070 a month today and ₹9,600 at maturity
+### 7. Each retailer leaves ₹5,070 a month today and ₹9,600 at maturity
 **Kavyanth (COO)** · about 0:51 · act: The proof
 
 **SHOW (on screen):** Top row: the 12 jobs behind ₹19,500, each with its market reference — 4 AC installs × ₹2,600 (brand price), 2 other installs × ₹300, 2 service visits × ₹300 (local mechanic), 2 repairs with a part × ₹2,700 (UC rate card), 1.5 AMCs × ₹1,100, 0.5 Protect plans × ₹1,700 = ₹19,500, average ₹1,625. Below, three panels. One retailer's month in the pilot: ₹19,500 − technicians ₹4,900 − parts ₹6,400 − retailer commission ₹1,440 − travel, payments, AI desk ₹1,690 = ₹5,070 (26%). The same retailer in year 5: + Protect ₹3,400 + AMC renewals ₹2,200 + repairs on our installs ₹4,900 = ₹30,000; at 32%, ₹9,600. One cluster's month: pilot October 34 × ₹5,070 − ₹1.0 L team = +₹0.72 L; mature 60 × ₹9,600 − ₹1.5 L team = +₹4.26 L a month, ₹51 L a year. [click] The result line.
@@ -160,31 +180,29 @@ Each slide has five parts:
 
 **BRIDGE:** *"Here's who pays for each of those lines."*
 
-### 7. How we make money
-**Kavyanth (COO)** · about 0:28 · act: The money
+### 8. Families pay market prices per job. Keepwell keeps ₹26 of every ₹100.
+**Kavyanth (COO)** · about 0:21 · act: The money
 
-**SHOW (on screen):** Three columns: Live · Serve (paid by households through the retailer: AC install ₹800 fee + materials, service visit from ₹300, repair with a part ≈ ₹2,700 (≈ ₹3,190 incl. GST), AMC ₹1,299, Protect ₹2,000, retailer commission); Next · Supply (parts, partner clusters at a 10% fee, trade-ins); Later · Know and circulate (verification for brands, leads, refurbished, e-waste). Line: ₹19,500 → ₹30,000 a month per retailer.
+**SHOW (on screen):** One bar: every ₹100 a family pays: technician ₹25, parts ₹33, retailer ₹7, travel and payments ₹9, Keepwell ₹26. Three cards: Now, families pay (install ₹2,600, repair ₹300–2,700, AMC ₹1,299, Protect ₹2,000); Year 2, agencies and partners pay (parts, partner clusters at a 10% fee, trade-ins); Year 3, brands and buyers pay (verified installs and claims, refurbished units, e-waste).
 
 **SAY (word for word):**
 
-> Today, households pay through the retailer: for authorised installs, repairs, AMC and Protect, and the retailer earns a commission on every job. Next, parts and partner clusters. Later, brands pay to verify installs and claims, and old appliances get a second life.
->
-> As Protect, AMC renewals and parts build, each retailer grows from nineteen and a half thousand to thirty thousand rupees a month.
+> How do we make money? Families pay market prices per job. Of every hundred rupees, the technician gets twenty-five, parts thirty-three, the retailer seven, and we keep twenty-six. From year two, agencies and partners pay us for parts; from year three, brands pay to verify installs and claims.
 
-**WHY this slide:** Live, next and later revenue, with prices, so the investor sees what is earned today and what is upside.
+**WHY this slide:** One bar shows who gets what from each job; three cards show who pays now and later.
 
-**THEY SHOULD BELIEVE:** Revenue per retailer grows without adding retailers.
+**THEY SHOULD BELIEVE:** The revenue is simple, per job, and every party in the chain is paid.
 
-**BRIDGE:** *"So here is the plan."*
+**BRIDGE:** *"Here's the five-year plan."*
 
-### 8. Profitable from year one
-**Kavyanth (COO)** · about 0:41 · act: The money
+### 9. Profitable from year one
+**Kavyanth (COO)** · about 0:28 · act: The money
 
 **SHOW (on screen):** A 5-year table and bars: retailers 200 → 3,000; clusters 4 → 50; revenue ₹3.5 Cr → ₹86 Cr; EBITDA +₹0.13 Cr → +₹16.9 Cr (4% → 20%). [click] 'EBITDA is positive every year; peak cash need ₹2.0 Cr; from 2030 growth pays for itself.'
 
 **SAY (word for word):**
 
-> From two hundred retailers next year to three thousand in 2031. Revenue grows from three and a half crore to eighty-six crore, as each retailer grows from nineteen and a half thousand rupees a month in the pilot to twenty-five thousand next year and thirty thousand by year five. And EBITDA is positive every year — from the first year, rising to a twenty percent margin.
+> From two hundred retailers next year to three thousand in year five, revenue grows from three and a half crore to eighty-six crore. EBITDA is positive every year, rising to a twenty percent margin.
 >
 > [click] We aren't raising to cover losses. We're raising to open clusters faster: the plan's peak cash need is two crore, and from 2030 growth pays for itself.
 
@@ -194,7 +212,7 @@ Each slide has five parts:
 
 **BRIDGE:** *"And there's a lot of room. Prathyusha."*
 
-### 9. ₹4,000 Cr a year keeps small-town appliances running. We need 2% of it.
+### 10. ₹4,000 Cr a year keeps small-town appliances running. We need 2% of it.
 **Prathyusha (CEO)** · about 0:32 · act: Why we win
 
 **SHOW (on screen):** Left, what the market is: ≈ ₹4,000 Cr a year spent installing, servicing and repairing ACs, fridges, washing machines and purifiers bought from local retailers in Tier 2/3 India; 45,000 retailers × ≈ ₹9 L each = ≈ ₹4,000 Cr; a bar: repair and service 71% (₹2,840 Cr), installs 26% (₹1,040 Cr), AMC 3%; who takes it today. Right, nested squares drawn to scale: ₹4,000 Cr India → ₹1,040 Cr five southern states → ₹360 Cr AP + Telangana. [click] The small amber square: Keepwell year 5, ₹86 Cr, about 2%, and the result line. Why-now strip underneath.
@@ -213,25 +231,42 @@ Each slide has five parts:
 
 **BRIDGE:** *"Why hasn't anyone done this? Sri Charan."*
 
-### 10. Market prices, more for the money, and hard to copy
-**Sri Charan (CTO)** · about 0:38 · act: Why we win
+### 11. Same price as the market. Far more for it.
+**Sri Charan (CTO)** · about 0:23 · act: Why we win
 
-**SHOW (on screen):** Left, a table: each player, what it charges, what you get, what's missing (in red). Keepwell: brand's install price (₹1,199 + materials), ₹300 visit, AMC ₹1,299, Protect ₹2,000 for 2 years. Brand centre ₹1,199 + GST, 2–5 days, one brand. Urban Company from ₹799, gas ₹3,000, AMC ₹1,098–1,298, 51 cities. Onsitego · Croma ZipCare ₹1,139–2,499 a year, no installs. Jeeves · resQ ₹531–590, own buyers only. Local mechanic ₹300, no guarantee or record. [click] Right, why it's hard to copy: exclusive agreements, authorised installs, density, the record, incumbents built for someone else; and 'easier to buy than to build: Onsitego paid ₹80 Cr for Qdigi'.
+**SHOW (on screen):** Left, four pairs of bars, Keepwell vs the market, near-equal heights: AC install ₹1,199 vs brand ₹1,199; service visit ₹300 vs mechanic ₹300; gas repair ₹3,190 vs Urban Company ₹3,000; AMC ₹1,299 vs Urban Company ₹1,298. [click] Right, a ✓/✗ grid: 24-h authorised install, guarantee and fixed price, small towns, through the local retailer, one record. Only Keepwell's row is all ticks.
 
 **SAY (word for word):**
 
-> We charge what the market charges: the brand's install price, the mechanic's three hundred, Urban Company's AMC. Read the last column: the brand takes days, Urban Company stays in big cities, plan sellers don't install, and the mechanic gives no guarantee.
+> We charge what the market charges. The bars are the same height: the brand's install price, the mechanic's three hundred, Urban Company's AMC.
 >
-> [click] Could someone copy us? They'd need exclusive retailer agreements, authorised installs, and twenty retailers in every cluster before it pays, built one introduction at a time. It's easier to buy than to build: Onsitego paid eighty crore for Qdigi. That's our exit, not our threat.
+> [click] But look at what you get. Only one row is all ticks: a day-one authorised install, a guarantee, small towns, through the retailer, on one record.
 
-**WHY this slide:** Prices side by side show we compete at market rates; the red column and the moat panel answer 'how are you different' and 'can't they just copy you'.
+**WHY this slide:** Bars of equal height make 'same price' visible; the tick grid makes 'more for it' visible.
 
-**THEY SHOULD BELIEVE:** Keepwell matches market prices, gives more, and is slow and costly to copy.
+**THEY SHOULD BELIEVE:** Keepwell does not win on price; it wins on what the customer gets.
+
+**BRIDGE:** *"And can someone copy it?"*
+
+### 12. Built one retailer at a time. Hard to copy.
+**Sri Charan (CTO)** · about 0:20 · act: Why we win
+
+**SHOW (on screen):** Four big tiles: 33 of 34 retailers stayed on 2-year exclusive deals; Authorised (brand sub-contracts, others void the warranty); 20 retailers before a cluster pays; ₹9.5k vs ₹22k to sign a retailer. [click] A dark band: ₹80 Cr, what Onsitego paid for Qdigi; easier to buy than to build: that is our exit.
+
+**SAY (word for word):**
+
+> To copy us, you'd need retailers on exclusive deals, authorised installs, and twenty retailers in every cluster before it pays, signed at twice our cost.
+>
+> [click] It's easier to buy than to build. Onsitego paid eighty crore for Qdigi. That's our exit.
+
+**WHY this slide:** Four numbers answer 'can't they copy you'; the Qdigi deal turns the threat into the exit.
+
+**THEY SHOULD BELIEVE:** The moat is the network, and the likely competitors are the likely buyers.
 
 **BRIDGE:** *"So here's what we're asking for."*
 
-### 11. Raising ₹2.5 Cr for the seed round
-**Prathyusha (CEO)** · about 0:36 · act: The ask
+### 13. Raising ₹2.5 Cr for the seed round
+**Prathyusha (CEO)** · about 0:35 · act: The ask
 
 **SHOW (on screen):** Dark slide. A table: 1 · Cluster launches 64% ₹1.6 Cr (8 new clusters, 500 retailers by March 2029; ₹20 L per cluster); 2 · Working capital 16% ₹0.4 Cr; 3 · Buffer and compliance 20% ₹0.5 Cr. Three cards: ₹2.5 Cr CCPS, single close; ₹10 Cr pre-money, 20%; 20× seed return at a year-5 exit (March 2032). [click] 'The only round we need to reach 1,000 retailers.'
 
@@ -241,7 +276,7 @@ Each slide has five parts:
 >
 > At a year-five exit, in March 2032, at fifteen times EBITDA, the seed's twenty percent returns about twenty times.
 >
-> [click] This is the only round we need to reach a thousand retailers. Thank you.
+> [click] This is the only round we need to reach a thousand retailers.
 
 **WHY this slide:** The ask as a use-of-funds table, then the terms, then the close line.
 
@@ -249,20 +284,35 @@ Each slide has five parts:
 
 **BRIDGE:** *"And why now."*
 
-### 12. Why now
-**Prathyusha (CEO)** · about 0:32 · act: The ask
+### 14. The appliance wave has reached small towns
+**Prathyusha (CEO)** · about 0:19 · act: The ask
 
-**SHOW (on screen):** Six tiles: ~10% of homes own an AC, market growing 15% a year (₹53,600 Cr → ₹93,610 Cr); 65% of Blue Star sales in Tier III–V towns, 85% of Voltas buyers first-time; 80–91% out of warranty; GST on ACs 28% → 18%; AI desk under ₹5 a job; e-waste, right-to-repair, DPDP and labour rules reward a registered operator. [click] The close.
+**SHOW (on screen):** Four picture tiles: 1 in 10 homes has an AC (ten squares, one filled); +75% AC market 2025 → 2029 (two bars); 80–91% of appliances out of warranty (a ring); GST on ACs 28% → 18% (two bars stepping down). [click] 'Whoever organises the after-sale first keeps the retailer.'
 
 **SAY (word for word):**
 
-> Why now? One home in ten has an AC, the market grows fifteen percent a year, and most new buyers are first-timers in small towns. Most machines are already out of warranty, ACs just got cheaper, an AI desk costs under five rupees a job, and the new rules reward a registered operator.
+> Why now? One home in ten has an AC, and the market grows seventy-five percent in four years. Most machines are already out of warranty, and ACs just got cheaper.
 >
-> [click] Whoever organises the after-sale first keeps the retailer. Keepwell keeps the promise the retailer made. Thank you.
+> [click] Whoever organises the after-sale first keeps the retailer.
 
-**WHY this slide:** It ends on timing and the close, so the last thing the investor hears is why this round, now.
+**WHY this slide:** Four pictures, no small print: the wave is arriving, and the after-sale is up for grabs.
 
-**THEY SHOULD BELIEVE:** The window is open now, and Keepwell is positioned to take it.
+**THEY SHOULD BELIEVE:** The timing is now.
+
+**BRIDGE:** *"The close."*
+
+### 15. Keepwell keeps the promise the retailer made
+**Prathyusha (CEO)** · about 0:06 · act: The ask
+
+**SHOW (on screen):** Dark slide: the logo and one line, 'Keepwell keeps the promise the retailer made.' Underneath: installed right · repaired with genuine parts · covered · given a second life.
+
+**SAY (word for word):**
+
+> Keepwell keeps the promise the retailer made. Thank you.
+
+**WHY this slide:** The last image is the one-line value proposition.
+
+**THEY SHOULD BELIEVE:** Keepwell is the after-sale arm every local retailer needs.
 
 **BRIDGE:** *"Questions."*
 

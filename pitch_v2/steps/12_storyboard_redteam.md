@@ -1,6 +1,6 @@
 # Step 12: Storyboard and investor red team
 
-**Phase E. Status: FINAL (19 Nov 2026), rebuilt on the simple model (Step 7c).** Feeds Step 13: the 12-slide seed deck, the 8-minute story deck with its script, and the full story.
+**Phase E. Status: FINAL (19 Nov 2026), rebuilt on the simple model (Step 7c).** Feeds Step 13: the 15-slide seed deck, the 8-minute story deck with its script, and the full story.
 
 ## 12.1 The story in nine sentences (everything else hangs off these)
 
@@ -14,26 +14,29 @@
 8. **The money opens clusters, not losses.** The plan's peak cash need is ₹2.0 Cr; from year 4 growth pays for itself.
 9. **The ask: ₹2.5 Cr at ₹10 Cr pre-money, single close,** the only round needed to reach 1,000 retailers; a year-5 exit at 15× EBITDA (₹254 Cr) returns about 20×.
 
-## 12.2 The 12-slide deck (the flow of a clean investor deck: one point per slide, one takeaway line)
+## 12.2 The 15-slide deck (one point per slide, one takeaway line, as little small text as possible)
 
 | # | Slide | The one point | Speaker |
 |---|---|---|---|
 | 1 | Title + founders, each with why they started Keepwell | Keepwell keeps the promise the retailer made; three founders who lived the problem | Prathyusha |
 | 2 | The problem: three cards + the result | Retailers sell the appliance, then lose the customer | Prathyusha |
 | 3 | Our answer: vision + live / next / later | The retailer sells the promise; Keepwell keeps it | Kavyanth |
-| 4 | The product: a lifecycle swimlane (7 stages × what Keepwell does, earns, and what the family, retailer, technician and brands gain) | At every stage, Keepwell and everyone around it gains | Sri Charan |
-| 5 | Traction: six pilot tiles + a monthly chart | One cluster paid for itself from 20 retailers | Kavyanth |
-| 6 | Unit economics: job → retailer → cluster | Positive at every level; 20 retailers pay for a cluster | Kavyanth |
-| 7 | Business model: live / next / later | How we make money, and who pays | Kavyanth |
-| 8 | The plan: a 5-year table and chart | Profitable from year one | Kavyanth |
-| 9 | Market: what it is (45,000 × ≈ ₹9 L = ₹4,000 Cr; spend split) + the opportunity drawn to scale (₹4,000 → ₹1,040 → ₹360 → ₹86 Cr) + why now | ₹4,000 Cr a year keeps small-town appliances running; we need 2% of it | Prathyusha |
-| 10 | Competition: prices side by side, what you get, what's missing + why it's hard to copy | Market prices, more for the money, and hard to copy | Sri Charan |
-| 11 | The ask: a use-of-funds table + terms | ₹2.5 Cr, the only round we need | Prathyusha |
-| 12 | Why now: six tiles + the close | The appliance wave has reached small towns; its after-sale is unorganised | Prathyusha |
+| 4 | The product: a lifecycle swimlane | At every stage, Keepwell and everyone around it gains | Sri Charan |
+| 5 | Our journey: timeline + raised ₹70 L / spent ₹52 L bars | ₹70 L took us from first interview to a cluster that pays for itself | Prathyusha |
+| 6 | Traction: the pilot as one sum + the monthly chart | The pilot cluster paid for itself from 20 retailers | Kavyanth |
+| 7 | Unit economics: the 12-job mix, one retailer's month, one cluster | Each retailer leaves ₹5,070 a month today and ₹9,600 at maturity | Kavyanth |
+| 8 | Business model: every ₹100 bar + now / year 2 / year 3 payers | Families pay market prices per job; Keepwell keeps ₹26 of every ₹100 | Kavyanth |
+| 9 | The plan: a 5-year table and chart | Profitable from year one | Kavyanth |
+| 10 | Market: what it is + the opportunity drawn to scale | ₹4,000 Cr a year; we need 2% of it | Prathyusha |
+| 11 | Competition: price bars + a ✓/✗ grid | Same price as the market, far more for it | Sri Charan |
+| 12 | Why it's hard to copy: four numbers + the Qdigi exit | Built one retailer at a time; easier to buy than to build | Sri Charan |
+| 13 | The ask: use of funds + terms | ₹2.5 Cr, the only round we need | Prathyusha |
+| 14 | Why now: four picture tiles | The appliance wave has reached small towns | Prathyusha |
+| 15 | Close: one line | Keepwell keeps the promise the retailer made | Prathyusha |
 
 ## 12.3 The story deck (animated HTML)
 
-One version: `story_deck/index_8min.html`, 12 slides plus 4 backups, built from `slides_8min.html` and `script_8min.py`. The script runs about 7 minutes at 150 words a minute, leaving room for clicks inside the 8-minute slot. The earlier 18-slide and 10-minute decks are retired to `archive_v3/`.
+One version: `story_deck/index_8min.html`, 15 slides plus 5 backups, built from `slides_8min.html` and `script_8min.py`. The script runs about 7½ minutes at 150 words a minute, leaving room for clicks inside the 8-minute slot. The earlier 18-slide and 10-minute decks are retired to `archive_v3/`.
 
 **Speakers:**
 - **Prathyusha (CEO):** title, problem, market, team and the ask.

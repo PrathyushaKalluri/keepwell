@@ -84,7 +84,35 @@ The slide is a swimlane: the seven stages of one appliance's life run across the
 
 Stage 5 → 6: when an appliance isn't worth repairing, it becomes a trade-in, and the trade-in is the retailer's next sale (back to stage 1). Stages 1–5 are live now; trade-in, refurbishing and recycling start in year 3 and are upside, not in the plan's numbers. Every stage is written to one consented appliance record.
 
-### 5. The pilot cluster paid for itself from 20 retailers
+### 5. ₹70 L raised, ₹52 L spent: from first interview to a cluster that pays for itself
+
+| When | What happened |
+|---|---|
+| Apr–Jul 2025 | Discovery: 64 retailers, 12 homes |
+| Aug 2025 | Incorporated · DPIIT |
+| Nov 2025 | 2 authorised service-centre contracts |
+| Dec 2025 | ₹45 L pre-seed |
+| Feb 2026 | ₹15 L AP grant · 28 retailer LOIs |
+| Mar–Oct 2026 | Pilot cluster |
+| Nov 2026 | Raising the seed |
+
+| Raised ₹70 L | ₹ L |
+|---|---|
+| Angels (iSAFE) | 45 |
+| Founders | 15 |
+| AP grant | 10 |
+
+| Spent ₹52 L | ₹ L |
+|---|---|
+| Founder stipends | 21 |
+| Pilot set-up | 13 |
+| Parts, tools | 6 |
+| Travel, tech, legal | 12 |
+| **In the bank** | **18** |
+
+**Why we raised it this way:** iSAFE, ₹6 Cr cap: priced on proof, not on an idea; ₹15 L grant: no ownership given up; ₹50k stipends: 40% of spend; founders all-in.
+
+### 6. The pilot cluster paid for itself from 20 retailers
 
 One cluster in Vijayawada–Guntur, March to October 2026. 34 retailers signed 2-year exclusive agreements, and 33 are still active.
 
@@ -104,7 +132,7 @@ One cluster in Vijayawada–Guntur, March to October 2026. 34 retailers signed 2
 
 **The one point:** each retailer leaves ₹5,070 a month, so 20 retailers pay for a cluster team.
 
-### 6. Why it paid, and how it grows: ₹5,070 a month today, ₹9,600 at maturity
+### 7. Why it paid, and how it grows: ₹5,070 a month today, ₹9,600 at maturity
 
 The slide continues from slide 5. It opens up the ₹5,070, grows the same retailer, and ends on slide 5's October number before scaling it.
 
@@ -146,17 +174,25 @@ The slide continues from slide 5. It opens up the ₹5,070, grows the same retai
 
 Two Protect plans a month is about 4% of the appliances a retailer sells; the pilot's counter test reached 6%. Year 1 of the plan uses ₹25,000 a month per retailer, on the way to ₹30,000.
 
-### 7. How we make money
+### 8. Families pay market prices per job. Keepwell keeps ₹26 of every ₹100.
 
-| Stage | Who pays | What we earn |
+| Every ₹100 a family pays | ₹ |
+|---|---|
+| Technician | 25 |
+| Parts | 33 |
+| Retailer | 7 |
+| Travel, payments | 9 |
+| Keepwell | 26 |
+
+| When | Who pays | For what |
 |---|---|---|
-| **Live** | Households, through the retailer | Authorised AC install ₹800 fee + materials; service visit from ₹300; repair with a part about ₹2,700 before GST; AMC ₹1,299; Protect ₹2,000 (incl. GST). The retailer earns a commission on every job |
-| **Next** | Agencies and partners | Parts; partner clusters run by service centres for a 10% fee; trade-ins |
-| **Later** | Brands and buyers | Install and claim verification; replacement leads; refurbished resale; e-waste |
+| Now | Families pay | Install ₹2,600, Repair ₹300–2,700, AMC ₹1,299, Protect ₹2,000 |
+| Year 2 | Agencies and partners pay | Genuine parts, Partner clusters: 10% fee, Trade-ins |
+| Year 3 | Brands and buyers pay | Verified installs and claims, Refurbished units, E-waste (EPR) |
 
-Revenue per retailer grows from ₹19,500 to ₹30,000 a month as Protect, AMC renewals and parts build.
+Every job pays everyone in the chain. New payers add on top of the same retailers.
 
-### 8. Profitable from year one
+### 9. Profitable from year one
 
 | | 2027 | 2028 | 2029 | 2030 | 2031 |
 |---|---|---|---|---|---|
@@ -168,7 +204,7 @@ Revenue per retailer grows from ₹19,500 to ₹30,000 a month as Protect, AMC r
 
 EBITDA is positive every year. We raise to open clusters faster, not to cover losses. The plan's peak cash need is ₹2.0 Cr, and from 2030 growth pays for itself.
 
-### 9. ₹4,000 Cr a year keeps small-town appliances running. We need 2% of it.
+### 10. ₹4,000 Cr a year keeps small-town appliances running. We need 2% of it.
 
 **What the market is:** about **₹4,000 Cr a year**, spent installing, servicing and repairing the ACs, fridges, washing machines and water purifiers that families buy from local retailers in Tier 2/3 India.
 
@@ -197,29 +233,36 @@ EBITDA is positive every year. We raise to open clusters faster, not to cover lo
 
 **The one point:** we need 3,000 of 45,000 retailers and about 2% of the spend to build a ₹86 Cr company.
 
-### 10. Market prices, more for the money, and hard to copy
+### 11. Same price as the market. Far more for it.
 
-**Keepwell competes at market prices and wins on what the customer gets for them.**
+| Price | Keepwell | Market |
+|---|---|---|
+| AC install | ₹1,199 | ₹1,199 (brand centre) |
+| Service visit | ₹300 | ₹300 (local mechanic) |
+| Gas repair | ₹3,190 | ₹3,000 (Urban Company) |
+| AMC | ₹1,299 | ₹1,298 (Urban Company) |
 
-| Player | What it charges | What you get | What's missing |
-|---|---|---|---|
-| **Keepwell** | Brand's install price (₹1,199 + materials) · ₹300 visit · AMC ₹1,299 · Protect ₹2,000 for 2 years | Authorised install in 24 h, fixed price, 90-day guarantee, one record, under the retailer's name | — |
-| **Brand service centre** | ₹1,199 + GST for a split-AC install (LG, Voltas) | Authorised; warranty kept | 2–5 days; one brand only; thin in small towns |
-| **Urban Company** | AC install from ₹799 · gas ₹3,000 · AMC ₹1,098–1,298 | App booking, trained pros | 51 cities, 90%+ of value in the top 10; not the retailer's |
-| **Onsitego · Croma ZipCare** | Plans at chain counters: ZipCare ₹1,139–2,499 a year | A plan sold with the appliance | No installs; no own repair crew in small towns |
-| **Jeeves · resQ** | resQ window-AC install ₹531–590 | Install and repair | Only Flipkart or Reliance buyers; fast install in 13 cities |
-| **Local mechanic** | ₹300 a visit | Nearby and cheap | No guarantee, no record; his AC installs void the warranty |
+| | 24-h authorised install | Guarantee, fixed price | Small towns | Through the local retailer | One record |
+|---|---|---|---|---|---|
+| **Keepwell** | ✓ | ✓ | ✓ | ✓ | ✓ |
+| **Brand centre** | ✗ | ✓ | Partly | ✗ | Partly |
+| **Urban Company** | ✗ | ✓ | ✗ | ✗ | ✗ |
+| **Onsitego** | ✗ | Partly | ✗ | ✗ | Partly |
+| **Jeeves · resQ** | Partly | ✓ | ✗ | ✗ | Partly |
+| **Local mechanic** | ✗ | ✗ | ✓ | ✗ | ✗ |
 
-**Why it's hard to copy:**
-1. **Exclusive retailer agreements:** 2-year exclusive service agreements; 33 of 34 pilot retailers stayed.
-2. **Authorised installs:** Sub-contracts with brand service centres; without them an install voids the warranty.
-3. **Density costs time and money:** A cluster loses money until 20 retailers; warm introductions sign one for ₹9.5k, cold ₹22k.
-4. **The record compounds:** Every job adds to one consented appliance record: the next lead, verified claims.
-5. **Incumbents are built for someone else:** UC: metro homes · Onsitego: plans, no crew · Jeeves, resQ: own buyers · brands: one brand.
+We compete on what the customer gets, not on price.
 
-**Easier to buy than to build: Onsitego paid ₹80 Cr for Qdigi (2024). That is our exit, not our threat.**
+### 12. Built one retailer at a time. Hard to copy.
 
-### 11. Raising ₹2.5 Cr for the seed round
+- **33 of 34:** retailers stayed on 2-year exclusive deals
+- **Authorised:** brand sub-contracts; others void the warranty
+- **20:** retailers before a cluster pays
+- **₹9.5k vs ₹22k:** to sign a retailer: our network vs cold
+
+**₹80 Cr:** Onsitego paid for Qdigi (2024). Easier to buy than to build: that is our exit.
+
+### 13. Raising ₹2.5 Cr for the seed round
 
 | Track | Share | Amount | What it delivers |
 |---|---|---|---|
@@ -233,18 +276,18 @@ EBITDA is positive every year. We raise to open clusters faster, not to cover lo
 
 **This is the only round we need to reach 1,000 retailers.**
 
-### 12. Why now: the appliance wave has reached small towns, and its after-sale is unorganised
+### 14. Why now: the appliance wave has reached small towns
 
-| | Why now |
-|---|---|
-| **~10%** | of Indian homes own an AC; the AC market grows 15% a year, ₹53,600 Cr (2025) → ₹93,610 Cr (2029) |
-| **65%** | of Blue Star's sales are in Tier III–V towns; 85% of Voltas buyers are first-time buyers |
-| **80–91%** | of appliances in homes are out of warranty: the paying after-sale years are here |
-| **28% → 18%** | GST on ACs cut in September 2025: cheaper ACs, more first-time buyers |
-| **< ₹5** | a job for AI in Telugu voice and WhatsApp: a small-town service desk is now affordable |
-| **2022–25** | E-Waste Rules (EPR), the Right to Repair portal, DPDP consent and the labour codes reward a registered operator that keeps records |
+- **1 in 10** homes has an AC
+- **+75%** AC market, 2025 → 2029
+- **80–91%** of appliances out of warranty
+- **28% → 18%** GST on ACs, Sep 2025
 
-**Whoever organises the after-sale first keeps the retailer. Keepwell keeps the promise the retailer made.**
+**Whoever organises the after-sale first keeps the retailer.**
+
+### 15. Keepwell keeps the promise the retailer made.
+
+The closing slide is one line: *Keepwell keeps the promise the retailer made.* Installed right · repaired with genuine parts · covered · given a second life.
 
 ## Tough questions
 

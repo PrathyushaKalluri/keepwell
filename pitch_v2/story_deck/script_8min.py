@@ -23,7 +23,7 @@ dict(id="problem", act="problem", sp="P", title="Retailers sell the appliance, t
  next="So here is our answer. Kavyanth."),
 dict(id="answer", act="answer", sp="K", title="The retailer sells the promise. Keepwell keeps it.",
  show="Dark slide. The vision in one sentence, then [click] three steps: Step 1 Live, Serve (installs, repair, AMC, Protect under the retailer's name); Step 2 Next, Supply (central parts, partner clusters, trade-ins); Step 3 Later, Know and circulate (verified records; refurbish and recycle).",
- say="""I'm Kavyanth. The retailer sells the promise; Keepwell keeps it. Our vision in one sentence: Keepwell looks after every appliance a local retailer sells for its whole life — installed right, repaired with genuine parts, kept covered, and refurbished or recycled when its time is up.
+ say="""I'm Kavyanth. The retailer sells the promise; Keepwell keeps it. Our vision: Keepwell looks after every appliance a local retailer sells, for its whole life.
 [click] We build it in three steps. Today we serve: authorised installs, guaranteed repairs, AMC and Keepwell Protect, a two-year plan, all under the retailer's name. Next, we supply parts and run partner clusters. Later, the record and the second life.""",
  why="Vision first, then the live, next, later steps, so the investor sees where it starts and where it goes.",
  believe="A clear company with a big vision and a simple first step.",
@@ -34,10 +34,17 @@ dict(id="lifecycle", act="answer", sp="S", title="At every stage, Keepwell and e
 [click] Now read down any column. At every stage the family, the retailer, the technician and the brand each gain. That's why they keep sending us the next job.""",
  why="One picture answers both questions: what Keepwell does and earns at each stage, and why every other party wants it there.",
  believe="Every party gains at every stage, so the model is pulled forward by its stakeholders, not pushed.",
- next="We tested this for eight months. Kavyanth."),
+ next="Before the pilot, how we got here."),
+dict(id="journey", act="proof", sp="P", title="₹70 L raised, ₹52 L spent",
+ show="A timeline: discovery (Apr–Jul 2025) → incorporated → 2 authorised service-centre contracts → ₹45 L pre-seed (Dec 2025) → ₹15 L AP grant and 28 retailer LOIs → pilot (Mar–Oct 2026) → raising the seed. Two bars: raised ₹70 L (angels ₹45 L iSAFE, founders ₹15 L, grant ₹10 L); spent ₹52 L (stipends ₹21 L, pilot set-up ₹13 L, parts ₹6 L, travel/tech/legal ₹12 L) with ₹18 L in the bank. [click] Why: iSAFE at a ₹6 Cr cap, priced on proof; the grant gives up no ownership; stipends are 40% of spend.",
+ say="""Here's how we got to the pilot. Four months of interviews, then we incorporated, signed two authorised service centres, and raised seventy lakh: forty-five from three operator angels, fifteen of our own, and a state grant. We've spent fifty-two, mostly on our stipends and the pilot set-up; eighteen is still in the bank.
+[click] We used an iSAFE so the price would be set on proof, not on an idea.""",
+ why="It shows the money already raised and spent, so the seed reads as the next step on a track record.",
+ believe="The team spends carefully and has already turned ₹52 L into a working cluster.",
+ next="Here's what the pilot proved. Kavyanth."),
 dict(id="traction", act="proof", sp="K", title="The pilot cluster paid for itself from 20 retailers",
  show="Left, one sum read top to bottom: 195 retailer-months × ₹19,500 = ₹38.0 L revenue (2,340 jobs) − ₹28.1 L job costs = ₹9.9 L contribution (26%) − ₹8.0 L cluster team = +₹1.9 L cluster profit. Right, the monthly chart with active retailers under each month: contribution crosses the ₹1.0 L team cost in May, at 20 retailers. [click] The result line.",
- say="""We ran one cluster in Vijayawada–Guntur for eight months, from twelve retailers to thirty-four. Read the left side as one sum. Add up the active retailers each month and you get a hundred and ninety-five retailer-months. Each brought nineteen and a half thousand rupees, so thirty-eight lakh of revenue. After technicians, parts and the retailers' commission, nine point nine lakh was left. The cluster team cost eight lakh. So the cluster made one point nine lakh of profit.
+ say="""We ran one cluster in Vijayawada–Guntur for eight months, from twelve retailers to thirty-four. Read the left side as one sum: a hundred and ninety-five retailer-months at nineteen and a half thousand is thirty-eight lakh of revenue. Nine point nine lakh was left after job costs; the team cost eight. Profit: one point nine lakh.
 The chart shows when it turned: in May, the month we reached twenty retailers.
 [click] Each retailer leaves about five thousand rupees a month, so twenty retailers pay for the team. By October we were earning seventy-two thousand a month.""",
  why="Every number is a step in one sum, and the chart shows the month the sum turned positive. One point: the cluster pays for itself.",
@@ -53,16 +60,15 @@ In October the cluster made seventy-two thousand, the number on the chart. A mat
  why="It opens up the ₹5,070 from slide 5, grows the same retailer, and ends on slide 5's October number before scaling it. A continuation, not a new set of facts.",
  believe="Every rupee of the unit is accounted for, and growth comes from the same retailers.",
  next="Here's who pays for each of those lines."),
-dict(id="model", act="money", sp="K", title="How we make money",
- show="Three columns: Live · Serve (paid by households through the retailer: AC install ₹800 fee + materials, service visit from ₹300, repair with a part ≈ ₹2,700 (≈ ₹3,190 incl. GST), AMC ₹1,299, Protect ₹2,000, retailer commission); Next · Supply (parts, partner clusters at a 10% fee, trade-ins); Later · Know and circulate (verification for brands, leads, refurbished, e-waste). Line: ₹19,500 → ₹30,000 a month per retailer.",
- say="""Today, households pay through the retailer: for authorised installs, repairs, AMC and Protect, and the retailer earns a commission on every job. Next, parts and partner clusters. Later, brands pay to verify installs and claims, and old appliances get a second life.
-As Protect, AMC renewals and parts build, each retailer grows from nineteen and a half thousand to thirty thousand rupees a month.""",
- why="Live, next and later revenue, with prices, so the investor sees what is earned today and what is upside.",
- believe="Revenue per retailer grows without adding retailers.",
- next="So here is the plan."),
+dict(id="model", act="money", sp="K", title="Families pay market prices per job. Keepwell keeps ₹26 of every ₹100.",
+ show="One bar: every ₹100 a family pays: technician ₹25, parts ₹33, retailer ₹7, travel and payments ₹9, Keepwell ₹26. Three cards: Now, families pay (install ₹2,600, repair ₹300–2,700, AMC ₹1,299, Protect ₹2,000); Year 2, agencies and partners pay (parts, partner clusters at a 10% fee, trade-ins); Year 3, brands and buyers pay (verified installs and claims, refurbished units, e-waste).",
+ say="""How do we make money? Families pay market prices per job. Of every hundred rupees, the technician gets twenty-five, parts thirty-three, the retailer seven, and we keep twenty-six. From year two, agencies and partners pay us for parts; from year three, brands pay to verify installs and claims.""",
+ why="One bar shows who gets what from each job; three cards show who pays now and later.",
+ believe="The revenue is simple, per job, and every party in the chain is paid.",
+ next="Here's the five-year plan."),
 dict(id="plan", act="money", sp="K", title="Profitable from year one",
  show="A 5-year table and bars: retailers 200 → 3,000; clusters 4 → 50; revenue ₹3.5 Cr → ₹86 Cr; EBITDA +₹0.13 Cr → +₹16.9 Cr (4% → 20%). [click] 'EBITDA is positive every year; peak cash need ₹2.0 Cr; from 2030 growth pays for itself.'",
- say="""From two hundred retailers next year to three thousand in 2031. Revenue grows from three and a half crore to eighty-six crore, as each retailer grows from nineteen and a half thousand rupees a month in the pilot to twenty-five thousand next year and thirty thousand by year five. And EBITDA is positive every year — from the first year, rising to a twenty percent margin.
+ say="""From two hundred retailers next year to three thousand in year five, revenue grows from three and a half crore to eighty-six crore. EBITDA is positive every year, rising to a twenty percent margin.
 [click] We aren't raising to cover losses. We're raising to open clusters faster: the plan's peak cash need is two crore, and from 2030 growth pays for itself.""",
  why="One table, one point: profitable from year one. The click explains why we still raise money.",
  believe="This is a profitable, capital-efficient business.",
@@ -75,27 +81,40 @@ On the right, to scale: the south is a thousand crore; Andhra and Telangana, whe
  why="One side says what the money is; the other shows, to scale, how little of it the plan needs.",
  believe="The market is real, unorganised and large, and the plan needs only a sliver of it.",
  next="Why hasn't anyone done this? Sri Charan."),
-dict(id="competition", act="win", sp="S", title="Market prices, more for the money, and hard to copy",
- show="Left, a table: each player, what it charges, what you get, what's missing (in red). Keepwell: brand's install price (₹1,199 + materials), ₹300 visit, AMC ₹1,299, Protect ₹2,000 for 2 years. Brand centre ₹1,199 + GST, 2–5 days, one brand. Urban Company from ₹799, gas ₹3,000, AMC ₹1,098–1,298, 51 cities. Onsitego · Croma ZipCare ₹1,139–2,499 a year, no installs. Jeeves · resQ ₹531–590, own buyers only. Local mechanic ₹300, no guarantee or record. [click] Right, why it's hard to copy: exclusive agreements, authorised installs, density, the record, incumbents built for someone else; and 'easier to buy than to build: Onsitego paid ₹80 Cr for Qdigi'.",
- say="""We charge what the market charges: the brand's install price, the mechanic's three hundred, Urban Company's AMC. Read the last column: the brand takes days, Urban Company stays in big cities, plan sellers don't install, and the mechanic gives no guarantee.
-[click] Could someone copy us? They'd need exclusive retailer agreements, authorised installs, and twenty retailers in every cluster before it pays, built one introduction at a time. It's easier to buy than to build: Onsitego paid eighty crore for Qdigi. That's our exit, not our threat.""",
- why="Prices side by side show we compete at market rates; the red column and the moat panel answer 'how are you different' and 'can't they just copy you'.",
- believe="Keepwell matches market prices, gives more, and is slow and costly to copy.",
+dict(id="competition", act="win", sp="S", title="Same price as the market. Far more for it.",
+ show="Left, four pairs of bars, Keepwell vs the market, near-equal heights: AC install ₹1,199 vs brand ₹1,199; service visit ₹300 vs mechanic ₹300; gas repair ₹3,190 vs Urban Company ₹3,000; AMC ₹1,299 vs Urban Company ₹1,298. [click] Right, a ✓/✗ grid: 24-h authorised install, guarantee and fixed price, small towns, through the local retailer, one record. Only Keepwell's row is all ticks.",
+ say="""We charge what the market charges. The bars are the same height: the brand's install price, the mechanic's three hundred, Urban Company's AMC.
+[click] But look at what you get. Only one row is all ticks: a day-one authorised install, a guarantee, small towns, through the retailer, on one record.""",
+ why="Bars of equal height make 'same price' visible; the tick grid makes 'more for it' visible.",
+ believe="Keepwell does not win on price; it wins on what the customer gets.",
+ next="And can someone copy it?"),
+dict(id="moat", act="win", sp="S", title="Built one retailer at a time. Hard to copy.",
+ show="Four big tiles: 33 of 34 retailers stayed on 2-year exclusive deals; Authorised (brand sub-contracts, others void the warranty); 20 retailers before a cluster pays; ₹9.5k vs ₹22k to sign a retailer. [click] A dark band: ₹80 Cr, what Onsitego paid for Qdigi; easier to buy than to build: that is our exit.",
+ say="""To copy us, you'd need retailers on exclusive deals, authorised installs, and twenty retailers in every cluster before it pays, signed at twice our cost.
+[click] It's easier to buy than to build. Onsitego paid eighty crore for Qdigi. That's our exit.""",
+ why="Four numbers answer 'can't they copy you'; the Qdigi deal turns the threat into the exit.",
+ believe="The moat is the network, and the likely competitors are the likely buyers.",
  next="So here's what we're asking for."),
 dict(id="ask", act="ask", sp="P", title="Raising ₹2.5 Cr for the seed round",
  show="Dark slide. A table: 1 · Cluster launches 64% ₹1.6 Cr (8 new clusters, 500 retailers by March 2029; ₹20 L per cluster); 2 · Working capital 16% ₹0.4 Cr; 3 · Buffer and compliance 20% ₹0.5 Cr. Three cards: ₹2.5 Cr CCPS, single close; ₹10 Cr pre-money, 20%; 20× seed return at a year-5 exit (March 2032). [click] 'The only round we need to reach 1,000 retailers.'",
  say="""We're raising two and a half crore, as CCPS, at a ten crore pre-money valuation, in one close. Sixty-four percent opens eight new clusters, sixteen percent is working capital, and twenty percent is buffer and compliance above our two-crore peak need. Head office runs on our operating profit.
 At a year-five exit, in March 2032, at fifteen times EBITDA, the seed's twenty percent returns about twenty times.
-[click] This is the only round we need to reach a thousand retailers. Thank you.""",
+[click] This is the only round we need to reach a thousand retailers.""",
  why="The ask as a use-of-funds table, then the terms, then the close line.",
  believe="A fairly priced, capital-efficient round with a clear return.",
  next="And why now."),
-dict(id="whynow", act="ask", sp="P", title="Why now",
- show="Six tiles: ~10% of homes own an AC, market growing 15% a year (₹53,600 Cr → ₹93,610 Cr); 65% of Blue Star sales in Tier III–V towns, 85% of Voltas buyers first-time; 80–91% out of warranty; GST on ACs 28% → 18%; AI desk under ₹5 a job; e-waste, right-to-repair, DPDP and labour rules reward a registered operator. [click] The close.",
- say="""Why now? One home in ten has an AC, the market grows fifteen percent a year, and most new buyers are first-timers in small towns. Most machines are already out of warranty, ACs just got cheaper, an AI desk costs under five rupees a job, and the new rules reward a registered operator.
-[click] Whoever organises the after-sale first keeps the retailer. Keepwell keeps the promise the retailer made. Thank you.""",
- why="It ends on timing and the close, so the last thing the investor hears is why this round, now.",
- believe="The window is open now, and Keepwell is positioned to take it.",
+dict(id="whynow", act="ask", sp="P", title="The appliance wave has reached small towns",
+ show="Four picture tiles: 1 in 10 homes has an AC (ten squares, one filled); +75% AC market 2025 → 2029 (two bars); 80–91% of appliances out of warranty (a ring); GST on ACs 28% → 18% (two bars stepping down). [click] 'Whoever organises the after-sale first keeps the retailer.'",
+ say="""Why now? One home in ten has an AC, and the market grows seventy-five percent in four years. Most machines are already out of warranty, and ACs just got cheaper.
+[click] Whoever organises the after-sale first keeps the retailer.""",
+ why="Four pictures, no small print: the wave is arriving, and the after-sale is up for grabs.",
+ believe="The timing is now.",
+ next="The close."),
+dict(id="close", act="ask", sp="P", title="Keepwell keeps the promise the retailer made",
+ show="Dark slide: the logo and one line, 'Keepwell keeps the promise the retailer made.' Underneath: installed right · repaired with genuine parts · covered · given a second life.",
+ say="""Keepwell keeps the promise the retailer made. Thank you.""",
+ why="The last image is the one-line value proposition.",
+ believe="Keepwell is the after-sale arm every local retailer needs.",
  next="Questions."),
 ]
 BACKUP = [
