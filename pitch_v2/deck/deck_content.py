@@ -33,6 +33,7 @@ SLIDES = [
              ("R", "Retailer", ["Sells the promise, not just the box", "5% commission; no blame for delays", "Stays in touch through reminders", "12% on AMC · 25% on Protect", "8% commission; keeps the customer", "The next sale: back to stage 1", "Old units off the shop floor"]),
              ("T", "Technician", ["—", "Paid per job within 48 h", "—", "Off-season visits fill quiet months", "Right part first visit; paid in 48 h", "Refurbishing work", "—"]),
              ("B", "Brand / partner", ["—", "Service centre: installs where it can't staff", "Brand: a verified install and serial", "—", "Distributor: one pooled order", "Buyer: a working unit with a warranty", "Brand: meets e-waste take-back target"])],
+      value_heads=['Peace of mind', 'Retention', 'Steady income', 'Reach and proof'],
       decisions=[("It breaks after warranty?", "stage 5, repair.", "it stays in use; the reminders carry on."),
                  ("Worth repairing?", "fixed and back in use.", "it becomes a trade-in (stage 6), the retailer's next sale."),
                  ("Can it be resold?", "refurbished, a second life with a new owner.", "stage 7, recycled.")],

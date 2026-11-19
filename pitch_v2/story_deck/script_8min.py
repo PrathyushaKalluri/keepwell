@@ -7,32 +7,30 @@ SPEAKERS = {"P": "Prathyusha (CEO)", "K": "Kavyanth (COO)", "S": "Sri Charan (CT
 SLIDES = [
 dict(id="title", act="open", sp="P", title="Keepwell keeps the promise the retailer made",
  show="Logo, the line 'Keepwell keeps the promise the retailer made', the tagline, and three founder cards: each with a background line (600+ dealers; 200+ service centres; claims platforms) and a quote on why they started Keepwell. Advisors along the bottom.",
- say="""Every local appliance retailer sells a promise at the counter. Keepwell keeps it. Each of us saw the problem from a different side.
-I'm Prathyusha. I supplied six hundred dealers, and one showed me a court notice naming him beside the brand, for an install he never did.
-Kavyanth ran a brand's service network: small-town installs failed for want of technicians.
-Sri Charan built claims platforms: plan sellers had customers in small towns and nobody to fix their appliances.""",
+ say="""Every local appliance retailer makes a promise at the counter: this will be installed properly, and it will be looked after. Then the sale ends, and nobody keeps that promise. Keepwell does. We are the after-sale service arm of the local retailer.
+We're three founders, and each of us saw this from one side. I'm Prathyusha: I supplied six hundred dealers and watched them blamed for installs they never did. Kavyanth ran a brand's service network. Sri Charan built claims platforms.""",
  why="It opens with the promise and the people, and each founder's reason is the problem seen from one side: the retailer, the service network, the plan.",
  believe="These founders have lived this problem and already know the people who can solve it.",
  next="Here's what that looks like at a retailer's counter."),
 dict(id="problem", act="problem", sp="P", title="Retailers sell the appliance, then lose the customer",
  show="Three cards: Slow installs (2–5 days; 51 of 64 retailers take the blame); Guesswork repairs (80–91% out of warranty; 44% of AC service to local mechanics); Blame, no income (2–3% net; nothing after the sale; held jointly liable). [click] The result line: 7 of 12 households keep no record, and the person they trust can't keep the promise.",
- say="""Three things go wrong. Installs are slow: brands take two to five days, and fifty-one of the sixty-four retailers we met take the blame. Repairs are guesswork: most machines are out of warranty, and forty-four percent of AC service goes to local mechanics with no fixed price and no record. And the retailer earns nothing after the sale, while courts hold him liable.
-[click] The result: the person the family trusts has no way to keep the promise he made.""",
+ say="""Three things go wrong after the sale. Installs are slow: brands take two to five days, and fifty-one of the sixty-four retailers we met get the blame. Repairs are guesswork: most machines are out of warranty, and forty-four percent of AC service goes to local mechanics, with no fixed price and no record. And the retailer earns nothing after the sale, yet courts hold him liable.
+[click] So the person the family trusts has no way to keep the promise he made.""",
  why="One problem, three causes, one result line, the same structure an investor scans in five seconds.",
  believe="The pain sits with the local retailer and the family, and nobody owns it.",
  next="So here is our answer. Kavyanth."),
 dict(id="answer", act="answer", sp="K", title="The retailer sells the promise. Keepwell keeps it.",
  show="Dark slide. The vision in one sentence, then [click] three steps: Step 1 Live, Serve (installs, repair, AMC, Protect under the retailer's name); Step 2 Next, Supply (central parts, partner clusters, trade-ins); Step 3 Later, Know and circulate (verified records; refurbish and recycle).",
- say="""I'm Kavyanth. The retailer sells the promise; Keepwell keeps it. Our vision: Keepwell looks after every appliance a local retailer sells, for its whole life.
-[click] We build it in three steps. Today we serve: authorised installs, guaranteed repairs, AMC and Keepwell Protect, a two-year plan, all under the retailer's name. Next, we supply parts and run partner clusters. Later, the record and the second life.""",
+ say="""I'm Kavyanth. Our answer is simple: the retailer sells the promise, and Keepwell keeps it. We look after every appliance a local retailer sells, for its whole life.
+[click] We build it in three steps. Today we serve: authorised installs in twenty-four hours, guaranteed repairs, maintenance plans, and Keepwell Protect, a two-year repair plan, all under the retailer's name. From year two we supply genuine parts and run partner clusters. From year three, the record verifies installs for brands, and old units get a second life.""",
  why="Vision first, then the live, next, later steps, so the investor sees where it starts and where it goes.",
  believe="A clear company with a big vision and a simple first step.",
  next="Here is what that means for one appliance. Sri Charan."),
 dict(id="lifecycle", act="answer", sp="S", title="Not every appliance reaches every stage",
- show="Seven stage arrows across the top (Sold → Installed → Warranty years → Covered → Repaired → Traded in → Recycled), each with ● every unit or ○ only some. Band 1, who reaches it. Band 2, what happens: the first touch (who starts the stage), the order of touches as coloured initials with the first ringed, and what Keepwell does. [click] Band 3, value for each party: family, retailer, technician, brand or partner. [click] Three decisions: it breaks after warranty? worth repairing? can it be resold?",
- say="""I'm Sri Charan. This is one appliance's life, left to right. Every unit is sold, installed and lives through its warranty; after that, only some reach each stage. Each stage starts with a different first touch, and we do one job at every step.
-[click] Read down any column: the family, the retailer, the technician and the brand each gain something.
-[click] Three questions decide where an appliance goes next: does it break, is it worth repairing, can it be resold.""",
+ show="Seven stage arrows across the top (Sold → Installed → Warranty years → Covered → Repaired → Traded in → Recycled), each with ● every unit or ○ only some. Band 1, who reaches it. Band 2, what happens: the first touch (who starts the stage), the order of touches as coloured initials with the first ringed, and what Keepwell does. [click] Band 3, value for each party, each with its value proposition: Family — peace of mind; Retailer — retention; Technician — steady income; Brand or partner — reach and proof. [click] Three decisions: it breaks after warranty? worth repairing? can it be resold?",
+ say="""I'm Sri Charan. This is the most important slide: one appliance's whole life, from the shop counter to the recycler. Every unit is sold, installed and lives through its warranty. After that, only some are covered, repaired, traded in or recycled. At each stage a different party makes the first touch: the family walks into the shop, we confirm the install, we send the month-eleven reminder, the family sends a voice note when it breaks. And at every stage we do one job: open the record, install in a day, remind, repair with a genuine part, collect, recycle.
+[click] Now read down any column, because this is why it works. The family gets peace of mind: one number, a fixed price and a guarantee. The retailer gets retention: a commission on every job, and the next sale when the old unit comes back. The technician gets steady income: paid within forty-eight hours, and busy even in the off-season. Brands and partners get reach and proof: installs in towns they can't staff, and a verified record.
+[click] Three questions decide where each appliance goes next: does it break, is it worth repairing, can it be resold. Every answer keeps it with us.""",
  why="It shows the whole product as one journey, makes clear which stages every unit reaches, and puts every party's gain in the same column.",
  believe="Keepwell runs the appliance's whole life, and everyone around it gains.",
  next="Before the pilot, how we got here."),

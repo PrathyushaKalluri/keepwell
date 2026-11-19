@@ -269,8 +269,9 @@ def r_touch(sl, d, n):
         box(sl, cx(i), y, CW, h - 0.03, fill=TEALBG); text(sl, cx(i) + 0.03, y, CW - 0.05, h - 0.03, tx, size=7.5, bold=True, color=NAVY, anchor=MSO_ANCHOR.MIDDLE)
     y = 4.32; band(y, "3", "Value for each party", True)
     y = 4.58; h = 0.39
-    for c, nm, vals in d["value"]:
-        box(sl, X, y, LW - 0.02, h - 0.03, fill=LIGHT); dot(X + 0.05, y + 0.07, c, 0.2); text(sl, X + 0.28, y, LW - 0.3, h - 0.03, nm, size=8.5, bold=True, color=NAVY, anchor=MSO_ANCHOR.MIDDLE)
+    for vi, (c, nm, vals) in enumerate(d["value"]):
+        box(sl, X, y, LW - 0.02, h - 0.03, fill=LIGHT); dot(X + 0.05, y + 0.08, c, 0.2)
+        text(sl, X + 0.28, y - 0.01, LW - 0.3, 0.2, nm, size=8, bold=True, color=NAVY); text(sl, X + 0.28, y + 0.16, LW - 0.3, 0.2, d["value_heads"][vi], size=7.8, bold=True, color=TEAL)
         for i, v in enumerate(vals):
             box(sl, cx(i), y, CW, h - 0.03, fill=SOFT); text(sl, cx(i) + 0.03, y, CW - 0.05, h - 0.03, v, size=7.5, color=GREY if v == "—" else INK, anchor=MSO_ANCHOR.MIDDLE, align=PP_ALIGN.CENTER if v == "—" else PP_ALIGN.LEFT)
         y += h
