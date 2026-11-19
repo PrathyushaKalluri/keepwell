@@ -1,0 +1,312 @@
+<!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#fff;color:#000}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body>
+<title>Keepwell Walkthrough</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;600;700&display=swap">
+<style>
+/* Layout: one 1280 x 720 stage scaled to the window. Per step: a small stage chip, one headline (what Keepwell does), one quiet line (who gains), one screen with one amber tap, and Back and Next. Nothing else. */
+:root {
+  --bg: #e9edf2; --stage: #ffffff; --ink: #142030; --muted: #566475; --line: #d6dce4; --line-strong: #8e9bad;
+  --accent: #0b7a75; --accent-soft: #dff1ef; --warn: #a85a00; --warn-soft: #fbead3; --on: #ffffff;
+  --f: #a85a00; --r: #1f5fa8; --k: #0b7a75; --t: #5b4bb0; --p: #566475;
+  --wf: #fbfcfd; --wf2: #eef1f5; --wfl: #cdd5df; --wfi: #3a4a5e; --dots: #e3e8ee;
+  --font-head: "Space Grotesk", "Inter", system-ui, sans-serif;
+  --font-body: "Inter", system-ui, -apple-system, "Segoe UI", sans-serif;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #0b121b; --stage: #131e2c; --ink: #e6edf5; --muted: #9aa9ba; --line: #2a3a4d; --line-strong: #52657c;
+    --accent: #47c2b9; --accent-soft: #12302f; --warn: #f0a95a; --warn-soft: #3a2a12; --on: #0f1722;
+    --f: #f0a95a; --r: #7db4ec; --k: #47c2b9; --t: #b3a6ff; --p: #9aa9ba;
+    --wf: #1b2838; --wf2: #223247; --wfl: #34475f; --wfi: #a9b8ca; --dots: #1d2b3d; color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #0b121b; --stage: #131e2c; --ink: #e6edf5; --muted: #9aa9ba; --line: #2a3a4d; --line-strong: #52657c;
+  --accent: #47c2b9; --accent-soft: #12302f; --warn: #f0a95a; --warn-soft: #3a2a12; --on: #0f1722;
+  --f: #f0a95a; --r: #7db4ec; --k: #47c2b9; --t: #b3a6ff; --p: #9aa9ba;
+  --wf: #1b2838; --wf2: #223247; --wfl: #34475f; --wfi: #a9b8ca; --dots: #1d2b3d; color-scheme: dark;
+}
+* { box-sizing: border-box; }
+body { background: var(--bg); color: var(--ink); font-family: var(--font-body);
+  padding-block: 16px; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); }
+#wrap { width: 1280px; height: 720px; margin: 0 auto; }
+#deck { width: 1280px; height: 720px; transform-origin: top left; background: var(--stage); border-radius: 14px; box-shadow: 0 6px 30px -12px rgba(10,25,45,.35); padding: 26px 56px 22px; display: flex; flex-direction: column; overflow: hidden; }
+.top { display: flex; justify-content: space-between; align-items: center; height: 30px; }
+.chip { font: 700 14px var(--font-head); letter-spacing: .08em; text-transform: uppercase; color: var(--on); background: var(--ink); border-radius: 999px; padding: 4px 14px; }
+.count { font: 600 15px var(--font-head); color: var(--muted); }
+h1 { font: 700 36px/1.17 var(--font-head); margin: 14px 0 0; letter-spacing: -0.01em; max-width: 1100px; min-height: 84px; display: flex; align-items: flex-end; text-wrap: balance; }
+.gain { font-size: 18px; color: var(--muted); margin: 8px 0 0; min-height: 26px; }
+.gain b { color: var(--accent); font-weight: 600; }
+.stage { flex: 1; min-height: 0; position: relative; margin-top: 10px; display: flex; justify-content: center; align-items: center; background-image: radial-gradient(var(--dots) 1px, transparent 1.2px); background-size: 16px 16px; border-radius: 12px; }
+.step { position: relative; display: flex; flex-direction: column; align-items: center; justify-content: center; width: 100%; height: 100%; }
+.step[hidden] { display: none; }
+.who { position: absolute; left: 16px; top: 14px; max-width: 150px; font-size: 14px; line-height: 1.35; color: var(--muted); display: flex; flex-direction: column; align-items: flex-start; gap: 6px; }
+.bar { height: 56px; display: flex; align-items: center; justify-content: space-between; gap: 16px; margin-top: 10px; }
+.nb { font: 600 17px var(--font-body); border-radius: 10px; padding: 11px 22px; cursor: pointer; border: 1px solid var(--line-strong); background: var(--stage); color: var(--ink); min-width: 120px; }
+.nb.next { background: var(--accent); border-color: var(--accent); color: var(--on); }
+.nb[disabled] { opacity: .35; cursor: default; }
+.nb:focus-visible { outline: 3px solid var(--warn); outline-offset: 2px; }
+.mid { display: flex; flex-direction: column; align-items: center; gap: 6px; }
+.dotsnav { display: flex; gap: 8px; }
+.dotsnav i { width: 10px; height: 10px; border-radius: 50%; background: var(--line); display: block; }
+.dotsnav i.on { background: var(--ink); transform: scale(1.25); }
+.dotsnav i.done { background: var(--accent); }
+.hint { font-size: 13px; color: var(--muted); }
+.clock { font: 600 15px var(--font-head); color: var(--muted); min-width: 120px; text-align: right; font-variant-numeric: tabular-nums; }
+
+/* wireframe devices */
+.dev { position: relative; background: var(--wf); border: 2px solid var(--wfi); color: var(--ink); font-size: 13px; line-height: 1.35; box-shadow: 0 10px 30px -18px rgba(10,25,45,.5); overflow: hidden; display: flex; flex-direction: column; }
+.phone { width: 270px; height: 392px; border-radius: 26px; }
+.desk { width: 800px; height: 330px; border-radius: 10px; }
+.pbar { display: flex; align-items: center; gap: 8px; padding: 11px 13px 9px; background: var(--wf2); border-bottom: 1px solid var(--wfl); font: 600 12.5px var(--font-head); }
+.dbar { display: flex; align-items: center; gap: 6px; padding: 8px 10px; background: var(--wf2); border-bottom: 1px solid var(--wfl); }
+.dbar i { width: 9px; height: 9px; border-radius: 50%; background: var(--wfl); }
+.url { margin-left: 8px; flex: 1; background: var(--wf); border: 1px solid var(--wfl); border-radius: 6px; padding: 2px 9px; font-size: 11.5px; color: var(--muted); }
+.role { font: 700 10px var(--font-body); letter-spacing: .05em; text-transform: uppercase; color: var(--on); padding: 2px 8px; border-radius: 999px; background: var(--p); flex: none; }
+.role.F { background: var(--f); } .role.R { background: var(--r); } .role.K { background: var(--k); } .role.T { background: var(--t); }
+.pbody { flex: 1; padding: 11px; display: flex; flex-direction: column; gap: 8px; }
+.dbody { flex: 1; padding: 14px; display: flex; gap: 14px; }
+.dbody > div { flex: 1; min-width: 0; display: flex; flex-direction: column; gap: 7px; }
+.lab { font: 600 10.5px var(--font-head); letter-spacing: .08em; text-transform: uppercase; color: var(--muted); }
+.fld small { display: block; color: var(--muted); font-size: 10.5px; margin-bottom: 2px; }
+.inp { border: 1px solid var(--wfi); border-radius: 6px; padding: 6px 8px; background: var(--stage); }
+.row { display: flex; justify-content: space-between; align-items: center; gap: 8px; padding: 6px 9px; border: 1px solid var(--wfl); border-radius: 8px; background: var(--stage); }
+.row small { display: block; color: var(--muted); font-size: 10.5px; }
+.rr { font-weight: 600; text-align: right; }
+.tog { width: 30px; height: 17px; border-radius: 999px; border: 1.5px solid var(--wfi); background: var(--wf2); position: relative; flex: none; }
+.tog i { position: absolute; top: 1.5px; left: 2px; width: 11px; height: 11px; border-radius: 50%; background: var(--wfi); }
+.tog.on { background: var(--accent); border-color: var(--accent); } .tog.on i { left: 14px; background: #fff; }
+.btn { border: 1.5px solid var(--wfi); border-radius: 8px; padding: 8px 10px; text-align: center; font-weight: 600; background: var(--stage); }
+.btn.pri { background: var(--accent); border-color: var(--accent); color: var(--on); }
+.hl { outline: 3px solid var(--warn); outline-offset: 2px; position: relative; cursor: pointer; }
+.hl::after { content: "tap"; position: absolute; top: -12px; right: 6px; background: var(--warn); color: var(--on); font: 700 10px var(--font-body); padding: 1px 9px; border-radius: 999px; }
+.step.done .hl { outline-color: var(--accent); }
+.step.done .hl::after { content: "done"; background: var(--accent); }
+.chk { display: flex; align-items: center; gap: 8px; padding: 5px 8px; border: 1px solid var(--wfl); border-radius: 8px; background: var(--stage); }
+.chk i { width: 14px; height: 14px; border: 1.5px solid var(--wfi); border-radius: 3px; flex: none; position: relative; }
+.chk.on i { background: var(--accent); border-color: var(--accent); }
+.chk.on i::after { content: ""; position: absolute; left: 3.5px; top: 0.5px; width: 4px; height: 8px; border: solid var(--on); border-width: 0 2px 2px 0; transform: rotate(45deg); }
+.cardx { border: 1px solid var(--wfl); border-radius: 10px; background: var(--stage); padding: 8px 10px; display: flex; flex-direction: column; gap: 4px; }
+.cardx small { color: var(--muted); font-size: 11px; display: block; }
+.cardx.warnbox { background: var(--warn-soft); border-color: var(--warn); }
+.ph { border: 1.5px dashed var(--wfi); border-radius: 8px; display: grid; place-items: center; color: var(--muted); font-size: 11px; height: 38px; background: linear-gradient(to top right, transparent calc(50% - .5px), var(--wfl), transparent calc(50% + .5px)), linear-gradient(to top left, transparent calc(50% - .5px), var(--wfl), transparent calc(50% + .5px)); }
+.ph span { background: var(--wf); padding: 0 6px; }
+.photos { display: flex; gap: 6px; } .photos .ph { flex: 1; }
+.bb { max-width: 90%; padding: 7px 10px; border-radius: 12px; border: 1px solid var(--wfl); background: var(--stage); align-self: flex-start; }
+.bb.out { align-self: flex-end; background: var(--accent-soft); border-color: var(--accent); }
+.voice { display: flex; align-items: center; gap: 8px; }
+.play { width: 0; height: 0; border-left: 9px solid var(--accent); border-top: 6px solid transparent; border-bottom: 6px solid transparent; }
+.wave { display: flex; align-items: center; gap: 2px; height: 20px; }
+.wave i { width: 3px; background: var(--accent); border-radius: 2px; height: 8px; }
+.wave i:nth-child(2n) { height: 15px; } .wave i:nth-child(3n) { height: 20px; } .wave i:nth-child(5n) { height: 6px; }
+.toast { display: none; position: absolute; left: 10px; right: 10px; bottom: 10px; z-index: 6; background: var(--accent); color: var(--on); border-radius: 10px; padding: 9px 12px; font: 600 13px/1.35 var(--font-body); box-shadow: 0 6px 18px -8px rgba(0,0,0,.5); }
+.step.done .toast { display: block; }
+.side { display: none; position: absolute; left: calc(50% + 178px); top: 42%; width: 250px; background: var(--accent); color: var(--on); border-radius: 12px; padding: 13px 15px; font: 600 16px/1.35 var(--font-body); box-shadow: 0 8px 22px -10px rgba(0,0,0,.5); }
+.side::before { content: ""; position: absolute; left: -9px; top: 22px; border: 9px solid transparent; border-left: 0; border-right-color: var(--accent); }
+.step.done .side { display: block; }
+.pl { display: inline-block; border: 1px solid var(--wfi); border-radius: 999px; padding: 1px 9px; font-size: 11px; }
+.pl.on { background: var(--accent-soft); border-color: var(--accent); }
+.two { display: flex; gap: 8px; } .two > * { flex: 1; }
+
+/* the opening picture */
+.ov { width: 860px; display: flex; flex-direction: column; gap: 8px; }
+.ovrow { display: grid; grid-template-columns: repeat(4, 1fr); gap: 10px; }
+.ovb { border: 2.5px solid var(--p); border-radius: 12px; background: var(--stage); padding: 10px 12px; font-size: 14px; }
+.ovb b { display: block; font: 700 17px var(--font-head); } .ovb span { color: var(--muted); font-size: 13px; }
+.ovb.F { border-color: var(--f); } .ovb.R { border-color: var(--r); } .ovb.T { border-color: var(--t); }
+.ova { text-align: center; color: var(--muted); font-size: 14px; }
+.ovdesk { border: 3px solid var(--accent); background: var(--accent-soft); border-radius: 14px; padding: 14px 18px; text-align: center; }
+.ovdesk b { font: 700 22px var(--font-head); color: var(--accent); display: block; }
+.ovdesk span { font-size: 15px; }
+.ovrec { border: 2.5px dashed var(--ink); border-radius: 14px; padding: 12px 18px; text-align: center; background: var(--stage); }
+.ovrec b { font: 700 20px var(--font-head); display: block; } .ovrec span { color: var(--muted); font-size: 14px; }
+</style>
+
+<div id="wrap">
+<div id="deck">
+  <div class="top"><span class="chip" id="chip"></span><span class="count" id="count"></span></div>
+  <h1 id="head"></h1>
+  <p class="gain" id="gain"></p>
+
+  <div class="stage" id="stage">
+
+    <!-- 0 · the whole product in one picture -->
+    <section class="step" hidden data-chip="In one picture" data-head="Keepwell is one desk behind every person, and one record that follows the appliance." data-gain="">
+      <div class="ov">
+        <div class="ovrow">
+          <div class="ovb F"><b>Family</b><span>WhatsApp, in their language</span></div>
+          <div class="ovb R"><b>Retailer</b><span>Shop app</span></div>
+          <div class="ovb T"><b>Technician</b><span>Job app</span></div>
+          <div class="ovb"><b>Brand and partners</b><span>Portal</span></div>
+        </div>
+        <div class="ova">&#8595; ask, book, confirm &nbsp;&nbsp;&nbsp;&nbsp; jobs, leads, orders &#8595;</div>
+        <div class="ovdesk"><b>The Keepwell desk</b><span>Takes the request, drafts it with AI, a person approves, dispatches, orders the part, collects the payment.</span></div>
+        <div class="ova">&#8595; every step is written to</div>
+        <div class="ovrec"><b>The appliance record</b><span>A QR on the unit. The family owns it and shares it only with consent.</span></div>
+      </div>
+    </section>
+
+    <!-- 1 · sold -->
+    <section class="step" hidden data-chip="Sold" data-head="The shop sells, and books the install in one tap." data-gain="<b>Who gains:</b> the retailer sells care, not just a box. The family has one number to call." data-result="Booked. The family gets a WhatsApp message to confirm.">
+      <div class="who"><span class="role R">Retailer</span> the shop's phone, right after the sale</div>
+      <div class="dev phone">
+        <div class="pbar"><span class="role R">Retailer</span><b>Sri Sai Electronics · New sale</b></div>
+        <div class="pbody">
+          <div class="fld"><small>Customer phone</small><div class="inp">98480 12345</div></div>
+          <div class="fld"><small>Appliance</small><div class="inp">Daikin 1.5 t split AC</div></div>
+          <div class="lab">Add to the bill</div>
+          <div class="row"><span>Install within 24 hours</span><span class="tog on"><i></i></span></div>
+          <div class="row"><span>Protect, 2 years</span><span class="tog on"><i></i></span></div>
+          <div class="btn pri hl" style="margin-top:auto">Book install</div>
+        </div>
+      </div>
+      <div class="side"></div>
+    </section>
+
+    <!-- 2 · installed -->
+    <section class="step" hidden data-chip="Installed" data-head="A certified technician installs within 24 hours, and the job is proven." data-gain="<b>Who gains:</b> the family gets it fitted next day with the warranty safe. The technician is paid in two days." data-result="Closed. Warranty registered. The technician is paid within 48 hours.">
+      <div class="who"><span class="role T">Technician</span> the technician's phone, at the customer's home</div>
+      <div class="dev phone">
+        <div class="pbar"><span class="role T">Technician</span><b>Install · Daikin 1.5 t</b></div>
+        <div class="pbody">
+          <div class="chk on"><i></i>Indoor unit mounted</div>
+          <div class="chk on"><i></i>Pipe insulation</div>
+          <div class="chk on"><i></i>Drain test</div>
+          <div class="photos"><div class="ph"><span>Photo</span></div><div class="ph"><span>Photo</span></div><div class="ph"><span>Serial</span></div></div>
+          <div class="btn pri hl" style="margin-top:auto">Close with the family's code</div>
+        </div>
+      </div>
+      <div class="side"></div>
+    </section>
+
+    <!-- 3 · covered -->
+    <section class="step" hidden data-chip="Covered" data-head="Keepwell stays in touch in the shop's name, and sells care plans." data-gain="<b>Who gains:</b> the retailer earns from plans and stays in touch. The family gets no surprise bills." data-result="Plan added. Service visits are booked in the quiet months.">
+      <div class="who"><span class="role F">Family</span> the family's phone, in month 11 of the warranty</div>
+      <div class="dev phone">
+        <div class="pbar"><span class="role F">Family</span><b>Sri Sai Electronics</b></div>
+        <div class="pbody">
+          <div class="bb">Lakshmi garu, your AC warranty ends on 11 Oct. Add a care plan?</div>
+          <div class="cardx"><b>AMC · yearly service</b><small>Cleaning and gas check</small><b>₹1,299 a year</b></div>
+          <div class="cardx"><b>Protect · 2 years</b><small>Repairs covered after warranty</small><b>₹2,000</b></div>
+          <div class="btn pri hl" style="margin-top:auto">Choose Protect</div>
+        </div>
+      </div>
+      <div class="side"></div>
+    </section>
+
+    <!-- 4 · repaired -->
+    <section class="step" hidden data-chip="Repaired" data-head="A voice note starts the repair. AI drafts, a person approves." data-gain="<b>Who gains:</b> the family gets a fixed price and a guarantee. The retailer keeps the customer. The technician arrives with the part." data-result="Dispatched with the right part. One visit, fixed price, 90-day guarantee.">
+      <div class="who"><span class="role K">Keepwell</span> the Keepwell desk, when the family reports a fault</div>
+      <div class="dev desk">
+        <div class="dbar"><i></i><i></i><i></i><span class="url">desk.keepwell · Repair case</span><span class="role K">Keepwell desk</span></div>
+        <div class="dbody">
+          <div><div class="lab">The family said</div>
+            <div class="bb out voice" style="align-self:stretch;max-width:none"><span class="play"></span><span class="wave"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></span><small>Telugu, 12 s</small></div>
+            <div class="cardx"><small>Translated</small>"The AC is not cooling since yesterday."</div></div>
+          <div><div class="lab">AI suggests</div>
+            <div class="row"><span>Likely fault</span><span class="rr">Capacitor</span></div>
+            <div class="row"><span>Part</span><span class="rr">35 µF, in stock</span></div>
+            <div class="row"><span>Price, fixed list</span><span class="rr">₹3,000</span></div></div>
+          <div><div class="lab">A person decides</div>
+            <div class="btn pri hl">Approve and dispatch</div>
+            <div class="cardx"><small>AI never sets a price or overrides a safety stop.</small></div></div>
+        </div>
+        <div class="toast"></div>
+      </div>
+    </section>
+
+    <!-- 5 · second life -->
+    <section class="step" hidden data-chip="Second life" data-head="Not worth repairing? The old unit becomes credit, then a second life or safe recycling." data-gain="<b>Who gains:</b> the family gets credit. The retailer gets the next sale. The brand gets proof it met its take-back target." data-result="Refurbished and resold with a 6-month warranty. If it can't be saved: recycled, with the paperwork.">
+      <div class="who"><span class="role K">Keepwell</span> the Keepwell hub, when the old unit arrives</div>
+      <div class="dev desk">
+        <div class="dbar"><i></i><i></i><i></i><span class="url">hub.keepwell · Grading</span><span class="role K">Keepwell hub</span></div>
+        <div class="dbody">
+          <div><div class="lab">Old AC · 7 years</div>
+            <div class="row"><span>Repair would cost</span><span class="rr">₹6,800</span></div>
+            <div class="row"><span>Unit is worth</span><span class="rr">about ₹3,000</span></div>
+            <div class="cardx warnbox"><b>Not worth repairing</b><small>It becomes an exchange credit towards a new AC.</small></div></div>
+          <div><div class="lab">Choose its next life</div>
+            <div class="btn pri hl" style="padding:12px">Refurbish and resell<br><span style="font-weight:400;font-size:12px">about ₹7,500, 6-month warranty</span></div>
+            <div class="btn" style="padding:12px">Recycle safely<br><span style="font-weight:400;font-size:12px">registered recycler, with paperwork</span></div></div>
+        </div>
+        <div class="toast"></div>
+      </div>
+    </section>
+
+    <!-- 6 · the record -->
+    <section class="step" hidden data-chip="The record" data-head="Every step is written to one record. That is what only Keepwell has." data-gain="<b>Who gains:</b> brands get verified installs and claims. The retailer gets the next lead. The family decides who sees it." data-result="">
+      <div class="who"><span class="role K">Keepwell</span> the appliance's record, after a full life</div>
+      <div class="dev phone">
+        <div class="pbar"><span class="role K">Record</span><b>Daikin 1.5 t</b></div>
+        <div class="pbody" style="gap:6px">
+          <div class="chk on"><i></i>2019 · Sold and installed</div>
+          <div class="chk on"><i></i>2020 · Warranty ended, Protect bought</div>
+          <div class="chk on"><i></i>2022 · Repaired, capacitor</div>
+          <div class="chk on"><i></i>2026 · Traded in, refurbished</div>
+          <div class="chk on"><i></i>2026 · Resold to a new owner</div>
+          <div class="lab" style="margin-top:6px">Who can see it</div>
+          <div><span class="pl on">Family: all</span> <span class="pl">Retailer: leads</span> <span class="pl">Brand: installs</span></div>
+        </div>
+      </div>
+      <div class="side"></div>
+    </section>
+  </div>
+
+  <div class="bar">
+    <button type="button" class="nb" id="back">Back</button>
+    <div class="mid"><div class="dotsnav" id="dots"></div><div class="hint">Arrow keys to move. Click the amber button, or press Enter.</div></div>
+    <div style="display:flex;align-items:center;gap:14px"><span class="clock" id="clock"></span><button type="button" class="nb next" id="next">Next</button></div>
+  </div>
+</div>
+</div>
+
+<script>
+(function () {
+  var wrap = document.getElementById('wrap'), deck = document.getElementById('deck');
+  function fit() {
+    var k = Math.max(0.25, Math.min((document.documentElement.clientWidth - 32) / 1280, 1.6));
+    deck.style.transform = 'scale(' + k + ')'; wrap.style.width = (1280 * k) + 'px'; wrap.style.height = (720 * k) + 'px';
+  }
+  window.addEventListener('resize', fit); fit();
+
+  var steps = [].slice.call(document.querySelectorAll('.step'));
+  var chip = document.getElementById('chip'), count = document.getElementById('count'), head = document.getElementById('head'), gain = document.getElementById('gain');
+  var back = document.getElementById('back'), next = document.getElementById('next'), dots = document.getElementById('dots'), clock = document.getElementById('clock');
+  var idx = 0, t0 = null, timer = null;
+  steps.forEach(function () { dots.appendChild(document.createElement('i')); });
+
+  function fmt(s) { return Math.floor(s / 60) + ':' + ('0' + (s % 60)).slice(-2); }
+  function tick() { clock.textContent = t0 ? fmt(Math.round((Date.now() - t0) / 1000)) : ''; }
+  function go(i) {
+    idx = Math.max(0, Math.min(steps.length - 1, i));
+    steps.forEach(function (s, j) { s.hidden = j !== idx; s.classList.remove('done'); });
+    var s = steps[idx];
+    chip.textContent = s.dataset.chip; head.textContent = s.dataset.head; gain.innerHTML = s.dataset.gain || '';
+    count.textContent = (idx + 1) + ' of ' + steps.length;
+    [].slice.call(dots.children).forEach(function (d, j) { d.className = j === idx ? 'on' : (j < idx ? 'done' : ''); });
+    back.disabled = idx === 0;
+    next.textContent = idx === steps.length - 1 ? 'Start over' : 'Next';
+    if (idx === 0) { t0 = null; clearInterval(timer); timer = null; }
+    else if (!t0) { t0 = Date.now(); timer = setInterval(tick, 500); }
+    tick();
+    try { history.replaceState(null, '', '#step-' + (idx + 1)); } catch (e) {}
+  }
+  function tap() {
+    var s = steps[idx], h = s.querySelector('.hl');
+    if (!h || !s.dataset.result) return;
+    (s.querySelector('.side') || s.querySelector('.toast')).textContent = s.dataset.result;
+    s.classList.toggle('done');
+  }
+  back.addEventListener('click', function () { go(idx - 1); });
+  next.addEventListener('click', function () { go(idx === steps.length - 1 ? 0 : idx + 1); });
+  document.getElementById('stage').addEventListener('click', function (e) { if (e.target.closest('.hl')) tap(); });
+  document.addEventListener('keydown', function (e) {
+    if (e.key === 'ArrowRight' || e.key === ' ') { e.preventDefault(); go(idx === steps.length - 1 ? 0 : idx + 1); }
+    else if (e.key === 'ArrowLeft') go(idx - 1);
+    else if (e.key === 'Enter') { var a = document.activeElement; if (a && a.tagName === 'BUTTON') return; tap(); }
+  });
+  var m = /step-(\d+)/.exec(location.hash); go(m ? parseInt(m[1], 10) - 1 : 0);
+})();
+</script>
+
+</body></html>

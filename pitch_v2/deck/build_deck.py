@@ -60,14 +60,13 @@ def r_title(sl, d, n):
     box(sl, 0.6, 0.45, 0.5, 0.5, fill=TEAL, shape=MSO_SHAPE.ROUNDED_RECTANGLE); text(sl, 1.2, 0.45, 4, 0.5, "keepwell", size=22, bold=True, color=NAVY, anchor=MSO_ANCHOR.MIDDLE)
     text(sl, 0.6, 1.15, 12, 0.8, d["headline"], size=36, bold=True, color=NAVY)
     text(sl, 0.6, 1.9, 12, 0.5, d["tagline"], size=18, color=GREY)
-    text(sl, 0.6, 2.55, 12, 0.3, "THE FOUNDERS, AND WHY WE STARTED KEEPWELL", size=10, bold=True, color=TEAL)
+    text(sl, 0.6, 2.55, 12, 0.3, "THE FOUNDERS", size=10, bold=True, color=TEAL)
     for i, (ini, nm, role, bg, why) in enumerate(d["founders"]):
         x = 0.6 + i * 4.1; box(sl, x, 2.9, 3.9, 3.35, fill=SOFT); box(sl, x, 2.9, 3.9, 0.07, fill=C3[i])
         box(sl, x + 0.18, 3.1, 0.62, 0.62, fill=C3[i], shape=MSO_SHAPE.OVAL); text(sl, x + 0.18, 3.1, 0.62, 0.62, ini, size=13, bold=True, color=WHITE, align=PP_ALIGN.CENTER, anchor=MSO_ANCHOR.MIDDLE)
         text(sl, x + 0.92, 3.06, 2.9, 0.35, nm, size=14, bold=True, color=NAVY); text(sl, x + 0.92, 3.4, 2.9, 0.3, role, size=10, bold=True, color=C3[i])
         text(sl, x + 0.18, 3.85, 3.55, 0.5, bg, size=10, bold=True, color=INK)
-        text(sl, x + 0.18, 4.4, 3.55, 0.3, "WHY", size=8.5, bold=True, color=GREY)
-        text(sl, x + 0.18, 4.65, 3.55, 1.55, "“" + why + "”", size=12, italic=True, color=INK)
+        text(sl, x + 0.18, 4.45, 3.55, 1.6, "“" + why + "”", size=12, italic=True, color=INK)
     text(sl, 0.6, 6.38, 12.1, 0.3, d["advisors"], size=9.5, color=GREY)
     text(sl, 0.6, 6.85, 8, 0.35, d["foot"], size=11, color=GREY)
     sl.notes_slide.notes_text_frame.text = d["notes"]

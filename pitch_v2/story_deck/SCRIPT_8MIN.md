@@ -1,8 +1,8 @@
 # Keepwell seed pitch: the 8-minute story deck, explained slide by slide
 
 **Deck:** [`index_8min.html`](index_8min.html). Open it in Chrome. **F** goes full screen, **N** shows these notes, **→ / space** reveals the next click and **B** opens the backup slides for Q&A.
-**Length:** 15 slides, about **7:56** at 150 words a minute.
-**Speaking time:** Prathyusha (CEO) 3:17 · Kavyanth (COO) 2:31 · Sri Charan (CTO) 2:08.
+**Length:** 15 slides, about **7:53** at 150 words a minute.
+**Speaking time:** Prathyusha (CEO) 3:17 · Kavyanth (COO) 2:28 · Sri Charan (CTO) 2:08.
 
 ## How to use this script
 
@@ -30,7 +30,7 @@ Each slide has five parts:
 | 6 | The proof | The pilot cluster paid for itself from 20 retailers | Kavyanth | 0:30 | The cluster model is profitable in the field, and they know exactly why. |
 | 7 | The proof | Each retailer leaves ₹5,070 a month today and ₹9,600 at maturity | Kavyanth | 0:35 | Every rupee of the unit is accounted for, and growth comes from the same retailers. |
 | 8 | The money | Families pay market prices per job. Keepwell keeps ₹26 of every ₹100. | Kavyanth | 0:20 | The revenue is simple, per job, and every party in the chain is paid. |
-| 9 | The money | Profitable from year one | Kavyanth | 0:28 | This is a profitable, capital-efficient business. |
+| 9 | The money | Profitable from year one | Kavyanth | 0:25 | This is a profitable, capital-efficient business. |
 | 10 | Why we win | ₹4,000 Cr a year keeps small-town appliances running. We need 2% of it. | Prathyusha | 0:32 | The market is real, unorganised and large, and the plan needs only a sliver of it. |
 | 11 | Why we win | Same price as the market. Far more for it. | Sri | 0:23 | Keepwell does not win on price; it wins on what the customer gets. |
 | 12 | Why we win | Built one retailer at a time. Hard to copy. | Sri | 0:20 | The moat is the network, and the likely competitors are the likely buyers. |
@@ -52,7 +52,7 @@ Each slide has five parts:
 ### 1. Keepwell keeps the promise the retailer made
 **Prathyusha (CEO)** · about 0:37 · act: Keepwell
 
-**SHOW (on screen):** Logo, the line 'Keepwell keeps the promise the retailer made', the tagline, and three founder cards: each with a background line (600+ local retailers; 200+ service centres; claims platforms) and a quote on why they started Keepwell. Advisors along the bottom.
+**SHOW (on screen):** Logo, the line 'Keepwell keeps the promise the retailer made', the tagline, and three founder cards: each with a background line (600+ local retailers; 200+ service centres; claims platforms) and a quote. Advisors along the bottom.
 
 **SAY (word for word):**
 
@@ -186,15 +186,15 @@ Each slide has five parts:
 **BRIDGE:** *"Here's the five-year plan."*
 
 ### 9. Profitable from year one
-**Kavyanth (COO)** · about 0:28 · act: The money
+**Kavyanth (COO)** · about 0:25 · act: The money
 
-**SHOW (on screen):** A 5-year table and bars: retailers 200 → 3,000; clusters 4 → 50; revenue ₹3.5 Cr → ₹86 Cr; EBITDA +₹0.13 Cr → +₹16.9 Cr (4% → 20%). [click] 'EBITDA is positive every year; peak cash need ₹2.0 Cr; from 2030 growth pays for itself.'
+**SHOW (on screen):** A 5-year table and bars: retailers 200 → 3,000; clusters 4 → 50; revenue ₹3.5 Cr → ₹86 Cr; EBITDA +₹0.13 Cr → +₹16.9 Cr (4% → 20%). [click] 'EBITDA is positive every year. The seed funds cluster launches and working capital: the peak cash need is ₹2.0 Cr.'
 
 **SAY (word for word):**
 
 > From two hundred retailers next year to three thousand in year five, revenue grows from three and a half crore to eighty-six crore. EBITDA is positive every year, rising to a twenty percent margin.
 >
-> [click] We aren't raising to cover losses. We're raising to open clusters faster: the plan's peak cash need is two crore, and from 2030 growth pays for itself.
+> [click] We aren't raising to cover losses. We're raising to open clusters faster: the plan's peak cash need is two crore.
 
 **WHY this slide:** One table, one point: profitable from year one. The click explains why we still raise money.
 

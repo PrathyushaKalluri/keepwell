@@ -6,7 +6,7 @@ ACTS = [("open", "Keepwell"), ("problem", "The problem"), ("answer", "Our answer
 SPEAKERS = {"P": "Prathyusha (CEO)", "K": "Kavyanth (COO)", "S": "Sri Charan (CTO)"}
 SLIDES = [
 dict(id="title", act="open", sp="P", title="Keepwell keeps the promise the retailer made",
- show="Logo, the line 'Keepwell keeps the promise the retailer made', the tagline, and three founder cards: each with a background line (600+ local retailers; 200+ service centres; claims platforms) and a quote on why they started Keepwell. Advisors along the bottom.",
+ show="Logo, the line 'Keepwell keeps the promise the retailer made', the tagline, and three founder cards: each with a background line (600+ local retailers; 200+ service centres; claims platforms) and a quote. Advisors along the bottom.",
  say="""Every local appliance retailer makes a promise at the counter: this will be installed properly, and it will be looked after. Then the sale ends, and nobody keeps that promise. Keepwell does. We are the after-sale service arm of the local retailer.
 We're three founders, and each of us saw this from one side. I'm Prathyusha: I spent ten years in appliance distribution, supplying six hundred local retailers, and watched them blamed for installs they never did. Kavyanth ran a brand's service network. Sri Charan built claims platforms.""",
  why="It opens with the promise and the people, and each founder's reason is the problem seen from one side: the retailer, the service network, the plan.",
@@ -62,9 +62,9 @@ dict(id="model", act="money", sp="K", title="Families pay market prices per job.
  believe="The revenue is simple, per job, and every party in the chain is paid.",
  next="Here's the five-year plan."),
 dict(id="plan", act="money", sp="K", title="Profitable from year one",
- show="A 5-year table and bars: retailers 200 → 3,000; clusters 4 → 50; revenue ₹3.5 Cr → ₹86 Cr; EBITDA +₹0.13 Cr → +₹16.9 Cr (4% → 20%). [click] 'EBITDA is positive every year; peak cash need ₹2.0 Cr; from 2030 growth pays for itself.'",
+ show="A 5-year table and bars: retailers 200 → 3,000; clusters 4 → 50; revenue ₹3.5 Cr → ₹86 Cr; EBITDA +₹0.13 Cr → +₹16.9 Cr (4% → 20%). [click] 'EBITDA is positive every year. The seed funds cluster launches and working capital: the peak cash need is ₹2.0 Cr.'",
  say="""From two hundred retailers next year to three thousand in year five, revenue grows from three and a half crore to eighty-six crore. EBITDA is positive every year, rising to a twenty percent margin.
-[click] We aren't raising to cover losses. We're raising to open clusters faster: the plan's peak cash need is two crore, and from 2030 growth pays for itself.""",
+[click] We aren't raising to cover losses. We're raising to open clusters faster: the plan's peak cash need is two crore.""",
  why="One table, one point: profitable from year one. The click explains why we still raise money.",
  believe="This is a profitable, capital-efficient business.",
  next="And there's a lot of room. Prathyusha."),

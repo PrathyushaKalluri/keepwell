@@ -81,7 +81,7 @@ SLIDES = [
  dict(type="finplan", kicker="The plan · 5 years from the March 2027 close", headline="Profitable from year one",
       years=["2027", "2028", "2029", "2030", "2031"], retailers=["200", "500", "1,000", "1,800", "3,000"], clusters=["4", "9", "18", "30", "50"],
       revenue=[3.5, 11.2, 25.5, 49.0, 86.4], ebitda=[0.13, 1.28, 3.72, 8.37, 16.95], margin=["4%", "11%", "15%", "17%", "20%"],
-      result="EBITDA is positive every year. The seed funds cluster launches and working capital: the peak cash need is ₹2.0 Cr, and from 2030 growth pays for itself.",
+      result="EBITDA is positive every year. The seed funds cluster launches and working capital: the peak cash need is ₹2.0 Cr.",
       foot="Revenue per retailer: ₹19,500 a month in the pilot → ₹25,000 in year 1 (Protect sold from day one, AMC renewals of pilot customers) → ₹30,000 by year 5. Years run April–March from the close. Model: keepwell_model.xlsx.",
       notes="Kavyanth: read only the EBITDA row and the last sentence."),
  dict(type="market2", kicker="Market · the opportunity", headline="₹4,000 Cr a year keeps small-town appliances running. We need 2% of it.",
