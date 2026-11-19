@@ -33,3 +33,4 @@ C31,Retailer growth to year 5,"+ Protect ₹3,400 (2 × ₹1,700) + AMC ₹2,200
 C32,Cluster month,"Pilot Oct 34 × ₹5,070 − ₹1.0 L = +₹0.72 L; mature 60 × ₹9,600 − ₹1.5 L = +₹4.26 L (₹51 L a year)",xlsx Unit rows 26–27,Model,deck 5–6
 C33,Pilot bridge,"195 retailer-months × ₹19,500 = ₹38.0 L − ₹28.1 L job costs = ₹9.9 L − ₹8.0 L team = +₹1.9 L",xlsx Pilot,Pilot,deck 5
 C34,"Job mix behind ₹19,500","4 AC installs × ₹2,600 + 2 other installs × ₹300 + 2 visits × ₹300 + 2 repairs × ₹2,700 + 1.5 AMC × ₹1,100 + 0.5 Protect × ₹1,700 = ₹19,500 (avg ₹1,625); each at the market rate",xlsx Unit rows 30–40; research/retail_install (LG price charter); steps/00_unit_economics,Research/Pilot,deck 6; story unit
+C35,Market build and share,"45,000 retailers × ≈ ₹9 L = ≈ ₹4,000 Cr; repair and service 71%, installs 26%, AMC 3%; Keepwell year 5 ₹86 Cr ≈ 2% of TAM, 8% of SAM",steps/04 §4.2–4.5; xlsx Plan,Research/Model,deck 9; story market

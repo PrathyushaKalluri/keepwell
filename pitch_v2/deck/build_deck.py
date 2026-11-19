@@ -226,6 +226,35 @@ def r_market(sl, d, n):
         x = 0.6 + (i % 3) * 4.1; y = 1.7 + (i // 3) * 1.65; box(sl, x, y, 3.9, 1.5, fill=SOFT); box(sl, x, y, 0.07, 1.5, fill=[NAVY, NAVY, TEAL, TEAL, AMBER, AMBER][i])
         text(sl, x + 0.22, y + 0.12, 3.5, 0.6, v, size=26, bold=True, color=NAVY); text(sl, x + 0.22, y + 0.8, 3.5, 0.6, l, size=12, color=GREY)
     result(sl, d["result"], 5.15); foot(sl, d["foot"])
+def r_market2(sl, d, n):
+    import math
+    frame(sl, d, n); w = d["what"]
+    text(sl, 0.6, 1.45, 6.2, 0.3, "WHAT THE MARKET IS", size=10, bold=True, color=TEAL)
+    text(sl, 0.6, 1.72, 6.2, 0.6, w["big"], size=30, bold=True, color=NAVY); text(sl, 0.6, 2.3, 6.1, 0.6, w["line"], size=11, color=INK)
+    x = 0.6
+    for v, l in w["eq"]:
+        if v in ("×", "="): text(sl, x, 3.05, 0.35, 0.5, v, size=20, bold=True, color=GREY, align=PP_ALIGN.CENTER); x += 0.35; continue
+        box(sl, x, 3.0, 1.75, 0.82, fill=SOFT); text(sl, x + 0.08, 3.02, 1.6, 0.38, v, size=15, bold=True, color=NAVY)
+        text(sl, x + 0.08, 3.38, 1.65, 0.44, l.split("\n"), size=8, color=GREY); x += 1.78
+    y = 4.0; text(sl, 0.6, y, 6, 0.25, "WHAT IT IS SPENT ON", size=9, bold=True, color=TEAL); x = 0.6; W2 = 6.1
+    for i, (lab, pc, amt) in enumerate(w["split"]):
+        ww = W2 * pc / 100; box(sl, x, y + 0.28, ww - 0.02, 0.5, fill=[NAVY, TEAL, AMBER][i])
+        if pc > 10: text(sl, x + 0.06, y + 0.28, ww - 0.1, 0.5, f"{lab} {pc}% · {amt}" if pc > 50 else f"Installs {pc}%", size=9.5, bold=True, color=WHITE, anchor=MSO_ANCHOR.MIDDLE)
+        x += ww
+    text(sl, 0.6 + W2 - 1.4, y + 0.8, 1.4, 0.22, "AMC 3%", size=8, bold=True, color=AMBER, align=PP_ALIGN.RIGHT)
+    text(sl, 0.6, y + 1.0, 6.1, 0.55, w["today"], size=9.5, color=INK)
+    # nested squares, area to scale, anchored bottom-left
+    text(sl, 7.0, 1.45, 5.7, 0.3, "THE OPPORTUNITY · drawn to scale", size=10, bold=True, color=TEAL)
+    S0 = 3.75; bx, by = 7.0, 1.8 + S0; cols = [RGBColor(0xDC, 0xE6, 0xF0), RGBColor(0x9F, 0xD6, 0xCC), TEAL, AMBER]
+    for i, (v, l1, l2, val) in enumerate(d["rings"]):
+        side = S0 * math.sqrt(val / d["rings"][0][3]); box(sl, bx, by - side, side, side, fill=cols[i], line=WHITE)
+    lx = 7.0 + S0 + 0.15
+    for i, (v, l1, l2, val) in enumerate(d["rings"]):
+        yy = 1.85 + i * 0.94; box(sl, lx, yy + 0.08, 0.2, 0.2, fill=cols[i])
+        text(sl, lx + 0.28, yy, 1.6, 0.36, v, size=15 if i < 3 else 17, bold=True, color=AMBER if i == 3 else NAVY)
+        text(sl, lx + 0.28, yy + 0.35, 1.6, 0.5, [l1, l2], size=8.5, color=GREY)
+    text(sl, 0.6, 5.62, 12.1, 0.3, d["why"], size=10, bold=True, color=NAVY)
+    landbar(sl, d["result"], 5.98); foot(sl, d["foot"])
 def r_matrix(sl, d, n):
     frame(sl, d, n); cols = ["", *d["cols"]]; cw = [2.5] + [1.6] * 6
     for j, h in enumerate(cols):

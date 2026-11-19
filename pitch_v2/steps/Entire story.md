@@ -160,17 +160,34 @@ Revenue per retailer grows from ₹19,500 to ₹30,000 a month as Protect, AMC r
 
 EBITDA is positive every year. We raise to open clusters faster, not to cover losses. The plan's peak cash need is ₹2.0 Cr, and from 2030 growth pays for itself.
 
-### 9. ₹4,000 Cr of after-sale spend that no one organises
+### 9. ₹4,000 Cr a year keeps small-town appliances running. We need 2% of it.
 
-| Market measure | Size |
+**What the market is:** about **₹4,000 Cr a year**, spent installing, servicing and repairing the ACs, fridges, washing machines and water purifiers that families buy from local retailers in Tier 2/3 India.
+
+| How it is built | |
 |---|---|
-| Local appliance retailers in India | 45,000 |
-| Appliances they sell every month | 1.8–2.5 M |
-| After-sale spend a year, Tier 2/3 (TAM) | ≈ ₹4,000 Cr |
-| Five southern states (SAM) | ≈ ₹1,040 Cr |
-| Andhra Pradesh and Telangana (beachhead) | ≈ ₹360 Cr |
+| Local appliance retailers | 45,000 |
+| × after-sale spend a year by each retailer's customers | ≈ ₹9 L |
+| **= Total (TAM)** | **≈ ₹4,000 Cr** (range ₹3,500–4,800 Cr; household cross-check ₹3,600 Cr) |
 
-Our plan needs 3,000 of those retailers by 2031: under 7%.
+| What it is spent on | Share | ₹ a year |
+|---|---|---|
+| Repair and service | 71% | ≈ ₹2,840 Cr |
+| Installs | 26% | ≈ ₹1,040 Cr |
+| AMC | 3% | ≈ ₹120 Cr |
+
+**Who takes it today:** brand centres while the warranty runs, local mechanics after (44% of AC service), with no fixed price, guarantee or record. Nobody runs it for the retailer.
+
+**The opportunity, drawn to scale on the slide (nested squares):**
+
+| Layer | Size |
+|---|---|
+| India, Tier 2/3 (45,000 retailers) | ≈ ₹4,000 Cr |
+| Five southern states, where we go by year 5 | ≈ ₹1,040 Cr |
+| Andhra Pradesh + Telangana, where we start | ≈ ₹360 Cr |
+| **Keepwell in year 5 (3,000 retailers)** | **₹86 Cr: about 2%** |
+
+**The one point:** we need 3,000 of 45,000 retailers and about 2% of the spend to build a ₹86 Cr company.
 
 **Why now:**
 - AC ownership is about 10% and growing 15% a year.

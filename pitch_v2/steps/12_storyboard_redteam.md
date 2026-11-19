@@ -26,7 +26,7 @@
 | 6 | Unit economics: job → retailer → cluster | Positive at every level; 20 retailers pay for a cluster | Kavyanth |
 | 7 | Business model: live / next / later | How we make money, and who pays | Kavyanth |
 | 8 | The plan: a 5-year table and chart | Profitable from year one | Kavyanth |
-| 9 | Market: six tiles + why now | ₹4,000 Cr that no one organises; we need under 7% | Prathyusha |
+| 9 | Market: what it is (45,000 × ≈ ₹9 L = ₹4,000 Cr; spend split) + the opportunity drawn to scale (₹4,000 → ₹1,040 → ₹360 → ₹86 Cr) + why now | ₹4,000 Cr a year keeps small-town appliances running; we need 2% of it | Prathyusha |
 | 10 | Competition: a tick matrix | Everyone covers a part; only Keepwell covers it all | Sri Charan |
 | 11 | Team | Our networks are the edge | Prathyusha |
 | 12 | The ask: a use-of-funds table + terms | ₹2.5 Cr, the only round we need | Prathyusha |

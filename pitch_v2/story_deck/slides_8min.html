@@ -33,6 +33,11 @@
 .sw .c{background:#F6F8FA;border-radius:8px;padding:7px 10px;font:500 14.5px/1.28 var(--sans);color:var(--ink);display:flex;align-items:center}.sw .c.r1{background:#E3F3EF;font-weight:800;color:var(--ink);font-size:15px}.sw .c.d{color:#B8C0CC;justify-content:center}
 .swb{display:flex;justify-content:space-between;margin-top:10px;font:800 16px var(--sans)}.swb .br{color:var(--red)}.swb .lp{color:var(--amber)}
 .swk{margin-top:8px;background:var(--ink);color:#fff;border-radius:10px;padding:11px 18px;font:700 16px var(--sans)}
+.mk{font:800 14px var(--sans);letter-spacing:.14em;text-transform:uppercase;color:var(--teal)}.mbig{font:800 54px var(--serif,var(--sans));color:var(--ink);margin-top:6px}.mw p{font:500 19px/1.4 var(--sans);color:var(--ink);margin:6px 0 0}
+.meq{display:flex;align-items:stretch;gap:10px;margin-top:18px}.meq div{flex:1;background:#F6F8FA;border-radius:10px;padding:12px 14px}.meq div.tot{background:var(--ink)}.meq div.tot b,.meq div.tot span{color:#fff}.meq b{display:block;font:800 26px var(--sans);color:var(--ink)}.meq span{font:500 14px/1.3 var(--sans);color:var(--grey2)}.meq i{font:800 30px var(--sans);font-style:normal;color:var(--grey);align-self:center}
+.msp{display:flex;gap:3px;margin-top:10px;height:52px;border-radius:8px;overflow:hidden}.msp div{color:#fff;font:700 16px var(--sans);display:flex;align-items:center;padding:0 12px;white-space:nowrap}.msl{text-align:right;font:800 13px var(--sans);color:var(--amber);margin-top:4px}
+.mw p.mto{font-size:17px;margin-top:10px}.mqs{position:relative}.mq{position:absolute;left:0;bottom:0;border:2px solid #fff;border-radius:4px}.mls{display:flex;flex-direction:column;gap:20px}.ml{display:grid;grid-template-columns:22px 1fr;column-gap:12px}.ml i{width:22px;height:22px;border-radius:4px;grid-row:span 2;margin-top:6px}
+.ml b{font:800 28px var(--sans);color:var(--ink)}.ml b.k{color:var(--amber);font-size:34px}.ml span{grid-column:2;font:500 15px/1.3 var(--sans);color:var(--grey2)}.mwhy{margin-top:18px;font:700 18px var(--sans);color:var(--ink);background:#ECE7DC;border-radius:10px;padding:11px 16px}
 .br{display:flex;flex-direction:column;gap:7px}.brr{display:grid;grid-template-columns:44px 170px 1fr;align-items:center;background:#F6F8FA;border-radius:8px;padding:9px 16px}
 .brr i{font:800 28px var(--sans);font-style:normal;color:var(--grey)}.brr b{font:800 30px var(--sans);color:var(--ink);text-align:right;padding-right:22px}.brr span{font:500 15px/1.3 var(--sans);color:var(--grey2)}.brr strong{display:block;font:700 18px var(--sans);color:var(--ink)}
 .brr.tot{background:#E3F3EF}.brr.tot i{color:var(--teal)}.brr.last{background:var(--ink)}.brr.last i,.brr.last b,.brr.last strong{color:#fff}.brr.last span{color:#C9D3E6}
@@ -145,18 +150,26 @@
   <div class="st res" data-s="1">EBITDA is positive every year. The seed funds cluster launches and working capital: the peak cash need is ₹2.0 Cr, and from 2030 growth pays for itself.</div>
 </section>
 
-<section class="slide" data-id="market" data-thread="whole" data-steps="0">
-  <div class="eyebrow a">Market</div>
-  <h1 class="t a" style="--i:1">₹4,000 Cr of after-sale spend that no one organises</h1>
-  <div class="t6 a" style="--i:2;margin-top:30px">
-    <div class="card"><div class="big">45,000</div><div>local appliance retailers in India</div></div>
-    <div class="card"><div class="big">1.8–2.5 M</div><div>appliances sold through them every month</div></div>
-    <div class="card"><div class="big">≈ ₹4,000 Cr</div><div>after-sale spend a year, Tier 2/3 (TAM)</div></div>
-    <div class="card"><div class="big">≈ ₹1,040 Cr</div><div>five southern states (SAM)</div></div>
-    <div class="card"><div class="big">≈ ₹360 Cr</div><div>Andhra Pradesh + Telangana (beachhead)</div></div>
-    <div class="card"><div class="big">3,000</div><div>retailers by 2031: under 7% of them</div></div>
+<section class="slide" data-id="market" data-thread="whole" data-steps="1">
+  <div class="eyebrow a">Market · the opportunity</div>
+  <h1 class="t a" style="--i:1;font-size:58px">₹4,000 Cr a year keeps small-town appliances running. <em>We need 2% of it.</em></h1>
+  <div class="row" style="margin-top:26px;gap:56px;align-items:flex-start">
+    <div class="mw a" style="--i:2;flex:1.05">
+      <div class="mk">What the market is</div>
+      <div class="mbig">≈ ₹4,000 Cr a year</div>
+      <p>spent installing, servicing and repairing the ACs, fridges, washing machines and water purifiers that families buy from local retailers in Tier 2/3 India</p>
+      <div class="meq"><div><b>45,000</b><span>local retailers</span></div><i>×</i><div><b>≈ ₹9 L</b><span>after-sale spend a year per retailer's customers</span></div><i>=</i><div class="tot"><b>≈ ₹4,000 Cr</b><span>a year</span></div></div>
+      <div class="mk" style="margin-top:22px">What it is spent on</div>
+      <div class="msp"><div style="flex:71;background:var(--ink)">Repair and service 71% · ₹2,840 Cr</div><div style="flex:26;background:var(--teal)">Installs 26% · ₹1,040 Cr</div><div style="flex:3;background:var(--amber)"></div></div><div class="msl">AMC 3%</div>
+      <p class="mto">Who takes it today: brand centres in warranty, local mechanics after (44% of AC service), with no fixed price, guarantee or record. <b>Nobody runs it for the retailer.</b></p>
+    </div>
+    <div class="a" style="--i:3;flex:1">
+      <div class="mk">The opportunity · drawn to scale</div>
+      <div class="row" style="gap:26px;align-items:flex-end;margin-top:12px"><div class="mqs" style="width:470px;height:470px"><div class="mq" style="width:470px;height:470px;background:#DCE6F0"></div><div class="mq" style="width:240px;height:240px;background:#9FD6CC"></div><div class="mq" style="width:141px;height:141px;background:var(--teal)"></div><div class="mq st" data-s="1" style="width:69px;height:69px;background:var(--amber)"></div></div><div class="mls"><div class="ml"><i style="background:#DCE6F0"></i><b>≈ ₹4,000 Cr</b><span>India, Tier 2/3<br>45,000 retailers</span></div><div class="ml"><i style="background:#9FD6CC"></i><b>≈ ₹1,040 Cr</b><span>5 southern states<br>where we go by year 5</span></div><div class="ml"><i style="background:var(--teal)"></i><b>≈ ₹360 Cr</b><span>AP + Telangana<br>where we start</span></div><div class="ml st" data-s="1"><i style="background:var(--amber)"></i><b class="k">₹86 Cr</b><span>Keepwell, year 5<br>3,000 retailers: about 2%</span></div></div></div>
+    </div>
   </div>
-  <div class="res a" style="--i:3;font-size:22px">Why now: AC ownership is about 10% and growing ~15% a year, families already book and pay on WhatsApp, and the labour and e-waste rules favour a registered operator.</div>
+  <div class="mwhy a" style="--i:4">Why now: AC ownership ≈ 10% of homes and growing ~15% a year · families already book and pay on WhatsApp · labour and e-waste rules favour a registered operator</div>
+  <div class="st res" data-s="1" style="margin-top:14px">We need 3,000 of 45,000 retailers and about 2% of the spend to build a ₹86 Cr company.</div>
 </section>
 
 <section class="slide" data-id="competition" data-thread="whole" data-steps="0">

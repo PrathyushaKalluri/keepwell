@@ -451,12 +451,34 @@ The most cash the plan ever needs is **₹2.0 crore**, at the end of year 3. **�
 - **Customers are ready:** families already book and pay on WhatsApp and UPI.
 - **Regulation favours the organised:** new labour codes and the 2022 e-waste rules favour a registered, recorded operator over an informal one.
 
-**The market:**
-- **45,000 local appliance retailers** sell 1.8–2.5 million appliances a month.
-- That generates about **₹4,000 crore a year of after-sale spending** in Tier 2 and 3 India.
-- About ₹1,040 Cr of it is in the five southern states.
-- About ₹360 Cr is in Andhra Pradesh and Telangana, the starting point.
-- The plan needs **3,000 retailers by year 5: under 7% of them.**
+**The market.**
+
+**What the market is:** about **₹4,000 Cr a year**, spent installing, servicing and repairing the ACs, fridges, washing machines and water purifiers that families buy from local retailers in Tier 2/3 India.
+
+| How it is built | |
+|---|---|
+| Local appliance retailers | 45,000 |
+| × after-sale spend a year by each retailer's customers | ≈ ₹9 L |
+| **= Total (TAM)** | **≈ ₹4,000 Cr** (range ₹3,500–4,800 Cr; household cross-check ₹3,600 Cr) |
+
+| What it is spent on | Share | ₹ a year |
+|---|---|---|
+| Repair and service | 71% | ≈ ₹2,840 Cr |
+| Installs | 26% | ≈ ₹1,040 Cr |
+| AMC | 3% | ≈ ₹120 Cr |
+
+**Who takes it today:** brand centres while the warranty runs, local mechanics after (44% of AC service), with no fixed price, guarantee or record. Nobody runs it for the retailer.
+
+**The opportunity, layer by layer:**
+
+| Layer | Size |
+|---|---|
+| India, Tier 2/3 (45,000 retailers) | ≈ ₹4,000 Cr |
+| Five southern states, where we go by year 5 | ≈ ₹1,040 Cr |
+| Andhra Pradesh + Telangana, where we start | ≈ ₹360 Cr |
+| **Keepwell in year 5 (3,000 retailers)** | **₹86 Cr: about 2%** |
+
+**The one point:** we need 3,000 of 45,000 retailers and about 2% of the spend to build a ₹86 Cr company.
 
 **The reasoning.** The gap exists because each player started from a different customer: the household, the brand, or the chain store. Keepwell starts from the local retailer, who already holds the family's trust. That is hard to copy for three reasons:
 - the retailer agreements are exclusive;

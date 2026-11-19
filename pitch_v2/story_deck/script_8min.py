@@ -28,8 +28,8 @@ dict(id="answer", act="answer", sp="K", title="The retailer sells the promise. K
  next="Here is what that means for one appliance. Sri Charan."),
 dict(id="lifecycle", act="answer", sp="S", title="At every stage, Keepwell and everyone around it gains",
  show="A swimlane. Across the top, seven stages of one appliance's life as arrows: Sold → Installed → Warranty years → Covered (AMC + Protect) → Repaired → Traded in (refurbished) → Recycled, each tagged Serve now or Circulate from year 3. Rows: what Keepwell does; what Keepwell gets (₹2,600 install, AMC ₹1,299, Protect ₹2,000, ₹300 visit, ₹2,700 repair; trade-in and recycling as upside). [click] Four more rows: what the family, the retailer, the technician, and brands and partners get at each stage. Below: the branch (not worth repairing → trade-in), the loop (trade-in is the retailer's next sale) and the Know bar.",
- say="""I'm Sri Charan. This is one appliance's whole life, left to right. At the sale we open its record. We install it within a day, keep it covered with maintenance and Protect, and repair it with genuine parts. When it isn't worth repairing, we take it as a trade-in, refurbish it or recycle it. The second row is what we earn at each stage.
-[click] Now read down any column. At every stage, the family, the retailer, the technician and the brand each gain something. The family gets one number and a guarantee, the retailer a commission and the next sale, the technician steady paid work, the brand a verified install. That's why they keep sending us the next job.""",
+ say="""I'm Sri Charan. This is one appliance's life, left to right. We open its record at the sale, install it within a day, keep it covered, and repair it with genuine parts. When it isn't worth repairing, we take it as a trade-in and refurbish or recycle it. The second row is what we earn.
+[click] Now read down any column. At every stage the family, the retailer, the technician and the brand each gain. That's why they keep sending us the next job.""",
  why="One picture answers both questions: what Keepwell does and earns at each stage, and why every other party wants it there.",
  believe="Every party gains at every stage, so the model is pulled forward by its stakeholders, not pushed.",
  next="We tested this for eight months. Kavyanth."),
@@ -43,10 +43,10 @@ The chart shows when it turned: in May, the month we reached twenty retailers.
  next="Why does each retailer leave ₹5,070? Next slide."),
 dict(id="unit", act="proof", sp="K", title="Each retailer leaves ₹5,070 a month today and ₹9,600 at maturity",
  show="Top row: the 12 jobs behind ₹19,500, each with its market reference — 4 AC installs × ₹2,600 (brand price), 2 other installs × ₹300, 2 service visits × ₹300 (local mechanic), 2 repairs with a part × ₹2,700 (UC rate card), 1.5 AMCs × ₹1,100, 0.5 Protect plans × ₹1,700 = ₹19,500, average ₹1,625. Below, three panels. One retailer's month in the pilot: ₹19,500 − technicians ₹4,900 − parts ₹6,400 − retailer commission ₹1,440 − travel, payments, AI desk ₹1,690 = ₹5,070 (26%). The same retailer in year 5: + Protect ₹3,400 + AMC renewals ₹2,200 + repairs on our installs ₹4,900 = ₹30,000; at 32%, ₹9,600. One cluster's month: pilot October 34 × ₹5,070 − ₹1.0 L team = +₹0.72 L; mature 60 × ₹9,600 − ₹1.5 L team = +₹4.26 L a month, ₹51 L a year. [click] The result line.",
- say="""Here's where that five thousand comes from. A retailer gives us twelve jobs a month. Four are AC installs, with the bracket and pipe, at about twenty-six hundred rupees. Four are small jobs at three hundred: a washing-machine install or a service visit. Two are repairs with a part, at about twenty-seven hundred. The rest is maintenance contracts and Protect. Every price is the market rate: the brand's own install price, the local mechanic's visit charge. We win on speed and the guarantee, not on price. Together: nineteen and a half thousand, an average of sixteen twenty-five a job.
-Technicians take forty-nine hundred, parts sixty-four hundred, the retailer's commission about fifteen hundred, travel and payments the rest. Five thousand and seventy is ours.
-The same retailer grows. Two Protect plans a month, two maintenance renewals, and repairs on the appliances we installed take it to thirty thousand a month. Buying parts centrally lifts our share to thirty-two percent: ninety-six hundred.
-Now the cluster. In October, thirty-four retailers less the team gave seventy-two thousand. That's the number you just saw on the chart. A mature cluster of sixty retailers makes four lakh a month.
+ say="""Here's where that five thousand comes from. Twelve jobs a month, each at the market rate: four AC installs with the bracket and pipe, four three-hundred-rupee jobs, two repairs with a part, and the plans. Nineteen and a half thousand, sixteen twenty-five a job on average.
+Technicians, parts, the retailer's commission and travel take the rest; five thousand and seventy is ours.
+The same retailer grows to thirty thousand a month with Protect, renewals and repairs on our installs, and we keep thirty-two percent: ninety-six hundred.
+In October the cluster made seventy-two thousand, the number on the chart. A mature cluster of sixty makes four lakh a month.
 [click] Same unit, same arithmetic: fifty-one lakh a year per cluster.""",
  why="It opens up the ₹5,070 from slide 5, grows the same retailer, and ends on slide 5's October number before scaling it. A continuation, not a new set of facts.",
  believe="Every rupee of the unit is accounted for, and growth comes from the same retailers.",
@@ -65,12 +65,13 @@ dict(id="plan", act="money", sp="K", title="Profitable from year one",
  why="One table, one point: profitable from year one. The click explains why we still raise money.",
  believe="This is a profitable, capital-efficient business.",
  next="And there's a lot of room. Prathyusha."),
-dict(id="market", act="win", sp="P", title="₹4,000 Cr that no one organises",
- show="Six tiles: 45,000 local retailers; 1.8–2.5 M appliances a month; ≈ ₹4,000 Cr TAM; ≈ ₹1,040 Cr SAM; ≈ ₹360 Cr beachhead; 3,000 retailers by 2031 (under 7%). Why-now line underneath.",
- say="""There are forty-five thousand local appliance retailers in India, selling about two million appliances a month — about four thousand crore a year of after-sale spend. Our plan needs three thousand of them by 2031, under seven percent.
-And it's the right time: AC ownership is growing fifteen percent a year, families already book and pay on WhatsApp, and the new rules favour a registered operator.""",
- why="The market as six tiles that end in how small a share we need, with why now in one line.",
- believe="The plan needs only a small share of a large market.",
+dict(id="market", act="win", sp="P", title="₹4,000 Cr a year keeps small-town appliances running. We need 2% of it.",
+ show="Left, what the market is: ≈ ₹4,000 Cr a year spent installing, servicing and repairing ACs, fridges, washing machines and purifiers bought from local retailers in Tier 2/3 India; 45,000 retailers × ≈ ₹9 L each = ≈ ₹4,000 Cr; a bar: repair and service 71% (₹2,840 Cr), installs 26% (₹1,040 Cr), AMC 3%; who takes it today. Right, nested squares drawn to scale: ₹4,000 Cr India → ₹1,040 Cr five southern states → ₹360 Cr AP + Telangana. [click] The small amber square: Keepwell year 5, ₹86 Cr, about 2%, and the result line. Why-now strip underneath.",
+ say="""Every year, small-town families spend about four thousand crore installing, servicing and repairing these appliances: forty-five thousand retailers, about nine lakh each. Today it goes to brand centres and local mechanics, with no price, no guarantee, no record.
+On the right, to scale: the south is a thousand crore; Andhra and Telangana, where we start, three hundred and sixty.
+[click] This small square is us in year five: eighty-six crore, about two percent.""",
+ why="One side says what the money is; the other shows, to scale, how little of it the plan needs.",
+ believe="The market is real, unorganised and large, and the plan needs only a sliver of it.",
  next="Why hasn't anyone done this? Sri Charan."),
 dict(id="competition", act="win", sp="S", title="Everyone covers a part",
  show="A tick matrix: Keepwell ticks all six (authorised install, repair and AMC, plan at the counter, local retailer is the customer, own delivery in small towns, appliance record). Urban Company, Onsitego/Zopper, 247around/SERVIZ, brand service centres, Jeeves/resQ and local mechanics each cover a part. Line: only Keepwell is the after-sale arm of the local retailer.",
