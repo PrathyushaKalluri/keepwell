@@ -1,6 +1,6 @@
 # Step 7b: Making the business model work (redesign)
 
-**Phase C (the money). Status: DRAFT for approval (20 Nov 2026). Replaces the A/B/C decision in Step 7 §7.6.**
+**Phase C (the money). Status: APPROVED (20 Nov 2026); model rebuilt (`keepwell_model.xlsx`: 630 formulas, 0 errors, 0 mismatches in all four scenarios). Replaces the A/B/C decision in Step 7 §7.6.**
 
 > **Illustrative case** for the IIIT Hyderabad ESFS course pitch.
 > - **Engine:** `model/plan_v3.py`, which runs on the Step 7 engine (`plan_core.py`). Run `python3 model/plan_v3.py` to print every table below.
@@ -165,7 +165,7 @@ The levers are added one at a time to the corrected Step 7 BASE; pilot inputs ar
 **Rollout and reach:**
 - Clusters by year: 3 → 6 → 11 → 18 → 28 → 40 → 55 → 72 by year 8.
 - Shops: **3,300 in year 7, 4,320 in year 8**.
-- That is about **14–18%** of the 23,400 serviceable independent retailers in the founders' document.
+- That is about **7% (year 7) to 10% (year 8)** of India's ~45k independent shops (Step 4). About 2,000 are in the south; the rest are partner clusters in the west.
 
 ## 7b.3 Evidence behind every new input
 
@@ -255,7 +255,7 @@ The levers are added one at a time to the corrected Step 7 BASE; pilot inputs ar
 | 3 Ecosystem | Service centres move from "sub-contract" to **partner-cluster operator** (10% fee, ₹8 L opening floor). Add a plan-terms or legal advisor row (service contract, reserve) |
 | 4 Market | SOM year 7 becomes about **3,300 shops and ₹130 Cr** (was 1,950 shops and ₹115 Cr). Add Protect to the market: covered units × attach × ₹2,000 |
 | 5 Product | Add Protect to the job flows: sale → plan record → claim. North star unchanged |
-| 6 Traction [Story] | Add a **Protect counter test in the last 8 weeks of the pilot** at 12 shops: about 6% attach on about 800 covered units, so about 50 plans; 0 claims so far (coverage starts after the brand warranty) |
+| 6 Traction [Story] | Add a **Protect counter test in the last 8 weeks of the pilot** at 12 shops: about 6% attach on about 1,200 covered units, so 72 plans and ₹1.4 L sold; 0 claims so far (coverage starts after the brand warranty). **Applied.** |
 | 7 | Rebuild `keepwell_model.xlsx` on `plan_v3`; 7b replaces §7.6 |
 | 00b / 00c | Replace the old 8-year stack and the "10–12% from service alone" line with this plan and the mature run-rate |
 

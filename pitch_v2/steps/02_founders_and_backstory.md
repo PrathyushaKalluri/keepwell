@@ -2,6 +2,8 @@
 
 **Phase A: who we are. Status: DRAFT for approval (20 Nov 2026).**
 
+> **Update after Step 7b (approved 20 Nov 2026).** Kavyanth's relationships with owners of 200+ service centres are now also the **pipeline for partner clusters**: from year 3, existing service-centre owners run new clusters for a 10% fee, and 66 are needed by year 8. Prathyusha's dealer network is also the channel for **Keepwell Protect**, the 2-year repair plan the shop sells at the counter. See `07b_model_redesign.md`.
+
 > **Illustrative case.** Built for the IIIT Hyderabad ESFS course pitch. The founder names are the real team. Their histories, the company timeline, the pilot and the money raised are **[Story]**: assumptions kept consistent across every document. Employers are described generically (e.g. "a top-5 AC brand") so the pitch doesn't impersonate or misattribute any real company.
 
 **Tags:**

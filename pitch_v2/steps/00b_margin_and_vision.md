@@ -1,5 +1,7 @@
 # Step 0b: Is the margin good enough, and where does Keepwell go? (Gate 1 follow-up)
 
+> **Update after Step 7b (approved 20 Nov 2026).** The 8-year stack here is superseded by `07b_model_redesign.md`: year-7 revenue ₹130.5 Cr at 6.6% EBITDA; the mature run-rate of the year-8 network is ₹249 Cr at 13.4%.
+
 > **Illustrative case** for the IIIT Hyderabad ESFS course pitch. The research is real and sourced. The plan's numbers are a model with tagged assumptions.
 >
 > **For approval, together with `00_validation_report.md`.**

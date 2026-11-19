@@ -16,7 +16,7 @@
 > 1. **TAM ≈ ₹4,000 Cr a year** (range ₹3,500–4,800 Cr). This is after-sale spend (installs, out-of-warranty service and repair, AMC) on the four appliances, linked to independent shops in Tier 2/3 India. It sits between two independent methods: shops ₹4,150 Cr, households ₹3,600 Cr.
 > 2. **This replaces the ₹1,550 Cr in the validation report.** That figure counted only the ~9k large shops. Gate 1 then decided to serve **every** shop (00c §4c), so all ~45k shops count. The bridge is in §4.2. It is the same headline number the founders started with, reached a different way.
 > 3. **SAM (5 southern states) ≈ ₹1,040 Cr. Beachhead (AP + Telangana) ≈ ₹360 Cr.** Both use the states' share of repair *value* (26% and 8.9%), not household counts.
-> 4. **SOM in year 7: ₹115 Cr revenue from 1,950 shops.**
+> 4. **SOM in year 7: ₹130 Cr revenue from 3,300 shops (55 clusters).** Updated after Step 7b; was ₹115 Cr from 1,950 shops.
 >    - **Nationally:** about 4% of India's independent shops.
 >    - **Within the south:** about **20–25% of the southern Tier 2/3 shops**, because every year-7 shop is in the south.
 >
@@ -133,17 +133,18 @@ The earlier city-by-city study [R: `pitch/archive/market_intel/`] measured paid 
 | **TAM** | After-sale spend linked to independent shops, Tier 2/3 India | **≈ ₹4,000 Cr** (₹3,500–4,800 Cr) | §4.2–4.3 |
 | **SAM** | Same, in AP, Telangana, Karnataka, Tamil Nadu and Kerala, reachable by year 8 | **≈ ₹1,040 Cr** (₹910–1,250 Cr) | 26% of Tier 2/3 repair value [R: archive `states.csv`] |
 | **Beachhead** | AP + Telangana | **≈ ₹360 Cr** (₹310–430 Cr) | 8.9% of Tier 2/3 repair value [R] |
-| **SOM, year 7** | Plan reach (00b BASE) | **₹115 Cr revenue** (₹59 Cr core service), **65 clusters, 1,950 shops** | See below |
+| **SOM, year 7** | Plan reach (Step 7b BASE) | **₹130.5 Cr revenue** (₹99 Cr core service, ₹10 Cr Keepwell Protect), **55 clusters (49 partner-run), 3,300 shops** | See below |
 
 **How big a share the SOM needs:**
-- **Of India's ~45k independent shops:** about 4%.
-- **Of the south's Tier 2/3 independent shops:** about **20–25%**. The south has an estimated 7.5–10.4k of them (45k × 64% outside metros × 26–36% southern share).
+- **Of India's ~45k independent shops:** about **7%** (11% of the ~29k outside metros).
+- **Of the south's Tier 2/3 independent shops:** about 2,000 of the 3,300 are in the south, again about **20–25%** of its estimated 7.5–10.4k (45k × 64% outside metros × 26–36% southern share). The other ~1,300 are partner clusters in Maharashtra, Gujarat and MP.
+- **Keepwell Protect is new spend, not in the TAM:** covered units × attach × ₹2,000. It is about ₹10 Cr of the year-7 SOM.
 - **What to say:** *"By year 7 we serve about a quarter of the independent shops in the southern towns we enter. That's why density, not national share, is our test."*
 
 **Geography:**
 - **Years 1–3:** AP + Telangana.
-- **Years 4–7:** Karnataka, Tamil Nadu, Kerala.
-- **Year 8:** Maharashtra and beyond.
+- **Years 3–6:** partner clusters across Karnataka, Tamil Nadu and Kerala.
+- **Years 5–8:** partner clusters in Maharashtra, Gujarat and MP. The SAM's year-8 reach widens beyond the 5 southern states.
 
 ## 4.6 Problem scale (numbers for the problem slide)
 
@@ -171,7 +172,7 @@ The earlier city-by-city study [R: `pitch/archive/market_intel/`] measured paid 
 ## 4.8 Weak points, said before an investor does
 - **The shop count and total units are derived (Low confidence).** Fix: a shop walk plus GST HSN counts in the pilot belt (Step 6).
 - **The two methods disagree on how much of the spend is AC (86% vs 56%).** We say so; the pilot's job mix settles it.
-- **The SOM needs 20–25% of southern shops.** We state it, and the cluster plan shows how.
+- **The SOM needs 20–25% of southern shops plus partner clusters in the west.** We state it; partners are how the rollout is staffed (Step 7b).
 - **Our household survey is small.** It is used for patterns and quotes only, never as a market statistic.
 
 ---
@@ -179,7 +180,7 @@ The earlier city-by-city study [R: `pitch/archive/market_intel/`] measured paid 
 ## Decisions to approve (Step 4)
 1. **TAM ≈ ₹4,000 Cr** (₹3,500–4,800 Cr), sized on total units sold and cross-checked against households. It replaces the ₹1,550 Cr large-shop figure.
 2. **SAM ≈ ₹1,040 Cr** (5 southern states, by value share). **Beachhead ≈ ₹360 Cr** (AP + Telangana).
-3. **SOM in year 7:** ₹115 Cr from 1,950 shops, about 4% of India and **20–25% of southern Tier 2/3 shops**. Stated openly.
+3. **SOM in year 7:** ₹130 Cr from 3,300 shops, about 7% of India's independent shops; **20–25% of southern Tier 2/3 shops** plus partner clusters in the west. Stated openly (updated after Step 7b).
 4. **AC is the majority of the spend** (56–86%). The other three appliances are pitched for utilisation and stickiness.
 5. **Problem-slide numbers** (§4.6) and the one-line problem statement.
 

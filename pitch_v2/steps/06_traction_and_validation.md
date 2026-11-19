@@ -2,6 +2,15 @@
 
 **Phase B: the opportunity and the proof. Status: DRAFT for approval (20 Nov 2026). This is the last step before Gate 2. Revised after an independent review.**
 
+> **Update after Step 7b (approved 20 Nov 2026).** **Added: Keepwell Protect counter test [Story], May–Jun 2026 (last 8 weeks of the pilot), 12 shops.**
+> - Shops offered the 2-year repair plan at ₹1,499–2,999 by category on about 1,200 covered units sold.
+> - **About 6% attach: 72 plans and ₹1.4 L sold incl. GST.** Shops kept 25% (about ₹30k).
+> - 0 claims so far: coverage starts after the brand warranty.
+> - Best sellers were the 4 shops whose owners also used the install guarantee in their sales pitch.
+> - Plan cash net of commission is held in the claims reserve and is **not** in the ₹18 L cash figure.
+>
+> This is evidence of willingness to buy, not of claims cost. Claims are tested from 2027 and are a tranche gate (Step 8).
+
 > **Illustrative case** for the IIIT Hyderabad ESFS course pitch.
 >
 > | Tag | Meaning |

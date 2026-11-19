@@ -2,6 +2,13 @@
 
 **Phase B: The opportunity and the proof. Status: DRAFT for approval (20 Nov 2026).**
 
+> **Update after Step 7b (approved 20 Nov 2026).** **New job flow: Keepwell Protect.**
+> 1. *Sale:* the shop adds the 2-year repair plan to the bill, and the WhatsApp agent creates the plan record against the appliance's serial.
+> 2. *Coverage:* the plan starts when the brand warranty ends.
+> 3. *Claim:* the customer messages Keepwell, the AI triages the claim against the plan terms, and a partner or Keepwell technician repairs it at no charge.
+>
+> Guardrails: the AI does not decide claim rejections; a human does. Protect is a repairs-only service contract with expected claims ring-fenced. In partner clusters, Keepwell still owns the shop, the customer, the payment and the record. The north star is unchanged. See `07b_model_redesign.md`.
+
 > **Illustrative case** for the IIIT Hyderabad ESFS course pitch.
 > - Competitor facts are real and sourced **[R]**.
 > - Product build status is **[Story]**, consistent with Step 2.

@@ -2,6 +2,8 @@
 
 **Phase A: who we are. Status: DRAFT for approval (20 Nov 2026).**
 
+> **Update after Step 7b (approved 20 Nov 2026).** Service centres now play **two roles**: sub-contractors for authorised installs (unchanged), and from year 3 **partner-cluster operators**. As operators they get a 10% fee on core service revenue and an ₹8 L opening-year minimum, and they provide the coordinator, premises, technicians and off-season floor. Keepwell keeps the shop agreements, the customer, the payment, Protect and the record. **New ecosystem row: plan-terms / consumer-law advisor** for Keepwell Protect (a repairs-only service contract, not insurance; claims reserve). See `07b_model_redesign.md`.
+
 > **Illustrative case** for the IIIT Hyderabad ESFS course pitch.
 > - **Real and sourced [R]:** schemes, players and prices.
 > - **Assumed [Story]:** the status of each partnership, kept consistent with Step 2.

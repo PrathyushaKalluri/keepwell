@@ -1,5 +1,7 @@
 # Step 0c: Why the service business is valuable on its own, and where to pilot (Gate 1 follow-up)
 
+> **Update after Step 7b (approved 20 Nov 2026).** The line "10–12% from service alone" is superseded. A mature cluster now earns 14–16% EBITDA (Step 7b). At the company level, the mature run-rate from service alone is 9.1%.
+
 > **Illustrative case** for the IIIT Hyderabad ESFS course pitch. The research is real and sourced, and the model's assumptions are tagged.
 >
 > **For approval, together with `00_validation_report.md` and `00b_margin_and_vision.md`.**
