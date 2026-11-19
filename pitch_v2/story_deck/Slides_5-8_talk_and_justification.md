@@ -158,7 +158,6 @@ Together these four slides take about **1 minute 57 seconds**:
 **If they ask…**
 - **"Is year 2–3 revenue in your plan?"** Only through the rise in revenue per retailer, from ₹19,500 to ₹30,000. Partner fees, verification and resale beyond that are upside the plan does not count (Step 7c).
 - **"Why would a retailer accept 7%?"** The commission is on top. What the retailer really gets is relief from after-sale blame and a customer who keeps coming back (slide 4: retention).
-- **"Who pays if the family doesn't?"** No one. Every job is paid at the time of service, and installs are paid at sale. There is no credit risk on families.
 
 ---
 
