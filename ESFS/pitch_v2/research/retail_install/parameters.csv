@@ -1,0 +1,60 @@
+parameter,low,base,high,unit,label,source,url,note
+install_fee_split_ac_LG,1199,1199,1199,INR excl GST,FACT,LG RAC installation price charter (eff Feb 2026),https://lg.com/in/support/rac-installation-price-charter,Applies till 30 days from purchase; window AC 500
+install_fee_split_ac_Lloyd,1199,1199,1199,INR excl GST,FACT,Havells service charge page,https://havells.com/service-charge,"Maximum Applicable Rates"; tower 3400; cassette 4000; window 500
+install_fee_split_ac_Daikin,699,1500,1500,INR excl GST,FACT,Daikin charges page,https://www.daikinindia.com/node/595,1770 incl GST; 699 is an offer rate seen in snippet only
+install_fee_split_ac_Panasonic,1200,1200,1200,INR,FACT,Panasonic non-standard AC leaflet 12 Mar 2025,https://store.in.panasonic.com/media/wysiwyg/pdf-guide/NON-STANDARD-AC-LEAFLET.pdf,
+install_fee_split_ac_Voltas,1199,1199,1199,INR excl GST,SOURCE-BACKED PROXY,Voltas EMI T&C page (snippet; related page 404),https://www.voltas.com/pages/voltas-emi-t-cs,Window 499; low confidence
+install_fee_split_ac_others_listing,999,1345,1345,INR,SOURCE-BACKED PROXY,Croma/Amazon listings (Blue Star etc),,Snippet level; Blue Star/Whirlpool/IFB/Godrej official cards UNKNOWN
+install_market_range_ac_flipkart,1500,2500,3500,INR plus materials,SOURCE-BACKED PROXY,Flipkart press release 13 Mar 2026,https://stories.flipkart.com/announcement/flipkart-expands-smart-cooling-portfolio-with-motorola-air-conditioners-with-transparent-installation-model,Base is midpoint (DERIVED)
+install_fee_ac_urban_company,799,1499,1899,INR,SOURCE-BACKED PROXY,Urban Company article 26 Apr 2025 and city pages (snippets),https://www.urbancompany.com/articles/understanding-ac-installation-charges-in-india,Non-brand benchmark
+copper_pipe_extra_per_m,850,1050,1100,INR per metre,FACT,LG / Lloyd / Daikin / Panasonic rate cards,https://lg.com/in/support/rac-installation-price-charter,Lloyd 950; Panasonic 850; Daikin 1100
+outdoor_bracket,750,750,800,INR,FACT,LG / Samsung / Lloyd / Daikin rate cards,https://havells.com/service-charge,
+ac_dismantle,500,500,600,INR,FACT,LG / Samsung / Daikin,https://www.daikinindia.com/node/595,Re-install about 1200 (Panasonic)
+install_fee_geyser_Havells,250,250,350,INR,FACT,Havells service charge page,https://havells.com/service-charge,350 up-country
+install_fee_geyser_listing,,1345,,INR,SOURCE-BACKED PROXY,Vijay Sales listings (AO Smith/Bajaj),,Looks like boilerplate; low confidence
+install_fee_RO,0,0,0,INR,SOURCE-BACKED PROXY,Eureka Forbes product page; Kent manual copies,https://www.eurekaforbes.com/dp/GWPDERUUE00000/aquaguard-enhance-ro-uv-uf-copper-water-purifier,Free inside service plan
+install_fee_washing_machine,UNKNOWN,UNKNOWN,UNKNOWN,INR,UNKNOWN,,,Settle: brand pages / 10 dealer interviews
+install_fee_tv_wallmount,UNKNOWN,UNKNOWN,UNKNOWN,INR,UNKNOWN,,,Bracket usually extra (unverified)
+blended_install_fee_pitch,,650,,INR,ASSUMPTION,Pitch,,Overstates contestable fee: RO free; geyser ~250; AC controlled by brand
+brand_payout_to_installer_ac,UNKNOWN,UNKNOWN,UNKNOWN,INR per install,UNKNOWN,,,Only datapoint: Daikin installer 'receipt' 825/AC (TechEnclave 2024; low). Settle: ASC interviews / 247around
+free_install_share_ac,UNKNOWN,UNKNOWN,UNKNOWN,% of AC units,UNKNOWN,,,Free install is promo-only (Samsung selected models; Daikin offer; Panasonic via ASC). Settle: SKU scan top 50
+who_pays_ac_install,,customer,,categorical,FACT,Amazon/Vijay Sales listings; brand rate cards,https://lg.com/in/support/rac-installation-price-charter,Paid directly to brand technician at doorstep
+warranty_void_non_authorised_install_ac,,YES,,rule,FACT,Samsung/Daikin/Carrier/IFB/Godrej/Panasonic T&C,https://images.samsung.com/is/content/samsung/assets/in/tnc/ac_warranty_terms_and_conditions.pdf,Daikin/IFB/Carrier allow authorised dealer to install; LG/Voltas/Blue Star UNKNOWN
+flipkart_return_requires_brand_install,,YES,,rule,SOURCE-BACKED PROXY,Zoutons 3 Oct 2026,https://zoutons.com/news/flipkart-return-policy-service-centre-brands-2026,
+install_sla_LG,24,48,72,hours,FACT,LG guide 21 Apr 2026,https://www.lg.com/in/magazine/ac-installation-service-repair-guide/,"Most requests completed within 24-72 hours"
+install_sla_flipkart,2,3.5,5,business days after delivery,SOURCE-BACKED PROXY,Flipkart FAQ (mirror),,Tier 2/3 actual delay UNKNOWN
+lg_b2c_touchpoints,,35640,,count,FACT,LG RHP via ICICI Direct Oct 2025,https://www.icicidirect.com/mailcontent/idirect_lgelectronicsindia_iporeview-oct25.pdf,30726 distributors+sub-dealers; 1134 MBO; 1615 regional specialty; 1385 MT; 777 brand shops
+voltas_rac_touchpoints,,30000,,count,SOURCE-BACKED PROXY,Tata group Voltas page,https://www.tata.com/business/voltas,Touchpoints not unique retailers
+bluestar_outlets,,10000,,count,SOURCE-BACKED PROXY,Business Today 8 Apr 2026,https://www.businesstoday.in/latest/corporate/story/ac-sales-to-grow-15-in-fy27-blue-star-md-524632-2026-04-08,900 towns
+havells_retailers_all,,260000,,count,SOURCE-BACKED PROXY,AlphaStreet 16 Sep 2025,https://alphastreet.com/india/havells-india-fy25-double-digit-growth-lloyd-turns-profitable,Mostly electricals; not appliance dealers
+vguard_touchpoints,,100000,,count,FACT,V-Guard FY26 MD&A,https://www.indiainfoline.com/company/v-guard-industries-ltd/management-discussions,Mostly electricals
+aimra_members,,150000,,count,SOURCE-BACKED PROXY,Telangana Today,https://telanganatoday.com/indian-mobile-retailers-body-slams-amazon-phone-vendors,Mobile retailers only; not appliance
+general_trade_share_appliances,40,46,65,% of sales,SOURCE-BACKED PROXY,Redseer Jul 2025 (40%); Blue Star RAC Apr 2026 (46% DERIVED); Voltas Q2FY27 (65% DERIVED),https://redseer.com/articles/indias-130-billion-appliances-market-opportunity/,
+organised_share_consumer_durables_FY25,,56.6,,%,FACT,CRISIL via Sathya abridged prospectus,https://www.sebi.gov.in/sebi_data/commondocs/apr-2026/Sathya%20Agencies%20Limited-Abridged%20Prospectus_p.pdf,
+unique_independent_large_appliance_dealers,30000,45000,70000,count,DERIVED,Overlap of LG/Voltas touchpoints,,Low confidence; pitch 78000 unsourced
+serviceable_retailers_gt60_units,5000,9000,18000,count,DERIVED,AC volume x GT share / dealers with Pareto assumption,,Pitch 23400 above HIGH; low confidence
+room_ac_units_per_year,,14000000,,units,SOURCE-BACKED PROXY,Outlook Business / FMT May 2025 headlines,https://fmtv5.freemalaysiatoday.com/category/leisure/2025/05/13/indians-buy-14mil-air-conditioners-a-year-and-need-more,Snippet level
+units_per_month_chain_store_aditya,,530,,units per store-month,DERIVED,Aditya Vision FY26 revenue 2671.62 cr / ASP 22088 / ~191 avg stores,https://scanx.trade/stock-market-news/companies/aditya-vision-schedules-board-meeting-on-may-08-2026-to-approve-fy26-audited-financial-results/39446723,Includes mobiles; 4400 sq ft stores
+units_per_month_independent_target_shop,30,60,120,major units per month,ASSUMPTION,Top-down from I4; no direct source,,Pitch 100 = top quartile
+install_share_split_ac,100,100,100,% of units,FACT,Brand rate cards,,Physically required
+install_share_RO,100,100,100,% of units,FACT,Brand practice,,But free
+install_share_geyser,90,100,100,% of units,ASSUMPTION,,,
+install_share_washing_machine,80,90,100,% of units,ASSUMPTION,,,Installation/demo visit
+install_share_tv,40,55,70,% of units,ASSUMPTION,,,Wall-mount only
+install_share_fridge,0,0,10,% of units,ASSUMPTION,,,Demo only
+retailer_gross_margin_chain,14.3,15.6,17.2,%,FACT,EMIL FY25 / Aditya Vision FY26 / EMIL Q1FY27,https://www.sahi.com/news/electronics-mart-upgrades-guidance-expecting-gross-margins-above-15-5115-PE1_COR,Sathya FY25 16.84
+retailer_gross_margin_independent,8,12,15,%,SOURCE-BACKED PROXY,Alok Kapoor blog 20 Jan 2026 (illustrative),https://alokkapoor.com/blog/distribution-margins-india-what-brands-need-to-know,Low confidence
+retailer_net_margin,1.3,2.5,3,%,SOURCE-BACKED PROXY,Sathya PAT 1.32%; Vijay Sales director 2-3%,https://www.equityresearchindia.com/post/sathya-agencies-ipo-dhrp-analysis,
+ew_commission_to_retailer,UNKNOWN,UNKNOWN,UNKNOWN,% of EW price,UNKNOWN,,https://apps.shopify.com/oneassist-extended-warranty,Proxy: EMIL ~33% of EW revenue to PBT; global up to 15% staff commission
+ew_revenue_to_pbt_emil,,33,,%,DERIVED,EMIL Q1FY24 transcript (12 cr rev / 4 cr PBT),https://nsearchives.nseindia.com/corporate/EMIL_17082023183331_Transcript30062023.pdf,
+tradein_split_ac_LG,4500,5000,5000,INR,FACT,LG exchange T&C (indicative; Digi2L),https://www.lg.com/in/exchangeoffers/tnc,Not working / working
+tradein_fridge_double_door_LG,1100,2000,2500,INR,FACT,LG exchange T&C,https://www.lg.com/in/exchangeoffers/tnc,250-350L and 350L+
+tradein_fridge_single_door_LG,550,1100,1400,INR,FACT,LG exchange T&C,https://www.lg.com/in/exchangeoffers/tnc,
+tradein_wm_top_load_LG,900,1200,1200,INR,FACT,LG exchange T&C,https://www.lg.com/in/exchangeoffers/tnc,Front load 1700
+tradein_ac_croma,3000,6500,8500,INR,SOURCE-BACKED PROXY,Zoutons Croma summer sale 2026,https://zoutons.com/news/croma-summer-tech-sale,Includes up to 2000 brand bonus at high end
+cac_per_retailer,UNKNOWN,18000,UNKNOWN,INR,ASSUMPTION,Pitch,,Benchmarks UNKNOWN (search quota); settle via Paytm/PhonePe filings and a founder sign-up sprint
+retailer_commission_install_pitch,,5,,% of fee,ASSUMPTION,Pitch,,Low vs EW economics
+ac_household_penetration,8,10,12,%,SOURCE-BACKED PROXY,ICAP 2019 (8%); Reuters Feb 2026 (a tenth); RHP-sourced 12%,https://www.marketscreener.com/news/india-s-top-ac-maker-bets-on-first-time-buyers-to-drive-summer-demand-rebound-ce7e5adbdc89ff24,
+first_time_ac_buyers_voltas,,85,,% of buyers,SOURCE-BACKED PROXY,Reuters 5 Feb 2026 (Voltas),https://www.marketscreener.com/news/india-s-top-ac-maker-bets-on-first-time-buyers-to-drive-summer-demand-rebound-ce7e5adbdc89ff24,
+bluestar_tier3to5_sales_share,,65,,% of company sales,SOURCE-BACKED PROXY,Informist 4 Mar 2025,https://informistmedia.com/EquityWire/26782/Aim-for-smart-air-conditioners-share-to-be-30-37-in-FY26-sales-Blue-Star-MD,Paraphrase of MD
+ac_market_cagr_cy25_29,,15,,%,SOURCE-BACKED PROXY,Multibagg 23 Oct 2026 (RHP data; firm unnamed),https://www.multibagg.ai/market-pulse/articles/ipo/india-ac-market-growth-cy29-rhp-cmvkoy9ve000ni9mjrnv8gz25,53600 cr CY25 to 93610 cr CY29

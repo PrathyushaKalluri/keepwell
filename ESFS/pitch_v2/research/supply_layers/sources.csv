@@ -1,0 +1,96 @@
+id,title,publisher,url,date,used_for,type,confidence
+S1,Service Partners Earnings Index 9M FY26,Urban Company IR,https://investorrelations.urbancompany.com/announcements-and-highlights/service-partners-earnings-index-9m-fy26,2026-02-04,F3,primary,H
+S2,Shareholders Letter Q2 FY27,Urban Company (NSE),https://nsearchives.nseindia.com/corporate/URBANCO_16102026160706_Urban_Company_Shareholders_Letter_Q2_FY27.pdf,2026-10-16,F3 F4,primary,H
+S3,Shareholders Letter Jan 2026,Urban Company (NSE),https://nsearchives.nseindia.com/corporate/URBANCO_23012026153501_UC_Shareholders_Letter_23012026.pdf,2026-01-23,F3,primary,H
+S4,AC mechanic salary Vijayawada,AmbitionBox,https://ambitionbox.com/profile/ac-mechanic-salary/vijayawada-location,2025-26,F3,secondary,L
+S5,High paying maintenance jobs Vijayawada,Indeed,https://in.indeed.com/explorer/high-paying-maintenance-jobs-vijayawada,-ap,2026,F3,secondary,L
+S6,AC technician salary,Jooble,https://in.jooble.org/salary/ac-technician,2026-07,F3,secondary,M
+S7,AC technician demand and sustainability,CEEW,https://www.ceew.in/publications/air-conditioner-technician-demand-and-Sustainability,2023-25,F3,primary,M
+S8,RAC technician survey,CEEW,https://www.ceew.in/node/4735,2023-10,F3,primary,M
+S9,Urban Company ESG report coverage,YourStory,https://yourstory.com/2024/06/urban-company-targets-rs-1130-crore-in-revenues-esg-report,2024-06,F3,secondary,M
+S10,Attrition in consumer durables,TeamLease,https://group.teamlease.com/?p=17434,2024,F3,secondary,M
+S11,Telecom attrition,People Matters,https://www.peoplematters.in/news/strategic-hr/attrition-rates-decline-in-indian-telecom-sector-teamlease-41359,2024,F3,secondary,M
+S12,The urban cost of gig service,Outlook Business,https://www.outlookbusiness.com/corporate/the-urban-cost-of-gig-service-2,2024-25,F4,secondary,L
+S13,Happy to help (Philips service),Business Standard,https://www.business-standard.com/article/management/happy-to-help-108111101044_1.html,2008-11,F4,secondary,L
+S14,Voltas interim quarterly report FY25,financialreports.eu,https://financialreports.eu/filings/voltas-ltd/interim-quarterly-report/2025/42365216/,2025,F5,primary,H
+S15,Voltas Q4 FY26 results,Trendlyne,https://trendlyne.com/posts/5638736/q4fy26-fy26-result-announced-for-voltas-ltd,2026-05,F5,secondary,M
+S16,Prolonged heatwave sends AC sales north,Tribune,https://tribuneindia.com/news/business/prolonged-heatwave-sends-ac-sales-north-632709,2024,F5,secondary,M
+S17,Cooling wars heat up,Storyboard18,https://www.storyboard18.com/amp/brand-marketing/cooling-wars-heat-up-ac-brands-battle-for-summer-dominance-61155.htm,2024,F5,secondary,M
+S18,AC industry bets on June,Moneylife,https://www.moneylife.in/article/ac-industry-bets-on-june-to-make-a-summer-killing/42062.html,2015,F5,secondary,M
+S19,Booking outside Urban (help page),Urban,https://urban.co/en-gb/hero/article/What-should-I-do-if-a-client-asks-to-book-me-outside-of-Urban,n.d.,I6,primary,M
+S20,UC CEO backs policies amid partner protests,Inc42,https://inc42.com/buzz/amid-partner-protests-urban-company-ceo-backs-policies-claims-pre-tax-profitability-in-q1,2023,I6,secondary,M
+S21,Trust and Disintermediation (Gu & Zhu),Management Science,https://pubsonline.informs.org/doi/10.1287/mnsc.2020.3583,2021,I6,primary,M
+S22,Skype blockade and disintermediation (Gu),Management Science,https://econpapers.repec.org/RePEc:inm:ormnsc:v:70:y:2024:i:11:p:7868-7891,2024,I6,primary,M
+S23,Platform Leakage,PKU HSBC Business School,https://english.phbs.pku.edu.cn/info/3882/48882.htm,2023,I6,primary,M
+S24,PlatStrat 2023 paper 27 (home cleaning),Boston University,https://questromworld.bu.edu/platformstrategy/wp-content/uploads/sites/49/2023/06/PlatStrat2023_paper_27.pdf,2023,I6,primary,M
+S25,LocalCircles AC servicing survey 2026,LocalCircles,https://m-www.localcircles.com/a/press/page/air-conditioner-servicing-survey-2026,2026-04,I6,primary,M
+S26,Voltas AC service and repair page (UC rate card and annual plan),Urban Company,https://www.urbancompany.com/delhi-ncr-voltas-ac-service-repair-faridabad,2026,S5 F11,primary,M
+S27,ZipCare Maintain AMC AC 2 years,Croma,https://www.croma.com/zipcare-maintain-amc-plan-for-air-conditioner-2-years/p/272183,2026,S5,primary,M
+S28,LG AC AMC charges,NoBroker forum,https://nobroker.in/forum/what-is-lg-ac-amc-charges,2024-2025,S5,secondary,L
+S29,Daikin AC AMC cost,NoBroker forum,https://www.nobroker.in/forum/what-is-daikin-ac-amc-cost,2025-2026,S5,secondary,L
+S30,Voltas AC AMC charges,NoBroker forum,https://www.nobroker.in/forum/what-is-amc-charges-for-voltas-ac,2024-2025,S5,secondary,L
+S31,Benefits of water purifier AMC,Eureka Forbes,https://www.eurekaforbes.com/blog/benefits-of-water-purifier-amc.html,2024-03-26,S5,primary,M
+S32,Q1 FY26 earnings call transcript,Eureka Forbes,https://www.eurekaforbes.com/cms/assets/prod/Transcriptintimation12082025signed_684cf96aaf.pdf,2025-08-12,S5,primary,H
+S33,Water purifier AMC charges 2025,RO Care India,https://www.rocareindia.com/blog/10/water-purifier-amc-charges-india-2025,2025,S5,secondary,L
+S34,Samsung expands extended warranty (Care+),Samsung Newsroom India,https://news.samsung.com/in/samsung-expands-extended-warranty-plans-for-home-appliances-with-samsung-care,2025-11-10,S5,primary,M
+S35,Blue Star EW plan terms,Servify,https://global.servify.com/termsandconditions/bluestar-ew-plan,n.d.,S5,primary,M
+S36,India's device protection economy,CXOToday (OneAssist),https://cxotoday.com/expert-opinion/high-repair-replacement-costs-driving-indias-device-protection-economy/,2026-08-10,S5,secondary,M
+S37,Service contract market research,Warranty Week,https://www.warrantyweek.com/archive/ww20170309.html,2017-03-09,S5,secondary,M
+S38,Earnings index benchmarking report,Urban Company blog,https://www.urbancompany.com/blog/earnings-index-benchmarking-report-uc-service-professionals-vs-off-the-platform-professionals,2022-23,S5,primary,M
+S39,AC installation service repair guide,LG India,https://www.lg.com/in/air-conditioners/ac-installation-service-repair-guide/,2026,F11,primary,H
+S40,Distribution network dealer models,Beacon Filing,https://beaconfiling.com/blog/distribution-network-india-dealer-models,n.d.,F11,secondary,L
+S41,Sell old split AC,Cashify,https://www.cashify.in/sell-old-air-conditioner/used-split-ac,2026-11,S6,primary,H
+S42,Cashify FY25 financials,Entrackr,https://entrackr.com/fintrackr/cashifys-fy25-income-nears-rs-1100-cr-losses-shrink-80-10532841,2025-10,S6,secondary (RoC),H
+S43,Flipkart acquires Yaantra,The News Minute,https://www.thenewsminute.com/amp/story/atom/flipkart-acquires-electronics-recommerce-firm-yaantra-undisclosed-sum-159853,2022-01,S6,secondary,H
+S44,Quikr acquires Zefo,Inc42,https://inc42.com/buzz/breaking-quikr-acquires-used-goods-marketplace-zefo,2019-04,S6,secondary,M
+S45,RentoMojo post-IPO test,Inc42,https://inc42.com/features/rentomojos-post-ipo-test-can-the-flywheel-keep-going/,2026-09,S6,secondary (DRHP),H
+S46,RentoMojo FY25,Entrackr,https://entrackr.com/news/rentomojo-posts-rs-266-cr-revenue-in-fy25-profits-surge-92-10930380,2025-12,S6,secondary,H
+S47,Furlenco FY25,Entrackr,https://entrackr.com/fintrackr/furlenco-turns-around-in-fy25-posts-profit-after-rs-130-cr-loss-revenue-surges-65-10586639,2025,S6,secondary,H
+S48,Flipkart summer sale AC exchange,Analytics Insight,https://www.analyticsinsight.net/home-electronics/flipkart-summer-sale-big-discounts-on-15-ton-split-acs,2025,S6,secondary,M
+S49,AC exchange terms,Flipkart,https://www.flipkart.com/pages/prexo-airconditioner,2026-11,S6,primary,H
+S50,AC scrap price list,Reuze,https://www.reuze.in/what-we-take/ac-scrap,2025-26,S6,secondary,L-M
+S51,Sell old AC fridge WM scrap,scraprates.in,https://scraprates.in/blog/sell-old-ac-fridge-washing-machine-scrap,2026,S6,secondary,L
+S52,E-Waste Rules 2022 as amended Jul 2023,TNPCB,https://tnpcb.gov.in/owems/pdf/regulations/EwasteRules2022_AmendJul23.pdf,2023-07,S6,primary,M
+S53,E-waste EPR explained 2026,GreenSutra,https://greensutra.in/news/e-waste-epr-explained-2026/,2026-06,S6,secondary,H
+S54,A corporate mutiny threatens India's e-waste dream,Newslaundry,https://www.newslaundry.com/2025/04/15/a-corporate-mutiny-threatens-indias-e-wonderland-dream,2025-04-15,S6,secondary,M-H
+S55,Blue Star gets temporary relief,Newslaundry,https://www.newslaundry.com/2026/01/14/blue-star-gets-temporary-relief-as-delhi-hc-stays-regulators-e-waste-price-declaration,2026-01-14,S6,secondary,H
+S56,Electronic companies want market forces to price waste,Business Standard,https://www.business-standard.com/india-news/electronic-companies-market-forces-price-waste-delhi-hc-125080101783_1.html,2025-08,S6,secondary,H
+S57,Attero financials,Inc42,https://inc42.com/company/attero/financials/,2025,S6,secondary (RoC),H
+S58,Namo eWaste FY25 press release,NSE,https://nsearchives.nseindia.com/corporate/NAMOEWASTE_29052025113605_Intimation_for_Press_Release.pdf,2025-05-29,S6,primary,H
+S59,Rolling out health insurance for partners,Urban Company blog,https://www.urbancompany.com/blog/rolling-out-health-insurance-for-all-our-partners,2022-23,F8,primary,M
+S60,GPA insurance pricing for startups,Pazcare,https://www.pazcare.com/blog/group-personal-accident-insurance-for-startups-best-options-and-pricing,2025,F8,secondary,L-M
+S61,Public liability insurance small businesses,BimaKavach,https://www.bimakavach.com/blog/public-liability-insurance-small-businesses-india/,2025-26,F8,secondary,L
+S62,HCFC phase-out statement (PTI),The Week,https://www.theweek.in/wire-updates/national/2025/09/16/del29-env-ozone-minister.html,2025-09-16,F8,secondary,H
+S63,Kigali Amendment briefing,UNEP Ozone Secretariat,https://ozone.unep.org/sites/default/files/Meeting_Documents/mop/38mop/activities/KA%4010-briefing.pdf,n.d.,F8,primary,H
+S64,India's plan to cool (ICAP),NRDC,https://www.nrdc.org/experts/anjali-jaiswal/indias-ambitious-plan-cool-growing-population,2019-03,F8,secondary,H
+S65,DMRC technicians trained on GSP,Green Cooling Initiative (GIZ),https://www.green-cooling-initiative.org/news-media/news/news-detail/2025/04/09/india-rac-technicians-of-delhi-metro-rail-corporation-trained-on-good-servicing-practices-under-hpmp-stage-ii-india,2025-04-09,F8,primary,M
+S66,Four Labour Codes made effective,PIB,https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2192463,2025-11-21,F9,primary,H
+S67,Aggregator onboarding to eShram,DLA Piper,https://knowledge.dlapiper.com/dlapiperknowledge/globalemploymentlatestdevelopments/2026/india-mandates-aggregator-onboarding-to-eshram-portal-to-expand-social-security-coverage,2026,F9,secondary,M
+S68,Aggregator obligations under Code on Social Security,Taxmann,https://www.taxmann.com/post/blog/analysis-aggregator-obligations-code-on-social-security/,2026-09-25,F9,secondary,H
+S69,Karnataka gig workers bill brief,PRS,https://prsindia.org/files/bills_acts/bills_states/karnataka/2025/Brief_Karnataka_Gig_Workers_Bill_2025.pdf,2025-08-13,F9,primary,H
+S70,Karnataka notifies gig welfare fee,SCC Online,https://www.scconline.com/blog/post/2026/02/18/karnataka-government-notifies-gig-workers-welfare-fee-mandatory/,2026-02-18,F9,secondary,H
+S71,Telangana gig workers Act 2026,KS&K,https://ksandk.com/newsletter/telangana-legislative-assembly-passed-telangana-platform-based-gig-workers-registration-social-security-and-welfare-act-2026-passed-on-march-29-2026/,2026-03,F9,secondary,M
+S72,Rajasthan gig workers Act 2023,Cyril Amarchand,https://corporate.cyrilamarchandblogs.com/2023/08/rajasthan-passes-rajasthan-platform-based-gig-workers-registration-and-welfare-act-2023/,2023-08,F9,secondary,M
+S73,Bihar gig workers Act 2025,PRS,https://prsindia.org/files/bills_acts/acts_states/bihar/2025/Act8of2025BR.pdf,2025,F9,primary,M
+S74,Jharkhand gig workers Act 2025,TeamLease RegTech,https://www.teamleaseregtech.com/updates/article/54306/jharkhand-platform-based-gig-workers-registration-and-welfare-act-2025/,2026-01,F9,secondary,M
+S75,ESI compliance,treelife,https://treelife.in/compliance/esi-compliance-in-india/,2026,F9,secondary,M
+S76,EPF EPS EDLI rates notified 2026,SCC Online,https://www.scconline.com/blog/post/2026/07/06/epf-eps-edli-contribution-rates-notified/,2026-07-06,F9,secondary,H
+S77,Labour codes summary,JSA,https://www.jsalaw.com/wp-content/uploads/2025/11/JSA-Blog-Labour-Codes-Summary.pdf,2025-11,F9,secondary,M
+S78,Maintenance services GST SAC 9987,ClearTax,https://cleartax.in/s/maintenance-services-gst-rates-sac-code-9987,n.d.,F10,secondary,M-H
+S79,56th GST Council factsheet,PIB,https://pib.gov.in/FactsheetDetails.aspx?Id=149274,2025-09,F10,primary,H
+S80,Composition levy scheme flyer,GST Council,https://www.gstcouncil.gov.in/sites/default/files/e-version-gst-flyers/composition-levy-scheme.pdf,n.d.,F10,primary,H
+S81,Section 9(5) notification compilation,GST Council,https://gstcouncil.gov.in/sites/default/files/2024-05/download_28.pdf,2024-05,F10,primary,H
+S82,WhatsApp Business pricing,Meta,https://developers.facebook.com/docs/whatsapp/pricing,2026,T2,primary,M
+S83,WhatsApp pricing updates,Meta,https://developers.facebook.com/docs/whatsapp/pricing/updates-to-pricing,2026,T2,primary,H
+S84,Gemini API pricing,Google AI Studio,https://aistudio.google.com/docs/pricing,2026-11,T2,primary,H
+S85,Gemini audio docs,Google AI Studio,https://aistudio.google.com/docs/audio,2026,T2,primary,H
+S86,API pricing,Sarvam AI,https://www.sarvam.ai/api-pricing,2026-11,T2,primary,H
+S87,Pricing,Razorpay,https://razorpay.com/pricing/,2026-11,T2,primary,M
+S88,Payment gateway charges,Cashfree,https://www.cashfree.com/payment-gateway-charges/,2026-11,T2,primary,M
+S89,Right to Repair portal progress,Department of Consumer Affairs,https://consumeraffairs.nic.in/sites/default/files/29-Aug-2024.pdf,2024-08-29,T3 I12,primary,H
+S90,Repairability index for smartphones,Devdiscourse,https://www.devdiscourse.com/article/law-order/3368767-consumer-affairs-unveils-repairability-index-for-smartphones-and-tablets,2025-05,I12,secondary,M
+S91,Common Cost Norms gazette,Gazette of India,https://egazette.gov.in/WriteReadData/2026/270524.pdf,2026,I12,primary,M
+S92,Skill India center cost categories,NSDC,https://stag-api.nsdcindia.org/what-are-costs-different-categories-under-skill-india-centers,n.d.,I12,primary,M
+S93,Field Technician AC qualification,NQR,https://www.nqr.gov.in/qualifications/2270,n.d.,I12,primary,L-M
+S94,PMKVY RPL document,PIB,https://static.pib.gov.in/WriteReadData/specificdocs/documents/2025/jul/doc2025714585701.pdf,2025-07,I12,primary,M-H
+S95,Skill India invests 40 Cr in RAC technician training,MSDE,https://skilldevelopment.gov.in/sites/default/files/2019-09/Skill%20India%20invests%20around%2040%20Crore%20in%20skill%20training%20of%20one%20lakh%20RAC%20service%20technicians%20under%20Pradhan%20Mantri%20Kaushal%20Vikas%20Yojana.pdf,2019,I12,primary,M

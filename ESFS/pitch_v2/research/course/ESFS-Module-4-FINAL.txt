@@ -1,0 +1,555 @@
+ESFS - Module 4
+
+Valuation Methods
+for Early-Stage Startups
+Why Startup Valuation Matters
+01
+
+Foundation for funding and exit
+
+02
+
+Impacts ownership & control
+
+03
+
+Guides investor decision-making
+
+04
+
+Affects dilution & future fundraising
+What Do You Think Defines Valuation?
+    Valuation, Like Beauty,
+Is in the Eyes of the Beholder
+How are Listed Companies Value Described?
+
+
+                     P/E multiple
+                     Price to Earnings Multiple
+                     Market Price / Earnings Per Share
+What are the PE Ranges
+
+                         NASDAQ                 Nifty
+                         28.1                   19.3
+                         Lowest 5.47            Lowest 10.8
+                         Highest 600+           Highest 672.8
+
+
+
+                         Nifty MidSmallcap400
+                         28.05
+                         Lowest 5.6
+                         Highest 175.5
+Startups Have More Challenges
+ No revenue or profit (early stage)
+ Traditional financial metrics don't exist yet, making standard valuation models
+ inapplicable
+
+
+
+
+ Limited or no comparable benchmarks
+ Finding truly similar startups with transparent valuation data is extremely
+ difficult
+
+
+
+
+ High uncertainty
+ Future market conditions and competitive landscape remain highly
+ unpredictable
+
+
+
+
+ Subjective and sentiment driven
+ Valuation becomes as much art as science, heavily influenced by negotiating
+ power
+Early Stage Startups Are Generally
+Valued on Revenue Multiples
+ Early Stage Startups need a different metric for valuation
+    Investment in growth will take away all profits
+    Hence, low or no profits
+    Typically, growth is faster than that of established companies
+ Revenue multiple is the most widely used metric (3-10X of revenues)
+
+
+   Company Value = Revenue * Multiple
+Revenue Multiples: How They Work?
+ Simple formula: Valuation = Annual Revenue × Multiple
+ Multiple reflects investor confidence in growth trajectory
+ Different multiples for different stages and investor types
+ Realistic early-stage multiples: 2-10X of revenues
+
+
+
+     Valuation = Annual Revenue × Revenue Multiple
+3 Popular Approaches to Find a Multiple
+
+
+Comparable Method   Scorecard Method   Target Return Method
+Method 1: Comparable Method
+What it is                                                                    How it works
+Benchmark the startup against similar startups to determine fair              1. Identify comparable startups in similar sectors, stages, and
+market value based on actual transactions.                                        geographies.
+                                                                              2. Gather funding/exit multiples from recent transactions and public
+Key metrics used                                                                  data.
+Multiple of ARR, Revenue, Users                                               3. Apply the average multiple to your startup's metrics to derive
+                                                                                  valuation.
+In India
+SaaS at 3-8x ARR, AI at 2-10x revenue
+
+
+
+       Find the range from the market, then use the startup's stage, performance, and potential to arrive at the ideal multiple.
+Comparable Method – Hyderabad SaaS Example
+Startup: CloudPay   Selected Comparables
+Hyderabad SaaS
+                     Startup A                Startup B
+ARR: INR 2 crore
+                     4x ARR                   3.5x ARR
+
+                     INR 8 crore valuation    INR 7 crore valuation
+
+
+
+                     Startup C
+                     4.5x ARR
+
+                     INR 9 crore valuation
+
+
+
+
+                    Average Multiple: 4x
+                    Valuation: INR 2 crore × 4 = INR 8 crore
+Method 2: Scorecard Method
+What it is: Get a Comparable or Agreed Multiple
+
+Then, adjust the multiple in the reference valuation based on qualitative criteria.
+
+Market used: Early-stage angel/VC
+
+Key steps
+1. Take a recent valuation of a similar startup as a baseline reference.
+2. Adjust based on team, market, product, traction quality.
+3. Use weighted scores and multiplier adjustments to calculate the final value.
+Sample Scoring Chart (refer to fundability matrix)
+Category                                Potential   Uniqueness   Quality   Total
+
+Market                                     5            5          5        15
+
+Product/Service                            10          10          10       30
+
+Startup                                    15          15          15       45
+
+Total                                      30          30          30       90
+
+
+   Additional 10 points for X-Factor.
+Valuation in Scorecard Method
+
+Establish Benchmarks                           Assess Company Performance    Calculate Adjusted Multiplier
+Benchmark Multiple: 4X                         Company Scorecard Value: 88   Calculation: 4X * (88/80) = 4.4X
+Benchmark Scorecard Value: 80
+
+
+
+      Revenue 2C, Adjusted Multiple 4.4X —> Valuation 8.8C
+Method 3: Target Return Method (VC Method)
+Five-Step Valuation Process
+                 1                                         2                                                   3
+
+   Define the Target Return (IRR)              Quantify Investment Quantum                           Estimate Time to Exit
+         (Return Mandate)                           (Investment Size)                                      (Duration)
+
+
+
+                              4                                                                  5
+
+               Project Company Value at Exit                            Calculate % Holding Required to Achieve Required IRR
+                         (Target EV)                                                      (Stake Sought)
+Stage-Wise VC Expectations
+Stage                                      Investor      Investment   IRR Expected   Duration
+
+1: Product Development, Business Model     Seed VC        50L - 2Cr     35-40%        3-5Y
+
+2: GTM                                   Series A / A+     1-5Cr        30-40%        2-7Y
+
+3: Scaling                                 Series B        5-30Cr       25-35%        2-5Y
+
+4: Maturity                              Series C / PE   20-100+Cr      25-25%        2-3Y
+VC Method - for Our 3 Startups
+  Detail                                            LearnEasy                         CropCare   MediQuick
+
+  Investment                                           0.8C                              1.5C      2.5C
+
+  IRR                                                  40%                               30%       30%
+
+  Horizon                                               3Y                                3Y        3Y
+
+  Revenue after 3Y                                     3C                                 4C        6C
+
+  Multiple at Exit                                     4.0                                4.0       4.0
+
+
+Teams to calculate VC percentage ownership required based on the above data for each startup.
+
+Also calculate the pre-money valuation.
+LearnEasy - VC Valuation Example
+
+Investment & Target IRR                          Calculate Future                                Project Company Value at Exit
+Investment: 0.8C                                 Value of Investment                             Revenue after 3Y: 3C
+                                                 FV = Investment × (1 + IRR)^Horizon
+Target IRR: 40%                                                                                  Multiple at Exit: 4.0
+                                                 FV = 0.8C × (1 + 0.40)^3 = 2.2C
+Horizon: 3 years                                                                                 Exit Value = Revenue × Multiple = 3C × 4.0 =
+                                                                                                 12C
+
+
+
+
+Calculate Percentage Ownership Required                                  Determine Pre-Money Valuation
+Ownership = (Future Value of Investment / Exit Value) × 100              Pre-Money Valuation = Investment / Ownership Percentage
+
+Ownership = (2.2C / 12C) × 100 = 18.33%                                  Pre-Money Valuation = 0.8C / 0.1833 = 4.36C
+
+
+
+       Based on a 40% IRR over 3 years, LearnEasy's pre-money valuation is estimated at 4.36C.
+CropCare - VC Valuation Example
+
+Investment & Target IRR                          Calculate Future                                Project Company Value at Exit
+Investment: 1.5C                                 Value of Investment                             Revenue after 3Y: 4C
+                                                 FV = Investment × (1 + IRR)^Horizon
+Target IRR: 30%                                                                                  Multiple at Exit: 4.0
+                                                 FV = 1.5C × (1 + 0.30)^3 = 3.3C
+Horizon: 3 Years                                                                                 Exit Value = Revenue × Multiple = 4C × 4.0 =
+                                                                                                 16C
+
+
+
+
+Calculate Percentage Ownership Required                                  Determine Pre-Money Valuation
+Ownership = (Future Value of Investment / Exit Value) × 100              Pre-Money Valuation = Investment / Ownership Percentage
+
+Ownership = (3.3C / 16C) × 100 = 20.6%                                   Pre-Money Valuation = 1.5C / 0.206 = 7.28C
+
+
+
+       Based on a 30% IRR over 3 years, CropCare's pre-money valuation is estimated at 7.28C.
+MediQuick - VC Valuation Example
+
+Investment & Target IRR                          Calculate Future                                 Project Company Value at Exit
+Investment: 2.5C                                 Value of Investment                              Revenue after 3Y: 6C
+                                                 FV = Investment × (1 + IRR)^Horizon
+Target IRR: 30%                                                                                   Multiple at Exit: 4.0
+                                                 FV = 2.5C × (1 + 0.30)^3 = 5.49C
+Horizon: 3 Years                                                                                  Exit Value = Revenue × Multiple = 6C × 4.0 =
+                                                                                                  24C
+
+
+
+
+Calculate Percentage Ownership Required                                  Determine Pre-Money Valuation
+Ownership = (Future Value of Investment / Exit Value) × 100              Pre-Money Valuation = Investment / Ownership Percentage
+
+Ownership = (5.49C / 24C) × 100 = 22.88%                                 Pre-Money Valuation = 2.5C / 0.2288 = 10.93C
+
+
+
+       Based on a 30% IRR over 3 years, MediQuick's pre-money valuation is estimated at 10.93C.
+Exit Assumptions Critical for Valuation (MediQuick)
+
+ Details              Conservative     Moderate       Aggressive
+
+ Revenue on Exit          5C             6C              8C
+
+ Multiple on Exit         3X             4X              5X
+
+ Exit Valuation           15C            24C             40C
+
+ % Sought Today           37%            23%             14%
+Comparison of 3 methods
+Dimension              Comparable             Scorecard         Target Return
+
+Based On               Market data        Internal assessment   Investor returns
+
+Key Input          Comparable multiples    9 scoring criteria      Exit + IRR
+
+Transparency              High                 Medium                Low
+
+Objectivity              Medium                  Low                 Low
+
+Speed                      Fast                Medium                Slow
+
+Market Validated           Yes                    No              Somewhat
+Which Model is best suited when?
+
+ Situation                  Best Method              Why
+
+ Raising Series A           Comparable + VC          Market validation + investor logic
+
+ Self-assessment            Scorecard                Identifies weaknesses
+
+ Negotiating with VC        VC Method                Shifts to exit assumptions
+
+ Understanding fair price   Comparable               Market reality
+
+ Pre-fundraising planning   Scorecard + Comparable   Shows what to improve + market price
+Cap Table Dilution Modelling
+MediQuick Raises Funding from
+Angels, Series A, and Series B
+Company goes through 3 levels of funding.
+
+Stage 0: Founders own 100%.
+
+Stage 1: Angels get 20% of the company; 20% of the capital is allocated for ESOP at this stage.
+
+Stage 2: Series A investor gets 25%, diluting all existing holders.
+
+Stage 3: Series B investor gets 20%, diluting all existing holders.
+Dilution Table for MediQuick
+Details      Pre-Funding   Angel   Series A   Series B
+
+Founder         100%       60%      45%        36%
+
+ESOP                       20%      15%        12%
+
+Angel                      20%      15%        12%
+
+Series A                            25%        20%
+
+Series B                                       20%
+
+Total           100%       100%     100%       100%
+Founder's Playbook
+  Founders have little role in how investors value their startup.
+  However, they can drive the fundamentals of the company to direct investors towards a higher valuation.
+
+
+
+
+Strong Team                                        Business Model                                 Unit Economics
+
+
+
+
+Profitability                                      Growth Rates
+
+  Keep your eyes and ears on the market and see what is happening in your industry.
+  Don't focus too much on your own holdings:
+     You are better off with a low percentage holding in a highly valued company.
+Summary
+
+
+Valuation: Art & Science            3 Popular Valuation Methods      No Single Correct Number
+
+
+
+
+Potential Drives Revenue Multiple   Founder Dilution is Inevitable   Core Strengths Win
+                                                                     in the Long Run
+Understanding Key
+Funding Terms
+Deal Flow
+
+
+                                       Share Subscription and
+                       Due Diligence   Shareholder Agreement
+Term Sheet
+
+
+
+
+                                       Conditions Subsequent
+                       Close
+Conditions Precedent
+What is a Term Sheet?
+ Records the intent to invest and the terms of the investment
+ Non-binding in nature, generally subject to due diligence
+ Covers all key investment terms
+ Culminates into a detailed legal agreements
+ Sets foundation for the transaction
+ Usually 2–10 pages, mostly tabular
+MediQuick Deal At-a-Glance
+
+ Company                          Pre-Series A Shares
+ MediQuick Technologies Pvt Ltd   8,000,000
+
+
+
+
+ Founders                         Investor
+ IIITH Alumni 1 & 2               ABC Ventures Pvt Ltd
+
+
+
+
+ Investment                       Valuation
+ ₹2.5 Cr for 25.00% equity        Pre-money: ₹7.5 Cr | Post-money: ₹10.0 Cr
+Shareholding Tables (Pre & Post Investment)
+Pre-investment cap table:               Post-investment cap table:
+
+ Founders         56,00,000   70.00%     Founders          56,00,000    52.50%
+
+ Angels           12,00,000   15.99%     Angels            12,00,000    11.25%
+
+ ESOP             12,00,000   15.00%     ESOP              12,00,000    11.25%
+
+ TOTAL            80,00,000   100.00%    Investor          26,66,667    25.00%
+
+                                         TOTAL            1,06,66,667   100.00%
+Term Sheet Structure – Section Walkthrough
+01                                          02
+
+1.0 Transaction Details                     2.0 Key Terms
+Context, valuation, instruments, timeline   Economic, control, founder clauses
+
+
+03                                          04
+
+3.0 Documentation & Conditions              4.0 General Legal Terms
+Due diligence, closing, standstill          Expenses, confidentiality, exclusivity
+Economic Terms – Valuation, Amount, Ownership
+
+ Investment Amount:   Pre-money valuation:       Post-money valuation:
+ ₹2.5 Cr              ₹7.5 Cr                    ₹10.0 Cr
+
+
+
+
+ Price-per-share:     Fully diluted ownership:
+ ₹31.25               25.00%
+1x Non-Participating Preference
+
+Guarantees the investor gets back either
+
+   their original investment (the “1x”) OR
+   their pro-rata share of sale proceeds—whichever is greater.
+Investor Payout Options
+
+  Investment amount + unpaid dividends                                        25.00% pro-rata share of proceeds
+
+This clause ensures the investor is protected if the company sells for a low amount, but also allows them to benefit from a successful exit.
+No Double-Dip
+A key aspect of "non-participating" preference is that there is no "double-dip." The
+investor chooses between their preference amount or their pro-rata share, but cannot
+have both. This is generally more favorable for founders than a participating
+preference.
+What is Participating Preference?
+Economic Terms Anti Dilution, Pre Emptive
+Feature                Anti-Dilution Rights                                     Pre-Emptive Rights
+
+Purpose                Protect investors from reduction in share value due to   Allow existing shareholders to maintain their ownership
+                       future rounds                                            percentage
+
+Trigger                Activated when new shares are issued at a lower price    Activated when any new shares are issued
+                       than previous
+
+Mechanism              Adjust conversion price or issue additional shares       Offer new shares to existing investors before outsiders
+
+Types                  Weighted average, full ratchet anti-dilution             Simple share offering (pro-rata), sometimes with
+                                                                                transfer restrictions
+
+Benefit to Investors   Preserves economic value in down rounds                  Prevents dilution of voting/economic control
+
+Impact on Founders     Can lead to increased dilution for founders and ESOP     Controls cap table, but may slow or complicate
+                       pool                                                     fundraising
+
+Typical Use            Venture capital, convertible note SAFEs                  All equity rounds, especially with active institutional
+                                                                                investors
+
+Limitation             Only applies if new shares issued at discount            Must be exercised, sometimes waived, may expire if not
+                                                                                used
+Anti Dilution Methods
+Feature                  Weighted Average Anti-Dilution                             Full Ratchet Anti-Dilution
+
+Adjustment Method        Adjusts conversion price based on price and amount of      Adjusts conversion price to match the lowest new issue
+                         new shares                                                 price
+
+Impact                   Partial protection; effect depends on size of down round   Maximum protection; treats all prior shares as if issued at
+                                                                                    new price
+
+Formula                  Weighted average formula: old + new shares, old + new      All old preferred shares convert at lowest new round price
+                         price
+
+Founder Dilution         Less severe than full ratchet                              Much greater; founders may be heavily diluted
+
+Common Usage             Most common in VC agreements                               Used rarely, mostly by aggressive investors
+
+Example                  VC gets lesser new shares in a down round                  VC gets many new shares if price drops, irrespective of
+                                                                                    round size
+
+Investor Benefit         Balances founder/investor interests                        Maximizes investor protection in down rounds
+
+Fairness/Negotiability   Generally seen as fairer; market standard                  Often resisted by founders/caps
+Founders' Terms – Vesting & Lock-in
+
+
+4-year vesting, 1-year cliff, 25.00% upfront               3-year founder lock-in
+
+
+
+
+Good leaver: Keeps vested shares, unvested bought at FMV   Bad leaver: Keeps vested shares, unvested shares forfeited
+Control Terms – Board Structure & Reserved Matters
+
+
+Board Structure            Reserved Matters                    Board Observer
+  2 Founder Director         Key provisions, changes require     Investor can appoint a Board observer:
+  1 Investor Director        specific investor consent           Non-voting, attends meetings
+  1 Independent Director
+Exit, Drag-Along, Tag-
+Along, Secondary Sales
+Exit targets:
+  IPO in 5 years or strategic sale in 6 years
+
+
+
+
+Drag-along:
+  70.00%+ can force exit (Minority cannot stop exit)
+
+
+
+
+Tag-along:
+  Minority can join majority exit
+
+
+
+
+Secondary sales:
+  Employee share purchase programs
+Tag Along and Drag Along Rights
+Feature             Tag-Along Rights                                         Drag-Along Rights
+
+Who Initiates       Minority shareholders (e.g., founders, employees)        Majority shareholders (e.g., investors, founders)
+
+Purpose             Protect minority from being left out in a sale           Force minority to join a sale initiated by majority
+
+When Used           Majority sells to third party, minority wants to join    Majority wants to sell, minority refuses to sell
+
+Mechanics           Minority can “tag along” and sell shares at same terms   Majority can “drag along” minority to sell at same terms
+
+Example             Founders sell 52.5%, ABC Ventures (25%) can tag along    ABC Ventures + Founders (77.5%) can drag angels/ESOP
+
+Protection For      Minority shareholders                                    Majority shareholders
+
+Typical Threshold   No minimum % required (any minority can tag along)       Usually 70%+ majority required to drag along
+
+Key Benefit         Ensures minority gets exit opportunity                   Ensures buyer gets 100% ownership
+
+Key Limitation      Minority must act quickly (usually 5 business days)      Majority must act in good faith, not to disadvantage
+Information Rights & Company Reporting
+
+
+Quarterly unaudited financials   Annual audited financials
+
+
+
+
+Monthly KPIs                     Right of inspection
+Thank You
+

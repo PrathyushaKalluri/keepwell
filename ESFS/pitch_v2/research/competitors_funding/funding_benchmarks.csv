@@ -1,0 +1,38 @@
+stage,geography,metric (ticket/pre-money/instrument/median),low,base,high,year,source,url
+Seed,India,median ticket,UNKNOWN,$1M,UNKNOWN,2025 Q3,Inc42 Q3 2025 Funding Report,https://asset.inc42.com/2025/09/Q3-2025-Funding-Report-1.pdf
+Seed,India,median ticket,UNKNOWN,$1M,UNKNOWN,2026 H1,Inc42 H1 2026 funding report,https://inc42.com/features/indian-startup-funding-slips-9-to-5-2-bn-in-h1-2026/
+Seed,India,average ticket (derived: $994M / 409 deals),UNKNOWN,~$2.4M,UNKNOWN,2025,Entrackr annual funding report 2025,https://entrackr.com/report/annual-funding-report/indian-startup-funding-drops-10-to-13-bn-in-2025-but-ipo-count-hits-record-18-10958045
+Series A,India,average ticket (derived: $1.97B / 219 deals),UNKNOWN,~$9.0M,UNKNOWN,2025,Entrackr annual funding report 2025,https://entrackr.com/report/annual-funding-report/indian-startup-funding-drops-10-to-13-bn-in-2025-but-ipo-count-hits-record-18-10958045
+All stages,India,median round,UNKNOWN,$3M,UNKNOWN,2026 H1,Inc42 H1 2026 funding report,https://inc42.com/features/indian-startup-funding-slips-9-to-5-2-bn-in-h1-2026/
+Pre-seed,India,ticket (fixed accelerator terms),INR 1.25 Cr,INR 1.25 Cr,INR 1.25 Cr,2022-2026,100X.VC (15% via iSAFE; ~INR 8.3 Cr post implied),https://www.100x.vc/apply
+Pre-seed,India,implied post-money (100X.VC),INR 8.3 Cr,INR 8.3 Cr,INR 8.3 Cr,2022-2026,100X.VC (derived),https://www.100x.vc/apply
+Pre-seed,India,ticket (Antler ARC),$250K,UNKNOWN,$500K (INR 4 Cr),2024,YourStory - Antler ARC,https://yourstory.com/2024/06/antler-launches-arc-agreement-for-rolling-capital-for-idea-stage-startups
+Pre-seed,India,pre-money (pre-revenue median),UNKNOWN,UNKNOWN,UNKNOWN,2025-26,No published median found (LetsVenture/IAN/IPV/Venture Catalysts),UNKNOWN
+Angel,India,ticket (network cheque range),$30K,UNKNOWN,$600K,2025,Indian Angel Network (aggregator; unverified),UNKNOWN
+Angel / pre-Series A,India,ticket (network cheque range),$100K,UNKNOWN,$1.5M,2025,Inflection Point Ventures (Altss aggregator),https://altss.com/profile/inflection-point-ventures
+Angel,India,individual cheque floor,INR 50000,UNKNOWN,UNKNOWN,2025,Mint (via Magzter) - bite-sized cheques,https://www.magzter.com/nb/stories/newspaper/Mint-Mumbai/ADVENT-OF-NEW-ANGELS-SPURS-RUSH-OF-BITESIZED-CHEQUES
+Pre-seed,India,ticket (rule of thumb),INR 1 Cr,UNKNOWN,INR 4 Cr,2026,Backrr blog (not survey data),https://backrr.com/blog/pre-seed-seed-series-a-metrics-india
+Seed,India,ticket (rule of thumb),INR 4 Cr,UNKNOWN,INR 12 Cr,2026,Backrr blog (not survey data),https://backrr.com/blog/pre-seed-seed-series-a-metrics-india
+Seed (hot category comp),India,round and valuation - Pronto,$2M raised,$12.5M valuation,UNKNOWN,2025-05,TechCrunch,https://techcrunch.com/2025/08/11/prontos-10-minute-house-help-pitch-sparked-a-3-6x-valuation-jump-in-just-90-days
+Series A (home services comp),India,round and post-money - Snabbit,$5.5M raised,~$23M post (estimate),UNKNOWN,2025-01,Inc42,https://inc42.com/buzz/quick-service-platform-snabbit-nets-5-5-mn-to-fuel-market-expansion/
+Series A (home services comp),India,round and post-money - Pronto,$11M raised,$45M post,UNKNOWN,2025-08,YourStory,https://yourstory.com/2025/08/pronto-raises-11m-series-a-general-catalyst-glade-brook-capital
+Series A,India,ARR needed (consumer tech),INR 16-20 Cr (more than 2x earlier bar; derived),UNKNOWN,UNKNOWN,2025,Financial Express via Magzter (earlier bar INR 8-10 Cr ARR for INR 30-50 Cr round),https://www.magzter.com/hi/stories/newspaper/Financial-Express-Mumbai/FUNDING-DIPS-IN-H1-AS-VCS-RAISE-THE-BAR
+Series A,India,gross margin for services businesses,40%,UNKNOWN,UNKNOWN,2025,DealPlexus Series A readiness checklist (blog),https://www.dealplexus.com/blog/series-a-readiness-checklist-for-indian-startups-metrics-governance-and-data-room/raw
+Series A,India,burn multiple red flag,UNKNOWN,2.5x,UNKNOWN,2025,DealPlexus Series A readiness checklist (blog),https://www.dealplexus.com/blog/series-a-readiness-checklist-for-indian-startups-metrics-governance-and-data-room/raw
+Series A,India,growth (SaaS-framed),10% MoM,UNKNOWN,15% MoM (6+ months),2026,Backrr blog,https://backrr.com/blog/pre-seed-seed-series-a-metrics-india
+Any,India,instrument - iSAFE (legally CCPS),n/a,n/a,n/a,2019-2026,Vinod Kothari,https://vinodkothari.com/2024/03/the-isafe-option-to-start-up-funding-legality-and-taxation/
+Any,India,instrument - convertible note minimum per investor (DPIIT startups; single tranche; 10-year conversion),INR 25 L,INR 25 L,INR 25 L,2014 rules (current),Taxmann,https://www.taxmann.com/post/blog/convertible-notes-india-startups-companies-act-fema
+Any,India,instrument - CCPS / CCD,n/a,n/a,n/a,current,Treelife (CN vs CCD),https://treelife.in/legal/convertible-notes-cn-vs-compulsorily-convertible-debentures-ccd-in-india/
+Any,India,angel tax 56(2)(viib) abolished from AY 2025-26,n/a,n/a,n/a,2024,KPMG,https://kpmg.com/in/en/blogs/2024/08/abolishment-of-angel-tax-a-welcome-move.html
+Series A (course example),India,pre-money (MediQuick term sheet; INR 2.5 Cr CCPS for 25%),INR 7.5 Cr,INR 7.5 Cr,INR 7.5 Cr,2025,ESFS course material (not market data),pitch_v2/research/course/MediQuick-TermSheet.txt
+Government - SISFS,India,grant (PoC) / debt-convertible,INR 20 L grant,UNKNOWN,INR 50 L debt,2021-2026 (closed to new applications 2026-05-31; verify),Startup Grants India Oct 2026; DST scheme page,https://www.startupgrantsindia.com/blog/startup-india-numbers-october-2026-what-founders-should-know
+Government - FFS 2.0,India,corpus (via SEBI AIFs only),INR 10000 Cr,INR 10000 Cr,INR 10000 Cr,2026-02-14 (Cabinet approval),PMO India,https://www.pmindia.gov.in/en/news_updates/cabinet-approves-startup-india-fund-of-funds-2-0-to-mobilize-venture-capital-for-indias-startup-ecosystem
+Government - CGSS,India,guarantee cap per borrower,UNKNOWN,INR 20 Cr,UNKNOWN,2025-05,Business Standard,https://www.business-standard.com/amp/companies/start-ups/govt-expands-credit-guarantee-scheme-startups-raises-cover-to-rs-20-cr-125050901407_1.html
+Government - Telangana,India (Telangana),state startup fund of funds (announced; no terms),INR 1000 Cr,INR 1000 Cr,INR 1000 Cr,2025-12-10,The Week,https://www.theweek.in/news/india/2025/12/10/google-launches-its-first-indian-startup-hub-in-hyderabad-revanth-reddy-announces-a-1-000-crore-fund.html
+Government - Telangana T-Fund,India (Telangana),ticket,INR 25 L,UNKNOWN,INR 1 Cr,2021-22 onward,Telangana Today,https://telanganatoday.com/t-fund-invests-rs-1-5-crore-in-three-startups
+Government - Telangana TSIC,India (Telangana),fund details,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,Not found,UNKNOWN
+Government - AP Policy 4.0,India (Andhra Pradesh),grant per startup (INR 20 L for women/BC/SC/ST founders),INR 2 L upfront,UNKNOWN,INR 15 L,2025-04-28,AP IT&C G.O.Ms.No.9,https://apit.ap.gov.in/assets/files/2025ITC_36424_MS9_E.pdf
+Government - AP Policy 4.0,India (Andhra Pradesh),seed funding (equity-sharing),UNKNOWN,UNKNOWN,INR 50 L,2025-04-28,AP IT&C G.O.Ms.No.9,https://apit.ap.gov.in/assets/files/2025ITC_36424_MS9_E.pdf
+Government - AP Policy 4.0,India (Andhra Pradesh),go-to-market support (equity-sharing),UNKNOWN,UNKNOWN,INR 50 L,2025-04-28,AP IT&C G.O.Ms.No.9,https://apit.ap.gov.in/assets/files/2025ITC_36424_MS9_E.pdf
+Angel/pre-seed (Keepwell estimate - INFERENCE),India,round size,INR 1.5 Cr,INR 2 Cr,INR 2.5 Cr,2026,Analyst inference from anchors above,n/a
+Angel/pre-seed (Keepwell estimate - INFERENCE),India,pre-money,INR 6 Cr,INR 8-10 Cr,INR 12 Cr,2026,Analyst inference from anchors above,n/a
