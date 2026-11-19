@@ -52,7 +52,7 @@ Each slide has five parts:
 ### 1. Keepwell keeps the promise the retailer made
 **Prathyusha (CEO)** · about 0:37 · act: Keepwell
 
-**SHOW (on screen):** Logo, the line 'Keepwell keeps the promise the retailer made', the tagline, and three founder cards: each with a background line (600+ local retailers; 200+ service centres; claims platforms) and a quote. Advisors along the bottom.
+**SHOW (on screen):** Logo, the line 'Keepwell keeps the promise the retailer made', the tagline, and three founder cards, each with a background line (600+ local retailers; 200+ service centres; claims platforms). Advisors along the bottom.
 
 **SAY (word for word):**
 

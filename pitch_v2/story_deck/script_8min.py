@@ -6,7 +6,7 @@ ACTS = [("open", "Keepwell"), ("problem", "The problem"), ("answer", "Our answer
 SPEAKERS = {"P": "Prathyusha (CEO)", "K": "Kavyanth (COO)", "S": "Sri Charan (CTO)"}
 SLIDES = [
 dict(id="title", act="open", sp="P", title="Keepwell keeps the promise the retailer made",
- show="Logo, the line 'Keepwell keeps the promise the retailer made', the tagline, and three founder cards: each with a background line (600+ local retailers; 200+ service centres; claims platforms) and a quote. Advisors along the bottom.",
+ show="Logo, the line 'Keepwell keeps the promise the retailer made', the tagline, and three founder cards, each with a background line (600+ local retailers; 200+ service centres; claims platforms). Advisors along the bottom.",
  say="""Every local appliance retailer makes a promise at the counter: this will be installed properly, and it will be looked after. Then the sale ends, and nobody keeps that promise. Keepwell does. We are the after-sale service arm of the local retailer.
 We're three founders, and each of us saw this from one side. I'm Prathyusha: I spent ten years in appliance distribution, supplying six hundred local retailers, and watched them blamed for installs they never did. Kavyanth ran a brand's service network. Sri Charan built claims platforms.""",
  why="It opens with the promise and the people, and each founder's reason is the problem seen from one side: the retailer, the service network, the plan.",
