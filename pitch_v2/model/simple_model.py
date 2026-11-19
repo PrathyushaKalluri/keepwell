@@ -22,6 +22,24 @@ Y = dict(  # ---- 5-year plan, year 1 = Apr 2027–Mar 2028 (from the close)
     wc_share=0.10,                   # working capital: 10% of each year's revenue increase
     tax=0.25, start_retailers=34, start_clusters=1, start_cash=0.02 * CR, pilot_rev_run=34 * 19_500 * 12,
 )
+# ---- one retailer's month, opened up (slide 6). Sources: technicians ₹330–500 a job and retailer commission ≈ ₹1.7k a month (Step 6).
+SPLIT = dict(technicians=4_900, parts=6_400, retailer_commission=1_700, other_per_job=1_430)   # pilot, per active retailer per month
+LIFT = dict(protect=4_000, amc_renewals=2_600, installed_base_repairs=3_900)                   # added per retailer per month by year 5
+LIFT_NOTES = dict(protect="2 plans a month × ₹2,000 (about 4% of the ~55 covered appliances a retailer sells; the pilot test reached 6%)",
+                  amc_renewals="2 renewals a month × ₹1,299", installed_base_repairs="about 1.5 more repairs a month on appliances Keepwell installed")
+MATURE_TEAM_MONTH = 1.5 * L   # a 60-retailer cluster adds a second field executive and a parts desk (= ₹18 L a year)
+
+def retailer_month():
+    rev = P["rev_per_retailer_month"]; cost = sum(SPLIT.values()); con = rev - cost
+    assert abs(con - rev * P["contrib_margin"]) < 1, con
+    mrev = rev + sum(LIFT.values()); assert mrev == U["rev_per_retailer_month"], mrev
+    assert abs(MATURE_TEAM_MONTH * 12 - U["cluster_cost_year"]) < 1
+    mcon = mrev * U["contrib_margin"]; last = P["active"][-1]
+    return dict(rev=rev, cost=cost, con=con, jobs=rev / P["avg_job"], tech_per_job=SPLIT["technicians"] / (rev / P["avg_job"]),
+                mature_rev=mrev, mature_con=mcon, oct_cluster=last * con - P["cluster_team_month"], oct_contrib=last * con,
+                mature_cluster_month=U["retailers_per_cluster"] * mcon - MATURE_TEAM_MONTH, mature_contrib_month=U["retailers_per_cluster"] * mcon,
+                mature_breakeven=MATURE_TEAM_MONTH / mcon)
+
 D = dict(seed=2.5 * CR, pre=10.0 * CR, isafe=0.45 * CR, isafe_cap_post=6.0 * CR, pool_post=0.10,
          exit_ebitda_mult=15, exit_year=5, benchmark_val=9.0 * CR, score=89, benchmark_score=80)
 
@@ -81,6 +99,7 @@ def conservative():
         Y.clear(); Y.update(Y0)
 
 if __name__ == "__main__":
+    print("retailer month", {k: round(v, 1) for k, v in retailer_month().items()})
     pr, pt = pilot(); u = unit(); pl, need = plan(); d = deal()
     print("PILOT"); [print(f" {r['month']} {r['active']:>3} rev {r['revenue']/L:5.2f}L con {r['contribution']/L:5.2f}L ebitda {r['ebitda']/L:+5.2f}L jobs {r['jobs']:.0f}") for r in pr]
     print(f" total rev {pt['revenue']/L:.1f}L con {pt['contribution']/L:.1f}L team {pt['team']/L:.1f}L EBITDA {pt['ebitda']/L:+.1f}L jobs {pt['jobs']:.0f} | contrib/retailer/month ₹{pt['contrib_per_retailer_month']:.0f} | breakeven {pt['breakeven_retailers']:.1f} | first + {pt['first_positive_month']} | Oct EBITDA {pt['oct_run_rate_ebitda']/L:.2f}L")

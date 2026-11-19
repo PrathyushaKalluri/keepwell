@@ -130,6 +130,42 @@ def r_chain(sl, d, n):
         text(sl, x + 0.2, 3.1, 2.5, 0.5, l, size=12, color=PALE if i == 3 else GREY); text(sl, x + 0.2, 3.75, 2.5, 0.9, s, size=12, bold=True, color=WHITE if i == 3 else INK)
         if i < 3: box(sl, x + 2.87, 3.15, 0.19, 0.25, fill=GREY, shape=MSO_SHAPE.RIGHT_ARROW)
     landbar(sl, d["result"], 5.3)
+def r_bridge(sl, d, n):
+    frame(sl, d, n); y = 1.62; rh = 0.56
+    for i, (op, v, lab, sub) in enumerate(d["rows"]):
+        tot = op == "="; last = i == len(d["rows"]) - 1
+        box(sl, 0.6, y, 7.5, rh - 0.06, fill=NAVY if last else (TEALBG if tot else SOFT))
+        text(sl, 0.65, y, 0.4, rh - 0.06, op, size=20, bold=True, color=WHITE if last else (TEAL if tot else GREY), anchor=MSO_ANCHOR.MIDDLE, align=PP_ALIGN.CENTER)
+        text(sl, 1.05, y, 1.6, rh - 0.06, v, size=18, bold=True, color=WHITE if last else NAVY, anchor=MSO_ANCHOR.MIDDLE, align=PP_ALIGN.RIGHT)
+        text(sl, 2.75, y + 0.02, 5.3, 0.27, lab, size=11.5, bold=True, color=WHITE if last else INK)
+        text(sl, 2.75, y + 0.25, 5.3, 0.25, sub, size=9.5, color=PALE if last else GREY)
+        y += rh
+    c = d["chart"]; cd = CategoryChartData(); cd.categories = [f"{m}\n{r}" for m, r in zip(c["months"], c["retailers"])]
+    cd.add_series("Contribution (₹ L)", c["contribution"]); cd.add_series("Cluster team (₹ L)", [c["team"]] * len(c["months"]))
+    gf = sl.shapes.add_chart(XL_CHART_TYPE.COLUMN_CLUSTERED, Inches(8.35), Inches(1.6), Inches(4.4), Inches(3.75), cd); ch = gf.chart
+    ch.has_title = True; ch.chart_title.text_frame.text = "Monthly contribution vs the ₹1.0 L team (month, active retailers)"; ch.chart_title.text_frame.paragraphs[0].runs[0].font.size = Pt(10)
+    ch.has_legend = True; ch.legend.position = XL_LEGEND_POSITION.BOTTOM; ch.legend.include_in_layout = False; ch.legend.font.size = Pt(9)
+    s0, s1 = ch.series; s0.format.fill.solid(); s0.format.fill.fore_color.rgb = TEAL; s1.format.fill.solid(); s1.format.fill.fore_color.rgb = RGBColor(0xC9, 0xD1, 0xDB)
+    s0.data_labels.show_value = True; s0.data_labels.font.size = Pt(8); s0.data_labels.number_format = '0.00'; s0.data_labels.number_format_is_linked = False
+    ch.value_axis.has_major_gridlines = False; ch.value_axis.tick_labels.font.size = Pt(9); ch.category_axis.tick_labels.font.size = Pt(8)
+    text(sl, 8.4, 5.4, 4.3, 0.3, "Crossed the team cost in May, at 20 retailers.", size=10, bold=True, color=TEAL)
+    landbar(sl, d["result"], 5.85)
+def r_retailer(sl, d, n):
+    frame(sl, d, n)
+    for i, (h, rows) in enumerate(d["panels"]):
+        x = 0.6 + i * 4.1; wpn = 3.9; box(sl, x, 1.6, wpn, 0.42, fill=NAVY if i == 2 else TEAL)
+        text(sl, x + 0.12, 1.6, wpn - 0.2, 0.42, h.upper(), size=10.5, bold=True, color=WHITE, anchor=MSO_ANCHOR.MIDDLE)
+        y = 2.08
+        for lab, v, kind in rows:
+            hgt = 0.52; fill = TEALBG if kind == "total" else SOFT
+            if i == 2 and kind == "total": fill = NAVY if y > 3.5 else TEALBG
+            box(sl, x, y, wpn, hgt - 0.05, fill=fill); dark = fill == NAVY
+            col = WHITE if dark else (RED if kind == "minus" else (TEAL if kind in ("plus", "total") else NAVY))
+            text(sl, x + 0.1, y, 2.55, hgt - 0.05, lab, size=9.5, bold=kind == "total", color=WHITE if dark else INK, anchor=MSO_ANCHOR.MIDDLE)
+            text(sl, x + 2.6, y, 1.22, hgt - 0.05, v, size=14 if kind == "total" else 12.5, bold=True, color=col, anchor=MSO_ANCHOR.MIDDLE, align=PP_ALIGN.RIGHT)
+            y += hgt
+        if i < 2: box(sl, x + wpn + 0.03, 3.4, 0.14, 0.25, fill=GREY, shape=MSO_SHAPE.RIGHT_ARROW)
+    landbar(sl, d["result"], 5.35); foot(sl, d["foot"])
 def r_cols3(sl, d, n):
     frame(sl, d, n)
     for i, (h, sub, items) in enumerate(d["cols"]):

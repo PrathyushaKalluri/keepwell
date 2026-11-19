@@ -218,21 +218,42 @@ Keepwell ran one cluster in the Vijayawada–Guntur belt from **March to October
 
 **The retailer earns a commission on every job.** That, together with being freed from the after-sale blame, is why retailers hand over the work.
 
-**How the economics build up:**
+**Where a retailer's ₹19,500 a month goes (pilot):**
 
-| Level | Numbers | What it shows |
+| | ₹ a month | Why |
 |---|---|---|
-| **One job** | ₹1,580 average bill (after GST); Keepwell keeps about ₹410 (26%) | Every job makes money |
-| **One retailer** | About 12 jobs a month = ₹19,500 revenue and ₹5,070 contribution | Every retailer makes money |
-| **One cluster** | The team costs ₹1 lakh a month, so 20 retailers break even | Every cluster makes money once it has enough retailers |
-| **One mature cluster** | 60 retailers, each at ₹30,000 a month with 32% contribution = ₹2.16 Cr revenue and ₹69 lakh contribution. After an ₹18 lakh team, **₹51 lakh a year of EBITDA (24%)** | A full cluster is a strong business |
+| Revenue: about 12 jobs × ₹1,580 | 19,500 | The jobs a retailer passes to Keepwell |
+| − Technicians | 4,900 | Partner technicians are paid per job, ₹330–500 (about ₹400 on average) |
+| − Parts | 6,400 | Genuine parts used in repairs |
+| − Retailer commission | 1,700 | 5% on installs, 8% on repairs, 12% on AMC |
+| − Travel, payments, AI desk, guarantee reserve | 1,430 | Small costs that come with every job |
+| **= Contribution (26%)** | **5,070** | What Keepwell keeps from one retailer, before the cluster team |
 
-**Why revenue per retailer grows from ₹19,500 to ₹30,000 a month:**
-- **Protect** builds up as more appliances are sold with the plan.
-- **AMC contracts** renew every year.
-- **Parts** add margin once they are bought centrally.
+**Why 20 retailers is the breakeven:** the pilot cluster's team costs ₹1 lakh a month, and ₹1,00,000 ÷ ₹5,070 ≈ 20. That is exactly when the pilot turned profitable (section 5).
 
-These come from the same retailers. No new ones are needed for this growth.
+**How the same retailer grows from ₹19,500 to ₹30,000 a month by year 5:**
+
+| | ₹ a month | Basis |
+|---|---|---|
+| Pilot revenue | 19,500 | |
+| + Protect plans | 4,000 | 2 plans a month × ₹2,000: about 4% of the ~55 covered appliances a retailer sells each month. The pilot's counter test reached 6% |
+| + AMC renewals | 2,600 | 2 renewals a month × ₹1,299, as earlier customers come up for renewal |
+| + Repairs on appliances Keepwell installed | 3,900 | About 1.5 more repairs a month as the installed base grows |
+| **= Revenue** | **30,000** | |
+| **Contribution at 32%** | **9,600** | Higher than 26% because parts are bought centrally and denser routes mean more jobs per technician day |
+
+No new retailers are needed for this growth; it comes from the same ones. Year 1 of the plan sits on the way, at ₹25,000 a month.
+
+**From one retailer to one cluster (a month):**
+
+| | Pilot cluster, October | Mature cluster |
+|---|---|---|
+| Retailers × contribution | 34 × ₹5,070 = ₹1.72 L | 60 × ₹9,600 = ₹5.76 L |
+| − Team | ₹1.0 L | ₹1.5 L (adds a second field executive and a parts desk) |
+| **= Cluster profit** | **+₹0.72 L** | **+₹4.26 L a month = ₹51 L a year (24% of ₹2.16 Cr revenue)** |
+| Breakeven | 20 retailers | 16 retailers |
+
+The October figure is the same ₹0.72 L the pilot chart ends on. The mature cluster is the same arithmetic with more retailers, each worth more.
 
 **Later income** (upside, not counted in the plan beyond that rise):
 - parts sold to local repair agencies;

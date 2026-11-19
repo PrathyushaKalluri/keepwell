@@ -28,3 +28,7 @@ C26,Founder networks,600+ dealers; 200+ service centres; claims platforms,steps/
 C27,Retailer acquisition cost,₹22k cold → ₹9.5k warm,steps/02; steps/06,Pilot,deck 11
 C28,Fundability score,89/100 (80/90 + X-factor 9),steps/11,Model,backup
 C29,Business model prices,"AC install ₹800 net; repair from ₹550; AMC ₹1,299; Protect ₹2,000",steps/05; steps/06; steps/07b,Research/Pilot,deck 7
+C30,"Retailer month, opened up (pilot)","₹19,500 − technicians ₹4,900 − parts ₹6,400 − commission ₹1,700 − other ₹1,430 = ₹5,070",xlsx Unit rows 14–20; steps/06 (₹330–500 a job; ₹1.7k commission),Pilot,deck 6; story unit
+C31,Retailer growth to year 5,"+ Protect ₹4,000 (2 × ₹2,000) + AMC ₹2,600 (2 × ₹1,299) + installed-base repairs ₹3,900 = ₹30,000; 32% = ₹9,600",xlsx Unit rows 21–25,Model,deck 6; story unit
+C32,Cluster month,"Pilot Oct 34 × ₹5,070 − ₹1.0 L = +₹0.72 L; mature 60 × ₹9,600 − ₹1.5 L = +₹4.26 L (₹51 L a year)",xlsx Unit rows 26–27,Model,deck 5–6
+C33,Pilot bridge,"195 retailer-months × ₹19,500 = ₹38.0 L − ₹28.1 L job costs = ₹9.9 L − ₹8.0 L team = +₹1.9 L",xlsx Pilot,Pilot,deck 5

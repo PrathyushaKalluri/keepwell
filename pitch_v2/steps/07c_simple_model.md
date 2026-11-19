@@ -15,6 +15,19 @@
 | **One cluster** | team cost **₹1.0 L a month** (pilot) | **20 retailers pay for it.** A mature cluster of 60 retailers: ₹2.16 Cr revenue, ₹69 L contribution, ₹18 L team, **₹51 L EBITDA (24%)** |
 | **The company** | clusters × retailers, minus head office | **EBITDA positive from year 1** |
 
+## 7c.1b One retailer's month, opened up (deck slide 6; xlsx Unit sheet rows 14–27)
+
+| Pilot | ₹ | Year 5 | ₹ |
+|---|---|---|---|
+| Revenue (12 jobs × ₹1,580) | 19,500 | Pilot revenue | 19,500 |
+| − Technicians (≈ ₹400 a job; Step 6: ₹330–500) | 4,900 | + Protect (2 plans × ₹2,000) | 4,000 |
+| − Parts | 6,400 | + AMC renewals (2 × ₹1,299) | 2,600 |
+| − Retailer commission (Step 6: ≈ ₹1.7k) | 1,700 | + Repairs on the installed base | 3,900 |
+| − Travel, payments, AI desk, guarantee reserve | 1,430 | = Revenue | 30,000 |
+| **= Contribution (26%)** | **5,070** | **Contribution at 32%** | **9,600** |
+
+Cluster month: pilot October 34 × ₹5,070 − ₹1.0 L = **+₹0.72 L**; mature 60 × ₹9,600 − ₹1.5 L = **+₹4.26 L** (₹51 L a year; breakeven 16).
+
 ## 7c.2 The pilot (one cluster, Vijayawada–Guntur, March–October 2026)
 
 The pilot uses the same unit: ₹19,500 revenue per active retailer a month, 26% contribution, and a ₹1.0 L-a-month cluster team.

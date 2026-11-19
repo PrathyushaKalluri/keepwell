@@ -23,7 +23,7 @@
 | Unit | Revenue | What Keepwell keeps |
 |---|---|---|
 | One job | ₹1,580 | about ₹410 |
-| One retailer (about 12 jobs a month) | ₹19,500 a month | ₹5,070 a month |
+| One retailer (about 12 jobs a month) | ₹19,500 a month | ₹5,070 a month (₹9,600 at maturity) |
 | One pilot cluster | Team costs ₹1.0 L a month | Pays for itself at 20 retailers |
 | The company | Clusters × retailers, minus head office | Profitable from year one |
 
@@ -79,33 +79,55 @@ A flowchart shows one appliance's life and what Keepwell does at each stage:
 
 Every step is written to one consented record.
 
-### 5. One cluster, March to October 2026
+### 5. The pilot cluster paid for itself from 20 retailers
 
-**All six numbers are 8-month totals for one cluster in Vijayawada–Guntur:**
+One cluster in Vijayawada–Guntur, March to October 2026. 34 retailers signed 2-year exclusive agreements, and 33 are still active.
 
-| Number | What it is |
+**The slide is one sum, read top to bottom:**
+
+| | Number | What it is |
+|---|---|---|
+| | **195** | Retailer-months: the active retailers each month, added up (12 + 15 + 20 + 24 + 28 + 30 + 32 + 34) |
+| × | **₹19,500** | Revenue per retailer a month (about 12 jobs × ₹1,580) |
+| = | **₹38.0 L** | Revenue (about 2,400 jobs) |
+| − | **₹28.1 L** | Job costs (74%): technicians, parts, retailer commission, travel and payments |
+| = | **₹9.9 L** | Contribution (26%), which is ₹5,070 per retailer a month |
+| − | **₹8.0 L** | Cluster team: ₹1.0 L a month × 8 |
+| = | **+₹1.9 L** | Cluster profit |
+
+**The chart** shows each month's contribution against the ₹1.0 L team cost, with the number of active retailers under each month. It crossed in May, at 20 retailers. By October (34 retailers) the cluster was making ₹0.72 L a month.
+
+**The one point:** each retailer leaves ₹5,070 a month, so 20 retailers pay for a cluster team.
+
+### 6. Why it paid, and how it grows: ₹5,070 a month today, ₹9,600 at maturity
+
+The slide continues from slide 5. It opens up the ₹5,070, grows the same retailer, and ends on slide 5's October number before scaling it.
+
+| One retailer's month, pilot | ₹ |
 |---|---|
-| **34 retailers** | On 2-year exclusive agreements (12 → 34; 33 still active in November) |
-| **2,400 jobs** | Installs, repairs and AMC |
-| **₹38 L revenue** | 34 retailers, ramping up, at ₹19,500 a month |
-| **₹9.9 L contribution** | 26%, after technicians, parts and the retailer's commission |
-| **+₹1.9 L cluster profit** | After the cluster team's ₹8 L |
-| **6%** | Of buyers took Keepwell Protect in a 12-retailer counter test |
+| Revenue: 12 jobs × ₹1,580 | 19,500 |
+| − Technicians (about ₹400 a job) | 4,900 |
+| − Parts | 6,400 |
+| − Retailer commission | 1,700 |
+| − Travel, payments, AI desk, guarantee reserve | 1,430 |
+| **= Contribution (26%)** | **5,070** |
 
-**The chart.** Each month's contribution crossed the ₹1.0 L team cost in May, when we reached 20 retailers. By October the cluster was making ₹0.72 L a month.
-
-**The one point:** a cluster pays for itself.
-
-### 6. Every retailer adds ₹5,000 a month; 20 retailers pay for a cluster
-
-| Level | Numbers |
+| The same retailer, year 5 | ₹ |
 |---|---|
-| **One job** | ₹1,580 average bill; about ₹410 of it is contribution |
-| **One retailer** | About 12 jobs a month: ₹19,500 revenue, ₹5,070 contribution |
-| **One pilot cluster** | Team costs ₹1.0 L a month, so breakeven is 20 retailers |
-| **One mature cluster** | 60 retailers at ₹30,000 a month and 32% contribution: ₹51 L EBITDA a year (24%) |
+| Pilot revenue | 19,500 |
+| + Protect plans: 2 a month × ₹2,000 | 4,000 |
+| + AMC renewals: 2 a month × ₹1,299 | 2,600 |
+| + Repairs on appliances Keepwell installed | 3,900 |
+| **= Revenue** | **30,000** |
+| **Contribution at 32%** (parts bought centrally, denser routes) | **9,600** |
 
-The business is positive at every level. Growth means adding retailers to clusters.
+| One cluster's month | Pilot (October) | Mature |
+|---|---|---|
+| Retailers × contribution | 34 × ₹5,070 = ₹1.72 L | 60 × ₹9,600 = ₹5.76 L |
+| − Team | ₹1.0 L | ₹1.5 L (adds a field executive and a parts desk) |
+| **= Cluster profit** | **+₹0.72 L** (breakeven 20) | **+₹4.26 L**, ₹51 L a year, 24% (breakeven 16) |
+
+Two Protect plans a month is about 4% of the appliances a retailer sells; the pilot's counter test reached 6%. Year 1 of the plan uses ₹25,000 a month per retailer, on the way to ₹30,000.
 
 ### 7. How we make money
 

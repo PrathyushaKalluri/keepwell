@@ -73,7 +73,19 @@ U = [("Revenue per retailer per month (₹)", f"={REF['u_rev']}", INR), ("Contri
      ("Cluster team cost per year (₹)", f"={REF['u_cost']}", INR), ("Cluster EBITDA per year (₹)", "=B6-B7", INR), ("Cluster EBITDA margin", "=B8/B5", PCT),
      ("Breakeven retailers per cluster", f"=B7/(B4*12)", '0.0')]
 for i, (lab, f, fmt) in enumerate(U, 3): wu.cell(i, 1, lab); c = wu.cell(i, 2, f); c.number_format = fmt
-wu.column_dimensions["A"].width = 48; wu.column_dimensions["B"].width = 18
+wu["A13"] = "One retailer's month, opened up (pilot → mature)"; wu["A13"].font = BOLD
+RM = [("Pilot revenue per retailer per month (₹)", f"={REF['p_rev']}", None), ("  − technicians (≈ ₹400 a job)", S.SPLIT["technicians"], 1), ("  − parts", S.SPLIT["parts"], 1),
+      ("  − retailer commission", S.SPLIT["retailer_commission"], 1), ("  − travel, payments, AI desk, guarantee reserve", S.SPLIT["other_per_job"], 1),
+      ("Result: contribution per retailer per month (₹)", "=B14-SUM(B15:B18)", None), ("Check: equals pilot margin × revenue (0 = OK)", f"=ROUND(B19-B14*{REF['p_cm']},0)", None),
+      ("  + Protect plans (2 a month × ₹2,000)", S.LIFT["protect"], 1), ("  + AMC renewals (2 a month × ₹1,299)", S.LIFT["amc_renewals"], 1),
+      ("  + repairs on the installed base", S.LIFT["installed_base_repairs"], 1), ("Result: mature revenue per retailer per month (₹)", "=B14+SUM(B21:B23)", None),
+      ("Check: equals the mature input (0 = OK)", f"=B24-{REF['u_rev']}", None),
+      ("Pilot cluster, October: 34 retailers × contribution − ₹1.0 L team (₹)", f"=Pilot!B11*B19-{REF['p_team']}", None),
+      ("Mature cluster per month: 60 × mature contribution − team (₹)", f"={REF['u_n']}*B4-B7/12", None)]
+for i, (lab, v, blue) in enumerate(RM, 14):
+    wu.cell(i, 1, lab); c = wu.cell(i, 2, v); c.number_format = INR
+    if blue: c.font = BLUE
+wu.column_dimensions["A"].width = 64; wu.column_dimensions["B"].width = 18
 # ---------------- Plan
 wl = wb.create_sheet("Plan"); wl["A1"] = "5-year plan (year 1 = Apr 2027–Mar 2028)"; wl["A1"].font = BOLD
 for j, (y, cal) in enumerate(zip(S.Y["years"], S.Y["cal"]), 3): wl.cell(3, j, f"{y} ({cal})").font = BOLD

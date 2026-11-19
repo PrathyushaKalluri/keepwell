@@ -34,21 +34,23 @@ dict(id="lifecycle", act="answer", sp="S", title="From the retailer's bill to a 
  why="The product as one flow, with Keepwell's job at every stage, in three readable clicks.",
  believe="Keepwell runs the appliance's entire after-sale life, and every step earns money or data.",
  next="We tested this for eight months. Kavyanth."),
-dict(id="traction", act="proof", sp="K", title="One cluster, March to October 2026",
- show="Six tiles, all 8-month totals for one cluster: 34 retailers on 2-year exclusive agreements; 2,400 jobs; ₹38 L revenue; ₹9.9 L contribution (26%); +₹1.9 L cluster profit after the ₹8 L team; 6% Protect attach. A monthly chart: contribution bars crossing the ₹1.0 L team-cost line in May. [click] The one-line result.",
- say="""We ran one cluster in Vijayawada–Guntur for eight months. Thirty-four retailers signed two-year exclusive agreements. We did twenty-four hundred jobs and earned thirty-eight lakh of revenue. After paying technicians, parts and the retailers' commission, we kept nine point nine lakh — and after the cluster team's eight lakh, the cluster made a profit.
-Look at the chart: each month's contribution crossed the team cost in May, when we reached twenty retailers.
-[click] The pilot tested one thing — does a cluster pay for itself? It does.""",
- why="Every number on the slide adds up to one conclusion: the cluster pays for itself. The chart shows when.",
- believe="The model works in the field and was profitable inside the pilot.",
- next="Here is why, retailer by retailer."),
-dict(id="unit", act="proof", sp="K", title="Every retailer adds ₹5,000 a month; 20 retailers pay for a cluster",
- show="Four boxes, left to right: one job ₹1,580 (≈ ₹410 contribution); one retailer ₹19,500 a month (₹5,070 contribution); one pilot cluster ₹1.0 L team a month (breakeven 20 retailers); one mature cluster ₹51 L EBITDA a year (24%). [click] 'Positive at every level.'",
- say="""An average job is fifteen hundred and eighty rupees; we keep about four hundred. A retailer gives us about twelve jobs a month — five thousand rupees of contribution. A cluster team costs one lakh a month, so twenty retailers pay for it. A mature cluster of sixty retailers earns fifty-one lakh a year.
-[click] Positive at every level — the job, the retailer, the cluster. Growth is just adding retailers to clusters.""",
- why="The chain links the pilot's numbers to the mature cluster in one line, so the investor sees how growth turns into profit.",
- believe="The unit economics are positive and simple to scale.",
- next="Here's where that money comes from."),
+dict(id="traction", act="proof", sp="K", title="The pilot cluster paid for itself from 20 retailers",
+ show="Left, one sum read top to bottom: 195 retailer-months × ₹19,500 = ₹38.0 L revenue (about 2,400 jobs) − ₹28.1 L job costs = ₹9.9 L contribution (26%) − ₹8.0 L cluster team = +₹1.9 L cluster profit. Right, the monthly chart with active retailers under each month: contribution crosses the ₹1.0 L team cost in May, at 20 retailers. [click] The result line.",
+ say="""We ran one cluster in Vijayawada–Guntur for eight months, from twelve retailers to thirty-four. Read the left side as one sum. Add up the active retailers each month and you get a hundred and ninety-five retailer-months. Each brought nineteen and a half thousand rupees, so thirty-eight lakh of revenue. After technicians, parts and the retailers' commission, nine point nine lakh was left. The cluster team cost eight lakh. So the cluster made one point nine lakh of profit.
+The chart shows when it turned: in May, the month we reached twenty retailers.
+[click] Each retailer leaves about five thousand rupees a month, so twenty retailers pay for the team. By October we were earning seventy-two thousand a month.""",
+ why="Every number is a step in one sum, and the chart shows the month the sum turned positive. One point: the cluster pays for itself.",
+ believe="The cluster model is profitable in the field, and they know exactly why.",
+ next="Why does each retailer leave ₹5,070? Next slide."),
+dict(id="unit", act="proof", sp="K", title="Each retailer leaves ₹5,070 a month today and ₹9,600 at maturity",
+ show="Three panels, left to right. One retailer's month in the pilot: ₹19,500 − technicians ₹4,900 − parts ₹6,400 − retailer commission ₹1,700 − travel, payments, AI desk ₹1,430 = ₹5,070 (26%). The same retailer in year 5: + Protect ₹4,000 + AMC renewals ₹2,600 + repairs on our installs ₹3,900 = ₹30,000; at 32%, ₹9,600. One cluster's month: pilot October 34 × ₹5,070 − ₹1.0 L team = +₹0.72 L; mature 60 × ₹9,600 − ₹1.5 L team = +₹4.26 L a month, ₹51 L a year. [click] The result line.",
+ say="""Here's where that five thousand comes from. A retailer gives us about twelve jobs a month: nineteen and a half thousand rupees. Technicians take forty-nine hundred, parts sixty-four hundred, the retailer's commission seventeen hundred, travel and payments the rest. Five thousand and seventy is ours.
+The same retailer grows. Two Protect plans a month, two AMC renewals, and repairs on the appliances we installed take it to thirty thousand a month. Buying parts centrally lifts our share to thirty-two percent: ninety-six hundred.
+Now the cluster. In October, thirty-four retailers less the team gave seventy-two thousand. That's the number you just saw on the chart. A mature cluster of sixty retailers makes four lakh a month.
+[click] Same unit, same arithmetic: fifty-one lakh a year per cluster.""",
+ why="It opens up the ₹5,070 from slide 5, grows the same retailer, and ends on slide 5's October number before scaling it. A continuation, not a new set of facts.",
+ believe="Every rupee of the unit is accounted for, and growth comes from the same retailers.",
+ next="Here's who pays for each of those lines."),
 dict(id="model", act="money", sp="K", title="How we make money",
  show="Three columns: Live · Serve (paid by households through the retailer: install ₹800 net, repair from ₹550, AMC ₹1,299, Protect ₹2,000, retailer commission); Next · Supply (parts, partner clusters at a 10% fee, trade-ins); Later · Know and circulate (verification for brands, leads, refurbished, e-waste). Line: ₹19,500 → ₹30,000 a month per retailer.",
  say="""Today, households pay through the retailer: for authorised installs, repairs, AMC and Protect, and the retailer earns a commission on every job. Next, parts and partner clusters. Later, brands pay to verify installs and claims, and old appliances get a second life.
