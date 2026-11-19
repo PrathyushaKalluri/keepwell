@@ -1,0 +1,210 @@
+<!-- Keepwell 8-minute story deck: 12 slides. Built by build_story_deck.py (8-minute variant). -->
+
+<style>
+.ofr{display:grid;grid-template-columns:repeat(4,1fr);gap:22px;margin-top:36px}.ofr .card b{display:block;font:700 28px/1.2 var(--serif)}.ofr .card span{display:block;margin-top:10px;font:500 19px/1.4 var(--sans);color:var(--grey2)}
+.slide.dark .ofr .card span{color:#C9D3E6}.ofr .card.hi{border:2px solid var(--amber)}
+.ph{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-top:34px}.ph div{padding:22px 26px;background:var(--ink2);color:#fff;clip-path:polygon(0 0,93% 0,100% 50%,93% 100%,0 100%,6% 50%);font:700 22px var(--sans)}.ph div:first-child{background:var(--teal)}.ph span{display:block;font:500 16px var(--sans);color:#C9D3E6;margin-top:4px}
+.steps6{display:grid;grid-template-columns:repeat(6,1fr);gap:16px;margin-top:30px}.steps6 .card{min-height:330px;padding:22px}.steps6 i{display:grid;place-items:center;width:46px;height:46px;border-radius:50%;background:var(--ink);color:#fff;font:700 20px var(--sans);font-style:normal}.steps6 b{display:block;font:700 25px var(--sans);margin:16px 0 8px}.steps6 span{font:500 18px/1.4 var(--sans);color:var(--grey2)}.steps6 .card.last{border:2px solid var(--teal);background:var(--tealbg)}
+.kp4{display:grid;grid-template-columns:repeat(4,1fr);gap:22px;margin-top:40px}.kp4 .card .big{font-size:84px;color:var(--red)}.kp4 .card div:last-child{font:500 20px/1.35 var(--sans);color:var(--grey2);margin-top:10px}
+.kp5{display:grid;grid-template-columns:repeat(5,1fr);gap:18px;margin-top:30px}.kp5 .card .big{font-size:66px}.kp5 .card div:last-child{font:500 18px/1.35 var(--sans);color:var(--grey2);margin-top:8px}
+.hm{display:grid;grid-template-columns:1fr 1fr;gap:28px;margin-top:30px}.hm ul{margin:12px 0 0;padding-left:26px;font:500 23px/1.6 var(--sans)}.hm h3{font:700 16px var(--sans);letter-spacing:.14em;text-transform:uppercase;margin:0}
+.uc{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;margin-top:30px}.uc .card{padding:0;overflow:hidden}.uc h3{margin:0;background:var(--ink);color:#fff;font:700 22px var(--sans);padding:16px 22px}.uc table{width:100%;border-collapse:collapse;font:500 20px var(--sans)}.uc td{padding:11px 22px;border-bottom:1px solid var(--line)}.uc td:last-child{text-align:right;font-weight:700;color:var(--ink)}.uc tr.k td{background:var(--tealbg);color:#0B6B5D;font-weight:800}
+.fun .row{display:grid;grid-template-columns:200px 1fr;align-items:center;margin:20px 0}.fun b{font:700 26px var(--sans)}.fun .bar{height:76px;border-radius:12px;display:flex;align-items:center;padding:0 22px;color:#fff;font:700 30px var(--serif);white-space:nowrap}.fun small{display:block;font:500 18px var(--sans);color:var(--grey2);margin-top:6px}
+.ctab{width:100%;border-collapse:collapse;font:500 20px var(--sans);margin-top:22px}.ctab th{text-align:left;font:700 14px var(--sans);letter-spacing:.1em;text-transform:uppercase;color:var(--grey);border-bottom:2px solid var(--line);padding:10px 14px}.ctab td{border-bottom:1px solid var(--line);padding:12px 14px}.ctab tr.us td{background:var(--tealbg);font-weight:700;color:#0B6B5D}
+.founder{display:flex;flex-direction:column;gap:12px}.founder .av{width:96px;height:96px;border-radius:50%;background:var(--ink);color:#fff;display:grid;place-items:center;font:700 34px var(--serif)}.founder b{font:700 30px var(--serif)}.founder em{font:700 18px var(--sans);font-style:normal;color:var(--teal);letter-spacing:.08em;text-transform:uppercase}.founder .net{font:700 46px var(--serif);color:var(--amber)}.founder span{font:500 19px/1.45 var(--sans);color:var(--grey2)}
+.rd{display:grid;grid-template-columns:repeat(4,1fr);gap:18px;margin-top:22px}.rd .card b{display:block;font:700 40px var(--serif)}.rd .card em{font:700 15px var(--sans);font-style:normal;letter-spacing:.1em;text-transform:uppercase;color:var(--teal)}.rd .card span{display:block;font:500 18px/1.4 var(--sans);color:var(--grey2);margin-top:6px}.rd .card.now{background:var(--ink);color:#fff}.rd .card.now em{color:var(--amber)}.rd .card.now span{color:#C9D3E6}
+.rev{display:flex;align-items:flex-end;gap:26px;height:330px;margin-top:20px;border-bottom:2px solid var(--line)}.rev .c{flex:1;display:flex;flex-direction:column;justify-content:flex-end;align-items:center;height:100%}.rev .vbar{background:var(--ink2);border-radius:10px 10px 0 0;width:72%}.rev .c:nth-child(-n+2) .vbar{background:var(--teal)}.rev .v{font:700 22px var(--sans)}.rev .e{font:700 17px var(--sans);color:var(--teal)}.rev .e.n{color:var(--red)}.rev .y{font:600 16px var(--sans);color:var(--grey)}
+.beat{font:500 27px/1.35 var(--sans);color:#E7ECF5;display:flex;gap:18px;align-items:center;margin:14px 0}.beat i{width:42px;height:42px;border-radius:50%;background:var(--teal);display:grid;place-items:center;font-style:normal;font-weight:800;flex:none}
+.bt{width:100%;border-collapse:collapse;margin-top:30px;font:500 22px/1.4 var(--sans)}.bt th{text-align:left;font:700 15px var(--sans);letter-spacing:.1em;text-transform:uppercase;color:var(--grey);border-bottom:2px solid var(--line);padding:12px}.bt td{border-bottom:1px solid var(--line);padding:14px 12px}
+.wk{display:grid;grid-template-columns:repeat(4,1fr);gap:20px;margin-top:40px}.wk .card b{display:block;font:700 15px var(--sans);letter-spacing:.14em;text-transform:uppercase;color:var(--amber)}.wk .card span{display:block;font:500 23px/1.4 var(--sans);margin-top:10px}.wk .card.red{border:2px solid var(--red);background:#FFF6F3}
+</style>
+
+<section class="slide" data-id="thursday" data-thread="broken" data-steps="1">
+  <div class="eyebrow a">A shop owner's week · Guntur</div>
+  <h1 class="t a" style="--i:1">He sells an AC on Monday. By Thursday, the customer is angry at <em>him</em>.</h1>
+  <div class="wk">
+    <div class="card a" style="--i:2"><b>Monday</b><span>Ravi sells a ₹38,000 AC to a family he has known for ten years.</span></div>
+    <div class="card a" style="--i:3"><b>Tuesday–Wednesday</b><span>The brand's installer "will come in 2–5 days". The family calls Ravi. Twice.</span></div>
+    <div class="card red a" style="--i:4"><b>Thursday</b><span>The family is at his counter — not the brand's. In 40 °C heat.</span></div>
+    <div class="card a" style="--i:5"><b>Two years later</b><span>Out of warranty. A mechanic guesses, charges what he likes, keeps no record.</span></div>
+  </div>
+  <div class="st mt" data-s="1" style="margin-top:46px"><span class="punch">Ravi earns nothing after the sale — <span style="color:var(--red)">but he carries all the blame.</span></span></div>
+</section>
+
+<section class="slide" data-id="problem" data-thread="broken" data-steps="1">
+  <div class="eyebrow a">The problem</div>
+  <h1 class="t a" style="--i:1">The shop's promise ends at the counter. <span class="r">Nobody keeps it after that.</span></h1>
+  <div class="row" style="margin-top:22px;height:480px;gap:30px">
+    <div style="flex:.95;display:grid;grid-template-columns:1.25fr 1fr;grid-template-rows:1fr 1fr;gap:16px">
+      <figure class="proofv a" style="--i:2;grid-row:1 / span 2;margin:0;height:100%"><video src="media/brandbot.mp4" autoplay muted loop playsinline></video><figcaption>A brand's WhatsApp bot: "API related issue" … "My request was not done."</figcaption></figure>
+      <figure class="proof a" style="--i:3;margin:0"><img src="media/ro_sticker.jpg" alt=""><figcaption>Next service date, in marker</figcaption></figure>
+      <figure class="proof a" style="--i:4;margin:0"><img src="media/diary_page.jpg" alt=""><figcaption>A family's repair diary</figcaption></figure>
+    </div>
+    <div class="kp4 a" style="--i:5;flex:1.05;grid-template-columns:1fr 1fr;margin-top:0;gap:18px">
+      <div class="card" style="padding:20px 24px"><div class="big" style="font-size:62px">2–5 days</div><div>for a brand install — while the shop takes the calls</div></div>
+      <div class="card" style="padding:20px 24px"><div class="big" style="font-size:62px">80–91%</div><div>of machines in homes are out of warranty</div></div>
+      <div class="card" style="padding:20px 24px"><div class="big" style="font-size:62px">44%</div><div>of AC service goes to local mechanics — no guarantee, no record</div></div>
+      <div class="card" style="padding:20px 24px"><div class="big" style="font-size:62px">7 of 12</div><div>households we met keep no service record</div></div>
+    </div>
+  </div>
+  <div class="st" data-s="1" style="margin-top:26px"><span class="punch" style="font-size:42px">The person the family trusts has no way to keep the promise he made.</span></div>
+</section>
+
+<section class="slide" data-id="team" data-thread="whole" data-steps="0">
+  <div class="eyebrow a">Why us</div>
+  <h1 class="t a" style="--i:1">Between us, we already know this market by name.</h1>
+  <div class="row" style="margin-top:34px">
+    <div class="card founder a" style="--i:2;flex:1"><div class="av">PK</div><b>Prathyusha Kalluri</b><em>CEO · shops & brands</em><div class="net">600+ dealers</div><span>Ten years in consumer-durables distribution; regional head (AP/TS) at the region's largest multi-brand distributor. Based in Vijayawada.</span></div>
+    <div class="card founder a" style="--i:3;flex:1"><div class="av">KM</div><b>Kavyanth Munagala</b><em>COO · technicians & partners</em><div class="net">200+ service centres</div><span>Zonal service head at a multi-category appliance brand; earlier an RO brand's service network. Knows how authorisation is granted.</span></div>
+    <div class="card founder a" style="--i:4;flex:1"><div class="av">SC</div><b>Sri Charan Peri</b><em>CTO · AI desk & Protect</em><div class="net">claims platforms</div><span>Voice-AI engineer, then engineering lead at a device-protection & claims platform: claims verification and a partner field app.</span></div>
+  </div>
+  <p class="lede a" style="--i:5;margin-top:26px;font-size:20px">Advisors: ex-national service head of an appliance brand · AP dealers' association president · home-services operator (20+ cities) · e-waste partnerships head.</p>
+</section>
+
+<section class="slide dark" data-id="keepwell" data-thread="whole" data-steps="1">
+  <div class="eyebrow a">Keepwell</div>
+  <h1 class="t a" style="--i:1">The shop sells the promise. <em>Keepwell keeps it.</em></h1>
+  <p class="lede a" style="--i:2">The after-sale service arm of every small-town appliance shop — under the shop's name, delivered by certified local technicians.</p>
+  <div class="ofr">
+    <div class="card a" style="--i:3"><b>Authorised install</b><span>within 24 hours, under brand sub-contracts — no voided warranty</span></div>
+    <div class="card a" style="--i:4"><b>Guaranteed repair & AMC</b><span>fixed rate card, 90-day guarantee, AC · fridge · washer · purifier</span></div>
+    <div class="card hi a" style="--i:5"><b>Keepwell Protect</b><span>a 2-year repair plan the shop sells on its own bill (~₹2,000)</span></div>
+    <div class="card a" style="--i:6"><b>The appliance record</b><span>every visit, part and plan — consented, on WhatsApp</span></div>
+  </div>
+  <div class="st ph" data-s="1"><div>1 · Serve<span>now · AP/TS</span></div><div>2 · Supply<span>parts · partner clusters</span></div><div>3 · Know<span>verified installs & claims</span></div><div>4 · Circulate<span>trade-in · refurbished · e-waste</span></div></div>
+</section>
+
+<section class="slide" data-id="job" data-thread="whole" data-steps="0">
+  <div class="eyebrow a">The product · Keepwell's AI desk on WhatsApp</div>
+  <h1 class="t a" style="--i:1">From the shop's bill to a guaranteed fix.</h1>
+  <div class="steps6">
+    <div class="card a" style="--i:2"><i>1</i><b>Sale</b><span>Shop adds install + Protect to the bill; the family consents on WhatsApp</span></div>
+    <div class="card a" style="--i:3"><i>2</i><b>Record</b><span>Model, serial and invoice read from photos; plan certificate issued</span></div>
+    <div class="card a" style="--i:4"><i>3</i><b>Install</b><span>Authorised slot; technician within 24 hours</span></div>
+    <div class="card a" style="--i:5"><i>4</i><b>Ask</b><span>Months later: a Telugu voice note — "AC not cooling"</span></div>
+    <div class="card a" style="--i:6"><i>5</i><b>Triage</b><span>AI drafts the likely fault and the part to carry; checks plan cover</span></div>
+    <div class="card last a" style="--i:7"><i>6</i><b>Fix & verify</b><span>Technician confirms the fault; photo + OTP close; the record updates</span></div>
+  </div>
+</section>
+
+<section class="slide" data-id="pilot" data-thread="whole" data-steps="0">
+  <div class="eyebrow a">Traction · Vijayawada–Guntur pilot, Mar–Oct 2026</div>
+  <h1 class="t a" style="--i:1">Eight months, 34 shops — and the shops kept routing to us.</h1>
+  <div class="kp5">
+    <div class="card a" style="--i:2"><div class="big">34</div><div>shops on 2-year exclusive agreements (33 active)</div></div>
+    <div class="card a" style="--i:3"><div class="big">~2,400</div><div>jobs: 775 installs, 1,330 service & repair, 280 plan-seller</div></div>
+    <div class="card a" style="--i:4"><div class="big">₹25 L</div><div>revenue · ₹5 L contribution</div></div>
+    <div class="card a" style="--i:5"><div class="big">₹4.5k</div><div>contribution per shop a month by month 4</div></div>
+    <div class="card a" style="--i:6;border:2px solid var(--teal)"><div class="big" style="color:var(--teal)">6%</div><div>Protect attach in a 12-shop counter test</div></div>
+  </div>
+  <div class="hm" style="margin-top:28px">
+    <div class="a" style="--i:7"><h3 style="color:var(--teal)">What worked</h3><ul><li>74 units per shop a month · 58% of installs routed to us</li><li>87% installed within 24 h · 81% fixed first visit</li></ul></div>
+    <div class="a" style="--i:8"><h3 style="color:var(--teal)">What it proves</h3><ul><li>Shops hand over the after-sale job when their name stays on it</li><li>Families buy a plan at the counter</li></ul></div>
+  </div>
+</section>
+
+<section class="slide" data-id="unitecon" data-thread="whole" data-steps="1">
+  <div class="eyebrow a">Unit economics · a mature cluster</div>
+  <h1 class="t a" style="--i:1">Every cluster pays for itself — <em>and the plan sells because we are the repairer.</em></h1>
+  <div class="row" style="margin-top:26px;gap:30px">
+    <div class="uc a" style="--i:2;flex:1;grid-template-columns:1fr;margin-top:0"><div class="card"><h3>One cluster · 60 shops · a year</h3><table><tr><td>Revenue</td><td>₹2.72 Cr</td></tr><tr><td>Contribution</td><td>₹67 L</td></tr><tr><td>Cluster team</td><td>−₹23 L</td></tr><tr class="k"><td>EBITDA</td><td>₹44 L · 16%</td></tr><tr><td>Breakeven</td><td>22 shops (35 today)</td></tr><tr><td>The shop earns</td><td>₹3,170 / month</td></tr></table></div></div>
+    <div class="card a" style="--i:3;flex:1.1">
+      <div style="font:700 15px var(--sans);letter-spacing:.14em;text-transform:uppercase;color:var(--teal);margin-bottom:16px">One Keepwell Protect plan · ₹2,000</div>
+      <div style="display:grid;grid-template-columns:300px 1fr 110px;gap:14px;align-items:center;font:600 21px var(--sans)">
+        <span>Net of GST</span><div style="height:30px;background:#F1ECE2;border-radius:8px"><i class="hbar" data-w="100%" style="display:block;background:var(--ink)"></i></div><b>₹1,695</b>
+        <span>Shop keeps 25%</span><div style="height:30px;background:#F1ECE2;border-radius:8px"><i class="hbar" data-w="25%" style="display:block;background:var(--amber)"></i></div><b>₹424</b>
+        <span>Repairs at our cost 35%</span><div style="height:30px;background:#F1ECE2;border-radius:8px"><i class="hbar" data-w="35%" style="display:block;background:var(--red)"></i></div><b>₹593</b>
+        <span style="color:var(--teal)">Keepwell keeps</span><div style="height:30px;background:#F1ECE2;border-radius:8px"><i class="hbar" data-w="35%" style="display:block;background:var(--teal)"></i></div><b style="color:var(--teal)">₹593</b>
+      </div>
+      <div style="font:500 18px/1.4 var(--sans);color:var(--grey2);margin-top:18px">A repairs-only service contract we fulfil ourselves; claims ring-fenced.</div>
+    </div>
+  </div>
+  <div class="st" data-s="1" style="margin-top:24px"><p class="lede">Company: EBITDA-positive in <b>year 5</b> · <b>₹130.5 Cr</b> revenue and <b>8.6</b> Cr EBITDA in year 7 · the mature network earns 13.4%.</p></div>
+</section>
+
+<section class="slide" data-id="nobody" data-thread="whole" data-steps="0">
+  <div class="eyebrow a">Why we win</div>
+  <h1 class="t a" style="--i:1">Everyone serves the chains or the brands. <em>Nobody owns the independent shop.</em></h1>
+  <table class="ctab a" style="--i:2"><tr><th>Player</th><th>Serves</th><th>Why not the independent shop</th></tr>
+    <tr><td>Urban Company</td><td>Metro households via app</td><td>Takes the customer; ~36% take</td></tr>
+    <tr><td>Onsitego · Zopper</td><td>Plans at chain counters</td><td>Closest — but no owned delivery in small towns; a possible partner</td></tr>
+    <tr><td>247around · SERVIZ</td><td>Brand-paid installs</td><td>Paid by brands, not tied to shops</td></tr>
+    <tr><td>Jeeves · resQ</td><td>Their own retailer's buyers</td><td>Captive</td></tr>
+    <tr><td>Local mechanics</td><td>Everyone, cheaply (44%)</td><td>No guarantee or record — we recruit the good ones</td></tr>
+    <tr class="us"><td>Keepwell</td><td>The independent shop's customers</td><td>Exclusive shop agreements · density · authorisation · the record</td></tr></table>
+</section>
+
+<section class="slide" data-id="market" data-thread="whole" data-steps="0">
+  <div class="eyebrow a">Market, from the bottom up</div>
+  <h1 class="t a" style="--i:1">₹4,000 Cr a year of after-sale spend that no one organises.</h1>
+  <div class="fun" style="margin-top:20px">
+    <div class="row a" style="--i:2"><b>TAM</b><div><div class="bar hbar" data-w="96%" style="background:var(--ink)">≈ ₹4,000 Cr</div><small>after-sale spend via independent shops, Tier 2/3 India</small></div></div>
+    <div class="row a" style="--i:3"><b>SAM</b><div><div class="bar hbar" data-w="49%" style="background:var(--ink2)">≈ ₹1,040 Cr</div><small>AP, Telangana, Karnataka, Tamil Nadu, Kerala</small></div></div>
+    <div class="row a" style="--i:4"><b>Beachhead</b><div><div class="bar hbar" data-w="29%" style="background:var(--teal)">≈ ₹360 Cr</div><small>Andhra Pradesh + Telangana</small></div></div>
+    <div class="row a" style="--i:5"><b>Year 7</b><div><div class="bar hbar" data-w="18%" style="background:var(--amber)">₹130 Cr</div><small>3,300 shops · 55 clusters · ~7% of India's 45k independent shops</small></div></div>
+  </div>
+</section>
+
+<section class="slide" data-id="journey" data-thread="whole" data-steps="1">
+  <div class="eyebrow a">The plan · BASE, ₹ Cr (year 1 = 2027)</div>
+  <h1 class="t a" style="--i:1">Serve → Supply → Know → Circulate. <em>Each round raised on proof.</em></h1>
+  <div class="rev a" style="--i:2">
+    <div class="c"><div class="v">2.4</div><div class="vbar" data-h="1.3%"></div><div class="e n">−1.1</div><div class="y">Y1</div></div>
+    <div class="c"><div class="v">6.8</div><div class="vbar" data-h="3.7%"></div><div class="e n">−1.5</div><div class="y">Y2</div></div>
+    <div class="c"><div class="v">15.3</div><div class="vbar" data-h="8.4%"></div><div class="e n">−1.9</div><div class="y">Y3</div></div>
+    <div class="c"><div class="v">29.7</div><div class="vbar" data-h="16%"></div><div class="e n">−1.4</div><div class="y">Y4</div></div>
+    <div class="c"><div class="v">53.9</div><div class="vbar" data-h="30%"></div><div class="e">+0.6</div><div class="y">Y5</div></div>
+    <div class="c"><div class="v">86.9</div><div class="vbar" data-h="48%"></div><div class="e">+4.1</div><div class="y">Y6</div></div>
+    <div class="c"><div class="v">130.5</div><div class="vbar" data-h="72%"></div><div class="e">+8.6</div><div class="y">Y7</div></div>
+    <div class="c"><div class="v">181.6</div><div class="vbar" data-h="100%"></div><div class="e">+15.3</div><div class="y">Y8</div></div>
+  </div>
+  <div class="st rd" data-s="1">
+    <div class="card now"><em>Seed · now · ₹8 Cr pre</em><b>₹2.5 Cr</b><span>SERVE in AP/TS · 4 clusters · Protect proven</span></div>
+    <div class="card"><em>Round 2 · H2 2028 · ₹25 Cr pre</em><b>₹5 Cr</b><span>SUPPLY · parts · service centres run partner clusters</span></div>
+    <div class="card"><em>Round 3 · 2030 · ₹70 Cr pre</em><b>₹15 Cr</b><span>SCALE to 72 clusters · KNOW + CIRCULATE</span></div>
+    <div class="card"><em>Exit · 2033–34</em><b>₹255–376 Cr</b><span>EV, year 7 (stress–BASE) · strategic or PE</span></div>
+  </div>
+</section>
+
+<section class="slide dark" data-id="ask" data-thread="whole" data-steps="1">
+  <div class="eyebrow a">The ask</div>
+  <h1 class="t a" style="--i:1">₹2.5 Cr · two tranches · 18 months.</h1>
+  <div class="row" style="margin-top:20px;gap:18px">
+    <div class="card a" style="--i:2;flex:1"><div class="big" style="font-size:64px">₹2.5 Cr</div><div style="font:500 19px var(--sans);color:#C9D3E6">CCPS · ₹1.75 Cr at close + ₹0.75 Cr at the month-9 gate</div></div>
+    <div class="card a" style="--i:3;flex:1"><div class="big" style="font-size:64px">₹8 Cr</div><div style="font:500 19px var(--sans);color:#C9D3E6">pre-money · 23.8% to the seed</div></div>
+    <div class="card a" style="--i:4;flex:1"><div class="big" style="font-size:64px">18 months</div><div style="font:500 19px var(--sans);color:#C9D3E6">from close · one-year need ₹1.34 Cr + six months to raise Round 2</div></div>
+  </div>
+  <div class="st card" data-s="1" style="margin-top:22px">
+    <div style="font:700 15px var(--sans);letter-spacing:.14em;text-transform:uppercase;color:var(--amber)">Month 9 (Dec 2027) — the gate that releases tranche 2</div>
+    <div class="beat"><i>1</i>65+ units a shop a month · 50%+ of installs routed to us · the pilot cluster pays for its own team</div>
+    <div class="beat"><i>2</i>Protect at 3.75%+ in the pilot shops · the legal opinion in hand · 35%+ of AC units authorised</div>
+    <div style="font:700 15px var(--sans);letter-spacing:.14em;text-transform:uppercase;color:var(--amber);margin-top:14px">Month 18 (Sep 2028) — the case for Round 2</div>
+    <div class="beat"><i>3</i>4 clusters · 200+ shops · ₹4.5 Cr+ revenue run-rate · 3 partner agreements · a paid verification contract</div></div>
+  <p class="lede a" style="--i:6;margin-top:16px;font-size:19px;color:#C9D3E6">Clean company: Protect is a service contract on counsel-reviewed terms · technicians are per-job partners with cover · authorised installs only · DPIIT-recognised, CA-reviewed books</p>
+</section>
+
+<section class="slide dark" data-id="close" data-thread="whole" data-steps="1">
+  <div class="eyebrow a">Ravi's Thursday, with Keepwell</div>
+  <h1 class="t a" style="--i:1">Keepwell keeps the promise the shop made <em>when it sold the appliance.</em></h1>
+  <div class="st" data-s="1" style="margin-top:30px">
+    <div class="beat a" style="--i:2"><i>✓</i>Monday: Ravi sells the AC — with Keepwell install and Protect on the same bill.</div>
+    <div class="beat a" style="--i:3"><i>✓</i>Tuesday: an authorised technician installs it. The warranty is safe.</div>
+    <div class="beat a" style="--i:4"><i>✓</i>Two years later: a voice note in Telugu. A fix the same week. Covered.</div>
+    <div class="beat a" style="--i:5"><i>✓</i>Ravi earns on the plan — and the family comes back to his shop.</div>
+  </div>
+</section>
+
+<section class="slide" data-id="b_divider" data-thread="" data-steps="0" data-backup="1"><h1 class="t" style="margin-top:300px">Backup slides</h1><p class="lede">Valuation · cap table · scenarios · terms</p></section>
+
+<section class="slide" data-id="b_valuation" data-thread="" data-steps="0" data-backup="1"><div class="eyebrow">Backup · valuation</div><h1 class="t">₹8 Cr pre-money: the course scorecard, inside comparables.</h1>
+  <table class="bt"><tr><th>Method</th><th>Result</th><th>Basis</th></tr><tr><td>Course scorecard</td><td>₹8.2 Cr pre</td><td>₹9 Cr × 73/100 ÷ benchmark 80</td></tr><tr><td>Comparables</td><td>₹6–12 Cr pre</td><td>Indian angel/seed rounds 2025–26; course CCPS template ₹7.5 Cr pre</td></tr><tr><td>VC method (stress, 40% IRR, 5 years)</td><td>≤ ₹13.5 Cr post</td><td>Year-5 EV ₹106 Cr × 68.5% retention ÷ 1.4⁵</td></tr><tr><td><b>Our price</b></td><td><b>₹8 Cr pre · ₹10.5 Cr post</b></td><td>23.8% for ₹2.5 Cr · 1.3× the pre-seed cap</td></tr></table></section>
+
+<section class="slide" data-id="b_captable" data-thread="" data-steps="0" data-backup="1"><div class="eyebrow">Backup · cap table and returns</div><h1 class="t">Founders keep 41% after three rounds.</h1>
+  <table class="bt"><tr><th>Holder</th><th>After seed</th><th>After Round 2 (₹25 Cr pre)</th><th>After Round 3 (₹70 Cr pre)</th></tr><tr><td>Founders (38/31/31)</td><td>60.5%</td><td>50.4%</td><td>41.5%</td></tr><tr><td>Pre-seed iSAFE</td><td>5.7%</td><td>4.8%</td><td>3.9%</td></tr><tr><td>ESOP pool</td><td>10.0%</td><td>8.3%</td><td>6.9%</td></tr><tr><td>Seed</td><td>23.8%</td><td>19.8%</td><td>16.3%</td></tr><tr><td>Round 2 · Round 3</td><td>—</td><td>16.7%</td><td>13.7% · 17.6%</td></tr></table>
+  <p class="lede" style="margin-top:24px">Seed return: 6.9× (47% IRR) at year 5 in stress · 16.7× at year 7 in stress · 24.6× at year 7 in BASE.</p></section>
+
+<section class="slide" data-id="b_scen" data-thread="" data-steps="0" data-backup="1"><div class="eyebrow">Backup · scenarios</div><h1 class="t">Planned on the stress case.</h1>
+  <table class="bt"><tr><th></th><th>BASE</th><th>Stress</th><th>LOW</th></tr><tr><td>Year-7 revenue</td><td>₹130.5 Cr</td><td>₹85.2 Cr</td><td>₹79.8 Cr</td></tr><tr><td>Year-7 EBITDA</td><td>6.6%</td><td>4.7%</td><td>−11%</td></tr><tr><td>First positive year</td><td>Y5</td><td>Y6</td><td>never</td></tr><tr><td>Peak cash need (monthly)</td><td>₹7.0 Cr</td><td>₹10.1 Cr</td><td>₹58 Cr</td></tr><tr><td>What we do</td><td>Plan</td><td>Seed + Round 2 cover to month 46</td><td>Month-9 gate: no tranche 2, expansion stops</td></tr></table></section>
+
+<section class="slide" data-id="b_terms" data-thread="" data-steps="0" data-backup="1"><div class="eyebrow">Backup · key terms (course CCPS template)</div><h1 class="t">Clean terms that keep later rounds clean.</h1>
+  <table class="bt"><tr><td>Instrument</td><td>CCPS · ₹1.75 Cr at close + ₹0.75 Cr at the month-9 gate, same price · 1x non-participating · broad-based weighted-average anti-dilution</td></tr><tr><td>Board</td><td>2 founders + 1 lead-investor director · AP observer · independent director at Round 2</td></tr><tr><td>Founders</td><td>4-year vesting from Aug 2025 (no reset) · 3-year lock-in</td></tr><tr><td>Rights</td><td>Pro-rata · information (monthly record extract) · ROFR/ROFO · tag · drag after year 7</td></tr><tr><td>ESOP</td><td>10% post-seed</td></tr></table></section>

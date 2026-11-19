@@ -22,12 +22,13 @@ for k, (v, sstr) in canon.items():
     tol = 0.06 if "." in sstr else 0.6
     if abs(v - float(sstr)) > tol: print("MODEL DRIFT", k, round(v, 3), "vs", sstr); bad += 1
 must = {H / "deck/deck_content.py": ["130.5", "8.6", "16", "22", "₹8 Cr", "23.8", "60.5", "16.3", "255", "376"],
-        H / "story_deck/slides.html": ["130.5", "8.6", "16%", "22 shops", "₹8 Cr", "23.8", "60.5", "16.3", "255", "376"]}
+        H / "story_deck/slides.html": ["130.5", "8.6", "16%", "22 shops", "₹8 Cr", "23.8", "60.5", "16.3", "255", "376"],
+        H / "story_deck/slides_8min.html": ["130.5", "8.6", "16%", "22 shops", "₹8 Cr", "23.8", "60.5", "16.3", "255", "376"]}
 for p, keys in must.items():
     t = p.read_text()
     for kk in keys:
         if kk not in t: print(f"MISSING '{kk}' in {p.name}"); bad += 1
-SCAN = [H / "deck/deck_content.py", H / "story_deck/slides.html", H / "story_deck/script_data.py", H / "KEEPWELL_FULL_STORY.md"]
+SCAN = [H / "deck/deck_content.py", H / "story_deck/slides.html", H / "story_deck/script_data.py", H / "story_deck/slides_8min.html", H / "story_deck/script_8min.py", H / "KEEPWELL_FULL_STORY.md"]
 SCAN += list((H / "proof_pack").glob("*.md"))
 SCAN += [p for p in (H / "steps").glob("*.md") if not p.name.startswith(("00", "07_"))]
 STALE = [r"₹10 Cr pre", r"₹12\.5 Cr post", r"₹30 Cr pre", r"₹85 Cr pre", r"\b630 formulas", r"\b679 formulas", r"\b378 formulas",
