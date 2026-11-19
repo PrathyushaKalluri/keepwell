@@ -140,15 +140,22 @@
 - At full ramp: about **₹4.8k contribution per shop** (all-in). Breakeven at **about 35 shops**.
 - The plan is 45–50 shops by mid-2027, which gives about 5–7% cluster EBITDA (00c).
 
-**Money bridge to Step 2's "pilot cluster operations ₹13 L":**
+**Money bridge to Step 2's "pilot cluster set-up ₹13 L"** (restated on the final pilot numbers, Step 7c):
 
-| Line | ₹ L |
+| Pilot launch, Jan–Oct 2026 | ₹ L |
 |---|---|
-| Cluster team: set-up Jan–Feb (₹0.9 L/month) + pilot Mar–Oct (lean ₹1.4 L/month) | +13.0 |
-| Off-season floor top-ups for core technicians | +1.5 |
-| Shop CAC (34 × ₹9.5k) | +3.2 |
-| Contribution earned | −5.0 |
-| **Net cluster cost** | **≈ 12.7, about ₹13 L** ✅ |
+| Pre-launch team, Jan–Feb 2026 (manager and dispatcher, ₹0.9 L a month) | 1.8 |
+| Signing 34 retailers (₹9.5k each, warm introductions) | 3.2 |
+| Counter kits and local launch for 34 retailers (about ₹10k each) | 3.4 |
+| Cluster hub: rent, fit-out and deposit | 3.0 |
+| Training and certifying 22 technicians | 1.5 |
+| Off-season pay floor for 9 core technicians | 1.5 |
+| Protect claims reserve for the 72 plans sold | 0.5 |
+| **Gross launch cost** | **14.9** |
+| Less: the cluster's running profit (₹9.9 L contribution − ₹8.0 L team, slide 6) | −1.9 |
+| **Pilot launch, net** | **13.0** |
+
+The ₹8 L cluster team on slide 6 is the pilot's running cost, and its contribution covered it. The ₹13 L is the one-off launch around it, net of that running profit. Launch (₹14.9 L gross) plus parts and tools (₹6 L) is about ₹20 L, the cost per new cluster in the use of funds.
 
 Setup and working capital (₹6 L) sit separately in Step 2.
 

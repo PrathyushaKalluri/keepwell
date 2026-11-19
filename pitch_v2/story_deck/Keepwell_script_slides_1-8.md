@@ -129,7 +129,24 @@
 | Spent ₹52 L | Founder stipends ₹21 L + pilot set-up ₹13 L + parts and tools ₹6 L + travel, tech and legal ₹12 L (₹5 L + ₹4 L + ₹3 L) |
 | ₹18 L in the bank | ₹70 L − ₹52 L. The ₹5 L grant balance is still to come |
 | Stipends = 40% of spend | 3 founders × ₹50,000 × about 14 months = ₹21 L. ₹21 L ÷ ₹52 L = 40% |
-| "Pilot set-up ₹13 L" | Net of what the pilot earned. The pilot cluster itself finished +₹1.9 L after its team (slide 6) |
+| "Pilot launch ₹13 L" | The one-off launch of the cluster, net of its running profit. See the bridge below |
+
+**"Why ₹13 L for the pilot when slide 6 shows an ₹8 L team?"** They are different costs. The ₹8 L is the team's running cost, and the cluster's contribution covered it. The ₹13 L is the launch around it:
+
+| Pilot launch, Jan–Oct 2026 | ₹ L |
+|---|---|
+| Pre-launch team, Jan–Feb 2026 (manager and dispatcher, ₹0.9 L a month) | 1.8 |
+| Signing 34 retailers (₹9.5k each, warm introductions) | 3.2 |
+| Counter kits and local launch for 34 retailers (about ₹10k each) | 3.4 |
+| Cluster hub: rent, fit-out and deposit | 3.0 |
+| Training and certifying 22 technicians | 1.5 |
+| Off-season pay floor for 9 core technicians | 1.5 |
+| Protect claims reserve for the 72 plans sold | 0.5 |
+| **Gross launch cost** | **14.9** |
+| Less: the cluster's running profit (₹9.9 L contribution − ₹8.0 L team, slide 6) | −1.9 |
+| **Pilot launch, net** | **13.0** |
+
+The ₹8 L cluster team on slide 6 is the pilot's running cost, and its contribution covered it. The ₹13 L is the one-off launch around it, net of that running profit. Launch (₹14.9 L gross) plus parts and tools (₹6 L) is about ₹20 L, the cost per new cluster in the use of funds.
 
 **If they ask…**
 - **"Why spend 40% on yourselves?"** ₹50,000 a month is well below market for 8–10 years of experience each. It is what keeps three people full-time.

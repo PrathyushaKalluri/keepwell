@@ -93,7 +93,7 @@ All six traction numbers are 8-month totals for one cluster:
 - **Each new cluster is opened through warm networks**, which cuts the cost of signing a retailer from ₹22k to ₹9.5k. The field executive who signs retailers is inside the cluster team cost.
 - **Head office is lean in year 1:** the founders, 2 engineers and a finance lead; the AI desk keeps dispatch staff low.
 
-**Why we still raise money:** opening a cluster costs ₹20 L before it earns. That covers set-up, parts stock, onboarding and training. Working capital also grows with revenue. These are balance-sheet uses, not losses. The plan's peak cash need is **₹2.0 Cr** (March 2030), and from then on growth pays for itself.
+**Why we still raise money:** opening a cluster costs ₹20 L before it earns; the pilot's launch cost ₹14.9 L plus ₹6 L of parts and tools (bridge in Step 6). That covers set-up, parts stock, onboarding and training. Working capital also grows with revenue. These are balance-sheet uses, not losses. The plan's peak cash need is **₹2.0 Cr** (March 2030), and from then on growth pays for itself.
 
 ## 7c.4 Conservative case
 

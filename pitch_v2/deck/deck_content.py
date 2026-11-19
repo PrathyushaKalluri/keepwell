@@ -43,7 +43,7 @@ SLIDES = [
       timeline=[("Apr–Jul 2025", "Discovery: 64 retailers, 12 homes"), ("Aug 2025", "Incorporated · DPIIT"), ("Nov 2025", "2 authorised service-centre contracts"),
                 ("Dec 2025", "₹45 L pre-seed"), ("Feb 2026", "₹15 L AP grant · 28 retailer LOIs"), ("Mar–Oct 2026", "Pilot cluster"), ("Nov 2026", "Raising the seed")],
       raised=[("Angels (iSAFE)", 45), ("Founders", 15), ("AP grant", 10)],
-      spent=[("Founder stipends", 21), ("Pilot set-up", 13), ("Parts, tools", 6), ("Travel, tech, legal", 12)],
+      spent=[("Founder stipends", 21), ("Pilot launch", 13), ("Parts, tools", 6), ("Travel, tech, legal", 12)],
       left=18,
       why=[("iSAFE, ₹6 Cr cap", "priced on proof, not on an idea"), ("₹15 L grant", "no ownership given up"), ("₹50k stipends", "40% of spend; founders all-in")],
       result="₹52 L took Keepwell from the first interview to a cluster that pays for itself. ₹18 L is still in the bank.",

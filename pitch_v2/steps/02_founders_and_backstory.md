@@ -108,14 +108,14 @@ Backdated so that the Vijayawada–Guntur summer pilot has happened. Its results
 | Item | ₹ L |
 |---|---|
 | Founders' living stipend (3 × ₹50k × about 14 months) | 21 |
-| Pilot cluster operations (manager, dispatcher, training, office, onboarding; part-year) | 13 |
+| Pilot cluster launch: pre-launch team, retailer sign-up and counter kits, hub, technician training, claims reserve; net of the cluster's ₹1.9 L running profit (bridge in Step 6) | 13 |
 | Technology (cloud, WhatsApp, AI usage, devices) | 4 |
 | Cluster setup and working capital (tools, kits, parts stock) | 6 |
 | Legal, compliance, insurance | 3 |
 | Travel, discovery, miscellaneous | 5 |
 | **Total** | **52** |
 
-**Cash today: about ₹18 L**, plus the ₹5 L grant instalment still due. Contribution from pilot operations is netted inside the cluster line. Step 6 reconciles the pilot's contribution exactly.
+**Cash today: about ₹18 L**, plus the ₹5 L grant instalment still due. The pilot cluster's running profit (+₹1.9 L) is netted inside the launch line. Step 6 shows the bridge.
 
 ### 2.6 The pre-seed instrument: why an iSAFE from operator angels (with later rounds in mind)
 

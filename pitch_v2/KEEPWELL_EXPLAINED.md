@@ -158,12 +158,29 @@ Keepwell is not starting from zero. Its history so far:
 | Item | ₹ lakh |
 |---|---|
 | Founders' living stipends (3 × ₹50,000 a month, about 14 months) | 21 |
-| Pilot cluster set-up and operations (net of what the pilot earned) | 13 |
+| Pilot cluster launch (net of the pilot's ₹1.9 L running profit; bridge below) | 13 |
 | Parts stock, tools and kits | 6 |
 | Technology (cloud, WhatsApp, AI, devices) | 4 |
 | Legal, compliance, insurance | 3 |
 | Travel and discovery | 5 |
 | **Total** | **52** |
+
+**Why the pilot line is ₹13 L when the cluster team cost ₹8 L:**
+
+| Pilot launch, Jan–Oct 2026 | ₹ L |
+|---|---|
+| Pre-launch team, Jan–Feb 2026 (manager and dispatcher, ₹0.9 L a month) | 1.8 |
+| Signing 34 retailers (₹9.5k each, warm introductions) | 3.2 |
+| Counter kits and local launch for 34 retailers (about ₹10k each) | 3.4 |
+| Cluster hub: rent, fit-out and deposit | 3.0 |
+| Training and certifying 22 technicians | 1.5 |
+| Off-season pay floor for 9 core technicians | 1.5 |
+| Protect claims reserve for the 72 plans sold | 0.5 |
+| **Gross launch cost** | **14.9** |
+| Less: the cluster's running profit (₹9.9 L contribution − ₹8.0 L team, slide 6) | −1.9 |
+| **Pilot launch, net** | **13.0** |
+
+The ₹8 L cluster team on slide 6 is the pilot's running cost, and its contribution covered it. The ₹13 L is the one-off launch around it, net of that running profit. Launch (₹14.9 L gross) plus parts and tools (₹6 L) is about ₹20 L, the cost per new cluster in the use of funds.
 
 ₹70 L raised − ₹52 L spent = **about ₹18 lakh in cash today**, plus ₹5 lakh of grant still to come. Head office and preparation for the next two clusters use about ₹5 lakh a month, so roughly ₹2 lakh will be left when the new round closes in March 2027. (The pilot cluster on its own finished ₹1.9 L ahead after its team's pay; section 5.)
 
