@@ -143,12 +143,12 @@ def r_bridge(sl, d, n):
     c = d["chart"]; cd = CategoryChartData(); cd.categories = [f"{m}\n{r}" for m, r in zip(c["months"], c["retailers"])]
     cd.add_series("Contribution (₹ L)", c["contribution"]); cd.add_series("Cluster team (₹ L)", [c["team"]] * len(c["months"]))
     gf = sl.shapes.add_chart(XL_CHART_TYPE.COLUMN_CLUSTERED, Inches(8.35), Inches(1.6), Inches(4.4), Inches(3.75), cd); ch = gf.chart
-    ch.has_title = True; ch.chart_title.text_frame.text = "Monthly contribution vs the ₹1.0 L team (month, active retailers)"; ch.chart_title.text_frame.paragraphs[0].runs[0].font.size = Pt(10)
+    ch.has_title = True; ch.chart_title.text_frame.text = "What the cluster kept each month vs its ₹1.0 L team cost (under each month: active retailers)"; ch.chart_title.text_frame.paragraphs[0].runs[0].font.size = Pt(10)
     ch.has_legend = True; ch.legend.position = XL_LEGEND_POSITION.BOTTOM; ch.legend.include_in_layout = False; ch.legend.font.size = Pt(9)
     s0, s1 = ch.series; s0.format.fill.solid(); s0.format.fill.fore_color.rgb = TEAL; s1.format.fill.solid(); s1.format.fill.fore_color.rgb = RGBColor(0xC9, 0xD1, 0xDB)
-    s0.data_labels.show_value = True; s0.data_labels.font.size = Pt(8); s0.data_labels.number_format = '0.00'; s0.data_labels.number_format_is_linked = False
+    s0.data_labels.show_value = True; s0.data_labels.font.size = Pt(8); s0.data_labels.number_format = '"₹"0.00" L"'; s0.data_labels.number_format_is_linked = False
     ch.value_axis.has_major_gridlines = False; ch.value_axis.tick_labels.font.size = Pt(9); ch.category_axis.tick_labels.font.size = Pt(8)
-    text(sl, 8.4, 5.4, 4.3, 0.3, "Crossed the team cost in May, at 20 retailers.", size=10, bold=True, color=TEAL)
+    text(sl, 8.4, 5.4, 4.3, 0.3, "Mar–Apr kept less than the team cost: loss months (−₹39k, −₹24k). Profit from May, at 20 retailers.", size=10, bold=True, color=TEAL)
     landbar(sl, d["result"], 5.85)
 def r_retailer(sl, d, n):
     frame(sl, d, n)
