@@ -36,32 +36,28 @@ dict(id="lifecycle", act="answer", sp="S", title="Not every appliance reaches ev
  next="Before the pilot, how we got here."),
 dict(id="journey", act="proof", sp="P", title="₹70 L raised, ₹52 L spent",
  show="A timeline: discovery (Apr–Jul 2025) → incorporated → 2 authorised service-centre contracts → ₹45 L pre-seed (Dec 2025) → ₹15 L AP grant and 28 retailer LOIs → pilot (Mar–Oct 2026) → raising the seed. Two bars: raised ₹70 L (angels ₹45 L iSAFE, founders ₹15 L, grant ₹10 L); spent ₹52 L (stipends ₹21 L, pilot set-up ₹13 L, parts ₹6 L, travel/tech/legal ₹12 L) with ₹18 L in the bank. [click] Why: iSAFE at a ₹6 Cr cap, priced on proof; the grant gives up no ownership; stipends are 40% of spend.",
- say="""Here's how we got to the pilot. Four months of interviews, then we incorporated, signed two authorised service centres, and raised seventy lakh: forty-five from three operator angels, fifteen of our own, and a state grant. We've spent fifty-two, mostly on our stipends and the pilot set-up; eighteen is still in the bank.
-[click] We used an iSAFE so the price would be set on proof, not on an idea.""",
+ say="""Before the pilot, here's how we got here. Four months interviewing sixty-four retailers, then we incorporated and signed two authorised service centres. We raised seventy lakh: forty-five from three operator angels, fifteen of our own, ten from the state grant. We've spent fifty-two, forty percent of it our own stipends, and eighteen is in the bank.
+[click] We used an iSAFE so our price is set on proof, not on an idea.""",
  why="It shows the money already raised and spent, so the seed reads as the next step on a track record.",
  believe="The team spends carefully and has already turned ₹52 L into a working cluster.",
  next="Here's what the pilot proved. Kavyanth."),
 dict(id="traction", act="proof", sp="K", title="The pilot cluster paid for itself from 20 retailers",
  show="Left, one sum read top to bottom: 195 retailer-months × ₹19,500 = ₹38.0 L revenue (2,340 jobs) − ₹28.1 L job costs = ₹9.9 L contribution (26%) − ₹8.0 L cluster team = +₹1.9 L cluster profit. Right, the monthly chart with active retailers under each month: contribution crosses the ₹1.0 L team cost in May, at 20 retailers. [click] The result line.",
- say="""We ran one cluster in Vijayawada–Guntur for eight months, from twelve retailers to thirty-four. Read the left side as one sum: a hundred and ninety-five retailer-months at nineteen and a half thousand is thirty-eight lakh of revenue. Nine point nine lakh was left after job costs; the team cost eight. Profit: one point nine lakh.
-The chart shows when it turned: in May, the month we reached twenty retailers.
-[click] Each retailer leaves about five thousand rupees a month, so twenty retailers pay for the team. By October we were earning seventy-two thousand a month.""",
+ say="""I'm Kavyanth. One cluster, March to October. Read the left side as one sum: a hundred and ninety-five retailer-months at nineteen and a half thousand rupees is thirty-eight lakh of revenue. After job costs, nine point nine lakh; after the eight-lakh team, one point nine lakh of profit.
+[click] The chart shows when it turned: May, the month we passed twenty retailers. By October, seventy-two thousand a month.""",
  why="Every number is a step in one sum, and the chart shows the month the sum turned positive. One point: the cluster pays for itself.",
  believe="The cluster model is profitable in the field, and they know exactly why.",
  next="Why does each retailer leave ₹5,070? Next slide."),
 dict(id="unit", act="proof", sp="K", title="Each retailer leaves ₹5,070 a month today and ₹9,600 at maturity",
  show="Top row: the 12 jobs behind ₹19,500, in whole jobs at market prices: 4 AC installs × ₹2,600 (brand price), 2 other installs × ₹300, 1 service visit × ₹300 (local mechanic), 3 repairs with a part × ₹2,000 (UC rate card), 2 AMCs × ₹1,100 = ₹19,500, average ₹1,625. Below, three panels. One retailer's month in the pilot: ₹19,500 − technicians ₹4,900 − parts ₹6,400 − retailer commission ₹1,320 − travel, payments, AI desk ₹1,810 = ₹5,070 (26%). The same retailer in year 5: + Protect ₹3,400 + AMC renewals ₹1,100 + repairs on our installs ₹6,000 = ₹30,000; at 32%, ₹9,600. One cluster's month: pilot October 34 × ₹5,070 − ₹1.0 L team = +₹0.72 L; mature 60 × ₹9,600 − ₹1.5 L team = +₹4.26 L a month, ₹51 L a year. [click] The result line.",
- say="""Here's where that five thousand comes from. Twelve jobs a month, each at the market rate: four AC installs with the bracket and pipe, three three-hundred-rupee jobs, three repairs with a part, and two maintenance contracts. Nineteen and a half thousand, sixteen twenty-five a job on average.
-Technicians, parts, the retailer's commission and travel take the rest; five thousand and seventy is ours.
-The same retailer grows to thirty thousand a month with Protect, renewals and repairs on our installs, and we keep thirty-two percent: ninety-six hundred.
-In October the cluster made seventy-two thousand, the number on the chart. A mature cluster of sixty makes four lakh a month.
-[click] Same unit, same arithmetic: fifty-one lakh a year per cluster.""",
+ say="""Why twenty? Each retailer gives us twelve jobs a month at market prices: installs at the brand's price, three-hundred-rupee visits, repairs at Urban Company's rates. That's nineteen and a half thousand. After technicians, parts, the retailer's commission and travel, five thousand and seventy is ours, and a one-lakh team divided by five thousand is twenty.
+[click] Add Protect, renewals and repairs on our own installs, and the same retailer reaches thirty thousand. A sixty-retailer cluster makes fifty-one lakh a year.""",
  why="It opens up the ₹5,070 from slide 5, grows the same retailer, and ends on slide 5's October number before scaling it. A continuation, not a new set of facts.",
  believe="Every rupee of the unit is accounted for, and growth comes from the same retailers.",
  next="Here's who pays for each of those lines."),
 dict(id="model", act="money", sp="K", title="Families pay market prices per job. Keepwell keeps ₹26 of every ₹100.",
  show="One bar: every ₹100 a family pays: technician ₹25, parts ₹33, retailer ₹7, travel and payments ₹9, Keepwell ₹26. Three cards: Now, families pay (install ₹2,600, visit ₹300, repair ₹2,000, AMC ₹1,299, Protect ₹2,000); Year 2, agencies and partners pay (parts, partner clusters at a 10% fee, trade-ins); Year 3, brands and buyers pay (verified installs and claims, refurbished units, e-waste).",
- say="""How do we make money? Families pay market prices per job. Of every hundred rupees, the technician gets twenty-five, parts thirty-three, the retailer seven, and we keep twenty-six. From year two, agencies and partners pay us for parts; from year three, brands pay to verify installs and claims.""",
+ say="""So the model is simple: families pay per job, at market prices. Of every hundred rupees, the technician gets twenty-five, parts thirty-three, the retailer seven, travel and payments nine, and we keep twenty-six. Later, agencies pay us for parts and brands pay to verify installs.""",
  why="One bar shows who gets what from each job; three cards show who pays now and later.",
  believe="The revenue is simple, per job, and every party in the chain is paid.",
  next="Here's the five-year plan."),
