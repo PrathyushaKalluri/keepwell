@@ -56,7 +56,7 @@ SLIDES = [
               ("One cluster's month", [("Pilot, Oct: 34 retailers × ₹5,070", "₹1.72 L", "base"), ("Team", "−₹1.0 L", "minus"), ("Cluster profit (breakeven 20 retailers)", "+₹0.72 L", "total"),
                                        ("Mature: 60 retailers × ₹9,600", "₹5.76 L", "base"), ("Team (adds a field executive, parts desk)", "−₹1.5 L", "minus"), ("Cluster profit: ₹51 L a year, 24%", "+₹4.26 L", "total")])],
       result="Same unit, same arithmetic: the pilot's ₹0.72 L a month becomes ₹51 L a year when a cluster reaches 60 retailers.",
-      foot="Protect is not in the pilot month: sold only in the last 8 weeks and booked over its 2 years. Prices net of GST; sources on the pricing backup. Model: keepwell_model.xlsx, Unit sheet.",
+      foot="Protect is not in the pilot month: sold only in the last 8 weeks and booked over its 2 years. Prices net of GST: LG install charter, Urban Company rate card. Model: keepwell_model.xlsx, Unit sheet.",
       notes="Kavyanth: left panel explains slide 5's ₹5,070; middle panel grows the same retailer; right panel ties back to October's ₹0.72 L and forward to ₹51 L."),
  dict(type="bm", kicker="Business model", headline="Families pay market prices per job. Keepwell keeps ₹26 of every ₹100.",
       split=[("Technician", 25), ("Parts", 33), ("Retailer", 7), ("Travel, payments", 9), ("Keepwell", 26)],
